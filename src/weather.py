@@ -22,6 +22,7 @@ CACHE = os.path.join(DATA, "weather.csv")
 FIELDS = "temperature_2m,precipitation,wind_speed_10m,wind_gusts_10m"
 ARCHIVE = "https://archive-api.open-meteo.com/v1/archive"
 FORECAST = "https://api.open-meteo.com/v1/forecast"
+WORKERS = 6  # stadium-seasons fetched at the same time (well under the free per-minute limit)
 COLS = ["game_id", "kind", "temp", "rain", "wind", "gust", "fetched_at"]
 
 
@@ -94,30 +95,42 @@ def update(games, venues, upcoming_ids=()):
     past = _attach_venues(games[games["completed"].astype(bool) & ~games["game_id"].isin(done)
                                 & ~games["start_tbd"].astype(bool)], venues)
     past = past[past["start"] < now - pd.Timedelta(hours=6)]
-    for (venue, season), grp in past.sort_values("start", ascending=False).groupby(["venue_id", "season"], sort=False):
-        minutes = (time.time() - started) / 60
-        if calls >= config.WEATHER_MAX_CALLS or minutes >= config.WEATHER_MAX_MINUTES or errors >= 10:
-            print(f"weather: stopping history after {calls} calls / {minutes:.0f} min; the rest fills on later runs")
-            break
+    groups = list(past.sort_values("start", ascending=False).groupby(["venue_id", "season"], sort=False))
+    stop = False
+
+    def fetch_group(item):
+        (venue, season), grp = item
         first, last = grp["start"].min(), grp["start"].max() + pd.Timedelta(hours=6)
         url = ARCHIVE if last < now - pd.Timedelta(days=6) else FORECAST
-        try:
-            hourly = _hourly(url, grp["lat"].iloc[0], grp["lon"].iloc[0],
+        return item, _hourly(url, grp["lat"].iloc[0], grp["lon"].iloc[0],
                              first.strftime("%Y-%m-%d"), last.strftime("%Y-%m-%d"))
-            calls += 1
-        except RateLimited as e:
-            print(f"weather: free allowance used up after {calls} calls ({e}); the rest fills on later runs")
-            break
-        except Exception as e:
-            errors += 1
-            print(f"  ! weather venue {venue} {season}: {e}")
-            continue
-        if calls % 50 == 0:
-            cache, new_rows = _save(cache, new_rows), []
-        for gm in grp.itertuples():
-            wx = _window(hourly, gm.start)
-            if wx:
-                new_rows.append({"game_id": gm.game_id, "kind": "actual", **wx, "fetched_at": now.isoformat()})
+
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=WORKERS) as pool:
+        for i in range(0, len(groups), WORKERS):
+            minutes = (time.time() - started) / 60
+            if stop or calls >= config.WEATHER_MAX_CALLS or minutes >= config.WEATHER_MAX_MINUTES or errors >= 10:
+                print(f"weather: stopping history after {calls} calls / {minutes:.0f} min; the rest fills on later runs")
+                break
+            futures = [pool.submit(fetch_group, item) for item in groups[i:i + WORKERS]]
+            for fut in futures:
+                try:
+                    ((venue, season), grp), hourly = fut.result()
+                    calls += 1
+                except RateLimited as e:
+                    print(f"weather: free allowance used up after {calls} calls ({e}); the rest fills on later runs")
+                    stop = True
+                    continue
+                except Exception as e:
+                    errors += 1
+                    print(f"  ! weather: {e}")
+                    continue
+                for gm in grp.itertuples():
+                    wx = _window(hourly, gm.start)
+                    if wx:
+                        new_rows.append({"game_id": gm.game_id, "kind": "actual", **wx, "fetched_at": now.isoformat()})
+            if calls and calls % 48 < WORKERS:
+                cache, new_rows = _save(cache, new_rows), []
 
     # 2) Forecasts for this week's games (refreshed every run).
     upcoming = _attach_venues(games[games["game_id"].isin(upcoming_ids)], venues)

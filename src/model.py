@@ -24,14 +24,18 @@ class Model:
 
     def fit(self, table):
         train = table[table["actual_margin"].notna() & table["rating_margin"].notna()]
-        self.margin = _gbm().fit(train[self.features], train["actual_margin"])
-        self.total = _gbm().fit(train[TOTAL_FEATURES], train["actual_total"])
+        # Leave out inputs with (almost) no data, e.g. a stat the API doesn't provide.
+        usable = lambda cols: [c for c in cols if c in train and train[c].notna().mean() >= 0.02 and train[c].nunique() > 1]
+        self.margin_cols, self.total_cols = usable(self.features), usable(TOTAL_FEATURES)
+        self.dropped = sorted(set(self.features + TOTAL_FEATURES) - set(self.margin_cols + self.total_cols))
+        self.margin = _gbm().fit(train[self.margin_cols], train["actual_margin"])
+        self.total = _gbm().fit(train[self.total_cols], train["actual_total"])
         self.n_train = len(train)
         return self
 
     def predict(self, rows):
-        ml_m = self.margin.predict(rows[self.features])
-        ml_t = self.total.predict(rows[TOTAL_FEATURES])
+        ml_m = self.margin.predict(rows[self.margin_cols])
+        ml_t = self.total.predict(rows[self.total_cols])
         margin = self.w * rows["rating_margin"].to_numpy() + (1 - self.w) * ml_m
         total = self.w * rows["rating_total"].to_numpy() + (1 - self.w) * ml_t
         return margin, total

@@ -20,6 +20,8 @@ HALF_LIFE_DAYS = 70          # recency weighting inside a season
 BLOWOUT_CAP = 38             # a winning margin never counts above this many points
 DEFAULT_HFA = 2.5            # home edge (points) until history estimates it
 PRIOR_FALLBACK_SHRINK = 0.6  # last season's rating x this, when no prior model
+EFF_ALPHA = 8.0              # efficiency (EPA per play) ratings: higher = trust last season longer
+EFF_PRIOR_SHRINK = 0.6       # efficiency ratings start at last season's x this
 
 # ---- Step 6: machine learning blend --------------------------------------
 BLEND_W = 0.5                # weight on the plain rating projection (1.0 = ratings only)
@@ -33,7 +35,7 @@ VALUE_MIN_PROB = 0.04        # value moneyline: model's win chance must beat the
 
 # ---- Weather ---------------------------------------------------------------
 WEATHER_WINDOW_HOURS = 3     # average kickoff hour through this many hours after
-WEATHER_MAX_CALLS = int(os.environ.get("WEATHER_MAX_CALLS", 300))  # per run, for the history backfill
+WEATHER_MAX_CALLS = int(os.environ.get("WEATHER_MAX_CALLS", 1500))  # per run, for the history backfill
 WEATHER_MAX_MINUTES = 12     # per run: the history backfill never holds up predictions longer than this
 
 # ---- Sportsbook preference for the market line ---------------------------

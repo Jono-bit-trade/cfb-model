@@ -85,7 +85,7 @@ def main(now=None):
     table = features.build(games, engine, seasons=seasons, live_cutoff=now)
     hist = table[table["completed"].astype(bool) & table["actual_margin"].notna()]
     model = Model().fit(hist)
-    print(f"model trained on {model.n_train} games")
+    print(f"model trained on {model.n_train} games" + (f"; inputs with no data left out: {', '.join(model.dropped)}" if model.dropped else ""))
 
     rows = table[table["game_id"].isin(upcoming["game_id"])].copy()
     season = config.THIS_SEASON

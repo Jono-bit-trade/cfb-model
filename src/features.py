@@ -12,12 +12,12 @@ import pandas as pd
 import qb
 import weather
 from common import load, load_file, miles
-from ratings import RatingEngine, project, team_keys
+from ratings import FCS, EfficiencyEngine, RatingEngine, project, team_keys
 
 CENTRAL = ZoneInfo("America/Chicago")
 
 FEATURE_GROUPS = {
-    "CORE": ["rating_margin", "rating_total", "epa_matchup", "neutral", "conf_game",
+    "CORE": ["rating_margin", "rating_total", "eff_margin", "eff_home_off", "eff_away_off", "epa_matchup", "neutral", "conf_game",
              "wind", "gust", "temp", "rain", "dome", "qb_out_home", "qb_out_away"],
     "STYLE": ["success_matchup", "explosive_matchup", "ppo_matchup", "havoc_matchup",
               "pace_sum", "to_margin_diff", "pen_diff"],
@@ -25,7 +25,7 @@ FEATURE_GROUPS = {
                 "new_coach_home", "new_coach_away"],
     "SITUATION": ["home_off_bye", "away_off_bye", "home_after_loss", "away_after_loss"],
 }
-TOTAL_FEATURES = ["rating_total", "epa_sum", "success_sum", "explosive_sum", "pace_sum",
+TOTAL_FEATURES = ["rating_total", "eff_sum", "epa_sum", "success_sum", "explosive_sum", "pace_sum",
                   "wind", "gust", "temp", "rain", "dome", "neutral", "qb_out_home", "qb_out_away"]
 
 ROLL_COLS = ["off_ppa", "def_ppa", "off_success", "def_success", "off_explosive", "def_explosive",
@@ -113,14 +113,20 @@ def build(games, engine=None, seasons=None, live_cutoff=None):
         live = ~target["completed"].astype(bool)
         target.loc[live, "cutoff"] = pd.Timestamp(live_cutoff)
 
+    eff_engine = EfficiencyEngine(games)
     proj = []
     for (season, cutoff), grp in target.groupby(["season", "cutoff"]):
         r, avg, hfa = engine.as_of(season, cutoff)
+        er, eavg = eff_engine.as_of(season, cutoff)
+        eget = lambda t, col: (er[col].get(t, er[col].get(FCS, np.nan)) if er is not None and len(er) else np.nan)
         for gm in grp.itertuples():
             hp, ap = project(r, avg, hfa, gm.home_key, gm.away_key, bool(gm.neutral))
+            h_off, a_off = eget(gm.home_key, "off") + eget(gm.away_key, "def"), eget(gm.away_key, "off") + eget(gm.home_key, "def")
             proj.append({"game_id": gm.game_id, "proj_home": hp, "proj_away": ap, "hfa": hfa,
                          "home_overall": r["overall"].get(gm.home_key, np.nan),
-                         "away_overall": r["overall"].get(gm.away_key, np.nan)})
+                         "away_overall": r["overall"].get(gm.away_key, np.nan),
+                         "eff_home_off": h_off, "eff_away_off": a_off,
+                         "eff_margin": h_off - a_off, "eff_sum": h_off + a_off})
     t = target.merge(pd.DataFrame(proj), on="game_id", how="left")
     t["rating_margin"] = t["proj_home"] - t["proj_away"]
     t["rating_total"] = t["proj_home"] + t["proj_away"]
