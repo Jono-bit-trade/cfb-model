@@ -1,0 +1,1658 @@
+game_id,season,team,opponent,off_ppa,def_ppa
+401310861,2021,Air Force,Lafayette,0.37,0.2
+401281944,2021,Akron,Auburn,0.11,0.79
+401281942,2021,Alabama,Miami,0.34,-0.1
+401300993,2021,App State,East Carolina,0.34,0.2
+401309841,2021,Arizona,BYU,0.1,0.25
+401309835,2021,Arizona State,Southern Utah,0.62,-0.22
+401281943,2021,Arkansas,Rice,0.24,-0.09
+401309598,2021,Arkansas State,Central Arkansas,0.21,-0.01
+401309601,2021,Army,Georgia State,0.39,-0.25
+401281944,2021,Auburn,Akron,0.79,0.11
+401309540,2021,Ball State,Western Illinois,0.22,0.11
+401287893,2021,Baylor,Texas State,0.27,0.03
+401300995,2021,Boise State,UCF,0.13,0.15
+401282609,2021,Boston College,Colgate,0.56,-0.28
+401281952,2021,Bowling Green,Tennessee,-0.1,0.17
+401309542,2021,Buffalo,Wagner,0.49,-0.1
+401309841,2021,BYU,Arizona,0.25,0.1
+401309837,2021,California,Nevada,0.1,0.19
+401281950,2021,Central Michigan,Missouri,0.2,0.12
+401282052,2021,Charlotte,Duke,0.34,0.42
+401300996,2021,Cincinnati,Miami (OH),0.51,-0.17
+401281946,2021,Clemson,Georgia,-0.33,-0.09
+401328545,2021,Coastal Carolina,The Citadel,0.8,0.09
+401309836,2021,Colorado,Northern Colorado,0.38,-0.09
+401310695,2021,Colorado State,South Dakota State,0.16,0.39
+401282052,2021,Duke,Charlotte,0.42,0.34
+401300993,2021,East Carolina,App State,0.2,0.34
+401309541,2021,Eastern Michigan,Saint Francis,0.2,0.04
+401281945,2021,Florida,Florida Atlantic,0.28,0.06
+401281945,2021,Florida Atlantic,Florida,0.06,0.28
+401282051,2021,Florida International,Long Island University,1.37,0.45
+401282614,2021,Florida State,Notre Dame,0.17,0.2
+401286187,2021,Fresno State,UConn,0.29,-0.46
+401309838,2021,Fresno State,Oregon,0.03,0.11
+401281946,2021,Georgia,Clemson,-0.09,-0.33
+401309600,2021,Georgia Southern,Gardner-Webb,0.22,0.15
+401309601,2021,Georgia State,Army,-0.25,0.39
+401282610,2021,Georgia Tech,Northern Illinois,0.01,0.09
+401309833,2021,Hawai'i,UCLA,-0.26,0.2
+401310698,2021,Hawai'i,Portland State,0.35,0.08
+401287886,2021,Houston,Texas Tech,-0.11,0.21
+401282714,2021,Illinois,Nebraska,0.01,0.26
+401282179,2021,Illinois,UTSA,0.28,0.32
+401282723,2021,Indiana,Iowa,-0.36,-0.06
+401282723,2021,Iowa,Indiana,-0.06,-0.36
+401287887,2021,Iowa State,Northern Iowa,0.13,0.12
+401287888,2021,Kansas,South Dakota,-0.04,-0.11
+401287889,2021,Kansas State,Stanford,0.26,-0.03
+401282053,2021,Kent State,Texas A&M,-0.14,0.17
+401281947,2021,Kentucky,UL Monroe,0.25,-0.27
+401286294,2021,Liberty,Campbell,0.58,0.05
+401287892,2021,Louisiana,Texas,0.14,0.4
+401281949,2021,Louisiana Tech,Mississippi State,0.15,0.34
+401282055,2021,Louisville,Ole Miss,0.28,0.76
+401281948,2021,LSU,UCLA,0.13,0.33
+401282174,2021,Marshall,Navy,0.26,-0.07
+401282764,2021,Maryland,West Virginia,0.18,0.01
+401282612,2021,Massachusetts,Pittsburgh,-0.14,0.44
+401300997,2021,Memphis,Nicholls,0.32,0.12
+401281942,2021,Miami,Alabama,-0.1,0.34
+401300996,2021,Miami (OH),Cincinnati,-0.17,0.51
+401282772,2021,Michigan,Western Michigan,0.65,0.11
+401282782,2021,Michigan State,Northwestern,0.38,0.14
+401282173,2021,Middle Tennessee,Monmouth,0.21,-0.12
+401282789,2021,Minnesota,Ohio State,0.02,0.48
+401281949,2021,Mississippi State,Louisiana Tech,0.34,0.15
+401281950,2021,Missouri,Central Michigan,0.12,0.2
+401282174,2021,Navy,Marshall,-0.07,0.26
+401282607,2021,NC State,South Florida,0.42,-0.07
+401327913,2021,Nebraska,Fordham,0.36,0.02
+401282714,2021,Nebraska,Illinois,0.26,0.01
+401309837,2021,Nevada,California,0.19,0.1
+401310696,2021,New Mexico,Houston Christian,0.06,-0.02
+401310699,2021,New Mexico State,San Diego State,-0.05,-0.02
+401282049,2021,New Mexico State,UTEP,-0.29,0.25
+401309937,2021,North Carolina,Virginia Tech,-0.08,0.03
+401282610,2021,Northern Illinois,Georgia Tech,0.09,0.01
+401282175,2021,North Texas,Northwestern State,0.34,0.07
+401282782,2021,Northwestern,Michigan State,0.14,0.38
+401282614,2021,Notre Dame,Florida State,0.2,0.17
+401282611,2021,Ohio,Syracuse,0.11,0.37
+401282789,2021,Ohio State,Minnesota,0.48,0.02
+401287894,2021,Oklahoma,Tulane,-0.14,-0.04
+401287890,2021,Oklahoma State,Missouri State,0.1,-0.04
+401282608,2021,Old Dominion,Wake Forest,-0.17,0.07
+401282055,2021,Ole Miss,Louisville,0.76,0.28
+401309838,2021,Oregon,Fresno State,0.11,0.03
+401282819,2021,Oregon State,Purdue,-0.04,0.2
+401282815,2021,Penn State,Wisconsin,0.1,-0.05
+401282612,2021,Pittsburgh,Massachusetts,0.44,-0.14
+401282819,2021,Purdue,Oregon State,0.2,-0.04
+401281943,2021,Rice,Arkansas,-0.09,0.24
+401282822,2021,Rutgers,Temple,0.29,-0.24
+401310699,2021,San Diego State,New Mexico State,-0.02,-0.05
+401309842,2021,San José State,USC,0.08,0.24
+401310693,2021,San José State,Southern Utah,0.51,-0.05
+401300998,2021,SMU,Abilene Christian,0.77,-0.13
+401282177,2021,South Alabama,Southern Miss,0.38,0.22
+401281951,2021,South Carolina,Eastern Illinois,0.35,-0.5
+401282177,2021,Southern Miss,South Alabama,0.22,0.38
+401282607,2021,South Florida,NC State,-0.07,0.42
+401287889,2021,Stanford,Kansas State,-0.03,0.26
+401282611,2021,Syracuse,Ohio,0.37,0.11
+401287891,2021,TCU,Duquesne,0.36,-0.17
+401282822,2021,Temple,Rutgers,-0.24,0.29
+401281952,2021,Tennessee,Bowling Green,0.17,-0.1
+401287892,2021,Texas,Louisiana,0.4,0.14
+401282053,2021,Texas A&M,Kent State,0.17,-0.14
+401287893,2021,Texas State,Baylor,0.03,0.27
+401287886,2021,Texas Tech,Houston,0.21,-0.11
+401309543,2021,Toledo,Norfolk State,1.13,-0.79
+401309602,2021,Troy,Southern,0.37,-0.43
+401287894,2021,Tulane,Oklahoma,-0.04,-0.14
+401300994,2021,Tulsa,UC Davis,0.11,0.07
+401282050,2021,UAB,Jacksonville State,0.34,-0.26
+401300995,2021,UCF,Boise State,0.15,0.13
+401309833,2021,UCLA,Hawai'i,0.2,-0.26
+401281948,2021,UCLA,LSU,0.33,0.13
+401286187,2021,UConn,Fresno State,-0.46,0.29
+401286188,2021,UConn,Holy Cross,-0.1,0.3
+401281947,2021,UL Monroe,Kentucky,-0.27,0.25
+401310694,2021,UNLV,Eastern Washington,0.11,0.29
+401309842,2021,USC,San José State,0.24,0.08
+401309834,2021,Utah,Weber State,0.28,0.05
+401309840,2021,Utah State,Washington State,0.22,0.22
+401282178,2021,UTEP,Bethune-Cookman,0.64,0.46
+401282049,2021,UTEP,New Mexico State,0.25,-0.29
+401282179,2021,UTSA,Illinois,0.32,0.28
+401282054,2021,Vanderbilt,East Tennessee State,-0.19,0.06
+401282613,2021,Virginia,William & Mary,0.43,0.0
+401309937,2021,Virginia Tech,North Carolina,0.03,-0.08
+401282608,2021,Wake Forest,Old Dominion,0.07,-0.17
+401309839,2021,Washington,Montana,-0.17,0.03
+401309840,2021,Washington State,Utah State,0.22,0.22
+401282180,2021,Western Kentucky,UT Martin,0.57,0.07
+401282772,2021,Western Michigan,Michigan,0.11,0.65
+401282764,2021,West Virginia,Maryland,0.01,0.18
+401282815,2021,Wisconsin,Penn State,-0.05,0.1
+401310697,2021,Wyoming,Montana State,0.16,-0.2
+401301004,2021,Air Force,Navy,-0.05,-0.27
+401300999,2021,Akron,Temple,0.06,0.39
+401282056,2021,Alabama,Mercer,0.38,-0.16
+401282620,2021,App State,Miami,0.05,0.03
+401309846,2021,Arizona,San Diego State,-0.26,0.2
+401309847,2021,Arizona State,UNLV,0.21,0.01
+401282057,2021,Arkansas,Texas,0.29,0.04
+401301003,2021,Arkansas State,Memphis,0.4,0.62
+401282193,2021,Army,Western Kentucky,0.21,0.32
+401282058,2021,Auburn,Alabama State,0.55,-0.52
+401282816,2021,Ball State,Penn State,-0.13,0.34
+401287895,2021,Baylor,Texas Southern,0.8,0.12
+401282191,2021,Boise State,UTEP,0.33,-0.2
+401282623,2021,Boston College,Massachusetts,0.3,0.06
+401309546,2021,Bowling Green,South Alabama,-0.27,0.08
+401282797,2021,Buffalo,Nebraska,-0.05,0.47
+401309848,2021,BYU,Utah,0.2,-0.13
+401287900,2021,California,TCU,0.3,0.27
+401309548,2021,Central Michigan,Robert Morris,0.27,-0.22
+401282181,2021,Charlotte,Gardner-Webb,0.1,-0.21
+401301002,2021,Cincinnati,Murray State,0.38,-0.07
+401282615,2021,Clemson,South Carolina State,0.24,-0.27
+401287896,2021,Coastal Carolina,Kansas,0.42,-0.05
+401282067,2021,Colorado,Texas A&M,-0.22,-0.06
+401282068,2021,Colorado State,Vanderbilt,0.18,0.14
+401282616,2021,Duke,North Carolina A&T,0.53,0.1
+401282065,2021,East Carolina,South Carolina,-0.23,-0.06
+401282825,2021,Eastern Michigan,Wisconsin,-0.36,0.19
+401282059,2021,Florida,South Florida,0.26,-0.14
+401282183,2021,Florida Atlantic,Georgia Southern,0.27,-0.13
+401282182,2021,Florida International,Texas State,0.07,0.16
+401282617,2021,Florida State,Jacksonville State,0.12,0.15
+401310702,2021,Fresno State,Cal Poly,0.62,-0.21
+401282060,2021,Georgia,UAB,0.32,-0.41
+401282183,2021,Georgia Southern,Florida Atlantic,-0.13,0.27
+401282621,2021,Georgia State,North Carolina,-0.12,0.51
+401282618,2021,Georgia Tech,Kennesaw State,0.37,-0.24
+401309844,2021,Hawai'i,Oregon State,0.17,0.55
+401282189,2021,Houston,Rice,0.31,-0.23
+401282624,2021,Illinois,Virginia,0.04,0.4
+401282724,2021,Indiana,Idaho,0.32,-0.12
+401282754,2021,Iowa,Iowa State,-0.17,-0.03
+401282754,2021,Iowa State,Iowa,-0.03,-0.17
+401287896,2021,Kansas,Coastal Carolina,-0.05,0.42
+401287897,2021,Kansas State,Southern Illinois,0.16,0.1
+401309545,2021,Kent State,VMI,0.62,-0.12
+401282061,2021,Kentucky,Missouri,0.33,0.2
+401286295,2021,Liberty,Troy,0.21,0.19
+401309603,2021,Louisiana,Nicholls,0.16,0.33
+401282184,2021,Louisiana Tech,SE Louisiana,0.14,0.23
+401282619,2021,Louisville,Eastern Kentucky,0.2,-0.14
+401282062,2021,LSU,McNeese,-0.01,-0.19
+401282185,2021,Marshall,North Carolina Central,0.25,-0.32
+401286207,2021,Maryland,Howard,0.46,-0.24
+401282623,2021,Massachusetts,Boston College,0.06,0.3
+401301003,2021,Memphis,Arkansas State,0.62,0.4
+401282620,2021,Miami,App State,0.03,0.05
+401282790,2021,Miami (OH),Minnesota,0.06,0.19
+401282773,2021,Michigan,Washington,0.21,0.0
+401282783,2021,Michigan State,Youngstown State,0.56,0.05
+401282186,2021,Middle Tennessee,Virginia Tech,0.05,0.36
+401282790,2021,Minnesota,Miami (OH),0.19,0.06
+401282064,2021,Mississippi State,NC State,0.22,-0.01
+401282061,2021,Missouri,Kentucky,0.2,0.33
+401301004,2021,Navy,Air Force,-0.27,-0.05
+401282064,2021,NC State,Mississippi State,-0.01,0.22
+401282797,2021,Nebraska,Buffalo,0.47,-0.05
+401310703,2021,Nevada,Idaho State,0.55,0.07
+401310700,2021,New Mexico,New Mexico State,0.18,-0.08
+401310700,2021,New Mexico State,New Mexico,-0.08,0.18
+401282621,2021,North Carolina,Georgia State,0.51,-0.12
+401309547,2021,Northern Illinois,Wyoming,0.27,0.46
+401282187,2021,North Texas,SMU,0.01,0.35
+401282804,2021,Northwestern,Indiana State,0.17,-0.05
+401282705,2021,Notre Dame,Toledo,0.1,0.02
+401309753,2021,Ohio,Duquesne,0.11,0.19
+401282809,2021,Ohio State,Oregon,0.23,0.38
+401287898,2021,Oklahoma,Western Carolina,0.56,-0.47
+401287899,2021,Oklahoma State,Tulsa,0.03,0.19
+401282188,2021,Old Dominion,Hampton,0.39,0.01
+401282063,2021,Ole Miss,Austin Peay,0.43,-0.21
+401282809,2021,Oregon,Ohio State,0.38,0.23
+401309844,2021,Oregon State,Hawai'i,0.55,0.17
+401282816,2021,Penn State,Ball State,0.34,-0.13
+401282066,2021,Pittsburgh,Tennessee,0.22,0.07
+401282820,2021,Purdue,UConn,0.48,-0.17
+401282189,2021,Rice,Houston,-0.23,0.31
+401282622,2021,Rutgers,Syracuse,-0.03,0.0
+401309846,2021,San Diego State,Arizona,0.2,-0.26
+401282187,2021,SMU,North Texas,0.35,0.01
+401309546,2021,South Alabama,Bowling Green,0.08,-0.27
+401282065,2021,South Carolina,East Carolina,-0.06,-0.23
+401282190,2021,Southern Miss,Grambling,0.2,-0.18
+401282059,2021,South Florida,Florida,-0.14,0.26
+401309843,2021,Stanford,USC,0.32,0.18
+401282622,2021,Syracuse,Rutgers,0.0,-0.03
+401287900,2021,TCU,California,0.27,0.3
+401300999,2021,Temple,Akron,0.39,0.06
+401282066,2021,Tennessee,Pittsburgh,0.07,0.22
+401282057,2021,Texas,Arkansas,0.04,0.29
+401282067,2021,Texas A&M,Colorado,-0.06,-0.22
+401282182,2021,Texas State,Florida International,0.16,0.07
+401287901,2021,Texas Tech,Stephen F. Austin,0.54,-0.04
+401282705,2021,Toledo,Notre Dame,0.02,0.1
+401286295,2021,Troy,Liberty,0.19,0.21
+401301000,2021,Tulane,Morgan State,0.56,-0.5
+401287899,2021,Tulsa,Oklahoma State,0.19,0.03
+401282060,2021,UAB,Georgia,-0.41,0.32
+401301001,2021,UCF,Bethune-Cookman,0.55,0.08
+401282820,2021,UConn,Purdue,-0.17,0.48
+401309847,2021,UNLV,Arizona State,0.01,0.21
+401309843,2021,USC,Stanford,0.18,0.32
+401309848,2021,Utah,BYU,-0.13,0.2
+401310701,2021,Utah State,North Dakota,0.38,0.12
+401282191,2021,UTEP,Boise State,-0.2,0.33
+401282192,2021,UTSA,Lamar,0.5,-0.12
+401282068,2021,Vanderbilt,Colorado State,0.14,0.18
+401282624,2021,Virginia,Illinois,0.4,0.04
+401282186,2021,Virginia Tech,Middle Tennessee,0.36,0.05
+401282625,2021,Wake Forest,Norfolk State,0.33,0.11
+401282773,2021,Washington,Michigan,0.0,0.21
+401309845,2021,Washington State,Portland State,0.38,0.04
+401282193,2021,Western Kentucky,Army,0.32,0.21
+401309544,2021,Western Michigan,Illinois State,0.24,-0.34
+401287902,2021,West Virginia,Long Island University,0.33,-0.27
+401282825,2021,Wisconsin,Eastern Michigan,0.19,-0.36
+401309547,2021,Wyoming,Northern Illinois,0.46,0.27
+401310704,2021,Air Force,Utah State,0.41,0.38
+401309550,2021,Akron,Bryant,0.36,0.02
+401282071,2021,Alabama,Florida,0.2,0.2
+401309604,2021,App State,Elon,0.42,-0.1
+401309853,2021,Arizona,Northern Arizona,-0.11,-0.18
+401309854,2021,Arizona State,BYU,0.24,0.19
+401282069,2021,Arkansas,Georgia Southern,0.53,-0.08
+401309605,2021,Arkansas State,Washington,-0.14,0.36
+401286189,2021,Army,UConn,0.45,-0.12
+401282070,2021,Auburn,Penn State,0.12,0.15
+401309549,2021,Ball State,Wyoming,-0.18,0.29
+401287904,2021,Baylor,Kansas,0.61,-0.04
+401287903,2021,Boise State,Oklahoma State,0.13,0.21
+401282634,2021,Boston College,Temple,0.26,-0.13
+401309551,2021,Bowling Green,Murray State,0.12,-0.17
+401309552,2021,Buffalo,Coastal Carolina,0.3,0.29
+401309854,2021,BYU,Arizona State,0.19,0.24
+401309849,2021,California,Sacramento State,0.36,0.26
+401282074,2021,Central Michigan,LSU,-0.21,0.36
+401282196,2021,Charlotte,Georgia State,-0.09,0.34
+401282725,2021,Cincinnati,Indiana,0.04,-0.14
+401282627,2021,Clemson,Georgia Tech,-0.02,0.0
+401309552,2021,Coastal Carolina,Buffalo,0.29,0.3
+401282791,2021,Colorado,Minnesota,-0.39,0.33
+401309553,2021,Colorado State,Toledo,0.0,-0.1
+401282628,2021,Duke,Northwestern,0.17,0.03
+401282200,2021,East Carolina,Marshall,0.35,0.46
+401286300,2021,Eastern Michigan,Massachusetts,0.34,0.17
+401282071,2021,Florida,Alabama,0.2,0.2
+401282198,2021,Florida Atlantic,Fordham,0.29,-0.18
+401282197,2021,Florida International,Texas Tech,-0.07,0.54
+401282635,2021,Florida State,Wake Forest,0.05,0.17
+401309855,2021,Fresno State,UCLA,0.25,0.25
+401282072,2021,Georgia,South Carolina,0.23,-0.12
+401282069,2021,Georgia Southern,Arkansas,-0.08,0.53
+401282196,2021,Georgia State,Charlotte,0.34,-0.09
+401282627,2021,Georgia Tech,Clemson,0.0,-0.02
+401310705,2021,Hawai'i,San José State,-0.04,-0.12
+401301005,2021,Houston,Grambling,0.25,-0.33
+401282715,2021,Illinois,Maryland,0.08,0.32
+401282725,2021,Indiana,Cincinnati,-0.14,0.04
+401282755,2021,Iowa,Kent State,0.16,-0.01
+401287906,2021,Iowa State,UNLV,0.43,-0.21
+401287904,2021,Kansas,Baylor,-0.04,0.61
+401287905,2021,Kansas State,Nevada,0.39,0.11
+401282755,2021,Kent State,Iowa,-0.01,0.16
+401282073,2021,Kentucky,Chattanooga,0.05,0.21
+401282201,2021,Liberty,Old Dominion,0.39,-0.08
+401309606,2021,Louisiana,Ohio,0.38,0.0
+401282199,2021,Louisiana Tech,SMU,0.24,0.28
+401282626,2021,Louisville,UCF,0.15,0.15
+401282074,2021,LSU,Central Michigan,0.36,-0.21
+401282200,2021,Marshall,East Carolina,0.46,0.35
+401282715,2021,Maryland,Illinois,0.32,0.08
+401286300,2021,Massachusetts,Eastern Michigan,0.17,0.34
+401282076,2021,Memphis,Mississippi State,-0.06,0.06
+401282629,2021,Miami,Michigan State,0.11,0.31
+401308843,2021,Miami (OH),Long Island University,0.56,-0.09
+401282774,2021,Michigan,Northern Illinois,0.57,-0.15
+401282629,2021,Michigan State,Miami,0.31,0.11
+401282194,2021,Middle Tennessee,UTSA,-0.41,0.07
+401282791,2021,Minnesota,Colorado,0.33,-0.39
+401282076,2021,Mississippi State,Memphis,0.06,-0.06
+401282077,2021,Missouri,Southeast Missouri State,0.74,0.37
+401282630,2021,NC State,Furman,0.44,-0.1
+401282798,2021,Nebraska,Oklahoma,0.16,0.38
+401287905,2021,Nevada,Kansas State,0.11,0.39
+401282079,2021,New Mexico,Texas A&M,-0.26,0.18
+401319455,2021,New Mexico State,South Carolina State,0.37,0.18
+401282631,2021,North Carolina,Virginia,0.59,0.43
+401282774,2021,Northern Illinois,Michigan,-0.15,0.57
+401282195,2021,North Texas,UAB,-0.29,0.38
+401282628,2021,Northwestern,Duke,0.03,0.17
+401282706,2021,Notre Dame,Purdue,0.13,-0.04
+401309606,2021,Ohio,Louisiana,0.0,0.38
+401282810,2021,Ohio State,Tulsa,0.37,0.1
+401282798,2021,Oklahoma,Nebraska,0.38,0.16
+401287903,2021,Oklahoma State,Boise State,0.21,0.13
+401282201,2021,Old Dominion,Liberty,-0.08,0.39
+401282075,2021,Ole Miss,Tulane,0.49,0.1
+401309850,2021,Oregon,Stony Brook,0.29,-0.15
+401309851,2021,Oregon State,Idaho,0.43,-0.47
+401282070,2021,Penn State,Auburn,0.15,0.12
+401282632,2021,Pittsburgh,Western Michigan,0.24,0.28
+401282706,2021,Purdue,Notre Dame,-0.04,0.13
+401282202,2021,Rice,Texas,-0.08,0.62
+401282823,2021,Rutgers,Delaware,0.47,-0.01
+401309856,2021,San Diego State,Utah,-0.05,-0.12
+401310705,2021,San José State,Hawai'i,-0.12,-0.04
+401282199,2021,SMU,Louisiana Tech,0.28,0.24
+401309608,2021,South Alabama,Alcorn State,0.23,-0.03
+401282072,2021,South Carolina,Georgia,-0.12,0.23
+401282203,2021,Southern Miss,Troy,-0.29,-0.06
+401301006,2021,South Florida,Florida A&M,0.21,-0.02
+401282080,2021,Stanford,Vanderbilt,0.38,0.12
+401282633,2021,Syracuse,UAlbany,0.62,-0.02
+401282634,2021,Temple,Boston College,-0.13,0.26
+401282078,2021,Tennessee,Tennessee Tech,0.24,-0.52
+401282202,2021,Texas,Rice,0.62,-0.08
+401282079,2021,Texas A&M,New Mexico,0.18,-0.26
+401309609,2021,Texas State,Incarnate Word,0.33,0.4
+401282197,2021,Texas Tech,Florida International,0.54,-0.07
+401309553,2021,Toledo,Colorado State,-0.1,0.0
+401282203,2021,Troy,Southern Miss,-0.06,-0.29
+401282075,2021,Tulane,Ole Miss,0.1,0.49
+401282810,2021,Tulsa,Ohio State,0.1,0.37
+401282195,2021,UAB,North Texas,0.38,-0.29
+401282626,2021,UCF,Louisville,0.15,0.15
+401309855,2021,UCLA,Fresno State,0.25,0.25
+401286189,2021,UConn,Army,-0.12,0.45
+401309607,2021,UL Monroe,Jackson State,-0.14,-0.05
+401287906,2021,UNLV,Iowa State,-0.21,0.43
+401309852,2021,USC,Washington State,0.13,-0.09
+401309856,2021,Utah,San Diego State,-0.12,-0.05
+401310704,2021,Utah State,Air Force,0.38,0.41
+401282194,2021,UTSA,Middle Tennessee,0.07,-0.41
+401282080,2021,Vanderbilt,Stanford,0.12,0.38
+401282631,2021,Virginia,North Carolina,0.43,0.59
+401282636,2021,Virginia Tech,West Virginia,0.09,0.23
+401282635,2021,Wake Forest,Florida State,0.17,0.05
+401309605,2021,Washington,Arkansas State,0.36,-0.14
+401309852,2021,Washington State,USC,-0.09,0.13
+401282632,2021,Western Michigan,Pittsburgh,0.28,0.24
+401282636,2021,West Virginia,Virginia Tech,0.23,0.09
+401309549,2021,Wyoming,Ball State,0.29,-0.18
+401282207,2021,Air Force,Florida Atlantic,0.28,-0.15
+401282811,2021,Akron,Ohio State,-0.28,0.58
+401282081,2021,Alabama,Southern Miss,0.67,0.0
+401282208,2021,App State,Marshall,0.18,0.22
+401309859,2021,Arizona,Oregon,-0.1,0.27
+401309862,2021,Arizona State,Colorado,0.42,0.11
+401282082,2021,Arkansas,Texas A&M,0.07,-0.15
+401301011,2021,Arkansas State,Tulsa,0.18,0.5
+401308834,2021,Army,Miami (OH),0.23,0.0
+401282083,2021,Auburn,Georgia State,0.1,0.0
+401309555,2021,Ball State,Toledo,0.0,0.15
+401287907,2021,Baylor,Iowa State,0.21,0.3
+401310706,2021,Boise State,Utah State,0.15,-0.01
+401282086,2021,Boston College,Missouri,0.26,0.25
+401282792,2021,Bowling Green,Minnesota,-0.12,-0.08
+401282209,2021,Buffalo,Old Dominion,0.04,-0.08
+401301009,2021,BYU,South Florida,0.61,0.24
+401309857,2021,California,Washington,0.19,0.09
+401282206,2021,Central Michigan,Florida International,0.2,0.19
+401282204,2021,Charlotte,Middle Tennessee,0.47,0.43
+401282643,2021,Clemson,NC State,-0.06,0.07
+401286301,2021,Coastal Carolina,Massachusetts,0.57,-0.05
+401309862,2021,Colorado,Arizona State,0.11,0.42
+401282756,2021,Colorado State,Iowa,-0.24,-0.16
+401282639,2021,Duke,Kansas,0.41,0.2
+401301007,2021,East Carolina,Charleston Southern,-0.03,0.18
+401309557,2021,Eastern Michigan,Texas State,0.46,0.23
+401282084,2021,Florida,Tennessee,0.4,0.24
+401282207,2021,Florida Atlantic,Air Force,-0.15,0.28
+401282206,2021,Florida International,Central Michigan,0.19,0.2
+401282640,2021,Florida State,Louisville,0.05,0.11
+401310707,2021,Fresno State,UNLV,0.29,0.24
+401282088,2021,Georgia,Vanderbilt,0.34,-0.42
+401309610,2021,Georgia Southern,Louisiana,0.11,0.14
+401282083,2021,Georgia State,Auburn,0.0,0.1
+401282641,2021,Georgia Tech,North Carolina,0.31,-0.04
+401310708,2021,Hawai'i,New Mexico State,0.29,0.09
+401301008,2021,Houston,Navy,0.28,0.03
+401282716,2021,Illinois,Purdue,-0.04,0.03
+401282214,2021,Indiana,Western Kentucky,0.23,0.39
+401282756,2021,Iowa,Colorado State,-0.16,-0.24
+401287907,2021,Iowa State,Baylor,0.3,0.21
+401282639,2021,Kansas,Duke,0.2,0.41
+401287909,2021,Kansas State,Oklahoma State,-0.03,0.44
+401282765,2021,Kent State,Maryland,0.01,0.29
+401282087,2021,Kentucky,South Carolina,-0.03,-0.26
+401282637,2021,Liberty,Syracuse,0.2,0.15
+401309610,2021,Louisiana,Georgia Southern,0.14,0.11
+401282205,2021,Louisiana Tech,North Texas,0.04,-0.16
+401282640,2021,Louisville,Florida State,0.11,0.05
+401282085,2021,LSU,Mississippi State,0.19,0.18
+401282208,2021,Marshall,App State,0.22,0.18
+401282765,2021,Maryland,Kent State,0.29,0.01
+401286301,2021,Massachusetts,Coastal Carolina,-0.05,0.57
+401282213,2021,Memphis,UTSA,0.29,0.19
+401282642,2021,Miami,Central Connecticut,0.74,-0.16
+401308834,2021,Miami (OH),Army,0.0,0.23
+401282775,2021,Michigan,Rutgers,0.11,-0.03
+401282784,2021,Michigan State,Nebraska,0.05,0.22
+401282204,2021,Middle Tennessee,Charlotte,0.43,0.47
+401282792,2021,Minnesota,Bowling Green,-0.08,-0.12
+401282085,2021,Mississippi State,LSU,0.18,0.19
+401282086,2021,Missouri,Boston College,0.25,0.26
+401301008,2021,Navy,Houston,0.03,0.28
+401282643,2021,NC State,Clemson,0.07,-0.06
+401282784,2021,Nebraska,Michigan State,0.22,0.05
+401282212,2021,New Mexico,UTEP,-0.09,0.16
+401310708,2021,New Mexico State,Hawai'i,0.09,0.29
+401282641,2021,North Carolina,Georgia Tech,-0.04,0.31
+401309556,2021,Northern Illinois,Maine,0.43,0.09
+401282205,2021,North Texas,Louisiana Tech,-0.16,0.04
+401282805,2021,Northwestern,Ohio,0.23,-0.06
+401282707,2021,Notre Dame,Wisconsin,-0.03,-0.5
+401282805,2021,Ohio,Northwestern,-0.06,0.23
+401282811,2021,Ohio State,Akron,0.58,-0.28
+401287908,2021,Oklahoma,West Virginia,0.02,0.0
+401287909,2021,Oklahoma State,Kansas State,0.44,-0.03
+401282209,2021,Old Dominion,Buffalo,-0.08,0.04
+401309859,2021,Oregon,Arizona,0.27,-0.1
+401309860,2021,Oregon State,USC,0.46,0.09
+401282817,2021,Penn State,Villanova,0.26,0.05
+401282644,2021,Pittsburgh,New Hampshire,0.65,-0.4
+401282716,2021,Purdue,Illinois,0.03,-0.04
+401282210,2021,Rice,Texas Southern,0.55,0.23
+401282775,2021,Rutgers,Michigan,-0.03,0.11
+401310709,2021,San Diego State,Towson,0.28,-0.17
+401309554,2021,San José State,Western Michigan,-0.33,0.09
+401287910,2021,SMU,TCU,0.29,0.51
+401282087,2021,South Carolina,Kentucky,-0.26,-0.03
+401282081,2021,Southern Miss,Alabama,0.0,0.67
+401301009,2021,South Florida,BYU,0.24,0.61
+401309858,2021,Stanford,UCLA,0.44,0.42
+401282637,2021,Syracuse,Liberty,0.15,0.2
+401287910,2021,TCU,SMU,0.51,0.29
+401301010,2021,Temple,Wagner,0.38,-0.22
+401282084,2021,Tennessee,Florida,0.24,0.4
+401287911,2021,Texas,Texas Tech,0.58,0.2
+401282082,2021,Texas A&M,Arkansas,-0.15,0.07
+401309557,2021,Texas State,Eastern Michigan,0.23,0.46
+401287911,2021,Texas Tech,Texas,0.2,0.58
+401309555,2021,Toledo,Ball State,0.15,0.0
+401309611,2021,Troy,UL Monroe,-0.06,0.03
+401282211,2021,Tulane,UAB,-0.12,0.18
+401301011,2021,Tulsa,Arkansas State,0.5,0.18
+401282211,2021,UAB,Tulane,0.18,-0.12
+401309858,2021,UCLA,Stanford,0.42,0.44
+401286190,2021,UConn,Wyoming,-0.04,0.14
+401309611,2021,UL Monroe,Troy,0.03,-0.06
+401310707,2021,UNLV,Fresno State,0.24,0.29
+401309860,2021,USC,Oregon State,0.09,0.46
+401309861,2021,Utah,Washington State,0.23,-0.21
+401310706,2021,Utah State,Boise State,-0.01,0.15
+401282212,2021,UTEP,New Mexico,0.16,-0.09
+401282213,2021,UTSA,Memphis,0.19,0.29
+401282088,2021,Vanderbilt,Georgia,-0.42,0.34
+401282638,2021,Virginia,Wake Forest,0.1,0.3
+401282645,2021,Virginia Tech,Richmond,0.04,0.07
+401282638,2021,Wake Forest,Virginia,0.3,0.1
+401309857,2021,Washington,California,0.09,0.19
+401309861,2021,Washington State,Utah,-0.21,0.23
+401282214,2021,Western Kentucky,Indiana,0.39,0.23
+401309554,2021,Western Michigan,San José State,0.09,-0.33
+401287908,2021,West Virginia,Oklahoma,0.0,0.02
+401282707,2021,Wisconsin,Notre Dame,-0.5,-0.03
+401286190,2021,Wyoming,UConn,0.14,-0.04
+401310710,2021,Air Force,New Mexico,0.41,0.11
+401309560,2021,Akron,Ohio,0.03,0.23
+401282089,2021,Alabama,Ole Miss,0.24,0.05
+401309612,2021,App State,Georgia State,0.29,-0.1
+401309866,2021,Arizona State,UCLA,0.54,0.04
+401282090,2021,Arkansas,Georgia,-0.01,0.19
+401309613,2021,Arkansas State,Georgia Southern,-0.07,0.56
+401309559,2021,Army,Ball State,-0.03,0.02
+401282092,2021,Auburn,LSU,0.19,-0.05
+401309559,2021,Ball State,Army,0.02,-0.03
+401287914,2021,Baylor,Oklahoma State,-0.12,0.03
+401310711,2021,Boise State,Nevada,0.14,0.24
+401282647,2021,Boston College,Clemson,-0.08,0.1
+401309562,2021,Bowling Green,Kent State,-0.05,0.21
+401309561,2021,Buffalo,Western Michigan,0.22,0.21
+401309912,2021,BYU,Utah State,0.39,0.03
+401309863,2021,California,Washington State,-0.13,-0.03
+401308835,2021,Central Michigan,Miami (OH),0.09,0.28
+401282219,2021,Charlotte,Illinois,0.2,0.3
+401282708,2021,Cincinnati,Notre Dame,0.3,-0.1
+401282647,2021,Clemson,Boston College,0.1,-0.08
+401309614,2021,Coastal Carolina,UL Monroe,0.69,-0.08
+401309867,2021,Colorado,USC,-0.13,0.45
+401282650,2021,Duke,North Carolina,-0.25,0.25
+401301014,2021,East Carolina,Tulane,0.44,0.14
+401309558,2021,Eastern Michigan,Northern Illinois,0.12,0.01
+401282091,2021,Florida,Kentucky,-0.07,-0.07
+401282215,2021,Florida Atlantic,Florida International,0.6,0.14
+401282215,2021,Florida International,Florida Atlantic,0.14,0.6
+401282648,2021,Florida State,Syracuse,0.2,0.11
+401310712,2021,Fresno State,Hawai'i,-0.06,0.04
+401282090,2021,Georgia,Arkansas,0.19,-0.01
+401309613,2021,Georgia Southern,Arkansas State,0.56,-0.07
+401309612,2021,Georgia State,App State,-0.1,0.29
+401282649,2021,Georgia Tech,Pittsburgh,-0.15,0.44
+401310712,2021,Hawai'i,Fresno State,0.04,-0.06
+401301012,2021,Houston,Tulsa,0.23,-0.3
+401282219,2021,Illinois,Charlotte,0.3,0.2
+401282729,2021,Indiana,Penn State,-0.11,0.06
+401282759,2021,Iowa,Maryland,0.24,-0.29
+401287912,2021,Iowa State,Kansas,0.7,-0.19
+401287912,2021,Kansas,Iowa State,-0.19,0.7
+401287913,2021,Kansas State,Oklahoma,0.13,0.33
+401309562,2021,Kent State,Bowling Green,0.21,-0.05
+401282091,2021,Kentucky,Florida,-0.07,-0.07
+401282221,2021,Liberty,UAB,0.38,-0.04
+401309615,2021,Louisiana,South Alabama,0.3,0.2
+401282220,2021,Louisiana Tech,NC State,0.14,0.2
+401282651,2021,Louisville,Wake Forest,0.39,0.21
+401282092,2021,LSU,Auburn,-0.05,0.19
+401282216,2021,Marshall,Middle Tennessee,-0.08,-0.09
+401282759,2021,Maryland,Iowa,-0.29,0.24
+401286302,2021,Massachusetts,Toledo,-0.54,0.26
+401301015,2021,Memphis,Temple,0.24,0.23
+401282646,2021,Miami,Virginia,0.18,0.1
+401308835,2021,Miami (OH),Central Michigan,0.28,0.09
+401282776,2021,Michigan,Wisconsin,0.06,-0.07
+401282223,2021,Michigan State,Western Kentucky,0.32,0.25
+401282216,2021,Middle Tennessee,Marshall,-0.09,-0.08
+401282793,2021,Minnesota,Purdue,0.15,0.09
+401282095,2021,Mississippi State,Texas A&M,0.19,0.1
+401282093,2021,Missouri,Tennessee,0.09,0.55
+401301013,2021,Navy,UCF,0.14,0.17
+401282220,2021,NC State,Louisiana Tech,0.2,0.14
+401282800,2021,Nebraska,Northwestern,0.64,-0.03
+401310711,2021,Nevada,Boise State,0.24,0.14
+401310710,2021,New Mexico,Air Force,0.11,0.41
+401310713,2021,New Mexico State,San José State,0.29,0.58
+401282650,2021,North Carolina,Duke,0.25,-0.25
+401309558,2021,Northern Illinois,Eastern Michigan,0.01,0.12
+401282800,2021,Northwestern,Nebraska,-0.03,0.64
+401282708,2021,Notre Dame,Cincinnati,-0.1,0.3
+401309560,2021,Ohio,Akron,0.23,0.03
+401282813,2021,Ohio State,Rutgers,0.49,-0.17
+401287913,2021,Oklahoma,Kansas State,0.33,0.13
+401287914,2021,Oklahoma State,Baylor,0.03,-0.12
+401282217,2021,Old Dominion,UTEP,-0.09,0.07
+401282089,2021,Ole Miss,Alabama,0.05,0.24
+401309864,2021,Oregon,Stanford,0.04,0.11
+401309865,2021,Oregon State,Washington,0.1,0.08
+401282729,2021,Penn State,Indiana,0.06,-0.11
+401282649,2021,Pittsburgh,Georgia Tech,0.44,-0.15
+401282793,2021,Purdue,Minnesota,0.09,0.15
+401282218,2021,Rice,Southern Miss,0.31,0.06
+401282813,2021,Rutgers,Ohio State,-0.17,0.49
+401310713,2021,San José State,New Mexico State,0.58,0.29
+401301016,2021,SMU,South Florida,0.31,0.23
+401309615,2021,South Alabama,Louisiana,0.2,0.3
+401282094,2021,South Carolina,Troy,0.2,0.02
+401282218,2021,Southern Miss,Rice,0.06,0.31
+401301016,2021,South Florida,SMU,0.23,0.31
+401309864,2021,Stanford,Oregon,0.11,0.04
+401282648,2021,Syracuse,Florida State,0.11,0.2
+401287915,2021,TCU,Texas,0.21,0.17
+401301015,2021,Temple,Memphis,0.23,0.24
+401282093,2021,Tennessee,Missouri,0.55,0.09
+401287915,2021,Texas,TCU,0.17,0.21
+401282095,2021,Texas A&M,Mississippi State,0.1,0.19
+401287916,2021,Texas Tech,West Virginia,0.17,0.32
+401286302,2021,Toledo,Massachusetts,0.26,-0.54
+401282094,2021,Troy,South Carolina,0.02,0.2
+401301014,2021,Tulane,East Carolina,0.14,0.44
+401301012,2021,Tulsa,Houston,-0.3,0.23
+401282221,2021,UAB,Liberty,-0.04,0.38
+401301013,2021,UCF,Navy,0.17,0.14
+401309866,2021,UCLA,Arizona State,0.04,0.54
+401282096,2021,UConn,Vanderbilt,0.2,0.24
+401309614,2021,UL Monroe,Coastal Carolina,-0.08,0.69
+401282222,2021,UNLV,UTSA,-0.06,0.13
+401309867,2021,USC,Colorado,0.45,-0.13
+401309912,2021,Utah State,BYU,0.03,0.39
+401282217,2021,UTEP,Old Dominion,0.07,-0.09
+401282222,2021,UTSA,UNLV,0.13,-0.06
+401282096,2021,Vanderbilt,UConn,0.24,0.2
+401282646,2021,Virginia,Miami,0.1,0.18
+401282651,2021,Wake Forest,Louisville,0.21,0.39
+401309865,2021,Washington,Oregon State,0.08,0.1
+401309863,2021,Washington State,California,-0.03,-0.13
+401282223,2021,Western Kentucky,Michigan State,0.25,0.32
+401309561,2021,Western Michigan,Buffalo,0.21,0.22
+401287916,2021,West Virginia,Texas Tech,0.32,0.17
+401282776,2021,Wisconsin,Michigan,-0.07,0.06
+401310714,2021,Air Force,Wyoming,0.15,0.01
+401309566,2021,Akron,Bowling Green,0.37,0.01
+401282103,2021,Alabama,Texas A&M,0.12,0.25
+401309870,2021,Arizona,UCLA,0.04,0.23
+401309868,2021,Arizona State,Stanford,0.15,-0.17
+401282100,2021,Arkansas,Ole Miss,0.43,0.51
+401309616,2021,Arkansas State,Coastal Carolina,0.05,0.66
+401282097,2021,Auburn,Georgia,-0.06,0.28
+401309563,2021,Ball State,Western Michigan,0.31,0.07
+401287917,2021,Baylor,West Virginia,0.51,0.12
+401309913,2021,Boise State,BYU,0.14,0.01
+401309566,2021,Bowling Green,Akron,0.01,0.37
+401309565,2021,Buffalo,Kent State,0.2,0.51
+401309913,2021,BYU,Boise State,0.01,0.14
+401309567,2021,Central Michigan,Ohio,0.23,0.22
+401282224,2021,Charlotte,Florida International,0.22,0.31
+401301018,2021,Cincinnati,Temple,0.56,-0.2
+401309616,2021,Coastal Carolina,Arkansas State,0.66,0.05
+401310715,2021,Colorado State,San José State,0.26,0.15
+401282652,2021,Duke,Georgia Tech,0.16,0.16
+401301019,2021,East Carolina,UCF,0.13,0.14
+401308836,2021,Eastern Michigan,Miami (OH),0.02,0.08
+401282098,2021,Florida,Vanderbilt,0.3,-0.24
+401282225,2021,Florida Atlantic,UAB,-0.22,0.27
+401282224,2021,Florida International,Charlotte,0.31,0.22
+401282654,2021,Florida State,North Carolina,0.45,0.23
+401282097,2021,Georgia,Auburn,0.28,-0.06
+401309617,2021,Georgia Southern,Troy,-0.13,0.04
+401309618,2021,Georgia State,UL Monroe,0.45,0.16
+401282652,2021,Georgia Tech,Duke,0.16,0.16
+401301017,2021,Houston,Tulane,0.24,-0.01
+401282718,2021,Illinois,Wisconsin,-0.48,0.31
+401282758,2021,Iowa,Penn State,-0.13,-0.19
+401309565,2021,Kent State,Buffalo,0.51,0.2
+401282099,2021,Kentucky,LSU,0.44,0.57
+401282229,2021,Liberty,Middle Tennessee,0.15,-0.1
+401282653,2021,Louisville,Virginia,0.37,0.14
+401282099,2021,LSU,Kentucky,0.57,0.44
+401282226,2021,Marshall,Old Dominion,0.05,-0.06
+401282769,2021,Maryland,Ohio State,-0.07,0.54
+401286191,2021,Massachusetts,UConn,0.12,-0.11
+401301020,2021,Memphis,Tulsa,0.21,0.26
+401308836,2021,Miami (OH),Eastern Michigan,0.08,0.02
+401282778,2021,Michigan,Nebraska,0.14,-0.01
+401282788,2021,Michigan State,Rutgers,0.25,0.01
+401282229,2021,Middle Tennessee,Liberty,-0.1,0.15
+401282101,2021,Missouri,North Texas,0.4,0.26
+401301021,2021,Navy,SMU,-0.04,0.18
+401282778,2021,Nebraska,Michigan,-0.01,0.14
+401310717,2021,Nevada,New Mexico State,0.32,0.08
+401310716,2021,New Mexico,San Diego State,-0.17,0.2
+401310717,2021,New Mexico State,Nevada,0.08,0.32
+401282654,2021,North Carolina,Florida State,0.23,0.45
+401309564,2021,Northern Illinois,Toledo,0.08,0.03
+401282101,2021,North Texas,Missouri,0.26,0.4
+401282656,2021,Notre Dame,Virginia Tech,0.14,0.08
+401309567,2021,Ohio,Central Michigan,0.22,0.23
+401282769,2021,Ohio State,Maryland,0.54,-0.07
+401287918,2021,Oklahoma,Texas,0.38,0.48
+401282226,2021,Old Dominion,Marshall,-0.06,0.05
+401282100,2021,Ole Miss,Arkansas,0.51,0.43
+401309869,2021,Oregon State,Washington State,0.05,0.3
+401282758,2021,Penn State,Iowa,-0.19,-0.13
+401282788,2021,Rutgers,Michigan State,0.01,0.25
+401310716,2021,San Diego State,New Mexico,0.2,-0.17
+401310715,2021,San José State,Colorado State,0.15,0.26
+401301021,2021,SMU,Navy,0.18,-0.04
+401309619,2021,South Alabama,Texas State,0.17,0.01
+401282102,2021,South Carolina,Tennessee,-0.03,0.39
+401282227,2021,Southern Miss,UTEP,-0.2,0.25
+401309868,2021,Stanford,Arizona State,-0.17,0.15
+401282655,2021,Syracuse,Wake Forest,0.28,0.27
+401287919,2021,TCU,Texas Tech,0.57,0.18
+401301018,2021,Temple,Cincinnati,-0.2,0.56
+401282102,2021,Tennessee,South Carolina,0.39,-0.03
+401287918,2021,Texas,Oklahoma,0.48,0.38
+401282103,2021,Texas A&M,Alabama,0.25,0.12
+401309619,2021,Texas State,South Alabama,0.01,0.17
+401287919,2021,Texas Tech,TCU,0.18,0.57
+401309564,2021,Toledo,Northern Illinois,0.03,0.08
+401309617,2021,Troy,Georgia Southern,0.04,-0.13
+401301017,2021,Tulane,Houston,-0.01,0.24
+401301020,2021,Tulsa,Memphis,0.26,0.21
+401282225,2021,UAB,Florida Atlantic,0.27,-0.22
+401301019,2021,UCF,East Carolina,0.14,0.13
+401309870,2021,UCLA,Arizona,0.23,0.04
+401286191,2021,UConn,Massachusetts,-0.11,0.12
+401309618,2021,UL Monroe,Georgia State,0.16,0.45
+401309871,2021,USC,Utah,0.22,0.54
+401309871,2021,Utah,USC,0.54,0.22
+401282227,2021,UTEP,Southern Miss,0.25,-0.2
+401282228,2021,UTSA,Western Kentucky,0.44,0.39
+401282098,2021,Vanderbilt,Florida,-0.24,0.3
+401282653,2021,Virginia,Louisville,0.14,0.37
+401282656,2021,Virginia Tech,Notre Dame,0.08,0.14
+401282655,2021,Wake Forest,Syracuse,0.27,0.28
+401309869,2021,Washington State,Oregon State,0.3,0.05
+401282228,2021,Western Kentucky,UTSA,0.39,0.44
+401309563,2021,Western Michigan,Ball State,0.07,0.31
+401287917,2021,West Virginia,Baylor,0.12,0.51
+401282718,2021,Wisconsin,Illinois,0.31,-0.48
+401310714,2021,Wyoming,Air Force,0.01,0.15
+401310718,2021,Air Force,Boise State,0.27,0.18
+401308837,2021,Akron,Miami (OH),0.18,0.4
+401282107,2021,Alabama,Mississippi State,0.47,-0.18
+401309620,2021,App State,Louisiana,-0.25,0.33
+401309875,2021,Arizona,Colorado,-0.35,0.24
+401309876,2021,Arizona State,Utah,0.21,0.32
+401282104,2021,Arkansas,Auburn,0.1,0.33
+401282826,2021,Army,Wisconsin,0.19,0.3
+401282104,2021,Auburn,Arkansas,0.33,0.1
+401309568,2021,Ball State,Eastern Michigan,0.37,0.24
+401287920,2021,Baylor,BYU,0.28,0.32
+401310718,2021,Boise State,Air Force,0.18,0.27
+401282658,2021,Boston College,NC State,-0.22,0.34
+401309570,2021,Bowling Green,Northern Illinois,0.18,0.14
+401309571,2021,Buffalo,Ohio,0.19,0.26
+401287920,2021,BYU,Baylor,0.32,0.28
+401309872,2021,California,Oregon,0.1,0.31
+401309569,2021,Central Michigan,Toledo,0.17,0.1
+401301023,2021,Cincinnati,UCF,0.38,-0.07
+401282657,2021,Clemson,Syracuse,0.08,0.08
+401309875,2021,Colorado,Arizona,0.24,-0.35
+401310719,2021,Colorado State,New Mexico,0.22,-0.5
+401282660,2021,Duke,Virginia,-0.07,0.35
+401309568,2021,Eastern Michigan,Ball State,0.24,0.37
+401282106,2021,Florida,LSU,0.1,0.39
+401310721,2021,Fresno State,Wyoming,-0.05,-0.37
+401282105,2021,Georgia,Kentucky,0.46,0.1
+401309621,2021,Georgia Southern,South Alabama,-0.13,0.49
+401310722,2021,Hawai'i,Nevada,-0.13,0.22
+401282731,2021,Indiana,Michigan State,-0.11,-0.04
+401282760,2021,Iowa,Purdue,-0.13,0.29
+401287922,2021,Iowa State,Kansas State,0.39,0.26
+401287921,2021,Kansas,Texas Tech,0.04,0.3
+401287922,2021,Kansas State,Iowa State,0.26,0.39
+401309572,2021,Kent State,Western Michigan,0.12,0.58
+401282105,2021,Kentucky,Georgia,0.1,0.46
+401286296,2021,Liberty,UL Monroe,0.02,0.09
+401309620,2021,Louisiana,App State,0.33,-0.25
+401282230,2021,Louisiana Tech,UTEP,-0.33,0.13
+401282106,2021,LSU,Florida,0.39,0.1
+401282231,2021,Marshall,North Texas,0.35,0.03
+401301022,2021,Memphis,Navy,0.42,0.1
+401282659,2021,Miami,North Carolina,0.04,0.1
+401308837,2021,Miami (OH),Akron,0.4,0.18
+401282731,2021,Michigan State,Indiana,-0.04,-0.11
+401282796,2021,Minnesota,Nebraska,0.15,0.1
+401282107,2021,Mississippi State,Alabama,-0.18,0.47
+401282108,2021,Missouri,Texas A&M,-0.14,0.25
+401301022,2021,Navy,Memphis,0.1,0.42
+401282658,2021,NC State,Boston College,0.34,-0.22
+401282796,2021,Nebraska,Minnesota,0.1,0.15
+401310722,2021,Nevada,Hawai'i,0.22,-0.13
+401310719,2021,New Mexico,Colorado State,-0.5,0.22
+401282659,2021,North Carolina,Miami,0.1,0.04
+401309570,2021,Northern Illinois,Bowling Green,0.14,0.18
+401282231,2021,North Texas,Marshall,0.03,0.35
+401282807,2021,Northwestern,Rutgers,0.02,-0.12
+401309571,2021,Ohio,Buffalo,0.26,0.19
+401287923,2021,Oklahoma,TCU,0.6,0.36
+401287924,2021,Oklahoma State,Texas,0.05,-0.11
+401282232,2021,Old Dominion,Western Kentucky,0.07,0.2
+401282110,2021,Ole Miss,Tennessee,0.18,0.18
+401309872,2021,Oregon,California,0.31,0.1
+401282661,2021,Pittsburgh,Virginia Tech,0.16,-0.26
+401282760,2021,Purdue,Iowa,0.29,-0.13
+401282233,2021,Rice,UTSA,-0.43,0.19
+401282807,2021,Rutgers,Northwestern,-0.12,0.02
+401310723,2021,San Diego State,San José State,-0.21,-0.04
+401310723,2021,San José State,San Diego State,-0.04,-0.21
+401309621,2021,South Alabama,Georgia Southern,0.49,-0.13
+401282109,2021,South Carolina,Vanderbilt,0.22,0.02
+401282234,2021,Southern Miss,UAB,-0.27,0.28
+401301024,2021,South Florida,Tulsa,-0.09,0.09
+401309873,2021,Stanford,Washington State,0.17,0.27
+401282657,2021,Syracuse,Clemson,0.08,0.08
+401287923,2021,TCU,Oklahoma,0.36,0.6
+401282110,2021,Tennessee,Ole Miss,0.18,0.18
+401287924,2021,Texas,Oklahoma State,-0.11,0.05
+401282108,2021,Texas A&M,Missouri,0.25,-0.14
+401309622,2021,Texas State,Troy,-0.08,0.19
+401287921,2021,Texas Tech,Kansas,0.3,0.04
+401309569,2021,Toledo,Central Michigan,0.1,0.17
+401309622,2021,Troy,Texas State,0.19,-0.08
+401301024,2021,Tulsa,South Florida,0.09,-0.09
+401282234,2021,UAB,Southern Miss,0.28,-0.27
+401301023,2021,UCF,Cincinnati,-0.07,0.38
+401309874,2021,UCLA,Washington,0.32,0.07
+401286192,2021,UConn,Yale,-0.03,-0.24
+401286296,2021,UL Monroe,Liberty,0.09,0.02
+401310720,2021,UNLV,Utah State,0.13,0.12
+401309876,2021,Utah,Arizona State,0.32,0.21
+401310720,2021,Utah State,UNLV,0.12,0.13
+401282230,2021,UTEP,Louisiana Tech,0.13,-0.33
+401282233,2021,UTSA,Rice,0.19,-0.43
+401282109,2021,Vanderbilt,South Carolina,0.02,0.22
+401282660,2021,Virginia,Duke,0.35,-0.07
+401282661,2021,Virginia Tech,Pittsburgh,-0.26,0.16
+401309874,2021,Washington,UCLA,0.07,0.32
+401309873,2021,Washington State,Stanford,0.27,0.17
+401282232,2021,Western Kentucky,Old Dominion,0.2,0.07
+401309572,2021,Western Michigan,Kent State,0.58,0.12
+401282826,2021,Wisconsin,Army,0.3,0.19
+401310721,2021,Wyoming,Fresno State,-0.37,-0.05
+401310724,2021,Air Force,San Diego State,-0.04,0.19
+401309575,2021,Akron,Buffalo,0.0,0.27
+401282111,2021,Alabama,Tennessee,0.36,0.05
+401309623,2021,App State,Coastal Carolina,0.13,0.26
+401309877,2021,Arizona,Washington,0.06,0.12
+401282112,2021,Arkansas,Arkansas-Pine Bluff,0.36,-0.28
+401309624,2021,Arkansas State,Louisiana,0.18,0.16
+401282662,2021,Army,Wake Forest,0.39,0.81
+401308838,2021,Ball State,Miami (OH),0.17,0.26
+401282664,2021,Boston College,Louisville,-0.08,0.2
+401309574,2021,Bowling Green,Eastern Michigan,0.22,0.37
+401309575,2021,Buffalo,Akron,0.27,0.0
+401309881,2021,BYU,Washington State,0.3,0.3
+401309878,2021,California,Colorado,0.3,-0.18
+401309577,2021,Central Michigan,Northern Illinois,0.49,0.43
+401282235,2021,Charlotte,Florida Atlantic,-0.15,0.34
+401301027,2021,Cincinnati,Navy,0.09,-0.05
+401282666,2021,Clemson,Pittsburgh,-0.08,0.19
+401309623,2021,Coastal Carolina,App State,0.26,0.13
+401309878,2021,Colorado,California,-0.18,0.3
+401310725,2021,Colorado State,Utah State,0.18,-0.01
+401301028,2021,East Carolina,Houston,-0.26,-0.02
+401309574,2021,Eastern Michigan,Bowling Green,0.37,0.22
+401282235,2021,Florida Atlantic,Charlotte,0.34,-0.15
+401282236,2021,Florida International,Western Kentucky,0.11,0.38
+401282663,2021,Florida State,Massachusetts,0.61,-0.3
+401310727,2021,Fresno State,Nevada,0.22,0.22
+401309625,2021,Georgia State,Texas State,0.41,0.06
+401282667,2021,Georgia Tech,Virginia,0.39,0.58
+401310728,2021,Hawai'i,New Mexico State,0.38,-0.05
+401301028,2021,Houston,East Carolina,-0.02,-0.26
+401282717,2021,Illinois,Penn State,-0.01,-0.06
+401282730,2021,Indiana,Ohio State,-0.15,0.5
+401287925,2021,Iowa State,Oklahoma State,0.07,0.15
+401287926,2021,Kansas,Oklahoma,0.26,0.45
+401287928,2021,Kansas State,Texas Tech,0.39,-0.03
+401309576,2021,Kent State,Ohio,0.26,0.14
+401282240,2021,Liberty,North Texas,0.07,-0.03
+401309624,2021,Louisiana,Arkansas State,0.16,0.18
+401282237,2021,Louisiana Tech,UTSA,0.03,0.25
+401282664,2021,Louisville,Boston College,0.2,-0.08
+401282113,2021,LSU,Ole Miss,0.09,0.22
+401282767,2021,Maryland,Minnesota,0.03,0.38
+401282663,2021,Massachusetts,Florida State,-0.3,0.61
+401301026,2021,Memphis,UCF,-0.26,0.07
+401282665,2021,Miami,NC State,0.27,0.14
+401308838,2021,Miami (OH),Ball State,0.26,0.17
+401282779,2021,Michigan,Northwestern,0.21,-0.15
+401282239,2021,Middle Tennessee,UConn,0.34,-0.11
+401282767,2021,Minnesota,Maryland,0.38,0.03
+401282115,2021,Mississippi State,Vanderbilt,0.44,-0.27
+401301027,2021,Navy,Cincinnati,-0.05,0.09
+401282665,2021,NC State,Miami,0.14,0.27
+401310727,2021,Nevada,Fresno State,0.22,0.22
+401310726,2021,New Mexico,Wyoming,0.03,-0.19
+401310728,2021,New Mexico State,Hawai'i,-0.05,0.38
+401309577,2021,Northern Illinois,Central Michigan,0.43,0.49
+401282240,2021,North Texas,Liberty,-0.03,0.07
+401282779,2021,Northwestern,Michigan,-0.15,0.21
+401282709,2021,Notre Dame,USC,0.3,0.16
+401309576,2021,Ohio,Kent State,0.14,0.26
+401282730,2021,Ohio State,Indiana,0.5,-0.15
+401287926,2021,Oklahoma,Kansas,0.45,0.26
+401287925,2021,Oklahoma State,Iowa State,0.15,0.07
+401282113,2021,Ole Miss,LSU,0.22,0.09
+401309879,2021,Oregon,UCLA,0.07,0.02
+401309880,2021,Oregon State,Utah,0.49,0.14
+401282717,2021,Penn State,Illinois,-0.06,-0.01
+401282666,2021,Pittsburgh,Clemson,0.19,-0.08
+401282821,2021,Purdue,Wisconsin,-0.43,0.06
+401282238,2021,Rice,UAB,0.25,0.31
+401310724,2021,San Diego State,Air Force,0.19,-0.04
+401310729,2021,San José State,UNLV,0.1,0.09
+401301025,2021,SMU,Tulane,0.39,0.01
+401309626,2021,South Alabama,UL Monroe,0.24,0.43
+401282114,2021,South Carolina,Texas A&M,-0.36,0.14
+401301029,2021,South Florida,Temple,0.22,0.06
+401282668,2021,Syracuse,Virginia Tech,0.52,0.25
+401287927,2021,TCU,West Virginia,0.16,0.29
+401301029,2021,Temple,South Florida,0.06,0.22
+401282111,2021,Tennessee,Alabama,0.05,0.36
+401282114,2021,Texas A&M,South Carolina,0.14,-0.36
+401309625,2021,Texas State,Georgia State,0.06,0.41
+401287928,2021,Texas Tech,Kansas State,-0.03,0.39
+401309573,2021,Toledo,Western Michigan,0.17,0.12
+401301025,2021,Tulane,SMU,0.01,0.39
+401282238,2021,UAB,Rice,0.31,0.25
+401301026,2021,UCF,Memphis,0.07,-0.26
+401309879,2021,UCLA,Oregon,0.02,0.07
+401282239,2021,UConn,Middle Tennessee,-0.11,0.34
+401309626,2021,UL Monroe,South Alabama,0.43,0.24
+401310729,2021,UNLV,San José State,0.09,0.1
+401282709,2021,USC,Notre Dame,0.16,0.3
+401309880,2021,Utah,Oregon State,0.14,0.49
+401310725,2021,Utah State,Colorado State,-0.01,0.18
+401282237,2021,UTSA,Louisiana Tech,0.25,0.03
+401282115,2021,Vanderbilt,Mississippi State,-0.27,0.44
+401282667,2021,Virginia,Georgia Tech,0.58,0.39
+401282668,2021,Virginia Tech,Syracuse,0.25,0.52
+401282662,2021,Wake Forest,Army,0.81,0.39
+401309877,2021,Washington,Arizona,0.12,0.06
+401309881,2021,Washington State,BYU,0.3,0.3
+401282236,2021,Western Kentucky,Florida International,0.38,0.11
+401309573,2021,Western Michigan,Toledo,0.12,0.17
+401287927,2021,West Virginia,TCU,0.29,0.16
+401282821,2021,Wisconsin,Purdue,0.06,-0.43
+401310726,2021,Wyoming,New Mexico,-0.19,0.03
+401309628,2021,App State,UL Monroe,0.31,-0.03
+401309886,2021,Arizona,USC,0.36,0.24
+401309885,2021,Arizona State,Washington State,0.26,0.16
+401309629,2021,Arkansas State,South Alabama,-0.32,0.15
+401282116,2021,Auburn,Ole Miss,0.26,0.06
+401287929,2021,Baylor,Texas,0.1,-0.02
+401310730,2021,Boise State,Colorado State,0.24,0.16
+401282675,2021,Boston College,Syracuse,-0.16,0.17
+401309578,2021,Bowling Green,Buffalo,0.56,0.02
+401309578,2021,Buffalo,Bowling Green,0.02,0.56
+401282669,2021,BYU,Virginia,0.61,0.35
+401309882,2021,California,Oregon State,0.39,0.2
+401282241,2021,Charlotte,Western Kentucky,-0.2,0.34
+401301032,2021,Cincinnati,Tulane,0.15,-0.08
+401282670,2021,Clemson,Florida State,0.08,-0.1
+401309627,2021,Coastal Carolina,Troy,0.39,0.2
+401309884,2021,Colorado,Oregon,0.36,0.52
+401310730,2021,Colorado State,Boise State,0.16,0.24
+401282676,2021,Duke,Wake Forest,-0.09,0.44
+401301033,2021,East Carolina,South Florida,0.2,-0.26
+401282117,2021,Florida,Georgia,-0.2,0.07
+401282243,2021,Florida Atlantic,UTEP,0.13,-0.01
+401282242,2021,Florida International,Marshall,-0.1,0.3
+401282670,2021,Florida State,Clemson,-0.1,0.08
+401310733,2021,Fresno State,San Diego State,0.15,-0.04
+401282117,2021,Georgia,Florida,0.07,-0.2
+401309630,2021,Georgia Southern,Georgia State,0.07,0.23
+401309630,2021,Georgia State,Georgia Southern,0.23,0.07
+401282671,2021,Georgia Tech,Virginia Tech,0.06,0.27
+401310731,2021,Hawai'i,Utah State,-0.02,0.18
+401301034,2021,Houston,SMU,0.17,0.2
+401282719,2021,Illinois,Rutgers,0.3,0.17
+401282726,2021,Indiana,Maryland,0.34,0.19
+401282763,2021,Iowa,Wisconsin,-0.34,0.01
+401287933,2021,Iowa State,West Virginia,0.28,0.25
+401287932,2021,Kansas,Oklahoma State,-0.46,0.32
+401287930,2021,Kansas State,TCU,0.28,-0.07
+401282118,2021,Kentucky,Mississippi State,-0.17,0.35
+401286297,2021,Liberty,Massachusetts,0.63,-0.05
+401309631,2021,Louisiana,Texas State,0.37,-0.26
+401282244,2021,Louisiana Tech,Old Dominion,-0.02,-0.03
+401282672,2021,Louisville,NC State,0.02,0.32
+401282242,2021,Marshall,Florida International,0.3,-0.1
+401282726,2021,Maryland,Indiana,0.19,0.34
+401286297,2021,Massachusetts,Liberty,-0.05,0.63
+401282674,2021,Miami,Pittsburgh,0.32,0.3
+401282777,2021,Michigan,Michigan State,0.09,0.2
+401282777,2021,Michigan State,Michigan,0.2,0.09
+401282245,2021,Middle Tennessee,Southern Miss,-0.12,-0.31
+401282795,2021,Minnesota,Northwestern,0.37,-0.08
+401282118,2021,Mississippi State,Kentucky,0.35,-0.17
+401282119,2021,Missouri,Vanderbilt,0.3,0.13
+401301030,2021,Navy,Tulsa,0.09,-0.02
+401282672,2021,NC State,Louisville,0.32,0.02
+401282801,2021,Nebraska,Purdue,-0.01,0.13
+401310734,2021,Nevada,UNLV,0.34,-0.24
+401282673,2021,North Carolina,Notre Dame,0.32,0.46
+401282246,2021,North Texas,Rice,0.23,0.2
+401282795,2021,Northwestern,Minnesota,-0.08,0.37
+401282673,2021,Notre Dame,North Carolina,0.46,0.32
+401282814,2021,Ohio State,Penn State,0.13,0.08
+401287931,2021,Oklahoma,Texas Tech,0.76,0.17
+401287932,2021,Oklahoma State,Kansas,0.32,-0.46
+401282244,2021,Old Dominion,Louisiana Tech,-0.03,-0.02
+401282116,2021,Ole Miss,Auburn,0.06,0.26
+401309884,2021,Oregon,Colorado,0.52,0.36
+401309882,2021,Oregon State,California,0.2,0.39
+401282814,2021,Penn State,Ohio State,0.08,0.13
+401282674,2021,Pittsburgh,Miami,0.3,0.32
+401282801,2021,Purdue,Nebraska,0.13,-0.01
+401282246,2021,Rice,North Texas,0.2,0.23
+401282719,2021,Rutgers,Illinois,0.17,0.3
+401310733,2021,San Diego State,Fresno State,-0.04,0.15
+401310732,2021,San José State,Wyoming,0.32,-0.01
+401301034,2021,SMU,Houston,0.2,0.17
+401309629,2021,South Alabama,Arkansas State,0.15,-0.32
+401282245,2021,Southern Miss,Middle Tennessee,-0.31,-0.12
+401301033,2021,South Florida,East Carolina,-0.26,0.2
+401309883,2021,Stanford,Washington,-0.05,0.08
+401282675,2021,Syracuse,Boston College,0.17,-0.16
+401287930,2021,TCU,Kansas State,-0.07,0.28
+401301031,2021,Temple,UCF,0.03,0.3
+401287929,2021,Texas,Baylor,-0.02,0.1
+401309631,2021,Texas State,Louisiana,-0.26,0.37
+401287931,2021,Texas Tech,Oklahoma,0.17,0.76
+401309627,2021,Troy,Coastal Carolina,0.2,0.39
+401301032,2021,Tulane,Cincinnati,-0.08,0.15
+401301030,2021,Tulsa,Navy,-0.02,0.09
+401301031,2021,UCF,Temple,0.3,0.03
+401309887,2021,UCLA,Utah,0.15,0.37
+401309628,2021,UL Monroe,App State,-0.03,0.31
+401310734,2021,UNLV,Nevada,-0.24,0.34
+401309886,2021,USC,Arizona,0.24,0.36
+401309887,2021,Utah,UCLA,0.37,0.15
+401310731,2021,Utah State,Hawai'i,0.18,-0.02
+401282243,2021,UTEP,Florida Atlantic,-0.01,0.13
+401282119,2021,Vanderbilt,Missouri,0.13,0.3
+401282669,2021,Virginia,BYU,0.35,0.61
+401282671,2021,Virginia Tech,Georgia Tech,0.27,0.06
+401282676,2021,Wake Forest,Duke,0.44,-0.09
+401309883,2021,Washington,Stanford,0.08,-0.05
+401309885,2021,Washington State,Arizona State,0.16,0.26
+401282241,2021,Western Kentucky,Charlotte,0.34,-0.2
+401287933,2021,West Virginia,Iowa State,0.25,0.28
+401282763,2021,Wisconsin,Iowa,0.01,-0.34
+401310732,2021,Wyoming,San José State,-0.01,0.32
+401310253,2021,Air Force,Army,-0.04,0.11
+401309579,2021,Akron,Ball State,0.27,0.28
+401282120,2021,Alabama,LSU,0.06,-0.12
+401309633,2021,App State,Arkansas State,0.29,-0.36
+401309889,2021,Arizona,California,-0.07,-0.25
+401309892,2021,Arizona State,USC,0.15,-0.08
+401282121,2021,Arkansas,Mississippi State,0.31,0.35
+401309633,2021,Arkansas State,App State,-0.36,0.29
+401310253,2021,Army,Air Force,0.11,-0.04
+401282126,2021,Auburn,Texas A&M,-0.14,0.07
+401309579,2021,Ball State,Akron,0.28,0.27
+401287936,2021,Baylor,TCU,0.26,0.35
+401310735,2021,Boise State,Fresno State,0.15,-0.14
+401282677,2021,Boston College,Virginia Tech,0.17,-0.1
+401309914,2021,BYU,Idaho State,0.43,-0.02
+401309889,2021,California,Arizona,-0.25,-0.07
+401309581,2021,Central Michigan,Western Michigan,0.29,-0.06
+401282247,2021,Charlotte,Rice,0.25,0.23
+401301037,2021,Cincinnati,Tulsa,0.19,0.04
+401282680,2021,Clemson,Louisville,0.14,0.12
+401309634,2021,Coastal Carolina,Georgia Southern,0.08,-0.16
+401309891,2021,Colorado,Oregon State,0.24,0.16
+401310736,2021,Colorado State,Wyoming,0.08,0.18
+401282678,2021,Duke,Pittsburgh,-0.05,0.41
+401301035,2021,East Carolina,Temple,0.2,-0.18
+401309580,2021,Eastern Michigan,Toledo,0.16,0.56
+401282125,2021,Florida,South Carolina,0.14,0.31
+401282249,2021,Florida Atlantic,Marshall,0.03,0.07
+401282248,2021,Florida International,Old Dominion,0.02,0.23
+401282679,2021,Florida State,NC State,-0.13,0.24
+401310735,2021,Fresno State,Boise State,-0.14,0.15
+401282122,2021,Georgia,Missouri,0.41,-0.09
+401309634,2021,Georgia Southern,Coastal Carolina,-0.16,0.08
+401309632,2021,Georgia State,Louisiana,0.08,0.13
+401282681,2021,Georgia Tech,Miami,0.05,0.13
+401310739,2021,Hawai'i,San Diego State,-0.04,0.09
+401301038,2021,Houston,South Florida,0.51,0.2
+401282720,2021,Illinois,Minnesota,0.08,-0.2
+401282727,2021,Indiana,Michigan,-0.1,0.25
+401282757,2021,Iowa,Northwestern,0.11,0.02
+401287934,2021,Iowa State,Texas,0.21,0.07
+401287935,2021,Kansas,Kansas State,0.04,0.68
+401287935,2021,Kansas State,Kansas,0.68,0.04
+401309582,2021,Kent State,Northern Illinois,0.6,0.49
+401282123,2021,Kentucky,Tennessee,0.14,0.36
+401282124,2021,Liberty,Ole Miss,0.03,0.36
+401309632,2021,Louisiana,Georgia State,0.13,0.08
+401282250,2021,Louisiana Tech,UAB,0.23,0.47
+401282680,2021,Louisville,Clemson,0.12,0.14
+401282120,2021,LSU,Alabama,-0.12,0.06
+401282249,2021,Marshall,Florida Atlantic,0.07,0.03
+401282768,2021,Maryland,Penn State,-0.06,0.23
+401286303,2021,Massachusetts,Rhode Island,0.12,0.36
+401301039,2021,Memphis,SMU,0.15,0.12
+401282681,2021,Miami,Georgia Tech,0.13,0.05
+401308839,2021,Miami (OH),Ohio,0.19,0.16
+401282727,2021,Michigan,Indiana,0.25,-0.1
+401282787,2021,Michigan State,Purdue,0.22,0.32
+401282251,2021,Middle Tennessee,Western Kentucky,-0.31,0.12
+401282720,2021,Minnesota,Illinois,-0.2,0.08
+401282121,2021,Mississippi State,Arkansas,0.35,0.31
+401282122,2021,Missouri,Georgia,-0.09,0.41
+401282710,2021,Navy,Notre Dame,-0.11,0.32
+401282679,2021,NC State,Florida State,0.24,-0.13
+401282799,2021,Nebraska,Ohio State,0.04,0.03
+401310740,2021,Nevada,San José State,-0.03,0.02
+401310737,2021,New Mexico,UNLV,0.01,0.06
+401310738,2021,New Mexico State,Utah State,0.04,0.27
+401282682,2021,North Carolina,Wake Forest,0.36,0.18
+401309582,2021,Northern Illinois,Kent State,0.49,0.6
+401282252,2021,North Texas,Southern Miss,0.2,-0.35
+401282757,2021,Northwestern,Iowa,0.02,0.11
+401282710,2021,Notre Dame,Navy,0.32,-0.11
+401308839,2021,Ohio,Miami (OH),0.16,0.19
+401282799,2021,Ohio State,Nebraska,0.03,0.04
+401287937,2021,Oklahoma State,West Virginia,-0.06,-0.28
+401282248,2021,Old Dominion,Florida International,0.23,0.02
+401282124,2021,Ole Miss,Liberty,0.36,0.03
+401309890,2021,Oregon,Washington,0.17,-0.19
+401309891,2021,Oregon State,Colorado,0.16,0.24
+401282768,2021,Penn State,Maryland,0.23,-0.06
+401282678,2021,Pittsburgh,Duke,0.41,-0.05
+401282787,2021,Purdue,Michigan State,0.32,0.22
+401282247,2021,Rice,Charlotte,0.23,0.25
+401282824,2021,Rutgers,Wisconsin,-0.47,0.43
+401310739,2021,San Diego State,Hawai'i,0.09,-0.04
+401310740,2021,San José State,Nevada,0.02,-0.03
+401301039,2021,SMU,Memphis,0.12,0.15
+401309636,2021,South Alabama,Troy,-0.1,0.16
+401282125,2021,South Carolina,Florida,0.31,0.14
+401282252,2021,Southern Miss,North Texas,-0.35,0.2
+401301038,2021,South Florida,Houston,0.2,0.51
+401309888,2021,Stanford,Utah,0.04,0.56
+401287936,2021,TCU,Baylor,0.35,0.26
+401301035,2021,Temple,East Carolina,-0.18,0.2
+401282123,2021,Tennessee,Kentucky,0.36,0.14
+401287934,2021,Texas,Iowa State,0.07,0.21
+401282126,2021,Texas A&M,Auburn,0.07,-0.14
+401309635,2021,Texas State,UL Monroe,0.23,0.03
+401309580,2021,Toledo,Eastern Michigan,0.56,0.16
+401309636,2021,Troy,South Alabama,0.16,-0.1
+401301036,2021,Tulane,UCF,0.04,0.11
+401301037,2021,Tulsa,Cincinnati,0.04,0.19
+401282250,2021,UAB,Louisiana Tech,0.47,0.23
+401301036,2021,UCF,Tulane,0.11,0.04
+401309635,2021,UL Monroe,Texas State,0.03,0.23
+401310737,2021,UNLV,New Mexico,0.06,0.01
+401309892,2021,USC,Arizona State,-0.08,0.15
+401309888,2021,Utah,Stanford,0.56,0.04
+401310738,2021,Utah State,New Mexico State,0.27,0.04
+401282253,2021,UTEP,UTSA,0.27,0.41
+401282253,2021,UTSA,UTEP,0.41,0.27
+401282677,2021,Virginia Tech,Boston College,-0.1,0.17
+401282682,2021,Wake Forest,North Carolina,0.18,0.36
+401309890,2021,Washington,Oregon,-0.19,0.17
+401282251,2021,Western Kentucky,Middle Tennessee,0.12,-0.31
+401309581,2021,Western Michigan,Central Michigan,-0.06,0.29
+401287937,2021,West Virginia,Oklahoma State,-0.28,-0.06
+401282824,2021,Wisconsin,Rutgers,0.43,-0.47
+401310736,2021,Wyoming,Colorado State,0.18,0.08
+401310741,2021,Air Force,Colorado State,0.37,0.06
+401309584,2021,Akron,Western Michigan,0.25,0.46
+401282127,2021,Alabama,New Mexico State,0.49,-0.29
+401309637,2021,App State,South Alabama,0.12,-0.37
+401309896,2021,Arizona,Utah,0.04,0.3
+401309897,2021,Arizona State,Washington,0.21,0.07
+401282130,2021,Arkansas,LSU,-0.06,-0.15
+401309638,2021,Arkansas State,UL Monroe,0.02,0.05
+401310254,2021,Army,Bucknell,0.6,-0.28
+401282128,2021,Auburn,Mississippi State,0.34,0.36
+401309587,2021,Ball State,Northern Illinois,0.16,0.22
+401287938,2021,Baylor,Oklahoma,0.06,-0.03
+401310742,2021,Boise State,Wyoming,0.19,0.15
+401282686,2021,Boston College,Georgia Tech,0.56,0.06
+401309585,2021,Bowling Green,Toledo,-0.03,0.54
+401308840,2021,Buffalo,Miami (OH),0.03,0.55
+401309586,2021,Central Michigan,Kent State,0.43,0.23
+401282254,2021,Charlotte,Louisiana Tech,0.39,0.39
+401301040,2021,Cincinnati,South Florida,0.24,0.06
+401282684,2021,Clemson,UConn,0.01,-0.5
+401309639,2021,Coastal Carolina,Georgia State,0.3,0.36
+401309898,2021,Colorado,UCLA,0.04,0.31
+401310741,2021,Colorado State,Air Force,0.06,0.37
+401282689,2021,Duke,Virginia Tech,-0.11,0.54
+401301042,2021,East Carolina,Memphis,0.13,0.22
+401309583,2021,Eastern Michigan,Ohio,0.22,0.5
+401282129,2021,Florida,Samford,0.76,0.19
+401282256,2021,Florida Atlantic,Old Dominion,0.04,0.21
+401282255,2021,Florida International,Middle Tennessee,-0.1,0.3
+401282685,2021,Florida State,Miami,0.14,0.16
+401310743,2021,Fresno State,New Mexico,0.19,-0.25
+401282133,2021,Georgia,Tennessee,0.41,0.01
+401309640,2021,Georgia Southern,Texas State,0.26,0.2
+401309639,2021,Georgia State,Coastal Carolina,0.36,0.3
+401282686,2021,Georgia Tech,Boston College,0.06,0.56
+401310745,2021,Hawai'i,UNLV,-0.03,0.12
+401301043,2021,Houston,Temple,0.24,-0.22
+401282728,2021,Indiana,Rutgers,-0.2,0.21
+401282762,2021,Iowa,Minnesota,0.23,0.11
+401287942,2021,Iowa State,Texas Tech,0.3,0.36
+401287941,2021,Kansas,Texas,0.32,0.4
+401287939,2021,Kansas State,West Virginia,0.22,-0.06
+401309586,2021,Kent State,Central Michigan,0.23,0.43
+401282134,2021,Kentucky,Vanderbilt,0.29,-0.01
+401309641,2021,Louisiana,Troy,0.21,0.19
+401282254,2021,Louisiana Tech,Charlotte,0.39,0.39
+401282687,2021,Louisville,Syracuse,0.35,-0.13
+401282130,2021,LSU,Arkansas,-0.15,-0.06
+401282257,2021,Marshall,UAB,-0.05,0.29
+401282771,2021,Maryland,Michigan State,0.0,0.25
+401286304,2021,Massachusetts,Maine,-0.09,0.24
+401301042,2021,Memphis,East Carolina,0.22,0.13
+401282685,2021,Miami,Florida State,0.16,0.14
+401308840,2021,Miami (OH),Buffalo,0.55,0.03
+401282780,2021,Michigan,Penn State,0.19,-0.04
+401282771,2021,Michigan State,Maryland,0.25,0.0
+401282255,2021,Middle Tennessee,Florida International,0.3,-0.1
+401282762,2021,Minnesota,Iowa,0.11,0.23
+401282128,2021,Mississippi State,Auburn,0.36,0.34
+401282132,2021,Missouri,South Carolina,0.15,0.08
+401282690,2021,NC State,Wake Forest,0.04,0.06
+401310746,2021,Nevada,San Diego State,0.19,0.14
+401310743,2021,New Mexico,Fresno State,-0.25,0.19
+401282127,2021,New Mexico State,Alabama,-0.29,0.49
+401282683,2021,North Carolina,Pittsburgh,0.06,0.13
+401309587,2021,Northern Illinois,Ball State,0.22,0.16
+401282258,2021,North Texas,UTEP,0.12,0.1
+401282806,2021,Northwestern,Wisconsin,-0.34,0.35
+401282688,2021,Notre Dame,Virginia,0.13,-0.12
+401309583,2021,Ohio,Eastern Michigan,0.5,0.22
+401282812,2021,Ohio State,Purdue,0.67,0.32
+401287938,2021,Oklahoma,Baylor,-0.03,0.06
+401287940,2021,Oklahoma State,TCU,0.38,-0.05
+401282256,2021,Old Dominion,Florida Atlantic,0.21,0.04
+401282131,2021,Ole Miss,Texas A&M,0.07,-0.11
+401309895,2021,Oregon,Washington State,0.26,0.04
+401309894,2021,Oregon State,Stanford,0.41,-0.02
+401282780,2021,Penn State,Michigan,-0.04,0.19
+401282683,2021,Pittsburgh,North Carolina,0.13,0.06
+401282812,2021,Purdue,Ohio State,0.32,0.67
+401282259,2021,Rice,Western Kentucky,-0.11,0.16
+401282728,2021,Rutgers,Indiana,0.21,-0.2
+401310746,2021,San Diego State,Nevada,0.14,0.19
+401310744,2021,San José State,Utah State,-0.24,0.11
+401301041,2021,SMU,UCF,0.23,0.25
+401309637,2021,South Alabama,App State,-0.37,0.12
+401282132,2021,South Carolina,Missouri,0.08,0.15
+401282260,2021,Southern Miss,UTSA,-0.15,-0.07
+401301040,2021,South Florida,Cincinnati,0.06,0.24
+401309894,2021,Stanford,Oregon State,-0.02,0.41
+401282687,2021,Syracuse,Louisville,-0.13,0.35
+401287940,2021,TCU,Oklahoma State,-0.05,0.38
+401301043,2021,Temple,Houston,-0.22,0.24
+401282133,2021,Tennessee,Georgia,0.01,0.41
+401287941,2021,Texas,Kansas,0.4,0.32
+401282131,2021,Texas A&M,Ole Miss,-0.11,0.07
+401309640,2021,Texas State,Georgia Southern,0.2,0.26
+401287942,2021,Texas Tech,Iowa State,0.36,0.3
+401309585,2021,Toledo,Bowling Green,0.54,-0.03
+401309641,2021,Troy,Louisiana,0.19,0.21
+401301044,2021,Tulane,Tulsa,-0.04,-0.06
+401301044,2021,Tulsa,Tulane,-0.06,-0.04
+401282257,2021,UAB,Marshall,0.29,-0.05
+401301041,2021,UCF,SMU,0.25,0.23
+401309898,2021,UCLA,Colorado,0.31,0.04
+401282684,2021,UConn,Clemson,-0.5,0.01
+401309638,2021,UL Monroe,Arkansas State,0.05,0.02
+401310745,2021,UNLV,Hawai'i,0.12,-0.03
+401309896,2021,Utah,Arizona,0.3,0.04
+401310744,2021,Utah State,San José State,0.11,-0.24
+401282258,2021,UTEP,North Texas,0.1,0.12
+401282260,2021,UTSA,Southern Miss,-0.07,-0.15
+401282134,2021,Vanderbilt,Kentucky,-0.01,0.29
+401282688,2021,Virginia,Notre Dame,-0.12,0.13
+401282689,2021,Virginia Tech,Duke,0.54,-0.11
+401282690,2021,Wake Forest,NC State,0.06,0.04
+401309897,2021,Washington,Arizona State,0.07,0.21
+401309895,2021,Washington State,Oregon,0.04,0.26
+401282259,2021,Western Kentucky,Rice,0.16,-0.11
+401309584,2021,Western Michigan,Akron,0.46,0.25
+401287939,2021,West Virginia,Kansas State,-0.06,0.22
+401282806,2021,Wisconsin,Northwestern,0.35,-0.34
+401310742,2021,Wyoming,Boise State,0.15,0.19
+401310747,2021,Air Force,Nevada,0.22,0.18
+401309592,2021,Akron,Kent State,-0.15,0.32
+401282135,2021,Alabama,Arkansas,0.36,0.27
+401309642,2021,App State,Troy,0.29,-0.42
+401309899,2021,Arizona,Washington State,0.05,0.47
+401309902,2021,Arizona State,Oregon State,0.04,0.11
+401282135,2021,Arkansas,Alabama,0.27,0.36
+401309643,2021,Arkansas State,Georgia State,-0.18,0.3
+401286305,2021,Army,Massachusetts,0.08,-0.01
+401282142,2021,Auburn,South Carolina,0.15,0.09
+401309591,2021,Ball State,Central Michigan,-0.02,0.25
+401287943,2021,Baylor,Kansas State,0.14,0.0
+401310748,2021,Boise State,New Mexico,0.07,-0.56
+401282692,2021,Boston College,Florida State,0.03,0.24
+401308841,2021,Bowling Green,Miami (OH),-0.14,0.08
+401309590,2021,Buffalo,Northern Illinois,0.17,0.39
+401309645,2021,BYU,Georgia Southern,0.4,0.04
+401309900,2021,California,Stanford,0.45,-0.12
+401309591,2021,Central Michigan,Ball State,0.25,-0.02
+401282261,2021,Charlotte,Marshall,0.17,0.55
+401301046,2021,Cincinnati,SMU,0.45,-0.01
+401282693,2021,Clemson,Wake Forest,0.31,0.13
+401309644,2021,Coastal Carolina,Texas State,0.42,0.17
+401309903,2021,Colorado,Washington,-0.05,0.02
+401310749,2021,Colorado State,Hawai'i,0.12,0.24
+401282691,2021,Duke,Louisville,0.03,0.83
+401301047,2021,East Carolina,Navy,0.45,0.59
+401309588,2021,Eastern Michigan,Western Michigan,0.16,0.25
+401282141,2021,Florida,Missouri,0.14,0.1
+401282263,2021,Florida Atlantic,Western Kentucky,-0.14,0.32
+401282262,2021,Florida International,North Texas,-0.14,0.54
+401282692,2021,Florida State,Boston College,0.24,0.03
+401282136,2021,Georgia,Charleston Southern,0.18,-0.32
+401309645,2021,Georgia Southern,BYU,0.04,0.4
+401309643,2021,Georgia State,Arkansas State,0.3,-0.18
+401282697,2021,Georgia Tech,Notre Dame,-0.34,0.52
+401310749,2021,Hawai'i,Colorado State,0.24,0.12
+401301045,2021,Houston,Memphis,0.21,-0.1
+401282721,2021,Illinois,Iowa,-0.09,-0.09
+401282732,2021,Indiana,Minnesota,-0.07,0.33
+401282721,2021,Iowa,Illinois,-0.09,-0.09
+401287944,2021,Iowa State,Oklahoma,-0.09,0.25
+401287945,2021,Kansas,TCU,0.25,0.36
+401287943,2021,Kansas State,Baylor,0.0,0.14
+401309592,2021,Kent State,Akron,0.32,-0.15
+401282137,2021,Kentucky,New Mexico State,0.3,-0.16
+401286298,2021,Liberty,Louisiana,-0.06,0.16
+401286298,2021,Louisiana,Liberty,0.16,-0.06
+401282264,2021,Louisiana Tech,Southern Miss,-0.08,0.2
+401282691,2021,Louisville,Duke,0.83,0.03
+401282138,2021,LSU,UL Monroe,0.13,-0.05
+401282261,2021,Marshall,Charlotte,0.55,0.17
+401282770,2021,Maryland,Michigan,-0.05,0.28
+401286305,2021,Massachusetts,Army,-0.01,0.08
+401301045,2021,Memphis,Houston,-0.1,0.21
+401282694,2021,Miami,Virginia Tech,0.41,0.27
+401308841,2021,Miami (OH),Bowling Green,0.08,-0.14
+401282770,2021,Michigan,Maryland,0.28,-0.05
+401282786,2021,Michigan State,Ohio State,-0.02,0.48
+401282265,2021,Middle Tennessee,Old Dominion,0.06,0.23
+401282732,2021,Minnesota,Indiana,0.33,-0.07
+401282140,2021,Mississippi State,Tennessee State,0.51,-0.11
+401282141,2021,Missouri,Florida,0.1,0.14
+401301047,2021,Navy,East Carolina,0.59,0.45
+401282695,2021,NC State,Syracuse,0.32,-0.04
+401282803,2021,Nebraska,Wisconsin,0.14,0.28
+401310747,2021,Nevada,Air Force,0.18,0.22
+401310748,2021,New Mexico,Boise State,-0.56,0.07
+401282137,2021,New Mexico State,Kentucky,-0.16,0.3
+401282696,2021,North Carolina,Wofford,0.44,0.25
+401309590,2021,Northern Illinois,Buffalo,0.39,0.17
+401282262,2021,North Texas,Florida International,0.54,-0.14
+401282808,2021,Northwestern,Purdue,-0.06,0.37
+401282697,2021,Notre Dame,Georgia Tech,0.52,-0.34
+401309589,2021,Ohio,Toledo,0.2,0.46
+401282786,2021,Ohio State,Michigan State,0.48,-0.02
+401287944,2021,Oklahoma,Iowa State,0.25,-0.09
+401287946,2021,Oklahoma State,Texas Tech,0.14,-0.54
+401282265,2021,Old Dominion,Middle Tennessee,0.23,0.06
+401282139,2021,Ole Miss,Vanderbilt,0.23,0.01
+401309901,2021,Oregon,Utah,-0.13,0.37
+401309902,2021,Oregon State,Arizona State,0.11,0.04
+401282818,2021,Penn State,Rutgers,0.08,-0.19
+401282698,2021,Pittsburgh,Virginia,0.24,0.24
+401282808,2021,Purdue,Northwestern,0.37,-0.06
+401282266,2021,Rice,UTEP,0.08,0.44
+401282818,2021,Rutgers,Penn State,-0.19,0.08
+401310751,2021,San Diego State,UNLV,0.13,0.16
+401301046,2021,SMU,Cincinnati,-0.01,0.45
+401282143,2021,South Alabama,Tennessee,0.1,0.5
+401282142,2021,South Carolina,Auburn,0.09,0.15
+401282264,2021,Southern Miss,Louisiana Tech,0.2,-0.08
+401301048,2021,South Florida,Tulane,-0.08,0.42
+401309900,2021,Stanford,California,-0.12,0.45
+401282695,2021,Syracuse,NC State,-0.04,0.32
+401287945,2021,TCU,Kansas,0.36,0.25
+401301049,2021,Temple,Tulsa,-0.13,0.22
+401282143,2021,Tennessee,South Alabama,0.5,0.1
+401287947,2021,Texas,West Virginia,0.17,0.27
+401282144,2021,Texas A&M,Prairie View A&M,0.52,-0.19
+401309644,2021,Texas State,Coastal Carolina,0.17,0.42
+401287946,2021,Texas Tech,Oklahoma State,-0.54,0.14
+401309589,2021,Toledo,Ohio,0.46,0.2
+401309642,2021,Troy,App State,-0.42,0.29
+401301048,2021,Tulane,South Florida,0.42,-0.08
+401301049,2021,Tulsa,Temple,0.22,-0.13
+401282267,2021,UAB,UTSA,0.36,0.19
+401286293,2021,UCF,UConn,0.36,-0.1
+401309904,2021,UCLA,USC,0.56,0.19
+401286293,2021,UConn,UCF,-0.1,0.36
+401282138,2021,UL Monroe,LSU,-0.05,0.13
+401310751,2021,UNLV,San Diego State,0.16,0.13
+401309904,2021,USC,UCLA,0.19,0.56
+401309901,2021,Utah,Oregon,0.37,-0.13
+401310750,2021,Utah State,Wyoming,-0.04,0.48
+401282266,2021,UTEP,Rice,0.44,0.08
+401282267,2021,UTSA,UAB,0.19,0.36
+401282139,2021,Vanderbilt,Ole Miss,0.01,0.23
+401282698,2021,Virginia,Pittsburgh,0.24,0.24
+401282694,2021,Virginia Tech,Miami,0.27,0.41
+401282693,2021,Wake Forest,Clemson,0.13,0.31
+401309903,2021,Washington,Colorado,0.02,-0.05
+401309899,2021,Washington State,Arizona,0.47,0.05
+401282263,2021,Western Kentucky,Florida Atlantic,0.32,-0.14
+401309588,2021,Western Michigan,Eastern Michigan,0.25,0.16
+401287947,2021,West Virginia,Texas,0.27,0.17
+401282803,2021,Wisconsin,Nebraska,0.28,0.14
+401310750,2021,Wyoming,Utah State,0.48,-0.04
+401310752,2021,Air Force,UNLV,0.53,0.2
+401309597,2021,Akron,Toledo,0.07,0.48
+401282146,2021,Alabama,Auburn,-0.1,-0.3
+401309646,2021,App State,Georgia Southern,0.14,-0.2
+401309909,2021,Arizona,Arizona State,0.01,0.31
+401309909,2021,Arizona State,Arizona,0.31,0.01
+401282145,2021,Arkansas,Missouri,0.4,-0.06
+401309647,2021,Arkansas State,Texas State,0.32,0.16
+401286299,2021,Army,Liberty,0.24,-0.09
+401282146,2021,Auburn,Alabama,-0.3,-0.1
+401309593,2021,Ball State,Buffalo,0.03,-0.2
+401287948,2021,Baylor,Texas Tech,0.25,0.3
+401310753,2021,Boise State,San Diego State,-0.11,0.11
+401282700,2021,Boston College,Wake Forest,-0.06,0.21
+401309596,2021,Bowling Green,Ohio,0.1,-0.27
+401309593,2021,Buffalo,Ball State,-0.2,0.03
+401309910,2021,BYU,USC,0.24,0.23
+401309907,2021,California,UCLA,-0.27,0.38
+401309595,2021,Central Michigan,Eastern Michigan,0.01,-0.29
+401282268,2021,Charlotte,Old Dominion,0.0,0.44
+401301051,2021,Cincinnati,East Carolina,0.1,-0.1
+401282152,2021,Clemson,South Carolina,0.18,-0.21
+401309648,2021,Coastal Carolina,South Alabama,0.1,-0.06
+401309906,2021,Colorado,Utah,-0.19,0.19
+401310754,2021,Colorado State,Nevada,-0.09,0.47
+401282701,2021,Duke,Miami,-0.24,0.39
+401301051,2021,East Carolina,Cincinnati,-0.1,0.1
+401309595,2021,Eastern Michigan,Central Michigan,-0.29,0.01
+401282147,2021,Florida,Florida State,0.03,0.09
+401282270,2021,Florida Atlantic,Middle Tennessee,0.03,0.1
+401282269,2021,Florida International,Southern Miss,0.15,0.44
+401282147,2021,Florida State,Florida,0.09,0.03
+401310757,2021,Fresno State,San José State,0.36,-0.06
+401282148,2021,Georgia,Georgia Tech,0.63,-0.2
+401309646,2021,Georgia Southern,App State,-0.2,0.14
+401309649,2021,Georgia State,Troy,0.16,-0.12
+401282148,2021,Georgia Tech,Georgia,-0.2,0.63
+401310756,2021,Hawai'i,Wyoming,0.28,-0.07
+401301052,2021,Houston,UConn,0.15,-0.01
+401282722,2021,Illinois,Northwestern,0.33,0.04
+401282753,2021,Indiana,Purdue,-0.03,0.38
+401282761,2021,Iowa,Nebraska,0.14,0.27
+401287949,2021,Iowa State,TCU,0.66,0.03
+401287950,2021,Kansas,West Virginia,-0.07,0.33
+401287952,2021,Kansas State,Texas,0.04,0.3
+401308842,2021,Kent State,Miami (OH),0.4,0.19
+401282149,2021,Kentucky,Louisville,0.51,0.04
+401286299,2021,Liberty,Army,-0.09,0.24
+401309650,2021,Louisiana,UL Monroe,-0.05,-0.08
+401282271,2021,Louisiana Tech,Rice,0.16,0.28
+401282149,2021,Louisville,Kentucky,0.04,0.51
+401282150,2021,LSU,Texas A&M,0.14,0.12
+401282272,2021,Marshall,Western Kentucky,-0.02,0.22
+401282766,2021,Maryland,Rutgers,0.58,-0.16
+401286306,2021,Massachusetts,New Mexico State,0.48,0.67
+401301053,2021,Memphis,Tulane,0.17,0.19
+401282701,2021,Miami,Duke,0.39,-0.24
+401308842,2021,Miami (OH),Kent State,0.19,0.4
+401282781,2021,Michigan,Ohio State,0.42,0.27
+401282785,2021,Michigan State,Penn State,0.18,0.15
+401282270,2021,Middle Tennessee,Florida Atlantic,0.1,0.03
+401282794,2021,Minnesota,Wisconsin,0.06,-0.15
+401282151,2021,Mississippi State,Ole Miss,0.1,0.04
+401282145,2021,Missouri,Arkansas,-0.06,0.4
+401301054,2021,Navy,Temple,0.21,0.11
+401282699,2021,NC State,North Carolina,0.13,0.07
+401282761,2021,Nebraska,Iowa,0.27,0.14
+401310754,2021,Nevada,Colorado State,0.47,-0.09
+401310755,2021,New Mexico,Utah State,-0.27,0.42
+401286306,2021,New Mexico State,Massachusetts,0.67,0.48
+401282699,2021,North Carolina,NC State,0.07,0.13
+401309594,2021,Northern Illinois,Western Michigan,0.38,0.47
+401282273,2021,North Texas,UTSA,0.33,0.08
+401282722,2021,Northwestern,Illinois,0.04,0.33
+401282711,2021,Notre Dame,Stanford,0.37,0.04
+401309596,2021,Ohio,Bowling Green,-0.27,0.1
+401282781,2021,Ohio State,Michigan,0.27,0.42
+401287951,2021,Oklahoma,Oklahoma State,0.05,0.03
+401287951,2021,Oklahoma State,Oklahoma,0.03,0.05
+401282268,2021,Old Dominion,Charlotte,0.44,0.0
+401282151,2021,Ole Miss,Mississippi State,0.04,0.1
+401309908,2021,Oregon,Oregon State,0.53,0.32
+401309908,2021,Oregon State,Oregon,0.32,0.53
+401282785,2021,Penn State,Michigan State,0.15,0.18
+401282702,2021,Pittsburgh,Syracuse,0.15,0.1
+401282753,2021,Purdue,Indiana,0.38,-0.03
+401282271,2021,Rice,Louisiana Tech,0.28,0.16
+401282766,2021,Rutgers,Maryland,-0.16,0.58
+401310753,2021,San Diego State,Boise State,0.11,-0.11
+401310757,2021,San José State,Fresno State,-0.06,0.36
+401301055,2021,SMU,Tulsa,0.09,0.05
+401309648,2021,South Alabama,Coastal Carolina,-0.06,0.1
+401282152,2021,South Carolina,Clemson,-0.21,0.18
+401282269,2021,Southern Miss,Florida International,0.44,0.15
+401301050,2021,South Florida,UCF,0.16,0.14
+401282711,2021,Stanford,Notre Dame,0.04,0.37
+401282702,2021,Syracuse,Pittsburgh,0.1,0.15
+401287949,2021,TCU,Iowa State,0.03,0.66
+401301054,2021,Temple,Navy,0.11,0.21
+401282153,2021,Tennessee,Vanderbilt,0.33,0.11
+401287952,2021,Texas,Kansas State,0.3,0.04
+401282150,2021,Texas A&M,LSU,0.12,0.14
+401309647,2021,Texas State,Arkansas State,0.16,0.32
+401287948,2021,Texas Tech,Baylor,0.3,0.25
+401309597,2021,Toledo,Akron,0.48,0.07
+401309649,2021,Troy,Georgia State,-0.12,0.16
+401301053,2021,Tulane,Memphis,0.19,0.17
+401301055,2021,Tulsa,SMU,0.05,0.09
+401282274,2021,UAB,UTEP,0.31,0.2
+401301050,2021,UCF,South Florida,0.14,0.16
+401309907,2021,UCLA,California,0.38,-0.27
+401301052,2021,UConn,Houston,-0.01,0.15
+401309650,2021,UL Monroe,Louisiana,-0.08,-0.05
+401310752,2021,UNLV,Air Force,0.2,0.53
+401309910,2021,USC,BYU,0.23,0.24
+401309906,2021,Utah,Colorado,0.19,-0.19
+401310755,2021,Utah State,New Mexico,0.42,-0.27
+401282274,2021,UTEP,UAB,0.2,0.31
+401282273,2021,UTSA,North Texas,0.08,0.33
+401282153,2021,Vanderbilt,Tennessee,0.11,0.33
+401282703,2021,Virginia,Virginia Tech,0.23,0.25
+401282703,2021,Virginia Tech,Virginia,0.25,0.23
+401282700,2021,Wake Forest,Boston College,0.21,-0.06
+401309905,2021,Washington,Washington State,-0.3,0.42
+401309905,2021,Washington State,Washington,0.42,-0.3
+401282272,2021,Western Kentucky,Marshall,0.22,-0.02
+401309594,2021,Western Michigan,Northern Illinois,0.47,0.38
+401287950,2021,West Virginia,Kansas,0.33,-0.07
+401282794,2021,Wisconsin,Minnesota,-0.15,0.06
+401310756,2021,Wyoming,Hawai'i,-0.07,0.28
+401282154,2021,Alabama,Georgia,0.38,-0.04
+401331161,2021,App State,Louisiana,0.14,0.09
+401287953,2021,Baylor,Oklahoma State,-0.04,-0.16
+401387250,2021,California,USC,0.12,0.05
+401331162,2021,Cincinnati,Houston,0.34,-0.05
+401282154,2021,Georgia,Alabama,-0.04,0.38
+401331162,2021,Houston,Cincinnati,-0.05,0.34
+401331447,2021,Iowa,Michigan,-0.17,0.11
+401331160,2021,Kent State,Northern Illinois,0.08,0.25
+401331161,2021,Louisiana,App State,0.09,0.14
+401331447,2021,Michigan,Iowa,0.11,-0.17
+401331160,2021,Northern Illinois,Kent State,0.25,0.08
+401287953,2021,Oklahoma State,Baylor,-0.16,-0.04
+401331159,2021,Oregon,Utah,-0.22,0.21
+401331163,2021,Pittsburgh,Wake Forest,0.07,-0.21
+401310676,2021,San Diego State,Utah State,-0.24,0.24
+401387250,2021,USC,California,0.05,0.12
+401331159,2021,Utah,Oregon,0.21,-0.22
+401310676,2021,Utah State,San Diego State,0.24,-0.24
+401282156,2021,UTSA,Western Kentucky,0.36,0.36
+401331163,2021,Wake Forest,Pittsburgh,-0.21,0.07
+401282156,2021,Western Kentucky,UTSA,0.36,0.36
+401301056,2021,Army,Navy,-0.11,0.29
+401301056,2021,Navy,Army,0.29,-0.11
+401331222,2021,Air Force,Louisville,0.38,0.3
+401331235,2021,Alabama,Cincinnati,0.28,-0.15
+401331242,2021,Alabama,Georgia,-0.05,0.28
+401331166,2021,App State,Western Kentucky,0.19,0.48
+401331232,2021,Arizona State,Wisconsin,-0.02,0.07
+401331236,2021,Arkansas,Penn State,0.13,-0.09
+401331215,2021,Army,Missouri,0.21,0.22
+401331221,2021,Auburn,Houston,-0.04,0.05
+401331218,2021,Ball State,Georgia State,-0.08,0.47
+401331240,2021,Baylor,Ole Miss,-0.07,-0.27
+401331168,2021,BYU,UAB,0.17,0.28
+401331654,2021,Central Michigan,Washington State,-0.03,-0.16
+401331235,2021,Cincinnati,Alabama,-0.15,0.28
+401331227,2021,Clemson,Iowa State,0.02,-0.1
+401331165,2021,Coastal Carolina,Northern Illinois,0.62,0.23
+401331169,2021,Eastern Michigan,Liberty,-0.12,0.32
+401331216,2021,Florida,UCF,0.04,0.18
+401331167,2021,Fresno State,UTEP,0.28,0.12
+401331234,2021,Georgia,Michigan,0.43,-0.19
+401331242,2021,Georgia,Alabama,0.28,-0.05
+401331218,2021,Georgia State,Ball State,0.47,-0.08
+401331221,2021,Houston,Auburn,0.05,-0.04
+401331237,2021,Iowa,Kentucky,-0.02,0.07
+401331227,2021,Iowa State,Clemson,-0.1,0.02
+401331241,2021,Kansas State,LSU,0.48,0.11
+401331213,2021,Kent State,Wyoming,0.31,0.49
+401331237,2021,Kentucky,Iowa,0.07,-0.02
+401331169,2021,Liberty,Eastern Michigan,0.32,-0.12
+401331171,2021,Louisiana,Marshall,0.16,0.04
+401331222,2021,Louisville,Air Force,0.3,0.38
+401331241,2021,LSU,Kansas State,0.11,0.48
+401331171,2021,Marshall,Louisiana,0.04,0.16
+401331226,2021,Maryland,Virginia Tech,0.61,-0.02
+401391158,2021,Miami (OH),North Texas,0.22,-0.01
+401331234,2021,Michigan,Georgia,-0.19,0.43
+401331231,2021,Michigan State,Pittsburgh,0.1,0.0
+401331164,2021,Middle Tennessee,Toledo,0.04,0.2
+401331224,2021,Minnesota,West Virginia,-0.02,-0.05
+401331223,2021,Mississippi State,Texas Tech,-0.02,0.29
+401331215,2021,Missouri,Army,0.22,0.21
+401331219,2021,Nevada,Western Michigan,0.08,0.45
+401331229,2021,North Carolina,South Carolina,0.21,0.5
+401331165,2021,Northern Illinois,Coastal Carolina,0.23,0.62
+401391158,2021,North Texas,Miami (OH),-0.01,0.22
+401331238,2021,Notre Dame,Oklahoma State,0.19,0.19
+401331239,2021,Ohio State,Utah,0.51,0.25
+401331228,2021,Oklahoma,Oregon,0.47,0.31
+401331238,2021,Oklahoma State,Notre Dame,0.19,0.19
+401331172,2021,Old Dominion,Tulsa,0.12,0.21
+401331240,2021,Ole Miss,Baylor,-0.27,-0.07
+401331228,2021,Oregon,Oklahoma,0.31,0.47
+401331170,2021,Oregon State,Utah State,0.0,0.09
+401331236,2021,Penn State,Arkansas,-0.09,0.13
+401331231,2021,Pittsburgh,Michigan State,0.0,0.1
+401331230,2021,Purdue,Tennessee,0.1,0.25
+401331233,2021,Rutgers,Wake Forest,-0.18,0.31
+401331214,2021,San Diego State,UTSA,0.34,0.09
+401331229,2021,South Carolina,North Carolina,0.5,0.21
+401331230,2021,Tennessee,Purdue,0.25,0.1
+401331223,2021,Texas Tech,Mississippi State,0.29,-0.02
+401331164,2021,Toledo,Middle Tennessee,0.2,0.04
+401331172,2021,Tulsa,Old Dominion,0.21,0.12
+401331168,2021,UAB,BYU,0.28,0.17
+401331216,2021,UCF,Florida,0.18,0.04
+401331239,2021,Utah,Ohio State,0.25,0.51
+401331170,2021,Utah State,Oregon State,0.09,0.0
+401331167,2021,UTEP,Fresno State,0.12,0.28
+401331214,2021,UTSA,San Diego State,0.09,0.34
+401331226,2021,Virginia Tech,Maryland,-0.02,0.61
+401331233,2021,Wake Forest,Rutgers,0.31,-0.18
+401331654,2021,Washington State,Central Michigan,-0.16,-0.03
+401331166,2021,Western Kentucky,App State,0.48,0.19
+401331219,2021,Western Michigan,Nevada,0.45,0.08
+401331224,2021,West Virginia,Minnesota,-0.05,-0.02
+401331232,2021,Wisconsin,Arizona State,0.07,-0.02
+401331213,2021,Wyoming,Kent State,0.49,0.31

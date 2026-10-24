@@ -1,0 +1,3344 @@
+season,game_id,team,player_id,player,att
+2026,401869156,Roosevelt,5435479,Tony Chahino,32.0
+2026,401869156,Chicago State,5159024,Ashton Pannell,40.0
+2026,401868073,Idaho,4832830,Joshua Wood,25.0
+2026,401868073,Cal Poly,5219586,Anthony Grigsby Jr.,35.0
+2026,401868073,Cal Poly,-5505, Team,1.0
+2026,401856768,Idaho,4832830,Joshua Wood,27.0
+2026,401856768,Idaho,4923050,Israel Carter,3.0
+2026,401856768,Utah,5105849,Devon Dampier,18.0
+2026,401856768,Utah,5294263,Byrd Ficklin,8.0
+2026,401868279,Winona State,5403886,Jackson Flottmeyer,25.0
+2026,401868279,St. Thomas (MN),5151370,Anthony Policare,22.0
+2026,401868934,Morehouse,5169209,Miles Scott,36.0
+2026,401868934,Morehouse,5125765,PJ Hatter,2.0
+2026,401868934,Arkansas-Pine Bluff,5303364,Garrison Davis,15.0
+2026,401868934,Arkansas-Pine Bluff,5163068,Jack Schierholz,4.0
+2026,401868948,Albany State,5439027,JD Davis II,12.0
+2026,401868948,Albany State,5231174,Vinson Berry,10.0
+2026,401868948,Florida A&M,4880668,Isaiah Knowles,23.0
+2026,401868948,Florida A&M,4431976,Dustin Fletcher,2.0
+2026,401868953,Central State,5401495,Jackson Wasik,28.0
+2026,401868953,Grambling,5151696,RJ Johnson III,23.0
+2026,401868953,Grambling,4949488,Jacobe Robinson,3.0
+2026,401868953,Grambling,5085259,Ashton Frye,1.0
+2026,401868953,Grambling,5306457,Hayden Benoit,1.0
+2026,401868958,Edward Waters,4880485,Tavion Faulk,26.0
+2026,401868958,Edward Waters,4890452,Torey Morrison,3.0
+2026,401868958,Jackson State,5298925,Jared Lockhart,25.0
+2026,401868958,Jackson State,5157537,Caron Tyler,2.0
+2026,401868970,Kentucky State,5303490,Juan Gainous,31.0
+2026,401868970,Kentucky State,5233054,Denim Johnson,12.0
+2026,401868970,Southern,5442202,Christian Johnson,28.0
+2026,401868970,Southern,-7394, Team,1.0
+2026,401868325,Lane College,5444950,Crishon Overton,15.0
+2026,401868325,Alabama State,4887151,Andrew Body,14.0
+2026,401868325,Alabama State,5441398,Keegan Anderson,1.0
+2026,401868325,Alabama State,5441396,Aaron Frye,2.0
+2026,401868297,Miles,5222937,Brinley Vandiver,39.0
+2026,401868297,Alabama A&M,4568411,Cornelious Brown,21.0
+2026,401868297,Alabama A&M,5441219,Mac Armstrong,2.0
+2026,401896385,Miles,5222937,Brinley Vandiver,25.0
+2026,401896385,Miles,5399521,Dylan Willingham,4.0
+2026,401896385,Alcorn State,4878822,Jaylon Tolbert,28.0
+2026,401896385,Alcorn State,5229538,Bryan Wilson,6.0
+2026,401867982,Savannah State,5166450,Christian Burks,14.0
+2026,401867982,Savannah State,5297658,Fabian Walker,4.0
+2026,401867982,South Carolina State,5443342,Ronnie Robinson,11.0
+2026,401867982,South Carolina State,5096134,Keely Watson,12.0
+2026,401867982,South Carolina State,5304682,Zaivan Offord,1.0
+2026,401868952,Clark Atlanta,5437639,Xzavier Jackson,20.0
+2026,401868952,Clark Atlanta,5441093,Dylan Reese,5.0
+2026,401868952,Grambling,5151696,RJ Johnson III,17.0
+2026,401868952,Grambling,4949488,Jacobe Robinson,11.0
+2026,401868952,Grambling,5306457,Hayden Benoit,2.0
+2026,401868952,Grambling,5085259,Ashton Frye,5.0
+2026,401868373,Anderson (SC),5404106,Wilson Edwards,31.0
+2026,401868373,Furman,4432703,Jake Garcia,28.0
+2026,401869129,Louisiana Tech,5150998,Blake Baker,14.0
+2026,401869129,Louisiana Tech,5296376,Trey Kukuk,4.0
+2026,401869129,Louisiana Tech,5222150,Josh Brantley,1.0
+2026,401869129,Louisiana Tech,5184630,Jackson Bradley,3.0
+2026,401869129,Northwestern State,5226585,Abram Johnston,13.0
+2026,401869129,Northwestern State,4808719,Zach Wilcke,3.0
+2026,401856772,Oklahoma State,5219834,Drew Mestemaker,49.0
+2026,401856772,Tulsa,5224011,Baylor Hayes,24.0
+2026,401856771,Kansas State,4870857,Avery Johnson,21.0
+2026,401856771,Kansas State,5124584,Blake Barnett,5.0
+2026,401856771,Kansas State,4736246,Jacob Knuth,1.0
+2026,401856771,Nicholls,5164893,Ean Rodrigue,19.0
+2026,401856636,Baylor,5079555,D.J. Lagway,54.0
+2026,401856636,Auburn,4880272,Byrum Brown,35.0
+2026,401856779,Iowa State,5080403,Jaylen Raynor,16.0
+2026,401856779,Iowa State,5140620,Connor Moberly,1.0
+2026,401856779,Southeast Missouri State,4920145,Braylen Ragland,22.0
+2026,401856770,Texas Tech,5126468,Will Hammond,33.0
+2026,401856770,Texas Tech,5151618,Kirk Francis,1.0
+2026,401856770,Abilene Christian,5226080,John David Black,32.0
+2026,401856769,Kansas,5079604,Isaiah Marshall,19.0
+2026,401856769,Kansas,5151060,Cole Ballard,6.0
+2026,401856769,Long Island University,4837195,Luca Stanzani,19.0
+2026,401856769,Long Island University,5304536,Mekhi Moore,1.0
+2026,401858433,Boise State,4870513,Maddux Madsen,29.0
+2026,401858433,Oregon,4870921,Dante Moore,37.0
+2026,401858433,Oregon,4685565,Evan Stewart,1.0
+2026,401860878,Colorado State,5079443,Hauss Hejny,33.0
+2026,401860878,Colorado State,5193168,Terrence Smith Jr.,1.0
+2026,401860878,Wyoming,4838536,Tyler Hughes,19.0
+2026,401858436,Fresno State,5010409,Jayden Mandal,15.0
+2026,401858436,USC,4685454,Jayden Maiava,25.0
+2026,401858436,USC,5161854,Jonas Williams,6.0
+2026,401864499,North Dakota State,5087156,Nathan Hayes,22.0
+2026,401864499,North Dakota State,5156994,Trey Drake,4.0
+2026,401864499,Fordham,4812381,Gunnar Smith,22.0
+2026,401864577,North Dakota State,5087156,Nathan Hayes,22.0
+2026,401864577,North Dakota State,5297927,Preston Brown,1.0
+2026,401864577,Jacksonville State,5122157,Caden Creel,23.0
+2026,401858426,Northern Illinois,4881032,Taron Dickens,14.0
+2026,401858426,Northern Illinois,4884086,Jalen Macon,10.0
+2026,401858426,Iowa,5089314,Hank Brown,20.0
+2026,401858426,Iowa,5121030,Jeremy Hecklinski,16.0
+2026,401858426,Iowa,5192909,Jimmy Sullivan,4.0
+2026,401866411,Sacramento State,5158748,Jackson Sharman,28.0
+2026,401866411,Sacramento State,5401458,Brian Salazar,1.0
+2026,401866411,Mississippi Valley State,5168808,Jordan Davis,6.0
+2026,401866411,Mississippi Valley State,5233879,Josh Brown,13.0
+2026,401866408,Sacramento State,4920192,Carson Conklin,46.0
+2026,401866408,Eastern Michigan,4690158,Noah Kim,38.0
+2026,401860879,San Diego State,4685311,Jayden Denegal,17.0
+2026,401860879,San Diego State,5141664,Stone Saunders,4.0
+2026,401860879,Portland State,5152778,Gabe Downing,52.0
+2026,401856766,TCU,5083569,Jaden Craig,32.0
+2026,401856766,North Carolina,4592532,Billy Edwards,28.0
+2026,401856780,West Virginia,5079465,Michael Hawkins Jr.,14.0
+2026,401856780,Coastal Carolina,5296439,Deuce Bailey,37.0
+2026,401856667,Texas State,5148803,Brad Jackson,23.0
+2026,401856667,Texas State,5202460,Gavin Parkhurst,6.0
+2026,401856667,Texas,4870906,Arch Manning,27.0
+2026,401856667,Texas,5141509,Karle Lacey Jr.,7.0
+2026,401860880,Utah State,4923285,McCae Hillstead,30.0
+2026,401860880,Utah State,5081197,Grady Brosterhous,13.0
+2026,401860880,Utah State,-7774, Team,1.0
+2026,401860880,Idaho State,5158746,Jordan Cooke,33.0
+2026,401856664,UTEP,5141395,EJ Colson,12.0
+2026,401856664,UTEP,5232049,Raymond Moore III,5.0
+2026,401856664,UTEP,4877714,Jaden Smith,1.0
+2026,401856664,Oklahoma,4915980,John Mateer,17.0
+2026,401856664,Oklahoma,5224237,Whitt Newbauer,1.0
+2026,401856664,Oklahoma,5245123,Bowe Bentley,1.0
+2026,401867684,Chicago State,5159024,Ashton Pannell,33.0
+2026,401867684,UT Martin,5299226,Tate Surber,23.0
+2026,401867684,UT Martin,4801302,Julian Calvez,3.0
+2026,401868110,Southern Utah,5151171,Will Burns,34.0
+2026,401868110,Montana,5153708,Keali'i Ah Yat,28.0
+2026,401868158,Southern Utah,5151171,Will Burns,18.0
+2026,401868158,Weber State,5439505,Nate Dahle,44.0
+2026,401868336,Tennessee Tech,5027925,Jax Leatherwood,32.0
+2026,401868336,Chattanooga,5223983,Battle Alberson,16.0
+2026,401866621,Tennessee Tech,5027925,Jax Leatherwood,35.0
+2026,401866621,Tennessee Tech,-7610, Team,1.0
+2026,401866621,Monmouth,5226663,Frankie Weaver,41.0
+2026,401856775,Utah Tech,5224562,Bronson Barben,22.0
+2026,401856775,Utah Tech,4993406,CJ Tiller,9.0
+2026,401856775,BYU,5141367,Bear Bachmeier,20.0
+2026,401856775,BYU,4688540,Treyson Bourguet,2.0
+2026,401868118,Utah Tech,4993406,CJ Tiller,12.0
+2026,401868118,Utah Tech,5224562,Bronson Barben,21.0
+2026,401868118,Montana State,4684502,Justin Lamson,30.0
+2026,401868118,Montana State,5172597,Patrick Duchien,5.0
+2026,401868118,Montana State,5166308,Adam Jones,1.0
+2026,401868040,Villanova,4875733,Pat McQuaide,30.0
+2026,401868040,William & Mary,5226917,Winston Watkins,33.0
+2026,401868040,William & Mary,5402328,Patrick Blee,1.0
+2026,401868040,William & Mary,-8054, Team,1.0
+2026,401868040,William & Mary,5301114,Carter Carroll,1.0
+2026,401867989,Villanova,4875733,Pat McQuaide,20.0
+2026,401867989,Bucknell,5147067,Chris Dietrich,39.0
+2026,401867692,William & Mary,5226917,Winston Watkins,12.0
+2026,401867692,William & Mary,5301114,Carter Carroll,2.0
+2026,401867692,William & Mary,5402325,Khylil Johnson,1.0
+2026,401867692,Delaware State,5150645,Ui Ale,31.0
+2026,401867692,Delaware State,5154019,Noah Brannock,11.0
+2026,401868071,West Florida,5436233,Ty'ray Davis,17.0
+2026,401868071,West Florida,4790965,Donovan Leary,6.0
+2026,401868071,Central Arkansas,5416075,Donovyn Omolo,31.0
+2026,401874035,West Florida,5436233,Ty'ray Davis,17.0
+2026,401874035,Southern Illinois,5227786,Jake Curry,30.0
+2026,401874035,Southern Illinois,4697094,DJ Williams,8.0
+2026,401868074,Central Washington,5165008,Justin Brennan,36.0
+2026,401868074,Cal Poly,5219586,Anthony Grigsby Jr.,27.0
+2026,401867924,Stonehill,5106897,Jack O'Connell,18.0
+2026,401867924,New Haven,4685334,A.J. Duffy,35.0
+2026,401866619,Stonehill,5106897,Jack O'Connell,30.0
+2026,401866619,Bryant,5226265,Brennan Myer,20.0
+2026,401866619,Bryant,5157426,Jaden Keefner,1.0
+2026,401867866,Murray State,5193343,Jim Ogle,16.0
+2026,401867866,Murray State,5083941,Collin Shannon,6.0
+2026,401867866,Middle Tennessee,5194626,Roman Gagliano,26.0
+2026,401867865,Murray State,5083941,Collin Shannon,40.0
+2026,401867865,Eastern Illinois,5113896,Cole Lacrue,18.0
+2026,401868049,Abilene Christian,5226080,John David Black,25.0
+2026,401868049,Abilene Christian,5147465,Tucker Parks,8.0
+2026,401868049,Lamar,5154911,Aiden McCown,32.0
+2026,401856669,Austin Peay,4870889,Chris Parson,21.0
+2026,401856669,Vanderbilt,5121691,Blaze Berlowitz,16.0
+2026,401856669,Vanderbilt,5158948,Jared Curtis,9.0
+2026,401868060,Austin Peay,4870889,Chris Parson,21.0
+2026,401868060,Gardner-Webb,4869817,Cole Pennington,49.0
+2026,401868070,Central Arkansas,5416075,Donovyn Omolo,27.0
+2026,401868070,UT Martin,4801302,Julian Calvez,24.0
+2026,401868140,Eastern Kentucky,5301731,Tyler Travers,19.0
+2026,401868140,Jacksonville State,5122157,Caden Creel,28.0
+2026,401868140,Jacksonville State,5222557,Jack Moran,2.0
+2026,401868139,Eastern Kentucky,5301731,Tyler Travers,34.0
+2026,401868139,Western Carolina,4875128,Lex Thomas,35.0
+2026,401868149,North Alabama,4685698,Destin Wade,19.0
+2026,401868149,Samford,4870864,Gabarri Johnson,33.0
+2026,401856635,North Alabama,4685698,Destin Wade,23.0
+2026,401856635,North Alabama,5216796,Banks Bowen,1.0
+2026,401856635,Arkansas,5079516,KJ Jackson,35.0
+2026,401868235,Tarleton State,4899468,Kaden Anderson,21.0
+2026,401868235,Tarleton State,4702829,Braedyn Locke,6.0
+2026,401868235,Prairie View A&M,4801301,Tevin Carter,40.0
+2026,401868235,Prairie View A&M,5425111,Kaeden Smith,3.0
+2026,401866410,Tarleton State,4899468,Kaden Anderson,24.0
+2026,401866410,Bowling Green,5385753,Jay Kastantin,30.0
+2026,401867935,Alabama A&M,4568411,Cornelious Brown,41.0
+2026,401867935,Howard,5087297,Ja'Shawn Scroggins,36.0
+2026,401867935,Howard,5098448,Isaiah Freeman,2.0
+2026,401864432,Western Kentucky,5196864,Rodney Tisdale Jr.,40.0
+2026,401864432,Nevada,5205097,Carter Jones,15.0
+2026,401864432,Nevada,5103836,Marshaun Brown,1.0
+2026,401862699,Florida International,4870883,J.J. Kohl,50.0
+2026,401862699,South Florida,5079620,Michael Van Buren Jr.,18.0
+2026,401868324,Alabama State,4887151,Andrew Body,23.0
+2026,401868324,Southern,5442202,Christian Johnson,27.0
+2026,401856663,Arkansas-Pine Bluff,5163068,Jack Schierholz,10.0
+2026,401856663,Arkansas-Pine Bluff,5303364,Garrison Davis,13.0
+2026,401856663,Arkansas-Pine Bluff,5229490,Landon Holcomb,1.0
+2026,401856663,Missouri,5141684,Austin Simmons,19.0
+2026,401856663,Missouri,5195300,Matt Zollers,12.0
+2026,401856663,Missouri,4755664,Nick Evers,2.0
+2026,401868194,Jackson State,5298925,Jared Lockhart,26.0
+2026,401868194,Tennessee State,5162467,Daylin Lee,41.0
+2026,401856778,Oregon State,5212654,Braden Atkinson,48.0
+2026,401856778,Houston,4685574,Conner Weigman,30.0
+2026,401856778,Houston,5159035,Keisean Henderson,1.0
+2026,401858437,Washington State,5226019,Caden Pinnick,25.0
+2026,401858437,Washington,5079653,Demond Williams Jr.,35.0
+2026,401868962,Mississippi Valley State,5233879,Josh Brown,19.0
+2026,401868962,Mississippi Valley State,5168808,Jordan Davis,3.0
+2026,401868962,Nicholls,5164893,Ean Rodrigue,25.0
+2026,401868962,Nicholls,5226521,Preston Welch,9.0
+2026,401868962,Nicholls,5439307,Chase Richardson,7.0
+2026,401869960,James Madison,5172036,JC Evans,9.0
+2026,401869960,James Madison,5153978,Camden Coleman,9.0
+2026,401869960,Liberty,5138131,Deshawn Purdie,27.0
+2026,401858434,Marshall,4432691,Carlos Del Rio-Wilson,25.0
+2026,401858434,Marshall,4685697,Zion Turner,3.0
+2026,401858434,Penn State,4801299,Rocco Becht,18.0
+2026,401858434,Penn State,5164316,Alex Manske,8.0
+2026,401858434,Penn State,5082407,Connor Barry,1.0
+2026,401868967,Prairie View A&M,4801301,Tevin Carter,22.0
+2026,401868967,Prairie View A&M,5425111,Kaeden Smith,5.0
+2026,401868967,Prairie View A&M,5197116,Aiden Webb,1.0
+2026,401868967,Texas Southern,4917305,Cam'Ron McCoy,19.0
+2026,401868967,Texas Southern,5442341,Nelson Peterson Jr.,8.0
+2026,401867977,Texas Southern,4917305,Cam'Ron McCoy,19.0
+2026,401867977,North Carolina Central,5301057,Nelson Layne,31.0
+2026,401867977,North Carolina Central,5159177,Joshua Jones,3.0
+2026,401868170,Georgia Southern,4912238,Turner Helton,8.0
+2026,401868170,Georgia Southern,4685740,Max Johnson,39.0
+2026,401868170,Charleston Southern,5298248,Lek Powell,20.0
+2026,401868170,Charleston Southern,5224320,Jared Echols,9.0
+2026,401867973,Old Dominion,5193346,Quinn Henicle,12.0
+2026,401867973,Old Dominion,5295919,Ryan Huff,1.0
+2026,401867973,Norfolk State,5150426,Deljay Bailey,20.0
+2026,401866627,App State,4870999,Malachi Singleton,24.0
+2026,401866627,App State,5146664,Henry Hasselbeck,4.0
+2026,401866627,App State,5082965,Tommy Ulatowski,5.0
+2026,401866627,Maine,5226632,Eddie Buehler,32.0
+2026,401866623,Georgia State,5193926,Cameran Brown,20.0
+2026,401866623,Georgia State,5083490,Ayden Pereira,7.0
+2026,401866623,Georgia State,5381375,Gavin Nuckolls,3.0
+2026,401866623,Georgia State,5216706,TJ Stanley,3.0
+2026,401866623,North Carolina A&T,5164567,Kevin White,20.0
+2026,401866623,North Carolina A&T,5226768,Braxton Thomas,2.0
+2026,401866623,North Carolina A&T,5150663,Champ Long,1.0
+2026,401868316,South Alabama,4869553,Bishop Davenport,27.0
+2026,401868316,SE Louisiana,4685440,Kyle Lowe,20.0
+2026,401869142,Louisiana,4871091,D'Wayne' Winfield,21.0
+2026,401869142,Louisiana,5146661,Daniel Beale,6.0
+2026,401869142,Lamar,5154911,Aiden McCown,26.0
+2026,401869142,Lamar,5301719,Julian Salazar,5.0
+2026,401862695,Arkansas State,5123665,Trey Owens,30.0
+2026,401862695,Memphis,5165807,Marcus Stokes,15.0
+2026,401856662,UL Monroe,5207934,Austin Carlisle,10.0
+2026,401856662,UL Monroe,5122054,Aidan Armenta,16.0
+2026,401856662,UL Monroe,5158127,Landon Graves,2.0
+2026,401856662,Mississippi State,5177084,Kamario Taylor,34.0
+2026,401856662,Mississippi State,5294646,Parker Puckett,8.0
+2026,401868356,Southern Miss,4618083,Ethan Hampton,23.0
+2026,401868356,Southern Miss,4833635,Landy Lyddy,2.0
+2026,401868356,Southern Miss,5079628,John White,2.0
+2026,401868356,Alcorn State,4878822,Jaylon Tolbert,22.0
+2026,401868356,Alcorn State,5229538,Bryan Wilson,1.0
+2026,401870763,Troy,4431633,Will Crowder,24.0
+2026,401870763,Sam Houston,5148427,Landyn Locke,46.0
+2026,401858423,Massachusetts,4920153,William Watson III,22.0
+2026,401858423,Rutgers,4870900,Dylan Lonergan,29.0
+2026,401858423,Rutgers,5079717,AJ Surace,9.0
+2026,401864424,Delaware,5153846,Nick Minicucci,36.0
+2026,401864424,Delaware,5161800,Viron Ellison Jr.,1.0
+2026,401864424,Delaware,5224762,Braden Streeter,7.0
+2026,401864424,Merrimack,5225304,Cole Meehan,25.0
+2026,401864424,Merrimack,5146355,AJ Hairston,20.0
+2026,401856668,Missouri State,5083042,Skyler Locklear,17.0
+2026,401856668,Texas A&M,4870971,Marcel Reed,30.0
+2026,401856668,Texas A&M,5295969,Brady Hart,8.0
+2026,401868245,UT Rio Grande Valley,4685521,Garret Rangel,15.0
+2026,401868245,UT Rio Grande Valley,5300880,Aidan Jakobsohn,16.0
+2026,401868245,UT Rio Grande Valley,5300847,Atzel Chavez Jr.,4.0
+2026,401868245,UT Permian Basin,5398731,Nate TenBarge,34.0
+2026,401868245,UT Permian Basin,5398735,Aaron DeLeon,2.0
+2026,401862700,UT Rio Grande Valley,4685521,Garret Rangel,32.0
+2026,401862700,UT Rio Grande Valley,5300880,Aidan Jakobsohn,11.0
+2026,401862700,UT Rio Grande Valley,5300847,Atzel Chavez Jr.,4.0
+2026,401862700,UTSA,4775136,Owen McCown,27.0
+2026,401862700,UTSA,5151316,Brandon Tennison,2.0
+2026,401867988,Richmond,5083373,Ashten Snelsire,28.0
+2026,401867988,Bucknell,5147067,Chris Dietrich,30.0
+2026,401869127,Richmond,5083373,Ashten Snelsire,35.0
+2026,401869127,Howard,5087297,Ja'Shawn Scroggins,28.0
+2026,401868261,New Haven,4685334,A.J. Duffy,37.0
+2026,401868261,New Haven,5303904,Issac Glaudin,1.0
+2026,401868261,Marist,5088964,Sonny Mannino,19.0
+2026,401868007,Colgate,5089309,Jake Stearney,29.0
+2026,401868007,Fordham,4812381,Gunnar Smith,27.0
+2026,401868000,Colgate,5089309,Jake Stearney,21.0
+2026,401868000,Colgate,5226989,Joey Tomasso,1.0
+2026,401868000,Holy Cross,5154302,David Lynch,35.0
+2026,401868022,Holy Cross,5154302,David Lynch,40.0
+2026,401868022,Lehigh,5225902,Hayden Johnson,18.0
+2026,401861962,Lafayette,5153849,Daniel Lipovski,33.0
+2026,401861962,Lafayette,5225799,Jason Penza,9.0
+2026,401861962,UConn,5079619,Kalieb Osborne,26.0
+2026,401861962,UConn,5077806,Tucker McDonald,7.0
+2026,401868017,Lehigh,5225902,Hayden Johnson,19.0
+2026,401868017,Georgetown,5152626,Jacob Holtschlag,15.0
+2026,401868017,Georgetown,5225715,Jack Johnson,10.0
+2026,401868254,South Dakota Mines,5376567,Gage Baker,31.0
+2026,401868254,Drake,5404620,Riley Warzynski,56.0
+2026,401867978,Elizabeth City State,5445696,Josef Manley III,22.0
+2026,401867978,North Carolina Central,5301057,Nelson Layne,18.0
+2026,401867972,Winston-Salem State,4876646,Kendall McKoy,24.0
+2026,401867972,Norfolk State,5150426,Deljay Bailey,20.0
+2026,401867972,Norfolk State,5439441,Da'Jean Golmond,5.0
+2026,401867972,Norfolk State,5439443,Ty Jackson,1.0
+2026,401896383,Ohio Dominican,5308774,Carson Parker,48.0
+2026,401896383,Morehead State,5229448,David Parsons,56.0
+2026,401896383,Morehead State,-6750, Team,1.0
+2026,401868262,Franklin Pierce,5234395,Kevin Leal,18.0
+2026,401868262,Franklin Pierce,5156012,Shawn Brown,11.0
+2026,401868262,Franklin Pierce,-112334, Team,1.0
+2026,401868262,Marist,5088964,Sonny Mannino,25.0
+2026,401856767,Bethune-Cookman,4870848,Tyler Jefferson,10.0
+2026,401856767,Bethune-Cookman,4837469,Amari Jones,8.0
+2026,401856767,Bethune-Cookman,5159018,Joel Morris,2.0
+2026,401856767,UCF,4911929,Alonza Barnett,18.0
+2026,401856767,UCF,5085337,Keyone Jenkins,4.0
+2026,401868119,Butler,5224468,Gabe Passini,19.0
+2026,401868119,Butler,5224464,Jarrin Alley,6.0
+2026,401868119,Montana State,4684502,Justin Lamson,20.0
+2026,401868119,Montana State,5172597,Patrick Duchien,7.0
+2026,401868154,UC Davis,5298853,Treynor Cleeland,39.0
+2026,401868154,Portland State,5225576,Tyrese Smith,36.0
+2026,401868163,UC Davis,5298853,Treynor Cleeland,31.0
+2026,401868163,UC Davis,5164325,Jackson Kollock,2.0
+2026,401868163,San Diego,5165884,Dom Nankil,31.0
+2026,401868163,San Diego,5232445,CJ Ceron,1.0
+2026,401856777,Cincinnati,4685345,JC French,14.0
+2026,401856777,Cincinnati,5152045,Malachi Henry,1.0
+2026,401856777,Boston College,5307005,Mason McKenzie,35.0
+2026,401867845,Illinois State,5227699,Beckham Pellant,22.0
+2026,401867845,Illinois State,4833241,Gage Roy,13.0
+2026,401867845,Western Illinois,5299364,Cason Carswell,18.0
+2026,401867845,Western Illinois,5165011,Kennedy McGill,22.0
+2026,401891332,Illinois State,5227699,Beckham Pellant,6.0
+2026,401891332,Illinois State,4833241,Gage Roy,10.0
+2026,401891332,Illinois State,5298094,Chase Kwiatkowski,7.0
+2026,401891332,Illinois State,5298096,Cooper Kmet,1.0
+2026,401867874,Long Island University,4837195,Luca Stanzani,16.0
+2026,401867874,Long Island University,5095771,Ethan Greenwood,9.0
+2026,401867874,North Dakota,5155528,Jerry Kaminski,21.0
+2026,401867874,North Dakota,4920196,Javance Tupou'ata-Johnson,6.0
+2026,401868085,Northern Iowa,4826635,Jaxon Dailey,28.0
+2026,401868085,Eastern Washington,5152110,Nate Bell,33.0
+2026,401867889,Southern Illinois,5227786,Jake Curry,29.0
+2026,401867889,Samford,4870864,Gabarri Johnson,35.0
+2026,401867889,Samford,5441429,Kevonte Corbin,1.0
+2026,401867928,Wagner,5302638,Benjamin Newman,33.0
+2026,401867928,Southern Connecticut State,5087716,Brandon Jorgensen,21.0
+2026,401867916,Wagner,5227302,Jack Stevens,19.0
+2026,401867916,Wagner,5302638,Benjamin Newman,12.0
+2026,401867916,Robert Morris,4832789,Carson Haggard,32.0
+2026,401856659,Youngstown State,5109518,Beau Brungard,35.0
+2026,401856659,Youngstown State,5300743,Malachi Lewis,3.0
+2026,401856659,Kentucky,4918099,Kenny Minchey,27.0
+2026,401867894,Youngstown State,5109518,Beau Brungard,29.0
+2026,401867894,Youngstown State,5300743,Malachi Lewis,1.0
+2026,401867894,Mercyhurst,5227557,Alex Gevaudan,31.0
+2026,401866615,Delaware State,5150645,Ui Ale,29.0
+2026,401866615,Delaware State,4606658,Samari Collier,1.0
+2026,401866615,Stony Brook,5226896,Quinn Boyd,41.0
+2026,401856774,Morgan State,4870712,Cameron Edge,15.0
+2026,401856774,Morgan State,5221616,Ade Olanegan,8.0
+2026,401856774,Morgan State,5154534,Tahj Smith,1.0
+2026,401856774,Arizona State,5141378,Cutter Boley,27.0
+2026,401856774,Arizona State,4597499,Mikey Keene,7.0
+2026,401856774,Arizona State,5209295,Jake Fette,2.0
+2026,401866618,Morgan State,4870712,Cameron Edge,19.0
+2026,401866618,North Carolina A&T,5226768,Braxton Thomas,32.0
+2026,401866618,North Carolina A&T,-6815, Team,1.0
+2026,401867939,South Carolina State,5096134,Keely Watson,17.0
+2026,401867939,South Carolina State,5443342,Ronnie Robinson,3.0
+2026,401867939,Florida A&M,4880668,Isaiah Knowles,22.0
+2026,401867939,Florida A&M,4431976,Dustin Fletcher,8.0
+2026,401867875,North Dakota,5155528,Jerry Kaminski,29.0
+2026,401867875,North Dakota,4920196,Javance Tupou'ata-Johnson,1.0
+2026,401867875,St. Thomas (MN),5151370,Anthony Policare,24.0
+2026,401867875,St. Thomas (MN),5300206,Nick Peipert,9.0
+2026,401867882,South Dakota,5302115,Austyn Modrzewski,20.0
+2026,401867882,South Dakota,4878223,Jackson Proctor,3.0
+2026,401867882,South Dakota,-7358, Team,1.0
+2026,401867882,Central Connecticut,5105336,Conner Kenyon,18.0
+2026,401867882,Central Connecticut,4711410,Brett Griffis,13.0
+2026,401867883,South Dakota,5302115,Austyn Modrzewski,22.0
+2026,401867883,Northern Colorado,5219929,Kenny Lueth,29.0
+2026,401867883,Northern Colorado,4873077,Brayten Silbor,9.0
+2026,401858431,South Dakota State,5085784,Chase Mason,48.0
+2026,401858431,Northwestern,5075805,Aidan Chiles,24.0
+2026,401872615,South Dakota State,5085784,Chase Mason,10.0
+2026,401872615,South Dakota State,5151506,Josh Holst,1.0
+2026,401872615,Stetson,5219833,Tom von Grote,26.0
+2026,401872615,Stetson,5161159,Chris Stephenson,6.0
+2026,401864496,Duquesne,4695784,Carson Camp,18.0
+2026,401864496,Duquesne,5227106,Logan Kushner,4.0
+2026,401864496,Air Force,5238868,Liam Szarka,5.0
+2026,401864496,Air Force,5306440,Evan Medders,2.0
+2026,401858424,UAB,5057381,Ryder Burton,31.0
+2026,401858424,Illinois,4795295,Katin Houser,17.0
+2026,401856637,Florida Atlantic,4869991,Caden Veltkamp,52.0
+2026,401856637,Florida Atlantic,4914830,Easton Messer,1.0
+2026,401856637,Florida,5132812,Aaron Philo,21.0
+2026,401856637,Florida,5295814,Tramell Jones Jr.,5.0
+2026,401862694,Charlotte,5089540,Cole Gonzales,41.0
+2026,401862694,The Citadel,4695602,Nick Billoups,10.0
+2026,401862694,The Citadel,5223107,Quentin Hayes,3.0
+2026,401858425,North Texas,4801307,Tayven Jackson,28.0
+2026,401858425,North Texas,5215310,Chaston Ditta,1.0
+2026,401858425,Indiana,4685401,Josh Hoover,16.0
+2026,401862697,Rice,5145788,Gael Ochoa,5.0
+2026,401862697,Rice,4685291,Jacurri Brown,5.0
+2026,401862697,Houston Christian,5154855,Cutter Stewart,17.0
+2026,401862697,Houston Christian,4691966,Maddox Kopp,5.0
+2026,401862697,Houston Christian,5301346,Reilly Garcia,1.0
+2026,401870790,New Mexico State,5224084,Trey Hedden,20.0
+2026,401870790,New Mexico State,5152503,Adam Damante,3.0
+2026,401870790,Mercyhurst,5227557,Alex Gevaudan,21.0
+2026,401870790,Mercyhurst,5304132,Tyler Tusai,9.0
+2026,401870790,Mercyhurst,5186736,Anthony Wolter,1.0
+2026,401864570,New Mexico State,5224084,Trey Hedden,42.0
+2026,401864570,New Mexico State,5076584,Terrell Washington Jr.,1.0
+2026,401864570,Florida State,4838679,Ashton Daniels,27.0
+2026,401874042,East Texas A&M,5093929,Eric Rodriguez,31.0
+2026,401874042,Mercer,5152839,Jaylen King,28.0
+2026,401868306,East Texas A&M,5093929,Eric Rodriguez,16.0
+2026,401868306,East Texas A&M,5151407,Jack Jacobs,8.0
+2026,401868306,Stephen F. Austin,5169036,Gavin Rutherford,21.0
+2026,401868306,Stephen F. Austin,5303183,Bryson Broadway,4.0
+2026,401868306,Stephen F. Austin,5303186,JT Kitna,6.0
+2026,401868273,UVA Wise,5399189,McCalan Beason,42.0
+2026,401868273,Presbyterian,5300119,Landon Sharpe,43.0
+2026,401868273,Presbyterian,5231053,Max Holtzclaw,5.0
+2026,401868345,East Tennessee State,5164309,Mason Mims,21.0
+2026,401868345,East Tennessee State,5079367,Jadyn Davis,2.0
+2026,401868345,Tusculum,5081503,Teddy Gleaton,15.0
+2026,401866620,East Tennessee State,5164309,Mason Mims,41.0
+2026,401866620,Campbell,5154962,Kamden Sixkiller,42.0
+2026,401868274,Mercer,5152839,Jaylen King,15.0
+2026,401868274,Mercer,5193282,JP Pickles,5.0
+2026,401868274,Presbyterian,5300119,Landon Sharpe,29.0
+2026,401868274,Presbyterian,5231053,Max Holtzclaw,1.0
+2026,401868274,Presbyterian,5439630,Jayden Torres,5.0
+2026,401858211,VMI,5225341,JoJo Crump,8.0
+2026,401858211,VMI,5302501,Ian Reynolds,5.0
+2026,401858211,Virginia Tech,5144078,Ethan Grunkemeyer,20.0
+2026,401858211,Virginia Tech,5141366,Bryce Baker,12.0
+2026,401868101,VMI,5225341,JoJo Crump,7.0
+2026,401868101,VMI,5168665,Chandler Wilson,1.0
+2026,401868101,VMI,5302500,Nana Utsey,1.0
+2026,401868101,Idaho State,5158746,Jordan Cooke,29.0
+2026,401868101,Idaho State,5224050,Davis Harsin,10.0
+2026,401868315,Houston Christian,5154855,Cutter Stewart,18.0
+2026,401868315,Houston Christian,5299298,Trayjen Llanas-Wilcox,1.0
+2026,401868315,SE Louisiana,4685440,Kyle Lowe,27.0
+2026,401913104,Incarnate Word,5085112,Emmett Brown,7.0
+2026,401913104,Incarnate Word,5152821,David Rasor,4.0
+2026,401913104,Incarnate Word,5442098,Jackson Fields,2.0
+2026,401913104,Oklahoma Panhandle,5440457,Harrison Hackbarth,8.0
+2026,401913104,Oklahoma Panhandle,5440448,Tre Smith,19.0
+2026,401896384,Concord,4685693,Devin Kargman,34.0
+2026,401896384,Davidson,5224535,Casey Bullock,54.0
+2026,401896384,Davidson,5152328,Andrew Frazier,1.0
+2026,401868792,Fairmont State,5298363,Deven Sisler,9.0
+2026,401868792,Fairmont State,5376672,Nino Marzullo,20.0
+2026,401868792,Dayton,5154881,Bryce Schondelmyer,25.0
+2026,401868792,Dayton,5298683,Luke Pennington,5.0
+2026,401866614,Glenville State,5092662,JD Sherrod,30.0
+2026,401866614,Glenville State,5391435,Maddox Bowers,5.0
+2026,401866614,Elon,5212705,Brady Stober,26.0
+2026,401866614,Elon,5151062,TJ Crews IV,1.0
+2026,401867917,West Virginia State,5410568,Bryan Johnson,18.0
+2026,401867917,West Virginia State,5423160,Joe Dailey,15.0
+2026,401867917,Robert Morris,4832789,Carson Haggard,25.0
+2026,401867917,Robert Morris,5298328,Cooper Panteck,2.0
+2026,401862701,Army,5150297,Cale Hellums,9.0
+2026,401862701,Army,5219408,Ethan Washington,2.0
+2026,401862701,Army,5293684,Bryson Luter,2.0
+2026,401862701,Bryant,5226265,Brennan Myer,18.0
+2026,401862701,Bryant,5157426,Jaden Keefner,5.0
+2026,401858206,Stanford,4878681,Davis Warren,41.0
+2026,401858206,Stanford,5211073,Mike Mitchell Jr.,1.0
+2026,401858206,Miami,5121169,Darian Mensah,30.0
+2026,401858206,Miami,5141605,Luke Nickel,5.0
+2026,401858201,Stanford,4878681,Davis Warren,34.0
+2026,401858201,Hawai'i,5101124,Micah Alejado,51.0
+2026,401858201,Hawai'i,5211117,Bjorn Jurgensen,2.0
+2026,401858210,California,5164313,Jaron-Keawe Sagapolutele,41.0
+2026,401858210,California,5054036,Jackson Brousseau,6.0
+2026,401858210,UCLA,4870799,Nico Iamaleava,22.0
+2026,401858212,SMU,5084084,Kevin Jennings,36.0
+2026,401858212,Florida State,4838679,Ashton Daniels,23.0
+2026,401856773,Arizona,4801717,Noah Fifita,29.0
+2026,401856773,Arizona,5158407,Sawyer Anderson,8.0
+2026,401856773,Northern Arizona,5225414,Ty Pennington,26.0
+2026,401856773,Northern Arizona,5405896,Donivan Dixon,5.0
+2026,401856776,Colorado,5159016,Julian Lewis,27.0
+2026,401856776,Georgia Tech,5191162,Alberto Mendoza,23.0
+2026,401856776,Georgia Tech,-6037, Team,1.0
+2026,401864494,USC,4685454,Jayden Maiava,29.0
+2026,401864494,USC,5161854,Jonas Williams,7.0
+2026,401864494,San José State,5295238,Luke Weaver,32.0
+2026,401858427,Maryland,5141695,Malik Washington,31.0
+2026,401858427,Maryland,4872721,Cardell Williams,5.0
+2026,401858427,Maryland,5086182,Jack Capaldi,2.0
+2026,401858427,Hampton,5156293,Jalen Woods,12.0
+2026,401858427,Hampton,5088851,Tre'Von Taylor,7.0
+2026,401858429,Michigan State,5146670,Alessio Milivojevic,34.0
+2026,401858429,Toledo,5082330,John Alan Richter,21.0
+2026,401858428,Michigan,5141741,Bryce Underwood,22.0
+2026,401858428,Michigan,-6635, Team,1.0
+2026,401858428,Western Michigan,5074245,Broc Lowry,21.0
+2026,401858422,Minnesota,5144959,Drake Lindsey,24.0
+2026,401858422,Minnesota,5150680,Max Shikenjanski,3.0
+2026,401858422,Minnesota,5214645,Brady Palmer,6.0
+2026,401858422,Eastern Illinois,5113896,Cole Lacrue,12.0
+2026,401858422,Eastern Illinois,5083199,Jeremiah Salem,3.0
+2026,401858430,Nebraska,5044387,Anthony Colandrea,32.0
+2026,401858430,Ohio,5228762,Nick Poulos,31.0
+2026,401858430,Ohio,5171031,Matt Vezza,1.0
+2026,401858432,Ohio State,5079712,Julian Sayin,25.0
+2026,401858432,Ohio State,5214646,Luke Fahey,6.0
+2026,401858432,Ohio State,5146824,Tavien St. Clair,6.0
+2026,401858432,Ball State,5075392,Keldric Luster,33.0
+2026,401858432,Ball State,5152153,Tyler Mizzell,4.0
+2026,401858438,Wisconsin,5125715,Colton Joseph,30.0
+2026,401858438,Notre Dame,5079369,C.J. Carr,29.0
+2026,401858435,Purdue,5104738,Ryan Browne,29.0
+2026,401858435,Purdue,5149006,Evans Chuba,5.0
+2026,401858435,Indiana State,4685691,Brady Allen,5.0
+2026,401858435,Indiana State,5155321,Elijah Owens,17.0
+2026,401864425,Kennesaw State,4870645,Rickie Collins,23.0
+2026,401864425,Kennesaw State,5382898,Landon Varnes,7.0
+2026,401864425,Kennesaw State,5265536,Skyler Williams,4.0
+2026,401864425,West Georgia,5157481,Collin Hurst,15.0
+2026,401864425,West Georgia,4880196,Colton FitzGerald,8.0
+2026,401864425,West Georgia,5194695,Luke Marble,3.0
+2026,401858207,Miami (OH),5141549,David McComb,33.0
+2026,401858207,Miami (OH),5388435,Caleb Heavner,4.0
+2026,401858207,Pittsburgh,5208095,Mason Heintschel,41.0
+2026,401858207,Pittsburgh,4714300,Holden Geriner,3.0
+2026,401858204,Akron,5198324,Cibastian Broughton,26.0
+2026,401858204,Akron,5146903,Brayden Roggow,7.0
+2026,401858204,Wake Forest,4920227,Giovanni Lopez,32.0
+2026,401858204,Wake Forest,5141634,Steele Pizzella,3.0
+2026,401866409,Buffalo,5328086,Elijah Holmes,47.0
+2026,401866409,UAlbany,5095216,Kai Coln,36.0
+2026,401866409,UAlbany,5082909,Aidan Semo,5.0
+2026,401864498,Central Michigan,5149056,Jadyn Glasser,10.0
+2026,401864498,Central Michigan,5084769,Angel H Flores,6.0
+2026,401864498,New Mexico,5122887,Luke Moga,17.0
+2026,401864498,New Mexico,5261479,Toa Faavae,8.0
+2026,401864495,Eastern Michigan,4690158,Noah Kim,43.0
+2026,401864495,San José State,5295238,Luke Weaver,39.0
+2026,401864495,San José State,-7281, Team,1.0
+2026,401864495,San José State,5296610,Tama Amisone,1.0
+2026,401856665,Kent State,5119841,Dru Deshields,20.0
+2026,401856665,Kent State,5388310,Ethan Thanthanavong,1.0
+2026,401856665,Kent State,5222633,Nolan Good,2.0
+2026,401856665,South Carolina,4875127,Lanorris Sellers,23.0
+2026,401856665,South Carolina,5164334,Cutter Woods,8.0
+2026,401856665,South Carolina,5151218,Lucian Anderson III,2.0
+2026,401856658,Georgia,4685578,Gunner Stockton,16.0
+2026,401856658,Georgia,5079679,Ryan Puglisi,13.0
+2026,401856658,Georgia,5141602,Ryan Montgomery,2.0
+2026,401856658,Georgia,5229348,Hezekiah Millender,1.0
+2026,401856658,Georgia,5145507,Drew Miller,1.0
+2026,401856658,Tennessee State,5162467,Daylin Lee,19.0
+2026,401856658,Tennessee State,5298787,Byron McNair,5.0
+2026,401856658,Tennessee State,5079734,Marcelis Tate,2.0
+2026,401856660,LSU,5141563,Husan Longstreet,1.0
+2026,401856660,LSU,5078810,Sam Leavitt,28.0
+2026,401856660,LSU,5224789,Landen Clark,7.0
+2026,401856660,Clemson,4899369,Christopher Vizzina,16.0
+2026,401856660,Clemson,5159078,Tait Reynolds,6.0
+2026,401856661,Ole Miss,4911529,Trinidad Chambliss,36.0
+2026,401856661,Ole Miss,-7034, Team,1.0
+2026,401856661,Louisville,5078278,Lincoln Kienholz,29.0
+2026,401856634,Alabama,5141629,Keelon Russell,30.0
+2026,401856634,Alabama,5079508,Austin Mack,2.0
+2026,401856634,East Carolina,4433829,Mitch Griffis,16.0
+2026,401856634,East Carolina,5075800,Emory Williams,3.0
+2026,401856666,Tennessee,5158973,Faizon Brandon,17.0
+2026,401856666,Tennessee,5141571,George MacIntyre,7.0
+2026,401856666,Tennessee,4917093,Ryan Staub,3.0
+2026,401856666,Furman,4432703,Jake Garcia,17.0
+2026,401856666,Furman,5413484,Connor Ackerley,5.0
+2026,401866617,Merrimack,5146355,AJ Hairston,23.0
+2026,401866617,Merrimack,5225304,Cole Meehan,17.0
+2026,401866617,Rhode Island,5145592,Tyler Budge,29.0
+2026,401866617,Rhode Island,5226812,Alex McClelland,2.0
+2026,401868305,Stephen F. Austin,5169036,Gavin Rutherford,29.0
+2026,401868305,McNeese,5226368,Devin Lippold,18.0
+2026,401868305,McNeese,4915622,Jake Strong,14.0
+2026,401868240,West Georgia,5157481,Collin Hurst,30.0
+2026,401868240,West Georgia,4684061,T.J. Lockley,1.0
+2026,401868240,Chattanooga,5223983,Battle Alberson,17.0
+2026,401868240,Chattanooga,-5607, Team,1.0
+2026,401862698,Temple,5078166,Ajani Sheppard,10.0
+2026,401862698,Temple,5077787,Jaxon Smolik,6.0
+2026,401862698,Rhode Island,5145592,Tyler Budge,31.0
+2026,401862693,Memphis,5165807,Marcus Stokes,26.0
+2026,401862693,UNLV,4870607,Jackson Arnold,37.0
+2026,401862693,UNLV,-7753, Team,1.0
+2026,401862696,Navy,5158343,Braxton Woodson,6.0
+2026,401862696,Towson,5301657,Andrew Indorf,18.0
+2026,401862696,Towson,5405931,Jacob Davis,1.0
+2026,401858209,Tulane,5091890,Kadin Semonza,21.0
+2026,401858209,Tulane,4870518,Zeon Chriss,9.0
+2026,401858209,Duke,4694149,Walker Eget,26.0
+2026,401858209,Duke,-5849, Team,1.0
+2026,401858209,Duke,5185699,Dan Mahan,1.0
+2026,401858202,NC State,5079301,CJ Bailey,23.0
+2026,401858202,NC State,5148611,Will Wilson,4.0
+2026,401858202,Virginia,4685696,Beau Pribula,11.0
+2026,401858208,Syracuse,4685694,Steven Angeli,29.0
+2026,401858208,Syracuse,5153782,Amari Odom,3.0
+2026,401858208,Syracuse,4870928,Malachi Nelson,2.0
+2026,401858208,New Hampshire,5298487,Brooks Bentley,18.0
+2026,401858208,New Hampshire,5226704,Tommy McLeish,8.0
+2026,401864497,Hawai'i,5101124,Micah Alejado,41.0
+2026,401864497,Hawai'i,5211117,Bjorn Jurgensen,2.0
+2026,401864497,UNLV,4870607,Jackson Arnold,18.0
+2026,401917058,Campbell,5154962,Kamden Sixkiller,44.0
+2026,401917058,Western Carolina,4875128,Lex Thomas,44.0
+2026,401868169,Charleston Southern,5298248,Lek Powell,32.0
+2026,401868169,Lindenwood,5225648,Pops Battle,21.0
+2026,401866626,Davidson,5224535,Casey Bullock,32.0
+2026,401866626,Davidson,5298578,Jim Franklin,7.0
+2026,401866626,Elon,5151062,TJ Crews IV,7.0
+2026,401866626,Elon,5212705,Brady Stober,12.0
+2026,401866626,Elon,5405039,Tanner Payne,3.0
+2026,401868111,Drake,5404620,Riley Warzynski,60.0
+2026,401868111,Drake,5085677,Mitchell January,1.0
+2026,401868111,Drake,5404623,Braylon Wilson,3.0
+2026,401868111,Montana,5153708,Keali'i Ah Yat,40.0
+2026,401868111,Montana,5225217,Luke Flowers,1.0
+2026,401868084,Eastern Washington,5152110,Nate Bell,47.0
+2026,401868084,Northern Arizona,5225414,Ty Pennington,27.0
+2026,401868186,Gardner-Webb,4869817,Cole Pennington,54.0
+2026,401868186,Wofford,5156255,JT Fayard,22.0
+2026,401866613,Hampton,5156293,Jalen Woods,26.0
+2026,401866613,Hampton,5088851,Tre'Von Taylor,4.0
+2026,401867855,Indiana State,5155321,Elijah Owens,32.0
+2026,401867855,Southeast Missouri State,4920145,Braylen Ragland,36.0
+2026,401866622,Lindenwood,5225648,Pops Battle,28.0
+2026,401866622,Stony Brook,5226896,Quinn Boyd,35.0
+2026,401866532,Maine,5226632,Eddie Buehler,27.0
+2026,401866532,Towson,5301657,Andrew Indorf,21.0
+2026,401869136,McNeese,5226368,Devin Lippold,20.0
+2026,401869136,McNeese,5275329,Brady Barrier,9.0
+2026,401869136,Texas Wesleyan,5310009,Charlie Adamoli,33.0
+2026,401866624,Monmouth,5226663,Frankie Weaver,37.0
+2026,401866624,Sacred Heart,5225700,Jack Snyder,25.0
+2026,401868269,Morehead State,5229448,David Parsons,14.0
+2026,401868269,Morehead State,5084352,Bryce Patterson,4.0
+2026,401868269,Morehead State,5159385,Allen Fernett,2.0
+2026,401868269,Morehead State,4921315,Will Prichard,1.0
+2026,401868269,Morehead State,5300055,Jack Reilly,2.0
+2026,401868269,Morehead State,5300056,Jason Barket,3.0
+2026,401868269,Kentucky Christian,5305245,Xavier Phillips,33.0
+2026,401866616,New Hampshire,5298487,Brooks Bentley,27.0
+2026,401866616,New Hampshire,5226704,Tommy McLeish,3.0
+2026,401866616,UAlbany,5082909,Aidan Semo,1.0
+2026,401868129,Northern Colorado,5219929,Kenny Lueth,33.0
+2026,401868129,Weber State,4695709,Devin Brown,20.0
+2026,401868129,Weber State,5439505,Nate Dahle,8.0
+2026,401869128,Northwestern State,5226585,Abram Johnston,42.0
+2026,401869128,Northwestern State,4808719,Zach Wilcke,3.0
+2026,401869128,Louisiana Christian,5303570,Bryce Perkins,25.0
+2026,401869128,Louisiana Christian,5303566,Phillip Jones II,2.0
+2026,401868394,The Citadel,5223107,Quentin Hayes,20.0
+2026,401868394,The Citadel,4695602,Nick Billoups,4.0
+2026,401868394,Wofford,5156255,JT Fayard,26.0
+2026,401868394,Wofford,5439484,Kaeden Gilstrap,1.0
+2026,401868204,Western Illinois,5165011,Kennedy McGill,17.0
+2026,401868204,Western Illinois,5299364,Cason Carswell,8.0
+2026,401868204,Northwestern (IA),5376425,Colby Duncan,28.0
+2026,401868204,Northwestern (IA),5376453,Luke Anderson,2.0
+2026,401868227,Thomas More,5304710,Ben Chesser,32.0
+2026,401868227,Dayton,5154881,Bryce Schondelmyer,27.0
+2026,401868093,Idaho,4832830,Joshua Wood,40.0
+2026,401868093,Lamar,5154911,Aiden McCown,22.0
+2026,401868093,Lamar,5301725,Blake Thomas,1.0
+2026,401867796,Louisiana Tech,5150998,Blake Baker,21.0
+2026,401867796,Louisiana Tech,5296376,Trey Kukuk,3.0
+2026,401867796,LSU,5078810,Sam Leavitt,38.0
+2026,401867796,LSU,5224789,Landen Clark,3.0
+2026,401856782,Oklahoma State,5219834,Drew Mestemaker,43.0
+2026,401856782,Oregon,4870921,Dante Moore,29.0
+2026,401856781,Kansas State,4870857,Avery Johnson,34.0
+2026,401856781,Washington State,5226019,Caden Pinnick,20.0
+2026,401856784,Baylor,5145459,Nate Bennett,35.0
+2026,401856784,Baylor,5213685,Edward Griffin,6.0
+2026,401856784,Baylor,-5327, Team,1.0
+2026,401856784,Prairie View A&M,4801301,Tevin Carter,25.0
+2026,401856784,Prairie View A&M,5425111,Kaeden Smith,2.0
+2026,401856788,Iowa State,5080403,Jaylen Raynor,19.0
+2026,401856788,Iowa,5089314,Hank Brown,30.0
+2026,401856783,Texas Tech,5126468,Will Hammond,27.0
+2026,401856783,Texas Tech,4773919,Thomas Castellanos,1.0
+2026,401856783,Oregon State,5212654,Braden Atkinson,51.0
+2026,401856783,Oregon State,4917981,AJ Newberry,1.0
+2026,401856678,Kansas,5079604,Isaiah Marshall,30.0
+2026,401856678,Kansas,5151060,Cole Ballard,1.0
+2026,401856678,Missouri,5141684,Austin Simmons,29.0
+2026,401856678,Missouri,5195300,Matt Zollers,1.0
+2026,401860881,Boise State,4870513,Maddux Madsen,28.0
+2026,401860881,Memphis,5165807,Marcus Stokes,25.0
+2026,401860881,Memphis,-6589, Team,1.0
+2026,401860882,Colorado State,5079443,Hauss Hejny,30.0
+2026,401860882,Colorado State,5212610,Ksaan Farrar,7.0
+2026,401860882,Southern Utah,5151171,Will Burns,23.0
+2026,401860882,Southern Utah,5441448,Lee Norman-Lester,1.0
+2026,401860882,Southern Utah,5441452,Jackson Stevens,1.0
+2026,401860883,Fresno State,5010409,Jayden Mandal,26.0
+2026,401860883,Fresno State,5143919,Jordan Malau'ulu,1.0
+2026,401860883,Fresno State,5146667,Khristian Martin,2.0
+2026,401860883,Fresno State,-6007, Team,1.0
+2026,401860883,Sacramento State,5158748,Jackson Sharman,31.0
+2026,401864502,North Dakota State,5087156,Nathan Hayes,23.0
+2026,401864502,Air Force,5238868,Liam Szarka,10.0
+2026,401864502,Air Force,5306440,Evan Medders,4.0
+2026,401864502,Air Force,5295013,Mason Hayes,1.0
+2026,401864503,Northern Illinois,4881032,Taron Dickens,27.0
+2026,401864503,Northern Illinois,4884086,Jalen Macon,3.0
+2026,401864503,Illinois State,4833241,Gage Roy,23.0
+2026,401864503,Illinois State,5298094,Chase Kwiatkowski,1.0
+2026,401864503,Illinois State,5227699,Beckham Pellant,2.0
+2026,401864503,Illinois State,5227704,Dylan Lord,1.0
+2026,401858443,San Diego State,4685311,Jayden Denegal,17.0
+2026,401858443,San Diego State,5302259,Draiden Trudeau,1.0
+2026,401858443,UCLA,4870799,Nico Iamaleava,22.0
+2026,401858443,UCLA,-7720, Team,1.0
+2026,401856789,TCU,5083569,Jaden Craig,31.0
+2026,401856789,TCU,5141643,Adam Schobel,1.0
+2026,401856789,Grambling,5151696,RJ Johnson III,20.0
+2026,401856789,Grambling,4949488,Jacobe Robinson,2.0
+2026,401856789,Grambling,5085259,Ashton Frye,2.0
+2026,401856789,Grambling,5306457,Hayden Benoit,1.0
+2026,401856791,West Virginia,5079465,Michael Hawkins Jr.,7.0
+2026,401856791,West Virginia,5161828,Jyron Hughley,1.0
+2026,401856791,West Virginia,5164314,Scotty Fox Jr.,4.0
+2026,401856791,UT Martin,5299226,Tate Surber,28.0
+2026,401856791,UT Martin,4801302,Julian Calvez,4.0
+2026,401856791,UT Martin,5147475,Aidan Glover,1.0
+2026,401860884,Texas State,5148803,Brad Jackson,30.0
+2026,401860884,UTSA,4775136,Owen McCown,42.0
+2026,401860884,UTSA,4917054,David Amador,1.0
+2026,401858446,Utah State,5081197,Grady Brosterhous,28.0
+2026,401858446,Utah State,-7774, Team,1.0
+2026,401858446,Washington,5079653,Demond Williams Jr.,41.0
+2026,401864505,UTEP,5141395,EJ Colson,21.0
+2026,401864505,Texas Southern,4917305,Cam'Ron McCoy,17.0
+2026,401864505,Texas Southern,5442341,Nelson Peterson Jr.,5.0
+2026,401867685,Chicago State,5159024,Ashton Pannell,25.0
+2026,401867685,Chicago State,5440776,Jacob Tiberi,11.0
+2026,401867685,Kentucky Christian,5305245,Xavier Phillips,32.0
+2026,401867685,Kentucky Christian,5305244,Tayden Carpenter,4.0
+2026,401868386,Tennessee Tech,5027925,Jax Leatherwood,22.0
+2026,401868386,Samford,4870864,Gabarri Johnson,49.0
+2026,401868386,Samford,5441429,Kevonte Corbin,1.0
+2026,401868112,Utah Tech,5224562,Bronson Barben,35.0
+2026,401868112,Montana,5153708,Keali'i Ah Yat,35.0
+2026,401868112,Montana,5225217,Luke Flowers,2.0
+2026,401858215,Villanova,4875733,Pat McQuaide,31.0
+2026,401858215,Villanova,5402290,Nolan DiLucia,3.0
+2026,401858215,Louisville,5078278,Lincoln Kienholz,21.0
+2026,401858215,Louisville,5158996,Briggs Cherry,2.0
+2026,401858215,Louisville,4836476,Davin Wydner,4.0
+2026,401858215,Louisville,-6455, Team,1.0
+2026,401868033,William & Mary,5226917,Winston Watkins,22.0
+2026,401868033,William & Mary,5301114,Carter Carroll,17.0
+2026,401868033,Lehigh,5225902,Hayden Johnson,6.0
+2026,401868033,Lehigh,5299656,Derek Morgan,4.0
+2026,401866631,Stonehill,5106897,Jack O'Connell,44.0
+2026,401866631,New Hampshire,5298487,Brooks Bentley,22.0
+2026,401867867,Murray State,5083941,Collin Shannon,17.0
+2026,401867867,Murray State,5193343,Jim Ogle,13.0
+2026,401867867,Valparaiso,5089335,Rowan Keefe,35.0
+2026,401868050,Abilene Christian,5226080,John David Black,38.0
+2026,401868050,Stephen F. Austin,5169036,Gavin Rutherford,31.0
+2026,401868061,Austin Peay,4870889,Chris Parson,15.0
+2026,401868061,Austin Peay,5147872,Matthew Wilson,8.0
+2026,401868061,Morehead State,5229448,David Parsons,21.0
+2026,401868061,Morehead State,5084352,Bryce Patterson,7.0
+2026,401868061,Morehead State,5159385,Allen Fernett,1.0
+2026,401868072,Central Arkansas,5416075,Donovyn Omolo,15.0
+2026,401868072,Central Arkansas,5439149,Tyler Dudden,2.0
+2026,401868072,Central Oklahoma,5089181,Jett Huff,27.0
+2026,401868072,Central Oklahoma,5400189,Cruz Campbell,4.0
+2026,401868072,Central Oklahoma,4880274,Javohn Thomas,1.0
+2026,401868072,Central Oklahoma,5400185,Clayton Creasey,5.0
+2026,401868141,Eastern Kentucky,5301731,Tyler Travers,23.0
+2026,401868141,Chattanooga,5223983,Battle Alberson,27.0
+2026,401868150,North Alabama,4685698,Destin Wade,30.0
+2026,401868150,North Alabama,-6917, Team,1.0
+2026,401868150,SE Louisiana,4685440,Kyle Lowe,25.0
+2026,401868150,SE Louisiana,5405607,Issac Mooring III,1.0
+2026,401868236,Tarleton State,4899468,Kaden Anderson,48.0
+2026,401868236,McNeese,5226368,Devin Lippold,45.0
+2026,401868195,Alabama A&M,4568411,Cornelious Brown,38.0
+2026,401868195,Tennessee State,5162467,Daylin Lee,41.0
+2026,401856673,Western Kentucky,4920158,Brock Glenn,23.0
+2026,401856673,Western Kentucky,5196864,Rodney Tisdale Jr.,14.0
+2026,401856673,Georgia,4685578,Gunner Stockton,16.0
+2026,401856673,Georgia,5079679,Ryan Puglisi,5.0
+2026,401856673,Georgia,5141602,Ryan Montgomery,4.0
+2026,401866414,Florida International,4870883,J.J. Kohl,36.0
+2026,401866414,Florida International,5218988,JoJo Stone,1.0
+2026,401866414,Buffalo,5222591,Jason Wright,27.0
+2026,401866414,Buffalo,5328086,Elijah Holmes,14.0
+2026,401868326,Alabama State,4887151,Andrew Body,23.0
+2026,401868326,Alabama State,5441396,Aaron Frye,1.0
+2026,401868326,Troy,4431633,Will Crowder,27.0
+2026,401868326,Troy,4899096,Evan Crenshaw,1.0
+2026,401868326,Troy,4912119,Tucker Kilcrease,1.0
+2026,401871045,Middle Tennessee,5194626,Roman Gagliano,47.0
+2026,401871045,Marshall,4432691,Carlos Del Rio-Wilson,8.0
+2026,401871045,Marshall,4685697,Zion Turner,9.0
+2026,401871045,Marshall,5158251,Khalil Wilkins,6.0
+2026,401868355,Arkansas-Pine Bluff,5303364,Garrison Davis,24.0
+2026,401868355,Alcorn State,4878822,Jaylon Tolbert,45.0
+2026,401868963,Mississippi Valley State,5233879,Josh Brown,21.0
+2026,401868963,Mississippi Valley State,5168808,Jordan Davis,5.0
+2026,401868963,Lincoln (PA),5307885,Jayden Triplett,28.0
+2026,401868963,Lincoln (PA),5307884,Rhyel Miles-Eubanks,5.0
+2026,401867929,James Madison,5153978,Camden Coleman,18.0
+2026,401867929,James Madison,5147757,Arrington Maiden,8.0
+2026,401867929,James Madison,5332125,Tanner Vibabul,1.0
+2026,401867929,Wagner,5302638,Benjamin Newman,20.0
+2026,401867929,Wagner,5227351,Cristian Pinto,7.0
+2026,401856787,Southern,5442201,Wyatt McCauley,3.0
+2026,401856787,Southern,5442202,Christian Johnson,12.0
+2026,401856787,Southern,5308438,Ashton Strother,5.0
+2026,401856787,Houston,4685574,Conner Weigman,12.0
+2026,401856787,Houston,5159035,Keisean Henderson,7.0
+2026,401858219,Georgia Southern,4685740,Max Johnson,47.0
+2026,401858219,Georgia Southern,5212641,Weston Bryan,1.0
+2026,401858219,Clemson,5159078,Tait Reynolds,27.0
+2026,401858219,Clemson,4899369,Christopher Vizzina,7.0
+2026,401858219,Clemson,-5650, Team,1.0
+2026,401858221,Old Dominion,5193346,Quinn Henicle,21.0
+2026,401858221,Virginia Tech,5144078,Ethan Grunkemeyer,42.0
+2026,401858221,Virginia Tech,5141366,Bryce Baker,2.0
+2026,401868008,Coastal Carolina,5296439,Deuce Bailey,25.0
+2026,401868008,Coastal Carolina,5152029,Tre Guerra,3.0
+2026,401868008,Fordham,4812381,Gunnar Smith,20.0
+2026,401868008,Fordham,5402131,Crew Colon,1.0
+2026,401864571,App State,4870999,Malachi Singleton,28.0
+2026,401864571,East Carolina,4433829,Mitch Griffis,37.0
+2026,401869955,Georgia State,5193926,Cameran Brown,23.0
+2026,401869955,Kennesaw State,4870645,Rickie Collins,35.0
+2026,401864575,South Alabama,4869553,Bishop Davenport,32.0
+2026,401864575,Tulane,5091890,Kadin Semonza,22.0
+2026,401858445,Louisiana,4871091,D'Wayne' Winfield,22.0
+2026,401858445,USC,4685454,Jayden Maiava,29.0
+2026,401858445,USC,5161854,Jonas Williams,1.0
+2026,401858445,USC,-7768, Team,1.0
+2026,401868241,Arkansas State,5123665,Trey Owens,17.0
+2026,401868241,West Georgia,4880196,Colton FitzGerald,24.0
+2026,401868241,West Georgia,5157481,Collin Hurst,7.0
+2026,401868241,West Georgia,5194695,Luke Marble,1.0
+2026,401868241,West Georgia,-7914, Team,1.0
+2026,401868241,West Georgia,5224749,DK Daniel,1.0
+2026,401862708,UL Monroe,5207934,Austin Carlisle,19.0
+2026,401862708,UL Monroe,-6368, Team,1.0
+2026,401862708,UAB,5057381,Ryder Burton,16.0
+2026,401856671,Southern Miss,4618083,Ethan Hampton,27.0
+2026,401856671,Southern Miss,4833635,Landy Lyddy,6.0
+2026,401856671,Auburn,4880272,Byrum Brown,28.0
+2026,401856671,Auburn,5210501,Tristan Ti'a,4.0
+2026,401856671,Auburn,5296027,Christian Neptune,1.0
+2026,401866420,Massachusetts,4920153,William Watson III,10.0
+2026,401866420,Massachusetts,5327585,Aedan McCarthy,4.0
+2026,401866420,Sacred Heart,5225700,Jack Snyder,16.0
+2026,401866420,Sacred Heart,5165911,John Michalski,5.0
+2026,401866420,Sacred Heart,5298400,Dameon Crosby,4.0
+2026,401856684,Delaware,5153846,Nick Minicucci,27.0
+2026,401856684,Delaware,5224762,Braden Streeter,5.0
+2026,401856684,Vanderbilt,5158948,Jared Curtis,22.0
+2026,401856684,Vanderbilt,5121691,Blaze Berlowitz,9.0
+2026,401871046,Missouri State,5083042,Skyler Locklear,20.0
+2026,401871046,Missouri State,4685252,Henry Belin IV,4.0
+2026,401871046,Missouri State,5227766,Elijah Leonard,1.0
+2026,401871046,Lindenwood,5225648,Pops Battle,20.0
+2026,401868246,UT Rio Grande Valley,5300880,Aidan Jakobsohn,17.0
+2026,401868246,UT Rio Grande Valley,4685521,Garret Rangel,28.0
+2026,401868246,Nicholls,5164893,Ean Rodrigue,36.0
+2026,401858222,Richmond,5083373,Ashten Snelsire,23.0
+2026,401858222,Richmond,5299849,Jack Callaghan,4.0
+2026,401858222,NC State,5079301,CJ Bailey,17.0
+2026,401858222,NC State,5148611,Will Wilson,7.0
+2026,401872616,New Haven,4685334,A.J. Duffy,20.0
+2026,401872616,New Haven,5261653,Jake Tripptree,5.0
+2026,401872616,South Dakota State,5085784,Chase Mason,18.0
+2026,401872616,South Dakota State,5227810,Jack Henry,1.0
+2026,401872616,South Dakota State,5151506,Josh Holst,3.0
+2026,401867990,Bucknell,5147067,Chris Dietrich,30.0
+2026,401867990,VMI,5302501,Ian Reynolds,27.0
+2026,401866415,Colgate,5089309,Jake Stearney,31.0
+2026,401866415,Central Michigan,5084769,Angel H Flores,13.0
+2026,401866415,Central Michigan,5295480,Marcus Beamon,4.0
+2026,401866415,Central Michigan,5149056,Jadyn Glasser,4.0
+2026,401866417,Holy Cross,5154302,David Lynch,25.0
+2026,401866417,Miami (OH),5141549,David McComb,13.0
+2026,401866417,Miami (OH),5388435,Caleb Heavner,2.0
+2026,401868028,Lafayette,5153849,Daniel Lipovski,31.0
+2026,401868028,Lafayette,5225799,Jason Penza,1.0
+2026,401868028,Marist,5088964,Sonny Mannino,38.0
+2026,401867983,Virginia State,5303118,Rahsaan Matthews Jr.,19.0
+2026,401867983,Virginia State,5303128,Baron Davis,2.0
+2026,401867983,Virginia State,5446889,Anthony Hansom,3.0
+2026,401867983,South Carolina State,5096134,Keely Watson,19.0
+2026,401867983,South Carolina State,5443342,Ronnie Robinson,6.0
+2026,401867983,South Carolina State,-7355, Team,1.0
+2026,401867983,South Carolina State,5231378,Darius Thompson,1.0
+2026,401867953,Bowie State,5446735,Jaylin Solomon,18.0
+2026,401867953,Bowie State,5303828,Kyle Hawkins,2.0
+2026,401867953,Delaware State,5150645,Ui Ale,16.0
+2026,401867953,Delaware State,5154019,Noah Brannock,10.0
+2026,401858444,UConn,5079619,Kalieb Osborne,21.0
+2026,401858444,Maryland,5141695,Malik Washington,41.0
+2026,401858444,Maryland,4872721,Cardell Williams,1.0
+2026,401868285,Bethune-Cookman,4837469,Amari Jones,10.0
+2026,401868285,Bethune-Cookman,4870848,Tyler Jefferson,18.0
+2026,401868285,Bethune-Cookman,5159018,Joel Morris,1.0
+2026,401868285,Stetson,5219833,Tom von Grote,31.0
+2026,401868285,Stetson,5161159,Chris Stephenson,2.0
+2026,401868210,Butler,5224468,Gabe Passini,20.0
+2026,401868210,Butler,5224464,Jarrin Alley,2.0
+2026,401868210,Butler,5403603,Christian Kramer,1.0
+2026,401868210,Franklin,5424237,Josh Bruner,2.0
+2026,401868210,Franklin,5428456,Marshall Kmiecik,25.0
+2026,401864504,Cal Poly,5219586,Anthony Grigsby Jr.,40.0
+2026,401864504,San José State,5295238,Luke Weaver,34.0
+2026,401858223,UC Davis,5164325,Jackson Kollock,10.0
+2026,401858223,UC Davis,5298853,Treynor Cleeland,26.0
+2026,401858223,SMU,5084084,Kevin Jennings,16.0
+2026,401858223,SMU,5141487,Ty Hawkins,13.0
+2026,401858223,SMU,5084086,Charlie Fiser,2.0
+2026,401858223,SMU,5161878,Cole Leinart,1.0
+2026,401856810,BYU,5141367,Bear Bachmeier,26.0
+2026,401856810,Arizona,4801717,Noah Fifita,31.0
+2026,401856786,Cincinnati,4685345,JC French,24.0
+2026,401856786,Cincinnati,5084404,Liam O'Brien,5.0
+2026,401856786,Cincinnati,5089327,Samaj Jones,2.0
+2026,401856786,Western Carolina,4875128,Lex Thomas,32.0
+2026,401856786,Western Carolina,5231037,Isaac Lee,3.0
+2026,401856786,Western Carolina,5441193,Patrick Harding,2.0
+2026,401856790,UCF,4911929,Alonza Barnett,31.0
+2026,401856790,Pittsburgh,5208095,Mason Heintschel,29.0
+2026,401866632,Long Island University,4837195,Luca Stanzani,19.0
+2026,401866632,Long Island University,5230035,Evan Brooks,1.0
+2026,401866632,Long Island University,5304536,Mekhi Moore,1.0
+2026,401866632,UAlbany,5095216,Kai Coln,23.0
+2026,401866632,UAlbany,5082909,Aidan Semo,6.0
+2026,401868255,Northern Iowa,4826635,Jaxon Dailey,23.0
+2026,401868255,Drake,5404620,Riley Warzynski,47.0
+2026,401868255,Drake,5404623,Braylon Wilson,5.0
+2026,401867890,Southern Illinois,4697094,DJ Williams,30.0
+2026,401867890,Southern Illinois,4877480,Lem Wash,1.0
+2026,401867890,Southeast Missouri State,4920145,Braylen Ragland,44.0
+2026,401867895,Youngstown State,5109518,Beau Brungard,23.0
+2026,401867895,Youngstown State,5300743,Malachi Lewis,9.0
+2026,401867895,Duquesne,4695784,Carson Camp,19.0
+2026,401867895,Duquesne,5227106,Logan Kushner,6.0
+2026,401858439,Howard,5087297,Ja'Shawn Scroggins,15.0
+2026,401858439,Howard,5098448,Isaiah Freeman,5.0
+2026,401858439,Indiana,4685401,Josh Hoover,11.0
+2026,401858439,Indiana,4695867,Grant Wilson,2.0
+2026,401858439,Indiana,5145553,Tyler Cherry,3.0
+2026,401867966,Morgan State,4870712,Cameron Edge,19.0
+2026,401867966,Morgan State,5154534,Tahj Smith,5.0
+2026,401867966,Morgan State,5221616,Ade Olanegan,9.0
+2026,401867966,Morgan State,5092438,Raeden Oliver,1.0
+2026,401867966,Virginia Lynchburg,5306367,Max Zavala,25.0
+2026,401867966,Virginia Lynchburg,5451208,Brayden Morgan,19.0
+2026,401867966,Virginia Lynchburg,5451167,Christian Banks,3.0
+2026,401858220,Norfolk State,5150426,Deljay Bailey,25.0
+2026,401858220,Norfolk State,5439441,Da'Jean Golmond,6.0
+2026,401858220,Norfolk State,5439443,Ty Jackson,3.0
+2026,401858220,Virginia,4685696,Beau Pribula,14.0
+2026,401858220,Virginia,5145789,Cole Geer,4.0
+2026,401858220,Virginia,4870819,Eli Holstein,6.0
+2026,401866633,North Carolina Central,5301057,Nelson Layne,19.0
+2026,401866633,North Carolina A&T,5164567,Kevin White,44.0
+2026,401867876,North Dakota,5155528,Jerry Kaminski,29.0
+2026,401867876,Portland State,5152778,Gabe Downing,39.0
+2026,401867884,South Dakota,5302115,Austyn Modrzewski,24.0
+2026,401867884,South Dakota,4878223,Jackson Proctor,1.0
+2026,401867884,Eastern Washington,5152110,Nate Bell,36.0
+2026,401862703,Florida Atlantic,4869991,Caden Veltkamp,32.0
+2026,401862703,Florida Atlantic,5219898,Drew Devillier,1.0
+2026,401862703,Navy,5220473,Jackson Gutierrez,12.0
+2026,401862703,Navy,5158343,Braxton Woodson,11.0
+2026,401856676,Charlotte,5089540,Cole Gonzales,21.0
+2026,401856676,Charlotte,4801306,Conner Harrell,6.0
+2026,401856676,Charlotte,5272738,Jaylen White,1.0
+2026,401856676,Ole Miss,4911529,Trinidad Chambliss,26.0
+2026,401856676,Ole Miss,5141506,Deuce Knight,8.0
+2026,401862705,North Texas,4801307,Tayven Jackson,26.0
+2026,401862705,North Texas,5215310,Chaston Ditta,2.0
+2026,401862705,North Texas,5175092,Chris Jimerson Jr.,1.0
+2026,401862705,UNLV,4870607,Jackson Arnold,27.0
+2026,401862705,UNLV,4685495,Alex Orji,5.0
+2026,401862705,UNLV,-7753, Team,1.0
+2026,401859184,Rice,4685291,Jacurri Brown,12.0
+2026,401859184,Notre Dame,5079369,C.J. Carr,20.0
+2026,401859184,Notre Dame,5159115,Noah Grubbs,11.0
+2026,401859184,Notre Dame,5280155,Teddy Jarrard,2.0
+2026,401866418,Jacksonville State,5122157,Caden Creel,24.0
+2026,401866418,Jacksonville State,5087930,Jamill Williams,1.0
+2026,401866418,Jacksonville State,5295639,Carter Lewis,1.0
+2026,401866418,Ohio,5171031,Matt Vezza,12.0
+2026,401866418,Ohio,5228762,Nick Poulos,5.0
+2026,401866418,Ohio,5244755,Levi Davis,2.0
+2026,401866418,Ohio,-7006, Team,1.0
+2026,401868187,Liberty,5138131,Deshawn Purdie,17.0
+2026,401868187,Liberty,4602923,Jaylen Henderson,4.0
+2026,401868187,Gardner-Webb,4869817,Cole Pennington,38.0
+2026,401864578,New Mexico State,5224084,Trey Hedden,35.0
+2026,401864578,Hawai'i,5101124,Micah Alejado,45.0
+2026,401864578,Hawai'i,5218881,Tama Uiliata,1.0
+2026,401862707,Sam Houston,5148427,Landyn Locke,34.0
+2026,401862707,Sam Houston,-7268, Team,1.0
+2026,401862707,Tulsa,5224011,Baylor Hayes,29.0
+2026,401862707,Tulsa,4565355,Dexter Williams II,1.0
+2026,401862707,Tulsa,4710860,Oran Singleton Jr.,2.0
+2026,401862707,Tulsa,5163541,Max Tulen,1.0
+2026,401869130,East Texas A&M,5151407,Jack Jacobs,22.0
+2026,401869130,East Texas A&M,5441957,Luke Glass,1.0
+2026,401869130,Northwestern State,5226585,Abram Johnston,7.0
+2026,401869130,Northwestern State,4808719,Zach Wilcke,19.0
+2026,401858218,East Tennessee State,5164309,Mason Mims,31.0
+2026,401858218,East Tennessee State,-5860, Team,1.0
+2026,401858218,North Carolina,4592532,Billy Edwards,20.0
+2026,401858218,North Carolina,5145396,Miles O'Neill,6.0
+2026,401868374,Mercer,5152839,Jaylen King,35.0
+2026,401868374,Mercer,5193282,JP Pickles,1.0
+2026,401868374,Furman,4432703,Jake Garcia,28.0
+2026,401869150,Houston Christian,5154855,Cutter Stewart,10.0
+2026,401869150,Houston Christian,4691966,Maddox Kopp,2.0
+2026,401869150,Houston Christian,5301346,Reilly Garcia,4.0
+2026,401869150,Houston Christian,4869317,Diego Tello,1.0
+2026,401868123,Incarnate Word,5085112,Emmett Brown,50.0
+2026,401868123,Incarnate Word,5152821,David Rasor,3.0
+2026,401868123,Northern Arizona,5225414,Ty Pennington,25.0
+2026,401870822,Dickinson,5399304,Ben Klassen,35.0
+2026,401870822,Davidson,5224535,Casey Bullock,41.0
+2026,401868280,Northern Michigan,5445626,Liam Oczkowski,17.0
+2026,401868280,Northern Michigan,5297475,Duke Shovald,8.0
+2026,401868280,St. Thomas (MN),5300206,Nick Peipert,27.0
+2026,401868280,St. Thomas (MN),5300209,Jack Wallace,3.0
+2026,401862702,Army,5150297,Cale Hellums,10.0
+2026,401862702,Army,5082118,Zach Mundell,1.0
+2026,401862702,South Florida,5079620,Michael Van Buren Jr.,30.0
+2026,401858216,California,5164313,Jaron-Keawe Sagapolutele,34.0
+2026,401858216,Syracuse,4685694,Steven Angeli,49.0
+2026,401858216,Syracuse,5290980,Jimmy Gregg,1.0
+2026,401856683,Arizona State,5141378,Cutter Boley,34.0
+2026,401856683,Texas A&M,4870971,Marcel Reed,25.0
+2026,401856785,Colorado,5159016,Julian Lewis,23.0
+2026,401856785,Colorado,5214655,Kaneal Sweetwyne,10.0
+2026,401856785,Colorado,5079771,Isaac Wilson,2.0
+2026,401856785,Weber State,5439505,Nate Dahle,48.0
+2026,401856785,Weber State,5151291,Cash Mccollum,4.0
+2026,401856670,Utah,5105849,Devon Dampier,24.0
+2026,401856670,Utah,5294263,Byrd Ficklin,4.0
+2026,401856670,Arkansas,5079516,KJ Jackson,34.0
+2026,401856670,Arkansas,5141473,AJ Hill,14.0
+2026,401858440,Michigan State,5146670,Alessio Milivojevic,20.0
+2026,401858440,Michigan State,4700135,Cam Fancher,6.0
+2026,401858440,Eastern Michigan,4690158,Noah Kim,26.0
+2026,401856679,Michigan,5141741,Bryce Underwood,17.0
+2026,401856679,Oklahoma,4915980,John Mateer,33.0
+2026,401856677,Minnesota,5144959,Drake Lindsey,48.0
+2026,401856677,Mississippi State,5177084,Kamario Taylor,22.0
+2026,401858441,Nebraska,5044387,Anthony Colandrea,24.0
+2026,401858441,Nebraska,5141556,TJ Lateef,8.0
+2026,401858441,Bowling Green,5385753,Jay Kastantin,16.0
+2026,401858214,Rutgers,5079717,AJ Surace,27.0
+2026,401858214,Boston College,5307005,Mason McKenzie,29.0
+2026,401856682,Ohio State,5079712,Julian Sayin,32.0
+2026,401856682,Texas,4870906,Arch Manning,37.0
+2026,401858442,Penn State,4801299,Rocco Becht,27.0
+2026,401858442,Temple,5077787,Jaxon Smolik,16.0
+2026,401858442,Temple,5078166,Ajani Sheppard,6.0
+2026,401858447,Wisconsin,5125715,Colton Joseph,22.0
+2026,401858447,Western Illinois,5165011,Kennedy McGill,22.0
+2026,401858447,Western Illinois,5299364,Cason Carswell,2.0
+2026,401858217,Illinois,4795295,Katin Houser,35.0
+2026,401858217,Illinois,-6210, Team,1.0
+2026,401858217,Duke,4694149,Walker Eget,21.0
+2026,401858217,Duke,5185699,Dan Mahan,1.0
+2026,401858224,Purdue,5104738,Ryan Browne,42.0
+2026,401858224,Wake Forest,4920227,Giovanni Lopez,27.0
+2026,401866412,Akron,5198324,Cibastian Broughton,27.0
+2026,401866412,Akron,5146903,Brayden Roggow,6.0
+2026,401866412,Robert Morris,4832789,Carson Haggard,28.0
+2026,401866412,Robert Morris,5298328,Cooper Panteck,2.0
+2026,401866413,Ball State,5075392,Keldric Luster,32.0
+2026,401866413,Stony Brook,5226896,Quinn Boyd,35.0
+2026,401866413,Stony Brook,5405824,Frenchmon Bethea,1.0
+2026,401866416,Kent State,5119841,Dru Deshields,25.0
+2026,401866416,Kent State,5222633,Nolan Good,3.0
+2026,401866416,Wofford,5203716,Ethan Drumm,16.0
+2026,401866416,Wofford,5156255,JT Fayard,11.0
+2026,401866419,Toledo,5082330,John Alan Richter,24.0
+2026,401866419,Toledo,5200190,Walter Moses,1.0
+2026,401866419,Toledo,5394415,Khamoni Robinson,6.0
+2026,401866419,Central Connecticut,5105336,Conner Kenyon,15.0
+2026,401866419,Central Connecticut,4711410,Brett Griffis,18.0
+2026,401866421,Western Michigan,5074245,Broc Lowry,20.0
+2026,401866421,Western Michigan,5126475,Trey Petty,5.0
+2026,401866421,Monmouth,5226663,Frankie Weaver,46.0
+2026,401856672,Florida,5132812,Aaron Philo,21.0
+2026,401856672,Florida,5295814,Tramell Jones Jr.,11.0
+2026,401856672,Campbell,5154962,Kamden Sixkiller,30.0
+2026,401856672,Campbell,5299304,Grayson Harvey,8.0
+2026,401856674,Kentucky,4918099,Kenny Minchey,31.0
+2026,401856674,Kentucky,-6315, Team,1.0
+2026,401856674,Alabama,5141629,Keelon Russell,23.0
+2026,401856680,South Carolina,4875127,Lanorris Sellers,23.0
+2026,401856680,South Carolina,5164334,Cutter Woods,3.0
+2026,401856680,Towson,5301657,Andrew Indorf,30.0
+2026,401856680,Towson,5405931,Jacob Davis,4.0
+2026,401856681,Tennessee,5158973,Faizon Brandon,21.0
+2026,401856681,Georgia Tech,5191162,Alberto Mendoza,40.0
+2026,401866630,Merrimack,5146355,AJ Hairston,16.0
+2026,401866630,Merrimack,5225304,Cole Meehan,2.0
+2026,401866630,Maine,5226632,Eddie Buehler,25.0
+2026,401866630,Maine,5300776,Michael McMaugh,1.0
+2026,401866630,Maine,5083500,Evan Wallace,1.0
+2026,401865252,Mercyhurst,5186736,Anthony Wolter,20.0
+2026,401865252,Mercyhurst,5304132,Tyler Tusai,7.0
+2026,401865252,New Mexico,5261479,Toa Faavae,9.0
+2026,401865252,New Mexico,5122887,Luke Moga,9.0
+2026,401866629,Bryant,5226265,Brennan Myer,29.0
+2026,401866629,Hampton,5088851,Tre'Von Taylor,24.0
+2026,401866629,Hampton,5156293,Jalen Woods,7.0
+2026,401858213,Miami,5121169,Darian Mensah,15.0
+2026,401858213,Miami,5141605,Luke Nickel,8.0
+2026,401858213,Miami,5161816,Dereon Coleman,6.0
+2026,401858213,Florida A&M,5442040,Armond Parker,7.0
+2026,401858213,Florida A&M,4431976,Dustin Fletcher,17.0
+2026,401858213,Florida A&M,5227056,James Hayes,2.0
+2026,401864500,Nevada,4819250,AJ Bianco,20.0
+2026,401864500,Nevada,5077500,Luke Duncan,16.0
+2026,401864500,Montana State,4684502,Justin Lamson,23.0
+2026,401864506,Wyoming,4838536,Tyler Hughes,26.0
+2026,401864506,Northern Colorado,5219929,Kenny Lueth,23.0
+2026,401864506,Northern Colorado,4873077,Brayten Silbor,3.0
+2026,401868171,Charleston Southern,5298248,Lek Powell,16.0
+2026,401868171,The Citadel,5223107,Quentin Hayes,14.0
+2026,401867856,Eastern Illinois,5113896,Cole Lacrue,34.0
+2026,401867856,Indiana State,5155321,Elijah Owens,33.0
+2026,401867856,Indiana State,-6231, Team,1.0
+2026,401866628,Elon,5151062,TJ Crews IV,22.0
+2026,401866628,Elon,5405039,Tanner Payne,3.0
+2026,401866628,Rhode Island,5145592,Tyler Budge,28.0
+2026,401868102,Idaho State,5158746,Jordan Cooke,26.0
+2026,401868102,Idaho State,5224050,Davis Harsin,3.0
+2026,401868102,Idaho State,5298611,Wyatt Horton,1.0
+2026,401868102,San Diego,5165884,Dom Nankil,22.0
+2026,401868102,San Diego,-7271, Team,1.0
+2026,401868102,San Diego,5232445,CJ Ceron,3.0
+2026,401856695,Vanderbilt,5158948,Jared Curtis,34.0
+2026,401856695,NC State,5079301,CJ Bailey,37.0
+2026,401856695,NC State,5079745,Joshisa Trader,1.0
+2026,401856798,Iowa State,5080403,Jaylen Raynor,17.0
+2026,401856798,Iowa State,5140620,Connor Moberly,1.0
+2026,401856798,Bowling Green,5385753,Jay Kastantin,17.0
+2026,401856798,Bowling Green,4912647,Austin Novosad,5.0
+2026,401856811,Texas Tech,5126468,Will Hammond,27.0
+2026,401856811,Texas Tech,4773919,Thomas Castellanos,1.0
+2026,401856811,Houston,4685574,Conner Weigman,38.0
+2026,401858228,Georgia Tech,5191162,Alberto Mendoza,21.0
+2026,401858228,Georgia Tech,5207610,Grady Adamson,1.0
+2026,401858228,Mercer,5193282,JP Pickles,11.0
+2026,401858228,Mercer,5152839,Jaylen King,3.0
+2026,401858451,Minnesota,5144959,Drake Lindsey,31.0
+2026,401858451,Akron,5146903,Brayden Roggow,25.0
+2026,401858451,Akron,5198324,Cibastian Broughton,13.0
+2026,401858451,Akron,5209397,Semaj Beals,1.0
+2026,401858455,Oregon,4870921,Dante Moore,23.0
+2026,401858455,Oregon,5079572,Dylan Raiola,11.0
+2026,401858455,Oregon,5141659,Akili Smith Jr.,4.0
+2026,401858455,Oregon,5158446,Brock Thomas,5.0
+2026,401858455,Portland State,5152778,Gabe Downing,20.0
+2026,401860889,Texas State,5148803,Brad Jackson,22.0
+2026,401860889,North Texas,4801307,Tayven Jackson,57.0
+2026,401862774,Toledo,5082330,John Alan Richter,51.0
+2026,401862774,Temple,5078166,Ajani Sheppard,22.0
+2026,401862774,Temple,5077787,Jaxon Smolik,1.0
+2026,401862710,Old Dominion,5193346,Quinn Henicle,20.0
+2026,401862710,East Carolina,4433829,Mitch Griffis,12.0
+2026,401862710,East Carolina,5226083,Jason Dickerson,1.0
+2026,401862710,East Carolina,5075800,Emory Williams,7.0
+2026,401862710,East Carolina,4430798,Kyler Pearson,1.0
+2026,401862771,Florida Atlantic,4869991,Caden Veltkamp,36.0
+2026,401862771,Florida International,4870883,J.J. Kohl,43.0
+2026,401864508,Central Michigan,5084769,Angel H Flores,7.0
+2026,401864508,Wyoming,4838536,Tyler Hughes,30.0
+2026,401864508,Wyoming,5220376,Bart Edmiston Jr.,1.0
+2026,401866424,Stonehill,5106897,Jack O'Connell,21.0
+2026,401866424,Stonehill,5229295,Drew Eason,10.0
+2026,401866424,Massachusetts,4920153,William Watson III,25.0
+2026,401856802,Virginia,4685696,Beau Pribula,33.0
+2026,401856802,West Virginia,5079465,Michael Hawkins Jr.,17.0
+2026,401868051,Idaho,4832830,Joshua Wood,34.0
+2026,401868051,Idaho,4923050,Israel Carter,1.0
+2026,401868051,Abilene Christian,5147465,Tucker Parks,21.0
+2026,401867805,Brown,5155943,James Murphy,38.0
+2026,401867805,Brown,-5448, Team,1.0
+2026,401867805,New Haven,4685334,A.J. Duffy,47.0
+2026,401866638,Bryant,5226265,Brennan Myer,20.0
+2026,401866638,Princeton,5442807,Wyatt Becker,29.0
+2026,401867686,Chicago State,5159024,Ashton Pannell,26.0
+2026,401867686,Butler,5224468,Gabe Passini,23.0
+2026,401868023,Holy Cross,5154302,David Lynch,38.0
+2026,401868023,Holy Cross,5231612,Jake Croce,1.0
+2026,401868023,Holy Cross,-6165, Team,1.0
+2026,401868023,Yale,5079683,Dante Reno,43.0
+2026,401868275,Western Carolina,4875128,Lex Thomas,33.0
+2026,401868275,Western Carolina,5231037,Isaac Lee,8.0
+2026,401868275,Presbyterian,5300119,Landon Sharpe,27.0
+2026,401868275,Presbyterian,5231079,Thatcher Hutton,1.0
+2026,401868935,Arkansas-Pine Bluff,5303364,Garrison Davis,16.0
+2026,401868935,Arkansas-Pine Bluff,5163068,Jack Schierholz,2.0
+2026,401868935,Central State,5401495,Jackson Wasik,43.0
+2026,401868935,Central State,5401501,Moe Williams,1.0
+2026,401868935,Central State,5306872,Damon Griffin II,1.0
+2026,401867979,Gardner-Webb,4869817,Cole Pennington,38.0
+2026,401867979,North Carolina Central,5301057,Nelson Layne,15.0
+2026,401867984,Furman,5413484,Connor Ackerley,18.0
+2026,401867984,Furman,4432703,Jake Garcia,22.0
+2026,401867984,South Carolina State,5096134,Keely Watson,25.0
+2026,401867984,South Carolina State,5443342,Ronnie Robinson,7.0
+2026,401868959,Jackson State,5298925,Jared Lockhart,30.0
+2026,401868959,Tuskegee,5303523,Bryson McGrew,26.0
+2026,401868196,Tennessee State,5162467,Daylin Lee,27.0
+2026,401868196,Florida A&M,5442040,Armond Parker,25.0
+2026,401868196,Florida A&M,4431976,Dustin Fletcher,11.0
+2026,401868196,Florida A&M,-5992, Team,1.0
+2026,401868298,Alabama A&M,4568411,Cornelious Brown,32.0
+2026,401868298,Alabama A&M,5441219,Mac Armstrong,7.0
+2026,401868298,Alabama A&M,5225612,Eric Handley,1.0
+2026,401868298,Alabama A&M,-5157, Team,1.0
+2026,401868298,Bowie State,5303828,Kyle Hawkins,10.0
+2026,401858457,USC,4685454,Jayden Maiava,32.0
+2026,401858457,Rutgers,4870900,Dylan Lonergan,36.0
+2026,401858457,Rutgers,5221407,Jakob Anderson,1.0
+2026,401867804,Baylor,5145459,Nate Bennett,24.0
+2026,401867804,Louisiana Tech,5296376,Trey Kukuk,44.0
+2026,401866422,Liberty,5138131,Deshawn Purdie,20.0
+2026,401866422,Liberty,4602923,Jaylen Henderson,4.0
+2026,401866422,Ball State,5075392,Keldric Luster,21.0
+2026,401858458,UCLA,4870799,Nico Iamaleava,31.0
+2026,401858458,UCLA,5142594,Madden Iamaleava,1.0
+2026,401858458,Purdue,5104738,Ryan Browne,30.0
+2026,401858458,Purdue,5220031,Dylan Drennan,1.0
+2026,401860890,Washington State,5226019,Caden Pinnick,22.0
+2026,401860890,Duquesne,4695784,Carson Camp,18.0
+2026,401860890,Duquesne,5227106,Logan Kushner,2.0
+2026,401856694,Texas A&M,4870971,Marcel Reed,49.0
+2026,401856694,Kentucky,4918099,Kenny Minchey,18.0
+2026,401856797,Miami (OH),5141549,David McComb,28.0
+2026,401856797,Cincinnati,4685345,JC French,43.0
+2026,401856803,Oklahoma State,5219834,Drew Mestemaker,22.0
+2026,401856803,Oklahoma State,5291690,Broderick Vehrs,6.0
+2026,401856803,Murray State,5193343,Jim Ogle,21.0
+2026,401856803,Murray State,5227854,Baxter Wright,2.0
+2026,401856796,Colorado,5159016,Julian Lewis,29.0
+2026,401856796,Northwestern,5075805,Aidan Chiles,22.0
+2026,401858225,Pittsburgh,5208095,Mason Heintschel,23.0
+2026,401858225,Syracuse,4685694,Steven Angeli,25.0
+2026,401858225,Syracuse,5153782,Amari Odom,7.0
+2026,401858226,Wake Forest,4920227,Giovanni Lopez,46.0
+2026,401858226,Miami,5121169,Darian Mensah,34.0
+2026,401869940,Delaware,5153846,Nick Minicucci,32.0
+2026,401869940,Coastal Carolina,5296439,Deuce Bailey,26.0
+2026,401856686,Arkansas,5079516,KJ Jackson,27.0
+2026,401856686,Arkansas,5141473,AJ Hill,14.0
+2026,401856686,Arkansas,3116099,Monte Harrison,1.0
+2026,401856686,Georgia,4685578,Gunner Stockton,13.0
+2026,401856686,Georgia,5079679,Ryan Puglisi,8.0
+2026,401858229,Clemson,5159078,Tait Reynolds,29.0
+2026,401858229,Clemson,-5650, Team,1.0
+2026,401858229,North Carolina,4592532,Billy Edwards,30.0
+2026,401858448,Illinois,4795295,Katin Houser,29.0
+2026,401858448,Southern Illinois,4697094,DJ Williams,38.0
+2026,401858448,Southern Illinois,5151518,Kyle Thomas,1.0
+2026,401858448,Southern Illinois,5227786,Jake Curry,3.0
+2026,401856799,Arkansas State,5123665,Trey Owens,24.0
+2026,401856799,TCU,5083569,Jaden Craig,29.0
+2026,401862775,Tulsa,4565355,Dexter Williams II,26.0
+2026,401862775,East Texas A&M,5441947,Reese Mooney,19.0
+2026,401862775,East Texas A&M,5151407,Jack Jacobs,20.0
+2026,401862777,South Florida,5079620,Michael Van Buren Jr.,32.0
+2026,401862777,South Florida,5079542,Luke Kromenhoek,3.0
+2026,401862777,Delaware State,5150645,Ui Ale,22.0
+2026,401862777,Delaware State,5154019,Noah Brannock,2.0
+2026,401862777,Delaware State,4685542,Jayden Sauray,3.0
+2026,401864574,App State,4870999,Malachi Singleton,42.0
+2026,401864574,App State,5146664,Henry Hasselbeck,1.0
+2026,401864574,Charlotte,5089540,Cole Gonzales,35.0
+2026,401856691,Mississippi State,5177084,Kamario Taylor,26.0
+2026,401856691,Mississippi State,5141501,Gracen Harris,1.0
+2026,401856691,South Carolina,4875127,Lanorris Sellers,40.0
+2026,401856800,Georgia State,5193926,Cameran Brown,47.0
+2026,401856800,Georgia State,5083490,Ayden Pereira,2.0
+2026,401856800,UCF,5085337,Keyone Jenkins,17.0
+2026,401858454,Ohio State,5079712,Julian Sayin,22.0
+2026,401858454,Ohio State,5214646,Luke Fahey,5.0
+2026,401858454,Ohio State,5146824,Tavien St. Clair,1.0
+2026,401858454,Kent State,5119841,Dru Deshields,15.0
+2026,401858454,Kent State,5295590,Da'Realyst Clark,1.0
+2026,401858454,Kent State,5222633,Nolan Good,1.0
+2026,401858454,Kent State,5388310,Ethan Thanthanavong,1.0
+2026,401858454,Kent State,5141625,Deante Ruffin,3.0
+2026,401858456,Penn State,4801299,Rocco Becht,19.0
+2026,401858456,Penn State,5164316,Alex Manske,6.0
+2026,401858456,Penn State,5082407,Connor Barry,1.0
+2026,401858456,Buffalo,5222591,Jason Wright,25.0
+2026,401858460,Wisconsin,5125715,Colton Joseph,33.0
+2026,401858460,Eastern Michigan,4690158,Noah Kim,28.0
+2026,401858460,Eastern Michigan,5144207,Jace Stuckey,2.0
+2026,401856801,Utah State,5081197,Grady Brosterhous,29.0
+2026,401856801,Utah,5105849,Devon Dampier,32.0
+2026,401856801,Utah,5294263,Byrd Ficklin,5.0
+2026,401858227,Boston College,5307005,Mason McKenzie,21.0
+2026,401858227,Maine,5226632,Eddie Buehler,32.0
+2026,401856685,Alabama,5141629,Keelon Russell,30.0
+2026,401856685,Florida State,4838679,Ashton Daniels,29.0
+2026,401856689,Missouri,5141684,Austin Simmons,19.0
+2026,401856689,Troy,4431633,Will Crowder,32.0
+2026,401862772,Memphis,5165807,Marcus Stokes,32.0
+2026,401862772,Memphis,5079548,Air Noland,3.0
+2026,401862772,UT Martin,5299226,Tate Surber,29.0
+2026,401868942,Bethune-Cookman,4870848,Tyler Jefferson,8.0
+2026,401868942,Bethune-Cookman,4837469,Amari Jones,3.0
+2026,401868942,Bethune-Cookman,5159018,Joel Morris,1.0
+2026,401868942,Virginia Lynchburg,5451167,Christian Banks,19.0
+2026,401868942,Virginia Lynchburg,5451201,Angel Granado,4.0
+2026,401868942,Virginia Lynchburg,5451165,Thomas Adamsky,5.0
+2026,401868942,Virginia Lynchburg,5306367,Max Zavala,1.0
+2026,401868942,Virginia Lynchburg,5451166,James Carney,4.0
+2026,401868159,Southern Utah,5151171,Will Burns,28.0
+2026,401868159,St. Thomas (MN),5300206,Nick Peipert,29.0
+2026,401868159,St. Thomas (MN),5226234,Quentin Cobb-Butler,1.0
+2026,401867834,Lehigh,5299656,Derek Morgan,13.0
+2026,401867834,Dartmouth,5155398,Grayson Saunier,30.0
+2026,401867991,Pennsylvania,5289943,Miles Teodecki,34.0
+2026,401867991,Bucknell,5402059,Emmett Dowling,21.0
+2026,401867991,Bucknell,5147067,Chris Dietrich,9.0
+2026,401868397,VMI,5302501,Ian Reynolds,18.0
+2026,401868397,Davidson,5224535,Casey Bullock,32.0
+2026,401873620,Mercyhurst,5227557,Alex Gevaudan,25.0
+2026,401873620,Glenville State,5391435,Maddox Bowers,42.0
+2026,401873620,Glenville State,5092662,JD Sherrod,19.0
+2026,401867908,Villanova,4875733,Pat McQuaide,27.0
+2026,401867908,Long Island University,5095771,Ethan Greenwood,21.0
+2026,401867908,Long Island University,4837195,Luca Stanzani,2.0
+2026,401868009,William & Mary,5226917,Winston Watkins,26.0
+2026,401868009,Fordham,4812381,Gunnar Smith,21.0
+2026,401866641,Hampton,5088851,Tre'Von Taylor,24.0
+2026,401866641,Hampton,5405365,Xavier Brookins,3.0
+2026,401866641,Norfolk State,5150426,Deljay Bailey,25.0
+2026,401866641,Norfolk State,-6911, Team,1.0
+2026,401866637,Elon,5299669,Elijah Guttman,19.0
+2026,401866637,Elon,5151062,TJ Crews IV,9.0
+2026,401866637,Sacred Heart,5225700,Jack Snyder,27.0
+2026,401868133,Southeast Missouri State,4920145,Braylen Ragland,29.0
+2026,401868133,Central Arkansas,5416075,Donovyn Omolo,27.0
+2026,401867826,Colgate,5089309,Jake Stearney,18.0
+2026,401867826,Colgate,5226989,Joey Tomasso,7.0
+2026,401867826,Cornell,5154161,Garrett Bass-Sulpizio,37.0
+2026,401867826,Cornell,-5723, Team,1.0
+2026,401866640,Towson,5301657,Andrew Indorf,43.0
+2026,401866640,Towson,5405931,Jacob Davis,1.0
+2026,401866640,Morgan State,4870712,Cameron Edge,23.0
+2026,401866640,Morgan State,5302655,Dante Archie,1.0
+2026,401868337,Chattanooga,5223983,Battle Alberson,7.0
+2026,401868337,Wofford,5203716,Ethan Drumm,14.0
+2026,401868337,Wofford,5156255,JT Fayard,4.0
+2026,401866634,Stony Brook,5226896,Quinn Boyd,24.0
+2026,401866634,Rhode Island,5145592,Tyler Budge,28.0
+2026,401868142,Dayton,5154881,Bryce Schondelmyer,30.0
+2026,401868142,Dayton,5156755,Gavin Lochow,1.0
+2026,401868142,Eastern Kentucky,5153754,Jordyn Potts,36.0
+2026,401868142,Eastern Kentucky,5082396,Blake Kendall,1.0
+2026,401867846,Illinois State,4833241,Gage Roy,19.0
+2026,401867846,Illinois State,5227699,Beckham Pellant,11.0
+2026,401867846,Illinois State,5298094,Chase Kwiatkowski,3.0
+2026,401867846,Eastern Illinois,5113896,Cole Lacrue,25.0
+2026,401867846,Eastern Illinois,5154306,Devin Whitlock,1.0
+2026,401866635,UAlbany,5095216,Kai Coln,19.0
+2026,401866635,UAlbany,5082909,Aidan Semo,6.0
+2026,401866635,Monmouth,5226663,Frankie Weaver,15.0
+2026,401866639,New Hampshire,5298487,Brooks Bentley,37.0
+2026,401866639,Harvard,5299776,Charlie Smith,19.0
+2026,401866639,Harvard,5174062,Dante Torres,2.0
+2026,401867817,Lafayette,5153849,Daniel Lipovski,28.0
+2026,401867817,Lafayette,5225799,Jason Penza,1.0
+2026,401867817,Columbia,5154125,Chase Goodwin,39.0
+2026,401867817,Columbia,5154126,Xander Menapace,1.0
+2026,401867857,Valparaiso,5089335,Rowan Keefe,30.0
+2026,401867857,Valparaiso,5195374,Noah Ehrlich,8.0
+2026,401867857,Indiana State,5155321,Elijah Owens,15.0
+2026,401867857,Indiana State,4685691,Brady Allen,15.0
+2026,401867857,Indiana State,5227733,Brock Riddle,3.0
+2026,401868964,Mississippi Valley State,5233879,Josh Brown,30.0
+2026,401868964,Delta State,5141606,Emile Picarella III,6.0
+2026,401868964,Delta State,5212625,Jayvon Gilmore,13.0
+2026,401868018,Georgetown,5225715,Jack Johnson,23.0
+2026,401868018,Richmond,5083373,Ashten Snelsire,49.0
+2026,401866636,North Carolina A&T,5150663,Champ Long,21.0
+2026,401866636,North Carolina A&T,5164567,Kevin White,20.0
+2026,401866636,Campbell,5154962,Kamden Sixkiller,25.0
+2026,401866636,Campbell,5299304,Grayson Harvey,4.0
+2026,401856792,Kansas State,4870857,Avery Johnson,28.0
+2026,401856792,Tulane,5091890,Kadin Semonza,26.0
+2026,401868317,UL Monroe,5207934,Austin Carlisle,24.0
+2026,401868317,UL Monroe,5122054,Aidan Armenta,21.0
+2026,401868317,SE Louisiana,4685440,Kyle Lowe,25.0
+2026,401871047,Marshall,4432691,Carlos Del Rio-Wilson,25.0
+2026,401871047,Marshall,5158251,Khalil Wilkins,1.0
+2026,401871047,Missouri State,5083042,Skyler Locklear,28.0
+2026,401871047,Missouri State,4685252,Henry Belin IV,1.0
+2026,401862773,Western Michigan,5074245,Broc Lowry,20.0
+2026,401862773,Western Michigan,-7923, Team,1.0
+2026,401862773,Rice,4685291,Jacurri Brown,18.0
+2026,401869948,Jacksonville State,5122157,Caden Creel,24.0
+2026,401869948,Georgia Southern,4685740,Max Johnson,33.0
+2026,401868172,Charleston Southern,5298248,Lek Powell,8.0
+2026,401868172,Charleston Southern,5224320,Jared Echols,10.0
+2026,401868172,Charleston Southern,5298251,Caden Clay,2.0
+2026,401868172,Point University,5233379,Samir Wylie,25.0
+2026,401868172,Point University,5451437,Carter Magerski,3.0
+2026,401868242,East Tennessee State,5164309,Mason Mims,24.0
+2026,401868242,West Georgia,4880196,Colton FitzGerald,50.0
+2026,401868242,West Georgia,5194695,Luke Marble,1.0
+2026,401868242,West Georgia,-7914, Team,2.0
+2026,401868062,Austin Peay,4870889,Chris Parson,16.0
+2026,401868062,West Florida,5436233,Ty'ray Davis,14.0
+2026,401868062,West Florida,4790965,Donovan Leary,12.0
+2026,401867898,Montana State,4684502,Justin Lamson,28.0
+2026,401867898,Montana State,5224371,Dane Steel,1.0
+2026,401867898,Central Connecticut,4711410,Brett Griffis,30.0
+2026,401868237,Tarleton State,4899468,Kaden Anderson,32.0
+2026,401868237,Tarleton State,4702829,Braedyn Locke,1.0
+2026,401868237,Merrimack,5146355,AJ Hairston,32.0
+2026,401868237,Merrimack,5225304,Cole Meehan,2.0
+2026,401868130,Northern Colorado,4873077,Brayten Silbor,33.0
+2026,401868130,Northern Colorado,5219929,Kenny Lueth,14.0
+2026,401868130,Northeastern State,5305539,Donnie Smith,29.0
+2026,401856812,Kansas,5079604,Isaiah Marshall,33.0
+2026,401856812,Arizona State,5141378,Cutter Boley,23.0
+2026,401868168,Weber State,5439505,Nate Dahle,26.0
+2026,401868168,Weber State,5151291,Cash Mccollum,4.0
+2026,401868168,Northwestern State,4808719,Zach Wilcke,52.0
+2026,401868247,McNeese,5226368,Devin Lippold,29.0
+2026,401868247,McNeese,4915622,Jake Strong,5.0
+2026,401868247,UT Rio Grande Valley,5300880,Aidan Jakobsohn,20.0
+2026,401868247,UT Rio Grande Valley,4685521,Garret Rangel,6.0
+2026,401868247,UT Rio Grande Valley,5300847,Atzel Chavez Jr.,2.0
+2026,401858450,Michigan,5141741,Bryce Underwood,25.0
+2026,401858450,Michigan,5269403,Tommy Carr,2.0
+2026,401858450,Michigan,-6635, Team,1.0
+2026,401858450,UTEP,5141395,EJ Colson,9.0
+2026,401858450,UTEP,5232049,Raymond Moore III,6.0
+2026,401858231,Duke,4694149,Walker Eget,24.0
+2026,401858231,Stanford,4878681,Davis Warren,32.0
+2026,401858231,Stanford,5211073,Mike Mitchell Jr.,4.0
+2026,401868124,Utah Tech,5224562,Bronson Barben,32.0
+2026,401868124,Northern Arizona,5225414,Ty Pennington,27.0
+2026,401868075,Cal Poly,5219586,Anthony Grigsby Jr.,23.0
+2026,401868075,San Diego,5165884,Dom Nankil,30.0
+2026,401868075,San Diego,-7271, Team,1.0
+2026,401868307,Prairie View A&M,4801301,Tevin Carter,24.0
+2026,401868307,Prairie View A&M,5425111,Kaeden Smith,10.0
+2026,401868307,Stephen F. Austin,5169036,Gavin Rutherford,25.0
+2026,401868307,Stephen F. Austin,5303186,JT Kitna,1.0
+2026,401868164,UC Davis,5298853,Treynor Cleeland,37.0
+2026,401868164,UC Davis,5164325,Jackson Kollock,5.0
+2026,401868164,Stetson,5219833,Tom von Grote,39.0
+2026,401856687,Auburn,4880272,Byrum Brown,35.0
+2026,401856687,Florida,5132812,Aaron Philo,22.0
+2026,401856687,Florida,4693740,Kahleil Jackson,1.0
+2026,401861963,Southern Miss,4833635,Landy Lyddy,25.0
+2026,401861963,Southern Miss,4618083,Ethan Hampton,25.0
+2026,401861963,Southern Miss,5394605,Dusty Zimmer,1.0
+2026,401861963,UConn,5079619,Kalieb Osborne,22.0
+2026,401861963,UConn,5077806,Tucker McDonald,3.0
+2026,401856690,Oklahoma,4915980,John Mateer,25.0
+2026,401856690,Oklahoma,-7026, Team,1.0
+2026,401856690,New Mexico,5261479,Toa Faavae,10.0
+2026,401856690,New Mexico,5122887,Luke Moga,8.0
+2026,401856690,New Mexico,5228804,James Laubstein,1.0
+2026,401856795,BYU,5141367,Bear Bachmeier,16.0
+2026,401856795,BYU,4688540,Treyson Bourguet,1.0
+2026,401856795,Colorado State,5079443,Hauss Hejny,10.0
+2026,401856795,Colorado State,5122401,Darius Curry,8.0
+2026,401856795,Colorado State,5212610,Ksaan Farrar,23.0
+2026,401856693,Texas,4870906,Arch Manning,33.0
+2026,401856693,Texas,5141509,Karle Lacey Jr.,1.0
+2026,401856693,Texas,-7619, Team,1.0
+2026,401856693,UTSA,4775136,Owen McCown,23.0
+2026,401860885,Boise State,4870513,Maddux Madsen,31.0
+2026,401860885,South Dakota,5302115,Austyn Modrzewski,27.0
+2026,401860885,South Dakota,4878223,Jackson Proctor,1.0
+2026,401868971,Southern,5442202,Christian Johnson,22.0
+2026,401868971,Louisiana Christian,5303570,Bryce Perkins,19.0
+2026,401868971,Louisiana Christian,5303566,Phillip Jones II,1.0
+2026,401856688,Ole Miss,4911529,Trinidad Chambliss,48.0
+2026,401856688,LSU,5078810,Sam Leavitt,27.0
+2026,401858453,Notre Dame,5079369,C.J. Carr,24.0
+2026,401858453,Michigan State,5146670,Alessio Milivojevic,17.0
+2026,401858453,Michigan State,4700135,Cam Fancher,1.0
+2026,401862776,Louisiana,4871091,D'Wayne' Winfield,20.0
+2026,401862776,UAB,5057381,Ryder Burton,25.0
+2026,401862776,UAB,-7715, Team,1.0
+2026,401862776,UAB,5197123,Nate Rogers,1.0
+2026,401867896,South Dakota State,5085784,Chase Mason,13.0
+2026,401867896,South Dakota State,5151506,Josh Holst,8.0
+2026,401867896,Youngstown State,5109518,Beau Brungard,35.0
+2026,401869147,Houston Christian,4691966,Maddox Kopp,16.0
+2026,401869147,Houston Christian,5154855,Cutter Stewart,22.0
+2026,401869147,Incarnate Word,5085112,Emmett Brown,46.0
+2026,401868205,Morehead State,5084352,Bryce Patterson,10.0
+2026,401868205,Morehead State,5229448,David Parsons,11.0
+2026,401868205,Morehead State,5159385,Allen Fernett,1.0
+2026,401868205,Western Illinois,5165011,Kennedy McGill,31.0
+2026,401868205,Western Illinois,5299364,Cason Carswell,6.0
+2026,401868205,Western Illinois,5438627,Gage Sturgill,1.0
+2026,401868205,Western Illinois,5226322,Tanner Zolnosky,2.0
+2026,401868151,Alcorn State,4878822,Jaylon Tolbert,44.0
+2026,401868151,North Alabama,4685698,Destin Wade,30.0
+2026,401868151,North Alabama,5216796,Banks Bowen,1.0
+2026,401858471,Northern Iowa,4826635,Jaxon Dailey,27.0
+2026,401858471,Northern Iowa,5227968,Cale McThenia,6.0
+2026,401858471,Iowa,5089314,Hank Brown,12.0
+2026,401858471,Iowa,5121030,Jeremy Hecklinski,11.0
+2026,401864443,Middle Tennessee,5194626,Roman Gagliano,29.0
+2026,401864443,Nevada,5205097,Carter Jones,25.0
+2026,401866423,South Alabama,5148858,Jared Hollins,20.0
+2026,401866423,Ohio,5244755,Levi Davis,15.0
+2026,401866423,Ohio,5171031,Matt Vezza,16.0
+2026,401870764,Sam Houston,5148427,Landyn Locke,28.0
+2026,401870764,Sam Houston,5384797,Brett Holloway,4.0
+2026,401870764,Nicholls,5164893,Ean Rodrigue,21.0
+2026,401870764,Nicholls,5226521,Preston Welch,2.0
+2026,401858452,Nebraska,5044387,Anthony Colandrea,21.0
+2026,401858452,Nebraska,5141556,TJ Lateef,3.0
+2026,401858452,Nebraska,5126471,Daniel Kaelin,2.0
+2026,401858452,North Dakota,5155528,Jerry Kaminski,18.0
+2026,401858452,North Dakota,5155530,Korey Tai,1.0
+2026,401858459,Washington,5079653,Demond Williams Jr.,33.0
+2026,401858459,Washington,5079318,Elijah Brown,3.0
+2026,401858459,Eastern Washington,5152110,Nate Bell,24.0
+2026,401858459,Eastern Washington,5146672,Jake Schakel,5.0
+2026,401858232,Maryland,5141695,Malik Washington,43.0
+2026,401858232,Virginia Tech,5144078,Ethan Grunkemeyer,39.0
+2026,401856692,Tennessee,5158973,Faizon Brandon,26.0
+2026,401856692,Kennesaw State,4870645,Rickie Collins,34.0
+2026,401860887,San Diego State,4685311,Jayden Denegal,33.0
+2026,401860887,James Madison,5153978,Camden Coleman,27.0
+2026,401856793,Arizona,4801717,Noah Fifita,34.0
+2026,401856793,Arizona,5158407,Sawyer Anderson,3.0
+2026,401856793,Northern Illinois,4881032,Taron Dickens,37.0
+2026,401856793,Northern Illinois,5210128,Brady Davidson,6.0
+2026,401864507,Sacramento State,5158748,Jackson Sharman,41.0
+2026,401864507,North Dakota State,5087156,Nathan Hayes,24.0
+2026,401864507,North Dakota State,5297927,Preston Brown,1.0
+2026,401858233,California,5164313,Jaron-Keawe Sagapolutele,33.0
+2026,401858233,California,5054036,Jackson Brousseau,10.0
+2026,401858233,Wagner,5302638,Benjamin Newman,31.0
+2026,401858233,Wagner,5440760,Jason Wiley,1.0
+2026,401858230,Louisville,5078278,Lincoln Kienholz,23.0
+2026,401858230,SMU,5084084,Kevin Jennings,35.0
+2026,401858449,Indiana,4685401,Josh Hoover,24.0
+2026,401858449,Indiana,4695867,Grant Wilson,1.0
+2026,401858449,Western Kentucky,4920158,Brock Glenn,32.0
+2026,401860886,Oregon State,5212654,Braden Atkinson,30.0
+2026,401860886,Oregon State,4685497,Maalik Murphy,4.0
+2026,401860886,Oregon State,5296163,Brady Jones,2.0
+2026,401860886,Montana,5153708,Keali'i Ah Yat,40.0
+2026,401860886,Montana,5225217,Luke Flowers,5.0
+2026,401860888,San José State,5295238,Luke Weaver,38.0
+2026,401860888,Fresno State,5010409,Jayden Mandal,29.0
+2026,401862779,Temple,5078166,Ajani Sheppard,20.0
+2026,401862779,Army,5150297,Cale Hellums,6.0
+2026,401858468,Rutgers,4870900,Dylan Lonergan,17.0
+2026,401858468,Rutgers,5079717,AJ Surace,7.0
+2026,401858468,Rutgers,5172031,Sean Ashenfelder,1.0
+2026,401858468,Howard,5087297,Ja'Shawn Scroggins,14.0
+2026,401858468,Howard,5098448,Isaiah Freeman,5.0
+2026,401856813,Baylor,5079555,D.J. Lagway,39.0
+2026,401856813,Colorado,5079771,Isaac Wilson,25.0
+2026,401856813,Colorado,5159016,Julian Lewis,16.0
+2026,401856813,Colorado,5189530,Joseph Williams,1.0
+2026,401856806,Houston,4685574,Conner Weigman,22.0
+2026,401856806,Georgia Southern,4685740,Max Johnson,38.0
+2026,401856806,Georgia Southern,5212641,Weston Bryan,1.0
+2026,401856814,Cincinnati,4685345,JC French,13.0
+2026,401856814,Kansas State,4870857,Avery Johnson,50.0
+2026,401864511,Georgia State,5193926,Cameran Brown,21.0
+2026,401864511,Georgia State,4812474,DJ Riles,1.0
+2026,401864511,Northern Illinois,4881032,Taron Dickens,42.0
+2026,401866427,Lindenwood,5298518,Hoyt Gregory,12.0
+2026,401866427,Lindenwood,5225648,Pops Battle,5.0
+2026,401866427,Eastern Michigan,4690158,Noah Kim,38.0
+2026,401868188,Marshall,4432691,Carlos Del Rio-Wilson,38.0
+2026,401868188,Marshall,5158251,Khalil Wilkins,1.0
+2026,401868188,Marshall,-6530, Team,1.0
+2026,401868188,Gardner-Webb,4869817,Cole Pennington,33.0
+2026,401869961,Old Dominion,5295919,Ryan Huff,39.0
+2026,401869961,Old Dominion,-88752, Team,1.0
+2026,401869961,James Madison,5153978,Camden Coleman,42.0
+2026,401867687,Norfolk State,5439441,Da'Jean Golmond,31.0
+2026,401867687,Norfolk State,5301378,Evan Helfrich,1.0
+2026,401867687,Norfolk State,5439443,Ty Jackson,1.0
+2026,401867687,Chicago State,5159024,Ashton Pannell,40.0
+2026,401867687,Chicago State,5440776,Jacob Tiberi,3.0
+2026,401866647,Dartmouth,5155398,Grayson Saunier,27.0
+2026,401866647,Dartmouth,-12288, Team,1.0
+2026,401866647,Monmouth,5226663,Frankie Weaver,42.0
+2026,401868024,Lafayette,5153849,Daniel Lipovski,39.0
+2026,401868024,Holy Cross,5154302,David Lynch,37.0
+2026,401870839,Duquesne,4695784,Carson Camp,21.0
+2026,401870839,Duquesne,5227106,Logan Kushner,4.0
+2026,401870839,Duquesne,5159275,Xavier Rice,2.0
+2026,401870839,University of Rio Grande,5445942,Braden Schreck,18.0
+2026,401870839,University of Rio Grande,5445956,Austin Buescher,7.0
+2026,401867827,Cornell,5154161,Garrett Bass-Sulpizio,21.0
+2026,401867827,Yale,5300438,Charlie Hewitt,44.0
+2026,401866643,Elon,5299669,Elijah Guttman,29.0
+2026,401866643,Elon,5151062,TJ Crews IV,1.0
+2026,401866643,Maine,5226632,Eddie Buehler,35.0
+2026,401866643,Maine,5153811,Caden Drezek,12.0
+2026,401868346,East Tennessee State,5164309,Mason Mims,27.0
+2026,401868346,East Tennessee State,5079367,Jadyn Davis,3.0
+2026,401868346,East Tennessee State,5114331,Suderian Harrison,1.0
+2026,401868346,Western Carolina,4875128,Lex Thomas,32.0
+2026,401868346,Western Carolina,5441193,Patrick Harding,6.0
+2026,401868037,Richmond,5083373,Ashten Snelsire,40.0
+2026,401868037,Furman,5413484,Connor Ackerley,30.0
+2026,401866644,North Carolina A&T,5164567,Kevin White,20.0
+2026,401866644,North Carolina A&T,-6815, Team,1.0
+2026,401866644,Rhode Island,5226812,Alex McClelland,23.0
+2026,401866644,Rhode Island,5145592,Tyler Budge,19.0
+2026,401868358,Alcorn State,4878822,Jaylon Tolbert,41.0
+2026,401868358,Alcorn State,5159983,Omarion Blakes,1.0
+2026,401868358,Texas Southern,4917305,Cam'Ron McCoy,31.0
+2026,401868358,Texas Southern,5442341,Nelson Peterson Jr.,1.0
+2026,401868299,Florida A&M,5442040,Armond Parker,26.0
+2026,401868299,Florida A&M,5227056,James Hayes,5.0
+2026,401868299,Alabama A&M,4568411,Cornelious Brown,26.0
+2026,401868299,Alabama A&M,5441219,Mac Armstrong,8.0
+2026,401866645,Hampton,5088851,Tre'Von Taylor,40.0
+2026,401866645,Campbell,5154962,Kamden Sixkiller,31.0
+2026,401866645,Campbell,5299304,Grayson Harvey,3.0
+2026,401868131,Northern Colorado,4873077,Brayten Silbor,27.0
+2026,401868131,Utah Tech,5224562,Bronson Barben,35.0
+2026,401868131,Utah Tech,4565552,Deacon Hill,8.0
+2026,401868155,Weber State,5439505,Nate Dahle,27.0
+2026,401868155,Weber State,4695709,Devin Brown,18.0
+2026,401868155,Portland State,5075571,John-Keawe Sagapolutele,24.0
+2026,401868155,Portland State,5225571,Cru Newman,1.0
+2026,401866428,Ohio,5171031,Matt Vezza,20.0
+2026,401866428,Ohio,5244755,Levi Davis,1.0
+2026,401866428,Stonehill,5106897,Jack O'Connell,18.0
+2026,401866428,Stonehill,5229295,Drew Eason,1.0
+2026,401868120,Montana State,5172597,Patrick Duchien,20.0
+2026,401868120,Northern Arizona,5225414,Ty Pennington,38.0
+2026,401864572,NC State,5079301,CJ Bailey,33.0
+2026,401864572,App State,4870999,Malachi Singleton,38.0
+2026,401864572,App State,-5223, Team,1.0
+2026,401858461,Northwestern,5075805,Aidan Chiles,29.0
+2026,401858461,Northwestern,-6958, Team,1.0
+2026,401858461,Indiana,4685401,Josh Hoover,29.0
+2026,401869941,Liberty,5138131,Deshawn Purdie,16.0
+2026,401869941,Liberty,4832918,Ethan Vasko,1.0
+2026,401869941,Liberty,5079364,Kam Davis,1.0
+2026,401869941,Coastal Carolina,5296439,Deuce Bailey,34.0
+2026,401869941,Coastal Carolina,-15591, Team,1.0
+2026,401856703,Mississippi State,5177084,Kamario Taylor,38.0
+2026,401856703,Missouri,5141684,Austin Simmons,39.0
+2026,401856703,Missouri,5141582,Donovan Olugbode,1.0
+2026,401858234,California,5164313,Jaron-Keawe Sagapolutele,29.0
+2026,401858234,California,5165154,Mason Mini,1.0
+2026,401858234,Clemson,5159078,Tait Reynolds,21.0
+2026,401858462,Maryland,5141695,Malik Washington,38.0
+2026,401858462,Maryland,4872721,Cardell Williams,1.0
+2026,401858462,UCLA,4870799,Nico Iamaleava,24.0
+2026,401860893,San Diego State,4685311,Jayden Denegal,31.0
+2026,401860893,San Diego State,5302259,Draiden Trudeau,5.0
+2026,401860893,San Diego State,4918108,Jordan Napier,1.0
+2026,401860893,Toledo,5082330,John Alan Richter,22.0
+2026,401858463,Iowa,5089314,Hank Brown,35.0
+2026,401858463,Michigan,5141741,Bryce Underwood,28.0
+2026,401871048,Middle Tennessee,5194626,Roman Gagliano,28.0
+2026,401871048,Jacksonville State,5122157,Caden Creel,27.0
+2026,401858238,Miami,5121169,Darian Mensah,27.0
+2026,401858238,Miami,5141605,Luke Nickel,7.0
+2026,401858238,Central Michigan,5149056,Jadyn Glasser,15.0
+2026,401858238,Central Michigan,5295480,Marcus Beamon,4.0
+2026,401858238,Central Michigan,5084769,Angel H Flores,7.0
+2026,401860895,Oregon State,5212654,Braden Atkinson,34.0
+2026,401860895,UTEP,5141395,EJ Colson,23.0
+2026,401860895,UTEP,5232049,Raymond Moore III,2.0
+2026,401862783,Houston Christian,5154855,Cutter Stewart,15.0
+2026,401862783,Houston Christian,4691966,Maddox Kopp,6.0
+2026,401862783,Houston Christian,5301346,Reilly Garcia,5.0
+2026,401862783,North Texas,4801307,Tayven Jackson,18.0
+2026,401862783,North Texas,5215310,Chaston Ditta,8.0
+2026,401862783,North Texas,5175092,Chris Jimerson Jr.,2.0
+2026,401870745,Western Kentucky,5196864,Rodney Tisdale Jr.,23.0
+2026,401870745,Western Kentucky,4920158,Brock Glenn,6.0
+2026,401870745,Western Kentucky,5077114,Caleb McMickle,2.0
+2026,401870745,Mercyhurst,5227557,Alex Gevaudan,44.0
+2026,401858466,Penn State,4801299,Rocco Becht,29.0
+2026,401858466,Wisconsin,5125715,Colton Joseph,38.0
+2026,401856804,Washington State,5226019,Caden Pinnick,41.0
+2026,401856804,Arizona,4801717,Noah Fifita,36.0
+2026,401858243,Wake Forest,4920227,Giovanni Lopez,19.0
+2026,401858243,Louisville,5078278,Lincoln Kienholz,36.0
+2026,401860891,Rice,4685291,Jacurri Brown,17.0
+2026,401860891,Fresno State,5010409,Jayden Mandal,34.0
+2026,401858244,Duke,4694149,Walker Eget,22.0
+2026,401858244,Duke,5185699,Dan Mahan,7.0
+2026,401858244,Duke,5211205,Terry Walker III,4.0
+2026,401858244,Duke,5193566,Kade Reynoldson,1.0
+2026,401858244,William & Mary,5226917,Winston Watkins,17.0
+2026,401858244,William & Mary,5301114,Carter Carroll,4.0
+2026,401856697,Tulsa,4565355,Dexter Williams II,32.0
+2026,401856697,Arkansas,5079516,KJ Jackson,36.0
+2026,401856699,Ole Miss,4911529,Trinidad Chambliss,34.0
+2026,401856699,Florida,5132812,Aaron Philo,23.0
+2026,401856700,Georgia,4685578,Gunner Stockton,25.0
+2026,401856700,Georgia,5079679,Ryan Puglisi,2.0
+2026,401856700,Oklahoma,4915980,John Mateer,34.0
+2026,401862778,UAB,5057381,Ryder Burton,20.0
+2026,401862778,Navy,5220473,Jackson Gutierrez,13.0
+2026,401856704,Texas,4870906,Arch Manning,19.0
+2026,401856704,Tennessee,5158973,Faizon Brandon,29.0
+2026,401856704,Tennessee,5141571,George MacIntyre,3.0
+2026,401856702,LSU,5078810,Sam Leavitt,23.0
+2026,401856702,LSU,5224789,Landen Clark,5.0
+2026,401856702,Texas A&M,4870971,Marcel Reed,26.0
+2026,401856702,Texas A&M,5295969,Brady Hart,1.0
+2026,401858236,Pittsburgh,5208095,Mason Heintschel,37.0
+2026,401858236,Pittsburgh,4714300,Holden Geriner,11.0
+2026,401858236,Pittsburgh,5207640,Corey Dailey,5.0
+2026,401858236,Bucknell,5147067,Chris Dietrich,7.0
+2026,401858236,Bucknell,5402059,Emmett Dowling,21.0
+2026,401858467,Notre Dame,5079369,C.J. Carr,22.0
+2026,401858467,Notre Dame,5159115,Noah Grubbs,4.0
+2026,401858467,Purdue,5104738,Ryan Browne,28.0
+2026,401858467,Purdue,5149006,Evans Chuba,9.0
+2026,401864576,Kentucky,4918099,Kenny Minchey,25.0
+2026,401864576,Kentucky,4879824,Callum Wither,1.0
+2026,401864576,South Alabama,5148858,Jared Hollins,43.0
+2026,401858464,Michigan State,5146670,Alessio Milivojevic,26.0
+2026,401858464,Michigan State,4700135,Cam Fancher,2.0
+2026,401858464,Nebraska,5044387,Anthony Colandrea,27.0
+2026,401860892,Texas State,5148803,Brad Jackson,20.0
+2026,401860892,Texas State,5202460,Gavin Parkhurst,3.0
+2026,401860892,Incarnate Word,5085112,Emmett Brown,44.0
+2026,401860892,Incarnate Word,5442098,Jackson Fields,8.0
+2026,401860892,Incarnate Word,5152821,David Rasor,1.0
+2026,401864510,Wyoming,4838536,Tyler Hughes,23.0
+2026,401864510,Hawai'i,5101124,Micah Alejado,44.0
+2026,401867909,Florida International,4870883,J.J. Kohl,11.0
+2026,401867909,Florida International,5153845,Zach Marker,10.0
+2026,401867909,Long Island University,4837195,Luca Stanzani,20.0
+2026,401869931,Kennesaw State,4870645,Rickie Collins,24.0
+2026,401869931,Arkansas State,5123665,Trey Owens,31.0
+2026,401858469,USC,4685454,Jayden Maiava,42.0
+2026,401858469,Oregon,5079572,Dylan Raiola,25.0
+2026,401858469,Oregon,4870921,Dante Moore,10.0
+2026,401867806,Harvard,5299776,Charlie Smith,37.0
+2026,401867806,Brown,5155943,James Murphy,24.0
+2026,401867858,North Dakota,5155528,Jerry Kaminski,48.0
+2026,401867858,Indiana State,4685691,Brady Allen,33.0
+2026,401867885,Youngstown State,5109518,Beau Brungard,17.0
+2026,401867885,South Dakota,5302115,Austyn Modrzewski,22.0
+2026,401866642,Sacred Heart,5225700,Jack Snyder,10.0
+2026,401866642,New Hampshire,5298487,Brooks Bentley,19.0
+2026,401866648,Fordham,4812381,Gunnar Smith,23.0
+2026,401866648,Stony Brook,5226896,Quinn Boyd,26.0
+2026,401868281,St. Thomas (MN),5300206,Nick Peipert,18.0
+2026,401868281,St. Thomas (MN),5226234,Quentin Cobb-Butler,1.0
+2026,401868281,St. Thomas (MN),5151370,Anthony Policare,1.0
+2026,401868281,St. Thomas (MN),-7517, Team,1.0
+2026,401868281,San Diego,5165884,Dom Nankil,50.0
+2026,401868281,San Diego,5093362,Cole Monach,1.0
+2026,401869143,Nicholls,5164893,Ean Rodrigue,31.0
+2026,401869143,Nicholls,-6883, Team,1.0
+2026,401869143,Nicholls,5226521,Preston Welch,2.0
+2026,401869143,Lamar,5154911,Aiden McCown,19.0
+2026,401869143,Lamar,5076949,Evan Bullock,2.0
+2026,401872618,New Haven,5261653,Jake Tripptree,17.0
+2026,401872618,New Haven,4685334,A.J. Duffy,11.0
+2026,401872618,Merrimack,5146355,AJ Hairston,8.0
+2026,401867818,Georgetown,5225715,Jack Johnson,18.0
+2026,401867818,Columbia,5154125,Chase Goodwin,50.0
+2026,401868263,Marist,5088964,Sonny Mannino,26.0
+2026,401868263,Marist,5298896,Will O'Dell,3.0
+2026,401868263,Marist,5226677,Zach Garmont,1.0
+2026,401868263,Presbyterian,5300119,Landon Sharpe,30.0
+2026,401868206,North Alabama,4685698,Destin Wade,27.0
+2026,401868206,Western Illinois,5165011,Kennedy McGill,28.0
+2026,401868206,Western Illinois,5226322,Tanner Zolnosky,1.0
+2026,401856698,Auburn,4880272,Byrum Brown,27.0
+2026,401856698,Vanderbilt,5158948,Jared Curtis,33.0
+2026,401856698,Vanderbilt,5088418,Tyler Ebel,1.0
+2026,401858239,Virginia,4685696,Beau Pribula,28.0
+2026,401858239,Virginia,4870819,Eli Holstein,12.0
+2026,401858239,Virginia,5145789,Cole Geer,3.0
+2026,401858239,Virginia,-7809, Team,1.0
+2026,401858239,Delaware,5079614,Riley Trujillo,3.0
+2026,401858239,Delaware,5153846,Nick Minicucci,8.0
+2026,401858239,Delaware,5224762,Braden Streeter,16.0
+2026,401868390,Wofford,5203716,Ethan Drumm,31.0
+2026,401868390,Tennessee Tech,5027925,Jax Leatherwood,48.0
+2026,401868001,Villanova,4875733,Pat McQuaide,23.0
+2026,401868001,Colgate,5089309,Jake Stearney,21.0
+2026,401866425,Kent State,5119841,Dru Deshields,25.0
+2026,401866425,Ball State,5152153,Tyler Mizzell,27.0
+2026,401862780,Charlotte,5089540,Cole Gonzales,16.0
+2026,401862780,Charlotte,4801306,Conner Harrell,13.0
+2026,401862780,Charlotte,5272738,Jaylen White,1.0
+2026,401862780,Louisiana,4871091,D'Wayne' Winfield,26.0
+2026,401862780,Louisiana,5146661,Daniel Beale,2.0
+2026,401862780,Louisiana,5197074,Ja'Corian Norris,1.0
+2026,401856815,UCF,5085337,Keyone Jenkins,20.0
+2026,401856815,TCU,5083569,Jaden Craig,40.0
+2026,401856816,Iowa State,5080403,Jaylen Raynor,40.0
+2026,401856816,Utah,5105849,Devon Dampier,27.0
+2026,401868954,Grambling,4949488,Jacobe Robinson,18.0
+2026,401868954,Grambling,5085259,Ashton Frye,3.0
+2026,401868954,Grambling,5085022,Patrick Williams II,1.0
+2026,401868954,Grambling,5230180,Tony Phillips,2.0
+2026,401868954,Prairie View A&M,4801301,Tevin Carter,22.0
+2026,401868954,Prairie View A&M,5227685,Rodny Ojo,1.0
+2026,401868076,Eastern Washington,5152110,Nate Bell,37.0
+2026,401868076,Cal Poly,5219586,Anthony Grigsby Jr.,25.0
+2026,401868960,Jackson State,5298925,Jared Lockhart,18.0
+2026,401868960,Southern,5442202,Christian Johnson,29.0
+2026,401856805,Texas Tech,5126468,Will Hammond,29.0
+2026,401856805,Texas Tech,4773919,Thomas Castellanos,2.0
+2026,401856805,Sam Houston,5148427,Landyn Locke,37.0
+2026,401856805,Sam Houston,5384797,Brett Holloway,1.0
+2026,401869137,East Texas A&M,5093929,Eric Rodriguez,22.0
+2026,401869137,East Texas A&M,5151407,Jack Jacobs,13.0
+2026,401869137,East Texas A&M,-8766, Team,1.0
+2026,401869137,McNeese,4915622,Jake Strong,27.0
+2026,401867985,Bethune-Cookman,4870848,Tyler Jefferson,19.0
+2026,401867985,Bethune-Cookman,5443047,Isaiah Daniel,1.0
+2026,401867985,South Carolina State,5096134,Keely Watson,19.0
+2026,401867985,South Carolina State,5443342,Ronnie Robinson,2.0
+2026,401860897,Western Michigan,5074245,Broc Lowry,28.0
+2026,401860897,Western Michigan,5126475,Trey Petty,1.0
+2026,401860897,Boise State,4870513,Maddux Madsen,23.0
+2026,401861970,UConn,5079619,Kalieb Osborne,32.0
+2026,401861970,Miami (OH),5141549,David McComb,29.0
+2026,401861970,Miami (OH),5388435,Caleb Heavner,3.0
+2026,401858242,Boston College,5307005,Mason McKenzie,23.0
+2026,401858242,Virginia Tech,5144078,Ethan Grunkemeyer,35.0
+2026,401864579,New Mexico State,5152503,Adam Damante,19.0
+2026,401864579,New Mexico State,5224084,Trey Hedden,19.0
+2026,401864579,New Mexico,5261479,Toa Faavae,17.0
+2026,401866426,Buffalo,5222591,Jason Wright,28.0
+2026,401866426,Robert Morris,4832789,Carson Haggard,31.0
+2026,401858465,Ohio State,5079712,Julian Sayin,36.0
+2026,401858465,Illinois,4795295,Katin Houser,37.0
+2026,401858465,Illinois,-6210, Team,1.0
+2026,401868113,UC Davis,5298853,Treynor Cleeland,33.0
+2026,401868113,UC Davis,5164325,Jackson Kollock,5.0
+2026,401868113,UC Davis,-5481, Team,1.0
+2026,401868113,Montana,5153708,Keali'i Ah Yat,31.0
+2026,401862781,East Carolina,5075800,Emory Williams,36.0
+2026,401862781,East Carolina,4433829,Mitch Griffis,2.0
+2026,401862781,North Carolina Central,5230073,Cobey Thompkins,15.0
+2026,401862781,North Carolina Central,5301057,Nelson Layne,13.0
+2026,401871472,Southeast Missouri State,4920145,Braylen Ragland,25.0
+2026,401871472,West Florida,4790965,Donovan Leary,36.0
+2026,401868103,Idaho State,5158746,Jordan Cooke,25.0
+2026,401868103,Southern Utah,5151171,Will Burns,32.0
+2026,401868103,Southern Utah,-7401, Team,1.0
+2026,401856881,Oklahoma State,5219834,Drew Mestemaker,27.0
+2026,401856881,West Virginia,5079465,Michael Hawkins Jr.,22.0
+2026,401866429,Sacramento State,5158748,Jackson Sharman,43.0
+2026,401866429,Massachusetts,4920153,William Watson III,16.0
+2026,401867847,Illinois State,4833241,Gage Roy,39.0
+2026,401867847,Illinois State,5227699,Beckham Pellant,8.0
+2026,401867847,Northern Iowa,4826635,Jaxon Dailey,17.0
+2026,401864512,UNLV,4870607,Jackson Arnold,29.0
+2026,401864512,Akron,5146903,Brayden Roggow,25.0
+2026,401864512,Akron,5084582,Jordan Gant,1.0
+2026,401856696,Alabama,5141629,Keelon Russell,27.0
+2026,401856696,South Carolina,4875127,Lanorris Sellers,30.0
+2026,401856696,South Carolina,5164334,Cutter Woods,3.0
+2026,401858237,Florida State,4838679,Ashton Daniels,18.0
+2026,401858237,Florida State,5141661,Kevin Sperry,2.0
+2026,401858237,Central Arkansas,5416075,Donovyn Omolo,30.0
+2026,401868387,Samford,4870864,Gabarri Johnson,26.0
+2026,401868387,Samford,5085644,Coulter Cleland,4.0
+2026,401868387,Samford,5077059,Charlie Gilliam,2.0
+2026,401868387,VMI,5302501,Ian Reynolds,9.0
+2026,401868387,VMI,5168665,Chandler Wilson,1.0
+2026,401868387,VMI,5225341,JoJo Crump,1.0
+2026,401868052,Abilene Christian,5147465,Tucker Parks,28.0
+2026,401868052,Mercer,5193282,JP Pickles,11.0
+2026,401868052,Mercer,5092806,Travion Solomon,1.0
+2026,401860894,Utah State,5081197,Grady Brosterhous,28.0
+2026,401860894,Troy,4431633,Will Crowder,49.0
+2026,401862784,Tulane,5091890,Kadin Semonza,24.0
+2026,401862784,Tulane,5291713,Trace Johnson,5.0
+2026,401862784,Southern Miss,4833635,Landy Lyddy,29.0
+2026,401862784,Southern Miss,5394591,Eelijah Singleton,1.0
+2026,401862782,Florida Atlantic,4869991,Caden Veltkamp,38.0
+2026,401862782,Florida Atlantic,5219898,Drew Devillier,4.0
+2026,401862782,UL Monroe,5122054,Aidan Armenta,29.0
+2026,401862782,UL Monroe,5158127,Landon Graves,1.0
+2026,401862785,Bowling Green,5385753,Jay Kastantin,28.0
+2026,401862785,South Florida,5079620,Michael Van Buren Jr.,11.0
+2026,401860896,UTSA,4775136,Owen McCown,30.0
+2026,401860896,Colorado State,5212610,Ksaan Farrar,46.0
+2026,401858241,Missouri State,5083042,Skyler Locklear,19.0
+2026,401858241,Missouri State,4685252,Henry Belin IV,15.0
+2026,401858241,SMU,5084084,Kevin Jennings,39.0
+2026,401858470,Minnesota,5144959,Drake Lindsey,29.0
+2026,401858470,Washington,5079653,Demond Williams Jr.,28.0
+2026,401858240,Stanford,4878681,Davis Warren,36.0
+2026,401858240,Georgia Tech,5191162,Alberto Mendoza,39.0
+2026,401868211,Valparaiso,5089335,Rowan Keefe,35.0
+2026,401868211,Butler,5224468,Gabe Passini,17.0
+2026,401868219,Drake,5404620,Riley Warzynski,48.0
+2026,401868219,Drake,5225940,Chase Spellman,7.0
+2026,401868219,Davidson,5224535,Casey Bullock,44.0
+2026,401864509,Nevada,5205097,Carter Jones,30.0
+2026,401864509,Nevada,4819250,AJ Bianco,1.0
+2026,401864509,Air Force,5238868,Liam Szarka,12.0
+2026,401864509,Air Force,-5147, Team,1.0
+2026,401868338,The Citadel,4695602,Nick Billoups,15.0
+2026,401868338,The Citadel,5223107,Quentin Hayes,5.0
+2026,401868338,Chattanooga,5223983,Battle Alberson,12.0
+2026,401868034,Pennsylvania,5289943,Miles Teodecki,37.0
+2026,401868034,Pennsylvania,5301019,Isaac Lee,1.0
+2026,401868034,Lehigh,5299656,Derek Morgan,15.0
+2026,401868063,Austin Peay,4870889,Chris Parson,21.0
+2026,401868063,UT Martin,5299226,Tate Surber,27.0
+2026,401866649,Towson,5301657,Andrew Indorf,32.0
+2026,401866649,Towson,5405931,Jacob Davis,1.0
+2026,401866649,Delaware State,5150645,Ui Ale,29.0
+2026,401866646,Princeton,5442807,Wyatt Becker,13.0
+2026,401866646,Princeton,5302683,Ty Ciongoli,4.0
+2026,401866646,Princeton,5154510,Brady Clark,1.0
+2026,401866646,UAlbany,5095216,Kai Coln,20.0
+2026,401866646,UAlbany,5082909,Aidan Semo,5.0
+2026,401867868,Murray State,5193343,Jim Ogle,16.0
+2026,401867868,Murray State,5301287,Blaze Berry,5.0
+2026,401867868,Southern Illinois,4697094,DJ Williams,20.0
+2026,401867868,Southern Illinois,5227786,Jake Curry,2.0
+2026,401868318,Northwestern State,4808719,Zach Wilcke,33.0
+2026,401868318,Northwestern State,5226585,Abram Johnston,1.0
+2026,401868318,SE Louisiana,4685440,Kyle Lowe,28.0
+2026,401868318,SE Louisiana,5405607,Issac Mooring III,2.0
+2026,401868243,West Georgia,4880196,Colton FitzGerald,37.0
+2026,401868243,West Georgia,5300922,Will Wallace,2.0
+2026,401868243,West Georgia,5194695,Luke Marble,5.0
+2026,401868243,West Georgia,5438885,Jaevion Elliott,1.0
+2026,401868243,Fort Valley State,5300919,Isaiah Nathaniel,27.0
+2026,401868243,Fort Valley State,5401557,Don Hudson Jr.,4.0
+2026,401868308,Northeastern State,5305539,Donnie Smith,42.0
+2026,401868308,Northeastern State,5305543,Carter Kopecky,12.0
+2026,401868308,Northeastern State,5305547,Mo Foketi,1.0
+2026,401868308,Northeastern State,-6851, Team,1.0
+2026,401868308,Northeastern State,5305526,Deuce Roberson,2.0
+2026,401868308,Stephen F. Austin,5169036,Gavin Rutherford,23.0
+2026,401868308,Stephen F. Austin,5303186,JT Kitna,6.0
+2026,401868327,Alabama State,5441396,Aaron Frye,21.0
+2026,401868327,Mississippi Valley State,5233879,Josh Brown,15.0
+2026,401868327,Mississippi Valley State,5168808,Jordan Davis,3.0
+2026,401868179,South Dakota State,5151506,Josh Holst,22.0
+2026,401868179,South Dakota State,5227810,Jack Henry,2.0
+2026,401868179,Eastern Illinois,5113896,Cole Lacrue,16.0
+2026,401868179,Eastern Illinois,5083199,Jeremiah Salem,4.0
+2026,401868179,Eastern Illinois,5086514,Cade Cox,1.0
+2026,401864515,North Dakota State,5087156,Nathan Hayes,25.0
+2026,401864515,Wyoming,4838536,Tyler Hughes,14.0
+2026,401858250,Notre Dame,5079369,C.J. Carr,29.0
+2026,401858250,North Carolina,4592532,Billy Edwards,28.0
+2026,401858253,Florida State,4838679,Ashton Daniels,19.0
+2026,401858253,Virginia,4685696,Beau Pribula,32.0
+2026,401858245,Pittsburgh,5208095,Mason Heintschel,18.0
+2026,401858245,Pittsburgh,4714300,Holden Geriner,12.0
+2026,401858245,Virginia Tech,5144078,Ethan Grunkemeyer,41.0
+2026,401858251,Wake Forest,4920227,Giovanni Lopez,27.0
+2026,401858251,Wake Forest,5141634,Steele Pizzella,3.0
+2026,401858251,Stanford,4878681,Davis Warren,30.0
+2026,401858251,Stanford,5211073,Mike Mitchell Jr.,3.0
+2026,401858476,Northwestern,5075805,Aidan Chiles,14.0
+2026,401858476,Penn State,4801299,Rocco Becht,41.0
+2026,401858246,SMU,5084084,Kevin Jennings,30.0
+2026,401858246,Boston College,5307005,Mason McKenzie,31.0
+2026,401858246,Boston College,5144853,Landon Wright,1.0
+2026,401862787,Charlotte,5089540,Cole Gonzales,14.0
+2026,401862787,Charlotte,5272738,Jaylen White,2.0
+2026,401862787,Memphis,5165807,Marcus Stokes,25.0
+2026,401862787,Memphis,5079548,Air Noland,6.0
+2026,401862792,Temple,5078166,Ajani Sheppard,14.0
+2026,401862792,South Florida,5079620,Michael Van Buren Jr.,32.0
+2026,401858475,Nebraska,5044387,Anthony Colandrea,39.0
+2026,401858475,Maryland,5141695,Malik Washington,44.0
+2026,401866431,Toledo,5082330,John Alan Richter,35.0
+2026,401866431,Ball State,5075392,Keldric Luster,33.0
+2026,401866431,Ball State,5152153,Tyler Mizzell,2.0
+2026,401869942,Georgia Southern,4685740,Max Johnson,29.0
+2026,401869942,Georgia Southern,5212641,Weston Bryan,2.0
+2026,401869942,Coastal Carolina,5296439,Deuce Bailey,33.0
+2026,401868228,Drake,5404620,Riley Warzynski,39.0
+2026,401868228,Dayton,5154881,Bryce Schondelmyer,47.0
+2026,401868228,Dayton,5156755,Gavin Lochow,1.0
+2026,401867910,Long Island University,4837195,Luca Stanzani,18.0
+2026,401867910,Mercyhurst,5227557,Alex Gevaudan,36.0
+2026,401867910,Mercyhurst,-6608, Team,2.0
+2026,401868270,Morehead State,5229448,David Parsons,16.0
+2026,401868270,Morehead State,5084352,Bryce Patterson,14.0
+2026,401868270,Valparaiso,5089335,Rowan Keefe,21.0
+2026,401868270,Valparaiso,5195374,Noah Ehrlich,7.0
+2026,401866654,Rhode Island,5226812,Alex McClelland,11.0
+2026,401866654,Rhode Island,5145592,Tyler Budge,15.0
+2026,401866654,Brown,5155943,James Murphy,37.0
+2026,401867869,North Dakota,5155528,Jerry Kaminski,24.0
+2026,401867869,North Dakota,4920196,Javance Tupou'ata-Johnson,1.0
+2026,401867869,North Dakota,5227874,Jack Sulik,1.0
+2026,401867869,Murray State,5227854,Baxter Wright,18.0
+2026,401867869,Murray State,5193343,Jim Ogle,5.0
+2026,401868010,Lehigh,5299656,Derek Morgan,20.0
+2026,401868010,Lehigh,5402237,Patrick Coan,1.0
+2026,401868010,Fordham,4812381,Gunnar Smith,44.0
+2026,401868010,Fordham,5402131,Crew Colon,3.0
+2026,401868025,William & Mary,5226917,Winston Watkins,29.0
+2026,401868025,William & Mary,5301114,Carter Carroll,4.0
+2026,401868025,William & Mary,5402328,Patrick Blee,1.0
+2026,401868025,Holy Cross,5154302,David Lynch,26.0
+2026,401868114,Montana,5153708,Keali'i Ah Yat,30.0
+2026,401868114,Montana,5225217,Luke Flowers,1.0
+2026,401868114,Northern Colorado,4873077,Brayten Silbor,30.0
+2026,401868114,Northern Colorado,5219929,Kenny Lueth,5.0
+2026,401868328,Bethune-Cookman,4870848,Tyler Jefferson,12.0
+2026,401868328,Alabama State,5441396,Aaron Frye,20.0
+2026,401869131,Northwestern State,4808719,Zach Wilcke,34.0
+2026,401869131,Northwestern State,5226585,Abram Johnston,4.0
+2026,401869131,Lamar,5154911,Aiden McCown,11.0
+2026,401869131,Lamar,5076949,Evan Bullock,7.0
+2026,401869131,Lamar,5301719,Julian Salazar,2.0
+2026,401868295,Jackson State,5298925,Jared Lockhart,32.0
+2026,401868295,Alabama A&M,4568411,Cornelious Brown,30.0
+2026,401866653,Bryant,5226265,Brennan Myer,31.0
+2026,401866653,Bryant,-5454, Team,2.0
+2026,401866653,North Carolina A&T,5164567,Kevin White,18.0
+2026,401866656,Hampton,5405365,Xavier Brookins,22.0
+2026,401866656,Hampton,5088851,Tre'Von Taylor,11.0
+2026,401866656,Howard,5087297,Ja'Shawn Scroggins,34.0
+2026,401866657,Campbell,5154962,Kamden Sixkiller,35.0
+2026,401866657,North Carolina Central,5301057,Nelson Layne,28.0
+2026,401866657,North Carolina Central,5230073,Cobey Thompkins,4.0
+2026,401868309,Stephen F. Austin,5169036,Gavin Rutherford,34.0
+2026,401868309,Incarnate Word,5085112,Emmett Brown,52.0
+2026,401868391,Western Carolina,4875128,Lex Thomas,30.0
+2026,401868391,Tennessee Tech,5027925,Jax Leatherwood,46.0
+2026,401868248,East Texas A&M,5441957,Luke Glass,14.0
+2026,401868248,East Texas A&M,5093929,Eric Rodriguez,9.0
+2026,401868248,East Texas A&M,5441947,Reese Mooney,2.0
+2026,401868248,UT Rio Grande Valley,5300880,Aidan Jakobsohn,33.0
+2026,401868077,Cal Poly,5219586,Anthony Grigsby Jr.,27.0
+2026,401868077,Weber State,5439505,Nate Dahle,33.0
+2026,401868104,Idaho State,5158746,Jordan Cooke,51.0
+2026,401868104,Northern Arizona,5225414,Ty Pennington,27.0
+2026,401868104,Northern Arizona,5405896,Donivan Dixon,1.0
+2026,401868160,Utah Tech,4565552,Deacon Hill,17.0
+2026,401868160,Utah Tech,5224562,Bronson Barben,21.0
+2026,401868160,Southern Utah,5151171,Will Burns,11.0
+2026,401867859,South Dakota,5302115,Austyn Modrzewski,23.0
+2026,401867859,South Dakota,4878223,Jackson Proctor,2.0
+2026,401867859,South Dakota,-7358, Team,1.0
+2026,401867859,Indiana State,4685691,Brady Allen,27.0
+2026,401867859,Indiana State,5227733,Brock Riddle,1.0
+2026,401858248,NC State,5079301,CJ Bailey,40.0
+2026,401858248,NC State,5079745,Joshisa Trader,1.0
+2026,401858248,Louisville,5078278,Lincoln Kienholz,30.0
+2026,401858478,USC,4685454,Jayden Maiava,34.0
+2026,401858478,Washington,5079653,Demond Williams Jr.,26.0
+2026,401858478,Washington,5166797,Dezmen Roebuck,1.0
+2026,401862786,North Texas,4801307,Tayven Jackson,39.0
+2026,401862786,Tulsa,5224011,Baylor Hayes,43.0
+2026,401866434,Ohio,5171031,Matt Vezza,9.0
+2026,401866434,Ohio,5244755,Levi Davis,5.0
+2026,401866434,Kent State,5119841,Dru Deshields,35.0
+2026,401866477,Miami (OH),5388435,Caleb Heavner,24.0
+2026,401866477,Bowling Green,5385753,Jay Kastantin,37.0
+2026,401866430,Central Michigan,5084769,Angel H Flores,14.0
+2026,401866430,Central Michigan,5149056,Jadyn Glasser,3.0
+2026,401866430,Akron,5146903,Brayden Roggow,32.0
+2026,401856817,Baylor,5079555,D.J. Lagway,40.0
+2026,401856817,Baylor,5145459,Nate Bennett,2.0
+2026,401856817,Baylor,-5327, Team,1.0
+2026,401856817,Arizona State,5141378,Cutter Boley,43.0
+2026,401856817,Arizona State,5110535,Kyson Brown,1.0
+2026,401868086,Eastern Washington,5152110,Nate Bell,58.0
+2026,401868086,UC Davis,5298853,Treynor Cleeland,27.0
+2026,401860921,Washington State,5226019,Caden Pinnick,34.0
+2026,401860921,Fresno State,5010409,Jayden Mandal,33.0
+2026,401856710,Tennessee,5141571,George MacIntyre,10.0
+2026,401856710,Tennessee,5158973,Faizon Brandon,8.0
+2026,401856710,Auburn,4880272,Byrum Brown,33.0
+2026,401860898,Boise State,4870513,Maddux Madsen,21.0
+2026,401860898,Utah State,5081197,Grady Brosterhous,18.0
+2026,401860898,Utah State,4923285,McCae Hillstead,7.0
+2026,401871050,Liberty,5138131,Deshawn Purdie,20.0
+2026,401871050,Liberty,4602923,Jaylen Henderson,5.0
+2026,401871050,Delaware,5296312,EJ Archield Jr.,19.0
+2026,401871050,Delaware,5224762,Braden Streeter,7.0
+2026,401871050,Delaware,5289314,Tyler Bell,9.0
+2026,401856711,Texas A&M,4870971,Marcel Reed,19.0
+2026,401856711,Arkansas,5079516,KJ Jackson,25.0
+2026,401858477,Rutgers,5079717,AJ Surace,10.0
+2026,401858477,Rutgers,4870900,Dylan Lonergan,10.0
+2026,401858477,Indiana,4685401,Josh Hoover,27.0
+2026,401858477,Indiana,4695867,Grant Wilson,2.0
+2026,401869962,James Madison,5153978,Camden Coleman,32.0
+2026,401869962,Marshall,4432691,Carlos Del Rio-Wilson,37.0
+2026,401869962,Marshall,4685697,Zion Turner,12.0
+2026,401869962,Marshall,5158251,Khalil Wilkins,1.0
+2026,401869962,Marshall,5225343,Owen Sweeney,1.0
+2026,401871089,UL Monroe,5122054,Aidan Armenta,41.0
+2026,401871089,South Alabama,5148858,Jared Hollins,19.0
+2026,401856707,Mississippi State,5177084,Kamario Taylor,34.0
+2026,401856707,Mississippi State,5294646,Parker Puckett,6.0
+2026,401856707,Alabama,5141629,Keelon Russell,22.0
+2026,401856707,Alabama,5079508,Austin Mack,2.0
+2026,401862791,Navy,5220473,Jackson Gutierrez,15.0
+2026,401862791,Navy,5158343,Braxton Woodson,3.0
+2026,401862791,Air Force,5238868,Liam Szarka,11.0
+2026,401862791,Air Force,5306440,Evan Medders,1.0
+2026,401866433,Massachusetts,4920153,William Watson III,27.0
+2026,401866433,Eastern Michigan,4690158,Noah Kim,30.0
+2026,401869842,Army,5150297,Cale Hellums,24.0
+2026,401869842,Louisiana Tech,5296376,Trey Kukuk,22.0
+2026,401869842,Louisiana Tech,5224217,Marcus Calwise Jr.,1.0
+2026,401869842,Louisiana Tech,5150998,Blake Baker,1.0
+2026,401869932,Arkansas State,5123665,Trey Owens,31.0
+2026,401869932,Louisiana,4871091,D'Wayne' Winfield,21.0
+2026,401858473,Iowa,5089314,Hank Brown,27.0
+2026,401858473,Iowa,5121030,Jeremy Hecklinski,5.0
+2026,401858473,Ohio State,5079712,Julian Sayin,27.0
+2026,401858472,Illinois,4795295,Katin Houser,37.0
+2026,401858472,Purdue,5104738,Ryan Browne,27.0
+2026,401858249,Miami,5121169,Darian Mensah,27.0
+2026,401858249,Clemson,5159078,Tait Reynolds,44.0
+2026,401858474,Michigan,5141741,Bryce Underwood,21.0
+2026,401858474,Minnesota,5144959,Drake Lindsey,25.0
+2026,401862788,UTSA,4775136,Owen McCown,29.0
+2026,401862788,Rice,4685291,Jacurri Brown,14.0
+2026,401856818,TCU,5083569,Jaden Craig,25.0
+2026,401856818,BYU,5141367,Bear Bachmeier,24.0
+2026,401856821,Colorado,5079771,Isaac Wilson,44.0
+2026,401856821,Colorado,5214655,Kaneal Sweetwyne,2.0
+2026,401856821,Colorado,5189530,Joseph Williams,2.0
+2026,401856821,Texas Tech,5126468,Will Hammond,26.0
+2026,401866652,Maine,5153811,Caden Drezek,28.0
+2026,401866652,Maine,5226632,Eddie Buehler,5.0
+2026,401866652,Sacred Heart,5225700,Jack Snyder,27.0
+2026,401866652,Sacred Heart,5165911,John Michalski,1.0
+2026,401868094,Idaho,4832830,Joshua Wood,25.0
+2026,401868094,Montana State,5172597,Patrick Duchien,32.0
+2026,401856706,LSU,5078810,Sam Leavitt,23.0
+2026,401856706,LSU,5224789,Landen Clark,16.0
+2026,401856706,LSU,5141563,Husan Longstreet,9.0
+2026,401856706,McNeese,5275329,Brady Barrier,7.0
+2026,401856706,McNeese,4915622,Jake Strong,10.0
+2026,401867891,Southern Illinois,4697094,DJ Williams,35.0
+2026,401867891,Youngstown State,5109518,Beau Brungard,29.0
+2026,401868339,East Tennessee State,5164309,Mason Mims,25.0
+2026,401868339,Chattanooga,5223983,Battle Alberson,21.0
+2026,401868143,Eastern Kentucky,5153754,Jordyn Potts,34.0
+2026,401868143,North Alabama,4685698,Destin Wade,21.0
+2026,401867840,Harvard,5299776,Charlie Smith,45.0
+2026,401867840,Colgate,5089309,Jake Stearney,39.0
+2026,401868053,Abilene Christian,5147465,Tucker Parks,17.0
+2026,401868053,West Florida,5436233,Ty'ray Davis,31.0
+2026,401866655,Delaware State,5154019,Noah Brannock,12.0
+2026,401866655,Delaware State,5150645,Ui Ale,21.0
+2026,401866655,Delaware State,5085808,Marqui Adams,1.0
+2026,401866655,UAlbany,5095216,Kai Coln,12.0
+2026,401866655,UAlbany,5082909,Aidan Semo,4.0
+2026,401867688,Chicago State,5159024,Ashton Pannell,44.0
+2026,401867688,Tarleton State,4899468,Kaden Anderson,22.0
+2026,401867688,Tarleton State,4702829,Braedyn Locke,8.0
+2026,401867688,Tarleton State,5163588,James Paige,1.0
+2026,401867899,Central Connecticut,4711410,Brett Griffis,16.0
+2026,401867899,Central Connecticut,5105336,Conner Kenyon,5.0
+2026,401867899,Wagner,5440760,Jason Wiley,10.0
+2026,401867899,Wagner,5302638,Benjamin Newman,15.0
+2026,401867899,Wagner,5160224,Trip Maxwell,19.0
+2026,401860899,Oregon State,5212654,Braden Atkinson,33.0
+2026,401860899,Oregon State,-7048, Team,1.0
+2026,401860899,Colorado State,5212610,Ksaan Farrar,26.0
+2026,401860899,Colorado State,-5691, Team,1.0
+2026,401860899,Colorado State,5193168,Terrence Smith Jr.,1.0
+2026,401862790,Florida Atlantic,4869991,Caden Veltkamp,16.0
+2026,401862790,Florida Atlantic,5219898,Drew Devillier,7.0
+2026,401862790,Florida Atlantic,5215248,Jordan Magwood,3.0
+2026,401862790,Florida Atlantic,5302741,Jeremiah Daoud,4.0
+2026,401862790,Texas Southern,4917305,Cam'Ron McCoy,27.0
+2026,401862790,Texas Southern,5442341,Nelson Peterson Jr.,1.0
+2026,401867819,Columbia,5154125,Chase Goodwin,51.0
+2026,401867819,Princeton,5302683,Ty Ciongoli,5.0
+2026,401867819,Princeton,5442807,Wyatt Becker,11.0
+2026,401867835,Dartmouth,5155398,Grayson Saunier,15.0
+2026,401867835,Pennsylvania,5289943,Miles Teodecki,39.0
+2026,401860900,San Diego State,4685311,Jayden Denegal,23.0
+2026,401860900,Texas State,5148803,Brad Jackson,43.0
+2026,401860900,Texas State,-7576, Team,1.0
+2026,401867967,Villanova,4875733,Pat McQuaide,28.0
+2026,401867967,Villanova,-7806, Team,1.0
+2026,401867967,Morgan State,4870712,Cameron Edge,40.0
+2026,401867967,Morgan State,5154534,Tahj Smith,1.0
+2026,401868197,Western Illinois,5165011,Kennedy McGill,43.0
+2026,401868197,Tennessee State,5162467,Daylin Lee,42.0
+2026,401866650,New Hampshire,5298487,Brooks Bentley,34.0
+2026,401866650,New Hampshire,5083436,Barry Kleinpeter,1.0
+2026,401866650,Elon,5299669,Elijah Guttman,33.0
+2026,401866650,Elon,-5914, Team,1.0
+2026,401867918,Robert Morris,4832789,Carson Haggard,28.0
+2026,401867918,Norfolk State,5439441,Da'Jean Golmond,45.0
+2026,401867918,Norfolk State,5410232,Brevin Caldwell,1.0
+2026,401868220,San Diego,5165884,Dom Nankil,33.0
+2026,401868220,San Diego,5232445,CJ Ceron,4.0
+2026,401868220,Davidson,5224535,Casey Bullock,46.0
+2026,401868220,Davidson,5298578,Jim Franklin,3.0
+2026,401868064,Austin Peay,4870889,Chris Parson,23.0
+2026,401868064,Austin Peay,5147872,Matthew Wilson,4.0
+2026,401868064,New Haven,5430949,Niko Boyce,39.0
+2026,401871049,New Mexico State,5152503,Adam Damante,26.0
+2026,401871049,Western Kentucky,5196864,Rodney Tisdale Jr.,40.0
+2026,401871049,Western Kentucky,-7905, Team,1.0
+2026,401871049,Western Kentucky,4920158,Brock Glenn,2.0
+2026,401858479,Wisconsin,5125715,Colton Joseph,20.0
+2026,401858479,Michigan State,5146670,Alessio Milivojevic,32.0
+2026,401858479,Michigan State,4700135,Cam Fancher,2.0
+2026,401856822,Iowa State,5080403,Jaylen Raynor,27.0
+2026,401856822,Iowa State,5219258,Aiden Flora,2.0
+2026,401856822,West Virginia,5079465,Michael Hawkins Jr.,23.0
+2026,401866432,Buffalo,5222591,Jason Wright,18.0
+2026,401866432,Western Michigan,5074245,Broc Lowry,24.0
+2026,401856708,Florida,5132812,Aaron Philo,34.0
+2026,401856708,Florida,5295814,Tramell Jones Jr.,5.0
+2026,401856708,Missouri,5141684,Austin Simmons,30.0
+2026,401856705,Georgia,4685578,Gunner Stockton,32.0
+2026,401856705,Vanderbilt,5121691,Blaze Berlowitz,23.0
+2026,401856705,Vanderbilt,5126473,Whit Muschamp,2.0
+2026,401868264,Stetson,5219833,Tom von Grote,49.0
+2026,401868264,Stetson,5226397,Kael Alexander,17.0
+2026,401868264,Marist,5088964,Sonny Mannino,29.0
+2026,401868359,Alcorn State,4878822,Jaylon Tolbert,31.0
+2026,401868359,Grambling,5085259,Ashton Frye,17.0
+2026,401868359,Grambling,4949488,Jacobe Robinson,17.0
+2026,401868359,Grambling,-6066, Team,1.0
+2026,401858247,UNLV,4870607,Jackson Arnold,22.0
+2026,401858247,UNLV,4872961,Matt Byrnes,1.0
+2026,401858247,California,5054036,Jackson Brousseau,32.0
+2026,401858247,California,5164313,Jaron-Keawe Sagapolutele,27.0
+2026,401856807,Kansas,5079604,Isaiah Marshall,22.0
+2026,401856807,Kansas,4986096,Chase Jenkins,3.0
+2026,401856807,Middle Tennessee,5194626,Roman Gagliano,26.0
+2026,401868276,Presbyterian,5300119,Landon Sharpe,30.0
+2026,401868276,Presbyterian,5439632,Anton Smith,2.0
+2026,401868276,St. Thomas (MN),5151370,Anthony Policare,24.0
+2026,401868276,St. Thomas (MN),5300206,Nick Peipert,13.0
+2026,401868276,St. Thomas (MN),5226243,Ryan Jackson,3.0
+2026,401868276,St. Thomas (MN),5426552,Kyle Winchester,1.0
+2026,401868029,Lafayette,5153849,Daniel Lipovski,16.0
+2026,401868029,Lafayette,5271361,Eddie Jordan,5.0
+2026,401868029,Richmond,5083373,Ashten Snelsire,38.0
+2026,401856820,Arizona,4801717,Noah Fifita,37.0
+2026,401856820,Cincinnati,4685345,JC French,29.0
+2026,401864513,Hawai'i,5101124,Micah Alejado,35.0
+2026,401864513,Hawai'i,-6139, Team,3.0
+2026,401864513,San José State,5295238,Luke Weaver,28.0
+2026,401866651,Monmouth,5226663,Frankie Weaver,27.0
+2026,401866651,Towson,5301657,Andrew Indorf,35.0
+2026,401867828,Georgetown,5225715,Jack Johnson,27.0
+2026,401867828,Georgetown,5402159,Gavin Beard,14.0
+2026,401867828,Cornell,5154161,Garrett Bass-Sulpizio,27.0
+2026,401867828,Cornell,5154182,Brendan Lee,1.0
+2026,401856819,Houston,4685574,Conner Weigman,33.0
+2026,401856819,UCF,5085337,Keyone Jenkins,35.0
+2026,401856819,UCF,5154248,Kaleb Annett,3.0
+2026,401858252,UConn,5079619,Kalieb Osborne,39.0
+2026,401858252,UConn,5077806,Tucker McDonald,1.0
+2026,401858252,Syracuse,5153782,Amari Odom,37.0
+2026,401868381,VMI,5302501,Ian Reynolds,10.0
+2026,401868381,VMI,5168665,Chandler Wilson,1.0
+2026,401868381,Mercer,5152839,Jaylen King,23.0
+2026,401868381,Mercer,5193282,JP Pickles,4.0
+2026,401868381,Mercer,5234394,Adrian Parker,3.0
+2026,401867848,South Dakota State,5151506,Josh Holst,23.0
+2026,401867848,Illinois State,4833241,Gage Roy,32.0
+2026,401867848,Illinois State,5227699,Beckham Pellant,6.0
+2026,401867848,Illinois State,5298094,Chase Kwiatkowski,1.0
+2026,401868936,Southern,5442201,Wyatt McCauley,24.0
+2026,401868936,Southern,5442199,Vashaun Coulon,5.0
+2026,401868936,Arkansas-Pine Bluff,5303364,Garrison Davis,22.0
+2026,401868936,Arkansas-Pine Bluff,5303367,Jaylen Jennings,1.0
+2026,401868936,Arkansas-Pine Bluff,5418367,George Wiles-Koehler,1.0
+2026,401862793,UAB,5057381,Ryder Burton,18.0
+2026,401862793,UAB,5197123,Nate Rogers,1.0
+2026,401862793,Samford,4870864,Gabarri Johnson,29.0
+2026,401869956,Georgia State,5193926,Cameran Brown,20.0
+2026,401869956,Georgia State,5083490,Ayden Pereira,4.0
+2026,401869956,Old Dominion,5193346,Quinn Henicle,15.0
+2026,401869956,Old Dominion,5295919,Ryan Huff,8.0
+2026,401869956,Old Dominion,5091836,Jaxon Potter,5.0
+2026,401864514,New Mexico,5261479,Toa Faavae,19.0
+2026,401864514,New Mexico,5122887,Luke Moga,4.0
+2026,401864514,UTEP,5141395,EJ Colson,12.0
+2026,401864514,UTEP,5232049,Raymond Moore III,5.0
+2026,401864514,UTEP,5390014,Braesen Leon,1.0
+2026,401856709,South Carolina,4875127,Lanorris Sellers,36.0
+2026,401856709,South Carolina,-7352, Team,1.0
+2026,401856709,Kentucky,4918099,Kenny Minchey,41.0
+2026,401869151,Nicholls,5164893,Ean Rodrigue,23.0
+2026,401869151,Nicholls,5439307,Chase Richardson,14.0
+2026,401869151,Houston Christian,5154855,Cutter Stewart,31.0
+2026,401870840,Yale,5079683,Dante Reno,39.0
+2026,401870840,Merrimack,5146355,AJ Hairston,26.0
+2026,401870840,Merrimack,5225304,Cole Meehan,2.0
+2026,401868965,Prairie View A&M,4801301,Tevin Carter,23.0
+2026,401868965,Mississippi Valley State,5233879,Josh Brown,25.0
+2026,401868375,Furman,5413484,Connor Ackerley,43.0
+2026,401868375,Wofford,5203716,Ethan Drumm,21.0
+2026,401868375,Wofford,5156255,JT Fayard,2.0
+2026,401867986,South Carolina State,5096134,Keely Watson,31.0
+2026,401867986,South Carolina State,-7355, Team,1.0
+2026,401867986,South Carolina State,5443342,Ronnie Robinson,1.0
+2026,401867986,The Citadel,5223107,Quentin Hayes,12.0
+2026,401867986,The Citadel,4695602,Nick Billoups,3.0
+2026,401867986,The Citadel,-5627, Team,1.0
+2026,401868173,Charleston Southern,5298248,Lek Powell,17.0
+2026,401868173,Gardner-Webb,4869817,Cole Pennington,47.0
+2026,401868180,Eastern Illinois,5113896,Cole Lacrue,4.0
+2026,401868180,Gardner-Webb,5439737,Lan Farmer,21.0
+2026,401868180,Gardner-Webb,5439733,Jared Doolittle,3.0
+2026,401868376,Tennessee Tech,5027925,Jax Leatherwood,36.0
+2026,401868376,Furman,5413484,Connor Ackerley,39.0
+2026,401866439,Western Michigan,5074245,Broc Lowry,26.0
+2026,401866439,Western Michigan,5126475,Trey Petty,2.0
+2026,401866439,Kent State,5119841,Dru Deshields,35.0
+2026,401868382,Western Carolina,4875128,Lex Thomas,35.0
+2026,401868382,Western Carolina,5159359,Jai Boyd,1.0
+2026,401868382,Mercer,5193282,JP Pickles,15.0
+2026,401868382,Mercer,5152839,Jaylen King,6.0
+2026,401868360,Alcorn State,4878822,Jaylon Tolbert,9.0
+2026,401868360,Alcorn State,5229538,Bryan Wilson,2.0
+2026,401868360,Alcorn State,5300386,Achilles Ringo,1.0
+2026,401868360,Arkansas Baptist,5450079,Jayden Young,12.0
+2026,401868360,Arkansas Baptist,5163475,Charles Coney,8.0
+2026,401868144,West Georgia,4880196,Colton FitzGerald,33.0
+2026,401868144,West Georgia,5224749,DK Daniel,1.0
+2026,401868144,Eastern Kentucky,5153754,Jordyn Potts,24.0
+2026,401867919,Morgan State,4870712,Cameron Edge,29.0
+2026,401867919,Robert Morris,4832789,Carson Haggard,30.0
+2026,401868011,Fordham,4812381,Gunnar Smith,25.0
+2026,401868011,Richmond,5083373,Ashten Snelsire,39.0
+2026,401858485,Penn State,4801299,Rocco Becht,32.0
+2026,401858485,USC,4685454,Jayden Maiava,33.0
+2026,401868054,Abilene Christian,5147465,Tucker Parks,26.0
+2026,401868054,Central Arkansas,5416075,Donovyn Omolo,16.0
+2026,401858260,NC State,5079301,CJ Bailey,39.0
+2026,401858260,NC State,5148611,Will Wilson,1.0
+2026,401858260,Wake Forest,4920227,Giovanni Lopez,33.0
+2026,401866435,Eastern Michigan,4690158,Noah Kim,46.0
+2026,401866435,Akron,5146903,Brayden Roggow,24.0
+2026,401868065,Tarleton State,4899468,Kaden Anderson,34.0
+2026,401868065,Tarleton State,5163588,James Paige,1.0
+2026,401868065,Austin Peay,4870889,Chris Parson,33.0
+2026,401866436,Sacramento State,5158748,Jackson Sharman,28.0
+2026,401866436,Bowling Green,5385753,Jay Kastantin,15.0
+2026,401866436,Bowling Green,4912647,Austin Novosad,2.0
+2026,401856808,Hawai'i,5101124,Micah Alejado,49.0
+2026,401856808,Hawai'i,5211117,Bjorn Jurgensen,2.0
+2026,401856808,Arizona State,5141378,Cutter Boley,31.0
+2026,401858258,Virginia,4685696,Beau Pribula,19.0
+2026,401858258,Virginia,-7809, Team,1.0
+2026,401858258,Syracuse,4870928,Malachi Nelson,29.0
+2026,401858258,Syracuse,5086156,Danny Lauter,6.0
+2026,401867860,Indiana State,4685691,Brady Allen,28.0
+2026,401867860,Indiana State,5227733,Brock Riddle,1.0
+2026,401867860,Youngstown State,5109518,Beau Brungard,34.0
+2026,401867860,Youngstown State,4869735,Roger Walters,1.0
+2026,401867860,Youngstown State,5300743,Malachi Lewis,1.0
+2026,401858484,UCLA,4870799,Nico Iamaleava,17.0
+2026,401858484,UCLA,5092275,Ty Dieffenbach,6.0
+2026,401858484,Oregon,5158446,Brock Thomas,15.0
+2026,401858484,Oregon,5079572,Dylan Raiola,19.0
+2026,401858484,Oregon,-7045, Team,1.0
+2026,401856712,Alabama,5141629,Keelon Russell,30.0
+2026,401856712,Alabama,-5154, Team,1.0
+2026,401856712,Georgia,4685578,Gunner Stockton,22.0
+2026,401856715,Kentucky,4918099,Kenny Minchey,36.0
+2026,401856715,LSU,5078810,Sam Leavitt,34.0
+2026,401856715,LSU,5114311,Jackson Harris,1.0
+2026,401856716,Missouri,5141684,Austin Simmons,28.0
+2026,401856716,Texas A&M,4870971,Marcel Reed,39.0
+2026,401858481,Nebraska,5044387,Anthony Colandrea,43.0
+2026,401858481,Nebraska,-6842, Team,1.0
+2026,401858481,Indiana,4685401,Josh Hoover,22.0
+2026,401867907,Central Connecticut,4711410,Brett Griffis,21.0
+2026,401867907,Central Connecticut,5105336,Conner Kenyon,5.0
+2026,401867907,American International,5161974,Lukas Kasko,39.0
+2026,401867907,American International,5305045,Connor Dietz,1.0
+2026,401867907,American International,5305053,Karmarri Ellerbe,1.0
+2026,401861964,Temple,5078166,Ajani Sheppard,25.0
+2026,401861964,Temple,5089003,Colin Chase,1.0
+2026,401861964,UConn,5079619,Kalieb Osborne,23.0
+2026,401861964,UConn,-7723, Team,1.0
+2026,401866662,Brown,5155943,James Murphy,25.0
+2026,401866662,Bryant,5226265,Brennan Myer,37.0
+2026,401867836,Yale,5079683,Dante Reno,37.0
+2026,401867836,Dartmouth,5155398,Grayson Saunier,26.0
+2026,401867960,Pennsylvania,5230195,Karson Siqueiros-Lasky,29.0
+2026,401867960,Pennsylvania,5289943,Miles Teodecki,13.0
+2026,401867960,Pennsylvania,5301019,Isaac Lee,1.0
+2026,401867960,Pennsylvania,5442857,Simon Cofrancesco,1.0
+2026,401867960,Howard,5087297,Ja'Shawn Scroggins,33.0
+2026,401867954,Franklin Pierce,5234395,Kevin Leal,18.0
+2026,401867954,Franklin Pierce,5418456,Giovanni Winters,7.0
+2026,401867954,Franklin Pierce,5156012,Shawn Brown,4.0
+2026,401867954,Delaware State,4685542,Jayden Sauray,29.0
+2026,401867954,Delaware State,5085808,Marqui Adams,2.0
+2026,401868212,San Diego,5165884,Dom Nankil,42.0
+2026,401868212,Butler,5224468,Gabe Passini,16.0
+2026,401868212,Butler,5224464,Jarrin Alley,1.0
+2026,401868256,Valparaiso,5089335,Rowan Keefe,28.0
+2026,401868256,Valparaiso,5300250,Nathan Downey,1.0
+2026,401868256,Drake,5404620,Riley Warzynski,38.0
+2026,401868198,UT Martin,5299226,Tate Surber,21.0
+2026,401868198,Tennessee State,5162467,Daylin Lee,39.0
+2026,401867987,South Carolina State,5443342,Ronnie Robinson,38.0
+2026,401867987,South Carolina State,5096134,Keely Watson,12.0
+2026,401867987,Charleston Southern,5224320,Jared Echols,29.0
+2026,401866659,Towson,5405931,Jacob Davis,34.0
+2026,401866659,Towson,-7655, Team,1.0
+2026,401866659,Stony Brook,5226896,Quinn Boyd,24.0
+2026,401868156,Portland State,5225576,Tyrese Smith,20.0
+2026,401868156,Utah Tech,5224562,Bronson Barben,43.0
+2026,401868156,Utah Tech,5441693,Isaac McMullin,1.0
+2026,401860922,Washington State,5226019,Caden Pinnick,36.0
+2026,401860922,Utah State,5081197,Grady Brosterhous,26.0
+2026,401869943,Coastal Carolina,5296439,Deuce Bailey,18.0
+2026,401869943,Marshall,4685697,Zion Turner,27.0
+2026,401869943,Marshall,4432691,Carlos Del Rio-Wilson,6.0
+2026,401869943,Marshall,5158251,Khalil Wilkins,4.0
+2026,401856827,Kansas,5079604,Isaiah Marshall,37.0
+2026,401856827,Utah,5105849,Devon Dampier,30.0
+2026,401856827,Utah,5294263,Byrd Ficklin,1.0
+2026,401868087,Northern Colorado,5085026,Keegan Patterson,22.0
+2026,401868087,Northern Colorado,5219929,Kenny Lueth,2.0
+2026,401868087,Northern Colorado,4873077,Brayten Silbor,9.0
+2026,401868087,Northern Colorado,5225594,Jordan Herron,1.0
+2026,401868087,Eastern Washington,5152110,Nate Bell,37.0
+2026,401856718,Vanderbilt,5158948,Jared Curtis,32.0
+2026,401856718,Vanderbilt,5121691,Blaze Berlowitz,5.0
+2026,401856718,Ole Miss,4911529,Trinidad Chambliss,30.0
+2026,401868249,SE Louisiana,4685440,Kyle Lowe,35.0
+2026,401868249,UT Rio Grande Valley,5300880,Aidan Jakobsohn,37.0
+2026,401862798,Memphis,5165807,Marcus Stokes,21.0
+2026,401862798,UAB,5057381,Ryder Burton,20.0
+2026,401862798,UAB,5197123,Nate Rogers,2.0
+2026,401860901,Boise State,4870513,Maddux Madsen,34.0
+2026,401860901,Fresno State,5010409,Jayden Mandal,33.0
+2026,401860901,Fresno State,5146667,Khristian Martin,2.0
+2026,401856717,Oklahoma,4915980,John Mateer,26.0
+2026,401856717,Texas,4870906,Arch Manning,31.0
+2026,401864517,UTEP,5232049,Raymond Moore III,26.0
+2026,401864517,Nevada,5205097,Carter Jones,19.0
+2026,401864517,Nevada,4819250,AJ Bianco,3.0
+2026,401858482,Ball State,5075392,Keldric Luster,41.0
+2026,401858482,Ball State,5152153,Tyler Mizzell,5.0
+2026,401858482,Ball State,5282041,Mason Atkins,1.0
+2026,401858482,Northwestern,5075805,Aidan Chiles,23.0
+2026,401858482,Northwestern,4685459,Nicco Marchiol,1.0
+2026,401866440,Miami (OH),5388435,Caleb Heavner,20.0
+2026,401866440,Miami (OH),5079772,Damarion Witten,1.0
+2026,401866440,Massachusetts,5327585,Aedan McCarthy,29.0
+2026,401866440,Massachusetts,5298739,Logan Inagawa,6.0
+2026,401856825,Houston,4685574,Conner Weigman,30.0
+2026,401856825,Kansas State,4870857,Avery Johnson,30.0
+2026,401864516,Air Force,5223112,Kemper Hodges,1.0
+2026,401864516,Northern Illinois,4881032,Taron Dickens,20.0
+2026,401871090,Troy,4431633,Will Crowder,21.0
+2026,401871090,Southern Miss,4833635,Landy Lyddy,37.0
+2026,401871090,Southern Miss,5218891,Mario Sanders II,1.0
+2026,401871090,Southern Miss,5394591,Eelijah Singleton,1.0
+2026,401871066,Florida International,4870883,J.J. Kohl,21.0
+2026,401871066,Florida International,5153845,Zach Marker,1.0
+2026,401871066,New Mexico State,5152503,Adam Damante,22.0
+2026,401871066,New Mexico State,5224084,Trey Hedden,8.0
+2026,401869965,Louisiana,4871091,D'Wayne' Winfield,24.0
+2026,401869965,Louisiana Tech,5150998,Blake Baker,42.0
+2026,401869965,Louisiana Tech,5296386,Dylone Brooks,1.0
+2026,401870766,Sam Houston,5148427,Landyn Locke,30.0
+2026,401870766,Liberty,5138131,Deshawn Purdie,14.0
+2026,401869949,Georgia Southern,4685740,Max Johnson,38.0
+2026,401869949,Georgia Southern,5155780,Taeo Todd,1.0
+2026,401869949,Georgia Southern,5212641,Weston Bryan,1.0
+2026,401869949,James Madison,5153978,Camden Coleman,27.0
+2026,401869949,James Madison,5172036,JC Evans,2.0
+2026,401866438,Central Michigan,5084769,Angel H Flores,20.0
+2026,401866438,Central Michigan,5149056,Jadyn Glasser,4.0
+2026,401866438,Ohio,5228762,Nick Poulos,18.0
+2026,401868968,Prairie View A&M,4801301,Tevin Carter,33.0
+2026,401868968,Southern,5442202,Christian Johnson,22.0
+2026,401856824,UCF,5085337,Keyone Jenkins,42.0
+2026,401856824,Oklahoma State,5219834,Drew Mestemaker,28.0
+2026,401858480,Michigan State,5146670,Alessio Milivojevic,26.0
+2026,401858480,Michigan State,4911541,Carson Gulker,1.0
+2026,401858480,Illinois,4795295,Katin Houser,29.0
+2026,401858480,Illinois,5198286,Michael Clayton II,8.0
+2026,401868300,Alabama A&M,4568411,Cornelious Brown,19.0
+2026,401868300,Bethune-Cookman,4870848,Tyler Jefferson,11.0
+2026,401868300,Bethune-Cookman,5159018,Joel Morris,10.0
+2026,401867886,South Dakota,5302115,Austyn Modrzewski,20.0
+2026,401867886,South Dakota,4878223,Jackson Proctor,1.0
+2026,401867886,Southern Illinois,4697094,DJ Williams,29.0
+2026,401858255,Duke,4694149,Walker Eget,41.0
+2026,401858255,Duke,-5849, Team,1.0
+2026,401858255,Georgia Tech,5191162,Alberto Mendoza,30.0
+2026,401869933,Arkansas State,5123665,Trey Owens,43.0
+2026,401869933,South Alabama,5148858,Jared Hollins,10.0
+2026,401866661,Wofford,5156255,JT Fayard,25.0
+2026,401866661,Wofford,5439484,Kaeden Gilstrap,7.0
+2026,401866661,Elon,5212705,Brady Stober,21.0
+2026,401866661,Elon,5405058,Connor Dunn,1.0
+2026,401866661,Elon,5299669,Elijah Guttman,4.0
+2026,401862796,Charlotte,4801306,Conner Harrell,22.0
+2026,401862796,Charlotte,5272738,Jaylen White,1.0
+2026,401862796,North Texas,4801307,Tayven Jackson,31.0
+2026,401862796,North Texas,5215310,Chaston Ditta,8.0
+2026,401860902,Oregon State,5212654,Braden Atkinson,38.0
+2026,401860902,Oregon State,4685497,Maalik Murphy,8.0
+2026,401860902,Oregon State,5296163,Brady Jones,1.0
+2026,401860902,San Diego State,4685311,Jayden Denegal,19.0
+2026,401860902,San Diego State,5302259,Draiden Trudeau,8.0
+2026,401867930,Princeton,5442807,Wyatt Becker,15.0
+2026,401867930,Princeton,5302683,Ty Ciongoli,15.0
+2026,401867930,Wagner,5302638,Benjamin Newman,24.0
+2026,401867930,Wagner,5440760,Jason Wiley,6.0
+2026,401868229,Dayton,5154881,Bryce Schondelmyer,29.0
+2026,401868229,Dayton,5156755,Gavin Lochow,3.0
+2026,401868229,Morehead State,5084352,Bryce Patterson,41.0
+2026,401866660,Stonehill,5106897,Jack O'Connell,23.0
+2026,401866660,Sacred Heart,5225700,Jack Snyder,37.0
+2026,401862795,Army,5150297,Cale Hellums,6.0
+2026,401862795,Tulane,5091890,Kadin Semonza,26.0
+2026,401862794,South Florida,5079620,Michael Van Buren Jr.,29.0
+2026,401862794,South Florida,5079542,Luke Kromenhoek,1.0
+2026,401862794,UTSA,4775136,Owen McCown,31.0
+2026,401862794,UTSA,4917054,David Amador,1.0
+2026,401866658,New Hampshire,5298487,Brooks Bentley,35.0
+2026,401866658,North Carolina A&T,5164567,Kevin White,35.0
+2026,401866658,North Carolina A&T,-6815, Team,1.0
+2026,401868347,East Tennessee State,5164309,Mason Mims,21.0
+2026,401868347,East Tennessee State,-5860, Team,1.0
+2026,401868347,East Tennessee State,5079367,Jadyn Davis,1.0
+2026,401868347,The Citadel,5302081,Xavier Hill,6.0
+2026,401868347,The Citadel,5223107,Quentin Hayes,8.0
+2026,401868347,The Citadel,4695602,Nick Billoups,3.0
+2026,401868347,The Citadel,5230050,Braylon Knauth,1.0
+2026,401858486,Purdue,5104738,Ryan Browne,24.0
+2026,401858486,Minnesota,5144959,Drake Lindsey,39.0
+2026,401864518,UNLV,4870607,Jackson Arnold,16.0
+2026,401864518,North Dakota State,5087156,Nathan Hayes,22.0
+2026,401856823,Arizona,4801717,Noah Fifita,23.0
+2026,401856823,Arizona,5158407,Sawyer Anderson,1.0
+2026,401856823,West Virginia,5079465,Michael Hawkins Jr.,28.0
+2026,401856713,Arkansas,5079516,KJ Jackson,27.0
+2026,401856713,Tennessee,5141571,George MacIntyre,29.0
+2026,401871052,Missouri State,4685252,Henry Belin IV,14.0
+2026,401871052,Missouri State,5083042,Skyler Locklear,24.0
+2026,401871052,Western Kentucky,4920158,Brock Glenn,35.0
+2026,401858256,North Carolina,4592532,Billy Edwards,26.0
+2026,401858256,Pittsburgh,4714300,Holden Geriner,44.0
+2026,401871051,Kennesaw State,4870645,Rickie Collins,34.0
+2026,401871051,Kennesaw State,-109170, Team,1.0
+2026,401871051,Jacksonville State,5122157,Caden Creel,44.0
+2026,401858487,Iowa,5121030,Jeremy Hecklinski,19.0
+2026,401858487,Washington,5079318,Elijah Brown,39.0
+2026,401858487,Washington,5079653,Demond Williams Jr.,11.0
+2026,401858487,Washington,-7854, Team,1.0
+2026,401856826,BYU,5141367,Bear Bachmeier,30.0
+2026,401856826,Iowa State,5080403,Jaylen Raynor,29.0
+2026,401868329,Florida A&M,5442040,Armond Parker,20.0
+2026,401868329,Alabama State,5441396,Aaron Frye,15.0
+2026,401868329,Alabama State,-5160, Team,1.0
+2026,401868265,Marist,5088964,Sonny Mannino,34.0
+2026,401868265,Marist,5298896,Will O'Dell,5.0
+2026,401868265,Marist,-6525, Team,1.0
+2026,401868265,Marist,4870786,Marco Lainez,1.0
+2026,401868265,Columbia,5154125,Chase Goodwin,32.0
+2026,401858254,Louisville,5078278,Lincoln Kienholz,15.0
+2026,401858254,Florida State,4838679,Ashton Daniels,37.0
+2026,401858254,Florida State,5141661,Kevin Sperry,1.0
+2026,401864519,Wyoming,4838536,Tyler Hughes,24.0
+2026,401864519,San José State,5295238,Luke Weaver,38.0
+2026,401867829,Harvard,5299776,Charlie Smith,27.0
+2026,401867829,Cornell,5154161,Garrett Bass-Sulpizio,38.0
+2026,401867911,Duquesne,4695784,Carson Camp,24.0
+2026,401867911,Long Island University,4837195,Luca Stanzani,13.0
+2026,401867911,Long Island University,5304536,Mekhi Moore,1.0
+2026,401868340,Samford,4870864,Gabarri Johnson,29.0
+2026,401868340,Chattanooga,5223983,Battle Alberson,5.0
+2026,401867980,William & Mary,5226917,Winston Watkins,18.0
+2026,401867980,William & Mary,5402328,Patrick Blee,1.0
+2026,401867980,North Carolina Central,5159177,Joshua Jones,21.0
+2026,401867980,North Carolina Central,5230073,Cobey Thompkins,18.0
+2026,401868221,Presbyterian,5300119,Landon Sharpe,22.0
+2026,401868221,Davidson,5224535,Casey Bullock,22.0
+2026,401862797,East Carolina,5075800,Emory Williams,31.0
+2026,401862797,East Carolina,4433829,Mitch Griffis,3.0
+2026,401862797,Rice,5145788,Gael Ochoa,4.0
+2026,401862797,Rice,4685291,Jacurri Brown,10.0
+2026,401867974,Norfolk State,5439441,Da'Jean Golmond,9.0
+2026,401867974,Norfolk State,5150426,Deljay Bailey,12.0
+2026,401867974,Norfolk State,5439443,Ty Jackson,1.0
+2026,401867974,Virginia Lynchburg,5451166,James Carney,13.0
+2026,401867974,Virginia Lynchburg,5306367,Max Zavala,14.0
+2026,401867974,Virginia Lynchburg,5451165,Thomas Adamsky,14.0
+2026,401867974,Virginia Lynchburg,5451167,Christian Banks,4.0
+2026,401867992,Bucknell,5402059,Emmett Dowling,22.0
+2026,401867992,Georgetown,5402159,Gavin Beard,23.0
+2026,401868282,St. Thomas (MN),5300206,Nick Peipert,16.0
+2026,401868282,St. Thomas (MN),5151370,Anthony Policare,3.0
+2026,401868282,Stetson,5219833,Tom von Grote,52.0
+2026,401868282,Stetson,5161159,Chris Stephenson,4.0
+2026,401871473,Lindenwood,5225648,Pops Battle,28.0
+2026,401871473,Southeast Missouri State,4920145,Braylen Ragland,23.0
+2026,401869843,App State,4870999,Malachi Singleton,23.0
+2026,401869843,App State,5146664,Henry Hasselbeck,4.0
+2026,401869843,Old Dominion,5193346,Quinn Henicle,20.0
+2026,401868966,Texas Southern,4917305,Cam'Ron McCoy,30.0
+2026,401868966,Mississippi Valley State,5233879,Josh Brown,39.0
+2026,401868966,Mississippi Valley State,5168808,Jordan Davis,1.0
+2026,401858259,Virginia Tech,5144078,Ethan Grunkemeyer,31.0
+2026,401858259,California,5054036,Jackson Brousseau,43.0
+2026,401856714,Florida,5132812,Aaron Philo,28.0
+2026,401856714,Florida,5295814,Tramell Jones Jr.,8.0
+2026,401856714,South Carolina,4875127,Lanorris Sellers,35.0
+2026,401869144,Lamar,5154911,Aiden McCown,22.0
+2026,401869144,Incarnate Word,5085112,Emmett Brown,39.0
+2026,401868095,Weber State,5439505,Nate Dahle,19.0
+2026,401868095,Idaho,4832830,Joshua Wood,50.0
+2026,401868095,Idaho,4923050,Israel Carter,2.0
+2026,401868115,Montana,5153708,Keali'i Ah Yat,39.0
+2026,401868115,Northern Arizona,5225414,Ty Pennington,38.0
+2026,401868115,Northern Arizona,5300700,Joey Stout,1.0
+2026,401868115,Northern Arizona,-6920, Team,1.0
+2026,401868955,Jackson State,5157537,Caron Tyler,10.0
+2026,401868955,Jackson State,5298925,Jared Lockhart,7.0
+2026,401868955,Grambling,4949488,Jacobe Robinson,21.0
+2026,401868955,Grambling,5085259,Ashton Frye,5.0
+2026,401868955,Grambling,-6066, Team,1.0
+2026,401858257,Stanford,4878681,Davis Warren,22.0
+2026,401858257,Stanford,4914482,Charlie Mirer,1.0
+2026,401858257,Notre Dame,5079369,C.J. Carr,20.0
+2026,401858257,Notre Dame,5159115,Noah Grubbs,7.0
+2026,401862799,Navy,5220473,Jackson Gutierrez,7.0
+2026,401862799,Tulsa,5224011,Baylor Hayes,35.0
+2026,401862799,Tulsa,4710860,Oran Singleton Jr.,1.0
+2026,401866437,Toledo,5082330,John Alan Richter,35.0
+2026,401866437,Buffalo,5222591,Jason Wright,31.0
+2026,401858483,Ohio State,5079712,Julian Sayin,21.0
+2026,401858483,Maryland,5141695,Malik Washington,25.0
+2026,401868078,Idaho State,5158746,Jordan Cooke,36.0
+2026,401868078,Cal Poly,5219586,Anthony Grigsby Jr.,31.0
+2026,401868078,Cal Poly,5152103,Brooks Wheatley,1.0
+2026,401868078,Cal Poly,5083145,Bo Kelly,1.0
+2026,401867877,Northern Iowa,4826635,Jaxon Dailey,21.0
+2026,401867877,North Dakota,5155528,Jerry Kaminski,35.0
+2026,401867877,North Dakota,4920196,Javance Tupou'ata-Johnson,9.0
+2026,401858493,Purdue,5104738,Ryan Browne,41.0
+2026,401858493,Washington,5079318,Elijah Brown,27.0
+2026,401867821,Columbia,5154125,Chase Goodwin,40.0
+2026,401867821,Pennsylvania,5230195,Karson Siqueiros-Lasky,41.0
+2026,401866663,Sacred Heart,5225700,Jack Snyder,21.0
+2026,401866663,Hampton,5088851,Tre'Von Taylor,9.0
+2026,401866663,Hampton,5405365,Xavier Brookins,15.0
+2026,401858491,Michigan State,5146670,Alessio Milivojevic,30.0
+2026,401858491,Northwestern,5075805,Aidan Chiles,27.0
+2026,401858491,Northwestern,-6958, Team,1.0
+2026,401858491,Northwestern,4569262,Alex Honig,1.0
+2026,401867807,Brown,5155943,James Murphy,50.0
+2026,401867807,Brown,5224601,Pearson Hill,6.0
+2026,401867807,Brown,5224606,Matt Childs,1.0
+2026,401867807,Princeton,5442807,Wyatt Becker,15.0
+2026,401867807,Princeton,5302683,Ty Ciongoli,19.0
+2026,401866441,Ball State,5075392,Keldric Luster,24.0
+2026,401866441,Bowling Green,5385753,Jay Kastantin,24.0
+2026,401867837,Merrimack,5146355,AJ Hairston,27.0
+2026,401867837,Dartmouth,5229247,Noah Trigueros,16.0
+2026,401867837,Dartmouth,5155398,Grayson Saunier,5.0
+2026,401856720,Mississippi State,5294646,Parker Puckett,26.0
+2026,401856720,LSU,5078810,Sam Leavitt,38.0
+2026,401866669,Yale,5079683,Dante Reno,38.0
+2026,401866669,Yale,5300438,Charlie Hewitt,1.0
+2026,401866669,Rhode Island,5226812,Alex McClelland,16.0
+2026,401868002,Colgate,5226989,Joey Tomasso,27.0
+2026,401868002,Colgate,-5669, Team,1.0
+2026,401868002,Georgetown,5402159,Gavin Beard,33.0
+2026,401868398,Wofford,5156255,JT Fayard,21.0
+2026,401868398,VMI,5302501,Ian Reynolds,9.0
+2026,401866444,Eastern Michigan,4690158,Noah Kim,36.0
+2026,401866444,Eastern Michigan,5094040,Brogan McCaughey,4.0
+2026,401866444,Eastern Michigan,5144207,Jace Stuckey,3.0
+2026,401866444,Toledo,5082330,John Alan Richter,30.0
+2026,401858265,Syracuse,4870928,Malachi Nelson,39.0
+2026,401858265,Syracuse,5086156,Danny Lauter,5.0
+2026,401858265,Louisville,5078278,Lincoln Kienholz,26.0
+2026,401867878,South Dakota State,5085784,Chase Mason,33.0
+2026,401867878,South Dakota State,5227812,Jack Smith,1.0
+2026,401867878,North Dakota,5155528,Jerry Kaminski,16.0
+2026,401867830,Cornell,5154161,Garrett Bass-Sulpizio,34.0
+2026,401867830,Lehigh,5299656,Derek Morgan,25.0
+2026,401868181,Eastern Illinois,5113896,Cole Lacrue,24.0
+2026,401868181,Lindenwood,5225648,Pops Battle,34.0
+2026,401868181,Lindenwood,-14570, Team,1.0
+2026,401867925,Stonehill,5106897,Jack O'Connell,29.0
+2026,401867925,Duquesne,4695784,Carson Camp,23.0
+2026,401868257,Drake,5404620,Riley Warzynski,51.0
+2026,401868257,Drake,5404623,Braylon Wilson,1.0
+2026,401868257,Marist,5088964,Sonny Mannino,26.0
+2026,401869132,McNeese,4915622,Jake Strong,28.0
+2026,401869132,Northwestern State,4808719,Zach Wilcke,33.0
+2026,401869132,Northwestern State,-6991, Team,1.0
+2026,401868277,Presbyterian,5300119,Landon Sharpe,34.0
+2026,401868277,Stetson,5219833,Tom von Grote,28.0
+2026,401868277,Stetson,5161159,Chris Stephenson,3.0
+2026,401868277,Stetson,-106999, Team,1.0
+2026,401868066,Austin Peay,4870889,Chris Parson,21.0
+2026,401868066,West Georgia,4880196,Colton FitzGerald,45.0
+2026,401868066,West Georgia,5157481,Collin Hurst,2.0
+2026,401868145,Tennessee Tech,5027925,Jax Leatherwood,30.0
+2026,401868145,Tennessee Tech,5164721,Zolten Osbourne,2.0
+2026,401868145,Eastern Kentucky,5153754,Jordyn Potts,12.0
+2026,401856726,Vanderbilt,5158948,Jared Curtis,31.0
+2026,401856726,Arkansas,5079516,KJ Jackson,31.0
+2026,401856830,Kansas State,4870857,Avery Johnson,24.0
+2026,401856830,Kansas,5079604,Isaiah Marshall,26.0
+2026,401856831,Houston,4685574,Conner Weigman,33.0
+2026,401856831,Oklahoma State,5219834,Drew Mestemaker,34.0
+2026,401862803,Temple,5078166,Ajani Sheppard,23.0
+2026,401862803,Temple,5077787,Jaxon Smolik,4.0
+2026,401862803,Charlotte,4801306,Conner Harrell,31.0
+2026,401868105,Weber State,5439505,Nate Dahle,33.0
+2026,401868105,Idaho State,5224050,Davis Harsin,27.0
+2026,401868105,Idaho State,5158746,Jordan Cooke,9.0
+2026,401868105,Idaho State,5405721,Owen Tomich,1.0
+2026,401868096,Montana,5153708,Keali'i Ah Yat,31.0
+2026,401868096,Idaho,4832830,Joshua Wood,38.0
+2026,401868330,Alabama State,5441396,Aaron Frye,16.0
+2026,401868330,Alabama State,4819240,Te'Sean Smoot,1.0
+2026,401868330,Arkansas-Pine Bluff,5163068,Jack Schierholz,37.0
+2026,401868330,Arkansas-Pine Bluff,5303364,Garrison Davis,6.0
+2026,401868361,Alcorn State,4878822,Jaylon Tolbert,39.0
+2026,401868361,Prairie View A&M,4801301,Tevin Carter,18.0
+2026,401868361,Prairie View A&M,5425111,Kaeden Smith,1.0
+2026,401866478,Akron,5146903,Brayden Roggow,38.0
+2026,401866478,Miami (OH),5388435,Caleb Heavner,16.0
+2026,401867961,Morehouse,5169209,Miles Scott,44.0
+2026,401867961,Howard,5087297,Ja'Shawn Scroggins,27.0
+2026,401867849,Southern Illinois,4697094,DJ Williams,31.0
+2026,401867849,Illinois State,5227699,Beckham Pellant,25.0
+2026,401867849,Illinois State,5298094,Chase Kwiatkowski,1.0
+2026,401858490,Michigan,5269403,Tommy Carr,7.0
+2026,401858490,Michigan,5141741,Bryce Underwood,11.0
+2026,401858490,Penn State,4801299,Rocco Becht,44.0
+2026,401868310,Stephen F. Austin,5169036,Gavin Rutherford,20.0
+2026,401868310,Stephen F. Austin,5303183,Bryson Broadway,2.0
+2026,401868310,Stephen F. Austin,5303186,JT Kitna,10.0
+2026,401868310,Nicholls,5226521,Preston Welch,16.0
+2026,401868310,Nicholls,5439307,Chase Richardson,8.0
+2026,401868310,Nicholls,5226526,Shane Lee,1.0
+2026,401868310,Nicholls,5164893,Ean Rodrigue,1.0
+2026,401866664,Bryant,5226265,Brennan Myer,21.0
+2026,401866664,Maine,5153811,Caden Drezek,34.0
+2026,401868012,Villanova,4875733,Pat McQuaide,24.0
+2026,401868012,Fordham,4812381,Gunnar Smith,26.0
+2026,401867897,Northern Iowa,4826635,Jaxon Dailey,49.0
+2026,401867897,Youngstown State,5109518,Beau Brungard,27.0
+2026,401867901,Mercyhurst,5227557,Alex Gevaudan,45.0
+2026,401867901,Mercyhurst,-6608, Team,2.0
+2026,401867901,Central Connecticut,4711410,Brett Griffis,18.0
+2026,401867912,Wagner,5302638,Benjamin Newman,30.0
+2026,401867912,Long Island University,4837195,Luca Stanzani,17.0
+2026,401867912,Long Island University,5087070,Sam Slade,1.0
+2026,401866665,New Hampshire,5226704,Tommy McLeish,19.0
+2026,401866665,New Hampshire,5298487,Brooks Bentley,11.0
+2026,401866665,Monmouth,5226663,Frankie Weaver,25.0
+2026,401868943,Mississippi Valley State,5233879,Josh Brown,34.0
+2026,401868943,Bethune-Cookman,4870848,Tyler Jefferson,15.0
+2026,401868943,Bethune-Cookman,4837469,Amari Jones,8.0
+2026,401866667,Campbell,5154962,Kamden Sixkiller,30.0
+2026,401866667,Towson,5405931,Jacob Davis,39.0
+2026,401866667,Towson,5230376,Aaron Enterline,1.0
+2026,401867870,Murray State,5083941,Collin Shannon,17.0
+2026,401867870,Murray State,5227854,Baxter Wright,17.0
+2026,401867870,Murray State,-6802, Team,1.0
+2026,401867870,South Dakota,5302115,Austyn Modrzewski,27.0
+2026,401867968,Tennessee State,5162467,Daylin Lee,34.0
+2026,401867968,Tennessee State,5441134,Jaden Jones,1.0
+2026,401867968,Morgan State,4870712,Cameron Edge,30.0
+2026,401868079,Northern Colorado,5085026,Keegan Patterson,12.0
+2026,401868079,Cal Poly,5219586,Anthony Grigsby Jr.,34.0
+2026,401868079,Cal Poly,5405077,Tayvion McCoy,1.0
+2026,401868088,Montana State,4684502,Justin Lamson,19.0
+2026,401868088,Eastern Washington,5152110,Nate Bell,53.0
+2026,401867841,Holy Cross,5154302,David Lynch,22.0
+2026,401867841,Holy Cross,5231612,Jake Croce,1.0
+2026,401867841,Harvard,5299776,Charlie Smith,32.0
+2026,401868125,Portland State,5225576,Tyrese Smith,29.0
+2026,401868125,Northern Arizona,5225414,Ty Pennington,33.0
+2026,401868125,Northern Arizona,5219591,Tyler Manship,1.0
+2026,401868055,Abilene Christian,5147465,Tucker Parks,25.0
+2026,401868055,North Alabama,4685698,Destin Wade,25.0
+2026,401868055,North Alabama,-6917, Team,1.0
+2026,401868134,Central Arkansas,5416075,Donovyn Omolo,36.0
+2026,401868134,Central Arkansas,5162617,Sam Driggers,1.0
+2026,401868134,Tarleton State,4899468,Kaden Anderson,29.0
+2026,401868383,Mercer,5193282,JP Pickles,22.0
+2026,401868383,Samford,5077059,Charlie Gilliam,23.0
+2026,401868383,Samford,5085644,Coulter Cleland,8.0
+2026,401868383,Samford,4870864,Gabarri Johnson,8.0
+2026,401858262,Stanford,4878681,Davis Warren,39.0
+2026,401858262,Stanford,5211073,Mike Mitchell Jr.,2.0
+2026,401858262,Elon,5151062,TJ Crews IV,27.0
+2026,401871091,UL Monroe,5122054,Aidan Armenta,24.0
+2026,401871091,UL Monroe,5207934,Austin Carlisle,5.0
+2026,401871091,Louisiana Tech,5150998,Blake Baker,21.0
+2026,401871091,Louisiana Tech,4919037,Sergio Snider,1.0
+2026,401871091,Louisiana Tech,5296376,Trey Kukuk,1.0
+2026,401866445,Sacramento State,5401458,Brian Salazar,5.0
+2026,401866445,Sacramento State,5158748,Jackson Sharman,21.0
+2026,401866445,Ohio,5228762,Nick Poulos,14.0
+2026,401866445,Ohio,5244755,Levi Davis,4.0
+2026,401866445,Ohio,5171031,Matt Vezza,4.0
+2026,401864523,San José State,5215357,Daniel Rolovich,23.0
+2026,401864523,UTEP,5232049,Raymond Moore III,28.0
+2026,401864523,UTEP,5141395,EJ Colson,6.0
+2026,401868250,Incarnate Word,5085112,Emmett Brown,33.0
+2026,401868250,UT Rio Grande Valley,5300880,Aidan Jakobsohn,45.0
+2026,401868250,UT Rio Grande Valley,5300847,Atzel Chavez Jr.,2.0
+2026,401856722,Oklahoma,4915980,John Mateer,40.0
+2026,401856722,Oklahoma,5154245,Jacob Ulrich,1.0
+2026,401856722,Kentucky,4918099,Kenny Minchey,28.0
+2026,401858269,Wake Forest,4920227,Giovanni Lopez,23.0
+2026,401858269,Wake Forest,5141634,Steele Pizzella,3.0
+2026,401858269,California,5164313,Jaron-Keawe Sagapolutele,18.0
+2026,401858269,California,5054036,Jackson Brousseau,29.0
+2026,401869957,James Madison,5153978,Camden Coleman,19.0
+2026,401869957,James Madison,5172036,JC Evans,8.0
+2026,401869957,Georgia State,5193926,Cameran Brown,25.0
+2026,401869957,Georgia State,5083490,Ayden Pereira,4.0
+2026,401864521,Hawai'i,5101124,Micah Alejado,40.0
+2026,401864521,New Mexico,5261479,Toa Faavae,10.0
+2026,401864521,New Mexico,5326947,Bailen George,1.0
+2026,401862806,Kent State,5119841,Dru Deshields,30.0
+2026,401862806,Kent State,5222633,Nolan Good,3.0
+2026,401862806,South Florida,5079620,Michael Van Buren Jr.,27.0
+2026,401868207,Western Illinois,5165011,Kennedy McGill,37.0
+2026,401868207,Southeast Missouri State,4920145,Braylen Ragland,28.0
+2026,401868949,Florida A&M,5442040,Armond Parker,27.0
+2026,401868949,Florida A&M,5227056,James Hayes,1.0
+2026,401868949,Jackson State,5298925,Jared Lockhart,24.0
+2026,401868949,Jackson State,5157537,Caron Tyler,12.0
+2026,401868949,Jackson State,5198479,Jabari Jones,1.0
+2026,401860903,Oregon State,5212654,Braden Atkinson,38.0
+2026,401860903,Washington State,5263246,Owen Eshelman,49.0
+2026,401860903,Washington State,5155864,Julian Dugger,1.0
+2026,401864524,UNLV,4870607,Jackson Arnold,33.0
+2026,401864524,Air Force,5306440,Evan Medders,3.0
+2026,401868213,Butler,5224468,Gabe Passini,26.0
+2026,401868213,Dayton,5154881,Bryce Schondelmyer,36.0
+2026,401874037,West Florida,5436233,Ty'ray Davis,16.0
+2026,401874037,West Florida,4790965,Donovan Leary,11.0
+2026,401874037,West Florida,5439698,Cannon Cowhey,1.0
+2026,401874037,West Alabama,5425019,Kaden Cupp,1.0
+2026,401874037,West Alabama,4902963,Luther Richesson,13.0
+2026,401874037,West Alabama,5411825,Carter Hankins,6.0
+2026,401862801,Tulane,5291713,Trace Johnson,21.0
+2026,401862801,Tulane,5219709,Dagan Bruno,1.0
+2026,401862801,Memphis,5165807,Marcus Stokes,37.0
+2026,401856725,Texas A&M,4870971,Marcel Reed,13.0
+2026,401856725,Texas A&M,5295969,Brady Hart,12.0
+2026,401856725,The Citadel,4695602,Nick Billoups,5.0
+2026,401856725,The Citadel,5302081,Xavier Hill,4.0
+2026,401856725,The Citadel,5223107,Quentin Hayes,1.0
+2026,401864522,Wyoming,4838536,Tyler Hughes,19.0
+2026,401864522,Northern Illinois,4881032,Taron Dickens,44.0
+2026,401856832,TCU,5083569,Jaden Craig,36.0
+2026,401856832,Baylor,5079555,D.J. Lagway,53.0
+2026,401867920,Robert Morris,4832789,Carson Haggard,41.0
+2026,401867920,Robert Morris,-7208, Team,1.0
+2026,401867920,New Haven,5261653,Jake Tripptree,4.0
+2026,401867920,New Haven,5430949,Niko Boyce,18.0
+2026,401856833,Colorado,5079771,Isaac Wilson,30.0
+2026,401856833,Colorado,-5688, Team,1.0
+2026,401856833,Utah,5105849,Devon Dampier,41.0
+2026,401860904,San Diego State,4685311,Jayden Denegal,10.0
+2026,401860904,San Diego State,5141664,Stone Saunders,11.0
+2026,401860904,San Diego State,4916888,Bert Emanuel Jr.,1.0
+2026,401860904,Fresno State,5010409,Jayden Mandal,25.0
+2026,401868222,Morehead State,5084352,Bryce Patterson,30.0
+2026,401868222,Davidson,5224535,Casey Bullock,30.0
+2026,401866666,Stony Brook,5226896,Quinn Boyd,51.0
+2026,401866666,Stony Brook,5156210,Seth Sweitzer,1.0
+2026,401866666,UAlbany,5095216,Kai Coln,21.0
+2026,401866666,UAlbany,5082909,Aidan Semo,3.0
+2026,401871067,Delaware,5289314,Tyler Bell,36.0
+2026,401871067,Delaware,5157266,Bryson Graves,1.0
+2026,401871067,Middle Tennessee,5194626,Roman Gagliano,32.0
+2026,401871067,Middle Tennessee,4565180,Peter Costelli,1.0
+2026,401871054,Missouri State,4685252,Henry Belin IV,39.0
+2026,401871054,Missouri State,4837193,Jmariyae Robinson,1.0
+2026,401871054,Kennesaw State,4870645,Rickie Collins,34.0
+2026,401871054,Kennesaw State,-109170, Team,1.0
+2026,401871054,Kennesaw State,5083103,Davis Bryson,1.0
+2026,401862800,East Carolina,5075800,Emory Williams,27.0
+2026,401862800,UAB,5057381,Ryder Burton,37.0
+2026,401858267,Pittsburgh,5207640,Corey Dailey,25.0
+2026,401858267,Boston College,5307005,Mason McKenzie,28.0
+2026,401858489,Maryland,5141695,Malik Washington,38.0
+2026,401858489,Rutgers,4870900,Dylan Lonergan,35.0
+2026,401858268,SMU,5084084,Kevin Jennings,36.0
+2026,401858268,Virginia,4685696,Beau Pribula,22.0
+2026,401866443,Central Michigan,5084769,Angel H Flores,25.0
+2026,401866443,Central Michigan,5149056,Jadyn Glasser,7.0
+2026,401866443,Western Michigan,5074245,Broc Lowry,8.0
+2026,401869966,Louisiana,4871091,D'Wayne' Winfield,21.0
+2026,401869966,Louisiana,5146661,Daniel Beale,2.0
+2026,401869966,Troy,4912119,Tucker Kilcrease,10.0
+2026,401869966,Troy,4431633,Will Crowder,16.0
+2026,401862805,Tulsa,5224011,Baylor Hayes,27.0
+2026,401862805,Rice,4685291,Jacurri Brown,6.0
+2026,401862805,Rice,5145788,Gael Ochoa,2.0
+2026,401864520,Nevada,4819250,AJ Bianco,34.0
+2026,401864520,Nevada,5077500,Luke Duncan,2.0
+2026,401864520,North Dakota State,5087156,Nathan Hayes,25.0
+2026,401862804,Navy,5220473,Jackson Gutierrez,7.0
+2026,401862804,Navy,5158343,Braxton Woodson,1.0
+2026,401862804,UTSA,4775136,Owen McCown,38.0
+2026,401871068,Sam Houston,5148427,Landyn Locke,30.0
+2026,401871068,Western Kentucky,4920158,Brock Glenn,30.0
+2026,401871068,Western Kentucky,5196864,Rodney Tisdale Jr.,1.0
+2026,401856828,Texas Tech,5126468,Will Hammond,26.0
+2026,401856828,Texas Tech,4773919,Thomas Castellanos,1.0
+2026,401856828,Arizona State,4597499,Mikey Keene,34.0
+2026,401856828,Arizona State,5141378,Cutter Boley,10.0
+2026,401858488,Ohio State,5079712,Julian Sayin,29.0
+2026,401858488,Ohio State,5214646,Luke Fahey,2.0
+2026,401858488,Indiana,4685401,Josh Hoover,40.0
+2026,401858263,Florida State,4838679,Ashton Daniels,28.0
+2026,401858263,Florida State,5141661,Kevin Sperry,2.0
+2026,401858263,Miami,5121169,Darian Mensah,34.0
+2026,401866442,Massachusetts,5298739,Logan Inagawa,25.0
+2026,401866442,Buffalo,5222591,Jason Wright,35.0
+2026,401869844,App State,4870999,Malachi Singleton,14.0
+2026,401869844,App State,5146664,Henry Hasselbeck,12.0
+2026,401869844,Coastal Carolina,5296439,Deuce Bailey,31.0
+2026,401869934,Arkansas State,5123665,Trey Owens,25.0
+2026,401869934,Southern Miss,4833635,Landy Lyddy,34.0
+2026,401858261,Charleston Southern,5224320,Jared Echols,12.0
+2026,401858261,Charleston Southern,5298251,Caden Clay,1.0
+2026,401858261,Clemson,5159078,Tait Reynolds,26.0
+2026,401858261,Clemson,5081434,Trent Pearman,13.0
+2026,401858261,Clemson,5200187,Brock Bradley,1.0
+2026,401862802,Florida Atlantic,4869991,Caden Veltkamp,48.0
+2026,401862802,Florida Atlantic,5219898,Drew Devillier,1.0
+2026,401862802,Army,5150297,Cale Hellums,2.0
+2026,401856829,West Virginia,5079465,Michael Hawkins Jr.,33.0
+2026,401856829,Cincinnati,4685345,JC French,30.0
+2026,401866668,North Carolina A&T,5164567,Kevin White,26.0
+2026,401866668,Chicago State,5159024,Ashton Pannell,34.0
+2026,401856723,Tennessee,5141571,George MacIntyre,31.0
+2026,401856723,Alabama,5141629,Keelon Russell,29.0
+2026,401858264,Georgia Tech,5191162,Alberto Mendoza,38.0
+2026,401858264,Virginia Tech,5144078,Ethan Grunkemeyer,22.0
+2026,401868189,Gardner-Webb,5439733,Jared Doolittle,25.0
+2026,401868189,Gardner-Webb,5439737,Lan Farmer,12.0
+2026,401868189,UT Martin,5299226,Tate Surber,25.0
+2026,401868301,Alabama A&M,4568411,Cornelious Brown,38.0
+2026,401868301,Alabama A&M,5225612,Eric Handley,2.0
+2026,401868301,Grambling,4949488,Jacobe Robinson,12.0
+2026,401868301,Grambling,5306457,Hayden Benoit,6.0
+2026,401868301,Grambling,5439961,Schuylar Turnbull,2.0
+2026,401869152,East Texas A&M,5441957,Luke Glass,35.0
+2026,401869152,East Texas A&M,5441947,Reese Mooney,2.0
+2026,401869152,Houston Christian,5154855,Cutter Stewart,33.0
+2026,401868289,San Diego,5165884,Dom Nankil,25.0
+2026,401868289,Valparaiso,5089335,Rowan Keefe,27.0
+2026,401856721,Ole Miss,4911529,Trinidad Chambliss,36.0
+2026,401856721,Missouri,5141684,Austin Simmons,44.0
+2026,401868161,Southern Utah,5151171,Will Burns,20.0
+2026,401868161,UC Davis,5298853,Treynor Cleeland,37.0
+2026,401868161,UC Davis,5159350,Dylan Mauro,1.0
+2026,401868161,UC Davis,-5481, Team,1.0
+2026,401868319,Lamar,5154911,Aiden McCown,46.0
+2026,401868319,SE Louisiana,4685440,Kyle Lowe,13.0
+2026,401867993,Bucknell,5147067,Chris Dietrich,15.0
+2026,401867993,Bucknell,5402059,Emmett Dowling,15.0
+2026,401867993,Lafayette,5271361,Eddie Jordan,33.0
+2026,401867993,Lafayette,5153849,Daniel Lipovski,1.0
+2026,401869950,Old Dominion,5295919,Ryan Huff,14.0
+2026,401869950,Old Dominion,5193346,Quinn Henicle,10.0
+2026,401869950,Georgia Southern,4912238,Turner Helton,30.0
+2026,401869950,Georgia Southern,5123988,Taylor Bradshaw,1.0
+2026,401869950,Georgia Southern,4685740,Max Johnson,8.0
+2026,401869950,Georgia Southern,5212641,Weston Bryan,2.0
+2026,401858492,Oregon,5079572,Dylan Raiola,18.0
+2026,401858492,Oregon,5158446,Brock Thomas,20.0
+2026,401858492,Nebraska,5044387,Anthony Colandrea,33.0
+2026,401858492,Nebraska,-6842, Team,1.0
+2026,401856809,Notre Dame,5079369,C.J. Carr,49.0
+2026,401856809,BYU,5141367,Bear Bachmeier,36.0
+2026,401856809,BYU,4870876,Kyler Kasper,1.0
+2026,401858494,UCLA,5092275,Ty Dieffenbach,33.0
+2026,401858494,UCLA,4899366,Semaj Morgan,1.0
+2026,401858494,Wisconsin,5125715,Colton Joseph,16.0
+2026,401858266,Duke,4694149,Walker Eget,38.0
+2026,401858266,Duke,-5849, Team,2.0
+2026,401858266,Duke,5185699,Dan Mahan,1.0
+2026,401858266,North Carolina,4592532,Billy Edwards,25.0
+2026,401860923,Colorado State,5212610,Ksaan Farrar,41.0
+2026,401860923,Texas State,5148803,Brad Jackson,19.0
+2026,401856719,Georgia,4685578,Gunner Stockton,34.0
+2026,401856719,Georgia,5079679,Ryan Puglisi,3.0
+2026,401856719,Auburn,4880272,Byrum Brown,26.0
+2026,401856719,Auburn,5296027,Christian Neptune,1.0
+2026,401856719,Auburn,5210501,Tristan Ti'a,1.0
+2026,401871053,Jacksonville State,5122157,Caden Creel,22.0
+2026,401871053,Florida International,4870883,J.J. Kohl,38.0
+2026,401871053,Florida International,5236210,Jackson Verdugo,1.0
+2026,401871053,Florida International,-14550, Team,1.0
+2026,401871053,Florida International,5153845,Zach Marker,1.0
+2026,401856724,Texas,4870906,Arch Manning,20.0
+2026,401856724,Florida,5295814,Tramell Jones Jr.,35.0
+2026,401866447,Sacramento State,5158748,Jackson Sharman,27.0
+2026,401866447,Sacramento State,5401458,Brian Salazar,4.0
+2026,401866447,Ball State,5075392,Keldric Luster,27.0
+2026,401864526,Hawai'i,5101124,Micah Alejado,32.0
+2026,401864526,Hawai'i,5211117,Bjorn Jurgensen,2.0
+2026,401864526,Northern Illinois,4881032,Taron Dickens,26.0
+2026,401862807,Memphis,5165807,Marcus Stokes,43.0
+2026,401862807,East Carolina,4433829,Mitch Griffis,26.0
+2026,401862807,East Carolina,5075800,Emory Williams,13.0
+2026,401858271,Virginia,4685696,Beau Pribula,24.0
+2026,401858271,Duke,4694149,Walker Eget,25.0
+2026,401858271,Duke,5164332,Nate Sheppard,1.0
+2026,401858271,Duke,5185699,Dan Mahan,5.0
+2026,401861965,UConn,5079619,Kalieb Osborne,19.0
+2026,401861965,Massachusetts,4920153,William Watson III,38.0
+2026,401861965,Massachusetts,5298739,Logan Inagawa,6.0
+2026,401862810,Navy,5220473,Jackson Gutierrez,11.0
+2026,401862810,Navy,5158343,Braxton Woodson,2.0
+2026,401862810,North Texas,4801307,Tayven Jackson,23.0
+2026,401866448,Buffalo,5222591,Jason Wright,21.0
+2026,401866448,Bowling Green,5385753,Jay Kastantin,27.0
+2026,401871094,Troy,4431633,Will Crowder,14.0
+2026,401871094,Troy,4912119,Tucker Kilcrease,4.0
+2026,401871094,UL Monroe,5122054,Aidan Armenta,22.0
+2026,401871094,UL Monroe,5207934,Austin Carlisle,9.0
+2026,401868972,Texas Southern,4917305,Cam'Ron McCoy,8.0
+2026,401868972,Southern,5442202,Christian Johnson,18.0
+2026,401869145,Lamar,5154911,Aiden McCown,23.0
+2026,401869145,Lamar,5076949,Evan Bullock,2.0
+2026,401869145,Lamar,5301725,Blake Thomas,1.0
+2026,401869145,Houston Christian,5154855,Cutter Stewart,25.0
+2026,401869145,Houston Christian,5299298,Trayjen Llanas-Wilcox,1.0
+2026,401870841,Pennsylvania,5289943,Miles Teodecki,33.0
+2026,401870841,Yale,5079683,Dante Reno,34.0
+2026,401866674,Merrimack,5146355,AJ Hairston,22.0
+2026,401866674,Merrimack,-6612, Team,1.0
+2026,401866674,New Hampshire,5226704,Tommy McLeish,44.0
+2026,401866674,New Hampshire,5171041,Matt Guidebeck,1.0
+2026,401867962,Morgan State,4870712,Cameron Edge,33.0
+2026,401867962,Howard,5098448,Isaiah Freeman,6.0
+2026,401867962,Howard,5087297,Ja'Shawn Scroggins,10.0
+2026,401867962,Howard,5301193,Terrell Russell,7.0
+2026,401867808,Brown,5155943,James Murphy,50.0
+2026,401867808,Cornell,5154161,Garrett Bass-Sulpizio,42.0
+2026,401867931,Duquesne,4695784,Carson Camp,17.0
+2026,401867931,Wagner,5302638,Benjamin Newman,37.0
+2026,401867931,Wagner,5440760,Jason Wiley,3.0
+2026,401868278,Presbyterian,5231053,Max Holtzclaw,30.0
+2026,401868278,Presbyterian,5300119,Landon Sharpe,2.0
+2026,401868278,Valparaiso,5089335,Rowan Keefe,29.0
+2026,401866671,Maine,5153811,Caden Drezek,40.0
+2026,401866671,Campbell,5154962,Kamden Sixkiller,44.0
+2026,401866671,Campbell,5299304,Grayson Harvey,1.0
+2026,401868944,Bethune-Cookman,4870848,Tyler Jefferson,14.0
+2026,401868944,Jackson State,5298925,Jared Lockhart,27.0
+2026,401868944,Jackson State,-6260, Team,1.0
+2026,401868019,William & Mary,5226917,Winston Watkins,24.0
+2026,401868019,Georgetown,5402159,Gavin Beard,36.0
+2026,401868019,Georgetown,-6090, Team,1.0
+2026,401868238,West Georgia,4880196,Colton FitzGerald,14.0
+2026,401868238,West Georgia,5157481,Collin Hurst,24.0
+2026,401868238,Tarleton State,4899468,Kaden Anderson,24.0
+2026,401868238,Tarleton State,4702829,Braedyn Locke,1.0
+2026,401866446,Akron,5146903,Brayden Roggow,34.0
+2026,401866446,Kent State,5119841,Dru Deshields,33.0
+2026,401866476,Miami (OH),5388435,Caleb Heavner,33.0
+2026,401866476,Central Michigan,5149056,Jadyn Glasser,31.0
+2026,401871092,Marshall,4685697,Zion Turner,33.0
+2026,401871092,South Alabama,5148858,Jared Hollins,33.0
+2026,401871069,Missouri State,4685252,Henry Belin IV,35.0
+2026,401871069,Delaware,5153846,Nick Minicucci,29.0
+2026,401871069,Delaware,5289314,Tyler Bell,4.0
+2026,401858496,Michigan,5269403,Tommy Carr,32.0
+2026,401858496,Indiana,4685401,Josh Hoover,18.0
+2026,401871055,Middle Tennessee,5194626,Roman Gagliano,27.0
+2026,401871055,Florida International,4870883,J.J. Kohl,28.0
+2026,401871055,Florida International,-14550, Team,1.0
+2026,401871070,New Mexico State,5152503,Adam Damante,29.0
+2026,401871070,Sam Houston,5148427,Landyn Locke,32.0
+2026,401871070,Sam Houston,5220425,DJ Bailey,2.0
+2026,401856834,Kansas,5079604,Isaiah Marshall,29.0
+2026,401856834,Kansas,5151060,Cole Ballard,1.0
+2026,401856834,Baylor,5079555,D.J. Lagway,31.0
+2026,401858495,Illinois,5198286,Michael Clayton II,18.0
+2026,401858495,Illinois,5196352,Carson Boyd,1.0
+2026,401858495,Oregon,5079572,Dylan Raiola,41.0
+2026,401862808,Tulsa,5224011,Baylor Hayes,34.0
+2026,401862808,Army,5150297,Cale Hellums,12.0
+2026,401862808,Army,5082118,Zach Mundell,1.0
+2026,401864525,Air Force,5449066,Howard Fisher IV,7.0
+2026,401864525,Air Force,5306440,Evan Medders,4.0
+2026,401864525,Air Force,5223108,Josh Johnson,4.0
+2026,401864525,Wyoming,4838536,Tyler Hughes,17.0
+2026,401856730,Mississippi State,5294646,Parker Puckett,24.0
+2026,401856730,Mississippi State,4920164,Sam West,1.0
+2026,401856730,Mississippi State,5177084,Kamario Taylor,5.0
+2026,401856730,Oklahoma,4915980,John Mateer,29.0
+2026,401858270,SMU,5084084,Kevin Jennings,23.0
+2026,401858270,SMU,5141487,Ty Hawkins,1.0
+2026,401858270,California,5164313,Jaron-Keawe Sagapolutele,37.0
+2026,401858270,California,5151623,Angus Davies,1.0
+2026,401858273,Georgia Tech,5191162,Alberto Mendoza,24.0
+2026,401858273,Georgia Tech,5207610,Grady Adamson,9.0
+2026,401858273,Boston College,5307005,Mason McKenzie,17.0
+2026,401866450,Western Michigan,5074245,Broc Lowry,29.0
+2026,401866450,Toledo,5082330,John Alan Richter,41.0
+2026,401869845,App State,4870999,Malachi Singleton,40.0
+2026,401869845,App State,5146664,Henry Hasselbeck,4.0
+2026,401869845,James Madison,5153978,Camden Coleman,39.0
+2026,401869845,James Madison,5172036,JC Evans,7.0
+2026,401867955,Delaware State,5150645,Ui Ale,10.0
+2026,401867955,Delaware State,4685542,Jayden Sauray,7.0
+2026,401867955,Delaware State,5085808,Marqui Adams,3.0
+2026,401867955,North Carolina Central,5230073,Cobey Thompkins,18.0
+2026,401867955,North Carolina Central,5159177,Joshua Jones,1.0
+2026,401866670,UAlbany,5095216,Kai Coln,20.0
+2026,401866670,UAlbany,5082909,Aidan Semo,2.0
+2026,401866670,Rhode Island,5226812,Alex McClelland,26.0
+2026,401866670,Rhode Island,-7762, Team,1.0
+2026,401867902,New Haven,5261653,Jake Tripptree,46.0
+2026,401867902,Central Connecticut,4711410,Brett Griffis,21.0
+2026,401867902,Central Connecticut,5298003,Davon Smith Jr.,2.0
+2026,401868230,San Diego,5165884,Dom Nankil,55.0
+2026,401868230,Dayton,5154881,Bryce Schondelmyer,38.0
+2026,401858498,Northwestern,5075805,Aidan Chiles,25.0
+2026,401858498,Rutgers,5079717,AJ Surace,18.0
+2026,401858498,Rutgers,5172031,Sean Ashenfelder,9.0
+2026,401858274,Pittsburgh,4714300,Holden Geriner,32.0
+2026,401858274,Pittsburgh,5207640,Corey Dailey,3.0
+2026,401858274,Miami,5121169,Darian Mensah,37.0
+2026,401868013,Lafayette,5271361,Eddie Jordan,13.0
+2026,401868013,Lafayette,5225799,Jason Penza,1.0
+2026,401868013,Fordham,4812381,Gunnar Smith,40.0
+2026,401868013,Fordham,-5998, Team,1.0
+2026,401867822,Dartmouth,5155398,Grayson Saunier,24.0
+2026,401867822,Columbia,5154125,Chase Goodwin,40.0
+2026,401867975,Norfolk State,5439441,Da'Jean Golmond,35.0
+2026,401867975,Norfolk State,5087255,Jason Wonodi,1.0
+2026,401867975,South Carolina State,5096134,Keely Watson,38.0
+2026,401866672,Stony Brook,5226896,Quinn Boyd,26.0
+2026,401866672,Bryant,5226265,Brennan Myer,26.0
+2026,401866672,Bryant,5157426,Jaden Keefner,3.0
+2026,401856728,Auburn,4880272,Byrum Brown,24.0
+2026,401856728,Auburn,5210501,Tristan Ti'a,6.0
+2026,401856728,LSU,5078810,Sam Leavitt,45.0
+2026,401856728,LSU,5224789,Landen Clark,1.0
+2026,401867994,Holy Cross,5154302,David Lynch,20.0
+2026,401867994,Bucknell,5147067,Chris Dietrich,18.0
+2026,401868377,Furman,5413484,Connor Ackerley,25.0
+2026,401868377,Furman,5439109,Trey Smith,5.0
+2026,401868377,Furman,4432703,Jake Garcia,2.0
+2026,401868377,Samford,4870864,Gabarri Johnson,26.0
+2026,401868392,The Citadel,4695602,Nick Billoups,9.0
+2026,401868392,The Citadel,5223107,Quentin Hayes,3.0
+2026,401868392,Tennessee Tech,5027925,Jax Leatherwood,25.0
+2026,401867842,Princeton,5302683,Ty Ciongoli,14.0
+2026,401867842,Princeton,5442807,Wyatt Becker,14.0
+2026,401867842,Harvard,5299776,Charlie Smith,28.0
+2026,401867842,Harvard,5295915,Kise Flannery,1.0
+2026,401867842,Harvard,5174062,Dante Torres,2.0
+2026,401866673,Hampton,5405365,Xavier Brookins,20.0
+2026,401866673,Hampton,5088851,Tre'Von Taylor,6.0
+2026,401866673,Monmouth,5226663,Frankie Weaver,32.0
+2026,401866673,Monmouth,5300969,Brad Seiss,2.0
+2026,401867879,South Dakota,5302115,Austyn Modrzewski,22.0
+2026,401867879,South Dakota,4878223,Jackson Proctor,1.0
+2026,401867879,North Dakota,5155528,Jerry Kaminski,46.0
+2026,401868146,West Florida,5436233,Ty'ray Davis,32.0
+2026,401868146,Eastern Kentucky,5082396,Blake Kendall,26.0
+2026,401868146,Eastern Kentucky,5153244,Colbey Lamberth,1.0
+2026,401867850,Indiana State,4685691,Brady Allen,45.0
+2026,401867850,Illinois State,5227699,Beckham Pellant,32.0
+2026,401868121,Weber State,5439505,Nate Dahle,40.0
+2026,401868121,Montana State,4684502,Justin Lamson,35.0
+2026,401868035,Villanova,4875733,Pat McQuaide,25.0
+2026,401868035,Villanova,5154013,Isaiah Ragland,1.0
+2026,401868035,Lehigh,5299656,Derek Morgan,33.0
+2026,401858497,Iowa,5089314,Hank Brown,21.0
+2026,401858497,Iowa,5121030,Jeremy Hecklinski,16.0
+2026,401858497,Minnesota,5144959,Drake Lindsey,26.0
+2026,401858497,Minnesota,4831976,Javon Tracy,1.0
+2026,401868271,Morehead State,5084352,Bryce Patterson,25.0
+2026,401868271,Stetson,5219833,Tom von Grote,44.0
+2026,401867871,South Dakota State,5085784,Chase Mason,26.0
+2026,401867871,South Dakota State,5151506,Josh Holst,8.0
+2026,401867871,Murray State,5227854,Baxter Wright,34.0
+2026,401867871,Murray State,5083941,Collin Shannon,1.0
+2026,401868182,Eastern Illinois,5113896,Cole Lacrue,34.0
+2026,401868182,Southeast Missouri State,4920145,Braylen Ragland,27.0
+2026,401868937,Florida A&M,5442040,Armond Parker,37.0
+2026,401868937,Florida A&M,-5992, Team,2.0
+2026,401868937,Arkansas-Pine Bluff,5163068,Jack Schierholz,12.0
+2026,401868937,Arkansas-Pine Bluff,5441850,Jalen Williams,7.0
+2026,401869133,Northwestern State,4808719,Zach Wilcke,43.0
+2026,401869133,Northwestern State,-6991, Team,3.0
+2026,401869133,Nicholls,5439307,Chase Richardson,24.0
+2026,401869133,Nicholls,5164893,Ean Rodrigue,1.0
+2026,401869133,Nicholls,-6883, Team,1.0
+2026,401867892,Southern Illinois,4697094,DJ Williams,21.0
+2026,401867892,Southern Illinois,-12171, Team,1.0
+2026,401867892,Northern Iowa,4826635,Jaxon Dailey,41.0
+2026,401867921,Robert Morris,4832789,Carson Haggard,32.0
+2026,401867921,Mercyhurst,5227557,Alex Gevaudan,48.0
+2026,401868266,Marist,5088964,Sonny Mannino,25.0
+2026,401868266,Marist,5298896,Will O'Dell,6.0
+2026,401868266,St. Thomas (MN),5300206,Nick Peipert,25.0
+2026,401868266,St. Thomas (MN),5300200,Pierce McCrary,1.0
+2026,401868348,VMI,5302501,Ian Reynolds,5.0
+2026,401868348,East Tennessee State,5164309,Mason Mims,25.0
+2026,401868348,East Tennessee State,5114331,Suderian Harrison,2.0
+2026,401868348,East Tennessee State,5079367,Jadyn Davis,6.0
+2026,401867913,Long Island University,4837195,Luca Stanzani,19.0
+2026,401867913,Stonehill,5106897,Jack O'Connell,35.0
+2026,401867913,Stonehill,-7503, Team,1.0
+2026,401868214,Drake,5404620,Riley Warzynski,27.0
+2026,401868214,Drake,5404623,Braylon Wilson,11.0
+2026,401868214,Butler,5224468,Gabe Passini,16.0
+2026,401868214,Butler,5298468,Michael Dellumo,1.0
+2026,401867689,Lindenwood,5225648,Pops Battle,22.0
+2026,401867689,Lindenwood,5298518,Hoyt Gregory,1.0
+2026,401867689,Chicago State,5159024,Ashton Pannell,42.0
+2026,401867689,Chicago State,5440776,Jacob Tiberi,4.0
+2026,401868341,Western Carolina,4875128,Lex Thomas,42.0
+2026,401868341,Western Carolina,5231037,Isaac Lee,3.0
+2026,401868341,Chattanooga,5223983,Battle Alberson,11.0
+2026,401868174,Tennessee State,5298787,Byron McNair,12.0
+2026,401868174,Tennessee State,5162467,Daylin Lee,18.0
+2026,401868174,Charleston Southern,5224320,Jared Echols,27.0
+2026,401868174,Charleston Southern,5232063,Quay Kindell,1.0
+2026,401868174,Charleston Southern,5298251,Caden Clay,2.0
+2026,401858499,Michigan State,5164308,Leo Hannan,15.0
+2026,401858499,Michigan State,5266583,Kayd Coffman,10.0
+2026,401858499,UCLA,5092275,Ty Dieffenbach,31.0
+2026,401856727,Alabama,5141629,Keelon Russell,30.0
+2026,401856727,Texas A&M,4870971,Marcel Reed,21.0
+2026,401871056,Kennesaw State,4870645,Rickie Collins,26.0
+2026,401871056,Kennesaw State,5382898,Landon Varnes,15.0
+2026,401871056,Liberty,5138131,Deshawn Purdie,19.0
+2026,401871056,Liberty,4602923,Jaylen Henderson,2.0
+2026,401858272,Stanford,4878681,Davis Warren,37.0
+2026,401858272,NC State,5079301,CJ Bailey,30.0
+2026,401858272,NC State,-6827, Team,1.0
+2026,401856731,South Carolina,4875127,Lanorris Sellers,32.0
+2026,401856731,Tennessee,5141571,George MacIntyre,23.0
+2026,401856840,Cincinnati,4685345,JC French,30.0
+2026,401856840,Texas Tech,5126468,Will Hammond,37.0
+2026,401856841,TCU,5083569,Jaden Craig,47.0
+2026,401856841,West Virginia,5079465,Michael Hawkins Jr.,15.0
+2026,401866449,Ohio,5228762,Nick Poulos,29.0
+2026,401866449,Eastern Michigan,5094040,Brogan McCaughey,39.0
+2026,401862809,Florida Atlantic,4869991,Caden Veltkamp,37.0
+2026,401862809,Rice,5145788,Gael Ochoa,5.0
+2026,401862809,Rice,5265447,Patrick Crayton Jr.,2.0

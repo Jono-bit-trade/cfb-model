@@ -1,0 +1,1703 @@
+game_id,season,team,opponent,off_ppa,def_ppa
+401532570,2023,Air Force,Robert Morris,0.49,-0.16
+401531387,2023,Akron,Temple,0.04,0.11
+401520149,2023,Alabama,Middle Tennessee,0.49,0.03
+401531835,2023,App State,Gardner-Webb,0.39,0.05
+401523989,2023,Arizona,Northern Arizona,0.15,-0.44
+401523987,2023,Arizona State,Southern Utah,0.16,0.01
+401520150,2023,Arkansas,Western Carolina,0.56,-0.22
+401525822,2023,Arkansas State,Oklahoma,-0.22,0.56
+401520175,2023,Army,UL Monroe,-0.16,-0.12
+401520151,2023,Auburn,Massachusetts,0.39,-0.12
+401520159,2023,Ball State,Kentucky,-0.06,0.25
+401525817,2023,Baylor,Texas State,0.15,0.36
+401523997,2023,Boise State,Washington,-0.03,0.53
+401525464,2023,Boston College,Northern Illinois,-0.04,-0.07
+401520160,2023,Bowling Green,Liberty,-0.25,-0.09
+401520180,2023,Buffalo,Wisconsin,-0.11,0.16
+401520152,2023,BYU,Sam Houston,-0.08,-0.23
+401523991,2023,California,North Texas,0.34,-0.29
+401520163,2023,Central Michigan,Michigan State,-0.22,0.12
+401531402,2023,Charlotte,South Carolina State,0.09,-0.39
+401525818,2023,Cincinnati,Eastern Kentucky,0.77,0.12
+401525468,2023,Clemson,Duke,-0.16,0.17
+401523995,2023,Coastal Carolina,UCLA,-0.06,0.04
+401523994,2023,Colorado,TCU,0.43,0.25
+401523990,2023,Colorado State,Washington State,-0.07,0.28
+401525468,2023,Duke,Clemson,0.17,-0.16
+401520162,2023,East Carolina,Michigan,0.01,0.46
+401532394,2023,Eastern Michigan,Howard,0.16,0.09
+401520176,2023,Florida,Utah,-0.08,0.09
+401531418,2023,Florida Atlantic,Monmouth,0.23,0.0
+401520153,2023,Florida International,Maine,-0.09,-0.15
+401520146,2023,Florida International,Louisiana Tech,-0.05,0.04
+401520182,2023,Florida State,LSU,0.43,0.1
+401520170,2023,Fresno State,Purdue,0.28,0.12
+401520154,2023,Georgia,UT Martin,0.44,-0.12
+401531836,2023,Georgia Southern,The Citadel,0.24,-0.12
+401531834,2023,Georgia State,Rhode Island,0.42,0.26
+401525462,2023,Georgia Tech,Louisville,0.2,0.42
+401523988,2023,Hawai'i,Stanford,0.13,0.23
+401520147,2023,Hawai'i,Vanderbilt,0.15,0.05
+401525819,2023,Houston,UTSA,-0.06,0.07
+401520155,2023,Illinois,Toledo,0.26,0.2
+401520156,2023,Indiana,Ohio State,-0.17,0.23
+401520157,2023,Iowa,Utah State,0.01,-0.06
+401525820,2023,Iowa State,Northern Iowa,0.23,-0.24
+401520158,2023,Jacksonville State,East Tennessee State,0.24,-0.3
+401520145,2023,Jacksonville State,UTEP,0.01,-0.03
+401531837,2023,James Madison,Bucknell,0.14,-0.26
+401525815,2023,Kansas,Missouri State,0.47,0.06
+401525821,2023,Kansas State,Southeast Missouri State,0.38,-0.18
+401525816,2023,Kent State,UCF,-0.08,0.48
+401520159,2023,Kentucky,Ball State,0.25,-0.06
+401520160,2023,Liberty,Bowling Green,-0.09,-0.25
+401531839,2023,Louisiana,Northwestern State,0.01,-0.16
+401520146,2023,Louisiana Tech,Florida International,0.04,-0.05
+401520172,2023,Louisiana Tech,SMU,-0.24,0.16
+401525462,2023,Louisville,Georgia Tech,0.42,0.2
+401520182,2023,LSU,Florida State,0.1,0.43
+401531838,2023,Marshall,UAlbany,0.11,-0.03
+401520161,2023,Maryland,Towson,0.28,0.0
+401520151,2023,Massachusetts,Auburn,-0.12,0.39
+401525450,2023,Massachusetts,New Mexico State,0.34,0.14
+401531426,2023,Memphis,Bethune-Cookman,0.08,-0.48
+401525463,2023,Miami,Miami (OH),0.46,-0.25
+401525463,2023,Miami (OH),Miami,-0.25,0.46
+401520162,2023,Michigan,East Carolina,0.46,0.01
+401520163,2023,Michigan State,Central Michigan,0.12,-0.22
+401520149,2023,Middle Tennessee,Alabama,0.03,0.49
+401520148,2023,Minnesota,Nebraska,-0.04,-0.22
+401520164,2023,Mississippi State,SE Louisiana,0.37,-0.28
+401520165,2023,Missouri,South Dakota,0.35,-0.08
+401525434,2023,Navy,Notre Dame,-0.01,0.53
+401520174,2023,NC State,UConn,0.15,0.09
+401520148,2023,Nebraska,Minnesota,-0.22,-0.04
+401523996,2023,Nevada,USC,-0.08,0.77
+401520173,2023,New Mexico,Texas A&M,-0.07,0.43
+401520166,2023,New Mexico State,Western Illinois,0.71,0.12
+401525450,2023,New Mexico State,Massachusetts,0.14,0.34
+401520167,2023,North Carolina,South Carolina,0.22,-0.21
+401525464,2023,Northern Illinois,Boston College,-0.07,-0.04
+401523991,2023,North Texas,California,-0.29,0.34
+401520171,2023,Northwestern,Rutgers,-0.26,0.1
+401525435,2023,Notre Dame,Tennessee State,0.62,-0.32
+401525434,2023,Notre Dame,Navy,0.53,-0.01
+401532395,2023,Ohio,Long Island University,-0.03,-0.25
+401532392,2023,Ohio,San Diego State,-0.02,0.12
+401520156,2023,Ohio State,Indiana,0.23,-0.17
+401525822,2023,Oklahoma,Arkansas State,0.56,-0.22
+401525823,2023,Oklahoma State,Central Arkansas,0.17,0.31
+401525467,2023,Old Dominion,Virginia Tech,-0.15,0.07
+401520168,2023,Ole Miss,Mercer,0.65,-0.33
+401523992,2023,Oregon,Portland State,0.81,-0.1
+401532573,2023,Oregon State,San José State,0.52,-0.02
+401520169,2023,Penn State,West Virginia,0.36,0.17
+401525465,2023,Pittsburgh,Wofford,0.42,-0.24
+401520170,2023,Purdue,Fresno State,0.12,0.28
+401525824,2023,Rice,Texas,-0.36,-0.05
+401520171,2023,Rutgers,Northwestern,0.1,-0.26
+401520152,2023,Sam Houston,BYU,-0.23,-0.08
+401532571,2023,San Diego State,Idaho State,0.17,-0.1
+401532392,2023,San Diego State,Ohio,0.12,-0.02
+401532573,2023,San José State,Oregon State,-0.02,0.52
+401523986,2023,San José State,USC,0.12,0.48
+401520172,2023,SMU,Louisiana Tech,0.16,-0.24
+401531347,2023,South Alabama,Tulane,-0.09,0.35
+401520167,2023,South Carolina,North Carolina,-0.21,0.22
+401531840,2023,Southern Miss,Alcorn State,0.26,-0.04
+401520181,2023,South Florida,Western Kentucky,0.05,0.28
+401523988,2023,Stanford,Hawai'i,0.23,0.13
+401525466,2023,Syracuse,Colgate,0.35,-0.65
+401523994,2023,TCU,Colorado,0.25,0.43
+401531387,2023,Temple,Akron,0.11,0.04
+401520179,2023,Tennessee,Virginia,0.33,-0.17
+401525824,2023,Texas,Rice,-0.05,-0.36
+401520173,2023,Texas A&M,New Mexico,0.43,-0.07
+401525817,2023,Texas State,Baylor,0.36,0.15
+401525825,2023,Texas Tech,Wyoming,0.15,0.02
+401520155,2023,Toledo,Illinois,0.2,0.26
+401531841,2023,Troy,Stephen F. Austin,0.23,-0.26
+401531347,2023,Tulane,South Alabama,0.35,-0.09
+401531337,2023,Tulsa,Arkansas-Pine Bluff,0.34,-0.02
+401531377,2023,UAB,North Carolina A&T,0.51,-0.14
+401525816,2023,UCF,Kent State,0.48,-0.08
+401523995,2023,UCLA,Coastal Carolina,0.04,-0.06
+401520174,2023,UConn,NC State,0.09,0.15
+401520175,2023,UL Monroe,Army,-0.12,-0.16
+401532572,2023,UNLV,Bryant,0.17,0.04
+401523996,2023,USC,Nevada,0.77,-0.08
+401523986,2023,USC,San José State,0.48,0.12
+401520176,2023,Utah,Florida,0.09,-0.08
+401520157,2023,Utah State,Iowa,-0.06,0.01
+401520177,2023,UTEP,Incarnate Word,0.44,-0.01
+401520145,2023,UTEP,Jacksonville State,-0.03,0.01
+401525819,2023,UTSA,Houston,0.07,-0.06
+401520178,2023,Vanderbilt,Alabama A&M,0.27,0.04
+401520147,2023,Vanderbilt,Hawai'i,0.05,0.15
+401520179,2023,Virginia,Tennessee,-0.17,0.33
+401525467,2023,Virginia Tech,Old Dominion,0.07,-0.15
+401525461,2023,Wake Forest,Elon,0.13,-0.06
+401523997,2023,Washington,Boise State,0.53,-0.03
+401523990,2023,Washington State,Colorado State,0.28,-0.07
+401520181,2023,Western Kentucky,South Florida,0.28,0.05
+401532393,2023,Western Michigan,Saint Francis,0.28,0.26
+401520169,2023,West Virginia,Penn State,0.17,0.36
+401520180,2023,Wisconsin,Buffalo,0.16,-0.11
+401525825,2023,Wyoming,Texas Tech,0.02,0.15
+401520211,2023,Air Force,Sam Houston,-0.06,-0.17
+401532399,2023,Akron,Morgan State,-0.59,-0.42
+401520183,2023,Alabama,Texas,0.06,0.18
+401525495,2023,App State,North Carolina,0.26,0.42
+401520205,2023,Arizona,Mississippi State,-0.09,0.03
+401523998,2023,Arizona State,Oklahoma State,-0.1,0.11
+401520184,2023,Arkansas,Kent State,0.34,-0.19
+401531427,2023,Arkansas State,Memphis,-0.41,0.24
+401520185,2023,Army,Delaware State,0.59,-0.06
+401520186,2023,Auburn,California,0.04,-0.17
+401520191,2023,Ball State,Georgia,-0.31,0.26
+401523999,2023,Baylor,Utah,0.03,0.03
+401525827,2023,Boise State,UCF,0.08,0.14
+401525490,2023,Boston College,Holy Cross,0.35,0.37
+401532400,2023,Bowling Green,Eastern Illinois,0.62,0.21
+401532401,2023,Buffalo,Fordham,0.35,0.27
+401525828,2023,BYU,Southern Utah,0.34,0.18
+401520186,2023,California,Auburn,-0.17,0.04
+401532396,2023,Central Michigan,New Hampshire,0.28,0.3
+401520200,2023,Charlotte,Maryland,-0.04,0.29
+401525496,2023,Cincinnati,Pittsburgh,0.16,-0.16
+401525491,2023,Clemson,Charleston Southern,0.4,-0.33
+401520187,2023,Coastal Carolina,Jacksonville State,0.1,0.05
+401520188,2023,Colorado,Nebraska,0.21,-0.25
+401525492,2023,Duke,Lafayette,0.42,-0.13
+401531411,2023,East Carolina,Marshall,-0.22,0.17
+401520204,2023,Eastern Michigan,Minnesota,-0.15,0.01
+401520190,2023,Florida,McNeese,0.52,-0.15
+401531419,2023,Florida Atlantic,Ohio,-0.22,-0.14
+401520189,2023,Florida International,North Texas,0.21,-0.01
+401525493,2023,Florida State,Southern Miss,0.42,-0.12
+401532574,2023,Fresno State,Eastern Washington,0.12,0.03
+401520191,2023,Georgia,Ball State,0.26,-0.31
+401531378,2023,Georgia Southern,UAB,0.25,0.22
+401520192,2023,Georgia State,UConn,0.15,-0.04
+401525494,2023,Georgia Tech,South Carolina State,0.34,-0.06
+401532575,2023,Hawai'i,UAlbany,-0.1,-0.33
+401525831,2023,Houston,Rice,0.09,0.37
+401520195,2023,Illinois,Kansas,0.12,0.34
+401520193,2023,Indiana,Indiana State,0.34,-0.29
+401520194,2023,Iowa,Iowa State,0.04,-0.12
+401520194,2023,Iowa State,Iowa,-0.12,0.04
+401520187,2023,Jacksonville State,Coastal Carolina,0.05,0.1
+401525498,2023,James Madison,Virginia,0.38,0.33
+401520195,2023,Kansas,Illinois,0.34,0.12
+401525829,2023,Kansas State,Troy,0.22,-0.11
+401520184,2023,Kent State,Arkansas,-0.19,0.34
+401520196,2023,Kentucky,Eastern Kentucky,0.18,-0.12
+401520198,2023,Liberty,New Mexico State,0.32,0.14
+401531842,2023,Louisiana,Old Dominion,0.27,0.27
+401520197,2023,Louisiana Tech,Northwestern State,0.16,-0.19
+401525469,2023,Louisville,Murray State,0.5,-0.33
+401520199,2023,LSU,Grambling,0.56,0.05
+401531411,2023,Marshall,East Carolina,0.17,-0.22
+401520200,2023,Maryland,Charlotte,0.29,-0.04
+401526833,2023,Massachusetts,Miami (OH),-0.16,0.17
+401531427,2023,Memphis,Arkansas State,0.24,-0.41
+401520201,2023,Miami,Texas A&M,0.48,0.09
+401526833,2023,Miami (OH),Massachusetts,0.17,-0.16
+401520202,2023,Michigan,UNLV,0.33,-0.22
+401520203,2023,Michigan State,Richmond,0.22,-0.05
+401520206,2023,Middle Tennessee,Missouri,0.11,0.12
+401520204,2023,Minnesota,Eastern Michigan,0.01,-0.15
+401520205,2023,Mississippi State,Arizona,0.03,-0.09
+401520206,2023,Missouri,Middle Tennessee,0.12,0.11
+401531432,2023,Navy,Wagner,0.21,-0.21
+401525436,2023,NC State,Notre Dame,-0.08,0.39
+401520188,2023,Nebraska,Colorado,-0.25,0.21
+401532576,2023,Nevada,Idaho,-0.06,0.33
+401532577,2023,New Mexico,Tennessee Tech,0.6,-0.21
+401520198,2023,New Mexico State,Liberty,0.14,0.32
+401525495,2023,North Carolina,App State,0.42,0.26
+401532397,2023,Northern Illinois,Southern Illinois,0.08,0.03
+401520189,2023,North Texas,Florida International,-0.01,0.21
+401520207,2023,Northwestern,UTEP,0.36,-0.1
+401525436,2023,Notre Dame,NC State,0.39,-0.08
+401531419,2023,Ohio,Florida Atlantic,-0.14,-0.22
+401520208,2023,Ohio State,Youngstown State,0.49,0.0
+401525830,2023,Oklahoma,SMU,0.31,-0.19
+401523998,2023,Oklahoma State,Arizona State,0.11,-0.1
+401531842,2023,Old Dominion,Louisiana,0.27,0.27
+401520214,2023,Ole Miss,Tulane,0.21,-0.25
+401524002,2023,Oregon,Texas Tech,0.27,0.02
+401524000,2023,Oregon State,UC Davis,0.4,-0.29
+401520209,2023,Penn State,Delaware,0.38,-0.41
+401525496,2023,Pittsburgh,Cincinnati,-0.16,0.16
+401520215,2023,Purdue,Virginia Tech,0.13,-0.16
+401525831,2023,Rice,Houston,0.37,0.09
+401520210,2023,Rutgers,Temple,0.22,-0.09
+401520211,2023,Sam Houston,Air Force,-0.17,-0.06
+401524001,2023,San Diego State,UCLA,-0.13,0.43
+401532578,2023,San José State,Cal Poly,0.4,-0.45
+401525830,2023,SMU,Oklahoma,-0.19,0.31
+401531844,2023,South Alabama,SE Louisiana,0.62,0.18
+401520212,2023,South Carolina,Furman,0.55,0.06
+401525493,2023,Southern Miss,Florida State,-0.12,0.42
+401531422,2023,South Florida,Florida A&M,-0.01,-0.01
+401524003,2023,Stanford,USC,-0.13,0.52
+401525497,2023,Syracuse,Western Michigan,0.3,-0.2
+401525832,2023,TCU,Nicholls,0.09,-0.87
+401520210,2023,Temple,Rutgers,-0.09,0.22
+401520213,2023,Tennessee,Austin Peay,0.29,-0.05
+401520183,2023,Texas,Alabama,0.18,0.06
+401520201,2023,Texas A&M,Miami,0.09,0.48
+401531395,2023,Texas State,UTSA,-0.05,-0.02
+401524002,2023,Texas Tech,Oregon,0.02,0.27
+401532398,2023,Toledo,Texas Southern,0.63,-0.07
+401525829,2023,Troy,Kansas State,-0.11,0.22
+401520214,2023,Tulane,Ole Miss,-0.25,0.21
+401524004,2023,Tulsa,Washington,-0.06,0.64
+401531378,2023,UAB,Georgia Southern,0.22,0.25
+401525827,2023,UCF,Boise State,0.14,0.08
+401524001,2023,UCLA,San Diego State,0.43,-0.13
+401520192,2023,UConn,Georgia State,-0.04,0.15
+401531843,2023,UL Monroe,Lamar,0.24,0.17
+401520202,2023,UNLV,Michigan,-0.22,0.33
+401524003,2023,USC,Stanford,0.52,-0.13
+401523999,2023,Utah,Baylor,0.03,0.03
+401532579,2023,Utah State,Idaho State,0.59,-0.05
+401520207,2023,UTEP,Northwestern,-0.1,0.36
+401531395,2023,UTSA,Texas State,-0.02,-0.05
+401520216,2023,Vanderbilt,Wake Forest,-0.12,0.23
+401525498,2023,Virginia,James Madison,0.33,0.38
+401520215,2023,Virginia Tech,Purdue,-0.16,0.13
+401520216,2023,Wake Forest,Vanderbilt,0.23,-0.12
+401524004,2023,Washington,Tulsa,0.64,-0.06
+401520217,2023,Washington State,Wisconsin,0.16,-0.07
+401520218,2023,Western Kentucky,Houston Christian,0.48,0.21
+401525497,2023,Western Michigan,Syracuse,-0.2,0.3
+401525833,2023,West Virginia,Duquesne,0.34,-0.17
+401520217,2023,Wisconsin,Washington State,-0.07,0.16
+401532580,2023,Wyoming,Portland State,0.16,-0.05
+401532581,2023,Air Force,Utah State,0.44,0.09
+401520228,2023,Akron,Kentucky,-0.08,0.39
+401520244,2023,Alabama,South Florida,0.05,-0.29
+401531412,2023,App State,East Carolina,0.09,-0.09
+401520219,2023,Arizona,UTEP,0.45,-0.04
+401524005,2023,Arizona State,Fresno State,-0.38,0.12
+401520220,2023,Arkansas,BYU,0.12,-0.12
+401531846,2023,Arkansas State,Stony Brook,0.35,-0.03
+401531396,2023,Army,UTSA,0.26,0.25
+401520221,2023,Auburn,Samford,0.32,-0.18
+401532402,2023,Ball State,Indiana State,0.37,-0.23
+401525834,2023,Baylor,Long Island University,0.3,-0.05
+401532582,2023,Boise State,North Dakota,0.08,-0.14
+401525500,2023,Boston College,Florida State,0.19,0.14
+401520232,2023,Bowling Green,Michigan,-0.23,0.04
+401520222,2023,Buffalo,Liberty,0.0,0.28
+401520220,2023,BYU,Arkansas,-0.12,0.12
+401524006,2023,California,Idaho,0.21,0.03
+401525437,2023,Central Michigan,Notre Dame,0.14,0.61
+401531403,2023,Charlotte,Georgia State,-0.08,0.37
+401525835,2023,Cincinnati,Miami (OH),0.13,0.16
+401525501,2023,Clemson,Florida Atlantic,0.29,-0.25
+401531845,2023,Coastal Carolina,Duquesne,0.63,-0.2
+401524007,2023,Colorado,Colorado State,0.05,0.05
+401524007,2023,Colorado State,Colorado,0.05,0.05
+401520223,2023,Duke,Northwestern,0.41,-0.05
+401531412,2023,East Carolina,App State,-0.09,0.09
+401526834,2023,Eastern Michigan,Massachusetts,0.07,0.08
+401520224,2023,Florida,Tennessee,0.18,0.01
+401525501,2023,Florida Atlantic,Clemson,-0.25,0.29
+401520246,2023,Florida International,UConn,0.24,-0.06
+401525500,2023,Florida State,Boston College,0.14,0.19
+401524005,2023,Fresno State,Arizona State,0.12,-0.38
+401520225,2023,Georgia,South Carolina,0.23,0.04
+401520249,2023,Georgia Southern,Wisconsin,-0.1,0.28
+401531403,2023,Georgia State,Charlotte,0.37,-0.08
+401520241,2023,Georgia Tech,Ole Miss,0.23,0.63
+401524008,2023,Hawai'i,Oregon,-0.19,0.54
+401525836,2023,Houston,TCU,-0.31,0.21
+401520226,2023,Illinois,Penn State,-0.11,0.08
+401520230,2023,Indiana,Louisville,0.0,0.3
+401520227,2023,Iowa,Western Michigan,0.12,-0.07
+401525838,2023,Iowa State,Ohio,-0.06,-0.02
+401531848,2023,James Madison,Troy,-0.04,-0.08
+401525837,2023,Kansas,Nevada,0.42,0.1
+401520236,2023,Kansas State,Missouri,0.1,0.2
+401532404,2023,Kent State,Central Connecticut,0.3,-0.13
+401520228,2023,Kentucky,Akron,0.39,-0.08
+401520222,2023,Liberty,Buffalo,0.28,0.0
+401531379,2023,Louisiana,UAB,0.17,-0.01
+401520229,2023,Louisiana Tech,North Texas,0.22,0.29
+401520230,2023,Louisville,Indiana,0.3,0.0
+401520235,2023,LSU,Mississippi State,0.47,-0.02
+401520231,2023,Maryland,Virginia,0.43,0.0
+401526834,2023,Massachusetts,Eastern Michigan,0.08,0.07
+401531428,2023,Memphis,Navy,0.03,-0.1
+401525499,2023,Miami,Bethune-Cookman,0.42,-0.18
+401525835,2023,Miami (OH),Cincinnati,0.16,0.13
+401520232,2023,Michigan,Bowling Green,0.04,-0.23
+401520233,2023,Michigan State,Washington,-0.14,0.42
+401520234,2023,Middle Tennessee,Murray State,0.36,-0.18
+401520239,2023,Minnesota,North Carolina,-0.04,0.27
+401520235,2023,Mississippi State,LSU,-0.02,0.47
+401520236,2023,Missouri,Kansas State,0.2,0.1
+401531428,2023,Navy,Memphis,-0.1,0.03
+401525502,2023,NC State,VMI,0.45,-0.2
+401520237,2023,Nebraska,Northern Illinois,0.33,-0.2
+401525837,2023,Nevada,Kansas,0.1,0.42
+401520238,2023,New Mexico,New Mexico State,0.21,0.47
+401520238,2023,New Mexico State,New Mexico,0.47,0.21
+401520239,2023,North Carolina,Minnesota,0.27,-0.04
+401520237,2023,Northern Illinois,Nebraska,-0.2,0.33
+401520229,2023,North Texas,Louisiana Tech,0.29,0.22
+401520223,2023,Northwestern,Duke,-0.05,0.41
+401525437,2023,Notre Dame,Central Michigan,0.61,0.14
+401525838,2023,Ohio,Iowa State,-0.02,-0.06
+401520240,2023,Ohio State,Western Kentucky,0.56,-0.27
+401525842,2023,Oklahoma,Tulsa,0.63,-0.18
+401525839,2023,Oklahoma State,South Alabama,-0.04,0.31
+401525504,2023,Old Dominion,Wake Forest,-0.12,-0.15
+401520241,2023,Ole Miss,Georgia Tech,0.63,0.23
+401524008,2023,Oregon,Hawai'i,0.54,-0.19
+401524009,2023,Oregon State,San Diego State,0.29,-0.06
+401520226,2023,Penn State,Illinois,0.08,-0.11
+401525503,2023,Pittsburgh,West Virginia,-0.42,-0.22
+401520242,2023,Purdue,Syracuse,0.0,0.2
+401531441,2023,Rice,Texas Southern,0.39,-0.26
+401520243,2023,Rutgers,Virginia Tech,0.29,-0.02
+401524009,2023,San Diego State,Oregon State,-0.06,0.29
+401532403,2023,San José State,Toledo,-0.16,0.11
+401531438,2023,SMU,Prairie View A&M,0.59,-0.33
+401525839,2023,South Alabama,Oklahoma State,0.31,-0.04
+401520225,2023,South Carolina,Georgia,0.04,0.23
+401531348,2023,Southern Miss,Tulane,-0.11,0.03
+401520244,2023,South Florida,Alabama,-0.29,0.05
+401524010,2023,Stanford,Sacramento State,0.18,0.32
+401520242,2023,Syracuse,Purdue,0.2,0.0
+401525836,2023,TCU,Houston,0.21,-0.31
+401531388,2023,Temple,Norfolk State,0.45,-0.04
+401520224,2023,Tennessee,Florida,0.01,0.18
+401525840,2023,Texas,Wyoming,0.22,-0.07
+401520245,2023,Texas A&M,UL Monroe,0.49,0.07
+401531847,2023,Texas State,Jackson State,0.8,0.21
+401525841,2023,Texas Tech,Tarleton State,0.22,-0.21
+401532403,2023,Toledo,San José State,0.11,-0.16
+401531848,2023,Troy,James Madison,-0.08,-0.04
+401531348,2023,Tulane,Southern Miss,0.03,-0.11
+401525842,2023,Tulsa,Oklahoma,-0.18,0.63
+401531379,2023,UAB,Louisiana,-0.01,0.17
+401525843,2023,UCF,Villanova,0.34,-0.08
+401524011,2023,UCLA,North Carolina Central,0.62,-0.01
+401520246,2023,UConn,Florida International,-0.06,0.24
+401520245,2023,UL Monroe,Texas A&M,0.07,0.49
+401520247,2023,UNLV,Vanderbilt,0.16,-0.07
+401524012,2023,Utah,Weber State,0.22,-0.27
+401532581,2023,Utah State,Air Force,0.09,0.44
+401520219,2023,UTEP,Arizona,-0.04,0.45
+401531396,2023,UTSA,Army,0.25,0.26
+401520247,2023,Vanderbilt,UNLV,-0.07,0.16
+401520231,2023,Virginia,Maryland,0.0,0.43
+401520243,2023,Virginia Tech,Rutgers,-0.02,0.29
+401525504,2023,Wake Forest,Old Dominion,-0.15,-0.12
+401520233,2023,Washington,Michigan State,0.42,-0.14
+401524013,2023,Washington State,Northern Colorado,0.71,0.2
+401520240,2023,Western Kentucky,Ohio State,-0.27,0.56
+401520227,2023,Western Michigan,Iowa,-0.07,0.12
+401525503,2023,West Virginia,Pittsburgh,-0.22,-0.42
+401520249,2023,Wisconsin,Georgia Southern,0.28,-0.1
+401525840,2023,Wyoming,Texas,-0.07,0.22
+401532584,2023,Air Force,San José State,0.43,0.11
+401520256,2023,Akron,Indiana,0.01,-0.15
+401520250,2023,Alabama,Ole Miss,0.13,0.13
+401531870,2023,App State,Wyoming,-0.04,-0.11
+401524016,2023,Arizona,Stanford,0.16,0.15
+401524014,2023,Arizona State,USC,0.16,0.34
+401520258,2023,Arkansas,LSU,0.29,0.45
+401531874,2023,Arkansas State,Southern Miss,0.22,0.24
+401520268,2023,Army,Syracuse,-0.07,0.16
+401520270,2023,Auburn,Texas A&M,-0.19,0.24
+401531871,2023,Ball State,Georgia Southern,-0.14,0.34
+401525844,2023,Baylor,Texas,-0.12,0.42
+401532583,2023,Boise State,San Diego State,0.33,0.25
+401525506,2023,Boston College,Louisville,0.17,0.62
+401532405,2023,Bowling Green,Ohio,-0.52,0.38
+401531875,2023,Buffalo,Louisiana,0.01,0.22
+401525847,2023,BYU,Kansas,-0.08,0.25
+401524018,2023,California,Washington,0.11,0.45
+401531876,2023,Central Michigan,South Alabama,0.31,0.44
+401520251,2023,Charlotte,Florida,-0.1,0.07
+401525845,2023,Cincinnati,Oklahoma,-0.15,0.19
+401525507,2023,Clemson,Florida State,0.07,0.19
+401531849,2023,Coastal Carolina,Georgia State,0.12,0.15
+401524015,2023,Colorado,Oregon,0.05,0.33
+401520262,2023,Colorado State,Middle Tennessee,0.33,0.07
+401520272,2023,Duke,UConn,0.13,-0.32
+401531413,2023,East Carolina,Gardner-Webb,0.14,-0.6
+401520257,2023,Eastern Michigan,Jacksonville State,-0.43,0.05
+401520251,2023,Florida,Charlotte,0.07,-0.1
+401520255,2023,Florida Atlantic,Illinois,0.09,0.26
+401520275,2023,Florida International,Liberty,-0.37,0.25
+401525507,2023,Florida State,Clemson,0.19,0.07
+401532407,2023,Fresno State,Kent State,0.4,0.05
+401520252,2023,Georgia,UAB,0.39,-0.06
+401531871,2023,Georgia Southern,Ball State,0.34,-0.14
+401531849,2023,Georgia State,Coastal Carolina,0.15,0.12
+401525508,2023,Georgia Tech,Wake Forest,0.2,-0.03
+401520253,2023,Hawai'i,New Mexico State,0.02,0.2
+401520254,2023,Houston,Sam Houston,0.31,-0.22
+401520255,2023,Illinois,Florida Atlantic,0.26,0.09
+401520256,2023,Indiana,Akron,-0.15,0.01
+401520265,2023,Iowa,Penn State,-0.48,0.17
+401525846,2023,Iowa State,Oklahoma State,0.16,0.1
+401520257,2023,Jacksonville State,Eastern Michigan,0.05,-0.43
+401531872,2023,James Madison,Utah State,0.16,0.02
+401525847,2023,Kansas,BYU,0.25,-0.08
+401525848,2023,Kansas State,UCF,0.29,0.12
+401532407,2023,Kent State,Fresno State,0.05,0.4
+401520274,2023,Kentucky,Vanderbilt,0.2,-0.08
+401520275,2023,Liberty,Florida International,0.25,-0.37
+401531875,2023,Louisiana,Buffalo,0.22,0.01
+401520263,2023,Louisiana Tech,Nebraska,0.16,0.23
+401525506,2023,Louisville,Boston College,0.62,0.17
+401520258,2023,LSU,Arkansas,0.45,0.29
+401525511,2023,Marshall,Virginia Tech,0.02,-0.08
+401520261,2023,Maryland,Michigan State,0.12,-0.15
+401526835,2023,Massachusetts,New Mexico,0.18,0.35
+401520259,2023,Memphis,Missouri,0.16,0.35
+401525509,2023,Miami,Temple,0.42,-0.13
+401532408,2023,Miami (OH),Delaware State,0.68,0.36
+401520260,2023,Michigan,Rutgers,0.41,-0.07
+401520261,2023,Michigan State,Maryland,-0.15,0.12
+401520262,2023,Middle Tennessee,Colorado State,0.07,0.33
+401520264,2023,Minnesota,Northwestern,0.33,0.22
+401520267,2023,Mississippi State,South Carolina,0.27,0.21
+401520259,2023,Missouri,Memphis,0.35,0.16
+401525505,2023,NC State,Virginia,0.14,0.04
+401520263,2023,Nebraska,Louisiana Tech,0.23,0.16
+401531877,2023,Nevada,Texas State,-0.02,-0.02
+401526835,2023,New Mexico,Massachusetts,0.35,0.18
+401520253,2023,New Mexico State,Hawai'i,0.2,0.02
+401525510,2023,North Carolina,Pittsburgh,0.1,-0.22
+401531338,2023,Northern Illinois,Tulsa,-0.11,-0.08
+401520264,2023,Northwestern,Minnesota,0.22,0.33
+401521330,2023,Notre Dame,Ohio State,0.14,0.15
+401532405,2023,Ohio,Bowling Green,0.38,-0.52
+401521330,2023,Ohio State,Notre Dame,0.15,0.14
+401525845,2023,Oklahoma,Cincinnati,0.19,-0.15
+401525846,2023,Oklahoma State,Iowa State,0.1,0.16
+401531873,2023,Old Dominion,East Texas A&M,-0.24,-0.04
+401520250,2023,Ole Miss,Alabama,0.13,0.13
+401524015,2023,Oregon,Colorado,0.33,0.05
+401524019,2023,Oregon State,Washington State,0.14,0.2
+401520265,2023,Penn State,Iowa,0.17,-0.48
+401525510,2023,Pittsburgh,North Carolina,-0.22,0.1
+401520266,2023,Purdue,Wisconsin,0.02,0.23
+401531423,2023,Rice,South Florida,0.32,0.38
+401520260,2023,Rutgers,Michigan,-0.07,0.41
+401520254,2023,Sam Houston,Houston,-0.22,0.31
+401532583,2023,San Diego State,Boise State,0.25,0.33
+401532584,2023,San José State,Air Force,0.11,0.43
+401525849,2023,SMU,TCU,0.15,0.37
+401531876,2023,South Alabama,Central Michigan,0.44,0.31
+401520267,2023,South Carolina,Mississippi State,0.21,0.27
+401531874,2023,Southern Miss,Arkansas State,0.24,0.22
+401531423,2023,South Florida,Rice,0.38,0.32
+401524016,2023,Stanford,Arizona,0.15,0.16
+401520268,2023,Syracuse,Army,0.16,-0.07
+401525849,2023,TCU,SMU,0.37,0.15
+401525509,2023,Temple,Miami,-0.13,0.42
+401520269,2023,Tennessee,UTSA,0.34,-0.1
+401525844,2023,Texas,Baylor,0.42,-0.12
+401520270,2023,Texas A&M,Auburn,0.24,-0.19
+401531877,2023,Texas State,Nevada,-0.02,-0.02
+401525850,2023,Texas Tech,West Virginia,-0.08,-0.15
+401532406,2023,Toledo,Western Michigan,0.11,-0.24
+401520271,2023,Troy,Western Kentucky,0.16,0.02
+401531349,2023,Tulane,Nicholls,0.17,-0.15
+401531338,2023,Tulsa,Northern Illinois,-0.08,-0.11
+401520252,2023,UAB,Georgia,-0.06,0.39
+401525848,2023,UCF,Kansas State,0.12,0.29
+401524017,2023,UCLA,Utah,-0.34,-0.23
+401520272,2023,UConn,Duke,-0.32,0.13
+401520273,2023,UNLV,UTEP,0.26,0.12
+401524014,2023,USC,Arizona State,0.34,0.16
+401524017,2023,Utah,UCLA,-0.23,-0.34
+401531872,2023,Utah State,James Madison,0.02,0.16
+401520273,2023,UTEP,UNLV,0.12,0.26
+401520269,2023,UTSA,Tennessee,-0.1,0.34
+401520274,2023,Vanderbilt,Kentucky,-0.08,0.2
+401525505,2023,Virginia,NC State,0.04,0.14
+401525511,2023,Virginia Tech,Marshall,-0.08,0.02
+401525508,2023,Wake Forest,Georgia Tech,-0.03,0.2
+401524018,2023,Washington,California,0.45,0.11
+401524019,2023,Washington State,Oregon State,0.2,0.14
+401520271,2023,Western Kentucky,Troy,0.02,0.16
+401532406,2023,Western Michigan,Toledo,-0.24,0.11
+401525850,2023,West Virginia,Texas Tech,-0.15,-0.08
+401520266,2023,Wisconsin,Purdue,0.23,0.02
+401531870,2023,Wyoming,App State,-0.11,-0.04
+401532589,2023,Air Force,San Diego State,0.63,0.07
+401532412,2023,Akron,Buffalo,0.0,-0.1
+401520285,2023,Alabama,Mississippi State,0.28,-0.2
+401531882,2023,App State,UL Monroe,0.09,0.13
+401524021,2023,Arizona,Washington,0.16,0.32
+401524022,2023,Arizona State,California,-0.1,0.05
+401520279,2023,Arkansas,Texas A&M,-0.26,-0.06
+401526836,2023,Arkansas State,Massachusetts,0.53,0.24
+401520280,2023,Auburn,Georgia,-0.02,0.17
+401532409,2023,Ball State,Western Michigan,0.11,0.39
+401525856,2023,Baylor,UCF,0.09,0.17
+401531429,2023,Boise State,Memphis,0.19,0.34
+401525513,2023,Boston College,Virginia,-0.04,0.08
+401525515,2023,Bowling Green,Georgia Tech,0.24,0.02
+401532412,2023,Buffalo,Akron,-0.1,0.0
+401525851,2023,BYU,Cincinnati,0.31,0.12
+401524022,2023,California,Arizona State,0.05,-0.1
+401532410,2023,Central Michigan,Eastern Michigan,0.36,0.19
+401531404,2023,Charlotte,SMU,-0.05,0.23
+401525851,2023,Cincinnati,BYU,0.12,0.31
+401525514,2023,Clemson,Syracuse,0.04,-0.24
+401531878,2023,Coastal Carolina,Georgia Southern,0.06,0.28
+401524023,2023,Colorado,USC,0.23,0.38
+401532585,2023,Colorado State,Utah Tech,0.29,-0.06
+401525438,2023,Duke,Notre Dame,0.08,0.28
+401531414,2023,East Carolina,Rice,-0.12,0.12
+401532410,2023,Eastern Michigan,Central Michigan,0.19,0.36
+401520282,2023,Florida,Kentucky,-0.03,0.36
+401532587,2023,Fresno State,Nevada,0.07,-0.16
+401520280,2023,Georgia,Auburn,0.17,-0.02
+401531878,2023,Georgia Southern,Coastal Carolina,0.28,0.06
+401531879,2023,Georgia State,Troy,-0.1,0.27
+401525515,2023,Georgia Tech,Bowling Green,0.02,0.24
+401532586,2023,Hawai'i,UNLV,0.05,0.46
+401525855,2023,Houston,Texas Tech,0.25,0.38
+401520289,2023,Illinois,Purdue,0.01,0.2
+401520283,2023,Indiana,Maryland,-0.07,0.51
+401520281,2023,Iowa,Michigan State,-0.24,-0.29
+401525852,2023,Iowa State,Oklahoma,-0.1,0.29
+401520276,2023,Jacksonville State,Sam Houston,0.02,0.06
+401531880,2023,James Madison,South Alabama,-0.01,-0.19
+401525854,2023,Kansas,Texas,-0.09,0.42
+401532413,2023,Kent State,Miami (OH),-0.17,0.08
+401520282,2023,Kentucky,Florida,0.36,-0.03
+401520284,2023,Louisiana,Minnesota,0.06,0.29
+401520278,2023,Louisiana Tech,UTEP,0.16,-0.08
+401525512,2023,Louisville,NC State,-0.12,-0.3
+401520288,2023,LSU,Ole Miss,0.55,0.45
+401531881,2023,Marshall,Old Dominion,-0.01,-0.1
+401520283,2023,Maryland,Indiana,0.51,-0.07
+401526836,2023,Massachusetts,Arkansas State,0.24,0.53
+401531429,2023,Memphis,Boise State,0.34,0.19
+401532413,2023,Miami (OH),Kent State,0.08,-0.17
+401520286,2023,Michigan,Nebraska,0.33,-0.03
+401520281,2023,Michigan State,Iowa,-0.29,-0.24
+401520277,2023,Middle Tennessee,Western Kentucky,-0.05,0.2
+401520284,2023,Minnesota,Louisiana,0.29,0.06
+401520285,2023,Mississippi State,Alabama,-0.2,0.28
+401520293,2023,Missouri,Vanderbilt,0.35,0.1
+401531424,2023,Navy,South Florida,-0.06,0.16
+401525512,2023,NC State,Louisville,-0.3,-0.12
+401520286,2023,Nebraska,Michigan,-0.03,0.33
+401532587,2023,Nevada,Fresno State,-0.16,0.07
+401532588,2023,New Mexico,Wyoming,0.26,0.32
+401532411,2023,Northern Illinois,Toledo,0.22,0.23
+401531436,2023,North Texas,Abilene Christian,0.36,0.15
+401520287,2023,Northwestern,Penn State,-0.29,0.2
+401525438,2023,Notre Dame,Duke,0.28,0.08
+401525852,2023,Oklahoma,Iowa State,0.29,-0.1
+401531881,2023,Old Dominion,Marshall,-0.1,-0.01
+401520288,2023,Ole Miss,LSU,0.45,0.55
+401524024,2023,Oregon,Stanford,0.58,-0.19
+401524020,2023,Oregon State,Utah,0.09,-0.29
+401520287,2023,Penn State,Northwestern,0.2,-0.29
+401525516,2023,Pittsburgh,Virginia Tech,0.08,0.25
+401520289,2023,Purdue,Illinois,0.2,0.01
+401531414,2023,Rice,East Carolina,0.12,-0.12
+401520290,2023,Rutgers,Wagner,0.48,-0.23
+401520276,2023,Sam Houston,Jacksonville State,0.06,0.02
+401532589,2023,San Diego State,Air Force,0.07,0.63
+401531404,2023,SMU,Charlotte,0.23,-0.05
+401531880,2023,South Alabama,James Madison,-0.19,-0.01
+401520291,2023,South Carolina,Tennessee,-0.1,0.24
+401531883,2023,Southern Miss,Texas State,0.04,0.34
+401531424,2023,South Florida,Navy,0.16,-0.06
+401524024,2023,Stanford,Oregon,-0.19,0.58
+401525514,2023,Syracuse,Clemson,-0.24,0.04
+401525853,2023,TCU,West Virginia,0.26,0.15
+401531339,2023,Temple,Tulsa,-0.1,0.47
+401520291,2023,Tennessee,South Carolina,0.24,-0.1
+401525854,2023,Texas,Kansas,0.42,-0.09
+401520279,2023,Texas A&M,Arkansas,-0.06,-0.26
+401531883,2023,Texas State,Southern Miss,0.34,0.04
+401525855,2023,Texas Tech,Houston,0.38,0.25
+401532411,2023,Toledo,Northern Illinois,0.23,0.22
+401531879,2023,Troy,Georgia State,0.27,-0.1
+401531370,2023,Tulane,UAB,0.31,0.18
+401531339,2023,Tulsa,Temple,0.47,-0.1
+401531370,2023,UAB,Tulane,0.18,0.31
+401525856,2023,UCF,Baylor,0.17,0.09
+401520292,2023,UConn,Utah State,0.23,0.14
+401531882,2023,UL Monroe,App State,0.13,0.09
+401532586,2023,UNLV,Hawai'i,0.46,0.05
+401524023,2023,USC,Colorado,0.38,0.23
+401524020,2023,Utah,Oregon State,-0.29,0.09
+401520292,2023,Utah State,UConn,0.14,0.23
+401520278,2023,UTEP,Louisiana Tech,-0.08,0.16
+401520293,2023,Vanderbilt,Missouri,0.1,0.35
+401525513,2023,Virginia,Boston College,0.08,-0.04
+401525516,2023,Virginia Tech,Pittsburgh,0.25,0.08
+401524021,2023,Washington,Arizona,0.32,0.16
+401520277,2023,Western Kentucky,Middle Tennessee,0.2,-0.05
+401532409,2023,Western Michigan,Ball State,0.39,0.11
+401525853,2023,West Virginia,TCU,0.15,0.26
+401532588,2023,Wyoming,New Mexico,0.32,0.26
+401532418,2023,Akron,Northern Illinois,-0.14,0.54
+401520310,2023,Alabama,Texas A&M,0.18,-0.08
+401524025,2023,Arizona,USC,0.3,0.38
+401524026,2023,Arizona State,Colorado,0.23,0.24
+401520308,2023,Arkansas,Ole Miss,-0.01,0.09
+401531887,2023,Arkansas State,Troy,-0.31,0.33
+401520298,2023,Army,Boston College,0.21,0.26
+401532414,2023,Ball State,Eastern Michigan,-0.04,0.08
+401525858,2023,Baylor,Texas Tech,-0.22,0.14
+401532592,2023,Boise State,San José State,0.23,0.11
+401520298,2023,Boston College,Army,0.26,0.21
+401532416,2023,Bowling Green,Miami (OH),-0.23,0.29
+401532415,2023,Buffalo,Central Michigan,0.09,-0.32
+401524027,2023,California,Oregon State,0.24,0.52
+401532415,2023,Central Michigan,Buffalo,-0.32,0.09
+401525517,2023,Clemson,Wake Forest,0.15,-0.01
+401524026,2023,Colorado,Arizona State,0.24,0.23
+401532590,2023,Colorado State,Utah State,-0.16,0.17
+401532414,2023,Eastern Michigan,Ball State,0.08,-0.04
+401520299,2023,Florida,Vanderbilt,0.44,-0.04
+401531340,2023,Florida Atlantic,Tulsa,0.07,0.13
+401520297,2023,Florida International,New Mexico State,-0.02,0.3
+401525518,2023,Florida State,Virginia Tech,0.41,0.01
+401532591,2023,Fresno State,Wyoming,0.06,0.17
+401520300,2023,Georgia,Kentucky,0.48,-0.07
+401525519,2023,Georgia Tech,Miami,0.01,-0.12
+401520301,2023,Illinois,Nebraska,-0.19,0.0
+401520302,2023,Iowa,Purdue,-0.07,-0.16
+401525859,2023,Iowa State,TCU,0.15,-0.09
+401520294,2023,Jacksonville State,Middle Tennessee,0.08,-0.01
+401525860,2023,Kansas,UCF,0.58,0.24
+401525857,2023,Kansas State,Oklahoma State,-0.15,0.02
+401532417,2023,Kent State,Ohio,-0.02,0.3
+401520300,2023,Kentucky,Georgia,-0.07,0.48
+401520296,2023,Liberty,Sam Houston,0.23,0.06
+401531884,2023,Louisiana,Texas State,0.32,0.29
+401520295,2023,Louisiana Tech,Western Kentucky,-0.03,0.14
+401525439,2023,Louisville,Notre Dame,0.15,-0.29
+401520305,2023,LSU,Missouri,0.44,0.28
+401525521,2023,Marshall,NC State,-0.09,-0.01
+401520307,2023,Maryland,Ohio State,-0.11,0.3
+401526837,2023,Massachusetts,Toledo,0.33,0.56
+401525519,2023,Miami,Georgia Tech,-0.12,0.01
+401532416,2023,Miami (OH),Bowling Green,0.29,-0.23
+401520303,2023,Michigan,Minnesota,0.45,-0.27
+401520294,2023,Middle Tennessee,Jacksonville State,-0.01,0.08
+401520303,2023,Minnesota,Michigan,-0.27,0.45
+401520304,2023,Mississippi State,Western Michigan,0.32,0.06
+401520305,2023,Missouri,LSU,0.28,0.44
+401531433,2023,Navy,North Texas,0.31,0.17
+401525521,2023,NC State,Marshall,-0.01,-0.09
+401520301,2023,Nebraska,Illinois,0.0,-0.19
+401520297,2023,New Mexico State,Florida International,0.3,-0.02
+401525520,2023,North Carolina,Syracuse,0.27,-0.1
+401532418,2023,Northern Illinois,Akron,0.54,-0.14
+401531433,2023,North Texas,Navy,0.17,0.31
+401520306,2023,Northwestern,Howard,0.13,0.15
+401525439,2023,Notre Dame,Louisville,-0.29,0.15
+401532417,2023,Ohio,Kent State,0.3,-0.02
+401520307,2023,Ohio State,Maryland,0.3,-0.11
+401525861,2023,Oklahoma,Texas,0.15,0.13
+401525857,2023,Oklahoma State,Kansas State,0.02,-0.15
+401531886,2023,Old Dominion,Southern Miss,-0.05,-0.07
+401520308,2023,Ole Miss,Arkansas,0.09,-0.01
+401524027,2023,Oregon State,California,0.52,0.24
+401520302,2023,Purdue,Iowa,-0.16,-0.07
+401520309,2023,Rice,UConn,0.18,0.28
+401520311,2023,Rutgers,Wisconsin,-0.14,0.07
+401520296,2023,Sam Houston,Liberty,0.06,0.23
+401532592,2023,San José State,Boise State,0.11,0.23
+401531885,2023,South Alabama,UL Monroe,0.51,-0.19
+401531886,2023,Southern Miss,Old Dominion,-0.07,-0.05
+401531380,2023,South Florida,UAB,0.06,0.55
+401525520,2023,Syracuse,North Carolina,-0.1,0.27
+401525859,2023,TCU,Iowa State,-0.09,0.15
+401531389,2023,Temple,UTSA,0.19,0.36
+401525861,2023,Texas,Oklahoma,0.13,0.15
+401520310,2023,Texas A&M,Alabama,-0.08,0.18
+401531884,2023,Texas State,Louisiana,0.29,0.32
+401525858,2023,Texas Tech,Baylor,0.14,-0.22
+401526837,2023,Toledo,Massachusetts,0.56,0.33
+401531887,2023,Troy,Arkansas State,0.33,-0.31
+401531340,2023,Tulsa,Florida Atlantic,0.13,0.07
+401531380,2023,UAB,South Florida,0.55,0.06
+401525860,2023,UCF,Kansas,0.24,0.58
+401524028,2023,UCLA,Washington State,0.0,-0.39
+401520309,2023,UConn,Rice,0.28,0.18
+401531885,2023,UL Monroe,South Alabama,-0.19,0.51
+401524025,2023,USC,Arizona,0.38,0.3
+401532590,2023,Utah State,Colorado State,0.17,-0.16
+401531389,2023,UTSA,Temple,0.36,0.19
+401520299,2023,Vanderbilt,Florida,-0.04,0.44
+401525522,2023,Virginia,William & Mary,0.2,-0.04
+401525518,2023,Virginia Tech,Florida State,0.01,0.41
+401525517,2023,Wake Forest,Clemson,-0.01,0.15
+401524028,2023,Washington State,UCLA,-0.39,0.0
+401520295,2023,Western Kentucky,Louisiana Tech,0.14,-0.03
+401520304,2023,Western Michigan,Mississippi State,0.06,0.32
+401520311,2023,Wisconsin,Rutgers,0.07,-0.14
+401532591,2023,Wyoming,Fresno State,0.17,0.06
+401532598,2023,Air Force,Wyoming,0.3,0.37
+401532420,2023,Akron,Central Michigan,-0.19,-0.06
+401520316,2023,Alabama,Arkansas,0.27,0.12
+401531888,2023,App State,Coastal Carolina,0.18,0.26
+401524030,2023,Arizona,Washington State,0.35,-0.37
+401520316,2023,Arkansas,Alabama,0.12,0.27
+401520317,2023,Army,Troy,-0.23,0.25
+401520319,2023,Auburn,LSU,0.09,0.48
+401532419,2023,Ball State,Toledo,-0.03,0.13
+401532593,2023,Boise State,Colorado State,0.14,0.13
+401532421,2023,Bowling Green,Buffalo,-0.08,-0.39
+401532421,2023,Buffalo,Bowling Green,-0.39,-0.08
+401525865,2023,BYU,TCU,-0.26,0.24
+401524033,2023,California,Utah,-0.11,0.26
+401532420,2023,Central Michigan,Akron,-0.06,-0.19
+401531405,2023,Charlotte,Navy,-0.21,-0.01
+401525863,2023,Cincinnati,Iowa State,-0.14,0.22
+401531888,2023,Coastal Carolina,App State,0.26,0.18
+401524029,2023,Colorado,Stanford,0.24,0.24
+401532593,2023,Colorado State,Boise State,0.13,0.14
+401525523,2023,Duke,NC State,0.03,-0.15
+401531415,2023,East Carolina,SMU,-0.23,0.09
+401532422,2023,Eastern Michigan,Kent State,-0.01,-0.14
+401520325,2023,Florida,South Carolina,0.39,0.46
+401531420,2023,Florida Atlantic,South Florida,0.39,-0.15
+401520314,2023,Florida International,UTEP,-0.03,0.29
+401525524,2023,Florida State,Syracuse,0.26,-0.04
+401532594,2023,Fresno State,Utah State,0.22,0.24
+401520327,2023,Georgia,Vanderbilt,0.3,0.12
+401531890,2023,Georgia Southern,James Madison,-0.03,0.46
+401531889,2023,Georgia State,Marshall,0.25,0.05
+401532595,2023,Hawai'i,San Diego State,0.09,0.09
+401525862,2023,Houston,West Virginia,0.36,0.38
+401520320,2023,Illinois,Maryland,0.1,0.17
+401520321,2023,Indiana,Michigan,-0.19,0.43
+401520328,2023,Iowa,Wisconsin,-0.12,-0.22
+401525863,2023,Iowa State,Cincinnati,0.22,-0.14
+401520312,2023,Jacksonville State,Liberty,0.01,0.33
+401531890,2023,James Madison,Georgia Southern,0.46,-0.03
+401525864,2023,Kansas,Oklahoma State,0.2,0.35
+401525866,2023,Kansas State,Texas Tech,0.37,0.03
+401532422,2023,Kent State,Eastern Michigan,-0.14,-0.01
+401520318,2023,Kentucky,Missouri,-0.07,0.14
+401520312,2023,Liberty,Jacksonville State,0.33,0.01
+401520313,2023,Louisiana Tech,Middle Tennessee,0.12,0.22
+401525525,2023,Louisville,Pittsburgh,-0.16,0.13
+401520319,2023,LSU,Auburn,0.48,0.09
+401531889,2023,Marshall,Georgia State,0.05,0.25
+401520320,2023,Maryland,Illinois,0.17,0.1
+401520322,2023,Massachusetts,Penn State,-0.58,0.38
+401531371,2023,Memphis,Tulane,0.12,0.19
+401525526,2023,Miami,North Carolina,0.1,0.21
+401532423,2023,Miami (OH),Western Michigan,0.06,-0.07
+401520321,2023,Michigan,Indiana,0.43,-0.19
+401520324,2023,Michigan State,Rutgers,-0.15,0.13
+401520313,2023,Middle Tennessee,Louisiana Tech,0.22,0.12
+401520318,2023,Missouri,Kentucky,0.14,-0.07
+401531405,2023,Navy,Charlotte,-0.01,-0.21
+401525523,2023,NC State,Duke,-0.15,0.03
+401532597,2023,Nevada,UNLV,0.15,0.4
+401532596,2023,New Mexico,San José State,0.13,0.63
+401520315,2023,New Mexico State,Sam Houston,0.21,-0.04
+401525526,2023,North Carolina,Miami,0.21,0.1
+401532424,2023,Northern Illinois,Ohio,0.14,0.03
+401531390,2023,North Texas,Temple,0.37,-0.09
+401524031,2023,Notre Dame,USC,0.2,-0.26
+401532424,2023,Ohio,Northern Illinois,0.03,0.14
+401520323,2023,Ohio State,Purdue,0.41,-0.09
+401525864,2023,Oklahoma State,Kansas,0.35,0.2
+401524034,2023,Oregon,Washington,0.18,0.32
+401524032,2023,Oregon State,UCLA,0.3,-0.06
+401520322,2023,Penn State,Massachusetts,0.38,-0.58
+401525525,2023,Pittsburgh,Louisville,0.13,-0.16
+401520323,2023,Purdue,Ohio State,-0.09,0.41
+401520324,2023,Rutgers,Michigan State,0.13,-0.15
+401520315,2023,Sam Houston,New Mexico State,-0.04,0.21
+401532595,2023,San Diego State,Hawai'i,0.09,0.09
+401532596,2023,San José State,New Mexico,0.63,0.13
+401531415,2023,SMU,East Carolina,0.09,-0.23
+401520325,2023,South Carolina,Florida,0.46,0.39
+401531420,2023,South Florida,Florida Atlantic,-0.15,0.39
+401524029,2023,Stanford,Colorado,0.24,0.24
+401525524,2023,Syracuse,Florida State,-0.04,0.26
+401525865,2023,TCU,BYU,0.24,-0.26
+401531390,2023,Temple,North Texas,-0.09,0.37
+401520326,2023,Tennessee,Texas A&M,-0.12,-0.14
+401520326,2023,Texas A&M,Tennessee,-0.14,-0.12
+401531891,2023,Texas State,UL Monroe,0.11,0.08
+401525866,2023,Texas Tech,Kansas State,0.03,0.37
+401532419,2023,Toledo,Ball State,0.13,-0.03
+401520317,2023,Troy,Army,0.25,-0.23
+401531371,2023,Tulane,Memphis,0.19,0.12
+401531381,2023,UAB,UTSA,0.11,0.16
+401524032,2023,UCLA,Oregon State,-0.06,0.3
+401531891,2023,UL Monroe,Texas State,0.08,0.11
+401532597,2023,UNLV,Nevada,0.4,0.15
+401524031,2023,USC,Notre Dame,-0.26,0.2
+401524033,2023,Utah,California,0.26,-0.11
+401532594,2023,Utah State,Fresno State,0.24,0.22
+401520314,2023,UTEP,Florida International,0.29,-0.03
+401531381,2023,UTSA,UAB,0.16,0.11
+401520327,2023,Vanderbilt,Georgia,0.12,0.3
+401525527,2023,Virginia Tech,Wake Forest,0.21,-0.27
+401525527,2023,Wake Forest,Virginia Tech,-0.27,0.21
+401524034,2023,Washington,Oregon,0.32,0.18
+401524030,2023,Washington State,Arizona,-0.37,0.35
+401532423,2023,Western Michigan,Miami (OH),-0.07,0.06
+401525862,2023,West Virginia,Houston,0.38,0.36
+401520328,2023,Wisconsin,Iowa,-0.22,-0.12
+401532598,2023,Wyoming,Air Force,0.37,0.3
+401531434,2023,Air Force,Navy,-0.09,-0.26
+401532429,2023,Akron,Bowling Green,-0.1,0.32
+401520333,2023,Alabama,Tennessee,0.08,-0.01
+401531895,2023,App State,Old Dominion,0.26,0.39
+401524038,2023,Arizona State,Washington,-0.13,-0.05
+401520334,2023,Arkansas,Mississippi State,-0.2,-0.16
+401531896,2023,Arkansas State,Coastal Carolina,0.0,0.24
+401520339,2023,Army,LSU,-0.51,0.73
+401520335,2023,Auburn,Ole Miss,-0.05,0.06
+401532425,2023,Ball State,Central Michigan,0.27,0.07
+401525868,2023,Baylor,Cincinnati,0.08,0.17
+401525528,2023,Boston College,Georgia Tech,0.41,0.08
+401532429,2023,Bowling Green,Akron,0.32,-0.1
+401532430,2023,Buffalo,Kent State,0.14,-0.25
+401525867,2023,BYU,Texas Tech,0.17,-0.01
+401532425,2023,Central Michigan,Ball State,0.07,0.27
+401531406,2023,Charlotte,East Carolina,0.13,-0.25
+401525868,2023,Cincinnati,Baylor,0.17,0.08
+401525529,2023,Clemson,Miami,0.01,0.13
+401531896,2023,Coastal Carolina,Arkansas State,0.24,0.0
+401532599,2023,Colorado State,UNLV,0.18,0.19
+401525530,2023,Duke,Florida State,0.0,0.16
+401531406,2023,East Carolina,Charlotte,-0.25,0.13
+401532426,2023,Eastern Michigan,Northern Illinois,0.06,0.22
+401531397,2023,Florida Atlantic,UTSA,-0.17,0.16
+401520331,2023,Florida International,Sam Houston,0.06,0.17
+401525530,2023,Florida State,Duke,0.16,0.0
+401531894,2023,Georgia Southern,UL Monroe,-0.03,-0.19
+401531897,2023,Georgia State,Louisiana,0.17,0.13
+401525528,2023,Georgia Tech,Boston College,0.08,0.41
+401532600,2023,Hawai'i,New Mexico,-0.04,0.52
+401525869,2023,Houston,Texas,0.14,0.16
+401520336,2023,Illinois,Wisconsin,0.14,0.19
+401520337,2023,Indiana,Rutgers,-0.09,0.16
+401520338,2023,Iowa,Minnesota,-0.23,-0.07
+401520329,2023,Jacksonville State,Western Kentucky,0.05,-0.07
+401531893,2023,James Madison,Marshall,0.05,-0.37
+401525870,2023,Kansas State,TCU,0.41,-0.04
+401532430,2023,Kent State,Buffalo,-0.25,0.14
+401520330,2023,Liberty,Middle Tennessee,0.27,0.07
+401531897,2023,Louisiana,Georgia State,0.13,0.17
+401520339,2023,LSU,Army,0.73,-0.51
+401531893,2023,Marshall,James Madison,-0.37,0.05
+401531382,2023,Memphis,UAB,0.26,-0.22
+401525529,2023,Miami,Clemson,0.13,0.01
+401532427,2023,Miami (OH),Toledo,0.01,0.21
+401520340,2023,Michigan,Michigan State,0.45,-0.4
+401520340,2023,Michigan State,Michigan,-0.4,0.45
+401520330,2023,Middle Tennessee,Liberty,0.07,0.27
+401520338,2023,Minnesota,Iowa,-0.07,-0.23
+401520334,2023,Mississippi State,Arkansas,-0.16,-0.2
+401520341,2023,Missouri,South Carolina,0.25,-0.16
+401531434,2023,Navy,Air Force,-0.26,-0.09
+401520342,2023,Nebraska,Northwestern,-0.04,-0.11
+401532601,2023,Nevada,San Diego State,0.0,-0.24
+401532600,2023,New Mexico,Hawai'i,0.52,-0.04
+401520332,2023,New Mexico State,UTEP,0.35,-0.13
+401525531,2023,North Carolina,Virginia,0.16,0.14
+401532426,2023,Northern Illinois,Eastern Michigan,0.22,0.06
+401531372,2023,North Texas,Tulane,0.07,0.21
+401520342,2023,Northwestern,Nebraska,-0.11,-0.04
+401532428,2023,Ohio,Western Michigan,0.17,0.02
+401520343,2023,Ohio State,Penn State,0.05,-0.21
+401525871,2023,Oklahoma,UCF,0.05,0.19
+401525872,2023,Oklahoma State,West Virginia,0.36,0.04
+401531895,2023,Old Dominion,App State,0.39,0.26
+401520335,2023,Ole Miss,Auburn,0.06,-0.05
+401524035,2023,Oregon,Washington State,0.51,0.14
+401520343,2023,Penn State,Ohio State,-0.21,0.05
+401525532,2023,Pittsburgh,Wake Forest,0.17,-0.07
+401531341,2023,Rice,Tulsa,0.42,-0.06
+401520337,2023,Rutgers,Indiana,0.16,-0.09
+401520331,2023,Sam Houston,Florida International,0.17,0.06
+401532601,2023,San Diego State,Nevada,-0.24,0.0
+401532602,2023,San José State,Utah State,0.13,0.01
+401531391,2023,SMU,Temple,0.31,-0.53
+401531892,2023,South Alabama,Southern Miss,0.57,-0.29
+401520341,2023,South Carolina,Missouri,-0.16,0.25
+401531892,2023,Southern Miss,South Alabama,-0.29,0.57
+401520344,2023,South Florida,UConn,0.0,-0.09
+401524036,2023,Stanford,UCLA,-0.16,0.26
+401525870,2023,TCU,Kansas State,-0.04,0.41
+401531391,2023,Temple,SMU,-0.53,0.31
+401520333,2023,Tennessee,Alabama,-0.01,0.08
+401525869,2023,Texas,Houston,0.16,0.14
+401525867,2023,Texas Tech,BYU,-0.01,0.17
+401532427,2023,Toledo,Miami (OH),0.21,0.01
+401531372,2023,Tulane,North Texas,0.21,0.07
+401531341,2023,Tulsa,Rice,-0.06,0.42
+401531382,2023,UAB,Memphis,-0.22,0.26
+401525871,2023,UCF,Oklahoma,0.19,0.05
+401524036,2023,UCLA,Stanford,0.26,-0.16
+401520344,2023,UConn,South Florida,-0.09,0.0
+401531894,2023,UL Monroe,Georgia Southern,-0.19,-0.03
+401532599,2023,UNLV,Colorado State,0.19,0.18
+401524037,2023,USC,Utah,0.24,0.22
+401524037,2023,Utah,USC,0.22,0.24
+401532602,2023,Utah State,San José State,0.01,0.13
+401520332,2023,UTEP,New Mexico State,-0.13,0.35
+401531397,2023,UTSA,Florida Atlantic,0.16,-0.17
+401525531,2023,Virginia,North Carolina,0.14,0.16
+401525532,2023,Wake Forest,Pittsburgh,-0.07,0.17
+401524038,2023,Washington,Arizona State,-0.05,-0.13
+401524035,2023,Washington State,Oregon,0.14,0.51
+401520329,2023,Western Kentucky,Jacksonville State,-0.07,0.05
+401532428,2023,Western Michigan,Ohio,0.02,0.17
+401525872,2023,West Virginia,Oklahoma State,0.04,0.36
+401520336,2023,Wisconsin,Illinois,0.19,0.14
+401532603,2023,Air Force,Colorado State,0.23,-0.06
+401531898,2023,App State,Southern Miss,0.53,0.28
+401524039,2023,Arizona,Oregon State,0.19,0.34
+401524040,2023,Arizona State,Washington State,0.5,0.27
+401531901,2023,Arkansas State,UL Monroe,0.26,0.18
+401520349,2023,Army,Massachusetts,0.21,0.44
+401520350,2023,Auburn,Mississippi State,0.34,-0.03
+401525873,2023,Baylor,Iowa State,0.01,0.21
+401532607,2023,Boise State,Wyoming,0.23,-0.22
+401520351,2023,Boston College,UConn,0.21,0.0
+401525877,2023,BYU,Texas,-0.17,0.07
+401524041,2023,California,USC,0.08,0.35
+401531407,2023,Charlotte,Florida Atlantic,0.04,0.28
+401525876,2023,Cincinnati,Oklahoma State,0.03,0.41
+401525534,2023,Clemson,NC State,-0.06,-0.02
+401531899,2023,Coastal Carolina,Marshall,0.22,-0.29
+401524043,2023,Colorado,UCLA,0.01,0.14
+401532603,2023,Colorado State,Air Force,-0.06,0.23
+401525535,2023,Duke,Louisville,-0.28,0.14
+401531398,2023,East Carolina,UTSA,0.03,0.25
+401532431,2023,Eastern Michigan,Western Michigan,-0.14,-0.05
+401520352,2023,Florida,Georgia,0.16,0.43
+401531407,2023,Florida Atlantic,Charlotte,0.28,0.04
+401520347,2023,Florida International,Jacksonville State,-0.16,0.09
+401525536,2023,Florida State,Wake Forest,0.34,0.0
+401532606,2023,Fresno State,UNLV,0.09,0.01
+401520352,2023,Georgia,Florida,0.43,0.16
+401531929,2023,Georgia Southern,Georgia State,0.2,-0.03
+401531929,2023,Georgia State,Georgia Southern,-0.03,0.2
+401525537,2023,Georgia Tech,North Carolina,0.37,0.45
+401532605,2023,Hawai'i,San José State,-0.07,0.26
+401525875,2023,Houston,Kansas State,-0.42,0.14
+401520358,2023,Indiana,Penn State,0.09,0.17
+401525873,2023,Iowa State,Baylor,0.21,0.01
+401520347,2023,Jacksonville State,Florida International,0.09,-0.16
+401531900,2023,James Madison,Old Dominion,-0.01,0.1
+401525874,2023,Kansas,Oklahoma,0.11,0.1
+401525875,2023,Kansas State,Houston,0.14,-0.42
+401520353,2023,Kentucky,Tennessee,0.26,0.36
+401520346,2023,Liberty,Western Kentucky,0.48,0.34
+401531902,2023,Louisiana,South Alabama,0.17,0.09
+401520345,2023,Louisiana Tech,New Mexico State,0.18,0.16
+401525535,2023,Louisville,Duke,0.14,-0.28
+401531899,2023,Marshall,Coastal Carolina,-0.29,0.22
+401520356,2023,Maryland,Northwestern,0.07,0.23
+401520349,2023,Massachusetts,Army,0.44,0.21
+401531430,2023,Memphis,North Texas,0.41,0.36
+401525538,2023,Miami,Virginia,-0.01,0.04
+401532432,2023,Miami (OH),Ohio,0.05,0.17
+401520354,2023,Michigan State,Minnesota,0.03,0.04
+401520354,2023,Minnesota,Michigan State,0.04,0.03
+401520350,2023,Mississippi State,Auburn,-0.03,0.34
+401525534,2023,NC State,Clemson,-0.02,-0.06
+401520355,2023,Nebraska,Purdue,-0.15,-0.33
+401532604,2023,Nevada,New Mexico,0.02,-0.07
+401532604,2023,New Mexico,Nevada,-0.07,0.02
+401520345,2023,New Mexico State,Louisiana Tech,0.16,0.18
+401525537,2023,North Carolina,Georgia Tech,0.45,0.37
+401531430,2023,North Texas,Memphis,0.36,0.41
+401520356,2023,Northwestern,Maryland,0.23,0.07
+401525440,2023,Notre Dame,Pittsburgh,0.28,-0.54
+401532432,2023,Ohio,Miami (OH),0.17,0.05
+401520360,2023,Ohio State,Wisconsin,0.08,-0.19
+401525874,2023,Oklahoma,Kansas,0.1,0.11
+401525876,2023,Oklahoma State,Cincinnati,0.41,0.03
+401531900,2023,Old Dominion,James Madison,0.1,-0.01
+401520357,2023,Ole Miss,Vanderbilt,0.27,-0.36
+401524044,2023,Oregon,Utah,0.35,-0.28
+401524039,2023,Oregon State,Arizona,0.34,0.19
+401520358,2023,Penn State,Indiana,0.17,0.09
+401525440,2023,Pittsburgh,Notre Dame,-0.54,0.28
+401520355,2023,Purdue,Nebraska,-0.33,-0.15
+401531373,2023,Rice,Tulane,0.3,0.2
+401520348,2023,Sam Houston,UTEP,0.14,0.31
+401532605,2023,San José State,Hawai'i,0.26,-0.07
+401531342,2023,SMU,Tulsa,0.63,-0.26
+401531902,2023,South Alabama,Louisiana,0.09,0.17
+401520359,2023,South Carolina,Texas A&M,-0.17,0.19
+401531898,2023,Southern Miss,App State,0.28,0.53
+401524042,2023,Stanford,Washington,0.2,0.21
+401525533,2023,Syracuse,Virginia Tech,-0.01,0.29
+401520353,2023,Tennessee,Kentucky,0.36,0.26
+401525877,2023,Texas,BYU,0.07,-0.17
+401520359,2023,Texas A&M,South Carolina,0.19,-0.17
+401531903,2023,Texas State,Troy,0.03,0.13
+401531903,2023,Troy,Texas State,0.13,0.03
+401531373,2023,Tulane,Rice,0.2,0.3
+401531342,2023,Tulsa,SMU,-0.26,0.63
+401525878,2023,UCF,West Virginia,0.21,0.25
+401524043,2023,UCLA,Colorado,0.14,0.01
+401520351,2023,UConn,Boston College,0.0,0.21
+401531901,2023,UL Monroe,Arkansas State,0.18,0.26
+401532606,2023,UNLV,Fresno State,0.01,0.09
+401524041,2023,USC,California,0.35,0.08
+401524044,2023,Utah,Oregon,-0.28,0.35
+401520348,2023,UTEP,Sam Houston,0.31,0.14
+401531398,2023,UTSA,East Carolina,0.25,0.03
+401520357,2023,Vanderbilt,Ole Miss,-0.36,0.27
+401525538,2023,Virginia,Miami,0.04,-0.01
+401525533,2023,Virginia Tech,Syracuse,0.29,-0.01
+401525536,2023,Wake Forest,Florida State,0.0,0.34
+401524042,2023,Washington,Stanford,0.21,0.2
+401524040,2023,Washington State,Arizona State,0.27,0.5
+401520346,2023,Western Kentucky,Liberty,0.34,0.48
+401532431,2023,Western Michigan,Eastern Michigan,-0.05,-0.14
+401525878,2023,West Virginia,UCF,0.25,0.21
+401520360,2023,Wisconsin,Ohio State,-0.19,0.08
+401532607,2023,Wyoming,Boise State,-0.22,0.23
+401520361,2023,Air Force,Army,-0.33,0.02
+401532436,2023,Akron,Kent State,0.26,0.25
+401520362,2023,Alabama,LSU,0.52,0.23
+401531905,2023,App State,Marshall,0.3,0.02
+401524045,2023,Arizona,UCLA,0.24,-0.04
+401524049,2023,Arizona State,Utah,-0.59,0.32
+401520363,2023,Arkansas,Florida,0.14,0.09
+401531908,2023,Arkansas State,Louisiana,0.26,-0.04
+401520361,2023,Army,Air Force,0.02,-0.33
+401520379,2023,Auburn,Vanderbilt,0.14,-0.12
+401532435,2023,Ball State,Bowling Green,0.01,0.18
+401525880,2023,Baylor,Houston,0.22,0.16
+401532608,2023,Boise State,Fresno State,0.22,0.19
+401525540,2023,Boston College,Syracuse,0.07,-0.2
+401532435,2023,Bowling Green,Ball State,0.18,0.01
+401532434,2023,Buffalo,Toledo,-0.31,-0.11
+401525885,2023,BYU,West Virginia,-0.2,0.31
+401524047,2023,California,Oregon,-0.18,0.37
+401532433,2023,Central Michigan,Northern Illinois,0.41,0.31
+401531343,2023,Charlotte,Tulsa,0.13,0.28
+401525881,2023,Cincinnati,UCF,0.12,0.34
+401525441,2023,Clemson,Notre Dame,-0.23,-0.08
+401531907,2023,Coastal Carolina,Old Dominion,0.13,0.22
+401524046,2023,Colorado,Oregon State,0.02,0.1
+401532609,2023,Colorado State,Wyoming,-0.27,0.08
+401525539,2023,Duke,Wake Forest,0.0,0.08
+401531374,2023,East Carolina,Tulane,-0.04,0.14
+401520363,2023,Florida,Arkansas,0.09,0.14
+401531383,2023,Florida Atlantic,UAB,0.17,0.41
+401525541,2023,Florida State,Pittsburgh,0.11,-0.12
+401532608,2023,Fresno State,Boise State,0.19,0.22
+401520364,2023,Georgia,Missouri,0.25,0.22
+401531910,2023,Georgia Southern,Texas State,0.04,0.41
+401531906,2023,Georgia State,James Madison,-0.05,0.26
+401525542,2023,Georgia Tech,Virginia,0.44,-0.05
+401532610,2023,Hawai'i,Nevada,0.04,-0.29
+401525880,2023,Houston,Baylor,0.16,0.22
+401520370,2023,Illinois,Minnesota,0.14,0.07
+401520365,2023,Indiana,Wisconsin,0.04,0.09
+401520373,2023,Iowa,Northwestern,-0.17,-0.09
+401525882,2023,Iowa State,Kansas,-0.04,0.33
+401520376,2023,Jacksonville State,South Carolina,-0.14,0.22
+401531906,2023,James Madison,Georgia State,0.26,-0.05
+401525882,2023,Kansas,Iowa State,0.33,-0.04
+401525884,2023,Kansas State,Texas,0.16,0.02
+401532436,2023,Kent State,Akron,0.25,0.26
+401520371,2023,Kentucky,Mississippi State,0.01,-0.25
+401520366,2023,Liberty,Louisiana Tech,0.56,0.1
+401531908,2023,Louisiana,Arkansas State,-0.04,0.26
+401520366,2023,Louisiana Tech,Liberty,0.1,0.56
+401525543,2023,Louisville,Virginia Tech,0.49,-0.29
+401520362,2023,LSU,Alabama,0.23,0.52
+401531905,2023,Marshall,App State,0.02,0.3
+401520367,2023,Maryland,Penn State,-0.33,0.33
+401520400,2023,Massachusetts,Merrimack,0.34,-0.05
+401531425,2023,Memphis,South Florida,0.43,0.18
+401525544,2023,Miami,NC State,-0.16,0.14
+401520368,2023,Michigan,Purdue,0.18,-0.09
+401520369,2023,Michigan State,Nebraska,0.07,-0.02
+401520372,2023,Middle Tennessee,New Mexico State,-0.01,0.08
+401520370,2023,Minnesota,Illinois,0.07,0.14
+401520371,2023,Mississippi State,Kentucky,-0.25,0.01
+401520364,2023,Missouri,Georgia,0.22,0.25
+401531392,2023,Navy,Temple,0.03,0.22
+401525544,2023,NC State,Miami,0.14,-0.16
+401520369,2023,Nebraska,Michigan State,-0.02,0.07
+401532610,2023,Nevada,Hawai'i,-0.29,0.04
+401532611,2023,New Mexico,UNLV,0.1,0.72
+401520372,2023,New Mexico State,Middle Tennessee,0.08,-0.01
+401525545,2023,North Carolina,Campbell,0.68,-0.1
+401532433,2023,Northern Illinois,Central Michigan,0.31,0.41
+401531399,2023,North Texas,UTSA,0.07,0.32
+401520373,2023,Northwestern,Iowa,-0.09,-0.17
+401525441,2023,Notre Dame,Clemson,-0.08,-0.23
+401520375,2023,Ohio State,Rutgers,0.13,-0.14
+401525883,2023,Oklahoma,Oklahoma State,0.01,0.04
+401525883,2023,Oklahoma State,Oklahoma,0.04,0.01
+401531907,2023,Old Dominion,Coastal Carolina,0.22,0.13
+401520374,2023,Ole Miss,Texas A&M,0.31,0.26
+401524047,2023,Oregon,California,0.37,-0.18
+401524046,2023,Oregon State,Colorado,0.1,0.02
+401520367,2023,Penn State,Maryland,0.33,-0.33
+401525541,2023,Pittsburgh,Florida State,-0.12,0.11
+401520368,2023,Purdue,Michigan,-0.09,0.18
+401531440,2023,Rice,SMU,0.06,0.04
+401520375,2023,Rutgers,Ohio State,-0.14,0.13
+401525451,2023,Sam Houston,Kennesaw State,0.14,0.23
+401532612,2023,San Diego State,Utah State,0.13,0.25
+401531440,2023,SMU,Rice,0.04,0.06
+401531904,2023,South Alabama,Troy,0.02,0.13
+401520376,2023,South Carolina,Jacksonville State,0.22,-0.14
+401531909,2023,Southern Miss,UL Monroe,0.13,-0.29
+401531425,2023,South Florida,Memphis,0.18,0.43
+401524050,2023,Stanford,Washington State,-0.12,-0.08
+401525540,2023,Syracuse,Boston College,-0.2,0.07
+401525879,2023,TCU,Texas Tech,0.2,0.15
+401531392,2023,Temple,Navy,0.22,0.03
+401520377,2023,Tennessee,UConn,0.66,-0.3
+401525884,2023,Texas,Kansas State,0.02,0.16
+401520374,2023,Texas A&M,Ole Miss,0.26,0.31
+401531910,2023,Texas State,Georgia Southern,0.41,0.04
+401525879,2023,Texas Tech,TCU,0.15,0.2
+401532434,2023,Toledo,Buffalo,-0.11,-0.31
+401531904,2023,Troy,South Alabama,0.13,0.02
+401531374,2023,Tulane,East Carolina,0.14,-0.04
+401531343,2023,Tulsa,Charlotte,0.28,0.13
+401531383,2023,UAB,Florida Atlantic,0.41,0.17
+401525881,2023,UCF,Cincinnati,0.34,0.12
+401524045,2023,UCLA,Arizona,-0.04,0.24
+401520377,2023,UConn,Tennessee,-0.3,0.66
+401531909,2023,UL Monroe,Southern Miss,-0.29,0.13
+401532611,2023,UNLV,New Mexico,0.72,0.1
+401524048,2023,USC,Washington,0.4,0.49
+401524049,2023,Utah,Arizona State,0.32,-0.59
+401532612,2023,Utah State,San Diego State,0.25,0.13
+401520378,2023,UTEP,Western Kentucky,-0.01,0.29
+401531399,2023,UTSA,North Texas,0.32,0.07
+401520379,2023,Vanderbilt,Auburn,-0.12,0.14
+401525542,2023,Virginia,Georgia Tech,-0.05,0.44
+401525543,2023,Virginia Tech,Louisville,-0.29,0.49
+401525539,2023,Wake Forest,Duke,0.08,0.0
+401524048,2023,Washington,USC,0.49,0.4
+401524050,2023,Washington State,Stanford,-0.08,-0.12
+401520378,2023,Western Kentucky,UTEP,0.29,-0.01
+401525885,2023,West Virginia,BYU,0.31,-0.2
+401520365,2023,Wisconsin,Indiana,0.09,0.04
+401532609,2023,Wyoming,Colorado State,0.08,-0.27
+401532613,2023,Air Force,Hawai'i,-0.11,0.27
+401532441,2023,Akron,Miami (OH),-0.31,-0.16
+401520386,2023,Alabama,Kentucky,0.42,-0.14
+401531913,2023,App State,Georgia State,0.3,-0.22
+401524052,2023,Arizona,Colorado,0.29,0.19
+401524055,2023,Arizona State,UCLA,-0.08,-0.23
+401520380,2023,Arkansas,Auburn,-0.08,0.31
+401531916,2023,Arkansas State,South Alabama,-0.12,0.07
+401520381,2023,Army,Holy Cross,0.13,0.01
+401520380,2023,Auburn,Arkansas,0.31,-0.08
+401532437,2023,Ball State,Northern Illinois,0.14,0.0
+401525889,2023,Baylor,Kansas State,-0.33,0.28
+401532616,2023,Boise State,New Mexico,0.43,0.06
+401525547,2023,Boston College,Virginia Tech,0.06,0.44
+401532442,2023,Bowling Green,Kent State,0.49,-0.08
+401532439,2023,Buffalo,Ohio,-0.09,0.21
+401525886,2023,BYU,Iowa State,-0.16,0.39
+401524051,2023,California,Washington State,0.16,0.01
+401532438,2023,Central Michigan,Western Michigan,0.14,0.28
+401531408,2023,Charlotte,Memphis,-0.1,-0.05
+401525887,2023,Cincinnati,Houston,0.05,-0.19
+401525548,2023,Clemson,Georgia Tech,0.18,-0.09
+401531912,2023,Coastal Carolina,Texas State,0.08,0.01
+401524052,2023,Colorado,Arizona,0.19,0.29
+401532617,2023,Colorado State,San Diego State,0.12,0.09
+401525549,2023,Duke,North Carolina,0.35,0.28
+401531416,2023,East Carolina,Florida Atlantic,-0.12,-0.32
+401532440,2023,Eastern Michigan,Toledo,0.03,0.48
+401520389,2023,Florida,LSU,0.31,0.63
+401531416,2023,Florida Atlantic,East Carolina,-0.32,-0.12
+401520390,2023,Florida International,Middle Tennessee,-0.19,0.29
+401525550,2023,Florida State,Miami,0.14,0.05
+401532614,2023,Fresno State,San José State,-0.07,0.37
+401520382,2023,Georgia,Ole Miss,0.64,0.03
+401531914,2023,Georgia Southern,Marshall,0.07,0.19
+401531913,2023,Georgia State,App State,-0.22,0.3
+401525548,2023,Georgia Tech,Clemson,-0.09,0.18
+401532613,2023,Hawai'i,Air Force,0.27,-0.11
+401525887,2023,Houston,Cincinnati,-0.19,0.05
+401520383,2023,Illinois,Indiana,0.53,0.21
+401520383,2023,Indiana,Illinois,0.21,0.53
+401520384,2023,Iowa,Rutgers,0.13,-0.19
+401525886,2023,Iowa State,BYU,0.39,-0.16
+401520385,2023,James Madison,UConn,0.48,-0.33
+401525888,2023,Kansas,Texas Tech,0.12,-0.02
+401525889,2023,Kansas State,Baylor,0.28,-0.33
+401532442,2023,Kent State,Bowling Green,-0.08,0.49
+401520386,2023,Kentucky,Alabama,-0.14,0.42
+401520388,2023,Liberty,Old Dominion,0.25,-0.17
+401531911,2023,Louisiana,Southern Miss,0.11,0.22
+401520387,2023,Louisiana Tech,Sam Houston,-0.09,0.33
+401525546,2023,Louisville,Virginia,0.04,-0.04
+401520389,2023,LSU,Florida,0.63,0.31
+401531914,2023,Marshall,Georgia Southern,0.19,0.07
+401520392,2023,Maryland,Nebraska,0.23,-0.22
+401531408,2023,Memphis,Charlotte,-0.05,-0.1
+401525550,2023,Miami,Florida State,0.05,0.14
+401532441,2023,Miami (OH),Akron,-0.16,-0.31
+401520394,2023,Michigan,Penn State,0.2,0.0
+401520393,2023,Michigan State,Ohio State,-0.05,0.5
+401520390,2023,Middle Tennessee,Florida International,0.29,-0.19
+401520395,2023,Minnesota,Purdue,0.23,0.61
+401520397,2023,Mississippi State,Texas A&M,-0.4,0.22
+401520391,2023,Missouri,Tennessee,0.32,-0.13
+401531384,2023,Navy,UAB,0.14,-0.2
+401525551,2023,NC State,Wake Forest,0.16,0.0
+401520392,2023,Nebraska,Maryland,-0.22,0.23
+401532615,2023,Nevada,Utah State,-0.17,0.23
+401532616,2023,New Mexico,Boise State,0.06,0.43
+401520399,2023,New Mexico State,Western Kentucky,0.39,0.19
+401525549,2023,North Carolina,Duke,0.28,0.35
+401532437,2023,Northern Illinois,Ball State,0.0,0.14
+401531437,2023,North Texas,SMU,0.03,0.31
+401520398,2023,Northwestern,Wisconsin,0.26,0.03
+401532439,2023,Ohio,Buffalo,0.21,-0.09
+401520393,2023,Ohio State,Michigan State,0.5,-0.05
+401525890,2023,Oklahoma,West Virginia,0.53,-0.05
+401525892,2023,Oklahoma State,UCF,-0.36,0.33
+401520388,2023,Old Dominion,Liberty,-0.17,0.25
+401520382,2023,Ole Miss,Georgia,0.03,0.64
+401524053,2023,Oregon,USC,0.52,0.21
+401524054,2023,Oregon State,Stanford,0.62,-0.16
+401520394,2023,Penn State,Michigan,0.0,0.2
+401525552,2023,Pittsburgh,Syracuse,-0.32,0.06
+401520395,2023,Purdue,Minnesota,0.61,0.23
+401531400,2023,Rice,UTSA,0.05,0.11
+401520384,2023,Rutgers,Iowa,-0.19,0.13
+401520387,2023,Sam Houston,Louisiana Tech,0.33,-0.09
+401532617,2023,San Diego State,Colorado State,0.09,0.12
+401532614,2023,San José State,Fresno State,0.37,-0.07
+401531437,2023,SMU,North Texas,0.31,0.03
+401531916,2023,South Alabama,Arkansas State,0.07,-0.12
+401520396,2023,South Carolina,Vanderbilt,0.46,-0.33
+401531911,2023,Southern Miss,Louisiana,0.22,0.11
+401531393,2023,South Florida,Temple,0.08,-0.12
+401524054,2023,Stanford,Oregon State,-0.16,0.62
+401525552,2023,Syracuse,Pittsburgh,0.06,-0.32
+401525891,2023,TCU,Texas,0.16,0.19
+401531393,2023,Temple,South Florida,-0.12,0.08
+401520391,2023,Tennessee,Missouri,-0.13,0.32
+401525891,2023,Texas,TCU,0.19,0.16
+401520397,2023,Texas A&M,Mississippi State,0.22,-0.4
+401531912,2023,Texas State,Coastal Carolina,0.01,0.08
+401525888,2023,Texas Tech,Kansas,-0.02,0.12
+401532440,2023,Toledo,Eastern Michigan,0.48,0.03
+401531915,2023,Troy,UL Monroe,0.16,-0.14
+401531344,2023,Tulane,Tulsa,0.12,0.15
+401531344,2023,Tulsa,Tulane,0.15,0.12
+401531384,2023,UAB,Navy,-0.2,0.14
+401525892,2023,UCF,Oklahoma State,0.33,-0.36
+401524055,2023,UCLA,Arizona State,-0.23,-0.08
+401520385,2023,UConn,James Madison,-0.33,0.48
+401531915,2023,UL Monroe,Troy,-0.14,0.16
+401532618,2023,UNLV,Wyoming,0.28,0.13
+401524053,2023,USC,Oregon,0.21,0.52
+401524056,2023,Utah,Washington,0.25,0.31
+401532615,2023,Utah State,Nevada,0.23,-0.17
+401531400,2023,UTSA,Rice,0.11,0.05
+401520396,2023,Vanderbilt,South Carolina,-0.33,0.46
+401525546,2023,Virginia,Louisville,-0.04,0.04
+401525547,2023,Virginia Tech,Boston College,0.44,0.06
+401525551,2023,Wake Forest,NC State,0.0,0.16
+401524056,2023,Washington,Utah,0.31,0.25
+401524051,2023,Washington State,California,0.01,0.16
+401520399,2023,Western Kentucky,New Mexico State,0.19,0.39
+401532438,2023,Western Michigan,Central Michigan,0.28,0.14
+401525890,2023,West Virginia,Oklahoma,-0.05,0.53
+401520398,2023,Wisconsin,Northwestern,0.03,0.26
+401532618,2023,Wyoming,UNLV,0.13,0.28
+401532624,2023,Air Force,UNLV,0.17,0.2
+401532445,2023,Akron,Eastern Michigan,0.25,0.13
+401520401,2023,Alabama,Chattanooga,0.66,-0.08
+401531918,2023,App State,James Madison,0.02,-0.02
+401524058,2023,Arizona,Utah,0.47,-0.04
+401524059,2023,Arizona State,Oregon,0.05,0.61
+401520402,2023,Arkansas,Florida International,0.36,0.0
+401531919,2023,Arkansas State,Texas State,0.64,-0.08
+401520403,2023,Army,Coastal Carolina,0.15,0.18
+401520404,2023,Auburn,New Mexico State,0.0,0.35
+401532448,2023,Ball State,Kent State,0.27,-0.23
+401525897,2023,Baylor,TCU,0.11,0.41
+401532619,2023,Boise State,Utah State,0.31,-0.22
+401525553,2023,Boston College,Pittsburgh,0.03,0.28
+401532443,2023,Bowling Green,Toledo,0.08,0.17
+401532447,2023,Buffalo,Miami (OH),-0.01,0.27
+401525893,2023,BYU,Oklahoma,-0.03,0.26
+401524061,2023,California,Stanford,0.21,0.01
+401532446,2023,Central Michigan,Ohio,-0.07,0.29
+401531409,2023,Charlotte,Rice,-0.29,0.06
+401525899,2023,Cincinnati,West Virginia,0.34,0.59
+401525554,2023,Clemson,North Carolina,0.09,-0.08
+401520403,2023,Coastal Carolina,Army,0.18,0.15
+401524057,2023,Colorado,Washington State,-0.46,0.33
+401532621,2023,Colorado State,Nevada,0.2,0.08
+401525555,2023,Duke,Virginia,0.16,0.37
+401531417,2023,East Carolina,Navy,-0.4,-0.13
+401532445,2023,Eastern Michigan,Akron,0.13,0.25
+401520413,2023,Florida,Missouri,0.33,0.32
+401531375,2023,Florida Atlantic,Tulane,-0.18,0.2
+401520402,2023,Florida International,Arkansas,0.0,0.36
+401525556,2023,Florida State,North Alabama,0.29,-0.28
+401532622,2023,Fresno State,New Mexico,0.04,0.23
+401520419,2023,Georgia,Tennessee,0.32,0.08
+401531917,2023,Georgia Southern,Old Dominion,-0.04,0.16
+401520409,2023,Georgia State,LSU,0.14,0.77
+401525557,2023,Georgia Tech,Syracuse,0.16,-0.05
+401532620,2023,Hawai'i,Wyoming,-0.16,0.33
+401525894,2023,Houston,Oklahoma State,0.07,0.16
+401520406,2023,Illinois,Iowa,-0.07,0.05
+401520405,2023,Indiana,Michigan State,0.28,0.14
+401520406,2023,Iowa,Illinois,0.05,-0.07
+401525895,2023,Iowa State,Texas,0.08,0.16
+401520407,2023,Jacksonville State,Louisiana Tech,0.2,-0.37
+401531918,2023,James Madison,App State,-0.02,0.02
+401525896,2023,Kansas,Kansas State,0.36,0.19
+401525896,2023,Kansas State,Kansas,0.19,0.36
+401532448,2023,Kent State,Ball State,-0.23,0.27
+401520418,2023,Kentucky,South Carolina,-0.05,0.22
+401520408,2023,Liberty,Massachusetts,0.2,-0.05
+401531921,2023,Louisiana,Troy,0.15,0.26
+401520407,2023,Louisiana Tech,Jacksonville State,-0.37,0.2
+401525558,2023,Louisville,Miami,0.35,0.25
+401520409,2023,LSU,Georgia State,0.77,0.14
+401531920,2023,Marshall,South Alabama,-0.24,0.18
+401520410,2023,Maryland,Michigan,0.03,0.09
+401520408,2023,Massachusetts,Liberty,-0.05,0.2
+401531431,2023,Memphis,SMU,0.28,0.42
+401525558,2023,Miami,Louisville,0.25,0.35
+401532447,2023,Miami (OH),Buffalo,0.27,-0.01
+401520410,2023,Michigan,Maryland,0.09,0.03
+401520405,2023,Michigan State,Indiana,0.14,0.28
+401520411,2023,Middle Tennessee,UTEP,-0.01,-0.07
+401520415,2023,Minnesota,Ohio State,0.0,0.37
+401520412,2023,Mississippi State,Southern Miss,0.13,-0.2
+401520413,2023,Missouri,Florida,0.32,0.33
+401531417,2023,Navy,East Carolina,-0.13,-0.4
+401525559,2023,NC State,Virginia Tech,0.27,0.17
+401520422,2023,Nebraska,Wisconsin,0.45,0.12
+401532621,2023,Nevada,Colorado State,0.08,0.2
+401532622,2023,New Mexico,Fresno State,0.23,0.04
+401520404,2023,New Mexico State,Auburn,0.35,0.0
+401525554,2023,North Carolina,Clemson,-0.08,0.09
+401532444,2023,Northern Illinois,Western Michigan,0.22,-0.05
+401531345,2023,North Texas,Tulsa,0.33,0.25
+401520414,2023,Northwestern,Purdue,0.07,-0.08
+401525442,2023,Notre Dame,Wake Forest,0.3,-0.14
+401532446,2023,Ohio,Central Michigan,0.29,-0.07
+401520415,2023,Ohio State,Minnesota,0.37,0.0
+401525893,2023,Oklahoma,BYU,0.26,-0.03
+401525894,2023,Oklahoma State,Houston,0.16,0.07
+401531917,2023,Old Dominion,Georgia Southern,0.16,-0.04
+401520416,2023,Ole Miss,UL Monroe,0.33,-0.24
+401524059,2023,Oregon,Arizona State,0.61,0.05
+401524060,2023,Oregon State,Washington,-0.04,0.11
+401520417,2023,Penn State,Rutgers,0.12,-0.14
+401525553,2023,Pittsburgh,Boston College,0.28,0.03
+401520414,2023,Purdue,Northwestern,-0.08,0.07
+401531409,2023,Rice,Charlotte,0.06,-0.29
+401520417,2023,Rutgers,Penn State,-0.14,0.12
+401520423,2023,Sam Houston,Western Kentucky,0.05,-0.06
+401532623,2023,San Diego State,San José State,-0.07,0.27
+401532623,2023,San José State,San Diego State,0.27,-0.07
+401531431,2023,SMU,Memphis,0.42,0.28
+401531920,2023,South Alabama,Marshall,0.18,-0.24
+401520418,2023,South Carolina,Kentucky,0.22,-0.05
+401520412,2023,Southern Miss,Mississippi State,-0.2,0.13
+401531401,2023,South Florida,UTSA,0.05,0.31
+401524061,2023,Stanford,California,0.01,0.21
+401525557,2023,Syracuse,Georgia Tech,-0.05,0.16
+401525897,2023,TCU,Baylor,0.41,0.11
+401531385,2023,Temple,UAB,0.2,0.41
+401520419,2023,Tennessee,Georgia,0.08,0.32
+401525895,2023,Texas,Iowa State,0.16,0.08
+401520420,2023,Texas A&M,Abilene Christian,0.18,-0.03
+401531919,2023,Texas State,Arkansas State,-0.08,0.64
+401525898,2023,Texas Tech,UCF,0.12,0.33
+401532443,2023,Toledo,Bowling Green,0.17,0.08
+401531921,2023,Troy,Louisiana,0.26,0.15
+401531375,2023,Tulane,Florida Atlantic,0.2,-0.18
+401531345,2023,Tulsa,North Texas,0.25,0.33
+401531385,2023,UAB,Temple,0.41,0.2
+401525898,2023,UCF,Texas Tech,0.33,0.12
+401524062,2023,UCLA,USC,0.18,-0.16
+401520421,2023,UConn,Sacred Heart,0.28,0.01
+401520416,2023,UL Monroe,Ole Miss,-0.24,0.33
+401532624,2023,UNLV,Air Force,0.2,0.17
+401524062,2023,USC,UCLA,-0.16,0.18
+401524058,2023,Utah,Arizona,-0.04,0.47
+401532619,2023,Utah State,Boise State,-0.22,0.31
+401520411,2023,UTEP,Middle Tennessee,-0.07,-0.01
+401531401,2023,UTSA,South Florida,0.31,0.05
+401525555,2023,Virginia,Duke,0.37,0.16
+401525559,2023,Virginia Tech,NC State,0.17,0.27
+401525442,2023,Wake Forest,Notre Dame,-0.14,0.3
+401524060,2023,Washington,Oregon State,0.11,-0.04
+401524057,2023,Washington State,Colorado,0.33,-0.46
+401520423,2023,Western Kentucky,Sam Houston,-0.06,0.05
+401532444,2023,Western Michigan,Northern Illinois,-0.05,0.22
+401525899,2023,West Virginia,Cincinnati,0.59,0.34
+401520422,2023,Wisconsin,Nebraska,0.12,0.45
+401532620,2023,Wyoming,Hawai'i,0.33,-0.16
+401532625,2023,Air Force,Boise State,0.1,0.12
+401532452,2023,Akron,Ohio,-0.14,0.2
+401520427,2023,Alabama,Auburn,0.36,0.24
+401531922,2023,App State,Georgia Southern,0.42,-0.04
+401524064,2023,Arizona,Arizona State,0.59,0.04
+401524064,2023,Arizona State,Arizona,0.04,0.59
+401520426,2023,Arkansas,Missouri,-0.14,0.25
+401531924,2023,Arkansas State,Marshall,-0.07,0.24
+401520427,2023,Auburn,Alabama,0.24,0.36
+401532454,2023,Ball State,Miami (OH),-0.08,-0.18
+401525902,2023,Baylor,West Virginia,0.24,0.37
+401532625,2023,Boise State,Air Force,0.12,0.1
+401525560,2023,Boston College,Miami,0.07,0.45
+401532450,2023,Bowling Green,Western Michigan,0.32,-0.07
+401532449,2023,Buffalo,Eastern Michigan,-0.14,0.11
+401525905,2023,BYU,Oklahoma State,0.08,0.05
+401524066,2023,California,UCLA,0.11,-0.12
+401532451,2023,Central Michigan,Toledo,0.07,0.14
+401531410,2023,Charlotte,South Florida,-0.29,0.21
+401525903,2023,Cincinnati,Kansas,0.19,0.72
+401520441,2023,Clemson,South Carolina,0.02,-0.21
+401531923,2023,Coastal Carolina,James Madison,-0.03,0.38
+401524067,2023,Colorado,Utah,0.31,0.24
+401532626,2023,Colorado State,Hawai'i,0.19,0.41
+401525561,2023,Duke,Pittsburgh,0.11,0.13
+401531346,2023,East Carolina,Tulsa,0.21,0.16
+401532449,2023,Eastern Michigan,Buffalo,0.11,-0.14
+401520429,2023,Florida,Florida State,0.01,-0.02
+401531421,2023,Florida Atlantic,Rice,0.33,0.15
+401520428,2023,Florida International,Western Kentucky,-0.12,0.16
+401520429,2023,Florida State,Florida,-0.02,0.01
+401532627,2023,Fresno State,San Diego State,0.04,0.24
+401520430,2023,Georgia,Georgia Tech,0.23,0.13
+401531922,2023,Georgia Southern,App State,-0.04,0.42
+401531925,2023,Georgia State,Old Dominion,-0.17,-0.24
+401520430,2023,Georgia Tech,Georgia,0.13,0.23
+401532626,2023,Hawai'i,Colorado State,0.41,0.19
+401525906,2023,Houston,UCF,-0.15,0.3
+401520431,2023,Illinois,Northwestern,0.07,0.14
+401520438,2023,Indiana,Purdue,0.08,0.19
+401520425,2023,Iowa,Nebraska,-0.04,-0.13
+401525904,2023,Iowa State,Kansas State,0.67,0.13
+401520437,2023,Jacksonville State,New Mexico State,0.0,-0.12
+401531923,2023,James Madison,Coastal Carolina,0.38,-0.03
+401525903,2023,Kansas,Cincinnati,0.72,0.19
+401525904,2023,Kansas State,Iowa State,0.13,0.67
+401532453,2023,Kent State,Northern Illinois,0.18,0.23
+401520432,2023,Kentucky,Louisville,0.12,0.06
+401520444,2023,Liberty,UTEP,0.15,0.02
+401531926,2023,Louisiana,UL Monroe,0.38,-0.01
+401520432,2023,Louisville,Kentucky,0.06,0.12
+401520433,2023,LSU,Texas A&M,0.26,0.12
+401531924,2023,Marshall,Arkansas State,0.24,-0.07
+401520439,2023,Maryland,Rutgers,0.34,0.01
+401520443,2023,Massachusetts,UConn,-0.17,0.11
+401531394,2023,Memphis,Temple,0.32,-0.07
+401525560,2023,Miami,Boston College,0.45,0.07
+401532454,2023,Miami (OH),Ball State,-0.18,-0.08
+401520434,2023,Michigan,Ohio State,0.27,0.28
+401520435,2023,Michigan State,Penn State,-0.18,0.48
+401520440,2023,Middle Tennessee,Sam Houston,-0.08,-0.07
+401520436,2023,Minnesota,Wisconsin,-0.1,0.27
+401520424,2023,Mississippi State,Ole Miss,0.02,0.1
+401520426,2023,Missouri,Arkansas,0.25,-0.14
+401531435,2023,Navy,SMU,-0.33,0.39
+401525562,2023,NC State,North Carolina,0.31,0.09
+401520425,2023,Nebraska,Iowa,-0.13,-0.04
+401532630,2023,Nevada,Wyoming,-0.2,0.33
+401532629,2023,New Mexico,Utah State,0.22,0.3
+401520437,2023,New Mexico State,Jacksonville State,-0.12,0.0
+401525562,2023,North Carolina,NC State,0.09,0.31
+401532453,2023,Northern Illinois,Kent State,0.23,0.18
+401531386,2023,North Texas,UAB,0.31,0.58
+401520431,2023,Northwestern,Illinois,0.14,0.07
+401524065,2023,Notre Dame,Stanford,0.33,-0.28
+401532452,2023,Ohio,Akron,0.2,-0.14
+401520434,2023,Ohio State,Michigan,0.28,0.27
+401525900,2023,Oklahoma,TCU,0.5,0.14
+401525905,2023,Oklahoma State,BYU,0.05,0.08
+401531925,2023,Old Dominion,Georgia State,-0.24,-0.17
+401520424,2023,Ole Miss,Mississippi State,0.1,0.02
+401524063,2023,Oregon,Oregon State,0.42,-0.23
+401524063,2023,Oregon State,Oregon,-0.23,0.42
+401520435,2023,Penn State,Michigan State,0.48,-0.18
+401525561,2023,Pittsburgh,Duke,0.13,0.11
+401520438,2023,Purdue,Indiana,0.19,0.08
+401531421,2023,Rice,Florida Atlantic,0.15,0.33
+401520439,2023,Rutgers,Maryland,0.01,0.34
+401520440,2023,Sam Houston,Middle Tennessee,-0.07,-0.08
+401532627,2023,San Diego State,Fresno State,0.24,0.04
+401532628,2023,San José State,UNLV,0.41,0.22
+401531435,2023,SMU,Navy,0.39,-0.33
+401531928,2023,South Alabama,Texas State,0.23,0.38
+401520441,2023,South Carolina,Clemson,-0.21,0.02
+401531927,2023,Southern Miss,Troy,-0.14,0.06
+401531410,2023,South Florida,Charlotte,0.21,-0.29
+401524065,2023,Stanford,Notre Dame,-0.28,0.33
+401525563,2023,Syracuse,Wake Forest,0.37,0.32
+401525900,2023,TCU,Oklahoma,0.14,0.5
+401531394,2023,Temple,Memphis,-0.07,0.32
+401520442,2023,Tennessee,Vanderbilt,0.48,0.2
+401525901,2023,Texas,Texas Tech,0.16,-0.29
+401520433,2023,Texas A&M,LSU,0.12,0.26
+401531928,2023,Texas State,South Alabama,0.38,0.23
+401525901,2023,Texas Tech,Texas,-0.29,0.16
+401532451,2023,Toledo,Central Michigan,0.14,0.07
+401531927,2023,Troy,Southern Miss,0.06,-0.14
+401531376,2023,Tulane,UTSA,0.16,-0.19
+401531346,2023,Tulsa,East Carolina,0.16,0.21
+401531386,2023,UAB,North Texas,0.58,0.31
+401525906,2023,UCF,Houston,0.3,-0.15
+401524066,2023,UCLA,California,-0.12,0.11
+401520443,2023,UConn,Massachusetts,0.11,-0.17
+401531926,2023,UL Monroe,Louisiana,-0.01,0.38
+401532628,2023,UNLV,San José State,0.22,0.41
+401524067,2023,Utah,Colorado,0.24,0.31
+401532629,2023,Utah State,New Mexico,0.3,0.22
+401520444,2023,UTEP,Liberty,0.02,0.15
+401531376,2023,UTSA,Tulane,-0.19,0.16
+401520442,2023,Vanderbilt,Tennessee,0.2,0.48
+401525564,2023,Virginia,Virginia Tech,-0.03,0.44
+401525564,2023,Virginia Tech,Virginia,0.44,-0.03
+401525563,2023,Wake Forest,Syracuse,0.32,0.37
+401524068,2023,Washington,Washington State,0.18,0.12
+401524068,2023,Washington State,Washington,0.12,0.18
+401520428,2023,Western Kentucky,Florida International,0.16,-0.12
+401532450,2023,Western Michigan,Bowling Green,-0.07,0.32
+401525902,2023,West Virginia,Baylor,0.37,0.24
+401520436,2023,Wisconsin,Minnesota,0.27,-0.1
+401532630,2023,Wyoming,Nevada,0.33,-0.2
+401539483,2023,Alabama,Georgia,0.18,0.15
+401539484,2023,App State,Troy,0.06,0.46
+401539482,2023,Boise State,UNLV,0.3,-0.22
+401539478,2023,Florida State,Louisville,-0.19,-0.38
+401539483,2023,Georgia,Alabama,0.15,0.18
+401539480,2023,Iowa,Michigan,-0.45,-0.02
+401539476,2023,Liberty,New Mexico State,0.57,0.38
+401539478,2023,Louisville,Florida State,-0.38,-0.19
+401539481,2023,Miami (OH),Toledo,0.1,0.13
+401539480,2023,Michigan,Iowa,-0.02,-0.45
+401539476,2023,New Mexico State,Liberty,0.38,0.57
+401539479,2023,Oklahoma State,Texas,0.05,0.43
+401539475,2023,Oregon,Washington,0.3,0.25
+401539477,2023,SMU,Tulane,0.11,-0.11
+401539479,2023,Texas,Oklahoma State,0.43,0.05
+401539481,2023,Toledo,Miami (OH),0.13,0.1
+401539484,2023,Troy,App State,0.46,0.06
+401539477,2023,Tulane,SMU,-0.11,0.11
+401539482,2023,UNLV,Boise State,-0.22,0.3
+401539475,2023,Washington,Oregon,0.25,0.3
+401520445,2023,Army,Navy,0.05,0.19
+401520445,2023,Navy,Army,0.19,0.05
+401551742,2023,Air Force,James Madison,0.25,0.18
+401551786,2023,Alabama,Michigan,-0.09,0.24
+401551731,2023,App State,Miami (OH),-0.18,-0.4
+401551765,2023,Arizona,Oklahoma,0.1,0.08
+401551741,2023,Arkansas State,Northern Illinois,0.1,0.15
+401551770,2023,Auburn,Maryland,-0.17,-0.03
+401551752,2023,Boise State,UCLA,0.2,0.42
+401551750,2023,Boston College,SMU,0.17,0.02
+401551756,2023,Bowling Green,Minnesota,0.12,0.09
+401551753,2023,California,Texas Tech,-0.16,0.13
+401551766,2023,Clemson,Kentucky,0.06,0.13
+401551746,2023,Coastal Carolina,San José State,0.14,0.12
+401551739,2023,Duke,Troy,-0.08,-0.17
+401551755,2023,Eastern Michigan,South Alabama,-0.33,0.46
+401551773,2023,Florida State,Georgia,-0.19,0.59
+401551732,2023,Fresno State,New Mexico State,0.34,-0.24
+401551773,2023,Georgia,Florida State,0.59,-0.19
+401551733,2023,Georgia Southern,Ohio,-0.19,0.27
+401551743,2023,Georgia State,Utah State,0.56,-0.14
+401551754,2023,Georgia Tech,UCF,0.14,0.05
+401551780,2023,Iowa,Tennessee,-0.39,0.24
+401551767,2023,Iowa State,Memphis,0.11,0.44
+401551751,2023,Jacksonville State,Louisiana,0.03,-0.08
+401551742,2023,James Madison,Air Force,0.18,0.25
+401551757,2023,Kansas,UNLV,0.38,0.04
+401551764,2023,Kansas State,NC State,0.27,0.13
+401551766,2023,Kentucky,Clemson,0.13,0.06
+401551782,2023,Liberty,Oregon,-0.06,0.54
+401551751,2023,Louisiana,Jacksonville State,-0.08,0.03
+401581109,2023,Louisville,USC,0.15,0.47
+401551778,2023,LSU,Wisconsin,0.23,0.22
+401551735,2023,Marshall,UTSA,-0.03,0.15
+401551770,2023,Maryland,Auburn,-0.03,-0.17
+401551767,2023,Memphis,Iowa State,0.44,0.11
+401551762,2023,Miami,Rutgers,-0.01,0.15
+401551731,2023,Miami (OH),App State,-0.4,-0.18
+401551786,2023,Michigan,Alabama,0.24,-0.09
+401551789,2023,Michigan,Washington,0.24,-0.18
+401551756,2023,Minnesota,Bowling Green,0.09,0.12
+401551768,2023,Missouri,Ohio State,0.11,-0.07
+401551764,2023,NC State,Kansas State,0.13,0.27
+401551732,2023,New Mexico State,Fresno State,-0.24,0.34
+401551761,2023,North Carolina,West Virginia,-0.13,0.16
+401551741,2023,Northern Illinois,Arkansas State,0.15,0.1
+401551744,2023,Northwestern,Utah,-0.06,-0.33
+401551798,2023,Notre Dame,Oregon State,0.36,-0.22
+401551733,2023,Ohio,Georgia Southern,0.27,-0.19
+401551768,2023,Ohio State,Missouri,-0.07,0.11
+401551765,2023,Oklahoma,Arizona,0.08,0.1
+401551749,2023,Oklahoma State,Texas A&M,0.35,0.16
+401551469,2023,Old Dominion,Western Kentucky,0.27,0.05
+401551769,2023,Ole Miss,Penn State,0.27,0.31
+401551782,2023,Oregon,Liberty,0.54,-0.06
+401551798,2023,Oregon State,Notre Dame,-0.22,0.36
+401551769,2023,Penn State,Ole Miss,0.31,0.27
+401551748,2023,Rice,Texas State,-0.41,0.05
+401551762,2023,Rutgers,Miami,0.15,-0.01
+401551746,2023,San José State,Coastal Carolina,0.12,0.14
+401551750,2023,SMU,Boston College,0.02,0.17
+401551755,2023,South Alabama,Eastern Michigan,0.46,-0.33
+401551737,2023,South Florida,Syracuse,0.16,-0.43
+401551737,2023,Syracuse,South Florida,-0.43,0.16
+401551780,2023,Tennessee,Iowa,0.24,-0.39
+401551788,2023,Texas,Washington,0.19,0.29
+401551749,2023,Texas A&M,Oklahoma State,0.16,0.35
+401551748,2023,Texas State,Rice,0.05,-0.41
+401551753,2023,Texas Tech,California,0.13,-0.16
+401554566,2023,Toledo,Wyoming,0.14,0.16
+401551739,2023,Troy,Duke,-0.17,-0.08
+401551758,2023,Tulane,Virginia Tech,-0.01,0.19
+401551754,2023,UCF,Georgia Tech,0.05,0.14
+401551752,2023,UCLA,Boise State,0.42,0.2
+401551757,2023,UNLV,Kansas,0.04,0.38
+401581109,2023,USC,Louisville,0.47,0.15
+401551744,2023,Utah,Northwestern,-0.33,-0.06
+401551743,2023,Utah State,Georgia State,-0.14,0.56
+401551735,2023,UTSA,Marshall,0.15,-0.03
+401551758,2023,Virginia Tech,Tulane,0.19,-0.01
+401551788,2023,Washington,Texas,0.29,0.19
+401551789,2023,Washington,Michigan,-0.18,0.24
+401551469,2023,Western Kentucky,Old Dominion,0.05,0.27
+401551761,2023,West Virginia,North Carolina,0.16,-0.13
+401551778,2023,Wisconsin,LSU,0.22,0.23
+401554566,2023,Wyoming,Toledo,0.16,0.14

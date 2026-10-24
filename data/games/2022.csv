@@ -1,0 +1,897 @@
+game_id,season,week,season_type,start,start_tbd,completed,neutral,conf_game,venue_id,venue,home,away,home_class,away_class,home_conf,away_conf,home_pts,away_pts
+401426532,2022,1,regular,2022-08-27T16:00:00.000Z,False,True,False,False,3796,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Austin Peay,fbs,fcs,Conference USA,Atlantic Sun,38,27
+401405059,2022,1,regular,2022-08-27T16:30:00.000Z,False,True,True,True,3504,Aviva Stadium,Northwestern,Nebraska,fbs,fbs,Big Ten,Big Ten,31,28
+401413256,2022,1,regular,2022-08-27T19:30:00.000Z,False,True,False,False,6501,Allegiant Stadium,UNLV,Idaho State,fbs,fcs,Mountain West,Big Sky,52,21
+401404146,2022,1,regular,2022-08-27T20:00:00.000Z,False,True,False,False,3905,Maverik Stadium,Utah State,UConn,fbs,fbs,Mountain West,FBS Independents,31,20
+401405058,2022,1,regular,2022-08-27T20:00:00.000Z,False,True,False,False,3832,"Memorial Stadium (Champaign, IL)",Illinois,Wyoming,fbs,fbs,Big Ten,Mountain West,38,6
+401411090,2022,1,regular,2022-08-27T21:00:00.000Z,False,True,False,False,3697,Doak Campbell Stadium,Florida State,Duquesne,fbs,fcs,ACC,NEC,47,7
+401426530,2022,1,regular,2022-08-27T23:00:00.000Z,False,True,False,True,3715,FAU Stadium,Florida Atlantic,Charlotte,fbs,fbs,Conference USA,Conference USA,43,13
+401411091,2022,1,regular,2022-08-28T00:15:00.000Z,False,True,False,False,3787,Kenan Stadium,North Carolina,Florida A&M,fbs,fcs,ACC,SWAC,56,24
+401426531,2022,1,regular,2022-08-28T01:00:00.000Z,False,True,False,True,3946,Sun Bowl,UTEP,North Texas,fbs,fbs,Conference USA,Conference USA,13,31
+401409235,2022,1,regular,2022-08-28T02:00:00.000Z,False,True,False,False,3601,Aggie Memorial Stadium,New Mexico State,Nevada,fbs,fbs,FBS Independents,Mountain West,12,23
+401403853,2022,1,regular,2022-08-28T02:30:00.000Z,False,True,False,False,7220,Clarence T.C. Ching Athletics Complex,Hawai'i,Vanderbilt,fbs,fbs,Mountain West,SEC,10,63
+401416568,2022,1,regular,2022-09-01T22:00:00.000Z,False,True,False,False,3768,InfoCision Stadium,Akron,Saint Francis,fbs,fcs,Mid-American,NEC,30,23
+401415610,2022,1,regular,2022-09-01T23:00:00.000Z,False,True,False,False,3652,FBC Mortgage Stadium,UCF,South Carolina State,fbs,fcs,American Athletic,MEAC,56,10
+401403864,2022,1,regular,2022-09-01T23:00:00.000Z,False,True,False,False,3853,Neyland Stadium,Tennessee,Ball State,fbs,fbs,SEC,Mid-American,59,10
+401411092,2022,1,regular,2022-09-01T23:00:00.000Z,False,True,False,False,3752,Acrisure Stadium,Pittsburgh,West Virginia,fbs,fbs,ACC,Big 12,38,31
+401441990,2022,1,regular,2022-09-01T23:00:00.000Z,False,True,False,False,3739,Glass Bowl,Toledo,Long Island University,fbs,fcs,Mid-American,NEC,37,0
+401426533,2022,1,regular,2022-09-01T23:00:00.000Z,False,True,False,False,218,FIU Stadium,Florida International,Bryant,fbs,fcs,Conference USA,Big South,38,37
+401416569,2022,1,regular,2022-09-01T23:00:00.000Z,False,True,False,False,3646,Boone Pickens Stadium,Oklahoma State,Central Michigan,fbs,fbs,Big 12,Mid-American,58,44
+401411093,2022,1,regular,2022-09-01T23:30:00.000Z,False,True,False,False,3630,Allegacy Federal Credit Union Stadium,Wake Forest,VMI,fbs,fcs,ACC,Southern,44,10
+401405064,2022,1,regular,2022-09-02T00:00:00.000Z,False,True,False,True,3907,Ross-Ade Stadium,Purdue,Penn State,fbs,fbs,Big Ten,Big Ten,31,35
+401426537,2022,1,regular,2022-09-02T00:00:00.000Z,False,True,False,False,3838,Memorial Stadium,Missouri,Louisiana Tech,fbs,fbs,SEC,Conference USA,52,24
+401416592,2022,1,regular,2022-09-02T00:00:00.000Z,False,True,False,False,3764,Huskie Stadium,Northern Illinois,Eastern Illinois,fbs,fcs,Mid-American,OVC,34,27
+401426534,2022,1,regular,2022-09-02T00:00:00.000Z,False,True,False,False,7221,Protective Stadium,UAB,Alabama A&M,fbs,fcs,Conference USA,SWAC,59,0
+401405060,2022,1,regular,2022-09-02T01:00:00.000Z,False,True,False,False,3953,Huntington Bank Stadium,Minnesota,New Mexico State,fbs,fbs,Big Ten,FBS Independents,38,0
+401403965,2022,1,regular,2022-09-02T02:00:00.000Z,False,True,False,False,3947,Mountain America Stadium,Arizona State,Northern Arizona,fbs,fcs,Pac-12,Big Sky,40,3
+401413224,2022,1,regular,2022-09-02T02:30:00.000Z,False,True,False,False,3660,Valley Children's Stadium,Fresno State,Cal Poly,fbs,fcs,Mountain West,Big Sky,35,7
+401415213,2022,1,regular,2022-09-02T02:30:00.000Z,False,True,False,False,3935,CEFCU Stadium,San José State,Portland State,fbs,fcs,Mountain West,Big Sky,21,17
+401426535,2022,1,regular,2022-09-02T23:00:00.000Z,False,True,False,False,4418,Jerry Richardson Stadium,Charlotte,William & Mary,fbs,fcs,Conference USA,CAA,24,41
+401416590,2022,1,regular,2022-09-02T23:00:00.000Z,False,True,False,False,3912,Rynearson Stadium,Eastern Michigan,Eastern Kentucky,fbs,fcs,Mid-American,Atlantic Sun,42,34
+401426330,2022,1,regular,2022-09-02T23:00:00.000Z,False,True,False,False,3918,S.B. Ballard Stadium,Old Dominion,Virginia Tech,fbs,fbs,Sun Belt,ACC,20,17
+401416591,2022,1,regular,2022-09-02T23:00:00.000Z,False,True,False,False,3936,Spartan Stadium,Michigan State,Western Michigan,fbs,fbs,Big Ten,Mid-American,35,13
+401411094,2022,1,regular,2022-09-02T23:30:00.000Z,False,True,False,False,3982,Wallace Wade Stadium,Duke,Temple,fbs,fbs,ACC,American Athletic,30,0
+401405061,2022,1,regular,2022-09-03T00:00:00.000Z,False,True,False,True,3830,"Memorial Stadium (Bloomington, IN)",Indiana,Illinois,fbs,fbs,Big Ten,Big Ten,23,20
+401404052,2022,1,regular,2022-09-03T00:00:00.000Z,False,True,False,False,3833,Memorial Stadium,Kansas,Tennessee Tech,fbs,fcs,Big 12,OVC,56,10
+401403966,2022,1,regular,2022-09-03T02:00:00.000Z,False,True,False,False,3726,Folsom Field,Colorado,TCU,fbs,fbs,Pac-12,Big 12,13,38
+401415611,2022,1,regular,2022-09-03T16:00:00.000Z,False,True,False,False,3852,Navy-Marine Corps Memorial Stadium,Navy,Delaware,fbs,fcs,American Athletic,CAA,7,14
+401405069,2022,1,regular,2022-09-03T16:00:00.000Z,False,True,False,False,3615,"Alumni Stadium (Chestnut Hill, MA)",Boston College,Rutgers,fbs,fbs,ACC,Big Ten,21,22
+401411096,2022,1,regular,2022-09-03T16:00:00.000Z,False,True,False,False,3699,Dowdy-Ficklen Stadium,East Carolina,NC State,fbs,fbs,American Athletic,ACC,20,21
+401405066,2022,1,regular,2022-09-03T16:00:00.000Z,False,True,False,False,3665,SECU Stadium,Maryland,Buffalo,fbs,fbs,Big Ten,Mid-American,31,10
+401404147,2022,1,regular,2022-09-03T16:00:00.000Z,False,True,False,False,3892,Pratt & Whitney Stadium,UConn,Central Connecticut,fbs,fcs,FBS Independents,NEC,28,3
+401411095,2022,1,regular,2022-09-03T16:00:00.000Z,False,True,False,False,3792,Kidd Brewer Stadium,App State,North Carolina,fbs,fbs,Sun Belt,ACC,61,63
+401403865,2022,1,regular,2022-09-03T16:00:00.000Z,False,True,False,False,3795,Kyle Field,Texas A&M,Sam Houston,fbs,fcs,SEC,Western Athletic,31,0
+401405062,2022,1,regular,2022-09-03T16:00:00.000Z,False,True,False,False,3793,Kinnick Stadium,Iowa,South Dakota State,fbs,fcs,Big Ten,MVFC,7,3
+401405067,2022,1,regular,2022-09-03T16:00:00.000Z,False,True,False,False,3558,Michigan Stadium,Michigan,Colorado State,fbs,fbs,Big Ten,Mountain West,51,7
+401411100,2022,1,regular,2022-09-03T16:30:00.000Z,False,True,False,False,3923,Scott Stadium,Virginia,Richmond,fbs,fcs,ACC,CAA,34,17
+401415209,2022,1,regular,2022-09-03T17:00:00.000Z,False,True,False,False,3713,Falcon Stadium,Air Force,Northern Iowa,fbs,fcs,Mountain West,MVFC,48,17
+401404057,2022,1,regular,2022-09-03T18:00:00.000Z,False,True,False,False,3772,Jack Trice Stadium,Iowa State,Southeast Missouri State,fbs,fcs,Big 12,OVC,42,10
+401403971,2022,1,regular,2022-09-03T18:30:00.000Z,False,True,False,False,1056,Rose Bowl,UCLA,Bowling Green,fbs,fbs,Pac-12,Mid-American,45,17
+401426541,2022,1,regular,2022-09-03T19:30:00.000Z,False,True,False,False,3835,"Memorial Stadium (Norman, OK)",Oklahoma,UTEP,fbs,fbs,Big 12,Conference USA,45,13
+401403855,2022,1,regular,2022-09-03T19:30:00.000Z,False,True,False,False,3887,Razorback Stadium,Arkansas,Cincinnati,fbs,fbs,SEC,American Athletic,31,24
+401426542,2022,1,regular,2022-09-03T19:30:00.000Z,False,True,False,False,3604,Alamodome,UTSA,Houston,fbs,fbs,Conference USA,American Athletic,35,37
+401403858,2022,1,regular,2022-09-03T19:30:00.000Z,False,True,True,False,5348,Mercedes-Benz Stadium,Georgia,Oregon,fbs,fbs,SEC,Pac-12,49,3
+401403967,2022,1,regular,2022-09-03T19:30:00.000Z,False,True,False,False,7311,Snapdragon Stadium,San Diego State,Arizona,fbs,fbs,Mountain West,Pac-12,20,38
+401415211,2022,1,regular,2022-09-03T19:30:00.000Z,False,True,False,False,3984,War Memorial Stadium,Wyoming,Tulsa,fbs,fbs,Mountain West,American Athletic,40,37
+401411097,2022,1,regular,2022-09-03T19:30:00.000Z,False,True,False,False,3948,Hard Rock Stadium,Miami,Bethune-Cookman,fbs,fcs,ACC,SWAC,70,13
+401405063,2022,1,regular,2022-09-03T19:30:00.000Z,False,True,False,False,3834,"Memorial Stadium (Lincoln, NE)",Nebraska,North Dakota,fbs,fcs,Big Ten,MVFC,38,17
+401415015,2022,1,regular,2022-09-03T19:30:00.000Z,False,True,False,False,3775,Joan C. Edwards Stadium,Marshall,Norfolk State,fbs,fcs,Sun Belt,MEAC,55,3
+401415612,2022,1,regular,2022-09-03T20:00:00.000Z,False,True,False,False,3886,Raymond James Stadium,South Florida,BYU,fbs,fbs,American Athletic,FBS Independents,21,50
+401403860,2022,1,regular,2022-09-03T20:00:00.000Z,False,True,False,False,3974,Vaught-Hemingway Stadium,Ole Miss,Troy,fbs,fbs,SEC,Sun Belt,28,10
+401403968,2022,1,regular,2022-09-03T20:00:00.000Z,False,True,False,False,3831,California Memorial Stadium,California,UC Davis,fbs,fcs,Pac-12,Big Sky,34,13
+401421116,2022,1,regular,2022-09-03T21:00:00.000Z,False,True,False,False,6526,Hancock Whitney Stadium,South Alabama,Nicholls,fbs,fcs,Sun Belt,Southland,48,7
+401415212,2022,1,regular,2022-09-03T21:30:00.000Z,False,True,False,False,3816,Mackay Stadium,Nevada,Texas State,fbs,fbs,Mountain West,Sun Belt,38,14
+401426538,2022,1,regular,2022-09-03T22:00:00.000Z,False,True,False,False,3651,Bridgeforth Stadium,James Madison,Middle Tennessee,fbs,fbs,Sun Belt,Conference USA,44,7
+401420777,2022,1,regular,2022-09-03T22:00:00.000Z,False,True,False,False,3608,Allen E. Paulson Stadium,Georgia Southern,Morgan State,fbs,fcs,Sun Belt,MEAC,59,7
+401426540,2022,1,regular,2022-09-03T22:00:00.000Z,False,True,False,False,477,Los Angeles Memorial Coliseum,USC,Rice,fbs,fbs,Pac-12,Conference USA,66,14
+401426536,2022,1,regular,2022-09-03T22:00:00.000Z,False,True,False,False,3876,Peden Stadium,Ohio,Florida Atlantic,fbs,fbs,Mid-American,Conference USA,41,38
+401403859,2022,1,regular,2022-09-03T23:00:00.000Z,False,True,False,False,3683,Kroger Field,Kentucky,Miami (OH),fbs,fbs,SEC,Mid-American,37,13
+401403866,2022,1,regular,2022-09-03T23:00:00.000Z,False,True,False,False,3973,FirstBank Stadium,Vanderbilt,Elon,fbs,fcs,SEC,CAA,42,31
+401404056,2022,1,regular,2022-09-03T23:00:00.000Z,False,True,False,False,3636,Bill Snyder Family Stadium,Kansas State,South Dakota,fbs,fcs,Big 12,MVFC,34,0
+401403856,2022,1,regular,2022-09-03T23:00:00.000Z,False,True,False,False,3785,Jordan-Hare Stadium,Auburn,Mercer,fbs,fcs,SEC,Southern,42,16
+401403857,2022,1,regular,2022-09-03T23:00:00.000Z,False,True,False,False,3634,Ben Hill Griffin Stadium,Florida,Utah,fbs,fbs,SEC,Pac-12,29,26
+401424416,2022,1,regular,2022-09-03T23:00:00.000Z,False,True,False,False,4727,McLane Stadium,Baylor,UAlbany,fbs,fcs,Big 12,CAA,69,10
+401425418,2022,1,regular,2022-09-03T23:00:00.000Z,False,True,False,False,3625,Centennial Bank Stadium,Arkansas State,Grambling,fbs,fcs,Sun Belt,SWAC,58,3
+401404134,2022,1,regular,2022-09-03T23:00:00.000Z,False,True,False,False,3654,Brooks Stadium (SC),Coastal Carolina,Army,fbs,fbs,Sun Belt,FBS Independents,38,28
+401414778,2022,1,regular,2022-09-03T23:00:00.000Z,False,True,False,False,4729,Yulman Stadium,Tulane,Massachusetts,fbs,fbs,American Athletic,FBS Independents,42,10
+401405065,2022,1,regular,2022-09-03T23:00:00.000Z,False,True,False,False,347,Camp Randall Stadium,Wisconsin,Illinois State,fbs,fcs,Big Ten,MVFC,38,0
+401404157,2022,1,regular,2022-09-03T23:00:00.000Z,False,True,False,False,3815,M. M. Roberts Stadium,Southern Miss,Liberty,fbs,fbs,Sun Belt,FBS Independents,27,29
+401421121,2022,1,regular,2022-09-03T23:00:00.000Z,False,True,False,False,3666,Cajun Field,Louisiana,SE Louisiana,fbs,fcs,Sun Belt,Southland,24,7
+401404124,2022,1,regular,2022-09-03T23:30:00.000Z,False,True,False,False,3861,Ohio Stadium,Ohio State,Notre Dame,fbs,fbs,Big Ten,FBS Independents,21,10
+401426539,2022,1,regular,2022-09-03T23:30:00.000Z,False,True,False,False,3825,DATCU Stadium,North Texas,SMU,fbs,fbs,Conference USA,American Athletic,10,48
+401403861,2022,1,regular,2022-09-03T23:30:00.000Z,False,True,False,False,3693,Davis Wade Stadium,Mississippi State,Memphis,fbs,fbs,SEC,American Athletic,49,23
+401403863,2022,1,regular,2022-09-03T23:30:00.000Z,False,True,False,False,3994,Williams-Brice Stadium,South Carolina,Georgia State,fbs,fbs,SEC,Sun Belt,35,14
+401403854,2022,1,regular,2022-09-03T23:30:00.000Z,False,True,False,False,3657,Bryant-Denny Stadium,Alabama,Utah State,fbs,fbs,SEC,Mountain West,55,0
+401411099,2022,1,regular,2022-09-04T00:00:00.000Z,False,True,False,True,1964,JMA Wireless Dome,Syracuse,Louisville,fbs,fbs,ACC,ACC,31,7
+401404055,2022,1,regular,2022-09-04T00:00:00.000Z,False,True,False,False,3784,Jones AT&T Stadium,Texas Tech,Murray State,fbs,fcs,Big 12,OVC,63,10
+401404059,2022,1,regular,2022-09-04T00:00:00.000Z,False,True,False,False,3910,DKR-Texas Memorial Stadium,Texas,UL Monroe,fbs,fbs,Big 12,Sun Belt,52,10
+401415210,2022,1,regular,2022-09-04T00:00:00.000Z,False,True,False,False,3971,University Stadium (NM),New Mexico,Maine,fbs,fcs,Mountain West,CAA,41,0
+401403970,2022,1,regular,2022-09-04T00:00:00.000Z,False,True,False,False,3940,Stanford Stadium,Stanford,Colgate,fbs,fcs,Pac-12,Patriot,41,10
+401403974,2022,1,regular,2022-09-04T01:30:00.000Z,False,True,False,False,3820,Gesa Field,Washington State,Idaho,fbs,fcs,Pac-12,Big Sky,24,17
+401403969,2022,1,regular,2022-09-04T02:30:00.000Z,False,True,False,False,3893,Reser Stadium,Oregon State,Boise State,fbs,fbs,Pac-12,Mountain West,34,17
+401403973,2022,1,regular,2022-09-04T02:30:00.000Z,False,True,False,False,3765,Husky Stadium,Washington,Kent State,fbs,fbs,Pac-12,Mid-American,45,20
+401426543,2022,1,regular,2022-09-04T03:59:00.000Z,False,True,False,False,7220,Clarence T.C. Ching Athletics Complex,Hawai'i,Western Kentucky,fbs,fbs,Mountain West,Conference USA,17,49
+401403867,2022,1,regular,2022-09-04T23:30:00.000Z,False,True,True,False,3493,Caesars Superdome,Florida State,LSU,fbs,fbs,ACC,SEC,24,23
+401411101,2022,1,regular,2022-09-06T00:00:00.000Z,False,True,True,True,5348,Mercedes-Benz Stadium,Georgia Tech,Clemson,fbs,fbs,ACC,ACC,10,41
+401415613,2022,2,regular,2022-09-09T23:30:00.000Z,False,True,False,False,3652,FBC Mortgage Stadium,UCF,Louisville,fbs,fbs,American Athletic,ACC,14,20
+401415214,2022,2,regular,2022-09-10T01:00:00.000Z,False,True,False,True,3971,University Stadium (NM),New Mexico,Boise State,fbs,fbs,Mountain West,Mountain West,14,31
+401405071,2022,2,regular,2022-09-10T16:00:00.000Z,False,True,False,False,3953,Huntington Bank Stadium,Minnesota,Western Illinois,fbs,fcs,Big Ten,MVFC,62,10
+401411103,2022,2,regular,2022-09-10T16:00:00.000Z,False,True,False,False,4246,Center Parc Stadium,Georgia State,North Carolina,fbs,fbs,Sun Belt,ACC,28,35
+401403868,2022,2,regular,2022-09-10T16:00:00.000Z,False,True,False,False,3910,DKR-Texas Memorial Stadium,Texas,Alabama,fbs,fbs,Big 12,SEC,19,20
+401426553,2022,2,regular,2022-09-10T16:00:00.000Z,False,True,False,False,3841,Michie Stadium,Army,UTSA,fbs,fbs,FBS Independents,Conference USA,38,41
+401405080,2022,2,regular,2022-09-10T16:00:00.000Z,False,True,False,False,3632,Beaver Stadium,Penn State,Ohio,fbs,fbs,Big Ten,Mid-American,46,10
+401405079,2022,2,regular,2022-09-10T16:00:00.000Z,False,True,False,False,3861,Ohio Stadium,Ohio State,Arkansas State,fbs,fbs,Big Ten,Sun Belt,45,12
+401405073,2022,2,regular,2022-09-10T16:00:00.000Z,False,True,False,False,3911,Ryan Field,Northwestern,Duke,fbs,fbs,Big Ten,ACC,23,31
+401403879,2022,2,regular,2022-09-10T16:00:00.000Z,False,True,False,False,3973,FirstBank Stadium,Vanderbilt,Wake Forest,fbs,fbs,SEC,ACC,25,45
+401411105,2022,2,regular,2022-09-10T16:00:00.000Z,False,True,False,False,3948,Hard Rock Stadium,Miami,Southern Miss,fbs,fbs,ACC,Sun Belt,30,7
+401403869,2022,2,regular,2022-09-10T16:00:00.000Z,False,True,False,True,3887,Razorback Stadium,Arkansas,South Carolina,fbs,fbs,SEC,SEC,44,30
+401403876,2022,2,regular,2022-09-10T16:00:00.000Z,False,True,False,False,3636,Bill Snyder Family Stadium,Kansas State,Missouri,fbs,fbs,Big 12,SEC,40,12
+401411106,2022,2,regular,2022-09-10T16:30:00.000Z,False,True,False,False,3670,Carter-Finley Stadium,NC State,Charleston Southern,fbs,fcs,ACC,Big South,55,3
+401416597,2022,2,regular,2022-09-10T17:00:00.000Z,False,True,False,False,3786,Kelly/Shorts Stadium,Central Michigan,South Alabama,fbs,fbs,Mid-American,Sun Belt,24,38
+401403982,2022,2,regular,2022-09-10T17:30:00.000Z,False,True,False,False,587,Rice-Eccles Stadium,Utah,Southern Utah,fbs,fcs,Pac-12,Western Athletic,73,7
+401415614,2022,2,regular,2022-09-10T18:00:00.000Z,False,True,False,False,3806,Lincoln Financial Field,Temple,Lafayette,fbs,fcs,American Athletic,Patriot,30,14
+401416594,2022,2,regular,2022-09-10T18:00:00.000Z,False,True,False,True,3919,Scheumann Stadium,Ball State,Western Michigan,fbs,fbs,Mid-American,Mid-American,30,37
+401404125,2022,2,regular,2022-09-10T18:30:00.000Z,False,True,False,False,3855,Notre Dame Stadium,Notre Dame,Marshall,fbs,fbs,FBS Independents,Sun Belt,21,26
+401426545,2022,2,regular,2022-09-10T19:30:00.000Z,False,True,False,False,4418,Jerry Richardson Stadium,Charlotte,Maryland,fbs,fbs,Conference USA,Big Ten,21,56
+401403878,2022,2,regular,2022-09-10T19:30:00.000Z,False,True,False,False,3795,Kyle Field,Texas A&M,App State,fbs,fbs,SEC,Sun Belt,14,17
+401403977,2022,2,regular,2022-09-10T19:30:00.000Z,False,True,False,False,3713,Falcon Stadium,Air Force,Colorado,fbs,fbs,Mountain West,Pac-12,41,10
+401403984,2022,2,regular,2022-09-10T19:30:00.000Z,False,True,False,False,347,Camp Randall Stadium,Wisconsin,Washington State,fbs,fbs,Big Ten,Pac-12,14,17
+401415617,2022,2,regular,2022-09-10T19:30:00.000Z,False,True,False,True,3852,Navy-Marine Corps Memorial Stadium,Navy,Memphis,fbs,fbs,American Athletic,American Athletic,13,37
+401415619,2022,2,regular,2022-09-10T19:30:00.000Z,False,True,False,False,3854,Nippert Stadium,Cincinnati,Kennesaw State,fbs,fcs,American Athletic,Atlantic Sun,63,10
+401403877,2022,2,regular,2022-09-10T19:30:00.000Z,False,True,False,False,3752,Acrisure Stadium,Pittsburgh,Tennessee,fbs,fbs,ACC,SEC,27,34
+401411102,2022,2,regular,2022-09-10T19:30:00.000Z,False,True,False,False,3836,"Memorial Stadium (Clemson, SC)",Clemson,Furman,fbs,fcs,ACC,Southern,35,12
+401403872,2022,2,regular,2022-09-10T20:00:00.000Z,False,True,False,False,3917,Sanford Stadium,Georgia,Samford,fbs,fcs,SEC,Southern,33,0
+401405078,2022,2,regular,2022-09-10T20:00:00.000Z,False,True,False,False,3936,Spartan Stadium,Michigan State,Akron,fbs,fbs,Big Ten,Mid-American,52,0
+401403983,2022,2,regular,2022-09-10T20:00:00.000Z,False,True,False,False,3765,Husky Stadium,Washington,Portland State,fbs,fcs,Pac-12,Big Sky,52,6
+401426548,2022,2,regular,2022-09-10T20:00:00.000Z,False,True,False,False,5388,Canvas Stadium,Colorado State,Middle Tennessee,fbs,fbs,Mountain West,Conference USA,19,34
+401405081,2022,2,regular,2022-09-10T20:00:00.000Z,False,True,False,False,6577,SHI Stadium,Rutgers,Wagner,fbs,fcs,Big Ten,NEC,66,7
+401403976,2022,2,regular,2022-09-10T20:00:00.000Z,False,True,False,False,3831,California Memorial Stadium,California,UNLV,fbs,fbs,Pac-12,Mountain West,20,14
+401405070,2022,2,regular,2022-09-10T20:00:00.000Z,False,True,False,False,3832,"Memorial Stadium (Champaign, IL)",Illinois,Virginia,fbs,fbs,Big Ten,ACC,24,3
+401404063,2022,2,regular,2022-09-10T20:00:00.000Z,False,True,False,False,3784,Jones AT&T Stadium,Texas Tech,Houston,fbs,fbs,Big 12,American Athletic,33,30
+401404064,2022,2,regular,2022-09-10T20:00:00.000Z,False,True,False,False,3793,Kinnick Stadium,Iowa,Iowa State,fbs,fbs,Big Ten,Big 12,7,10
+401415177,2022,2,regular,2022-09-10T20:00:00.000Z,False,True,False,False,3984,War Memorial Stadium,Wyoming,Northern Colorado,fbs,fcs,Mountain West,Big Sky,33,10
+401416595,2022,2,regular,2022-09-10T20:00:00.000Z,False,True,False,False,3700,Doyt L. Perry Stadium,Bowling Green,Eastern Kentucky,fbs,fcs,Mid-American,Atlantic Sun,57,59
+401405074,2022,2,regular,2022-09-10T20:00:00.000Z,False,True,False,False,3907,Ross-Ade Stadium,Purdue,Indiana State,fbs,fcs,Big Ten,MVFC,56,0
+401420788,2022,2,regular,2022-09-10T20:00:00.000Z,False,True,False,False,3651,Bridgeforth Stadium,James Madison,Norfolk State,fbs,fcs,Sun Belt,MEAC,63,7
+401403981,2022,2,regular,2022-09-10T21:00:00.000Z,False,True,False,False,1056,Rose Bowl,UCLA,Alabama State,fbs,fcs,Pac-12,SWAC,45,7
+401415216,2022,2,regular,2022-09-10T21:30:00.000Z,False,True,False,False,3816,Mackay Stadium,Nevada,Incarnate Word,fbs,fcs,Mountain West,Southland,41,55
+401416596,2022,2,regular,2022-09-10T22:00:00.000Z,False,True,False,False,3965,UB Stadium,Buffalo,Holy Cross,fbs,fcs,Mid-American,Patriot,31,37
+401426551,2022,2,regular,2022-09-10T22:00:00.000Z,False,True,False,False,3992,Williams Stadium (VA),Liberty,UAB,fbs,fbs,FBS Independents,Conference USA,21,14
+401426332,2022,2,regular,2022-09-10T22:00:00.000Z,False,True,False,False,3654,Brooks Stadium (SC),Coastal Carolina,Gardner-Webb,fbs,fcs,Sun Belt,Big South,31,27
+401404065,2022,2,regular,2022-09-10T22:00:00.000Z,False,True,False,True,3842,Milan Puskar Stadium,West Virginia,Kansas,fbs,fbs,Big 12,Big 12,42,55
+401415024,2022,2,regular,2022-09-10T22:00:00.000Z,False,True,False,False,3699,Dowdy-Ficklen Stadium,East Carolina,Old Dominion,fbs,fbs,American Athletic,Sun Belt,39,21
+401426546,2022,2,regular,2022-09-10T22:00:00.000Z,False,True,False,False,3715,FAU Stadium,Florida Atlantic,SE Louisiana,fbs,fcs,Conference USA,Southland,42,9
+401416599,2022,2,regular,2022-09-10T22:00:00.000Z,False,True,False,False,3996,Yager Stadium,Miami (OH),Robert Morris,fbs,fcs,Mid-American,Big South,31,14
+401415620,2022,2,regular,2022-09-10T23:00:00.000Z,False,True,False,False,3674,Chapman Stadium,Tulsa,Northern Illinois,fbs,fbs,American Athletic,Mid-American,38,35
+401423439,2022,2,regular,2022-09-10T23:00:00.000Z,False,True,False,False,3975,Veterans Memorial Stadium (AL),Troy,Alabama A&M,fbs,fcs,Sun Belt,SWAC,38,17
+401403874,2022,2,regular,2022-09-10T23:00:00.000Z,False,True,False,False,3974,Vaught-Hemingway Stadium,Ole Miss,Central Arkansas,fbs,fcs,SEC,Atlantic Sun,59,3
+401426547,2022,2,regular,2022-09-10T23:00:00.000Z,False,True,False,False,3776,Joe Aillet Stadium,Louisiana Tech,Stephen F. Austin,fbs,fcs,Conference USA,Western Athletic,52,17
+401416598,2022,2,regular,2022-09-10T23:00:00.000Z,False,True,False,False,3666,Cajun Field,Louisiana,Eastern Michigan,fbs,fbs,Sun Belt,Mid-American,49,21
+401415618,2022,2,regular,2022-09-10T23:00:00.000Z,False,True,False,False,3886,Raymond James Stadium,South Florida,Howard,fbs,fcs,American Athletic,MEAC,42,20
+401426544,2022,2,regular,2022-09-10T23:00:00.000Z,False,True,False,False,3644,Bobcat Stadium (TX),Texas State,Florida International,fbs,fbs,Sun Belt,Conference USA,41,12
+401403871,2022,2,regular,2022-09-10T23:00:00.000Z,False,True,False,True,3634,Ben Hill Griffin Stadium,Florida,Kentucky,fbs,fbs,SEC,SEC,16,26
+401415615,2022,2,regular,2022-09-10T23:00:00.000Z,False,True,False,False,4729,Yulman Stadium,Tulane,Alcorn State,fbs,fcs,American Athletic,SWAC,52,0
+401411104,2022,2,regular,2022-09-10T23:00:00.000Z,False,True,False,False,721,Bobby Dodd Stadium,Georgia Tech,Western Carolina,fbs,fcs,ACC,Southern,35,17
+401404148,2022,2,regular,2022-09-10T23:00:00.000Z,False,True,False,False,3892,Pratt & Whitney Stadium,UConn,Syracuse,fbs,fbs,FBS Independents,ACC,14,48
+401404066,2022,2,regular,2022-09-10T23:00:00.000Z,False,True,False,False,3835,"Memorial Stadium (Norman, OK)",Oklahoma,Kent State,fbs,fbs,Big 12,Mid-American,33,3
+401415616,2022,2,regular,2022-09-10T23:00:00.000Z,False,True,False,False,3735,Gerald J. Ford Stadium,SMU,Lamar,fbs,fcs,American Athletic,Southland,45,16
+401415215,2022,2,regular,2022-09-10T23:00:00.000Z,False,True,False,False,3905,Maverik Stadium,Utah State,Weber State,fbs,fcs,Mountain West,Big Sky,7,35
+401414779,2022,2,regular,2022-09-10T23:00:00.000Z,False,True,False,False,3739,Glass Bowl,Toledo,Massachusetts,fbs,fbs,Mid-American,FBS Independents,55,10
+401403980,2022,2,regular,2022-09-10T23:30:00.000Z,False,True,False,True,3940,Stanford Stadium,Stanford,USC,fbs,fbs,Pac-12,Pac-12,28,41
+401405072,2022,2,regular,2022-09-10T23:30:00.000Z,False,True,False,False,3834,"Memorial Stadium (Lincoln, NE)",Nebraska,Georgia Southern,fbs,fbs,Big Ten,Sun Belt,42,45
+401426550,2022,2,regular,2022-09-10T23:30:00.000Z,False,True,False,False,3895,Rice Stadium,Rice,McNeese,fbs,fcs,Conference USA,Southland,52,10
+401426549,2022,2,regular,2022-09-10T23:30:00.000Z,False,True,False,False,3825,DATCU Stadium,North Texas,Texas Southern,fbs,fcs,Conference USA,SWAC,59,27
+401403873,2022,2,regular,2022-09-10T23:30:00.000Z,False,True,False,False,3958,Tiger Stadium (LA),LSU,Southern,fbs,fcs,SEC,SWAC,65,17
+401403870,2022,2,regular,2022-09-10T23:30:00.000Z,False,True,False,False,3785,Jordan-Hare Stadium,Auburn,San José State,fbs,fbs,SEC,Mountain West,24,16
+401403975,2022,2,regular,2022-09-10T23:30:00.000Z,False,True,False,False,3646,Boone Pickens Stadium,Oklahoma State,Arizona State,fbs,fbs,Big 12,Pac-12,34,17
+401411108,2022,2,regular,2022-09-11T00:00:00.000Z,False,True,False,True,3799,Lane Stadium,Virginia Tech,Boston College,fbs,fbs,ACC,ACC,27,10
+401421117,2022,2,regular,2022-09-11T00:00:00.000Z,False,True,False,False,3817,Malone Stadium,UL Monroe,Nicholls,fbs,fcs,Sun Belt,Southland,35,7
+401413257,2022,2,regular,2022-09-11T00:00:00.000Z,False,True,False,False,7311,Snapdragon Stadium,San Diego State,Idaho State,fbs,fcs,Mountain West,Big Sky,38,7
+401405075,2022,2,regular,2022-09-11T00:00:00.000Z,False,True,False,False,3830,"Memorial Stadium (Bloomington, IN)",Indiana,Idaho,fbs,fcs,Big Ten,Big Sky,35,22
+401404067,2022,2,regular,2022-09-11T00:00:00.000Z,False,True,False,False,3616,Amon G. Carter Stadium,TCU,Tarleton State,fbs,fcs,Big 12,Western Athletic,59,17
+401405077,2022,2,regular,2022-09-11T00:00:00.000Z,False,True,False,False,3558,Michigan Stadium,Michigan,Hawai'i,fbs,fbs,Big Ten,Mountain West,56,10
+401403978,2022,2,regular,2022-09-11T00:30:00.000Z,False,True,False,False,3626,Autzen Stadium,Oregon,Eastern Washington,fbs,fcs,Pac-12,Big Sky,70,14
+401426552,2022,2,regular,2022-09-11T01:00:00.000Z,False,True,False,False,3946,Sun Bowl,UTEP,New Mexico State,fbs,fbs,Conference USA,FBS Independents,20,13
+401404062,2022,2,regular,2022-09-11T02:15:00.000Z,False,True,False,False,3801,LaVell Edwards Stadium,BYU,Baylor,fbs,fbs,FBS Independents,Big 12,26,20
+401403979,2022,2,regular,2022-09-11T02:30:00.000Z,False,True,False,False,3660,Valley Children's Stadium,Fresno State,Oregon State,fbs,fbs,Mountain West,Pac-12,32,35
+401403875,2022,2,regular,2022-09-11T03:00:00.000Z,False,True,False,False,3619,Arizona Stadium,Arizona,Mississippi State,fbs,fbs,Pac-12,SEC,17,39
+401411109,2022,3,regular,2022-09-16T23:30:00.000Z,False,True,False,True,3873,L&N Federal Credit Union Stadium,Louisville,Florida State,fbs,fbs,ACC,ACC,31,35
+401415217,2022,3,regular,2022-09-17T00:00:00.000Z,False,True,False,True,3984,War Memorial Stadium,Wyoming,Air Force,fbs,fbs,Mountain West,Mountain West,17,14
+401411114,2022,3,regular,2022-09-17T15:00:00.000Z,False,True,False,False,3799,Lane Stadium,Virginia Tech,Wofford,fbs,fcs,ACC,Southern,27,7
+401405084,2022,3,regular,2022-09-17T16:00:00.000Z,False,True,False,False,1964,JMA Wireless Dome,Syracuse,Purdue,fbs,fbs,ACC,Big Ten,32,29
+401403887,2022,3,regular,2022-09-17T16:00:00.000Z,False,True,False,False,3838,Memorial Stadium,Missouri,Abilene Christian,fbs,fcs,SEC,Western Athletic,34,17
+401403888,2022,3,regular,2022-09-17T16:00:00.000Z,False,True,False,True,3994,Williams-Brice Stadium,South Carolina,Georgia,fbs,fbs,SEC,SEC,7,48
+401404070,2022,3,regular,2022-09-17T16:00:00.000Z,False,True,False,False,3834,"Memorial Stadium (Lincoln, NE)",Nebraska,Oklahoma,fbs,fbs,Big Ten,Big 12,14,49
+401404071,2022,3,regular,2022-09-17T16:00:00.000Z,False,True,False,False,4727,McLane Stadium,Baylor,Texas State,fbs,fbs,Big 12,Sun Belt,42,7
+401404136,2022,3,regular,2022-09-17T16:00:00.000Z,False,True,False,False,3841,Michie Stadium,Army,Villanova,fbs,fcs,FBS Independents,CAA,49,10
+401404149,2022,3,regular,2022-09-17T16:00:00.000Z,False,True,False,False,3558,Michigan Stadium,Michigan,UConn,fbs,fbs,Big Ten,FBS Independents,59,0
+401405083,2022,3,regular,2022-09-17T16:00:00.000Z,False,True,False,False,3911,Ryan Field,Northwestern,Southern Illinois,fbs,fcs,Big Ten,MVFC,24,31
+401415623,2022,3,regular,2022-09-17T16:00:00.000Z,False,True,True,False,3874,Paul Brown Stadium,Miami (OH),Cincinnati,fbs,fbs,Mid-American,American Athletic,17,38
+401416603,2022,3,regular,2022-09-17T16:00:00.000Z,False,True,False,False,3696,Dix Stadium,Kent State,Long Island University,fbs,fcs,Mid-American,NEC,63,10
+401426563,2022,3,regular,2022-09-17T16:00:00.000Z,False,True,False,False,3830,"Memorial Stadium (Bloomington, IN)",Indiana,Western Kentucky,fbs,fbs,Big Ten,Conference USA,33,30
+401403884,2022,3,regular,2022-09-17T16:00:00.000Z,False,True,False,False,3683,Kroger Field,Kentucky,Youngstown State,fbs,fcs,SEC,MVFC,31,0
+401404073,2022,3,regular,2022-09-17T17:00:00.000Z,False,True,False,False,3842,Milan Puskar Stadium,West Virginia,Towson,fbs,fcs,Big 12,CAA,65,7
+401416601,2022,3,regular,2022-09-17T17:00:00.000Z,False,True,False,False,3654,Brooks Stadium (SC),Coastal Carolina,Buffalo,fbs,fbs,Sun Belt,Mid-American,38,26
+401416602,2022,3,regular,2022-09-17T17:00:00.000Z,False,True,False,False,3786,Kelly/Shorts Stadium,Central Michigan,Bucknell,fbs,fcs,Mid-American,Patriot,41,0
+401403991,2022,3,regular,2022-09-17T18:00:00.000Z,False,True,False,False,1056,Rose Bowl,UCLA,South Alabama,fbs,fbs,Pac-12,Sun Belt,32,31
+401416600,2022,3,regular,2022-09-17T18:00:00.000Z,False,True,False,False,3919,Scheumann Stadium,Ball State,Murray State,fbs,fcs,Mid-American,OVC,31,0
+401411113,2022,3,regular,2022-09-17T18:00:00.000Z,False,True,False,False,3923,Scott Stadium,Virginia,Old Dominion,fbs,fbs,ACC,Sun Belt,16,14
+401404069,2022,3,regular,2022-09-17T18:00:00.000Z,False,True,False,False,3772,Jack Trice Stadium,Iowa State,Ohio,fbs,fbs,Big 12,Mid-American,43,10
+401405089,2022,3,regular,2022-09-17T18:00:00.000Z,False,True,False,False,3806,Lincoln Financial Field,Temple,Rutgers,fbs,fbs,American Athletic,Big Ten,14,16
+401403987,2022,3,regular,2022-09-17T18:30:00.000Z,False,True,False,False,3855,Notre Dame Stadium,Notre Dame,California,fbs,fbs,FBS Independents,Pac-12,24,17
+401404074,2022,3,regular,2022-09-17T19:00:00.000Z,False,True,False,False,3636,Bill Snyder Family Stadium,Kansas State,Tulane,fbs,fbs,Big 12,American Athletic,10,17
+401426558,2022,3,regular,2022-09-17T19:00:00.000Z,False,True,False,False,6501,Allegiant Stadium,UNLV,North Texas,fbs,fbs,Mountain West,Conference USA,58,27
+401426333,2022,3,regular,2022-09-17T19:30:00.000Z,False,True,False,True,3792,Kidd Brewer Stadium,App State,Troy,fbs,fbs,Sun Belt,Sun Belt,32,28
+401426560,2022,3,regular,2022-09-17T19:30:00.000Z,False,True,False,False,7221,Protective Stadium,UAB,Georgia Southern,fbs,fbs,Conference USA,Sun Belt,35,21
+401403891,2022,3,regular,2022-09-17T19:30:00.000Z,False,True,False,False,3764,Huskie Stadium,Northern Illinois,Vanderbilt,fbs,fbs,Mid-American,SEC,28,38
+401403882,2022,3,regular,2022-09-17T19:30:00.000Z,False,True,False,False,3785,Jordan-Hare Stadium,Auburn,Penn State,fbs,fbs,SEC,Big Ten,12,41
+401403989,2022,3,regular,2022-09-17T19:30:00.000Z,False,True,False,False,3626,Autzen Stadium,Oregon,BYU,fbs,fbs,Pac-12,FBS Independents,41,20
+401403886,2022,3,regular,2022-09-17T19:30:00.000Z,False,True,False,False,721,Bobby Dodd Stadium,Georgia Tech,Ole Miss,fbs,fbs,ACC,SEC,0,42
+401403988,2022,3,regular,2022-09-17T19:30:00.000Z,False,True,False,False,3953,Huntington Bank Stadium,Minnesota,Colorado,fbs,fbs,Big Ten,Pac-12,49,7
+401414780,2022,3,regular,2022-09-17T19:30:00.000Z,False,True,False,False,3985,Warren McGuirk Alumni Stadium,Massachusetts,Stony Brook,fbs,fcs,FBS Independents,CAA,20,3
+401405085,2022,3,regular,2022-09-17T19:30:00.000Z,False,True,False,False,347,Camp Randall Stadium,Wisconsin,New Mexico State,fbs,fbs,Big Ten,FBS Independents,66,7
+401403880,2022,3,regular,2022-09-17T20:00:00.000Z,False,True,False,False,3657,Bryant-Denny Stadium,Alabama,UL Monroe,fbs,fbs,SEC,Sun Belt,63,7
+401404068,2022,3,regular,2022-09-17T20:00:00.000Z,False,True,False,False,4728,TDECU Stadium,Houston,Kansas,fbs,fbs,American Athletic,Big 12,30,48
+401415218,2022,3,regular,2022-09-17T20:00:00.000Z,False,True,False,False,3653,Albertsons Stadium,Boise State,UT Martin,fbs,fcs,Mountain West,OVC,30,7
+401404159,2022,3,regular,2022-09-17T21:00:00.000Z,False,True,False,False,3630,Allegacy Federal Credit Union Stadium,Wake Forest,Liberty,fbs,fbs,ACC,FBS Independents,37,36
+401415029,2022,3,regular,2022-09-17T21:00:00.000Z,False,True,False,False,3700,Doyt L. Perry Stadium,Bowling Green,Marshall,fbs,fbs,Mid-American,Sun Belt,34,31
+401403995,2022,3,regular,2022-09-17T21:00:00.000Z,False,True,False,False,3820,Gesa Field,Washington State,Colorado State,fbs,fbs,Pac-12,Mountain West,38,7
+401411112,2022,3,regular,2022-09-17T22:00:00.000Z,False,True,False,False,3982,Wallace Wade Stadium,Duke,North Carolina A&T,fbs,fcs,ACC,Big South,49,20
+401415621,2022,3,regular,2022-09-17T22:00:00.000Z,False,True,False,False,3699,Dowdy-Ficklen Stadium,East Carolina,Campbell,fbs,fcs,American Athletic,Big South,49,10
+401403885,2022,3,regular,2022-09-17T22:00:00.000Z,False,True,False,True,3958,Tiger Stadium (LA),LSU,Mississippi State,fbs,fbs,SEC,SEC,31,16
+401415032,2022,3,regular,2022-09-17T23:00:00.000Z,False,True,False,False,3815,M. M. Roberts Stadium,Southern Miss,Northwestern State,fbs,fcs,Sun Belt,Southland,64,10
+401404075,2022,3,regular,2022-09-17T23:00:00.000Z,False,True,False,False,3646,Boone Pickens Stadium,Oklahoma State,Arkansas-Pine Bluff,fbs,fcs,Big 12,SWAC,63,7
+401403881,2022,3,regular,2022-09-17T23:00:00.000Z,False,True,False,False,3887,Razorback Stadium,Arkansas,Missouri State,fbs,fcs,SEC,MVFC,38,27
+401426554,2022,3,regular,2022-09-17T23:00:00.000Z,False,True,False,False,4246,Center Parc Stadium,Georgia State,Charlotte,fbs,fbs,Sun Belt,Conference USA,41,42
+401404072,2022,3,regular,2022-09-17T23:00:00.000Z,False,True,False,False,3670,Carter-Finley Stadium,NC State,Texas Tech,fbs,fbs,ACC,Big 12,27,14
+401426557,2022,3,regular,2022-09-17T23:00:00.000Z,False,True,False,False,3725,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Tennessee State,fbs,fcs,Conference USA,OVC,49,6
+401415622,2022,3,regular,2022-09-17T23:00:00.000Z,False,True,False,False,3805,Simmons Bank Liberty Stadium,Memphis,Arkansas State,fbs,fbs,American Athletic,Sun Belt,44,32
+401405088,2022,3,regular,2022-09-17T23:00:00.000Z,False,True,False,False,3861,Ohio Stadium,Ohio State,Toledo,fbs,fbs,Big Ten,Mid-American,77,21
+401413216,2022,3,regular,2022-09-17T23:00:00.000Z,False,True,False,False,3674,Chapman Stadium,Tulsa,Jacksonville State,fbs,fcs,American Athletic,Atlantic Sun,54,17
+401403889,2022,3,regular,2022-09-17T23:00:00.000Z,False,True,False,False,3853,Neyland Stadium,Tennessee,Akron,fbs,fbs,SEC,Mid-American,63,6
+401411115,2022,3,regular,2022-09-17T23:30:00.000Z,False,True,False,False,3980,Waldo Stadium,Western Michigan,Pittsburgh,fbs,fbs,Mid-American,ACC,13,34
+401426555,2022,3,regular,2022-09-17T23:30:00.000Z,False,True,False,False,3715,FAU Stadium,Florida Atlantic,UCF,fbs,fbs,Conference USA,American Athletic,14,40
+401405082,2022,3,regular,2022-09-17T23:30:00.000Z,False,True,False,False,3793,Kinnick Stadium,Iowa,Nevada,fbs,fbs,Big Ten,Mountain West,27,0
+401403994,2022,3,regular,2022-09-17T23:30:00.000Z,False,True,False,False,3765,Husky Stadium,Washington,Michigan State,fbs,fbs,Pac-12,Big Ten,39,28
+401411110,2022,3,regular,2022-09-17T23:30:00.000Z,False,True,False,False,3615,"Alumni Stadium (Chestnut Hill, MA)",Boston College,Maine,fbs,fcs,ACC,CAA,38,17
+401405087,2022,3,regular,2022-09-17T23:30:00.000Z,False,True,False,False,3665,SECU Stadium,Maryland,SMU,fbs,fbs,Big Ten,American Athletic,34,27
+401403883,2022,3,regular,2022-09-17T23:30:00.000Z,False,True,False,False,3634,Ben Hill Griffin Stadium,Florida,South Florida,fbs,fbs,SEC,American Athletic,31,28
+401426559,2022,3,regular,2022-09-17T23:30:00.000Z,False,True,False,False,3895,Rice Stadium,Rice,Louisiana,fbs,fbs,Conference USA,Sun Belt,33,21
+401426556,2022,3,regular,2022-09-18T00:00:00.000Z,False,True,False,False,3836,"Memorial Stadium (Clemson, SC)",Clemson,Louisiana Tech,fbs,fbs,ACC,Conference USA,48,20
+401426562,2022,3,regular,2022-09-18T00:00:00.000Z,False,True,False,False,3910,DKR-Texas Memorial Stadium,Texas,UTSA,fbs,fbs,Big 12,Conference USA,41,20
+401403990,2022,3,regular,2022-09-18T00:00:00.000Z,False,True,True,False,3485,Providence Park,Oregon State,Montana State,fbs,fcs,Pac-12,Big Sky,68,28
+401426561,2022,3,regular,2022-09-18T00:00:00.000Z,False,True,False,False,3971,University Stadium (NM),New Mexico,UTEP,fbs,fbs,Mountain West,Conference USA,27,10
+401403890,2022,3,regular,2022-09-18T01:00:00.000Z,False,True,False,False,3795,Kyle Field,Texas A&M,Miami,fbs,fbs,SEC,ACC,17,9
+401403993,2022,3,regular,2022-09-18T02:00:00.000Z,False,True,False,False,587,Rice-Eccles Stadium,Utah,San Diego State,fbs,fbs,Pac-12,Mountain West,35,7
+401403992,2022,3,regular,2022-09-18T02:30:00.000Z,False,True,False,False,477,Los Angeles Memorial Coliseum,USC,Fresno State,fbs,fbs,Pac-12,Mountain West,45,17
+401403986,2022,3,regular,2022-09-18T03:00:00.000Z,False,True,False,False,3947,Mountain America Stadium,Arizona State,Eastern Michigan,fbs,fbs,Pac-12,Mid-American,21,30
+401403985,2022,3,regular,2022-09-18T03:00:00.000Z,False,True,False,False,3619,Arizona Stadium,Arizona,North Dakota State,fbs,fcs,Pac-12,MVFC,31,28
+401415219,2022,3,regular,2022-09-18T03:59:00.000Z,False,True,False,False,7220,Clarence T.C. Ching Athletics Complex,Hawai'i,Duquesne,fbs,fcs,Mountain West,NEC,24,14
+401426334,2022,4,regular,2022-09-22T23:30:00.000Z,False,True,False,True,4246,Center Parc Stadium,Georgia State,Coastal Carolina,fbs,fbs,Sun Belt,Sun Belt,24,41
+401411116,2022,4,regular,2022-09-22T23:30:00.000Z,False,True,False,False,3799,Lane Stadium,Virginia Tech,West Virginia,fbs,fbs,ACC,Big 12,10,33
+401421129,2022,4,regular,2022-09-23T00:30:00.000Z,False,True,False,False,3832,"Memorial Stadium (Champaign, IL)",Illinois,Chattanooga,fbs,fcs,Big Ten,Southern,31,0
+401411117,2022,4,regular,2022-09-23T23:00:00.000Z,False,True,False,True,1964,JMA Wireless Dome,Syracuse,Virginia,fbs,fbs,ACC,ACC,22,20
+401415220,2022,4,regular,2022-09-24T00:00:00.000Z,False,True,False,True,3713,Falcon Stadium,Air Force,Nevada,fbs,fbs,Mountain West,Mountain West,48,20
+401426571,2022,4,regular,2022-09-24T01:00:00.000Z,False,True,False,False,3946,Sun Bowl,UTEP,Boise State,fbs,fbs,Conference USA,Mountain West,27,10
+401405097,2022,4,regular,2022-09-24T16:00:00.000Z,False,True,False,True,3558,Michigan Stadium,Michigan,Maryland,fbs,fbs,Big Ten,Big Ten,34,27
+401403899,2022,4,regular,2022-09-24T16:00:00.000Z,False,True,False,False,3693,Davis Wade Stadium,Mississippi State,Bowling Green,fbs,fbs,SEC,Mid-American,45,14
+401416604,2022,4,regular,2022-09-24T16:00:00.000Z,False,True,False,True,3912,Rynearson Stadium,Eastern Michigan,Buffalo,fbs,fbs,Mid-American,Mid-American,31,50
+401405098,2022,4,regular,2022-09-24T16:00:00.000Z,False,True,False,False,3632,Beaver Stadium,Penn State,Central Michigan,fbs,fbs,Big Ten,Mid-American,33,14
+401404080,2022,4,regular,2022-09-24T16:00:00.000Z,False,True,False,True,3772,Jack Trice Stadium,Iowa State,Baylor,fbs,fbs,Big 12,Big 12,24,31
+401411123,2022,4,regular,2022-09-24T16:00:00.000Z,False,True,False,True,3630,Allegacy Federal Credit Union Stadium,Wake Forest,Clemson,fbs,fbs,ACC,ACC,45,51
+401403894,2022,4,regular,2022-09-24T16:00:00.000Z,False,True,False,True,3785,Jordan-Hare Stadium,Auburn,Missouri,fbs,fbs,SEC,SEC,17,14
+401404078,2022,4,regular,2022-09-24T16:00:00.000Z,False,True,False,False,3735,Gerald J. Ford Stadium,SMU,TCU,fbs,fbs,American Athletic,Big 12,34,42
+401411119,2022,4,regular,2022-09-24T16:00:00.000Z,False,True,False,False,3873,L&N Federal Credit Union Stadium,Louisville,South Florida,fbs,fbs,ACC,American Athletic,41,3
+401404079,2022,4,regular,2022-09-24T16:00:00.000Z,False,True,False,False,3833,Memorial Stadium,Kansas,Duke,fbs,fbs,Big 12,ACC,35,27
+401403895,2022,4,regular,2022-09-24T16:00:00.000Z,False,True,False,False,3917,Sanford Stadium,Georgia,Kent State,fbs,fbs,SEC,Mid-American,39,22
+401411121,2022,4,regular,2022-09-24T16:00:00.000Z,False,True,False,False,3752,Acrisure Stadium,Pittsburgh,Rhode Island,fbs,fcs,ACC,CAA,45,24
+401403998,2022,4,regular,2022-09-24T18:00:00.000Z,False,True,False,True,3726,Folsom Field,Colorado,UCLA,fbs,fbs,Pac-12,Pac-12,17,45
+401416606,2022,4,regular,2022-09-24T18:00:00.000Z,False,True,False,False,3876,Peden Stadium,Ohio,Fordham,fbs,fcs,Mid-American,Patriot,59,52
+401414781,2022,4,regular,2022-09-24T18:00:00.000Z,False,True,False,False,3806,Lincoln Financial Field,Temple,Massachusetts,fbs,fbs,American Athletic,FBS Independents,28,0
+401415037,2022,4,regular,2022-09-24T19:30:00.000Z,False,True,False,True,3792,Kidd Brewer Stadium,App State,James Madison,fbs,fbs,Sun Belt,Sun Belt,28,32
+401426565,2022,4,regular,2022-09-24T19:30:00.000Z,False,True,False,True,3796,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Florida International,fbs,fbs,Conference USA,Conference USA,73,0
+401403901,2022,4,regular,2022-09-24T19:30:00.000Z,False,True,False,True,3853,Neyland Stadium,Tennessee,Florida,fbs,fbs,SEC,SEC,38,33
+401426572,2022,4,regular,2022-09-24T19:30:00.000Z,False,True,False,False,3604,Alamodome,UTSA,Texas Southern,fbs,fcs,Conference USA,SWAC,52,24
+401426568,2022,4,regular,2022-09-24T19:30:00.000Z,False,True,False,False,3948,Hard Rock Stadium,Miami,Middle Tennessee,fbs,fbs,ACC,Conference USA,31,45
+401405096,2022,4,regular,2022-09-24T19:30:00.000Z,False,True,False,False,3854,Nippert Stadium,Cincinnati,Indiana,fbs,fbs,American Athletic,Big Ten,45,24
+401405092,2022,4,regular,2022-09-24T19:30:00.000Z,False,True,False,True,3936,Spartan Stadium,Michigan State,Minnesota,fbs,fbs,Big Ten,Big Ten,7,34
+401404126,2022,4,regular,2022-09-24T19:30:00.000Z,False,True,False,False,3787,Kenan Stadium,North Carolina,Notre Dame,fbs,fbs,ACC,FBS Independents,32,45
+401426569,2022,4,regular,2022-09-24T19:30:00.000Z,False,True,False,False,3805,Simmons Bank Liberty Stadium,Memphis,North Texas,fbs,fbs,American Athletic,Conference USA,44,34
+401404082,2022,4,regular,2022-09-24T19:30:00.000Z,False,True,False,True,3784,Jones AT&T Stadium,Texas Tech,Texas,fbs,fbs,Big 12,Big 12,37,34
+401415224,2022,4,regular,2022-09-24T19:30:00.000Z,False,True,False,False,7311,Snapdragon Stadium,San Diego State,Toledo,fbs,fbs,Mountain West,Mid-American,17,14
+401411122,2022,4,regular,2022-09-24T20:00:00.000Z,False,True,False,False,3652,FBC Mortgage Stadium,UCF,Georgia Tech,fbs,fbs,American Athletic,ACC,27,10
+401403999,2022,4,regular,2022-09-24T20:00:00.000Z,False,True,False,True,3820,Gesa Field,Washington State,Oregon,fbs,fbs,Pac-12,Pac-12,41,44
+401415221,2022,4,regular,2022-09-24T20:00:00.000Z,False,True,False,False,5388,Canvas Stadium,Colorado State,Sacramento State,fbs,fcs,Mountain West,Big Sky,10,41
+401403898,2022,4,regular,2022-09-24T20:00:00.000Z,False,True,False,False,3974,Vaught-Hemingway Stadium,Ole Miss,Tulsa,fbs,fbs,SEC,American Athletic,35,27
+401403996,2022,4,regular,2022-09-24T21:30:00.000Z,False,True,False,True,3831,California Memorial Stadium,California,Arizona,fbs,fbs,Pac-12,Pac-12,49,31
+401415624,2022,4,regular,2022-09-24T22:00:00.000Z,False,True,False,True,3699,Dowdy-Ficklen Stadium,East Carolina,Navy,fbs,fbs,American Athletic,American Athletic,20,23
+401404160,2022,4,regular,2022-09-24T22:00:00.000Z,False,True,False,False,3992,Williams Stadium (VA),Liberty,Akron,fbs,fbs,FBS Independents,Mid-American,21,12
+401416605,2022,4,regular,2022-09-24T22:00:00.000Z,False,True,False,False,3608,Allen E. Paulson Stadium,Georgia Southern,Ball State,fbs,fbs,Sun Belt,Mid-American,34,23
+401426335,2022,4,regular,2022-09-24T22:00:00.000Z,False,True,False,True,3918,S.B. Ballard Stadium,Old Dominion,Arkansas State,fbs,fbs,Sun Belt,Sun Belt,29,26
+401426570,2022,4,regular,2022-09-24T22:00:00.000Z,False,True,False,False,4728,TDECU Stadium,Houston,Rice,fbs,fbs,American Athletic,Conference USA,34,27
+401418793,2022,4,regular,2022-09-24T23:00:00.000Z,False,True,False,False,3644,Bobcat Stadium (TX),Texas State,Houston Christian,fbs,fcs,Sun Belt,Southland,34,0
+401403896,2022,4,regular,2022-09-24T23:00:00.000Z,False,True,False,False,3683,Kroger Field,Kentucky,Northern Illinois,fbs,fbs,SEC,Mid-American,31,23
+401426393,2022,4,regular,2022-09-24T23:00:00.000Z,False,True,False,True,3975,Veterans Memorial Stadium (AL),Troy,Marshall,fbs,fbs,Sun Belt,Sun Belt,16,7
+401415040,2022,4,regular,2022-09-24T23:00:00.000Z,False,True,False,False,4729,Yulman Stadium,Tulane,Southern Miss,fbs,fbs,American Athletic,Sun Belt,24,27
+401415222,2022,4,regular,2022-09-24T23:00:00.000Z,False,True,False,True,3905,Maverik Stadium,Utah State,UNLV,fbs,fbs,Mountain West,Mountain West,24,34
+401426567,2022,4,regular,2022-09-24T23:00:00.000Z,False,True,False,False,6526,Hancock Whitney Stadium,South Alabama,Louisiana Tech,fbs,fbs,Sun Belt,Conference USA,38,14
+401405091,2022,4,regular,2022-09-24T23:00:00.000Z,False,True,False,True,6577,SHI Stadium,Rutgers,Iowa,fbs,fbs,Big Ten,Big Ten,10,27
+401403893,2022,4,regular,2022-09-24T23:00:00.000Z,False,True,True,True,3687,AT&T Stadium,Texas A&M,Arkansas,fbs,fbs,SEC,SEC,23,21
+401405095,2022,4,regular,2022-09-24T23:30:00.000Z,False,True,False,True,3861,Ohio Stadium,Ohio State,Wisconsin,fbs,fbs,Big Ten,Big Ten,52,21
+401403897,2022,4,regular,2022-09-24T23:30:00.000Z,False,True,False,False,3958,Tiger Stadium (LA),LSU,New Mexico,fbs,fbs,SEC,Mountain West,38,0
+401403892,2022,4,regular,2022-09-24T23:30:00.000Z,False,True,False,True,3657,Bryant-Denny Stadium,Alabama,Vanderbilt,fbs,fbs,SEC,SEC,55,3
+401426564,2022,4,regular,2022-09-24T23:30:00.000Z,False,True,False,False,3994,Williams-Brice Stadium,South Carolina,Charlotte,fbs,fbs,SEC,Conference USA,56,20
+401426566,2022,4,regular,2022-09-24T23:30:00.000Z,False,True,False,False,3907,Ross-Ade Stadium,Purdue,Florida Atlantic,fbs,fbs,Big Ten,Conference USA,28,26
+401404150,2022,4,regular,2022-09-24T23:30:00.000Z,False,True,False,False,3670,Carter-Finley Stadium,NC State,UConn,fbs,fbs,ACC,FBS Independents,41,10
+401405093,2022,4,regular,2022-09-24T23:30:00.000Z,False,True,False,False,3911,Ryan Field,Northwestern,Miami (OH),fbs,fbs,Big Ten,Mid-American,14,17
+401426336,2022,4,regular,2022-09-25T00:00:00.000Z,False,True,False,True,3817,Malone Stadium,UL Monroe,Louisiana,fbs,fbs,Sun Belt,Sun Belt,21,17
+401404081,2022,4,regular,2022-09-25T00:00:00.000Z,False,True,False,True,3835,"Memorial Stadium (Norman, OK)",Oklahoma,Kansas State,fbs,fbs,Big 12,Big 12,34,41
+401411118,2022,4,regular,2022-09-25T00:00:00.000Z,False,True,False,True,3697,Doak Campbell Stadium,Florida State,Boston College,fbs,fbs,ACC,ACC,44,14
+401409237,2022,4,regular,2022-09-25T00:00:00.000Z,False,True,False,False,3601,Aggie Memorial Stadium,New Mexico State,Hawai'i,fbs,fbs,FBS Independents,Mountain West,45,26
+401404000,2022,4,regular,2022-09-25T01:30:00.000Z,False,True,False,True,3893,Reser Stadium,Oregon State,USC,fbs,fbs,Pac-12,Pac-12,14,17
+401415223,2022,4,regular,2022-09-25T02:15:00.000Z,False,True,False,False,3801,LaVell Edwards Stadium,BYU,Wyoming,fbs,fbs,FBS Independents,Mountain West,38,24
+401403997,2022,4,regular,2022-09-25T02:30:00.000Z,False,True,False,True,3947,Mountain America Stadium,Arizona State,Utah,fbs,fbs,Pac-12,Pac-12,13,34
+401415225,2022,4,regular,2022-09-25T02:30:00.000Z,False,True,False,False,3935,CEFCU Stadium,San José State,Western Michigan,fbs,fbs,Mountain West,Mid-American,34,6
+401404001,2022,4,regular,2022-09-25T02:30:00.000Z,False,True,False,True,3765,Husky Stadium,Washington,Stanford,fbs,fbs,Pac-12,Pac-12,40,22
+401403908,2022,5,regular,2022-09-29T23:00:00.000Z,False,True,False,False,3994,Williams-Brice Stadium,South Carolina,South Carolina State,fbs,fcs,SEC,MEAC,50,10
+401415226,2022,5,regular,2022-09-30T00:00:00.000Z,False,True,False,False,3801,LaVell Edwards Stadium,BYU,Utah State,fbs,fbs,FBS Independents,Mountain West,38,26
+401415625,2022,5,regular,2022-09-30T23:00:00.000Z,False,True,False,True,4728,TDECU Stadium,Houston,Tulane,fbs,fbs,American Athletic,American Athletic,24,27
+401426576,2022,5,regular,2022-09-30T23:30:00.000Z,False,True,False,True,3725,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,UTSA,fbs,fbs,Conference USA,Conference USA,30,45
+401415228,2022,5,regular,2022-10-01T00:00:00.000Z,False,True,False,True,3653,Albertsons Stadium,Boise State,San Diego State,fbs,fbs,Mountain West,Mountain West,35,13
+401404007,2022,5,regular,2022-10-01T02:30:00.000Z,False,True,False,True,1056,Rose Bowl,UCLA,Washington,fbs,fbs,Pac-12,Pac-12,40,32
+401415229,2022,5,regular,2022-10-01T03:00:00.000Z,False,True,False,True,6501,Allegiant Stadium,UNLV,New Mexico,fbs,fbs,Mountain West,Mountain West,31,20
+401404086,2022,5,regular,2022-10-01T16:00:00.000Z,False,True,False,True,3616,Amon G. Carter Stadium,TCU,Oklahoma,fbs,fbs,Big 12,Big 12,55,24
+401415227,2022,5,regular,2022-10-01T16:00:00.000Z,False,True,False,False,3713,Falcon Stadium,Air Force,Navy,fbs,fbs,Mountain West,American Athletic,13,10
+401403905,2022,5,regular,2022-10-01T16:00:00.000Z,False,True,False,True,3974,Vaught-Hemingway Stadium,Ole Miss,Kentucky,fbs,fbs,SEC,SEC,22,19
+401404137,2022,5,regular,2022-10-01T16:00:00.000Z,False,True,False,False,3841,Michie Stadium,Army,Georgia State,fbs,fbs,FBS Independents,Sun Belt,14,31
+401405099,2022,5,regular,2022-10-01T16:00:00.000Z,False,True,False,True,347,Camp Randall Stadium,Wisconsin,Illinois,fbs,fbs,Big Ten,Big Ten,10,34
+401411124,2022,5,regular,2022-10-01T16:00:00.000Z,False,True,False,True,3615,"Alumni Stadium (Chestnut Hill, MA)",Boston College,Louisville,fbs,fbs,ACC,ACC,34,33
+401415628,2022,5,regular,2022-10-01T16:00:00.000Z,False,True,False,True,3805,Simmons Bank Liberty Stadium,Memphis,Temple,fbs,fbs,American Athletic,American Athletic,24,3
+401405101,2022,5,regular,2022-10-01T16:00:00.000Z,False,True,False,True,3953,Huntington Bank Stadium,Minnesota,Purdue,fbs,fbs,Big Ten,Big Ten,10,20
+401404085,2022,5,regular,2022-10-01T16:00:00.000Z,False,True,False,True,3636,Bill Snyder Family Stadium,Kansas State,Texas Tech,fbs,fbs,Big 12,Big 12,37,28
+401405100,2022,5,regular,2022-10-01T16:00:00.000Z,False,True,False,True,3793,Kinnick Stadium,Iowa,Michigan,fbs,fbs,Big Ten,Big Ten,14,27
+401426338,2022,5,regular,2022-10-01T17:30:00.000Z,False,True,False,True,3651,Bridgeforth Stadium,James Madison,Texas State,fbs,fbs,Sun Belt,Sun Belt,40,13
+401414782,2022,5,regular,2022-10-01T18:00:00.000Z,False,True,False,False,3912,Rynearson Stadium,Eastern Michigan,Massachusetts,fbs,fbs,Mid-American,FBS Independents,20,13
+401404006,2022,5,regular,2022-10-01T18:00:00.000Z,False,True,False,True,587,Rice-Eccles Stadium,Utah,Oregon State,fbs,fbs,Pac-12,Pac-12,42,16
+401416608,2022,5,regular,2022-10-01T18:00:00.000Z,False,True,False,True,3919,Scheumann Stadium,Ball State,Northern Illinois,fbs,fbs,Mid-American,Mid-American,44,38
+401415626,2022,5,regular,2022-10-01T18:30:00.000Z,False,True,True,True,3715,FAU Stadium,South Florida,East Carolina,fbs,fbs,American Athletic,American Athletic,28,48
+401411128,2022,5,regular,2022-10-01T19:30:00.000Z,False,True,False,True,3787,Kenan Stadium,North Carolina,Virginia Tech,fbs,fbs,ACC,ACC,41,10
+401403902,2022,5,regular,2022-10-01T19:30:00.000Z,False,True,False,True,3887,Razorback Stadium,Arkansas,Alabama,fbs,fbs,SEC,SEC,26,49
+401405105,2022,5,regular,2022-10-01T19:30:00.000Z,False,True,False,True,3632,Beaver Stadium,Penn State,Northwestern,fbs,fbs,Big Ten,Big Ten,17,7
+401411127,2022,5,regular,2022-10-01T19:30:00.000Z,False,True,False,True,3697,Doak Campbell Stadium,Florida State,Wake Forest,fbs,fbs,ACC,ACC,21,31
+401426339,2022,5,regular,2022-10-01T19:30:00.000Z,False,True,False,False,3775,Joan C. Edwards Stadium,Marshall,Gardner-Webb,fbs,fcs,Sun Belt,Big South,28,7
+401404151,2022,5,regular,2022-10-01T19:30:00.000Z,False,True,False,False,3892,Pratt & Whitney Stadium,UConn,Fresno State,fbs,fbs,FBS Independents,Mountain West,19,14
+401421140,2022,5,regular,2022-10-01T19:30:00.000Z,False,True,False,False,3792,Kidd Brewer Stadium,App State,The Citadel,fbs,fcs,Sun Belt,Southern,49,0
+401416610,2022,5,regular,2022-10-01T19:30:00.000Z,False,True,False,True,3965,UB Stadium,Buffalo,Miami (OH),fbs,fbs,Mid-American,Mid-American,24,20
+401405104,2022,5,regular,2022-10-01T19:30:00.000Z,False,True,False,True,3861,Ohio Stadium,Ohio State,Rutgers,fbs,fbs,Big Ten,Big Ten,49,10
+401405103,2022,5,regular,2022-10-01T19:30:00.000Z,False,True,False,True,3665,SECU Stadium,Maryland,Michigan State,fbs,fbs,Big Ten,Big Ten,27,13
+401416611,2022,5,regular,2022-10-01T19:30:00.000Z,False,True,False,True,3696,Dix Stadium,Kent State,Ohio,fbs,fbs,Mid-American,Mid-American,31,24
+401416607,2022,5,regular,2022-10-01T19:30:00.000Z,False,True,False,True,3739,Glass Bowl,Toledo,Central Michigan,fbs,fbs,Mid-American,Mid-American,38,17
+401404083,2022,5,regular,2022-10-01T19:30:00.000Z,False,True,False,True,4727,McLane Stadium,Baylor,Oklahoma State,fbs,fbs,Big 12,Big 12,25,36
+401404084,2022,5,regular,2022-10-01T19:30:00.000Z,False,True,False,True,3833,Memorial Stadium,Kansas,Iowa State,fbs,fbs,Big 12,Big 12,14,11
+401416609,2022,5,regular,2022-10-01T19:30:00.000Z,False,True,False,True,3768,InfoCision Stadium,Akron,Bowling Green,fbs,fbs,Mid-American,Mid-American,28,31
+401426575,2022,5,regular,2022-10-01T20:00:00.000Z,False,True,False,True,3825,DATCU Stadium,North Texas,Florida Atlantic,fbs,fbs,Conference USA,Conference USA,45,28
+401403906,2022,5,regular,2022-10-01T20:00:00.000Z,False,True,False,True,3693,Davis Wade Stadium,Mississippi State,Texas A&M,fbs,fbs,SEC,SEC,42,24
+401426341,2022,5,regular,2022-10-01T21:00:00.000Z,False,True,False,True,3666,Cajun Field,Louisiana,South Alabama,fbs,fbs,Sun Belt,Sun Belt,17,20
+401411130,2022,5,regular,2022-10-01T21:00:00.000Z,False,True,False,False,1964,JMA Wireless Dome,Syracuse,Wagner,fbs,fcs,ACC,NEC,59,0
+401404004,2022,5,regular,2022-10-01T21:30:00.000Z,False,True,False,True,3820,Gesa Field,Washington State,California,fbs,fbs,Pac-12,Pac-12,28,9
+401416612,2022,5,regular,2022-10-01T22:00:00.000Z,False,True,False,False,3980,Waldo Stadium,Western Michigan,New Hampshire,fbs,fcs,Mid-American,CAA,44,7
+401426573,2022,5,regular,2022-10-01T22:00:00.000Z,False,True,False,True,4418,Jerry Richardson Stadium,Charlotte,UTEP,fbs,fbs,Conference USA,Conference USA,35,41
+401404161,2022,5,regular,2022-10-01T22:00:00.000Z,False,True,False,False,3918,S.B. Ballard Stadium,Old Dominion,Liberty,fbs,fbs,Sun Belt,FBS Independents,24,38
+401415627,2022,5,regular,2022-10-01T23:00:00.000Z,False,True,False,True,3674,Chapman Stadium,Tulsa,Cincinnati,fbs,fbs,American Athletic,American Athletic,21,31
+401403903,2022,5,regular,2022-10-01T23:00:00.000Z,False,True,False,True,3785,Jordan-Hare Stadium,Auburn,LSU,fbs,fbs,SEC,SEC,17,21
+401426337,2022,5,regular,2022-10-01T23:00:00.000Z,False,True,False,True,3654,Brooks Stadium (SC),Coastal Carolina,Georgia Southern,fbs,fbs,Sun Belt,Sun Belt,34,30
+401426578,2022,5,regular,2022-10-01T23:00:00.000Z,False,True,False,False,3796,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Troy,fbs,fbs,Conference USA,Sun Belt,27,34
+401426340,2022,5,regular,2022-10-01T23:00:00.000Z,False,True,False,True,3625,Centennial Bank Stadium,Arkansas State,UL Monroe,fbs,fbs,Sun Belt,Sun Belt,45,28
+401411126,2022,5,regular,2022-10-01T23:30:00.000Z,False,True,False,True,3982,Wallace Wade Stadium,Duke,Virginia,fbs,fbs,ACC,ACC,38,17
+401415230,2022,5,regular,2022-10-01T23:30:00.000Z,False,True,False,True,3984,War Memorial Stadium,Wyoming,San José State,fbs,fbs,Mountain West,Mountain West,16,33
+401403907,2022,5,regular,2022-10-01T23:30:00.000Z,False,True,False,True,3838,Memorial Stadium,Missouri,Georgia,fbs,fbs,SEC,SEC,22,26
+401405102,2022,5,regular,2022-10-01T23:30:00.000Z,False,True,False,True,3834,"Memorial Stadium (Lincoln, NE)",Nebraska,Indiana,fbs,fbs,Big Ten,Big Ten,35,21
+401426577,2022,5,regular,2022-10-01T23:30:00.000Z,False,True,False,True,3895,Rice Stadium,Rice,UAB,fbs,fbs,Conference USA,Conference USA,28,24
+401411125,2022,5,regular,2022-10-01T23:30:00.000Z,False,True,False,True,3836,"Memorial Stadium (Clemson, SC)",Clemson,NC State,fbs,fbs,ACC,ACC,30,20
+401404087,2022,5,regular,2022-10-01T23:30:00.000Z,False,True,False,True,3910,DKR-Texas Memorial Stadium,Texas,West Virginia,fbs,fbs,Big 12,Big 12,38,20
+401426574,2022,5,regular,2022-10-02T00:00:00.000Z,False,True,False,False,3601,Aggie Memorial Stadium,New Mexico State,Florida International,fbs,fbs,FBS Independents,Conference USA,7,21
+401411129,2022,5,regular,2022-10-02T00:00:00.000Z,False,True,False,True,3752,Acrisure Stadium,Pittsburgh,Georgia Tech,fbs,fbs,ACC,ACC,21,26
+401404002,2022,5,regular,2022-10-02T01:30:00.000Z,False,True,False,True,3619,Arizona Stadium,Arizona,Colorado,fbs,fbs,Pac-12,Pac-12,43,20
+401404003,2022,5,regular,2022-10-02T02:30:00.000Z,False,True,False,True,477,Los Angeles Memorial Coliseum,USC,Arizona State,fbs,fbs,Pac-12,Pac-12,42,25
+401404005,2022,5,regular,2022-10-02T03:00:00.000Z,False,True,False,True,3626,Autzen Stadium,Oregon,Stanford,fbs,fbs,Pac-12,Pac-12,45,27
+401403904,2022,5,regular,2022-10-02T16:00:00.000Z,False,True,False,False,3634,Ben Hill Griffin Stadium,Florida,Eastern Washington,fbs,fcs,SEC,Big Sky,52,17
+401415629,2022,6,regular,2022-10-05T23:00:00.000Z,False,True,False,True,3652,FBC Mortgage Stadium,UCF,SMU,fbs,fbs,American Athletic,American Athletic,41,19
+401405111,2022,6,regular,2022-10-07T23:00:00.000Z,False,True,False,True,6577,SHI Stadium,Rutgers,Nebraska,fbs,fbs,Big Ten,Big Ten,13,14
+401415630,2022,6,regular,2022-10-07T23:30:00.000Z,False,True,False,True,3805,Simmons Bank Liberty Stadium,Memphis,Houston,fbs,fbs,American Athletic,American Athletic,32,33
+401415236,2022,6,regular,2022-10-08T02:30:00.000Z,False,True,False,True,3935,CEFCU Stadium,San José State,UNLV,fbs,fbs,Mountain West,Mountain West,40,7
+401415233,2022,6,regular,2022-10-08T02:30:00.000Z,False,True,False,True,3816,Mackay Stadium,Nevada,Colorado State,fbs,fbs,Mountain West,Mountain West,14,17
+401403914,2022,6,regular,2022-10-08T16:00:00.000Z,False,True,False,True,3693,Davis Wade Stadium,Mississippi State,Arkansas,fbs,fbs,SEC,SEC,40,17
+401403913,2022,6,regular,2022-10-08T16:00:00.000Z,False,True,False,True,3958,Tiger Stadium (LA),LSU,Tennessee,fbs,fbs,SEC,SEC,13,40
+401403910,2022,6,regular,2022-10-08T16:00:00.000Z,False,True,False,True,3634,Ben Hill Griffin Stadium,Florida,Missouri,fbs,fbs,SEC,SEC,24,17
+401411136,2022,6,regular,2022-10-08T16:00:00.000Z,False,True,False,True,3923,Scott Stadium,Virginia,Louisville,fbs,fbs,ACC,ACC,17,34
+401404090,2022,6,regular,2022-10-08T16:00:00.000Z,False,True,True,True,499,Cotton Bowl,Oklahoma,Texas,fbs,fbs,Big 12,Big 12,0,49
+401416614,2022,6,regular,2022-10-08T16:00:00.000Z,False,True,False,True,3980,Waldo Stadium,Western Michigan,Eastern Michigan,fbs,fbs,Mid-American,Mid-American,23,45
+401405109,2022,6,regular,2022-10-08T16:00:00.000Z,False,True,False,True,3665,SECU Stadium,Maryland,Purdue,fbs,fbs,Big Ten,Big Ten,29,31
+401404089,2022,6,regular,2022-10-08T16:00:00.000Z,False,True,False,True,3833,Memorial Stadium,Kansas,TCU,fbs,fbs,Big 12,Big 12,31,38
+401405108,2022,6,regular,2022-10-08T16:00:00.000Z,False,True,False,True,3830,"Memorial Stadium (Bloomington, IN)",Indiana,Michigan,fbs,fbs,Big Ten,Big Ten,10,31
+401416617,2022,6,regular,2022-10-08T16:00:00.000Z,False,True,False,True,3700,Doyt L. Perry Stadium,Bowling Green,Buffalo,fbs,fbs,Mid-American,Mid-American,7,38
+401416616,2022,6,regular,2022-10-08T18:00:00.000Z,False,True,False,True,3876,Peden Stadium,Ohio,Akron,fbs,fbs,Mid-American,Mid-American,55,34
+401426342,2022,6,regular,2022-10-08T18:00:00.000Z,False,True,False,True,4246,Center Parc Stadium,Georgia State,Georgia Southern,fbs,fbs,Sun Belt,Sun Belt,41,33
+401415633,2022,6,regular,2022-10-08T18:30:00.000Z,False,True,False,True,3854,Nippert Stadium,Cincinnati,South Florida,fbs,fbs,American Athletic,American Athletic,28,24
+401405107,2022,6,regular,2022-10-08T19:30:00.000Z,False,True,False,True,3911,Ryan Field,Northwestern,Wisconsin,fbs,fbs,Big Ten,Big Ten,7,42
+401415632,2022,6,regular,2022-10-08T19:30:00.000Z,False,True,False,True,3852,Navy-Marine Corps Memorial Stadium,Navy,Tulsa,fbs,fbs,American Athletic,American Athletic,53,21
+401403911,2022,6,regular,2022-10-08T19:30:00.000Z,False,True,False,True,3917,Sanford Stadium,Georgia,Auburn,fbs,fbs,SEC,SEC,42,10
+401404091,2022,6,regular,2022-10-08T19:30:00.000Z,False,True,False,True,3646,Boone Pickens Stadium,Oklahoma State,Texas Tech,fbs,fbs,Big 12,Big 12,41,31
+401416615,2022,6,regular,2022-10-08T19:30:00.000Z,False,True,False,True,3764,Huskie Stadium,Northern Illinois,Toledo,fbs,fbs,Mid-American,Mid-American,32,52
+401404164,2022,6,regular,2022-10-08T19:30:00.000Z,False,True,False,True,3985,Warren McGuirk Alumni Stadium,Massachusetts,Liberty,fbs,fbs,FBS Independents,FBS Independents,24,42
+401415631,2022,6,regular,2022-10-08T19:30:00.000Z,False,True,False,True,4729,Yulman Stadium,Tulane,East Carolina,fbs,fbs,American Athletic,American Athletic,24,9
+401411135,2022,6,regular,2022-10-08T19:30:00.000Z,False,True,False,True,3752,Acrisure Stadium,Pittsburgh,Virginia Tech,fbs,fbs,ACC,ACC,45,29
+401416613,2022,6,regular,2022-10-08T19:30:00.000Z,False,True,False,True,3786,Kelly/Shorts Stadium,Central Michigan,Ball State,fbs,fbs,Mid-American,Mid-American,16,17
+401426581,2022,6,regular,2022-10-08T19:30:00.000Z,False,True,False,True,7221,Protective Stadium,UAB,Middle Tennessee,fbs,fbs,Conference USA,Conference USA,41,14
+401416618,2022,6,regular,2022-10-08T19:30:00.000Z,False,True,False,True,3996,Yager Stadium,Miami (OH),Kent State,fbs,fbs,Mid-American,Mid-American,27,24
+401404011,2022,6,regular,2022-10-08T19:30:00.000Z,False,True,False,True,1056,Rose Bowl,UCLA,Utah,fbs,fbs,Pac-12,Pac-12,42,32
+401411132,2022,6,regular,2022-10-08T20:00:00.000Z,False,True,False,True,721,Bobby Dodd Stadium,Georgia Tech,Duke,fbs,fbs,ACC,ACC,23,20
+401404009,2022,6,regular,2022-10-08T20:00:00.000Z,False,True,False,True,3947,Mountain America Stadium,Arizona State,Washington,fbs,fbs,Pac-12,Pac-12,45,38
+401411133,2022,6,regular,2022-10-08T20:00:00.000Z,False,True,False,True,3948,Hard Rock Stadium,Miami,North Carolina,fbs,fbs,ACC,ACC,24,27
+401405110,2022,6,regular,2022-10-08T20:00:00.000Z,False,True,False,True,3936,Spartan Stadium,Michigan State,Ohio State,fbs,fbs,Big Ten,Big Ten,20,49
+401403915,2022,6,regular,2022-10-08T20:00:00.000Z,False,True,False,True,3973,FirstBank Stadium,Vanderbilt,Ole Miss,fbs,fbs,SEC,SEC,28,52
+401426582,2022,6,regular,2022-10-08T22:00:00.000Z,False,True,False,True,3604,Alamodome,UTSA,Western Kentucky,fbs,fbs,Conference USA,Conference USA,31,28
+401415231,2022,6,regular,2022-10-08T23:00:00.000Z,False,True,False,True,3905,Maverik Stadium,Utah State,Air Force,fbs,fbs,Mountain West,Mountain West,34,27
+401426580,2022,6,regular,2022-10-08T23:00:00.000Z,False,True,False,True,3776,Joe Aillet Stadium,Louisiana Tech,UTEP,fbs,fbs,Conference USA,Conference USA,41,31
+401426345,2022,6,regular,2022-10-08T23:00:00.000Z,False,True,False,True,3644,Bobcat Stadium (TX),Texas State,App State,fbs,fbs,Sun Belt,Sun Belt,36,24
+401426579,2022,6,regular,2022-10-08T23:00:00.000Z,False,True,False,False,218,FIU Stadium,Florida International,UConn,fbs,fbs,Conference USA,FBS Independents,12,33
+401415234,2022,6,regular,2022-10-08T23:00:00.000Z,False,True,False,True,3971,University Stadium (NM),New Mexico,Wyoming,fbs,fbs,Mountain West,Mountain West,14,27
+401426343,2022,6,regular,2022-10-08T23:00:00.000Z,False,True,False,True,3625,Centennial Bank Stadium,Arkansas State,James Madison,fbs,fbs,Sun Belt,Sun Belt,20,42
+401426346,2022,6,regular,2022-10-08T23:00:00.000Z,False,True,False,True,3975,Veterans Memorial Stadium (AL),Troy,Southern Miss,fbs,fbs,Sun Belt,Sun Belt,27,10
+401404088,2022,6,regular,2022-10-08T23:30:00.000Z,False,True,False,True,3772,Jack Trice Stadium,Iowa State,Kansas State,fbs,fbs,Big 12,Big 12,9,10
+401405106,2022,6,regular,2022-10-08T23:30:00.000Z,False,True,False,True,3832,"Memorial Stadium (Champaign, IL)",Illinois,Iowa,fbs,fbs,Big Ten,Big Ten,9,6
+401404127,2022,6,regular,2022-10-08T23:30:00.000Z,False,True,True,True,6501,Allegiant Stadium,Notre Dame,BYU,fbs,fbs,FBS Independents,FBS Independents,28,20
+401404012,2022,6,regular,2022-10-08T23:30:00.000Z,False,True,False,True,477,Los Angeles Memorial Coliseum,USC,Washington State,fbs,fbs,Pac-12,Pac-12,30,14
+401411131,2022,6,regular,2022-10-08T23:30:00.000Z,False,True,False,True,3615,"Alumni Stadium (Chestnut Hill, MA)",Boston College,Clemson,fbs,fbs,ACC,ACC,3,31
+401403912,2022,6,regular,2022-10-08T23:30:00.000Z,False,True,False,True,3683,Kroger Field,Kentucky,South Carolina,fbs,fbs,SEC,SEC,14,24
+401404138,2022,6,regular,2022-10-08T23:30:00.000Z,False,True,False,False,3630,Allegacy Federal Credit Union Stadium,Wake Forest,Army,fbs,fbs,ACC,FBS Independents,45,10
+401403909,2022,6,regular,2022-10-09T00:00:00.000Z,False,True,False,True,3657,Bryant-Denny Stadium,Alabama,Texas A&M,fbs,fbs,SEC,SEC,24,20
+401411134,2022,6,regular,2022-10-09T00:00:00.000Z,False,True,False,True,3670,Carter-Finley Stadium,NC State,Florida State,fbs,fbs,ACC,ACC,19,17
+401426344,2022,6,regular,2022-10-09T00:00:00.000Z,False,True,False,True,3817,Malone Stadium,UL Monroe,Coastal Carolina,fbs,fbs,Sun Belt,Sun Belt,21,28
+401404008,2022,6,regular,2022-10-09T01:00:00.000Z,False,True,False,True,3619,Arizona Stadium,Arizona,Oregon,fbs,fbs,Pac-12,Pac-12,22,49
+401415232,2022,6,regular,2022-10-09T01:45:00.000Z,False,True,False,True,3653,Albertsons Stadium,Boise State,Fresno State,fbs,fbs,Mountain West,Mountain West,40,20
+401415235,2022,6,regular,2022-10-09T02:30:00.000Z,False,True,False,True,7311,Snapdragon Stadium,San Diego State,Hawai'i,fbs,fbs,Mountain West,Mountain West,16,14
+401404010,2022,6,regular,2022-10-09T03:00:00.000Z,False,True,False,True,3940,Stanford Stadium,Stanford,Oregon State,fbs,fbs,Pac-12,Pac-12,27,28
+401426347,2022,7,regular,2022-10-12T23:30:00.000Z,False,True,False,True,3775,Joan C. Edwards Stadium,Marshall,Louisiana,fbs,fbs,Sun Belt,Sun Belt,13,23
+401415634,2022,7,regular,2022-10-13T23:00:00.000Z,False,True,False,True,3652,FBC Mortgage Stadium,UCF,Temple,fbs,fbs,American Athletic,American Athletic,70,13
+401404092,2022,7,regular,2022-10-13T23:00:00.000Z,False,True,False,True,3842,Milan Puskar Stadium,West Virginia,Baylor,fbs,fbs,Big 12,Big 12,43,40
+401415635,2022,7,regular,2022-10-14T23:30:00.000Z,False,True,False,True,3735,Gerald J. Ford Stadium,SMU,Navy,fbs,fbs,American Athletic,American Athletic,40,34
+401426584,2022,7,regular,2022-10-15T00:00:00.000Z,False,True,False,True,218,FIU Stadium,Florida International,UTSA,fbs,fbs,Conference USA,Conference USA,10,30
+401404139,2022,7,regular,2022-10-15T16:00:00.000Z,False,True,False,False,3841,Michie Stadium,Army,Colgate,fbs,fcs,FBS Independents,Patriot,42,17
+401404094,2022,7,regular,2022-10-15T16:00:00.000Z,False,True,False,True,3835,"Memorial Stadium (Norman, OK)",Oklahoma,Kansas,fbs,fbs,Big 12,Big 12,52,42
+401405112,2022,7,regular,2022-10-15T16:00:00.000Z,False,True,False,True,3832,"Memorial Stadium (Champaign, IL)",Illinois,Minnesota,fbs,fbs,Big Ten,Big Ten,26,14
+401426348,2022,7,regular,2022-10-15T16:00:00.000Z,False,True,False,True,3654,Brooks Stadium (SC),Coastal Carolina,Old Dominion,fbs,fbs,Sun Belt,Sun Belt,21,49
+401416622,2022,7,regular,2022-10-15T16:00:00.000Z,False,True,False,True,3700,Doyt L. Perry Stadium,Bowling Green,Miami (OH),fbs,fbs,Mid-American,Mid-American,17,13
+401416619,2022,7,regular,2022-10-15T16:00:00.000Z,False,True,False,True,3768,InfoCision Stadium,Akron,Central Michigan,fbs,fbs,Mid-American,Mid-American,21,28
+401404093,2022,7,regular,2022-10-15T16:00:00.000Z,False,True,False,True,3910,DKR-Texas Memorial Stadium,Texas,Iowa State,fbs,fbs,Big 12,Big 12,24,21
+401405115,2022,7,regular,2022-10-15T16:00:00.000Z,False,True,False,True,3558,Michigan Stadium,Michigan,Penn State,fbs,fbs,Big Ten,Big Ten,41,17
+401403920,2022,7,regular,2022-10-15T16:00:00.000Z,False,True,False,True,3974,Vaught-Hemingway Stadium,Ole Miss,Auburn,fbs,fbs,SEC,SEC,48,34
+401411140,2022,7,regular,2022-10-15T16:30:00.000Z,False,True,False,True,3799,Lane Stadium,Virginia Tech,Miami,fbs,fbs,ACC,ACC,14,20
+401414783,2022,7,regular,2022-10-15T17:00:00.000Z,False,True,False,False,3985,Warren McGuirk Alumni Stadium,Massachusetts,Buffalo,fbs,fbs,FBS Independents,Mid-American,7,34
+401404014,2022,7,regular,2022-10-15T18:00:00.000Z,False,True,False,True,3726,Folsom Field,Colorado,California,fbs,fbs,Pac-12,Pac-12,20,13
+401404153,2022,7,regular,2022-10-15T18:00:00.000Z,False,True,False,False,3919,Scheumann Stadium,Ball State,UConn,fbs,fbs,Mid-American,FBS Independents,25,21
+401416620,2022,7,regular,2022-10-15T19:30:00.000Z,False,True,False,True,3912,Rynearson Stadium,Eastern Michigan,Northern Illinois,fbs,fbs,Mid-American,Mid-American,10,39
+401426583,2022,7,regular,2022-10-15T19:30:00.000Z,False,True,False,True,7221,Protective Stadium,UAB,Charlotte,fbs,fbs,Conference USA,Conference USA,34,20
+401416623,2022,7,regular,2022-10-15T19:30:00.000Z,False,True,False,True,3980,Waldo Stadium,Western Michigan,Ohio,fbs,fbs,Mid-American,Mid-American,14,33
+401403921,2022,7,regular,2022-10-15T19:30:00.000Z,False,True,False,True,3853,Neyland Stadium,Tennessee,Alabama,fbs,fbs,SEC,SEC,52,49
+401405114,2022,7,regular,2022-10-15T19:30:00.000Z,False,True,False,True,3830,"Memorial Stadium (Bloomington, IN)",Indiana,Maryland,fbs,fbs,Big Ten,Big Ten,33,38
+401426587,2022,7,regular,2022-10-15T19:30:00.000Z,False,True,False,True,3725,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Western Kentucky,fbs,fbs,Conference USA,Conference USA,17,35
+401404095,2022,7,regular,2022-10-15T19:30:00.000Z,False,True,False,True,3616,Amon G. Carter Stadium,TCU,Oklahoma State,fbs,fbs,Big 12,Big 12,43,40
+401403916,2022,7,regular,2022-10-15T19:30:00.000Z,False,True,False,False,3801,LaVell Edwards Stadium,BYU,Arkansas,fbs,fbs,FBS Independents,SEC,35,52
+401416621,2022,7,regular,2022-10-15T19:30:00.000Z,False,True,False,True,3739,Glass Bowl,Toledo,Kent State,fbs,fbs,Mid-American,Mid-American,52,31
+401411139,2022,7,regular,2022-10-15T19:30:00.000Z,False,True,False,True,1964,JMA Wireless Dome,Syracuse,NC State,fbs,fbs,ACC,ACC,24,9
+401426352,2022,7,regular,2022-10-15T19:30:00.000Z,False,True,False,True,3975,Veterans Memorial Stadium (AL),Troy,Texas State,fbs,fbs,Sun Belt,Sun Belt,17,14
+401404162,2022,7,regular,2022-10-15T19:30:00.000Z,False,True,False,False,3992,Williams Stadium (VA),Liberty,Gardner-Webb,fbs,fcs,FBS Independents,Big South,21,20
+401403918,2022,7,regular,2022-10-15T19:30:00.000Z,False,True,False,True,3917,Sanford Stadium,Georgia,Vanderbilt,fbs,fbs,SEC,SEC,55,0
+401415636,2022,7,regular,2022-10-15T20:00:00.000Z,False,True,False,True,3886,Raymond James Stadium,South Florida,Tulane,fbs,fbs,American Athletic,American Athletic,31,45
+401426349,2022,7,regular,2022-10-15T20:00:00.000Z,False,True,False,True,3608,Allen E. Paulson Stadium,Georgia Southern,James Madison,fbs,fbs,Sun Belt,Sun Belt,45,38
+401405116,2022,7,regular,2022-10-15T20:00:00.000Z,False,True,False,True,3936,Spartan Stadium,Michigan State,Wisconsin,fbs,fbs,Big Ten,Big Ten,34,28
+401426586,2022,7,regular,2022-10-15T20:00:00.000Z,False,True,False,True,3825,DATCU Stadium,North Texas,Louisiana Tech,fbs,fbs,Conference USA,Conference USA,47,27
+401404013,2022,7,regular,2022-10-15T21:30:00.000Z,False,True,False,True,3765,Husky Stadium,Washington,Arizona,fbs,fbs,Pac-12,Pac-12,49,39
+401426585,2022,7,regular,2022-10-15T22:00:00.000Z,False,True,False,True,3715,FAU Stadium,Florida Atlantic,Rice,fbs,fbs,Conference USA,Conference USA,17,14
+401403917,2022,7,regular,2022-10-15T23:00:00.000Z,False,True,False,True,3634,Ben Hill Griffin Stadium,Florida,LSU,fbs,fbs,SEC,SEC,35,45
+401426350,2022,7,regular,2022-10-15T23:00:00.000Z,False,True,False,True,6526,Hancock Whitney Stadium,South Alabama,UL Monroe,fbs,fbs,Sun Belt,Sun Belt,41,34
+401426351,2022,7,regular,2022-10-15T23:00:00.000Z,False,True,False,True,3815,M. M. Roberts Stadium,Southern Miss,Arkansas State,fbs,fbs,Sun Belt,Sun Belt,20,19
+401415238,2022,7,regular,2022-10-15T23:00:00.000Z,False,True,False,True,5388,Canvas Stadium,Colorado State,Utah State,fbs,fbs,Mountain West,Mountain West,13,17
+401415637,2022,7,regular,2022-10-15T23:30:00.000Z,False,True,False,True,3699,Dowdy-Ficklen Stadium,East Carolina,Memphis,fbs,fbs,American Athletic,American Athletic,47,45
+401411138,2022,7,regular,2022-10-15T23:30:00.000Z,False,True,False,True,3697,Doak Campbell Stadium,Florida State,Clemson,fbs,fbs,ACC,ACC,28,34
+401404016,2022,7,regular,2022-10-15T23:30:00.000Z,False,True,False,False,3855,Notre Dame Stadium,Notre Dame,Stanford,fbs,fbs,FBS Independents,Pac-12,14,16
+401403919,2022,7,regular,2022-10-15T23:30:00.000Z,False,True,False,True,3683,Kroger Field,Kentucky,Mississippi State,fbs,fbs,SEC,SEC,27,17
+401405113,2022,7,regular,2022-10-15T23:30:00.000Z,False,True,False,True,3907,Ross-Ade Stadium,Purdue,Nebraska,fbs,fbs,Big Ten,Big Ten,43,37
+401411137,2022,7,regular,2022-10-16T00:00:00.000Z,False,True,False,True,3982,Wallace Wade Stadium,Duke,North Carolina,fbs,fbs,ACC,ACC,35,38
+401409239,2022,7,regular,2022-10-16T00:00:00.000Z,False,True,False,False,3601,Aggie Memorial Stadium,New Mexico State,New Mexico,fbs,fbs,FBS Independents,Mountain West,21,9
+401404017,2022,7,regular,2022-10-16T00:00:00.000Z,False,True,False,True,587,Rice-Eccles Stadium,Utah,USC,fbs,fbs,Pac-12,Pac-12,43,42
+401404015,2022,7,regular,2022-10-16T01:00:00.000Z,False,True,False,True,3893,Reser Stadium,Oregon State,Washington State,fbs,fbs,Pac-12,Pac-12,24,10
+401415237,2022,7,regular,2022-10-16T02:30:00.000Z,False,True,False,True,6501,Allegiant Stadium,UNLV,Air Force,fbs,fbs,Mountain West,Mountain West,7,42
+401415239,2022,7,regular,2022-10-16T02:45:00.000Z,False,True,False,True,3660,Valley Children's Stadium,Fresno State,San José State,fbs,fbs,Mountain West,Mountain West,17,10
+401415240,2022,7,regular,2022-10-16T03:59:00.000Z,False,True,False,True,7220,Clarence T.C. Ching Athletics Complex,Hawai'i,Nevada,fbs,fbs,Mountain West,Mountain West,31,16
+401426353,2022,8,regular,2022-10-19T23:30:00.000Z,False,True,False,True,3792,Kidd Brewer Stadium,App State,Georgia State,fbs,fbs,Sun Belt,Sun Belt,42,17
+401426354,2022,8,regular,2022-10-20T23:30:00.000Z,False,True,False,True,6526,Hancock Whitney Stadium,South Alabama,Troy,fbs,fbs,Sun Belt,Sun Belt,6,10
+401411141,2022,8,regular,2022-10-20T23:30:00.000Z,False,True,False,True,721,Bobby Dodd Stadium,Georgia Tech,Virginia,fbs,fbs,ACC,ACC,9,16
+401415638,2022,8,regular,2022-10-21T23:30:00.000Z,False,True,False,True,3806,Lincoln Financial Field,Temple,Tulsa,fbs,fbs,American Athletic,American Athletic,16,27
+401426592,2022,8,regular,2022-10-22T00:00:00.000Z,False,True,False,True,3796,Houchens Industries-L.T. Smith Stadium,Western Kentucky,UAB,fbs,fbs,Conference USA,Conference USA,20,17
+401411142,2022,8,regular,2022-10-22T16:00:00.000Z,False,True,False,True,3836,"Memorial Stadium (Clemson, SC)",Clemson,Syracuse,fbs,fbs,ACC,ACC,27,21
+401415640,2022,8,regular,2022-10-22T16:00:00.000Z,False,True,False,True,3852,Navy-Marine Corps Memorial Stadium,Navy,Houston,fbs,fbs,American Athletic,American Athletic,20,38
+401403926,2022,8,regular,2022-10-22T16:00:00.000Z,False,True,False,False,3853,Neyland Stadium,Tennessee,UT Martin,fbs,fcs,SEC,OVC,65,24
+401405119,2022,8,regular,2022-10-22T16:00:00.000Z,False,True,False,True,3861,Ohio Stadium,Ohio State,Iowa,fbs,fbs,Big Ten,Big Ten,54,10
+401416628,2022,8,regular,2022-10-22T16:00:00.000Z,False,True,False,True,3696,Dix Stadium,Kent State,Akron,fbs,fbs,Mid-American,Mid-American,33,27
+401404140,2022,8,regular,2022-10-22T16:00:00.000Z,False,True,False,False,3841,Michie Stadium,Army,UL Monroe,fbs,fbs,FBS Independents,Sun Belt,48,24
+401404096,2022,8,regular,2022-10-22T16:00:00.000Z,False,True,False,True,4727,McLane Stadium,Baylor,Kansas,fbs,fbs,Big 12,Big 12,35,23
+401415641,2022,8,regular,2022-10-22T16:00:00.000Z,False,True,False,True,3735,Gerald J. Ford Stadium,SMU,Cincinnati,fbs,fbs,American Athletic,American Athletic,27,29
+401405121,2022,8,regular,2022-10-22T16:00:00.000Z,False,True,False,True,6577,SHI Stadium,Rutgers,Indiana,fbs,fbs,Big Ten,Big Ten,24,17
+401411144,2022,8,regular,2022-10-22T16:30:00.000Z,False,True,False,True,3948,Hard Rock Stadium,Miami,Duke,fbs,fbs,ACC,ACC,21,45
+401416626,2022,8,regular,2022-10-22T17:00:00.000Z,False,True,False,True,3965,UB Stadium,Buffalo,Toledo,fbs,fbs,Mid-American,Mid-American,34,27
+401416629,2022,8,regular,2022-10-22T17:00:00.000Z,False,True,False,True,3786,Kelly/Shorts Stadium,Central Michigan,Bowling Green,fbs,fbs,Mid-American,Mid-American,18,34
+401416625,2022,8,regular,2022-10-22T18:00:00.000Z,False,True,False,True,3876,Peden Stadium,Ohio,Northern Illinois,fbs,fbs,Mid-American,Mid-American,24,17
+401416624,2022,8,regular,2022-10-22T18:00:00.000Z,False,True,False,True,3919,Scheumann Stadium,Ball State,Eastern Michigan,fbs,fbs,Mid-American,Mid-American,16,20
+401404128,2022,8,regular,2022-10-22T18:30:00.000Z,False,True,False,False,3855,Notre Dame Stadium,Notre Dame,UNLV,fbs,fbs,FBS Independents,Mountain West,44,21
+401404099,2022,8,regular,2022-10-22T19:00:00.000Z,False,True,False,True,3784,Jones AT&T Stadium,Texas Tech,West Virginia,fbs,fbs,Big 12,Big 12,48,10
+401426590,2022,8,regular,2022-10-22T19:00:00.000Z,False,True,False,True,3776,Joe Aillet Stadium,Louisiana Tech,Rice,fbs,fbs,Conference USA,Conference USA,41,42
+401426355,2022,8,regular,2022-10-22T19:30:00.000Z,False,True,False,True,3651,Bridgeforth Stadium,James Madison,Marshall,fbs,fbs,Sun Belt,Sun Belt,12,26
+401404163,2022,8,regular,2022-10-22T19:30:00.000Z,False,True,False,True,3992,Williams Stadium (VA),Liberty,BYU,fbs,fbs,FBS Independents,FBS Independents,41,14
+401426356,2022,8,regular,2022-10-22T19:30:00.000Z,False,True,False,True,3918,S.B. Ballard Stadium,Old Dominion,Georgia Southern,fbs,fbs,Sun Belt,Sun Belt,23,28
+401415639,2022,8,regular,2022-10-22T19:30:00.000Z,False,True,False,True,4729,Yulman Stadium,Tulane,Memphis,fbs,fbs,American Athletic,American Athletic,38,28
+401411145,2022,8,regular,2022-10-22T19:30:00.000Z,False,True,False,True,3630,Allegacy Federal Credit Union Stadium,Wake Forest,Boston College,fbs,fbs,ACC,ACC,43,15
+401426591,2022,8,regular,2022-10-22T19:30:00.000Z,False,True,False,True,3604,Alamodome,UTSA,North Texas,fbs,fbs,Conference USA,Conference USA,31,27
+401405118,2022,8,regular,2022-10-22T19:30:00.000Z,False,True,False,True,3665,SECU Stadium,Maryland,Northwestern,fbs,fbs,Big Ten,Big Ten,31,24
+401405117,2022,8,regular,2022-10-22T19:30:00.000Z,False,True,False,True,347,Camp Randall Stadium,Wisconsin,Purdue,fbs,fbs,Big Ten,Big Ten,35,24
+401404021,2022,8,regular,2022-10-22T19:30:00.000Z,False,True,False,True,3626,Autzen Stadium,Oregon,UCLA,fbs,fbs,Pac-12,Pac-12,45,30
+401416627,2022,8,regular,2022-10-22T19:30:00.000Z,False,True,False,True,3996,Yager Stadium,Miami (OH),Western Michigan,fbs,fbs,Mid-American,Mid-American,10,16
+401404098,2022,8,regular,2022-10-22T19:30:00.000Z,False,True,False,True,3646,Boone Pickens Stadium,Oklahoma State,Texas,fbs,fbs,Big 12,Big 12,41,34
+401403923,2022,8,regular,2022-10-22T19:30:00.000Z,False,True,False,True,3958,Tiger Stadium (LA),LSU,Ole Miss,fbs,fbs,SEC,SEC,45,20
+401426588,2022,8,regular,2022-10-22T19:30:00.000Z,False,True,False,True,4418,Jerry Richardson Stadium,Charlotte,Florida International,fbs,fbs,Conference USA,Conference USA,15,34
+401404018,2022,8,regular,2022-10-22T20:00:00.000Z,False,True,False,True,3940,Stanford Stadium,Stanford,Arizona State,fbs,fbs,Pac-12,Pac-12,15,14
+401415242,2022,8,regular,2022-10-22T20:00:00.000Z,False,True,False,True,5388,Canvas Stadium,Colorado State,Hawai'i,fbs,fbs,Mountain West,Mountain West,17,13
+401426589,2022,8,regular,2022-10-22T20:00:00.000Z,False,True,False,True,3946,Sun Bowl,UTEP,Florida Atlantic,fbs,fbs,Conference USA,Conference USA,24,21
+401403924,2022,8,regular,2022-10-22T20:00:00.000Z,False,True,False,True,3838,Memorial Stadium,Missouri,Vanderbilt,fbs,fbs,SEC,SEC,17,14
+401426358,2022,8,regular,2022-10-22T21:00:00.000Z,False,True,False,True,3644,Bobcat Stadium (TX),Texas State,Southern Miss,fbs,fbs,Sun Belt,Sun Belt,14,20
+401426357,2022,8,regular,2022-10-22T21:00:00.000Z,False,True,False,True,3666,Cajun Field,Louisiana,Arkansas State,fbs,fbs,Sun Belt,Sun Belt,38,18
+401415243,2022,8,regular,2022-10-22T22:30:00.000Z,False,True,False,True,3971,University Stadium (NM),New Mexico,Fresno State,fbs,fbs,Mountain West,Mountain West,9,41
+401403922,2022,8,regular,2022-10-22T23:00:00.000Z,False,True,False,True,3657,Bryant-Denny Stadium,Alabama,Mississippi State,fbs,fbs,SEC,SEC,30,6
+401415241,2022,8,regular,2022-10-22T23:00:00.000Z,False,True,False,True,3713,Falcon Stadium,Air Force,Boise State,fbs,fbs,Mountain West,Mountain West,14,19
+401415642,2022,8,regular,2022-10-22T23:30:00.000Z,False,True,False,True,3699,Dowdy-Ficklen Stadium,East Carolina,UCF,fbs,fbs,American Athletic,American Athletic,34,13
+401403925,2022,8,regular,2022-10-22T23:30:00.000Z,False,True,False,True,3994,Williams-Brice Stadium,South Carolina,Texas A&M,fbs,fbs,SEC,SEC,30,24
+401405120,2022,8,regular,2022-10-22T23:30:00.000Z,False,True,False,True,3632,Beaver Stadium,Penn State,Minnesota,fbs,fbs,Big Ten,Big Ten,45,17
+401411143,2022,8,regular,2022-10-23T00:00:00.000Z,False,True,False,True,3873,L&N Federal Credit Union Stadium,Louisville,Pittsburgh,fbs,fbs,ACC,ACC,24,10
+401404020,2022,8,regular,2022-10-23T00:00:00.000Z,False,True,False,True,3893,Reser Stadium,Oregon State,Colorado,fbs,fbs,Pac-12,Pac-12,42,9
+401404097,2022,8,regular,2022-10-23T00:00:00.000Z,False,True,False,True,3616,Amon G. Carter Stadium,TCU,Kansas State,fbs,fbs,Big 12,Big 12,38,28
+401415244,2022,8,regular,2022-10-23T01:45:00.000Z,False,True,False,True,3984,War Memorial Stadium,Wyoming,Utah State,fbs,fbs,Mountain West,Mountain West,28,14
+401404019,2022,8,regular,2022-10-23T02:30:00.000Z,False,True,False,True,3831,California Memorial Stadium,California,Washington,fbs,fbs,Pac-12,Pac-12,21,28
+401415245,2022,8,regular,2022-10-23T02:30:00.000Z,False,True,False,True,3816,Mackay Stadium,Nevada,San Diego State,fbs,fbs,Mountain West,Mountain West,7,23
+401411146,2022,9,regular,2022-10-27T23:30:00.000Z,False,True,False,True,3670,Carter-Finley Stadium,NC State,Virginia Tech,fbs,fbs,ACC,ACC,22,21
+401426359,2022,9,regular,2022-10-27T23:30:00.000Z,False,True,False,True,3815,M. M. Roberts Stadium,Southern Miss,Louisiana,fbs,fbs,Sun Belt,Sun Belt,39,24
+401404026,2022,9,regular,2022-10-28T02:00:00.000Z,False,True,False,True,3820,Gesa Field,Washington State,Utah,fbs,fbs,Pac-12,Pac-12,17,21
+401415645,2022,9,regular,2022-10-29T00:00:00.000Z,False,True,False,False,3801,LaVell Edwards Stadium,BYU,East Carolina,fbs,fbs,FBS Independents,American Athletic,24,27
+401426594,2022,9,regular,2022-10-29T00:00:00.000Z,False,True,False,True,218,FIU Stadium,Florida International,Louisiana Tech,fbs,fbs,Conference USA,Conference USA,42,34
+401404100,2022,9,regular,2022-10-29T16:00:00.000Z,False,True,False,True,3772,Jack Trice Stadium,Iowa State,Oklahoma,fbs,fbs,Big 12,Big 12,13,27
+401404154,2022,9,regular,2022-10-29T16:00:00.000Z,False,True,False,False,3892,Pratt & Whitney Stadium,UConn,Boston College,fbs,fbs,FBS Independents,ACC,13,3
+401405126,2022,9,regular,2022-10-29T16:00:00.000Z,False,True,False,True,3632,Beaver Stadium,Penn State,Ohio State,fbs,fbs,Big Ten,Big Ten,31,44
+401415643,2022,9,regular,2022-10-29T16:00:00.000Z,False,True,False,True,4728,TDECU Stadium,Houston,South Florida,fbs,fbs,American Athletic,American Athletic,42,27
+401403927,2022,9,regular,2022-10-29T16:00:00.000Z,False,True,False,True,3785,Jordan-Hare Stadium,Auburn,Arkansas,fbs,fbs,SEC,SEC,27,41
+401411147,2022,9,regular,2022-10-29T16:00:00.000Z,False,True,False,True,3697,Doak Campbell Stadium,Florida State,Georgia Tech,fbs,fbs,ACC,ACC,41,16
+401416630,2022,9,regular,2022-10-29T16:00:00.000Z,False,True,False,True,3912,Rynearson Stadium,Eastern Michigan,Toledo,fbs,fbs,Mid-American,Mid-American,24,27
+401416631,2022,9,regular,2022-10-29T16:00:00.000Z,False,True,False,True,3768,InfoCision Stadium,Akron,Miami (OH),fbs,fbs,Mid-American,Mid-American,9,27
+401404129,2022,9,regular,2022-10-29T16:00:00.000Z,False,True,False,False,1964,JMA Wireless Dome,Syracuse,Notre Dame,fbs,fbs,ACC,FBS Independents,24,41
+401404103,2022,9,regular,2022-10-29T16:00:00.000Z,False,True,False,True,3842,Milan Puskar Stadium,West Virginia,TCU,fbs,fbs,Big 12,Big 12,31,41
+401411150,2022,9,regular,2022-10-29T16:30:00.000Z,False,True,False,True,3923,Scott Stadium,Virginia,Miami,fbs,fbs,ACC,ACC,12,14
+401426593,2022,9,regular,2022-10-29T18:00:00.000Z,False,True,False,True,3895,Rice Stadium,Rice,Charlotte,fbs,fbs,Conference USA,Conference USA,23,56
+401405123,2022,9,regular,2022-10-29T18:30:00.000Z,False,True,False,True,3953,Huntington Bank Stadium,Minnesota,Rutgers,fbs,fbs,Big Ten,Big Ten,31,0
+401426361,2022,9,regular,2022-10-29T19:00:00.000Z,False,True,False,True,4246,Center Parc Stadium,Georgia State,Old Dominion,fbs,fbs,Sun Belt,Sun Belt,31,17
+401411148,2022,9,regular,2022-10-29T19:30:00.000Z,False,True,False,True,3873,L&N Federal Credit Union Stadium,Louisville,Wake Forest,fbs,fbs,ACC,ACC,48,21
+401404102,2022,9,regular,2022-10-29T19:30:00.000Z,False,True,False,True,3636,Bill Snyder Family Stadium,Kansas State,Oklahoma State,fbs,fbs,Big 12,Big 12,48,0
+401405124,2022,9,regular,2022-10-29T19:30:00.000Z,False,True,False,True,3834,"Memorial Stadium (Lincoln, NE)",Nebraska,Illinois,fbs,fbs,Big Ten,Big Ten,9,26
+401404024,2022,9,regular,2022-10-29T19:30:00.000Z,False,True,False,True,3831,California Memorial Stadium,California,Oregon,fbs,fbs,Pac-12,Pac-12,24,42
+401415646,2022,9,regular,2022-10-29T19:30:00.000Z,False,True,False,True,3852,Navy-Marine Corps Memorial Stadium,Navy,Temple,fbs,fbs,American Athletic,American Athletic,27,20
+401415647,2022,9,regular,2022-10-29T19:30:00.000Z,False,True,False,True,3674,Chapman Stadium,Tulsa,SMU,fbs,fbs,American Athletic,American Athletic,34,45
+401426597,2022,9,regular,2022-10-29T19:30:00.000Z,False,True,False,True,3796,Houchens Industries-L.T. Smith Stadium,Western Kentucky,North Texas,fbs,fbs,Conference USA,Conference USA,13,40
+401409242,2022,9,regular,2022-10-29T19:30:00.000Z,False,True,False,True,3985,Warren McGuirk Alumni Stadium,Massachusetts,New Mexico State,fbs,fbs,FBS Independents,FBS Independents,13,23
+401405122,2022,9,regular,2022-10-29T19:30:00.000Z,False,True,False,True,3793,Kinnick Stadium,Iowa,Northwestern,fbs,fbs,Big Ten,Big Ten,33,13
+401415644,2022,9,regular,2022-10-29T19:30:00.000Z,False,True,False,True,3652,FBC Mortgage Stadium,UCF,Cincinnati,fbs,fbs,American Athletic,American Athletic,25,21
+401426360,2022,9,regular,2022-10-29T19:30:00.000Z,False,True,False,False,3792,Kidd Brewer Stadium,App State,Robert Morris,fbs,fcs,Sun Belt,Big South,42,3
+401403928,2022,9,regular,2022-10-29T19:30:00.000Z,False,True,True,True,3712,EverBank Stadium,Georgia,Florida,fbs,fbs,SEC,SEC,42,20
+401426363,2022,9,regular,2022-10-29T20:00:00.000Z,False,True,False,True,3625,Centennial Bank Stadium,Arkansas State,South Alabama,fbs,fbs,Sun Belt,Sun Belt,3,31
+401403929,2022,9,regular,2022-10-29T20:00:00.000Z,False,True,False,True,3994,Williams-Brice Stadium,South Carolina,Missouri,fbs,fbs,SEC,SEC,10,23
+401415246,2022,9,regular,2022-10-29T23:00:00.000Z,False,True,False,True,3653,Albertsons Stadium,Boise State,Colorado State,fbs,fbs,Mountain West,Mountain West,49,10
+401426595,2022,9,regular,2022-10-29T23:00:00.000Z,False,True,False,True,3715,FAU Stadium,Florida Atlantic,UAB,fbs,fbs,Conference USA,Conference USA,24,17
+401426362,2022,9,regular,2022-10-29T23:00:00.000Z,False,True,False,True,3775,Joan C. Edwards Stadium,Marshall,Coastal Carolina,fbs,fbs,Sun Belt,Sun Belt,13,24
+401404022,2022,9,regular,2022-10-29T23:00:00.000Z,False,True,False,True,3619,Arizona Stadium,Arizona,USC,fbs,fbs,Pac-12,Pac-12,37,45
+401403930,2022,9,regular,2022-10-29T23:00:00.000Z,False,True,False,True,3853,Neyland Stadium,Tennessee,Kentucky,fbs,fbs,SEC,SEC,44,6
+401404023,2022,9,regular,2022-10-29T23:30:00.000Z,False,True,False,True,3726,Folsom Field,Colorado,Arizona State,fbs,fbs,Pac-12,Pac-12,34,42
+401405125,2022,9,regular,2022-10-29T23:30:00.000Z,False,True,False,True,3558,Michigan Stadium,Michigan,Michigan State,fbs,fbs,Big Ten,Big Ten,29,7
+401403931,2022,9,regular,2022-10-29T23:30:00.000Z,False,True,False,True,3795,Kyle Field,Texas A&M,Ole Miss,fbs,fbs,SEC,SEC,28,31
+401404101,2022,9,regular,2022-10-29T23:30:00.000Z,False,True,False,True,3784,Jones AT&T Stadium,Texas Tech,Baylor,fbs,fbs,Big 12,Big 12,17,45
+401411149,2022,9,regular,2022-10-30T00:00:00.000Z,False,True,False,True,3787,Kenan Stadium,North Carolina,Pittsburgh,fbs,fbs,ACC,ACC,42,24
+401426596,2022,9,regular,2022-10-30T01:00:00.000Z,False,True,False,True,3946,Sun Bowl,UTEP,Middle Tennessee,fbs,fbs,Conference USA,Conference USA,13,24
+401404025,2022,9,regular,2022-10-30T02:30:00.000Z,False,True,False,True,1056,Rose Bowl,UCLA,Stanford,fbs,fbs,Pac-12,Pac-12,38,13
+401415248,2022,9,regular,2022-10-30T02:30:00.000Z,False,True,False,True,3660,Valley Children's Stadium,Fresno State,San Diego State,fbs,fbs,Mountain West,Mountain West,32,28
+401415249,2022,9,regular,2022-10-30T02:30:00.000Z,False,True,False,True,3935,CEFCU Stadium,San José State,Nevada,fbs,fbs,Mountain West,Mountain West,35,28
+401415247,2022,9,regular,2022-10-30T03:59:00.000Z,False,True,False,True,7220,Clarence T.C. Ching Athletics Complex,Hawai'i,Wyoming,fbs,fbs,Mountain West,Mountain West,20,27
+401416632,2022,10,regular,2022-11-01T23:00:00.000Z,False,True,False,True,3696,Dix Stadium,Kent State,Ball State,fbs,fbs,Mid-American,Mid-American,20,27
+401416633,2022,10,regular,2022-11-01T23:30:00.000Z,False,True,False,True,3876,Peden Stadium,Ohio,Buffalo,fbs,fbs,Mid-American,Mid-American,45,24
+401416634,2022,10,regular,2022-11-02T23:00:00.000Z,False,True,False,True,3764,Huskie Stadium,Northern Illinois,Central Michigan,fbs,fbs,Mid-American,Mid-American,22,35
+401416635,2022,10,regular,2022-11-02T23:00:00.000Z,False,True,False,True,3700,Doyt L. Perry Stadium,Bowling Green,Western Michigan,fbs,fbs,Mid-American,Mid-American,13,9
+401426601,2022,10,regular,2022-11-03T23:00:00.000Z,False,True,False,True,3895,Rice Stadium,Rice,UTEP,fbs,fbs,Conference USA,Conference USA,37,30
+401426364,2022,10,regular,2022-11-03T23:30:00.000Z,False,True,False,True,3654,Brooks Stadium (SC),Coastal Carolina,App State,fbs,fbs,Sun Belt,Sun Belt,35,28
+401404155,2022,10,regular,2022-11-04T23:00:00.000Z,False,True,False,False,3892,Pratt & Whitney Stadium,UConn,Massachusetts,fbs,fbs,FBS Independents,FBS Independents,27,10
+401411151,2022,10,regular,2022-11-04T23:00:00.000Z,False,True,False,True,3615,"Alumni Stadium (Chestnut Hill, MA)",Boston College,Duke,fbs,fbs,ACC,ACC,31,38
+401404031,2022,10,regular,2022-11-05T02:30:00.000Z,False,True,False,True,3765,Husky Stadium,Washington,Oregon State,fbs,fbs,Pac-12,Pac-12,24,21
+401404141,2022,10,regular,2022-11-05T15:30:00.000Z,False,True,True,False,4258,Dignity Health Sports Park,Army,Air Force,fbs,fbs,FBS Independents,Mountain West,7,13
+401403936,2022,10,regular,2022-11-05T16:00:00.000Z,False,True,False,True,3838,Memorial Stadium,Missouri,Kentucky,fbs,fbs,SEC,SEC,17,21
+401405131,2022,10,regular,2022-11-05T16:00:00.000Z,False,True,False,True,347,Camp Randall Stadium,Wisconsin,Maryland,fbs,fbs,Big Ten,Big Ten,23,10
+401415649,2022,10,regular,2022-11-05T16:00:00.000Z,False,True,False,True,3674,Chapman Stadium,Tulsa,Tulane,fbs,fbs,American Athletic,American Athletic,13,27
+401411156,2022,10,regular,2022-11-05T16:00:00.000Z,False,True,False,True,3923,Scott Stadium,Virginia,North Carolina,fbs,fbs,ACC,ACC,28,31
+401405128,2022,10,regular,2022-11-05T16:00:00.000Z,False,True,False,True,3834,"Memorial Stadium (Lincoln, NE)",Nebraska,Minnesota,fbs,fbs,Big Ten,Big Ten,13,20
+401405129,2022,10,regular,2022-11-05T16:00:00.000Z,False,True,False,True,3911,Ryan Field,Northwestern,Ohio State,fbs,fbs,Big Ten,Big Ten,7,21
+401403937,2022,10,regular,2022-11-05T16:00:00.000Z,False,True,False,True,3795,Kyle Field,Texas A&M,Florida,fbs,fbs,SEC,SEC,24,41
+401405130,2022,10,regular,2022-11-05T16:00:00.000Z,False,True,False,True,3907,Ross-Ade Stadium,Purdue,Iowa,fbs,fbs,Big Ten,Big Ten,3,24
+401426598,2022,10,regular,2022-11-05T16:00:00.000Z,False,True,False,True,4418,Jerry Richardson Stadium,Charlotte,Western Kentucky,fbs,fbs,Conference USA,Conference USA,7,59
+401404108,2022,10,regular,2022-11-05T16:00:00.000Z,False,True,False,True,3616,Amon G. Carter Stadium,TCU,Texas Tech,fbs,fbs,Big 12,Big 12,34,24
+401411157,2022,10,regular,2022-11-05T16:30:00.000Z,False,True,False,True,3799,Lane Stadium,Virginia Tech,Georgia Tech,fbs,fbs,ACC,ACC,27,28
+401426366,2022,10,regular,2022-11-05T18:00:00.000Z,False,True,False,True,3918,S.B. Ballard Stadium,Old Dominion,Marshall,fbs,fbs,Sun Belt,Sun Belt,0,12
+401415648,2022,10,regular,2022-11-05T18:00:00.000Z,False,True,False,True,3806,Lincoln Financial Field,Temple,South Florida,fbs,fbs,American Athletic,American Athletic,54,28
+401404104,2022,10,regular,2022-11-05T19:00:00.000Z,False,True,False,True,3835,"Memorial Stadium (Norman, OK)",Oklahoma,Baylor,fbs,fbs,Big 12,Big 12,35,38
+401426600,2022,10,regular,2022-11-05T19:00:00.000Z,False,True,False,True,3776,Joe Aillet Stadium,Louisiana Tech,Middle Tennessee,fbs,fbs,Conference USA,Conference USA,40,24
+401426369,2022,10,regular,2022-11-05T19:00:00.000Z,False,True,False,True,3815,M. M. Roberts Stadium,Southern Miss,Georgia State,fbs,fbs,Sun Belt,Sun Belt,14,42
+401405132,2022,10,regular,2022-11-05T19:30:00.000Z,False,True,False,True,3830,"Memorial Stadium (Bloomington, IN)",Indiana,Penn State,fbs,fbs,Big Ten,Big Ten,14,45
+401415252,2022,10,regular,2022-11-05T19:30:00.000Z,False,True,False,True,3905,Maverik Stadium,Utah State,New Mexico,fbs,fbs,Mountain West,Mountain West,27,10
+401415651,2022,10,regular,2022-11-05T19:30:00.000Z,False,True,False,True,3805,Simmons Bank Liberty Stadium,Memphis,UCF,fbs,fbs,American Athletic,American Athletic,28,35
+401403933,2022,10,regular,2022-11-05T19:30:00.000Z,False,True,False,True,3917,Sanford Stadium,Georgia,Tennessee,fbs,fbs,SEC,SEC,27,13
+401404030,2022,10,regular,2022-11-05T19:30:00.000Z,False,True,False,True,3726,Folsom Field,Colorado,Oregon,fbs,fbs,Pac-12,Pac-12,10,49
+401426602,2022,10,regular,2022-11-05T19:30:00.000Z,False,True,False,True,7221,Protective Stadium,UAB,UTSA,fbs,fbs,Conference USA,Conference USA,38,44
+401404032,2022,10,regular,2022-11-05T19:30:00.000Z,False,True,False,True,3940,Stanford Stadium,Stanford,Washington State,fbs,fbs,Pac-12,Pac-12,14,52
+401404105,2022,10,regular,2022-11-05T19:30:00.000Z,False,True,False,True,3772,Jack Trice Stadium,Iowa State,West Virginia,fbs,fbs,Big 12,Big 12,31,14
+401405127,2022,10,regular,2022-11-05T19:30:00.000Z,False,True,False,True,3832,"Memorial Stadium (Champaign, IL)",Illinois,Michigan State,fbs,fbs,Big Ten,Big Ten,15,23
+401411155,2022,10,regular,2022-11-05T19:30:00.000Z,False,True,False,True,3752,Acrisure Stadium,Pittsburgh,Syracuse,fbs,fbs,ACC,ACC,19,9
+401404106,2022,10,regular,2022-11-05T19:30:00.000Z,False,True,False,True,3833,Memorial Stadium,Kansas,Oklahoma State,fbs,fbs,Big 12,Big 12,37,16
+401426599,2022,10,regular,2022-11-05T20:00:00.000Z,False,True,False,True,3825,DATCU Stadium,North Texas,Florida International,fbs,fbs,Conference USA,Conference USA,52,14
+401403932,2022,10,regular,2022-11-05T20:00:00.000Z,False,True,False,False,3887,Razorback Stadium,Arkansas,Liberty,fbs,fbs,SEC,FBS Independents,19,21
+401415650,2022,10,regular,2022-11-05T20:00:00.000Z,False,True,False,True,3854,Nippert Stadium,Cincinnati,Navy,fbs,fbs,American Athletic,American Athletic,20,10
+401426365,2022,10,regular,2022-11-05T20:00:00.000Z,False,True,False,True,3608,Allen E. Paulson Stadium,Georgia Southern,South Alabama,fbs,fbs,Sun Belt,Sun Belt,31,38
+401426367,2022,10,regular,2022-11-05T21:00:00.000Z,False,True,False,True,3666,Cajun Field,Louisiana,Troy,fbs,fbs,Sun Belt,Sun Belt,17,23
+401426368,2022,10,regular,2022-11-05T21:00:00.000Z,False,True,False,True,3817,Malone Stadium,UL Monroe,Texas State,fbs,fbs,Sun Belt,Sun Belt,31,30
+401415250,2022,10,regular,2022-11-05T23:00:00.000Z,False,True,False,False,3653,Albertsons Stadium,Boise State,BYU,fbs,fbs,Mountain West,FBS Independents,28,31
+401404107,2022,10,regular,2022-11-05T23:00:00.000Z,False,True,False,True,3636,Bill Snyder Family Stadium,Kansas State,Texas,fbs,fbs,Big 12,Big 12,27,34
+401403934,2022,10,regular,2022-11-05T23:00:00.000Z,False,True,False,True,3958,Tiger Stadium (LA),LSU,Alabama,fbs,fbs,SEC,SEC,32,31
+401415254,2022,10,regular,2022-11-05T23:00:00.000Z,False,True,False,True,7311,Snapdragon Stadium,San Diego State,UNLV,fbs,fbs,Mountain West,Mountain West,14,10
+401415652,2022,10,regular,2022-11-05T23:00:00.000Z,False,True,False,True,3735,Gerald J. Ford Stadium,SMU,Houston,fbs,fbs,American Athletic,American Athletic,77,63
+401404027,2022,10,regular,2022-11-05T23:30:00.000Z,False,True,False,True,587,Rice-Eccles Stadium,Utah,Arizona,fbs,fbs,Pac-12,Pac-12,45,20
+401405133,2022,10,regular,2022-11-05T23:30:00.000Z,False,True,False,True,6577,SHI Stadium,Rutgers,Michigan,fbs,fbs,Big Ten,Big Ten,17,52
+401404130,2022,10,regular,2022-11-05T23:30:00.000Z,False,True,False,False,3855,Notre Dame Stadium,Notre Dame,Clemson,fbs,fbs,FBS Independents,ACC,35,14
+401411153,2022,10,regular,2022-11-05T23:30:00.000Z,False,True,False,True,3948,Hard Rock Stadium,Miami,Florida State,fbs,fbs,ACC,ACC,3,45
+401403938,2022,10,regular,2022-11-05T23:30:00.000Z,False,True,False,True,3973,FirstBank Stadium,Vanderbilt,South Carolina,fbs,fbs,SEC,SEC,27,38
+401411152,2022,10,regular,2022-11-05T23:30:00.000Z,False,True,False,False,3873,L&N Federal Credit Union Stadium,Louisville,James Madison,fbs,fbs,ACC,Sun Belt,34,10
+401403935,2022,10,regular,2022-11-05T23:30:00.000Z,False,True,False,True,3693,Davis Wade Stadium,Mississippi State,Auburn,fbs,fbs,SEC,SEC,39,33
+401411154,2022,10,regular,2022-11-06T00:00:00.000Z,False,True,False,True,3670,Carter-Finley Stadium,NC State,Wake Forest,fbs,fbs,ACC,ACC,30,21
+401404029,2022,10,regular,2022-11-06T02:30:00.000Z,False,True,False,True,477,Los Angeles Memorial Coliseum,USC,California,fbs,fbs,Pac-12,Pac-12,41,35
+401415251,2022,10,regular,2022-11-06T02:30:00.000Z,False,True,False,True,3935,CEFCU Stadium,San José State,Colorado State,fbs,fbs,Mountain West,Mountain West,28,16
+401415253,2022,10,regular,2022-11-06T02:30:00.000Z,False,True,False,True,3660,Valley Children's Stadium,Fresno State,Hawai'i,fbs,fbs,Mountain West,Mountain West,55,13
+401404028,2022,10,regular,2022-11-06T02:30:00.000Z,False,True,False,True,3947,Mountain America Stadium,Arizona State,UCLA,fbs,fbs,Pac-12,Pac-12,36,50
+401416637,2022,11,regular,2022-11-09T00:00:00.000Z,False,True,False,True,3768,InfoCision Stadium,Akron,Eastern Michigan,fbs,fbs,Mid-American,Mid-American,28,34
+401416638,2022,11,regular,2022-11-09T00:30:00.000Z,False,True,False,True,3996,Yager Stadium,Miami (OH),Ohio,fbs,fbs,Mid-American,Mid-American,21,37
+401416636,2022,11,regular,2022-11-09T01:00:00.000Z,False,True,False,True,3739,Glass Bowl,Toledo,Ball State,fbs,fbs,Mid-American,Mid-American,28,21
+401416641,2022,11,regular,2022-11-10T00:00:00.000Z,False,True,False,True,3700,Doyt L. Perry Stadium,Bowling Green,Kent State,fbs,fbs,Mid-American,Mid-American,6,40
+401416639,2022,11,regular,2022-11-10T00:00:00.000Z,False,True,False,True,3980,Waldo Stadium,Western Michigan,Northern Illinois,fbs,fbs,Mid-American,Mid-American,21,24
+401416640,2022,11,regular,2022-11-10T00:00:00.000Z,False,True,False,True,3786,Kelly/Shorts Stadium,Central Michigan,Buffalo,fbs,fbs,Mid-American,Mid-American,31,27
+401426370,2022,11,regular,2022-11-11T00:30:00.000Z,False,True,False,True,3666,Cajun Field,Louisiana,Georgia Southern,fbs,fbs,Sun Belt,Sun Belt,36,17
+401415653,2022,11,regular,2022-11-11T00:30:00.000Z,False,True,False,True,3805,Simmons Bank Liberty Stadium,Memphis,Tulsa,fbs,fbs,American Athletic,American Athletic,26,10
+401415654,2022,11,regular,2022-11-12T01:00:00.000Z,False,True,False,True,3854,Nippert Stadium,Cincinnati,East Carolina,fbs,fbs,American Athletic,American Athletic,27,25
+401404033,2022,11,regular,2022-11-12T02:30:00.000Z,False,True,False,True,477,Los Angeles Memorial Coliseum,USC,Colorado,fbs,fbs,Pac-12,Pac-12,55,17
+401415259,2022,11,regular,2022-11-12T03:30:00.000Z,False,True,False,True,6501,Allegiant Stadium,UNLV,Fresno State,fbs,fbs,Mountain West,Mountain West,30,37
+401405139,2022,11,regular,2022-11-12T17:00:00.000Z,False,True,False,True,3861,Ohio Stadium,Ohio State,Indiana,fbs,fbs,Big Ten,Big Ten,56,14
+401404112,2022,11,regular,2022-11-12T17:00:00.000Z,False,True,False,True,3842,Milan Puskar Stadium,West Virginia,Oklahoma,fbs,fbs,Big 12,Big 12,23,20
+401411159,2022,11,regular,2022-11-12T17:00:00.000Z,False,True,False,True,3982,Wallace Wade Stadium,Duke,Virginia Tech,fbs,fbs,ACC,ACC,24,7
+401411163,2022,11,regular,2022-11-12T17:00:00.000Z,False,True,False,True,3923,Scott Stadium,Virginia,Pittsburgh,fbs,fbs,ACC,ACC,7,37
+401404156,2022,11,regular,2022-11-12T17:00:00.000Z,False,True,False,False,3892,Pratt & Whitney Stadium,UConn,Liberty,fbs,fbs,FBS Independents,FBS Independents,36,33
+401403942,2022,11,regular,2022-11-12T17:00:00.000Z,False,True,False,True,3683,Kroger Field,Kentucky,Vanderbilt,fbs,fbs,SEC,SEC,21,24
+401403945,2022,11,regular,2022-11-12T17:00:00.000Z,False,True,False,True,3853,Neyland Stadium,Tennessee,Missouri,fbs,fbs,SEC,SEC,66,24
+401403939,2022,11,regular,2022-11-12T17:00:00.000Z,False,True,False,True,3887,Razorback Stadium,Arkansas,LSU,fbs,fbs,SEC,SEC,10,13
+401404131,2022,11,regular,2022-11-12T17:00:00.000Z,False,True,True,False,3814,M&T Bank Stadium,Navy,Notre Dame,fbs,fbs,American Athletic,FBS Independents,32,35
+401405138,2022,11,regular,2022-11-12T17:00:00.000Z,False,True,False,True,3936,Spartan Stadium,Michigan State,Rutgers,fbs,fbs,Big Ten,Big Ten,27,21
+401415656,2022,11,regular,2022-11-12T17:00:00.000Z,False,True,False,True,3886,Raymond James Stadium,South Florida,SMU,fbs,fbs,American Athletic,American Athletic,23,41
+401405134,2022,11,regular,2022-11-12T17:00:00.000Z,False,True,False,True,3832,"Memorial Stadium (Champaign, IL)",Illinois,Purdue,fbs,fbs,Big Ten,Big Ten,24,31
+401426372,2022,11,regular,2022-11-12T18:00:00.000Z,False,True,False,True,4246,Center Parc Stadium,Georgia State,UL Monroe,fbs,fbs,Sun Belt,Sun Belt,28,31
+401426374,2022,11,regular,2022-11-12T18:00:00.000Z,False,True,False,True,3918,S.B. Ballard Stadium,Old Dominion,James Madison,fbs,fbs,Sun Belt,Sun Belt,3,37
+401426607,2022,11,regular,2022-11-12T19:00:00.000Z,False,True,False,True,3796,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Rice,fbs,fbs,Conference USA,Conference USA,45,10
+401409241,2022,11,regular,2022-11-12T19:00:00.000Z,False,True,False,False,3601,Aggie Memorial Stadium,New Mexico State,Lamar,fbs,fcs,FBS Independents,Southland,51,14
+401414784,2022,11,regular,2022-11-12T20:00:00.000Z,False,True,False,False,3625,Centennial Bank Stadium,Arkansas State,Massachusetts,fbs,fbs,Sun Belt,FBS Independents,35,33
+401415655,2022,11,regular,2022-11-12T20:00:00.000Z,False,True,False,True,4728,TDECU Stadium,Houston,Temple,fbs,fbs,American Athletic,American Athletic,43,36
+401405135,2022,11,regular,2022-11-12T20:30:00.000Z,False,True,False,True,3793,Kinnick Stadium,Iowa,Wisconsin,fbs,fbs,Big Ten,Big Ten,24,10
+401411158,2022,11,regular,2022-11-12T20:30:00.000Z,False,True,False,True,3836,"Memorial Stadium (Clemson, SC)",Clemson,Louisville,fbs,fbs,ACC,ACC,31,16
+401405137,2022,11,regular,2022-11-12T20:30:00.000Z,False,True,False,True,3558,Michigan Stadium,Michigan,Nebraska,fbs,fbs,Big Ten,Big Ten,34,3
+401426373,2022,11,regular,2022-11-12T20:30:00.000Z,False,True,False,True,3775,Joan C. Edwards Stadium,Marshall,App State,fbs,fbs,Sun Belt,Sun Belt,28,21
+401426606,2022,11,regular,2022-11-12T20:30:00.000Z,False,True,False,True,7221,Protective Stadium,UAB,North Texas,fbs,fbs,Conference USA,Conference USA,41,21
+401426603,2022,11,regular,2022-11-12T20:30:00.000Z,False,True,False,True,3725,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Charlotte,fbs,fbs,Conference USA,Conference USA,24,14
+401415657,2022,11,regular,2022-11-12T20:30:00.000Z,False,True,False,True,4729,Yulman Stadium,Tulane,UCF,fbs,fbs,American Athletic,American Athletic,31,38
+401415256,2022,11,regular,2022-11-12T20:30:00.000Z,False,True,False,True,3713,Falcon Stadium,Air Force,New Mexico,fbs,fbs,Mountain West,Mountain West,35,3
+401411161,2022,11,regular,2022-11-12T20:30:00.000Z,False,True,False,True,3670,Carter-Finley Stadium,NC State,Boston College,fbs,fbs,ACC,ACC,20,21
+401411160,2022,11,regular,2022-11-12T20:30:00.000Z,False,True,False,True,721,Bobby Dodd Stadium,Georgia Tech,Miami,fbs,fbs,ACC,ACC,14,35
+401404035,2022,11,regular,2022-11-12T20:30:00.000Z,False,True,False,True,3820,Gesa Field,Washington State,Arizona State,fbs,fbs,Pac-12,Pac-12,28,18
+401426605,2022,11,regular,2022-11-12T20:30:00.000Z,False,True,False,True,3604,Alamodome,UTSA,Louisiana Tech,fbs,fbs,Conference USA,Conference USA,51,7
+401404110,2022,11,regular,2022-11-12T20:30:00.000Z,False,True,False,True,3646,Boone Pickens Stadium,Oklahoma State,Iowa State,fbs,fbs,Big 12,Big 12,20,14
+401405140,2022,11,regular,2022-11-12T20:30:00.000Z,False,True,False,True,3632,Beaver Stadium,Penn State,Maryland,fbs,fbs,Big Ten,Big Ten,30,0
+401405136,2022,11,regular,2022-11-12T20:30:00.000Z,False,True,False,True,3953,Huntington Bank Stadium,Minnesota,Northwestern,fbs,fbs,Big Ten,Big Ten,31,3
+401404142,2022,11,regular,2022-11-12T20:30:00.000Z,False,True,False,False,3975,Veterans Memorial Stadium (AL),Troy,Army,fbs,fbs,Sun Belt,FBS Independents,10,9
+401403943,2022,11,regular,2022-11-12T20:30:00.000Z,False,True,False,True,3974,Vaught-Hemingway Stadium,Ole Miss,Alabama,fbs,fbs,SEC,SEC,24,30
+401403941,2022,11,regular,2022-11-12T21:00:00.000Z,False,True,False,True,3634,Ben Hill Griffin Stadium,Florida,South Carolina,fbs,fbs,SEC,SEC,38,6
+401426375,2022,11,regular,2022-11-12T22:00:00.000Z,False,True,False,True,6526,Hancock Whitney Stadium,South Alabama,Texas State,fbs,fbs,Sun Belt,Sun Belt,38,21
+401415258,2022,11,regular,2022-11-13T00:00:00.000Z,False,True,False,True,5388,Canvas Stadium,Colorado State,Wyoming,fbs,fbs,Mountain West,Mountain West,13,14
+401404037,2022,11,regular,2022-11-13T00:00:00.000Z,False,True,False,True,3626,Autzen Stadium,Oregon,Washington,fbs,fbs,Pac-12,Pac-12,34,37
+401426604,2022,11,regular,2022-11-13T00:00:00.000Z,False,True,False,True,218,FIU Stadium,Florida International,Florida Atlantic,fbs,fbs,Conference USA,Conference USA,7,52
+401404111,2022,11,regular,2022-11-13T00:00:00.000Z,False,True,False,True,3784,Jones AT&T Stadium,Texas Tech,Kansas,fbs,fbs,Big 12,Big 12,43,28
+401404109,2022,11,regular,2022-11-13T00:00:00.000Z,False,True,False,True,4727,McLane Stadium,Baylor,Kansas State,fbs,fbs,Big 12,Big 12,3,31
+401403944,2022,11,regular,2022-11-13T00:00:00.000Z,False,True,False,True,3693,Davis Wade Stadium,Mississippi State,Georgia,fbs,fbs,SEC,SEC,19,45
+401426371,2022,11,regular,2022-11-13T00:30:00.000Z,False,True,False,True,3654,Brooks Stadium (SC),Coastal Carolina,Southern Miss,fbs,fbs,Sun Belt,Sun Belt,26,23
+401404113,2022,11,regular,2022-11-13T00:30:00.000Z,False,True,False,True,3910,DKR-Texas Memorial Stadium,Texas,TCU,fbs,fbs,Big 12,Big 12,10,17
+401411164,2022,11,regular,2022-11-13T00:30:00.000Z,False,True,False,True,3630,Allegacy Federal Credit Union Stadium,Wake Forest,North Carolina,fbs,fbs,ACC,ACC,34,36
+401403940,2022,11,regular,2022-11-13T00:30:00.000Z,False,True,False,True,3785,Jordan-Hare Stadium,Auburn,Texas A&M,fbs,fbs,SEC,SEC,13,10
+401411162,2022,11,regular,2022-11-13T01:00:00.000Z,False,True,False,True,1964,JMA Wireless Dome,Syracuse,Florida State,fbs,fbs,ACC,ACC,3,38
+401404036,2022,11,regular,2022-11-13T02:00:00.000Z,False,True,False,True,3893,Reser Stadium,Oregon State,California,fbs,fbs,Pac-12,Pac-12,38,10
+401404038,2022,11,regular,2022-11-13T03:00:00.000Z,False,True,False,True,587,Rice-Eccles Stadium,Utah,Stanford,fbs,fbs,Pac-12,Pac-12,42,7
+401415255,2022,11,regular,2022-11-13T03:30:00.000Z,False,True,False,True,3816,Mackay Stadium,Nevada,Boise State,fbs,fbs,Mountain West,Mountain West,3,41
+401404034,2022,11,regular,2022-11-13T03:30:00.000Z,False,True,False,True,1056,Rose Bowl,UCLA,Arizona,fbs,fbs,Pac-12,Pac-12,28,34
+401415260,2022,11,regular,2022-11-13T03:30:00.000Z,False,True,False,True,7311,Snapdragon Stadium,San Diego State,San José State,fbs,fbs,Mountain West,Mountain West,43,27
+401415257,2022,11,regular,2022-11-13T04:00:00.000Z,False,True,False,True,7220,Clarence T.C. Ching Athletics Complex,Hawai'i,Utah State,fbs,fbs,Mountain West,Mountain West,34,41
+401416643,2022,12,regular,2022-11-16T00:00:00.000Z,False,True,False,True,3919,Scheumann Stadium,Ball State,Ohio,fbs,fbs,Mid-American,Mid-American,18,32
+401416642,2022,12,regular,2022-11-16T00:00:00.000Z,False,True,False,True,3739,Glass Bowl,Toledo,Bowling Green,fbs,fbs,Mid-American,Mid-American,35,42
+401416644,2022,12,regular,2022-11-16T23:00:00.000Z,False,True,False,True,3696,Dix Stadium,Kent State,Eastern Michigan,fbs,fbs,Mid-American,Mid-American,24,31
+401416646,2022,12,regular,2022-11-17T00:00:00.000Z,False,True,False,True,3764,Huskie Stadium,Northern Illinois,Miami (OH),fbs,fbs,Mid-American,Mid-American,23,29
+401416645,2022,12,regular,2022-11-17T01:00:00.000Z,False,True,False,True,3786,Kelly/Shorts Stadium,Central Michigan,Western Michigan,fbs,fbs,Mid-American,Mid-American,10,12
+401415658,2022,12,regular,2022-11-18T00:30:00.000Z,False,True,False,True,4729,Yulman Stadium,Tulane,SMU,fbs,fbs,American Athletic,American Athletic,59,24
+401415659,2022,12,regular,2022-11-19T02:00:00.000Z,False,True,False,True,3674,Chapman Stadium,Tulsa,South Florida,fbs,fbs,American Athletic,American Athletic,48,42
+401415264,2022,12,regular,2022-11-19T02:45:00.000Z,False,True,False,True,3971,University Stadium (NM),New Mexico,San Diego State,fbs,fbs,Mountain West,Mountain West,10,34
+401415661,2022,12,regular,2022-11-19T16:00:00.000Z,False,True,False,True,3652,FBC Mortgage Stadium,UCF,Navy,fbs,fbs,American Athletic,American Athletic,14,17
+401403954,2022,12,regular,2022-11-19T17:00:00.000Z,False,True,False,False,3795,Kyle Field,Texas A&M,Massachusetts,fbs,fbs,SEC,FBS Independents,20,3
+401403946,2022,12,regular,2022-11-19T17:00:00.000Z,False,True,False,False,3657,Bryant-Denny Stadium,Alabama,Austin Peay,fbs,fcs,SEC,Atlantic Sun,34,0
+401405145,2022,12,regular,2022-11-19T17:00:00.000Z,False,True,False,True,3558,Michigan Stadium,Michigan,Illinois,fbs,fbs,Big Ten,Big Ten,19,17
+401403951,2022,12,regular,2022-11-19T17:00:00.000Z,False,True,False,False,3693,Davis Wade Stadium,Mississippi State,East Tennessee State,fbs,fcs,SEC,Southern,56,7
+401411169,2022,12,regular,2022-11-19T17:00:00.000Z,False,True,False,True,3752,Acrisure Stadium,Pittsburgh,Duke,fbs,fbs,ACC,ACC,28,26
+401411166,2022,12,regular,2022-11-19T17:00:00.000Z,False,True,False,False,3697,Doak Campbell Stadium,Florida State,Louisiana,fbs,fbs,ACC,Sun Belt,49,17
+401404114,2022,12,regular,2022-11-19T17:00:00.000Z,False,True,False,True,4727,McLane Stadium,Baylor,TCU,fbs,fbs,Big 12,Big 12,28,29
+401403955,2022,12,regular,2022-11-19T17:00:00.000Z,False,True,False,True,3973,FirstBank Stadium,Vanderbilt,Florida,fbs,fbs,SEC,SEC,31,24
+401405146,2022,12,regular,2022-11-19T17:00:00.000Z,False,True,False,True,3936,Spartan Stadium,Michigan State,Indiana,fbs,fbs,Big Ten,Big Ten,31,39
+401404165,2022,12,regular,2022-11-19T17:00:00.000Z,False,True,False,False,3992,Williams Stadium (VA),Liberty,Virginia Tech,fbs,fbs,FBS Independents,ACC,22,23
+401404143,2022,12,regular,2022-11-19T17:00:00.000Z,False,True,False,False,3841,Michie Stadium,Army,UConn,fbs,fbs,FBS Independents,FBS Independents,34,17
+401405143,2022,12,regular,2022-11-19T17:00:00.000Z,False,True,False,True,3907,Ross-Ade Stadium,Purdue,Northwestern,fbs,fbs,Big Ten,Big Ten,17,9
+401405142,2022,12,regular,2022-11-19T17:00:00.000Z,False,True,False,True,3834,"Memorial Stadium (Lincoln, NE)",Nebraska,Wisconsin,fbs,fbs,Big Ten,Big Ten,14,15
+401426611,2022,12,regular,2022-11-19T18:00:00.000Z,False,True,False,True,3895,Rice Stadium,Rice,UTSA,fbs,fbs,Conference USA,Conference USA,7,41
+401415660,2022,12,regular,2022-11-19T19:00:00.000Z,False,True,False,True,3699,Dowdy-Ficklen Stadium,East Carolina,Houston,fbs,fbs,American Athletic,American Athletic,3,42
+401404039,2022,12,regular,2022-11-19T19:00:00.000Z,False,True,False,True,3619,Arizona Stadium,Arizona,Washington State,fbs,fbs,Pac-12,Pac-12,20,31
+401415662,2022,12,regular,2022-11-19T19:00:00.000Z,False,True,False,False,3805,Simmons Bank Liberty Stadium,Memphis,North Alabama,fbs,fcs,American Athletic,Atlantic Sun,59,0
+401404117,2022,12,regular,2022-11-19T19:00:00.000Z,False,True,False,True,3842,Milan Puskar Stadium,West Virginia,Kansas State,fbs,fbs,Big 12,Big 12,31,48
+401426378,2022,12,regular,2022-11-19T19:00:00.000Z,False,True,False,True,3651,Bridgeforth Stadium,James Madison,Georgia State,fbs,fbs,Sun Belt,Sun Belt,42,40
+401404040,2022,12,regular,2022-11-19T19:15:00.000Z,False,True,False,True,3947,Mountain America Stadium,Arizona State,Oregon State,fbs,fbs,Pac-12,Pac-12,7,31
+401426376,2022,12,regular,2022-11-19T19:30:00.000Z,False,True,False,True,3792,Kidd Brewer Stadium,App State,Old Dominion,fbs,fbs,Sun Belt,Sun Belt,27,14
+401404132,2022,12,regular,2022-11-19T19:30:00.000Z,False,True,False,False,3855,Notre Dame Stadium,Notre Dame,Boston College,fbs,fbs,FBS Independents,ACC,44,0
+401426608,2022,12,regular,2022-11-19T20:30:00.000Z,False,True,False,True,4418,Jerry Richardson Stadium,Charlotte,Louisiana Tech,fbs,fbs,Conference USA,Conference USA,26,21
+401411167,2022,12,regular,2022-11-19T20:30:00.000Z,False,True,False,True,3873,L&N Federal Credit Union Stadium,Louisville,NC State,fbs,fbs,ACC,ACC,25,10
+401405144,2022,12,regular,2022-11-19T20:30:00.000Z,False,True,False,True,3665,SECU Stadium,Maryland,Ohio State,fbs,fbs,Big Ten,Big Ten,30,43
+401405147,2022,12,regular,2022-11-19T20:30:00.000Z,False,True,False,True,6577,SHI Stadium,Rutgers,Penn State,fbs,fbs,Big Ten,Big Ten,10,55
+401411165,2022,12,regular,2022-11-19T20:30:00.000Z,False,True,False,True,3836,"Memorial Stadium (Clemson, SC)",Clemson,Miami,fbs,fbs,ACC,ACC,40,10
+401426610,2022,12,regular,2022-11-19T20:30:00.000Z,False,True,False,True,3725,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Florida Atlantic,fbs,fbs,Conference USA,Conference USA,49,21
+401426381,2022,12,regular,2022-11-19T20:30:00.000Z,False,True,False,True,3975,Veterans Memorial Stadium (AL),Troy,UL Monroe,fbs,fbs,Sun Belt,Sun Belt,34,16
+401426379,2022,12,regular,2022-11-19T20:30:00.000Z,False,True,False,True,3815,M. M. Roberts Stadium,Southern Miss,South Alabama,fbs,fbs,Sun Belt,Sun Belt,20,27
+401404116,2022,12,regular,2022-11-19T20:30:00.000Z,False,True,False,True,3833,Memorial Stadium,Kansas,Texas,fbs,fbs,Big 12,Big 12,14,55
+401420863,2022,12,regular,2022-11-19T20:30:00.000Z,False,True,False,False,3801,LaVell Edwards Stadium,BYU,Utah Tech,fbs,fcs,FBS Independents,Western Athletic,52,26
+401403949,2022,12,regular,2022-11-19T20:30:00.000Z,False,True,False,True,3683,Kroger Field,Kentucky,Georgia,fbs,fbs,SEC,SEC,6,16
+401415663,2022,12,regular,2022-11-19T21:00:00.000Z,False,True,False,True,3806,Lincoln Financial Field,Temple,Cincinnati,fbs,fbs,American Athletic,American Athletic,3,23
+401426609,2022,12,regular,2022-11-19T21:00:00.000Z,False,True,False,True,3946,Sun Bowl,UTEP,Florida International,fbs,fbs,Conference USA,Conference USA,40,6
+401426613,2022,12,regular,2022-11-19T21:00:00.000Z,False,True,False,False,3785,Jordan-Hare Stadium,Auburn,Western Kentucky,fbs,fbs,SEC,Conference USA,41,17
+401405141,2022,12,regular,2022-11-19T21:00:00.000Z,False,True,False,True,3953,Huntington Bank Stadium,Minnesota,Iowa,fbs,fbs,Big Ten,Big Ten,10,13
+401426380,2022,12,regular,2022-11-19T22:00:00.000Z,False,True,False,True,3644,Bobcat Stadium (TX),Texas State,Arkansas State,fbs,fbs,Sun Belt,Sun Belt,16,13
+401411168,2022,12,regular,2022-11-19T22:30:00.000Z,False,True,False,True,3787,Kenan Stadium,North Carolina,Georgia Tech,fbs,fbs,ACC,ACC,17,21
+401404041,2022,12,regular,2022-11-19T22:30:00.000Z,False,True,False,True,3831,California Memorial Stadium,California,Stanford,fbs,fbs,Pac-12,Pac-12,27,20
+401426377,2022,12,regular,2022-11-19T23:00:00.000Z,False,True,False,True,3608,Allen E. Paulson Stadium,Georgia Southern,Marshall,fbs,fbs,Sun Belt,Sun Belt,10,23
+401404115,2022,12,regular,2022-11-20T00:00:00.000Z,False,True,False,True,3772,Jack Trice Stadium,Iowa State,Texas Tech,fbs,fbs,Big 12,Big 12,10,14
+401415261,2022,12,regular,2022-11-20T00:00:00.000Z,False,True,False,True,3984,War Memorial Stadium,Wyoming,Boise State,fbs,fbs,Mountain West,Mountain West,17,20
+401403953,2022,12,regular,2022-11-20T00:00:00.000Z,False,True,False,True,3994,Williams-Brice Stadium,South Carolina,Tennessee,fbs,fbs,SEC,SEC,63,38
+401403952,2022,12,regular,2022-11-20T00:30:00.000Z,False,True,False,False,3838,Memorial Stadium,Missouri,New Mexico State,fbs,fbs,SEC,FBS Independents,45,14
+401404118,2022,12,regular,2022-11-20T00:30:00.000Z,False,True,False,True,3835,"Memorial Stadium (Norman, OK)",Oklahoma,Oklahoma State,fbs,fbs,Big 12,Big 12,28,13
+401403947,2022,12,regular,2022-11-20T00:30:00.000Z,False,True,False,True,3887,Razorback Stadium,Arkansas,Ole Miss,fbs,fbs,SEC,SEC,42,27
+401411171,2022,12,regular,2022-11-20T01:00:00.000Z,False,True,False,True,3630,Allegacy Federal Credit Union Stadium,Wake Forest,Syracuse,fbs,fbs,ACC,ACC,45,35
+401404044,2022,12,regular,2022-11-20T01:00:00.000Z,False,True,False,True,1056,Rose Bowl,UCLA,USC,fbs,fbs,Pac-12,Pac-12,45,48
+401404042,2022,12,regular,2022-11-20T02:00:00.000Z,False,True,False,True,3765,Husky Stadium,Washington,Colorado,fbs,fbs,Pac-12,Pac-12,54,7
+401426612,2022,12,regular,2022-11-20T02:00:00.000Z,False,True,False,False,3958,Tiger Stadium (LA),LSU,UAB,fbs,fbs,SEC,Conference USA,41,10
+401415262,2022,12,regular,2022-11-20T02:00:00.000Z,False,True,False,True,3713,Falcon Stadium,Air Force,Colorado State,fbs,fbs,Mountain West,Mountain West,24,12
+401415265,2022,12,regular,2022-11-20T02:45:00.000Z,False,True,False,True,3905,Maverik Stadium,Utah State,San José State,fbs,fbs,Mountain West,Mountain West,35,31
+401415263,2022,12,regular,2022-11-20T03:30:00.000Z,False,True,False,True,3816,Mackay Stadium,Nevada,Fresno State,fbs,fbs,Mountain West,Mountain West,14,41
+401404043,2022,12,regular,2022-11-20T03:30:00.000Z,False,True,False,True,3626,Autzen Stadium,Oregon,Utah,fbs,fbs,Pac-12,Pac-12,20,17
+401415266,2022,12,regular,2022-11-20T04:00:00.000Z,False,True,False,True,7220,Clarence T.C. Ching Athletics Complex,Hawai'i,UNLV,fbs,fbs,Mountain West,Mountain West,31,25
+401416648,2022,13,regular,2022-11-23T00:00:00.000Z,False,True,False,True,3996,Yager Stadium,Miami (OH),Ball State,fbs,fbs,Mid-American,Mid-American,18,17
+401416649,2022,13,regular,2022-11-23T00:00:00.000Z,False,True,False,True,3876,Peden Stadium,Ohio,Bowling Green,fbs,fbs,Mid-American,Mid-American,38,14
+401403956,2022,13,regular,2022-11-25T00:00:00.000Z,False,True,False,True,3974,Vaught-Hemingway Stadium,Ole Miss,Mississippi State,fbs,fbs,SEC,SEC,22,24
+401415665,2022,13,regular,2022-11-25T17:00:00.000Z,False,True,False,True,3854,Nippert Stadium,Cincinnati,Tulane,fbs,fbs,American Athletic,American Athletic,24,27
+401416650,2022,13,regular,2022-11-25T17:00:00.000Z,False,True,False,True,3912,Rynearson Stadium,Eastern Michigan,Central Michigan,fbs,fbs,Mid-American,Mid-American,38,19
+401416651,2022,13,regular,2022-11-25T17:00:00.000Z,False,True,False,True,3980,Waldo Stadium,Western Michigan,Toledo,fbs,fbs,Mid-American,Mid-American,20,14
+401415269,2022,13,regular,2022-11-25T17:00:00.000Z,False,True,False,True,3653,Albertsons Stadium,Boise State,Utah State,fbs,fbs,Mountain West,Mountain West,42,23
+401404119,2022,13,regular,2022-11-25T17:00:00.000Z,False,True,False,True,3910,DKR-Texas Memorial Stadium,Texas,Baylor,fbs,fbs,Big 12,Big 12,38,27
+401404045,2022,13,regular,2022-11-25T20:00:00.000Z,False,True,False,True,3619,Arizona Stadium,Arizona,Arizona State,fbs,fbs,Pac-12,Pac-12,38,35
+401415268,2022,13,regular,2022-11-25T20:30:00.000Z,False,True,False,True,5388,Canvas Stadium,Colorado State,New Mexico,fbs,fbs,Mountain West,Mountain West,17,0
+401403961,2022,13,regular,2022-11-25T20:30:00.000Z,False,True,False,True,3838,Memorial Stadium,Missouri,Arkansas,fbs,fbs,SEC,SEC,29,27
+401411172,2022,13,regular,2022-11-25T20:30:00.000Z,False,True,False,True,3787,Kenan Stadium,North Carolina,NC State,fbs,fbs,ACC,ACC,27,30
+401405148,2022,13,regular,2022-11-25T21:00:00.000Z,False,True,False,True,3793,Kinnick Stadium,Iowa,Nebraska,fbs,fbs,Big Ten,Big Ten,17,24
+401404046,2022,13,regular,2022-11-25T21:30:00.000Z,False,True,False,True,3831,California Memorial Stadium,California,UCLA,fbs,fbs,Pac-12,Pac-12,28,35
+401403958,2022,13,regular,2022-11-26T00:30:00.000Z,False,True,False,False,3697,Doak Campbell Stadium,Florida State,Florida,fbs,fbs,ACC,SEC,45,38
+401415270,2022,13,regular,2022-11-26T03:00:00.000Z,False,True,False,True,3660,Valley Children's Stadium,Fresno State,Wyoming,fbs,fbs,Mountain West,Mountain West,30,0
+401426390,2022,13,regular,2022-11-26T17:00:00.000Z,False,True,False,True,3775,Joan C. Edwards Stadium,Marshall,Georgia State,fbs,fbs,Sun Belt,Sun Belt,28,23
+401404166,2022,13,regular,2022-11-26T17:00:00.000Z,False,True,False,True,3992,Williams Stadium (VA),Liberty,New Mexico State,fbs,fbs,FBS Independents,FBS Independents,14,49
+401403962,2022,13,regular,2022-11-26T17:00:00.000Z,False,True,False,False,3836,"Memorial Stadium (Clemson, SC)",Clemson,South Carolina,fbs,fbs,ACC,SEC,30,31
+401426389,2022,13,regular,2022-11-26T17:00:00.000Z,False,True,False,True,6526,Hancock Whitney Stadium,South Alabama,Old Dominion,fbs,fbs,Sun Belt,Sun Belt,27,20
+401426383,2022,13,regular,2022-11-26T17:00:00.000Z,False,True,False,True,3651,Bridgeforth Stadium,James Madison,Coastal Carolina,fbs,fbs,Sun Belt,Sun Belt,47,7
+401426615,2022,13,regular,2022-11-26T17:00:00.000Z,False,True,False,True,3715,FAU Stadium,Florida Atlantic,Western Kentucky,fbs,fbs,Conference USA,Conference USA,31,32
+401404123,2022,13,regular,2022-11-26T17:00:00.000Z,False,True,False,True,3646,Boone Pickens Stadium,Oklahoma State,West Virginia,fbs,fbs,Big 12,Big 12,19,24
+401405153,2022,13,regular,2022-11-26T17:00:00.000Z,False,True,False,True,3861,Ohio Stadium,Ohio State,Michigan,fbs,fbs,Big Ten,Big Ten,23,45
+401405152,2022,13,regular,2022-11-26T17:00:00.000Z,False,True,False,True,3665,SECU Stadium,Maryland,Rutgers,fbs,fbs,Big Ten,Big Ten,37,0
+401403959,2022,13,regular,2022-11-26T17:00:00.000Z,False,True,False,False,3917,Sanford Stadium,Georgia,Georgia Tech,fbs,fbs,SEC,ACC,37,14
+401404144,2022,13,regular,2022-11-26T17:00:00.000Z,False,True,False,True,3985,Warren McGuirk Alumni Stadium,Massachusetts,Army,fbs,fbs,FBS Independents,FBS Independents,7,44
+401415664,2022,13,regular,2022-11-26T18:00:00.000Z,False,True,False,True,3806,Lincoln Financial Field,Temple,East Carolina,fbs,fbs,American Athletic,American Athletic,46,49
+401416653,2022,13,regular,2022-11-26T18:00:00.000Z,False,True,False,True,3965,UB Stadium,Buffalo,Kent State,fbs,fbs,Mid-American,Mid-American,27,30
+401416652,2022,13,regular,2022-11-26T18:30:00.000Z,False,True,False,True,3764,Huskie Stadium,Northern Illinois,Akron,fbs,fbs,Mid-American,Mid-American,12,44
+401426617,2022,13,regular,2022-11-26T19:00:00.000Z,False,True,False,True,3825,DATCU Stadium,North Texas,Rice,fbs,fbs,Conference USA,Conference USA,21,17
+401403960,2022,13,regular,2022-11-26T20:00:00.000Z,False,True,False,False,3683,Kroger Field,Kentucky,Louisville,fbs,fbs,SEC,ACC,26,13
+401403957,2022,13,regular,2022-11-26T20:30:00.000Z,False,True,False,True,3657,Bryant-Denny Stadium,Alabama,Auburn,fbs,fbs,SEC,SEC,49,27
+401426618,2022,13,regular,2022-11-26T20:30:00.000Z,False,True,False,True,3604,Alamodome,UTSA,UTEP,fbs,fbs,Conference USA,Conference USA,34,31
+401426616,2022,13,regular,2022-11-26T20:30:00.000Z,False,True,False,True,3776,Joe Aillet Stadium,Louisiana Tech,UAB,fbs,fbs,Conference USA,Conference USA,27,37
+401415271,2022,13,regular,2022-11-26T20:30:00.000Z,False,True,False,True,3935,CEFCU Stadium,San José State,Hawai'i,fbs,fbs,Mountain West,Mountain West,27,14
+401405151,2022,13,regular,2022-11-26T20:30:00.000Z,False,True,False,True,3830,"Memorial Stadium (Bloomington, IN)",Indiana,Purdue,fbs,fbs,Big Ten,Big Ten,16,30
+401411174,2022,13,regular,2022-11-26T20:30:00.000Z,False,True,False,True,3982,Wallace Wade Stadium,Duke,Wake Forest,fbs,fbs,ACC,ACC,34,31
+401405150,2022,13,regular,2022-11-26T20:30:00.000Z,False,True,False,True,347,Camp Randall Stadium,Wisconsin,Minnesota,fbs,fbs,Big Ten,Big Ten,16,23
+401426384,2022,13,regular,2022-11-26T20:30:00.000Z,False,True,False,True,3625,Centennial Bank Stadium,Arkansas State,Troy,fbs,fbs,Sun Belt,Sun Belt,19,48
+401404047,2022,13,regular,2022-11-26T20:30:00.000Z,False,True,False,True,3893,Reser Stadium,Oregon State,Oregon,fbs,fbs,Pac-12,Pac-12,38,34
+401415666,2022,13,regular,2022-11-26T20:30:00.000Z,False,True,False,True,3735,Gerald J. Ford Stadium,SMU,Memphis,fbs,fbs,American Athletic,American Athletic,34,31
+401405149,2022,13,regular,2022-11-26T20:30:00.000Z,False,True,False,True,3911,Ryan Field,Northwestern,Illinois,fbs,fbs,Big Ten,Big Ten,3,41
+401404120,2022,13,regular,2022-11-26T21:00:00.000Z,False,True,False,True,3616,Amon G. Carter Stadium,TCU,Iowa State,fbs,fbs,Big 12,Big 12,62,14
+401405154,2022,13,regular,2022-11-26T21:00:00.000Z,False,True,False,True,3632,Beaver Stadium,Penn State,Michigan State,fbs,fbs,Big Ten,Big Ten,35,16
+401404048,2022,13,regular,2022-11-26T21:00:00.000Z,False,True,False,True,3726,Folsom Field,Colorado,Utah,fbs,fbs,Pac-12,Pac-12,21,63
+401426385,2022,13,regular,2022-11-26T22:00:00.000Z,False,True,False,True,3817,Malone Stadium,UL Monroe,Southern Miss,fbs,fbs,Sun Belt,Sun Belt,10,20
+401426386,2022,13,regular,2022-11-26T22:00:00.000Z,False,True,False,True,3644,Bobcat Stadium (TX),Texas State,Louisiana,fbs,fbs,Sun Belt,Sun Belt,13,41
+401415272,2022,13,regular,2022-11-26T23:00:00.000Z,False,True,False,True,6501,Allegiant Stadium,UNLV,Nevada,fbs,fbs,Mountain West,Mountain West,27,22
+401426382,2022,13,regular,2022-11-26T23:00:00.000Z,False,True,False,True,3608,Allen E. Paulson Stadium,Georgia Southern,App State,fbs,fbs,Sun Belt,Sun Belt,51,48
+401426614,2022,13,regular,2022-11-26T23:00:00.000Z,False,True,False,True,218,FIU Stadium,Florida International,Middle Tennessee,fbs,fbs,Conference USA,Conference USA,28,33
+401403963,2022,13,regular,2022-11-27T00:00:00.000Z,False,True,False,True,3795,Kyle Field,Texas A&M,LSU,fbs,fbs,SEC,SEC,38,23
+401415667,2022,13,regular,2022-11-27T00:00:00.000Z,False,True,False,True,3886,Raymond James Stadium,South Florida,UCF,fbs,fbs,American Athletic,American Athletic,39,46
+401404122,2022,13,regular,2022-11-27T00:30:00.000Z,False,True,False,True,3784,Jones AT&T Stadium,Texas Tech,Oklahoma,fbs,fbs,Big 12,Big 12,51,48
+401411173,2022,13,regular,2022-11-27T00:30:00.000Z,False,True,False,True,3615,"Alumni Stadium (Chestnut Hill, MA)",Boston College,Syracuse,fbs,fbs,ACC,ACC,23,32
+401403964,2022,13,regular,2022-11-27T00:30:00.000Z,False,True,False,True,3973,FirstBank Stadium,Vanderbilt,Tennessee,fbs,fbs,SEC,SEC,0,56
+401415668,2022,13,regular,2022-11-27T00:30:00.000Z,False,True,False,True,4728,TDECU Stadium,Houston,Tulsa,fbs,fbs,American Athletic,American Athletic,30,37
+401404133,2022,13,regular,2022-11-27T00:30:00.000Z,False,True,False,False,477,Los Angeles Memorial Coliseum,USC,Notre Dame,fbs,fbs,Pac-12,FBS Independents,38,27
+401404121,2022,13,regular,2022-11-27T01:00:00.000Z,False,True,False,True,3636,Bill Snyder Family Stadium,Kansas State,Kansas,fbs,fbs,Big 12,Big 12,47,27
+401411175,2022,13,regular,2022-11-27T01:00:00.000Z,False,True,False,True,3948,Hard Rock Stadium,Miami,Pittsburgh,fbs,fbs,ACC,ACC,16,42
+401415267,2022,13,regular,2022-11-27T02:00:00.000Z,False,True,False,True,7311,Snapdragon Stadium,San Diego State,Air Force,fbs,fbs,Mountain West,Mountain West,3,13
+401404051,2022,13,regular,2022-11-27T03:30:00.000Z,False,True,False,True,3820,Gesa Field,Washington State,Washington,fbs,fbs,Pac-12,Pac-12,33,51
+401404049,2022,13,regular,2022-11-27T04:00:00.000Z,False,True,False,False,3940,Stanford Stadium,Stanford,BYU,fbs,fbs,Pac-12,FBS Independents,26,35
+401506450,2022,14,regular,2022-12-02T18:00:00.000Z,False,True,False,True,3965,UB Stadium,Buffalo,Akron,fbs,fbs,Mid-American,Mid-American,23,22
+401437032,2022,14,regular,2022-12-03T00:30:00.000Z,False,True,False,True,3604,Alamodome,UTSA,North Texas,fbs,fbs,Conference USA,Conference USA,48,27
+401437035,2022,14,regular,2022-12-03T01:00:00.000Z,False,True,True,True,6501,Allegiant Stadium,USC,Utah,fbs,fbs,Pac-12,Pac-12,24,47
+401437033,2022,14,regular,2022-12-03T17:00:00.000Z,False,True,True,True,3727,Ford Field,Ohio,Toledo,fbs,fbs,Mid-American,Mid-American,7,17
+401437030,2022,14,regular,2022-12-03T17:00:00.000Z,False,True,True,True,3687,AT&T Stadium,TCU,Kansas State,fbs,fbs,Big 12,Big 12,28,31
+401507088,2022,14,regular,2022-12-03T20:00:00.000Z,False,True,False,False,3601,Aggie Memorial Stadium,New Mexico State,Valparaiso,fbs,fcs,FBS Independents,Pioneer,65,3
+401437037,2022,14,regular,2022-12-03T20:30:00.000Z,False,True,False,True,3975,Veterans Memorial Stadium (AL),Troy,Coastal Carolina,fbs,fbs,Sun Belt,Sun Belt,45,26
+401437036,2022,14,regular,2022-12-03T21:00:00.000Z,False,True,True,True,5348,Mercedes-Benz Stadium,Georgia,LSU,fbs,fbs,SEC,SEC,50,30
+401437008,2022,14,regular,2022-12-03T21:00:00.000Z,False,True,False,True,4729,Yulman Stadium,Tulane,UCF,fbs,fbs,American Athletic,American Athletic,45,28
+401437034,2022,14,regular,2022-12-03T21:00:00.000Z,False,True,False,True,3653,Albertsons Stadium,Boise State,Fresno State,fbs,fbs,Mountain West,Mountain West,16,28
+401437009,2022,14,regular,2022-12-04T01:00:00.000Z,False,True,True,True,3628,Bank of America Stadium,North Carolina,Clemson,fbs,fbs,ACC,ACC,10,39
+401437031,2022,14,regular,2022-12-04T01:00:00.000Z,False,True,True,True,3812,Lucas Oil Stadium,Michigan,Purdue,fbs,fbs,Big Ten,Big Ten,43,22
+401404145,2022,15,regular,2022-12-10T20:00:00.000Z,False,True,True,False,3806,Lincoln Financial Field,Army,Navy,fbs,fbs,FBS Independents,American Athletic,20,17
+401441993,2022,1,postseason,2022-12-16T16:30:00.000Z,False,True,True,False,4779,Thomas A. Robinson National Stadium,UAB,Miami (OH),fbs,fbs,Conference USA,Mid-American,24,20
+401441994,2022,1,postseason,2022-12-16T20:00:00.000Z,False,True,True,False,5403,Orlando City Stadium,Troy,UTSA,fbs,fbs,Sun Belt,Conference USA,18,12
+401441995,2022,1,postseason,2022-12-17T16:00:00.000Z,False,True,True,False,4245,Fenway Park,Louisville,Cincinnati,fbs,fbs,ACC,American Athletic,24,7
+401441999,2022,1,postseason,2022-12-17T19:30:00.000Z,False,True,True,False,6501,Allegiant Stadium,Oregon State,Florida,fbs,fbs,Pac-12,SEC,30,3
+401442038,2022,1,postseason,2022-12-17T20:30:00.000Z,False,True,True,False,7065,SoFi Stadium,Fresno State,Washington State,fbs,fbs,Mountain West,Pac-12,29,6
+401442041,2022,1,postseason,2022-12-17T22:45:00.000Z,False,True,True,False,6526,Hancock Whitney Stadium,Southern Miss,Rice,fbs,fbs,Sun Belt,Conference USA,38,24
+401441997,2022,1,postseason,2022-12-18T00:30:00.000Z,False,True,True,False,3971,University Stadium (NM),BYU,SMU,fbs,fbs,FBS Independents,American Athletic,24,23
+401442001,2022,1,postseason,2022-12-18T02:15:00.000Z,False,True,True,False,1400,Toyota Stadium,Boise State,North Texas,fbs,fbs,Mountain West,Conference USA,35,32
+401442003,2022,1,postseason,2022-12-19T19:30:00.000Z,False,True,True,False,3654,Brooks Stadium (SC),UConn,Marshall,fbs,fbs,FBS Independents,Sun Belt,14,28
+401442004,2022,1,postseason,2022-12-20T20:30:00.000Z,False,True,True,False,3653,Albertsons Stadium,San José State,Eastern Michigan,fbs,fbs,Mountain West,Mid-American,27,41
+401442006,2022,1,postseason,2022-12-21T00:30:00.000Z,False,True,True,False,3715,FAU Stadium,Toledo,Liberty,fbs,fbs,Mid-American,FBS Independents,21,19
+401442039,2022,1,postseason,2022-12-22T02:00:00.000Z,False,True,True,False,3493,Caesars Superdome,South Alabama,Western Kentucky,fbs,fbs,Sun Belt,Conference USA,23,44
+401442040,2022,1,postseason,2022-12-23T00:30:00.000Z,False,True,True,False,3616,Amon G. Carter Stadium,Air Force,Baylor,fbs,fbs,Mountain West,Big 12,30,15
+401442042,2022,1,postseason,2022-12-23T20:00:00.000Z,False,True,True,False,3766,Independence Stadium,Houston,Louisiana,fbs,fbs,American Athletic,Sun Belt,23,16
+401442007,2022,1,postseason,2022-12-23T23:30:00.000Z,False,True,True,False,3886,Raymond James Stadium,Missouri,Wake Forest,fbs,fbs,SEC,ACC,17,27
+401442009,2022,1,postseason,2022-12-25T01:00:00.000Z,False,True,True,False,7220,Clarence T.C. Ching Athletics Complex,San Diego State,Middle Tennessee,fbs,fbs,Mountain West,Conference USA,23,25
+401442037,2022,1,postseason,2022-12-26T19:30:00.000Z,False,True,True,False,3727,Ford Field,Bowling Green,New Mexico State,fbs,fbs,Mid-American,FBS Independents,19,24
+401441998,2022,1,postseason,2022-12-27T17:00:00.000Z,False,True,True,False,3689,Cramton Bowl,Buffalo,Georgia Southern,fbs,fbs,Mid-American,Sun Belt,23,21
+401442000,2022,1,postseason,2022-12-27T20:15:00.000Z,False,True,True,False,3735,Gerald J. Ford Stadium,Utah State,Memphis,fbs,fbs,Mountain West,American Athletic,10,38
+401442002,2022,1,postseason,2022-12-27T23:45:00.000Z,False,True,True,False,7221,Protective Stadium,East Carolina,Coastal Carolina,fbs,fbs,American Athletic,Sun Belt,53,29
+401442005,2022,1,postseason,2022-12-28T03:15:00.000Z,False,True,True,False,4251,Chase Field,Oklahoma State,Wisconsin,fbs,fbs,Big 12,Big Ten,17,24
+401442008,2022,1,postseason,2022-12-28T19:00:00.000Z,False,True,True,False,3852,Navy-Marine Corps Memorial Stadium,Duke,UCF,fbs,fbs,ACC,American Athletic,30,13
+401442030,2022,1,postseason,2022-12-28T22:30:00.000Z,False,True,True,False,3805,Simmons Bank Liberty Stadium,Arkansas,Kansas,fbs,fbs,SEC,Big 12,55,53
+401470891,2022,1,postseason,2022-12-29T01:00:00.000Z,False,True,True,False,4205,Petco Park,North Carolina,Oregon,fbs,fbs,ACC,Pac-12,27,28
+401442031,2022,1,postseason,2022-12-29T02:00:00.000Z,False,True,True,False,3891,NRG Stadium,Ole Miss,Texas Tech,fbs,fbs,SEC,Big 12,25,42
+401442032,2022,1,postseason,2022-12-29T19:00:00.000Z,False,True,True,False,4102,Yankee Stadium,Minnesota,Syracuse,fbs,fbs,Big Ten,ACC,28,20
+401442033,2022,1,postseason,2022-12-29T22:30:00.000Z,False,True,True,False,4013,Camping World Stadium,Florida State,Oklahoma,fbs,fbs,ACC,Big 12,35,32
+401442034,2022,1,postseason,2022-12-30T02:00:00.000Z,False,True,True,False,3604,Alamodome,Washington,Texas,fbs,fbs,Pac-12,Big 12,27,20
+401442035,2022,1,postseason,2022-12-30T17:00:00.000Z,False,True,True,False,3628,Bank of America Stadium,NC State,Maryland,fbs,fbs,ACC,Big Ten,12,16
+401443542,2022,1,postseason,2022-12-30T19:00:00.000Z,False,True,True,False,3946,Sun Bowl,UCLA,Pittsburgh,fbs,fbs,Pac-12,ACC,35,37
+401442036,2022,1,postseason,2022-12-30T20:30:00.000Z,False,True,True,False,3712,EverBank Stadium,South Carolina,Notre Dame,fbs,fbs,SEC,FBS Independents,38,45
+401443543,2022,1,postseason,2022-12-30T21:30:00.000Z,False,True,True,False,3619,Arizona Stadium,Wyoming,Ohio,fbs,fbs,Mountain West,Mid-American,27,30
+401442019,2022,1,postseason,2022-12-31T01:00:00.000Z,False,True,True,False,3948,Hard Rock Stadium,Clemson,Tennessee,fbs,fbs,ACC,SEC,14,31
+401442017,2022,1,postseason,2022-12-31T17:00:00.000Z,False,True,True,False,3810,Nissan Stadium,Kentucky,Iowa,fbs,fbs,SEC,Big Ten,0,21
+401442018,2022,1,postseason,2022-12-31T17:00:00.000Z,False,True,True,False,3493,Caesars Superdome,Kansas State,Alabama,fbs,fbs,Big 12,SEC,20,45
+401442016,2022,1,postseason,2022-12-31T21:00:00.000Z,False,True,True,False,3970,State Farm Stadium,Michigan,TCU,fbs,fbs,Big Ten,Big 12,45,51
+401442015,2022,1,postseason,2023-01-01T01:00:00.000Z,False,True,True,False,5348,Mercedes-Benz Stadium,Georgia,Ohio State,fbs,fbs,SEC,Big Ten,42,41
+401442011,2022,1,postseason,2023-01-02T17:00:00.000Z,False,True,True,False,3886,Raymond James Stadium,Illinois,Mississippi State,fbs,fbs,Big Ten,SEC,10,19
+401442012,2022,1,postseason,2023-01-02T18:00:00.000Z,False,True,True,False,4013,Camping World Stadium,Purdue,LSU,fbs,fbs,Big Ten,SEC,7,63
+401442013,2022,1,postseason,2023-01-02T18:00:00.000Z,False,True,True,False,3687,AT&T Stadium,USC,Tulane,fbs,fbs,Pac-12,American Athletic,45,46
+401442014,2022,1,postseason,2023-01-02T22:00:00.000Z,False,True,True,False,1056,Rose Bowl,Utah,Penn State,fbs,fbs,Pac-12,Big Ten,21,35
+401442010,2022,1,postseason,2023-01-10T00:30:00.000Z,False,True,True,False,7065,SoFi Stadium,Georgia,TCU,fbs,fbs,SEC,Big 12,65,7
