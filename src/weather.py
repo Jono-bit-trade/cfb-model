@@ -31,22 +31,33 @@ def load_cache():
     return pd.DataFrame(columns=COLS)
 
 
+class RateLimited(Exception):
+    """Open-Meteo's free hourly/daily allowance is used up: stop and resume next run."""
+
+
 def _hourly(url, lat, lon, start_date, end_date):
     import requests
 
     p = {"latitude": lat, "longitude": lon, "start_date": start_date, "end_date": end_date,
          "hourly": FIELDS, "temperature_unit": "fahrenheit", "wind_speed_unit": "mph",
          "precipitation_unit": "inch", "timezone": "UTC"}
-    for attempt in range(4):
-        r = requests.get(url, params=p, timeout=60)
-        if r.status_code == 429:
-            time.sleep(30 * (attempt + 1))
-            continue
-        r.raise_for_status()
-        h = pd.DataFrame(r.json()["hourly"])
-        h["time"] = pd.to_datetime(h["time"], utc=True)
-        return h.set_index("time")
+    r = requests.get(url, params=p, timeout=30)
+    if r.status_code == 429:
+        raise RateLimited(r.text[:200])
     r.raise_for_status()
+    h = pd.DataFrame(r.json()["hourly"])
+    h["time"] = pd.to_datetime(h["time"], utc=True)
+    return h.set_index("time")
+
+
+def _save(cache, new_rows):
+    if not new_rows:
+        return cache
+    new = pd.DataFrame(new_rows)
+    cache = cache[~cache.set_index(["game_id", "kind"]).index.isin(new.set_index(["game_id", "kind"]).index)]
+    cache = pd.concat([cache, new], ignore_index=True)
+    cache.to_csv(CACHE, index=False)
+    return cache
 
 
 def _window(hourly, kickoff):
@@ -74,8 +85,9 @@ def update(games, venues, upcoming_ids=()):
         return load_cache()
     cache = load_cache()
     now = pd.Timestamp.now(tz="UTC")
-    calls = 0
+    calls, errors = 0, 0
     new_rows = []
+    started = time.time()
 
     # 1) History: one call per venue-season covers every game played there.
     done = set(cache.loc[cache["kind"] == "actual", "game_id"])
@@ -83,8 +95,9 @@ def update(games, venues, upcoming_ids=()):
                                 & ~games["start_tbd"].astype(bool)], venues)
     past = past[past["start"] < now - pd.Timedelta(hours=6)]
     for (venue, season), grp in past.sort_values("start", ascending=False).groupby(["venue_id", "season"], sort=False):
-        if calls >= config.WEATHER_MAX_CALLS:
-            print(f"weather: reached {calls} calls; the rest of the history fills on later runs")
+        minutes = (time.time() - started) / 60
+        if calls >= config.WEATHER_MAX_CALLS or minutes >= config.WEATHER_MAX_MINUTES or errors >= 10:
+            print(f"weather: stopping history after {calls} calls / {minutes:.0f} min; the rest fills on later runs")
             break
         first, last = grp["start"].min(), grp["start"].max() + pd.Timedelta(hours=6)
         url = ARCHIVE if last < now - pd.Timedelta(days=6) else FORECAST
@@ -92,9 +105,15 @@ def update(games, venues, upcoming_ids=()):
             hourly = _hourly(url, grp["lat"].iloc[0], grp["lon"].iloc[0],
                              first.strftime("%Y-%m-%d"), last.strftime("%Y-%m-%d"))
             calls += 1
+        except RateLimited as e:
+            print(f"weather: free allowance used up after {calls} calls ({e}); the rest fills on later runs")
+            break
         except Exception as e:
+            errors += 1
             print(f"  ! weather venue {venue} {season}: {e}")
             continue
+        if calls % 50 == 0:
+            cache, new_rows = _save(cache, new_rows), []
         for gm in grp.itertuples():
             wx = _window(hourly, gm.start)
             if wx:
@@ -108,6 +127,9 @@ def update(games, venues, upcoming_ids=()):
         try:
             hourly = _hourly(FORECAST, grp["lat"].iloc[0], grp["lon"].iloc[0],
                              first.strftime("%Y-%m-%d"), last.strftime("%Y-%m-%d"))
+        except RateLimited:
+            print("weather: allowance used up; this week's forecasts refresh on the next run")
+            break
         except Exception as e:
             print(f"  ! forecast venue {venue}: {e}")
             continue
@@ -118,12 +140,8 @@ def update(games, venues, upcoming_ids=()):
             if wx:
                 new_rows.append({"game_id": gm.game_id, "kind": "forecast", **wx, "fetched_at": now.isoformat()})
 
-    if new_rows:
-        new = pd.DataFrame(new_rows)
-        cache = cache[~cache.set_index(["game_id", "kind"]).index.isin(new.set_index(["game_id", "kind"]).index)]
-        cache = pd.concat([cache, new], ignore_index=True)
-        cache.to_csv(CACHE, index=False)
-    print(f"weather: {len(new_rows)} games updated with {calls} history calls")
+    cache = _save(cache, new_rows)
+    print(f"weather: history calls this run: {calls}; cache now holds {len(cache)} games")
     return cache
 
 

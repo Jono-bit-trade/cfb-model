@@ -33,7 +33,8 @@ VALUE_MIN_PROB = 0.04        # value moneyline: model's win chance must beat the
 
 # ---- Weather ---------------------------------------------------------------
 WEATHER_WINDOW_HOURS = 3     # average kickoff hour through this many hours after
-WEATHER_MAX_CALLS = int(os.environ.get("WEATHER_MAX_CALLS", 600))  # per run, for the history backfill
+WEATHER_MAX_CALLS = int(os.environ.get("WEATHER_MAX_CALLS", 300))  # per run, for the history backfill
+WEATHER_MAX_MINUTES = 12     # per run: the history backfill never holds up predictions longer than this
 
 # ---- Sportsbook preference for the market line ---------------------------
 LINE_PROVIDERS = ["consensus", "DraftKings", "ESPN Bet", "Bovada", "William Hill (New Jersey)", "teamrankings", "numberfire"]

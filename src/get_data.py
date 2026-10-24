@@ -14,7 +14,7 @@ import pandas as pd
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import config  # noqa: E402
-from common import fetch, g, has_season, load, save_season, dataset_dir, DATA  # noqa: E402
+from common import CALLS, OutOfCalls, fetch, g, has_season, load, save_season, dataset_dir, DATA  # noqa: E402
 
 SEASON_TYPES = ["regular", "postseason"]
 
@@ -224,11 +224,21 @@ def parse_coaches(raw, season):
 # --------------------------------------------------------------------------
 # Download plan
 # --------------------------------------------------------------------------
+def _save_partial(frames, name, season, done_file, done_weeks):
+    df = pd.concat([f for f in frames if len(f)], ignore_index=True) if frames else pd.DataFrame()
+    if len(df):
+        save_season(df.drop_duplicates(), name, season)
+    with open(done_file, "w") as f:
+        f.write("\n".join(sorted(done_weeks)))
+
+
 def _both_types(endpoint, season, **params):
     out = []
     for st in SEASON_TYPES:
         try:
             out += fetch(endpoint, year=season, seasonType=st, **params) or []
+        except OutOfCalls:
+            raise
         except Exception as e:  # some endpoints/years have no postseason data
             print(f"  ! {endpoint} {season} {st}: {e}")
     return out
@@ -280,6 +290,8 @@ def refresh_season(season, current):
                 df = df.drop_duplicates("game_id", keep="last")
             save_season(df, name, season)
             print(f"  saved {name}")
+        except OutOfCalls:
+            raise
         except Exception as e:
             print(f"  ! {name}: {e}")
 
@@ -289,6 +301,8 @@ def refresh_season(season, current):
         try:
             save_season(parser(download(season) or [], season), name, season)
             print(f"  saved {name}")
+        except OutOfCalls:
+            raise
         except Exception as e:
             print(f"  ! {name}: {e} (skipped; not every season has this data)")
 
@@ -313,6 +327,9 @@ def refresh_season(season, current):
                 week_games = games[(games["week"] == week) & (games["season_type"] == stype)]
                 if week_games["completed"].astype(bool).all():
                     done_weeks.add(f"{stype}:{week}")  # whole week final: never fetch it again
+            except OutOfCalls:
+                _save_partial(frames, name, season, done_file, done_weeks)
+                raise
             except Exception as e:
                 print(f"  ! {name} week {week} {stype}: {e}")
         with open(done_file, "w") as f:
@@ -322,6 +339,19 @@ def refresh_season(season, current):
             df = df.drop_duplicates()
             save_season(df, name, season)
             print(f"  saved {name} ({len(need)} new games)")
+
+
+def check_allowance():
+    """Print the plan's remaining calls (the /info endpoint is free)."""
+    try:
+        info = fetch("/info") or {}
+        rem = g(info, "remainingCalls", "remaining_calls")
+        if rem is not None:
+            CALLS["remaining"], CALLS["used"] = int(rem), 0
+        print(f"CFBD plan: tier {g(info, 'patronLevel', default=0)}, "
+              f"{rem if rem is not None else 'unknown'} calls left this month")
+    except Exception as e:
+        print(f"(could not read the API allowance: {e})")
 
 
 def load_games_season(season):
@@ -346,21 +376,27 @@ def main():
             save_season(parser(download(s), s), name, s)
             print(f"saved {name} {s}")
         return
-    if args.season:
-        refresh_season(args.season, current=args.season == config.THIS_SEASON)
-    else:
-        if not args.current_only:
-            for s in range(args.from_season, config.THIS_SEASON):
-                refresh_season(s, current=False)
-        refresh_season(config.THIS_SEASON, current=True)
-
+    check_allowance()
     venues_path = os.path.join(DATA, "venues.csv")
-    if not os.path.exists(venues_path) or not args.current_only:
+    if not os.path.exists(venues_path):
         try:
             parse_venues(fetch("/venues")).to_csv(venues_path, index=False)
             print("saved venues")
         except Exception as e:
             print(f"! venues: {e}")
+    try:
+        if args.season:
+            refresh_season(args.season, current=args.season == config.THIS_SEASON)
+        else:
+            # This season first, then history newest-first: if the API allowance runs
+            # out, the seasons that matter most are already saved.
+            refresh_season(config.THIS_SEASON, current=True)
+            if not args.current_only:
+                for s in range(config.THIS_SEASON - 1, args.from_season - 1, -1):
+                    refresh_season(s, current=False)
+    except OutOfCalls as e:
+        print(f"! {e}. Everything downloaded so far is saved; the rest continues next month or on a bigger plan.")
+
     print("Done. Rows per dataset:")
     for name in list(SEASONAL) + list(PRESEASON) + list(WEEKLY):
         df = load(name)

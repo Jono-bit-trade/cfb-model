@@ -11,6 +11,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
 SITE_DATA = os.path.join(ROOT, "docs", "data")
 CFBD_BASE = "https://api.collegefootballdata.com"
+RESERVE_CALLS = 60  # always keep this many for the weekly runs
 
 
 # ---------------------------------------------------------------- API client
@@ -23,8 +24,18 @@ def api_key():
     return key
 
 
+CALLS = {"used": 0, "remaining": None}
+
+
+class OutOfCalls(Exception):
+    """The CFBD plan's monthly call allowance is (almost) used up."""
+
+
 def fetch(endpoint, **params):
     """GET a CFBD endpoint and return the parsed JSON (retries on rate limits)."""
+    rem = CALLS["remaining"]
+    if rem is not None and rem - CALLS["used"] <= RESERVE_CALLS and endpoint != "/info":
+        raise OutOfCalls(f"stopping with about {rem - CALLS['used']} API calls left this month")
     import requests
 
     headers = {"Authorization": f"Bearer {api_key()}", "Accept": "application/json"}
@@ -35,6 +46,11 @@ def fetch(endpoint, **params):
             time.sleep(5 * (attempt + 1))
             continue
         r.raise_for_status()
+        if endpoint != "/info":
+            CALLS["used"] += 1
+        left = r.headers.get("X-CallLimit-Remaining")
+        if left is not None and left.isdigit():
+            CALLS["remaining"], CALLS["used"] = int(left), 0
         time.sleep(0.3)
         return r.json()
     r.raise_for_status()
