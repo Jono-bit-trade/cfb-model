@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gridiron Model — college football projections</title>
+  <meta name="description" content="Weekly college football score projections, picks against the line, kickoff weather and quarterback status.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="masthead">
+    <div class="wrap masthead-row">
+      <a class="brand" href="#board">Gridiron Model</a>
+      <nav class="tabs" aria-label="Sections">
+        <a href="#board" data-tab="board">This week</a>
+        <a href="#ratings" data-tab="ratings">Ratings</a>
+        <a href="#record" data-tab="record">Record</a>
+        <a href="#how" data-tab="how">How it works</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="view-board" class="view" aria-labelledby="board-title">
+      <div class="board-head">
+        <div>
+          <h1 id="board-title" class="week-title">Loading…</h1>
+          <p class="sub" id="board-sub"></p>
+        </div>
+        <p class="season-line" id="season-line"></p>
+      </div>
+      <div class="controls" role="group" aria-label="Filter games">
+        <button class="chip-btn" data-filter="all" aria-pressed="true">All games</button>
+        <button class="chip-btn" data-filter="strong" aria-pressed="false">Strong picks</button>
+        <button class="chip-btn" data-filter="qb" aria-pressed="false">QB news</button>
+        <button class="chip-btn" data-filter="weather" aria-pressed="false">Weather games</button>
+        <label class="sort">Sort
+          <select id="sort">
+            <option value="kickoff">Kickoff</option>
+            <option value="edge">Biggest edge</option>
+          </select>
+        </label>
+      </div>
+      <ol class="games" id="games"></ol>
+      <p class="empty" id="games-empty" hidden>No games match this filter.</p>
+    </section>
+
+    <section id="view-ratings" class="view" hidden aria-labelledby="ratings-title">
+      <h1 id="ratings-title" class="week-title">Team ratings</h1>
+      <p class="sub" id="ratings-sub"></p>
+      <div class="controls">
+        <label class="search">Find a team <input id="team-search" type="search" autocomplete="off"></label>
+      </div>
+      <div class="table-scroll">
+        <table class="ratings" id="ratings-table">
+          <thead>
+            <tr>
+              <th scope="col" class="num">#</th>
+              <th scope="col"><button data-sort="team">Team</button></th>
+              <th scope="col"><button data-sort="conf">Conf</button></th>
+              <th scope="col" class="num"><button data-sort="record">Record</button></th>
+              <th scope="col" class="num"><button data-sort="overall" aria-sort="descending">Overall</button></th>
+              <th scope="col" class="num"><button data-sort="offense">Offense</button></th>
+              <th scope="col" class="num"><button data-sort="defense">Defense</button></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="note">Offense is points a team would score against an average defense; defense is points it would allow to an average offense, so lower is better. Overall is offense minus defense.</p>
+    </section>
+
+    <section id="view-record" class="view" hidden aria-labelledby="record-title">
+      <h1 id="record-title" class="week-title">Record</h1>
+      <div class="tally" id="tally"></div>
+      <p class="note" id="backfill-note" hidden></p>
+      <div class="table-scroll">
+        <table class="results" id="results-table">
+          <thead><tr><th scope="col">Week</th><th scope="col">Game</th><th scope="col" class="num">Projected</th><th scope="col" class="num">Final</th><th scope="col">Pick</th><th scope="col">Result</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="view-how" class="view prose" hidden aria-labelledby="how-title">
+      <h1 id="how-title" class="week-title">How it works</h1>
+      <p>Every team has an offense and a defense rating, measured in points and adjusted for who it played. Ratings start each season from a preseason estimate built from last season, returning production, roster talent, recruiting, the transfer portal and coaching changes, then move with every game.</p>
+      <p>A machine learning model adds what ratings miss: efficiency and style, rest, travel, altitude, time zones, the weather forecast at kickoff, and whether a starting quarterback is out. The projected margin is compared with the betting line, and the side the model likes is the pick. A strong pick is one where the model and the line disagree by at least <span id="strong-edge">3</span> points.</p>
+      <h2>How it has done in testing</h2>
+      <p>Each past season was replayed week by week using only information available at the time.</p>
+      <div class="table-scroll">
+        <table class="results" id="backtest-table">
+          <thead><tr><th scope="col">Season</th><th scope="col" class="num">Games</th><th scope="col" class="num">Against the spread</th><th scope="col" class="num">Winners</th><th scope="col" class="num">Over/under</th><th scope="col" class="num">Avg miss (pts)</th><th scope="col" class="num">Market miss</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="note">Breaking even against the spread at standard odds takes 52.4%. Projections are for entertainment and analysis, not betting advice.</p>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <p id="updated"></p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

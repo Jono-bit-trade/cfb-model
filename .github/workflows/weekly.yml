@@ -1,0 +1,55 @@
+name: weekly-predictions
+
+on:
+  schedule:
+    - cron: "0 3 * * 2"     # Tuesday 03:00 UTC = Monday night Central: full data refresh + backtest
+    - cron: "0 14 * * 3-5"  # Wed-Fri 14:00 UTC = morning Central: kickoff forecasts + QB status
+    - cron: "0 14 * * 6"    # Saturday 14:00 UTC: final forecasts, QB status and betting lines
+  workflow_dispatch:        # adds a "Run workflow" button on the Actions tab
+
+concurrency:
+  group: weekly-predictions
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Download data
+        env:
+          CFBD_KEY: ${{ secrets.CFBD_KEY }}
+        run: |
+          DOW=$(date -u +%u)   # 2 = Tuesday, 6 = Saturday
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$DOW" = "2" ]; then
+            python src/get_data.py          # first run backfills history; later runs refresh this season
+          elif [ "$DOW" = "6" ]; then
+            python src/get_data.py --quick  # latest schedule and betting lines
+          else
+            echo "Weekday run: no game data download needed"
+          fi
+
+      - name: Predict
+        run: python src/predict.py
+
+      - name: Backtest
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 3 * * 2'
+        run: python src/backtest.py
+
+      - name: Save results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data docs
+          git commit -m "Update predictions $(date -u +%Y-%m-%d)" || echo "No changes"
+          git pull --rebase
+          git push

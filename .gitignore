@@ -1,0 +1,11 @@
+# never publish your API key
+key.txt
+.env
+
+# large working files the backtest writes
+data/backtest_games.csv
+
+__pycache__/
+*.pyc
+.DS_Store
+.venv/

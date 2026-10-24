@@ -1,0 +1,73 @@
+# Gridiron Model
+
+A college football prediction model and website. Every week it projects every FBS game's score, compares the projection with the betting line, and publishes the picks with the kickoff weather forecast and each team's starting-quarterback status.
+
+Website: **https://jono-bit-trade.github.io/cfb-model/** (live once setup step 2 below is done)
+
+## One-time setup (about 5 minutes)
+
+1. **Add your API key as a secret.** In this repository go to **Settings → Secrets and variables → Actions → New repository secret**. Name: `CFBD_KEY`. Value: the key CollegeFootballData emailed you. Never put the key in a file here.
+2. **Turn on the website.** Go to **Settings → Pages**. Under "Build and deployment", set Source to **Deploy from a branch**, Branch to **main**, folder **/docs**, then **Save**. (Free GitHub accounts need the repository to be public for Pages.)
+3. **Run it for the first time.** Go to the **Actions** tab, choose **weekly-predictions**, then **Run workflow**. The first run downloads every season since 2013, which takes 20 to 40 minutes. When it finishes, the website shows this week's games.
+
+After that it runs on its own:
+
+| When (Central time) | What happens |
+| --- | --- |
+| Monday night | Downloads the week's results, rebuilds ratings, makes new projections, reruns the backtest |
+| Wednesday to Friday mornings | Refreshes kickoff weather forecasts and quarterback status |
+| Saturday morning | Final forecasts, quarterback status and betting lines before kickoff |
+
+## Your weekly job: quarterback status
+
+The model checks whether each team's starting QB is out. Past games are figured out automatically from box scores. For this week's games, it reads `data/qb_status.csv`, which you update from the conference availability reports. Open the file on GitHub, click the pencil icon, add a line, and commit:
+
+```
+season,week,team,qb,status,note
+2026,9,Texas,Arch Manning,questionable,ankle
+```
+
+- `status` is one of: `available`, `probable`, `questionable`, `doubtful`, `out`
+- `out` and `doubtful` are projected with the starter missing.
+- `questionable` shows both projections on the site: if he plays and if he sits.
+- Team names must match the site's spelling. Teams you don't list are assumed to have their starter.
+
+The next morning's run picks it up, or click **Run workflow** to update right away.
+
+## How the model works
+
+| Step | File | What it does |
+| --- | --- | --- |
+| Data | `src/get_data.py` | Downloads games, betting lines, efficiency stats, box scores, talent, returning production, recruiting, transfer portal, coaches and stadiums from CollegeFootballData |
+| Ratings | `src/ratings.py` | Opponent-adjusted offense and defense ratings in points, starting each season from a roster-based preseason prior |
+| Weather | `src/weather.py` | Free kickoff forecasts and past game-day weather from Open-Meteo |
+| QB out | `src/qb.py` | Starting QB out flag: box scores for past games, `data/qb_status.csv` for this week |
+| Features | `src/features.py` | Efficiency matchups, pace, turnovers, penalties, rest, travel, altitude, time zones, coaching changes, situations |
+| Model | `src/model.py` | Gradient-boosted trees blended with the rating projection |
+| Backtest | `src/backtest.py` | Replays past seasons week by week using only information available at the time |
+| Site | `src/predict.py`, `docs/` | Writes the week's picks, ratings and record for the website |
+
+All tunable settings are in `src/config.py`. To test a change, edit a value and run the backtest (or ask Claude to). Keep a change only if it improves results across several seasons.
+
+## The record
+
+`data/predictions_log.csv` keeps the last projection made before each kickoff, and the Record page grades those. When the site first launches mid-season, earlier games of the season are filled in by replaying the model with only pre-game information, and the site labels them as backfilled.
+
+## API usage
+
+The first download uses roughly 700 CollegeFootballData calls. After that, upkeep is about 80 calls a month. If your plan's monthly limit is lower than the first download needs, run the backfill in pieces: on your computer, `python src/get_data.py --from-season 2019`, or ask Claude to change the workflow.
+
+## Running it on your own computer (optional)
+
+```
+pip install -r requirements.txt
+echo YOUR_KEY > key.txt        # key.txt is never uploaded (.gitignore)
+python src/get_data.py
+python src/predict.py
+python src/backtest.py
+cd docs && python -m http.server   # then open http://localhost:8000
+```
+
+Tests (no key needed): `python tests/test_parsers.py` and `bash tests/smoke_test.sh`.
+
+Projections are for entertainment and analysis, not betting advice.

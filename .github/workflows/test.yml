@@ -1,0 +1,22 @@
+name: tests
+
+# Runs on every code change: checks the API parsers and runs the whole pipeline
+# on made-up sample data (no API key or network needed).
+on:
+  push:
+    paths: ["src/**", "tests/**", "docs/*.js", ".github/workflows/test.yml"]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python tests/test_parsers.py
+      - run: bash tests/smoke_test.sh
