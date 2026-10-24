@@ -151,3 +151,23 @@ td.team-cell { font: 600 17px/1.2 var(--display); }
 @media (prefers-reduced-motion: no-preference) {
   .field .model-dot { transition: transform .3s ease; }
 }
+
+/* ---------- history */
+.history-controls { align-items: end; }
+.field-label { display: grid; gap: 4px; font-size: 14px; color: var(--muted); }
+.check { display: flex; gap: 6px; align-items: center; font-size: 15px; padding-bottom: 6px; }
+.section-title { font: 700 28px/1.1 var(--display); margin: 32px 0 4px; }
+.tally .units { display: block; margin-top: 4px; font-size: 14px; color: var(--ink); font-weight: 600; }
+.tally .units.neg { color: var(--loss); }
+.tally .units.pos { color: var(--win); }
+.edge-scroll { max-width: 720px; }
+tr.hit60 td { background: var(--turf-soft); }
+table.history td { vertical-align: top; }
+.mark { font-weight: 700; margin-left: 6px; }
+.mark.w { color: var(--win); }
+.mark.l { color: var(--loss); }
+.mark.p { color: var(--muted); }
+.mark.w::before { content: "✓ "; }
+.mark.l::before { content: "✗ "; }
+td .small { display: block; color: var(--muted); font-size: 13px; }
+.bf { color: var(--muted); font-size: 12px; margin-left: 4px; }

@@ -8,6 +8,9 @@ const $ = (sel, root = document) => root.querySelector(sel);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const num = (v, d = 1) => (v === null || v === undefined || Number.isNaN(v) ? "–" : Number(v).toFixed(d));
 const lineText = (team, line) => line === null || line === undefined ? "–" : Math.abs(line) < 0.05 ? `${team} PK` : `${team} ${line > 0 ? "+" : "−"}${Math.abs(line).toFixed(1)}`;
+const odds = (v) => v === null || v === undefined ? "–" : v > 0 ? `+${Math.round(v)}` : `−${Math.abs(Math.round(v))}`;
+const valueTag = (g) => g.moneyline && g.moneyline.value
+  ? `<span class="tag" title="The model gives this side a ${num(g.moneyline.value.gap, 0)}-point better win chance than the moneyline implies">Value moneyline: ${esc(g.moneyline.value.team)} ${odds(g.moneyline.value.odds)}</span>` : "";
 const pct = (v) => (v === null || v === undefined ? "–" : `${(v * 100).toFixed(1)}%`);
 
 async function getJSON(name) {
@@ -106,6 +109,8 @@ function gameRow(g) {
       <div><dt>Total</dt><dd>${m.total === null ? "–" : num(m.total)}</dd></div>
       <div><dt>Model total</dt><dd>${num(g.model.total)}</dd></div>
       ${moved ? `<div><dt>Opened</dt><dd>${esc(lineText(g.home.team, m.spread_open))}</dd></div>` : ""}
+      ${g.moneyline && g.moneyline.home !== null ? `<div><dt>Moneyline</dt><dd>${esc(g.away.team)} ${odds(g.moneyline.away)}, ${esc(g.home.team)} ${odds(g.moneyline.home)}</dd></div>` : ""}
+      ${g.moneyline ? `<div><dt>Win chance</dt><dd>${esc(g.winner)} ${num(g.moneyline.win_chance, 0)}%</dd></div>` : ""}
     </dl>`;
   const strong = g.pick && g.pick.strong;
   const pick = g.pick && g.pick.text
@@ -115,7 +120,7 @@ function gameRow(g) {
       <div class="kick"><time datetime="${esc(g.kickoff)}">${esc(k.time)}</time>${esc(k.day)}<br>${esc(g.venue || "")}${g.neutral ? " (neutral)" : ""}</div>
       <div class="teams">${team("away", !homeWins)}${team("home", homeWins)}</div>
       <div class="lines">${fieldSVG(g, strong)}${numbers}</div>
-      <div class="pick-row">${pick}${g.total_pick ? `<span class="tag">${esc(g.total_pick)}</span>` : ""}${weatherTag(g.weather)}${qbTags(g)}</div>
+      <div class="pick-row">${pick}${g.total_pick ? `<span class="tag">${esc(g.total_pick)}</span>` : ""}${valueTag(g)}${weatherTag(g.weather)}${qbTags(g)}</div>
     </li>`;
 }
 
@@ -140,8 +145,8 @@ function renderBoard() {
   $("#games-empty").hidden = games.length > 0;
 
   const s = state.results?.summary?.season;
-  if (s && s.ats && s.ats.w + s.ats.l > 0) {
-    $("#season-line").innerHTML = `${s.ats.w}–${s.ats.l}${s.ats.p ? `–${s.ats.p}` : ""} against the spread<br><span>${s.su.w}–${s.su.l} picking winners this season</span>`;
+  if (s && s.spread && s.spread.w + s.spread.l > 0) {
+    $("#season-line").innerHTML = `${wl(s.spread)} against the spread<br><span>${wl(s.winner)} picking winners this season</span>`;
   }
 }
 
@@ -171,31 +176,105 @@ function renderRatings() {
   });
 }
 
-/* ----------------------------------------------------------------- record */
+/* ---------------------------------------------------------------- history */
 function wl(x) { return x && x.w + x.l + x.p > 0 ? `${x.w}–${x.l}${x.p ? `–${x.p}` : ""}` : "–"; }
-function renderRecord() {
-  const res = state.results;
-  const body = $("#results-table tbody");
-  if (!res || !res.games.length) {
-    $("#tally").innerHTML = "";
-    body.innerHTML = `<tr><td colspan="6">Results appear once games the model picked have finished.</td></tr>`;
+const H = { index: null, cache: {}, season: null, team: "", edge: 0, valueOnly: false };
+
+function tallyOf(rows, key) {
+  let w = 0, l = 0, p = 0;
+  for (const r of rows) { const v = r[key]; if (v === 1) w++; else if (v === 0) l++; else if (v === 0.5) p++; }
+  return { w, l, p, pct: w + l ? w / (w + l) : null };
+}
+const units110 = (t) => t.w * (100 / 110) - t.l;
+const sumUnits = (rows, key) => rows.reduce((s, r) => s + (r[key] ?? 0), 0);
+const unitText = (u) => `<span class="units ${u > 0.005 ? "pos" : u < -0.005 ? "neg" : ""}">${u >= 0 ? "+" : "−"}${Math.abs(u).toFixed(1)} units</span>`;
+const mark = (v) => v === 1 ? `<span class="mark w">Won</span>` : v === 0 ? `<span class="mark l">Lost</span>` : v === 0.5 ? `<span class="mark p">Push</span>` : "";
+const signed = (v) => v === null || v === undefined ? "" : Math.abs(v) < 0.05 ? "PK" : `${v > 0 ? "+" : "−"}${Math.abs(v).toFixed(1)}`;
+
+async function loadSeason(s) {
+  if (!H.cache[s]) H.cache[s] = (await getJSON(`history/${s}`))?.games ?? [];
+  return H.cache[s];
+}
+
+async function initHistory() {
+  H.index = await getJSON("history/index");
+  const sel = $("#h-season");
+  if (!H.index || !H.index.seasons.length) {
+    $("#h-tally").innerHTML = "";
+    $("#h-note").textContent = "History appears after the first backtest runs (Monday nights, or Run workflow on GitHub).";
     return;
   }
-  const s = res.summary.season;
-  $("#record-title").textContent = `${res.season} record`;
-  const tile = (label, x) => `<div><b>${wl(x)}</b><span>${label}${x && x.pct !== null ? `, ${pct(x.pct)}` : ""}</span></div>`;
-  $("#tally").innerHTML = tile("Against the spread", s.ats) + tile("Strong picks against the spread", s.ats_strong)
-    + tile("Picking winners", s.su) + tile("Over/under", s.ou);
-  const note = $("#backfill-note");
-  note.hidden = !res.backfilled_games;
-  note.textContent = res.backfilled_games
-    ? `${res.backfilled_games} games from before the site launched were filled in by replaying the model with only the information available before each game. Every pick since launch was recorded before kickoff.`
-    : "";
-  const mark = (v) => v === 1 ? `<span class="res-w">Won</span>` : v === 0 ? `<span class="res-l">Lost</span>` : v === 0.5 ? `<span class="res-p">Push</span>` : "–";
-  body.innerHTML = res.games.map((g) => `<tr>
-      <td>${g.week ?? ""}</td><td>${esc(g.away)} at ${esc(g.home)}</td>
-      <td class="num">${Math.round(g.proj[1])}–${Math.round(g.proj[0])}</td><td class="num">${g.final[1]}–${g.final[0]}</td>
-      <td>${esc(g.pick || "–")}</td><td>${mark(g.ats)}</td></tr>`).join("");
+  sel.innerHTML = H.index.seasons.map((s) => `<option value="${s}">${s}${s === H.index.current ? " (this season)" : ""}</option>`).join("")
+    + `<option value="all">All seasons</option>`;
+  H.season = H.index.seasons.includes(H.index.current) ? String(H.index.current) : String(H.index.seasons[0]);
+  sel.value = H.season;
+  sel.addEventListener("change", () => { H.season = sel.value; renderHistory(); });
+  $("#h-team").addEventListener("input", (e) => { H.team = e.target.value.trim().toLowerCase(); renderHistory(); });
+  $("#h-edge").addEventListener("change", (e) => { H.edge = Number(e.target.value); renderHistory(); });
+  $("#h-value").addEventListener("change", (e) => { H.valueOnly = e.target.checked; renderHistory(); });
+  renderHistory();
+}
+
+async function renderHistory() {
+  if (!H.index) return;
+  const seasons = H.season === "all" ? H.index.seasons : [Number(H.season)];
+  let rows = (await Promise.all(seasons.map(loadSeason))).flat();
+  if (H.team) rows = rows.filter((r) => r.h.toLowerCase().includes(H.team) || r.a.toLowerCase().includes(H.team));
+  const teamRows = rows;
+  const spreadRows = rows.filter((r) => (r.edge ?? -1) >= H.edge);
+  const totalRows = rows.filter((r) => (r.te ?? -1) >= H.edge);
+  const shown = H.edge > 0 ? spreadRows : rows;
+
+  const su = tallyOf(shown, "su"), ats = tallyOf(spreadRows, "ats"), ou = tallyOf(totalRows, "ou");
+  const mlRows = H.valueOnly ? shown.filter((r) => r.val_u !== null) : shown.filter((r) => r.ml_u !== null);
+  const mlUnits = sumUnits(mlRows, H.valueOnly ? "val_u" : "ml_u");
+  const mlWins = mlRows.filter((r) => (H.valueOnly ? r.val_u : r.ml_u) > 0).length;
+  const tile = (label, rec, extra = "") => `<div><b>${wl(rec)}</b><span>${label}${rec.pct !== null ? `, ${pct(rec.pct)}` : ""}</span>${extra}</div>`;
+  $("#h-tally").innerHTML =
+    tile("Picking winners", su)
+    + `<div><b>${mlRows.length ? `${mlWins}–${mlRows.length - mlWins}` : "–"}</b><span>${H.valueOnly ? "Value moneylines" : "Moneyline on the projected winner"}</span>${mlRows.length ? unitText(mlUnits) : ""}</div>`
+    + tile("Against the spread", ats, ats.w + ats.l ? unitText(units110(ats)) : "")
+    + tile("Over/under", ou, ou.w + ou.l ? unitText(units110(ou)) : "");
+
+  const bf = shown.filter((r) => r.bf).length;
+  const label = H.season === "all" ? "all seasons" : H.season;
+  $("#h-note").textContent = `${shown.length} games in ${label}${H.team ? ` involving "${H.team}"` : ""}`
+    + `${H.edge ? `, where the model and the spread disagree by ${H.edge}+ points (over/under uses the same gap on the total)` : ""}. `
+    + "Spread and over/under units assume standard −110 odds; moneyline units use each game's posted odds. "
+    + "Past seasons were replayed using only information available before each game"
+    + (bf ? `; ${bf} games this season were filled in the same way before launch.` : ".");
+
+  // Edge ladder: where does the record clear 60%?
+  const cuts = [0, 2, 3, 4, 5, 6, 7, 8, 10, 12];
+  $("#h-edges tbody").innerHTML = cuts.map((c) => {
+    const a = tallyOf(teamRows.filter((r) => (r.edge ?? -1) >= c), "ats");
+    const o = tallyOf(teamRows.filter((r) => (r.te ?? -1) >= c), "ou");
+    const n = a.w + a.l + a.p;
+    const hit = a.pct !== null && a.pct >= 0.6 && n >= 50;
+    return `<tr class="${hit ? "hit60" : ""}"><td>${c === 0 ? "Every game" : `${c}+ points`}</td><td class="num">${n}</td>
+      <td class="num">${wl(a)}</td><td class="num">${pct(a.pct)}</td><td class="num">${wl(o)} ${o.pct !== null ? `(${pct(o.pct)})` : ""}</td></tr>`;
+  }).join("");
+
+  const list = [...shown].sort((x, y) => y.date.localeCompare(x.date));
+  const LIMIT = 400;
+  const fmtDay = (iso) => new Intl.DateTimeFormat("en-US", { timeZone: TZ, month: "short", day: "numeric", year: H.season === "all" ? "numeric" : undefined }).format(new Date(iso));
+  $("#h-games tbody").innerHTML = list.slice(0, LIMIT).map((r) => {
+    const ph = (r.pt + r.pm) / 2, pa = (r.pt - r.pm) / 2;
+    const winner = r.pm >= 0 ? r.h : r.a;
+    const mlCell = H.valueOnly
+      ? (r.val ? `${esc(r.val)} ${odds(r.val_odds)}<span class="small">${r.val_u >= 0 ? "+" : "−"}${Math.abs(r.val_u).toFixed(2)} units</span>` : "")
+      : (r.ml_odds !== null ? `${odds(r.ml_odds)}<span class="small">${r.ml_u >= 0 ? "+" : "−"}${Math.abs(r.ml_u ?? 0).toFixed(2)} units</span>` : "–");
+    return `<tr>
+      <td>${r.post ? "Bowl" : r.wk ?? ""}<span class="small">${fmtDay(r.date)}</span></td>
+      <td>${esc(r.a)} at ${esc(r.h)}${r.bf ? `<span class="bf">replayed</span>` : ""}</td>
+      <td class="num">${r.as}–${r.hs}</td><td class="num">${Math.round(pa)}–${Math.round(ph)}</td>
+      <td>${esc(winner)} ${mark(r.su)}<span class="small">${r.pw !== null ? `${Math.round(r.pw * 100)}% win chance` : ""}</span></td>
+      <td>${mlCell}</td>
+      <td>${r.ats_pick ? `${esc(r.ats_pick)} ${signed(r.ats_line)} ${mark(r.ats)}<span class="small">${num(r.edge)}-point edge</span>` : "No line"}</td>
+      <td>${r.ou_pick ? `${r.ou_pick} ${num(r.tot)} ${mark(r.ou)}<span class="small">${num(r.te)}-point edge</span>` : "–"}</td></tr>`;
+  }).join("") || `<tr><td colspan="8">No games match these filters.</td></tr>`;
+  $("#h-more").hidden = list.length <= LIMIT;
+  $("#h-more").textContent = `Showing the newest ${LIMIT} of ${list.length} games. Narrow it with the season or team filters.`;
 }
 
 /* -------------------------------------------------------------- backtest */
@@ -203,14 +282,14 @@ function renderBacktest() {
   const b = state.backtest;
   const body = $("#backtest-table tbody");
   if (!b) { body.innerHTML = `<tr><td colspan="7">Run the backtest to fill this in.</td></tr>`; return; }
-  const row = (label, r) => `<tr><td>${label}</td><td class="num">${r.games_with_line}</td><td class="num">${pct(r.ats_pct)}</td>
-      <td class="num">${pct(r.su_pct)}</td><td class="num">${pct(r.ou_pct)}</td><td class="num">${num(r.mae_model)}</td><td class="num">${num(r.mae_market)}</td></tr>`;
+  const row = (label, r) => `<tr><td>${label}</td><td class="num">${r.games}</td><td class="num">${pct(r.spread.pct)}</td>
+      <td class="num">${pct(r.winner.pct)}</td><td class="num">${pct(r.total.pct)}</td><td class="num">${num(r.mae_model)}</td><td class="num">${num(r.mae_market)}</td></tr>`;
   body.innerHTML = Object.entries(b.by_season).map(([s, r]) => row(s, r)).join("") + row("<b>All</b>", b.overall);
 }
 
 /* ---------------------------------------------------------------- router */
 function show(tab) {
-  const tabs = ["board", "ratings", "record", "how"];
+  const tabs = ["board", "ratings", "history", "how"];
   if (!tabs.includes(tab)) tab = "board";
   tabs.forEach((t) => { $(`#view-${t}`).hidden = t !== tab; });
   document.querySelectorAll(".tabs a").forEach((a) => {
@@ -221,7 +300,15 @@ function show(tab) {
 async function init() {
   [state.predictions, state.ratings, state.results, state.backtest] =
     await Promise.all(["predictions", "ratings", "results", "backtest"].map(getJSON));
-  renderBoard(); renderRatings(); renderRecord(); renderBacktest();
+  renderBoard(); renderRatings(); renderBacktest(); initHistory();
+  const tuning = await getJSON("tuning");
+  if (tuning) {
+    const r = tuning.holdout_at_strong_edge, s = tuning.settings;
+    const n = $("#tuning-note");
+    n.hidden = false;
+    n.textContent = `Settings were tuned on ${tuning.tune_seasons[0]}–${tuning.tune_seasons.at(-1)} and then checked on ${tuning.holdout_seasons[0]}–${tuning.holdout_seasons.at(-1)}, seasons the tuning never saw. `
+      + `On those, strong picks (${s.STRONG_EDGE}+ point edges) went ${r.w}–${r.l}${r.p ? `–${r.p}` : ""}${r.pct !== null ? ` (${pct(r.pct)})` : ""} against the spread.`;
+  }
   $("#updated").textContent = state.predictions
     ? `Updated ${updatedText(state.predictions.updated)}. Kickoff forecasts and quarterback status refresh every morning Wednesday through Saturday.` : "";
 

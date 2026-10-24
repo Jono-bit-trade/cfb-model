@@ -19,7 +19,9 @@ import features  # noqa: E402
 import qb  # noqa: E402
 import weather  # noqa: E402
 from common import DATA, SITE_DATA, load, load_file, load_games, write_json  # noqa: E402
-from model import Model, ats_edge, grade, grade_total, split_score  # noqa: E402
+import grading  # noqa: E402
+from backtest import update_history_index  # noqa: E402
+from model import Model, ats_edge, split_score  # noqa: E402
 from ratings import FCS, RatingEngine, team_keys  # noqa: E402
 
 LOG = os.path.join(DATA, "predictions_log.csv")
@@ -110,6 +112,7 @@ def main(now=None):
                 alt[f"qb_out_{s}"] = 1.0
                 m, t = model.predict(alt)
                 rows.loc[q, f"alt_margin_{s}"], rows.loc[q, f"alt_total_{s}"] = m, t
+        rows = grading.grade(rows)
 
     out_games = []
     for r in rows.sort_values("start").itertuples():
@@ -143,6 +146,10 @@ def main(now=None):
                        "line_text": fmt_line(r.home, r.spread)},
             "model": {"margin": clean(r.pred_margin), "total": clean(r.pred_total),
                       "line_text": fmt_line(r.home, -r.pred_margin), "rating_margin": clean(r.rating_margin)},
+            "moneyline": {"home": clean(r.home_ml), "away": clean(r.away_ml),
+                          "win_chance": clean(round(100 * r.p_pick, 1)),
+                          "value": {"team": r.val_pick, "odds": clean(r.val_odds),
+                                    "gap": clean(round(100 * r.val_gap, 1))} if r.val_pick else None},
             "edge": clean(abs(edge)) if not np.isnan(edge) else None,
             "pick": {"team": pick_team, "line": clean(pick_line), "text": fmt_line(pick_team, pick_line) if pick_team else None,
                      "strong": bool(pick_side and abs(edge) >= config.STRONG_EDGE)},
@@ -187,7 +194,8 @@ def backfill_log(table, season):
         "game_id": done["game_id"], "season": done["season"], "week": done["week"],
         "start": done["start"].map(lambda x: x.isoformat()), "home": done["home"], "away": done["away"],
         "pred_margin": done["pred_margin"].round(2), "pred_total": done["pred_total"].round(2),
-        "spread": done["spread"], "total": done["total"], "made_at": "backfill"})
+        "spread": done["spread"], "total": done["total"], "home_ml": done["home_ml"], "away_ml": done["away_ml"],
+        "made_at": "backfill"})
     pd.concat([log, new], ignore_index=True).to_csv(LOG, index=False)
     print(f"backfilled {len(new)} finished games of {season} into the log")
 
@@ -199,7 +207,8 @@ def update_log(rows, now):
             "game_id": rows["game_id"], "season": rows["season"], "week": rows["week"],
             "start": rows["start"].map(lambda x: x.isoformat()), "home": rows["home"], "away": rows["away"],
             "pred_margin": rows["pred_margin"].round(2), "pred_total": rows["pred_total"].round(2),
-            "spread": rows["spread"], "total": rows["total"], "made_at": now.isoformat()})
+            "spread": rows["spread"], "total": rows["total"], "home_ml": rows["home_ml"], "away_ml": rows["away_ml"],
+            "made_at": now.isoformat()})
         new = new[pd.to_datetime(new["start"], utc=True, format="mixed") > now]  # never change a game that started
         if len(log):
             log = log[~log["game_id"].isin(new["game_id"])]
@@ -209,42 +218,32 @@ def update_log(rows, now):
 
 
 def write_results(games, season):
+    """Grade every logged pick (winner, moneyline, spread, over/under) for the Record and History pages."""
     if not os.path.exists(LOG):
         write_json({"season": season, "summary": {}, "games": []}, SITE_DATA, "results.json")
         return
     log = pd.read_csv(LOG)
-    done = games[games["completed"].astype(bool) & games["home_pts"].notna()][["game_id", "home_pts", "away_pts"]]
+    for c in ("home_ml", "away_ml"):
+        if c not in log:
+            log[c] = np.nan
+    done = games[games["completed"].astype(bool) & games["home_pts"].notna()][
+        ["game_id", "home_pts", "away_pts", "season_type"]]
     res = log.merge(done, on="game_id")
     res["actual_margin"] = res["home_pts"] - res["away_pts"]
     res["actual_total"] = res["home_pts"] + res["away_pts"]
-    res["edge"] = ats_edge(res["pred_margin"], res["spread"])
-    res["ats"] = [grade(a, s, e) for a, s, e in zip(res["actual_margin"], res["spread"], res["edge"])]
-    res["su"] = (np.sign(res["pred_margin"]) == np.sign(res["actual_margin"])).astype(float)
-    res["ou"] = [grade_total(a, t, p) for a, t, p in zip(res["actual_total"], res["total"], res["pred_total"])]
-
-    def wl(col, df):
-        s = df[col].dropna()
-        w, l, p = int((s == 1).sum()), int((s == 0).sum()), int((s == 0.5).sum())
-        return {"w": w, "l": l, "p": p, "pct": round(w / (w + l), 4) if w + l else None}
-
-    summary = {}
-    for scope, df in (("season", res[res["season"] == season]), ("all_time", res)):
-        strong = df[df["edge"].abs() >= config.STRONG_EDGE]
-        summary[scope] = {"su": wl("su", df), "ats": wl("ats", df), "ou": wl("ou", df), "ats_strong": wl("ats", strong)}
-    cur = res[res["season"] == season].sort_values("start", ascending=False)
-    rows = []
-    for r in cur.itertuples():
-        pick_team = r.home if r.edge > 0 else r.away
-        pick_line = r.spread if r.edge > 0 else -r.spread
-        rows.append({"id": int(r.game_id), "week": int(r.week) if not pd.isna(r.week) else None,
-                     "kickoff": pd.Timestamp(r.start).isoformat(), "home": r.home, "away": r.away,
-                     "proj": [clean(split_score(r.pred_margin, r.pred_total)[0]), clean(split_score(r.pred_margin, r.pred_total)[1])],
-                     "final": [int(r.home_pts), int(r.away_pts)],
-                     "pick": fmt_line(pick_team, pick_line) if not np.isnan(r.spread) else None,
-                     "ats": clean(r.ats), "su": clean(r.su), "ou": clean(r.ou), "edge": clean(abs(r.edge)),
-                     "backfill": r.made_at == "backfill"})
+    res["backfill"] = res["made_at"] == "backfill"
+    g = grading.grade(res)
+    cur = g[g["season"] == season]
+    summary = {"season": grading.summary(cur), "season_strong": grading.summary(cur, config.STRONG_EDGE, config.STRONG_EDGE),
+               "all_time": grading.summary(g)}
+    rows = grading.history_rows(cur)[::-1]  # newest first
     write_json({"season": season, "summary": summary, "games": rows,
-                "backfilled_games": int((cur["made_at"] == "backfill").sum())}, SITE_DATA, "results.json")
+                "backfilled_games": int(cur["backfill"].sum()), "strong_edge": config.STRONG_EDGE},
+               SITE_DATA, "results.json")
+    # This season also appears on the History page, graded the same way as past seasons.
+    write_json({"season": season, "source": "live", "games": grading.history_rows(cur)},
+               SITE_DATA, "history", f"{season}.json")
+    update_history_index([season])
 
 
 def write_ratings(engine, games, season, now, rec):

@@ -31,6 +31,7 @@ TOTAL_FEATURES = ["rating_total", "epa_sum", "success_sum", "explosive_sum", "pa
 ROLL_COLS = ["off_ppa", "def_ppa", "off_success", "def_success", "off_explosive", "def_explosive",
              "off_ppo", "def_ppo", "off_havoc", "def_havoc", "off_plays", "pen_yards", "to_margin"]
 ROLL_N = 5
+LINE_COLS = ["provider", "spread", "spread_open", "total", "total_open", "home_ml", "away_ml"]
 
 
 def features_for(groups):
@@ -206,10 +207,12 @@ def build(games, engine=None, seasons=None, live_cutoff=None):
     # ---- market and targets
     lines = load("lines")
     if len(lines):
-        t = t.merge(lines.drop_duplicates("game_id")[["game_id", "provider", "spread", "spread_open", "total", "total_open"]],
-                    on="game_id", how="left")
+        for c in LINE_COLS:
+            if c not in lines:
+                lines[c] = np.nan
+        t = t.merge(lines.drop_duplicates("game_id")[["game_id"] + LINE_COLS], on="game_id", how="left")
     else:
-        for c in ["provider", "spread", "spread_open", "total", "total_open"]:
+        for c in LINE_COLS:
             t[c] = np.nan
     t["actual_margin"] = t["home_pts"] - t["away_pts"]
     t["actual_total"] = t["home_pts"] + t["away_pts"]

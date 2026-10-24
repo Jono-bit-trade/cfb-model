@@ -14,8 +14,10 @@ GAME = {"id": 401, "season": 2025, "week": 3, "seasonType": "regular", "startDat
         "homePoints": 24, "awayTeam": "Temple", "awayClassification": "fbs", "awayConference": "American Athletic",
         "awayPoints": 3}
 LINES = [{"id": 401, "homeTeam": "Oklahoma", "awayTeam": "Temple", "lines": [
-    {"provider": "Bovada", "spread": -21.5, "spreadOpen": -20, "overUnder": 50.5, "overUnderOpen": 51},
-    {"provider": "DraftKings", "spread": -22.0, "spreadOpen": -21, "overUnder": 49.5, "overUnderOpen": 50}]}]
+    {"provider": "Bovada", "spread": -21.5, "spreadOpen": -20, "overUnder": 50.5, "overUnderOpen": 51,
+     "homeMoneyline": -1800, "awayMoneyline": 950},
+    {"provider": "DraftKings", "spread": -22.0, "spreadOpen": -21, "overUnder": 49.5, "overUnderOpen": 50,
+     "homeMoneyline": None, "awayMoneyline": None}]}]
 VENUE = [{"id": 3958, "name": "Memorial Stadium", "city": "Norman", "state": "OK", "timezone": "America/Chicago",
           "latitude": 35.2059, "longitude": -97.4423, "elevation": 357.5, "dome": False, "grass": True}]
 VENUE_OLD = [{"id": 1, "name": "X", "location": {"x": -97.4, "y": 35.2}, "dome": True}]
@@ -50,6 +52,7 @@ def main():
 
     line = gd.parse_lines(LINES, 2025).iloc[0]
     assert line.provider == "DraftKings" and line.spread == -22.0 and line.spread_open == -21 and line.total == 49.5
+    assert line.home_ml == -1800 and line.away_ml == 950, "moneyline falls back to the next book that has one"
 
     v = gd.parse_venues(VENUE).iloc[0]
     assert v.lat == 35.2059 and v.timezone == "America/Chicago" and not v.dome

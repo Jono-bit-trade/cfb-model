@@ -49,6 +49,24 @@ The next morning's run picks it up, or click **Run workflow** to update right aw
 
 All tunable settings are in `src/config.py`. To test a change, edit a value and run the backtest (or ask Claude to). Keep a change only if it improves results across several seasons.
 
+## History: how it would have done
+
+The **History** page grades every game since 2018 four ways, the way the sites it was modeled on do:
+
+- **Picking winners**: did the projected winner win?
+- **Moneyline**: betting the projected winner at its posted odds, in units won or lost. Tick "Value moneylines only" to see just the bets where the model's win chance beat the odds.
+- **Against the spread** and **Over/under**: the model's side against the line, at standard -110 odds.
+
+Filter by season, team or minimum edge. "Where the model is strongest" shows the spread record at each edge size and highlights any level that holds 60% or better over at least 50 games.
+
+Past seasons are replayed walk-forward: each game uses only ratings and a model built from games before it, so the history isn't flattered by hindsight.
+
+## Making it more accurate: the tuner
+
+Run **Actions → tune-model → Run workflow** (20 to 60 minutes). It tries combinations of rating settings, feature groups and blend weights on the older seasons, picks the best, then finds the smallest edge where the spread record reached 60%. It then checks those choices on the 3 newest seasons, which played no part in choosing them; the How it works page shows that holdout result. The winning settings are saved to `data/tuned.json` and used for this week's predictions too, so upcoming picks and the History page always come from the same model.
+
+A realistic target: 60%+ picking winners is normal; against the spread, every game, 53 to 56% is very good. 60% against the spread is only realistic on the subset of games with the biggest edges, and only if the holdout seasons confirm it.
+
 ## The record
 
 `data/predictions_log.csv` keeps the last projection made before each kickoff, and the Record page grades those. When the site first launches mid-season, earlier games of the season are filled in by replaying the model with only pre-game information, and the site labels them as backfilled.

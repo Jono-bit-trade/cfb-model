@@ -27,7 +27,9 @@ FEATURE_GROUPS = ["CORE", "STYLE", "CONTEXT", "SITUATION"]  # drop a group to te
 
 # ---- Picks ----------------------------------------------------------------
 MIN_EDGE = 0.0               # only show a pick when |edge| >= this many points
-STRONG_EDGE = 3.0            # label picks at or above this as "strong"
+STRONG_EDGE = 3.0            # label picks at or above this as "strong" (the tuner suggests a value)
+MARGIN_SD = 16.0             # spread of real results around the projection, for win chances
+VALUE_MIN_PROB = 0.04        # value moneyline: model's win chance must beat the market's by this much
 
 # ---- Weather ---------------------------------------------------------------
 WEATHER_WINDOW_HOURS = 3     # average kickoff hour through this many hours after
@@ -38,3 +40,19 @@ LINE_PROVIDERS = ["consensus", "DraftKings", "ESPN Bet", "Bovada", "William Hill
 
 # ---- Offline mode (tests, or no network) ---------------------------------
 OFFLINE = os.environ.get("CFB_OFFLINE") == "1"
+
+# ---- Tuned settings ----------------------------------------------------------
+# `python src/tune.py` saves the best settings to data/tuned.json; they replace the
+# defaults above, so the backtest, the History page and this week's predictions all
+# use the same tuned model. Delete data/tuned.json to go back to the defaults.
+import json as _json
+
+_TUNED = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "tuned.json")
+TUNED = False
+if os.path.exists(_TUNED) and os.environ.get("CFB_IGNORE_TUNED") != "1":
+    try:
+        for _k, _v in _json.load(open(_TUNED)).get("settings", {}).items():
+            globals()[_k] = _v
+        TUNED = True
+    except (ValueError, OSError):
+        pass

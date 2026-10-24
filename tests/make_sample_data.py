@@ -119,7 +119,13 @@ def main():
                 true_margin = exp_h - exp_a
                 spread = round((-true_margin + rng.normal(0, 2.8)) * 2) / 2
                 total = round((exp_h + exp_a + rng.normal(0, 3)) * 2) / 2
+                def american(q):
+                    q = min(max(q, 0.02), 0.98)
+                    return round(-100 * q / (1 - q) / 5) * 5 if q >= 0.5 else round(100 * (1 - q) / q / 5) * 5
+                from math import erf, sqrt
+                p_home = 0.5 * (1 + erf(-spread / (15.5 * sqrt(2))))
                 l_rows.append({"game_id": game_id, "season": season, "provider": "consensus", "spread": spread,
+                               "home_ml": american(p_home * 1.045), "away_ml": american((1 - p_home) * 1.045),
                                "spread_open": spread + rng.choice([-1.5, -1, 0, 0, 1, 1.5]), "total": total,
                                "total_open": total + rng.choice([-2, 0, 2])})
                 if not is_dome:

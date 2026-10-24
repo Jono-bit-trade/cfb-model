@@ -78,8 +78,19 @@ def parse_lines(raw, season):
             "spread_open": _num(g(best, "spreadOpen", "spread_open")),
             "total": _num(g(best, "overUnder", "over_under")),
             "total_open": _num(g(best, "overUnderOpen", "over_under_open")),
+            "home_ml": _num(_first_ml(usable, rank, "homeMoneyline", "home_moneyline")),
+            "away_ml": _num(_first_ml(usable, rank, "awayMoneyline", "away_moneyline")),
         })
     return pd.DataFrame(rows)
+
+
+def _first_ml(lines, rank, *names):
+    """Moneyline from the most preferred book that posted one (not every book does)."""
+    for l in sorted(lines, key=rank):
+        v = g(l, *names)
+        if v is not None:
+            return v
+    return None
 
 
 def parse_venues(raw):
@@ -246,10 +257,22 @@ WEEKLY = {
 }
 
 
+# Columns added in later versions: an older saved file without them is re-downloaded once.
+REQUIRED_COLUMNS = {"lines": ["home_ml", "away_ml"]}
+
+
+def _outdated(name, season):
+    need = REQUIRED_COLUMNS.get(name)
+    if not need:
+        return False
+    header = open(os.path.join(DATA, name, f"{season}.csv")).readline()
+    return not all(col in header for col in need)
+
+
 def refresh_season(season, current):
     print(f"Season {season}{' (current)' if current else ''}")
     for name, (download, parser) in SEASONAL.items():
-        if has_season(name, season) and not current:
+        if has_season(name, season) and not current and not _outdated(name, season):
             continue
         try:
             df = parser(download(season), season).drop_duplicates()

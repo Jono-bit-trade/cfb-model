@@ -17,7 +17,7 @@
       <nav class="tabs" aria-label="Sections">
         <a href="#board" data-tab="board">This week</a>
         <a href="#ratings" data-tab="ratings">Ratings</a>
-        <a href="#record" data-tab="record">Record</a>
+        <a href="#history" data-tab="history">History</a>
         <a href="#how" data-tab="how">How it works</a>
       </nav>
     </div>
@@ -73,16 +73,30 @@
       <p class="note">Offense is points a team would score against an average defense; defense is points it would allow to an average offense, so lower is better. Overall is offense minus defense.</p>
     </section>
 
-    <section id="view-record" class="view" hidden aria-labelledby="record-title">
-      <h1 id="record-title" class="week-title">Record</h1>
-      <div class="tally" id="tally"></div>
-      <p class="note" id="backfill-note" hidden></p>
-      <div class="table-scroll">
-        <table class="results" id="results-table">
-          <thead><tr><th scope="col">Week</th><th scope="col">Game</th><th scope="col" class="num">Projected</th><th scope="col" class="num">Final</th><th scope="col">Pick</th><th scope="col">Result</th></tr></thead>
-          <tbody></tbody>
-        </table>
+    <section id="view-history" class="view" hidden aria-labelledby="history-title">
+      <h1 id="history-title" class="week-title">History</h1>
+      <p class="sub" id="history-sub">Every game the model projected, graded four ways.</p>
+      <div class="controls history-controls">
+        <label class="field-label">Season <select id="h-season"></select></label>
+        <label class="field-label">Team <input id="h-team" type="search" autocomplete="off" placeholder="Any team"></label>
+        <label class="field-label">Minimum edge <select id="h-edge">
+          <option value="0">Every game</option><option value="3">3+ points</option><option value="5">5+ points</option>
+          <option value="7">7+ points</option><option value="10">10+ points</option></select></label>
+        <label class="check"><input type="checkbox" id="h-value"> Value moneylines only</label>
       </div>
+      <div class="tally" id="h-tally"></div>
+      <p class="note" id="h-note"></p>
+      <h2 class="section-title">Where the model is strongest</h2>
+      <p class="note">Spread record at or above each edge size, for the season and team selected. Small samples swing a lot; trust rows with a few hundred games.</p>
+      <div class="table-scroll edge-scroll"><table class="results" id="h-edges"><thead><tr>
+        <th scope="col">Edge</th><th scope="col" class="num">Games</th><th scope="col" class="num">Spread record</th><th scope="col" class="num">Win %</th><th scope="col" class="num">Over/under (same edge on total)</th>
+      </tr></thead><tbody></tbody></table></div>
+      <h2 class="section-title">Games</h2>
+      <div class="table-scroll"><table class="results history" id="h-games"><thead><tr>
+        <th scope="col">Wk</th><th scope="col">Game</th><th scope="col" class="num">Final</th><th scope="col" class="num">Projected</th>
+        <th scope="col">Winner pick</th><th scope="col">Moneyline</th><th scope="col">Spread pick</th><th scope="col">Total pick</th>
+      </tr></thead><tbody></tbody></table></div>
+      <p class="note" id="h-more" hidden></p>
     </section>
 
     <section id="view-how" class="view prose" hidden aria-labelledby="how-title">
@@ -97,6 +111,7 @@
           <tbody></tbody>
         </table>
       </div>
+      <p class="note" id="tuning-note" hidden></p>
       <p class="note">Breaking even against the spread at standard odds takes 52.4%. Projections are for entertainment and analysis, not betting advice.</p>
     </section>
   </main>

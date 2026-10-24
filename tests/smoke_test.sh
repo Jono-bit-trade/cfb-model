@@ -18,7 +18,11 @@ res = json.load(open("docs/data/results.json"))
 assert len(p["games"]) > 0, "no predictions"
 assert all(g["home"]["proj"] is not None for g in p["games"])
 assert any(g["qb"]["home"]["status"] == "out" or g["qb"]["away"]["status"] == "out" for g in p["games"])
-assert len(r["teams"]) > 10 and res["summary"]["season"]["ats"]["w"] > 0
+assert len(r["teams"]) > 10 and res["summary"]["season"]["spread"]["w"] > 0
+h = json.load(open("docs/data/history/index.json"))
+assert len(h["seasons"]) >= 5, h
+g = json.load(open(f"docs/data/history/{h['seasons'][-1]}.json"))["games"][0]
+assert all(k in g for k in ("su", "ml_u", "ats", "ou")), g
 print(f"smoke test passed: {len(p['games'])} predictions, {len(r['teams'])} rated teams")
 EOF
 rm -rf "$TMP"

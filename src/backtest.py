@@ -1,7 +1,9 @@
 """Step 7: walk-forward backtest. The only judge of whether a change helps.
 
 For each test season, the ML model trains on earlier seasons only, and every
-week's ratings use only games played before that week.
+week's ratings use only games played before that week. Every game is graded
+four ways (winner, moneyline, spread, over/under) and saved for the website's
+History page.
 
     python src/backtest.py                       # all feature groups
     python src/backtest.py --groups CORE         # test a smaller model
@@ -18,98 +20,112 @@ import pandas as pd
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import config  # noqa: E402
 import features  # noqa: E402
+import grading  # noqa: E402
 from common import DATA, SITE_DATA, load_games, write_json  # noqa: E402
-from model import Model, ats_edge, grade, grade_total  # noqa: E402
+from model import Model  # noqa: E402
 from ratings import RatingEngine  # noqa: E402
 
 
-def pct(x):
-    x = pd.Series(x).dropna()
-    x = x[x != 0.5]
-    return float(x.mean()) if len(x) else float("nan")
-
-
-def summarize(df):
-    has_line = df["spread"].notna()
-    d = df[has_line]
-    out = {
-        "games": int(len(df)),
-        "games_with_line": int(has_line.sum()),
-        "mae_model": float((d["actual_margin"] - d["pred_margin"]).abs().mean()),
-        "mae_ratings_only": float((d["actual_margin"] - d["rating_margin"]).abs().mean()),
-        "mae_market": float((d["actual_margin"] + d["spread"]).abs().mean()),
-        "ats_pct": pct(d["ats"]),
-        "ats_ratings_only_pct": pct(d["ats_ratings"]),
-        "su_pct": float((np.sign(df["pred_margin"]) == np.sign(df["actual_margin"])).mean()),
-        "ou_pct": pct(d["ou"]),
-        "ats_by_edge": {},
-    }
-    for lo, hi, label in [(0, 3, "0-3"), (3, 7, "3-7"), (7, 99, "7+")]:
-        e = d[(d["edge"].abs() >= lo) & (d["edge"].abs() < hi)]
-        out["ats_by_edge"][label] = {"games": int(len(e)), "ats_pct": pct(e["ats"])}
-    return out
-
-
-def run(groups=None, w=None, save=True):
-    t0 = time.time()
-    games = load_games()
+def build_table(games=None):
+    """Feature table of every finished game (ratings settings come from config)."""
+    games = load_games() if games is None else games
     engine = RatingEngine(games)
     seasons = sorted(s for s in games["season"].unique() if s > config.FIRST_SEASON)
     table = features.build(games, engine, seasons=seasons)
-    table = table[table["completed"].astype(bool) & table["actual_margin"].notna()]
-    print(f"feature table: {len(table)} games in {time.time() - t0:.0f}s")
+    return table[table["completed"].astype(bool) & table["actual_margin"].notna()]
 
-    results = []
-    for s in config.BACKTEST_SEASONS:
+
+def walk_forward(table, seasons, groups=None, w=None):
+    out = []
+    for s in seasons:
         train, test = table[table["season"] < s], table[table["season"] == s].copy()
         if len(test) == 0 or train["season"].nunique() < 2:
             continue
-        m = Model(groups, w).fit(train)
-        test["pred_margin"], test["pred_total"] = m.predict(test)
-        results.append(test)
-    if not results:
+        test["pred_margin"], test["pred_total"] = Model(groups, w).fit(train).predict(test)
+        out.append(test)
+    if not out:
         raise SystemExit("Not enough seasons to backtest yet.")
-    bt = pd.concat(results)
-    bt["edge"] = ats_edge(bt["pred_margin"], bt["spread"])
-    bt["ats"] = [grade(a, s, e) for a, s, e in zip(bt["actual_margin"], bt["spread"], bt["edge"])]
-    bt["ats_ratings"] = [grade(a, s, e) for a, s, e in zip(bt["actual_margin"], bt["spread"],
-                                                          ats_edge(bt["rating_margin"], bt["spread"]))]
-    bt["ou"] = [grade_total(a, t, p) for a, t, p in zip(bt["actual_total"], bt["total"], bt["pred_total"])]
+    return grading.grade(pd.concat(out))
 
-    overall = summarize(bt)
-    by_season = {int(s): summarize(df) for s, df in bt.groupby("season")}
 
-    # How many points is a missing starting QB worth in this data?
-    resid = bt["actual_margin"] - bt["rating_margin"]
-    qb_effect = {
-        "home_qb_out_games": int(bt["qb_out_home"].sum()),
-        "away_qb_out_games": int(bt["qb_out_away"].sum()),
-        "home_qb_out_residual": float(resid[bt["qb_out_home"] == 1].mean()) if bt["qb_out_home"].sum() else None,
-        "away_qb_out_residual": float(resid[bt["qb_out_away"] == 1].mean()) if bt["qb_out_away"].sum() else None,
+def accuracy(bt):
+    d = bt[bt["spread"].notna()]
+    return {
+        "games": int(len(bt)),
+        "mae_model": round(float((bt["actual_margin"] - bt["pred_margin"]).abs().mean()), 2),
+        "mae_ratings_only": round(float((bt["actual_margin"] - bt["rating_margin"]).abs().mean()), 2),
+        "mae_market": round(float((d["actual_margin"] + d["spread"]).abs().mean()), 2) if len(d) else None,
+        "mae_market_same_games_model": round(float((d["actual_margin"] - d["pred_margin"]).abs().mean()), 2) if len(d) else None,
+        "margin_sd": round(float((bt["actual_margin"] - bt["pred_margin"]).std()), 2),
     }
 
-    print_report(overall, by_season, qb_effect, groups or config.FEATURE_GROUPS, config.BLEND_W if w is None else w)
+
+def run(groups=None, w=None, save=True, table=None, quiet=False):
+    t0 = time.time()
+    table = build_table() if table is None else table
+    if not quiet:
+        print(f"feature table: {len(table)} games in {time.time() - t0:.0f}s")
+    bt = walk_forward(table, config.BACKTEST_SEASONS, groups, w)
+
+    overall = {**grading.summary(bt), **accuracy(bt)}
+    by_season = {int(s): {**grading.summary(d), **accuracy(d)} for s, d in bt.groupby("season")}
+    edges = {
+        "spread": grading.edge_table(bt, "edge", "ats"),
+        "total": grading.edge_table(bt, "total_edge", "ou"),
+        "winner_by_confidence": [
+            {"min_win_chance": c, **grading.record(bt.loc[bt["p_pick"] >= c, "su"])} for c in (0.5, 0.6, 0.7, 0.8, 0.9)],
+    }
+    resid = bt["actual_margin"] - bt["rating_margin"]
+    qb_effect = {
+        "home_qb_out_games": int(bt["qb_out_home"].sum()), "away_qb_out_games": int(bt["qb_out_away"].sum()),
+        "home_qb_out_points": round(float(resid[bt["qb_out_home"] == 1].mean()), 2) if bt["qb_out_home"].sum() else None,
+        "away_qb_out_points": round(float(-resid[bt["qb_out_away"] == 1].mean()), 2) if bt["qb_out_away"].sum() else None,
+    }
+    if not quiet:
+        print_report(overall, by_season, edges, qb_effect, groups or config.FEATURE_GROUPS, config.BLEND_W if w is None else w)
     if save:
-        write_json({"generated": pd.Timestamp.now(tz="UTC"), "groups": groups or config.FEATURE_GROUPS,
-                    "blend_w": config.BLEND_W if w is None else w, "overall": overall,
-                    "by_season": by_season, "qb_effect": qb_effect}, SITE_DATA, "backtest.json")
+        settings = {"groups": groups or config.FEATURE_GROUPS, "blend_w": config.BLEND_W if w is None else w,
+                    "rating_alpha": config.RATING_ALPHA, "half_life_days": config.HALF_LIFE_DAYS,
+                    "blowout_cap": config.BLOWOUT_CAP, "strong_edge": config.STRONG_EDGE}
+        write_json({"generated": pd.Timestamp.now(tz="UTC"), "settings": settings, "overall": overall,
+                    "by_season": by_season, "edges": edges, "qb_effect": qb_effect}, SITE_DATA, "backtest.json")
+        write_history(bt)
         bt.to_csv(os.path.join(DATA, "backtest_games.csv"), index=False)
-    return overall, by_season
+    return bt, overall
 
 
-def print_report(overall, by_season, qb_effect, groups, w):
-    f = lambda x: "  -  " if x is None or (isinstance(x, float) and np.isnan(x)) else f"{x:5.1%}"
-    print(f"\nGroups: {' + '.join(groups)}   blend w = {w}")
-    print(f"{'season':>7} {'games':>6} {'MAE':>6} {'MAE mkt':>8} {'ATS':>6} {'ATS rat':>8} {'SU':>6} {'O/U':>6}")
-    for s, r in by_season.items():
-        print(f"{s:>7} {r['games_with_line']:>6} {r['mae_model']:6.2f} {r['mae_market']:8.2f} "
-              f"{f(r['ats_pct']):>6} {f(r['ats_ratings_only_pct']):>8} {f(r['su_pct']):>6} {f(r['ou_pct']):>6}")
-    r = overall
-    print(f"{'ALL':>7} {r['games_with_line']:>6} {r['mae_model']:6.2f} {r['mae_market']:8.2f} "
-          f"{f(r['ats_pct']):>6} {f(r['ats_ratings_only_pct']):>8} {f(r['su_pct']):>6} {f(r['ou_pct']):>6}")
-    print("ATS by edge size:", ", ".join(f"{k}: {f(v['ats_pct'])} ({v['games']} g)" for k, v in r["ats_by_edge"].items()))
-    print("Break-even at -110 odds is 52.4%.")
-    print("QB out:", qb_effect)
+def write_history(bt):
+    """One file per season for the History page, plus an index."""
+    for s, d in bt.groupby("season"):
+        write_json({"season": int(s), "source": "backtest", "games": grading.history_rows(d)},
+                   SITE_DATA, "history", f"{int(s)}.json")
+    update_history_index([int(s) for s in bt["season"].unique()])
+
+
+def update_history_index(seasons):
+    import json
+    path = os.path.join(SITE_DATA, "history", "index.json")
+    have = json.load(open(path))["seasons"] if os.path.exists(path) else []
+    write_json({"seasons": sorted(set(have) | set(seasons), reverse=True), "current": config.THIS_SEASON,
+                "strong_edge": config.STRONG_EDGE}, path)
+
+
+def print_report(overall, by_season, edges, qb_effect, groups, w):
+    f = lambda r: "   –  " if r.get("pct") is None else f"{r['pct']:6.1%}"
+    print(f"\nGroups: {' + '.join(groups)}   blend w = {w}   alpha = {config.RATING_ALPHA}   half-life = {config.HALF_LIFE_DAYS}")
+    print(f"{'season':>7} {'games':>6} {'MAE':>6} {'MAE mkt':>8} {'Winner':>7} {'ML u':>7} {'Spread':>7} {'ATS u':>7} {'O/U':>7}")
+    rows = list(by_season.items()) + [("ALL", overall)]
+    for s, r in rows:
+        print(f"{s:>7} {r['games']:>6} {r['mae_model']:6.2f} {r['mae_market'] or float('nan'):8.2f} {f(r['winner']):>7} "
+              f"{r['moneyline']['units']:7.1f} {f(r['spread']):>7} {r['spread']['units']:7.1f} {f(r['total']):>7}")
+    print("Spread record by minimum edge:", "  ".join(
+        f"{e['min_edge']}+: {f(e)} ({e['games']})" for e in edges["spread"]))
+    print("Winner record by win chance:", "  ".join(
+        f"{int(e['min_win_chance'] * 100)}%+: {f(e)}" for e in edges["winner_by_confidence"]))
+    print(f"Value moneylines: {overall['value_ml']['bets']} bets, {overall['value_ml']['units']:+.1f} units")
+    print(f"Real results scatter around projections by {overall['margin_sd']} points (MARGIN_SD is {config.MARGIN_SD}).")
+    print("Break-even against the spread at -110 odds is 52.4%.")
+    print("QB out (points lost vs. ratings):", qb_effect)
 
 
 if __name__ == "__main__":
