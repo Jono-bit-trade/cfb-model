@@ -50,7 +50,8 @@ PATTERNS = [
                   r"plays? through|played through|no limitations|probable|good to go|shuts? down .{0,30}speculation|"
                   r"not (seriously|significantly) (hurt|injured)|on track to play"),
     ("out", r"ruled out|will not play|won't play|will miss|to miss|out for (the )?(season|year|game|saturday|week)|"
-            r"season[- ]ending|sidelined|undergo(es)? surgery|out indefinitely|not expected to play|done for the season|\bout\b"),
+            r"season[- ]ending|sidelined|undergo(es)? surgery|out indefinitely|not expected to play|done for the season|"
+            r"\b(is|are|was|remains|will be|listed as) out\b|\bout (for|vs\.?|against|saturday|this week)\b"),
     ("doubtful", r"doubtful|unlikely to play"),
     ("questionable", r"questionable|game[- ]time decision|day[- ]to[- ]day|status (is )?(unclear|uncertain|in doubt)|"
                      r"uncertain|injur(y|ed)\b|concussion|limited in practice|banged up|left the game|"

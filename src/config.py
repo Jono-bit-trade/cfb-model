@@ -75,3 +75,9 @@ if os.path.exists(_TUNED) and os.environ.get("CFB_IGNORE_TUNED") != "1":
         TUNED = True
     except (ValueError, OSError):
         pass
+
+# Games with an opening spread this big: the model leans toward the opening line by an amount learned
+# from past seasons (it underrates big favorites by 4-6 points otherwise). Tested 2023-25.
+BIG_SPREAD = 21.0
+# Spread edges in this range are the "sweet spot"; bigger edges usually mean the model is missing news.
+SWEET_SPOT_MAX = 7.0

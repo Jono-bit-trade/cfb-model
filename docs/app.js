@@ -315,14 +315,14 @@ function gameRow(g) {
   const mlPick = ml && ml.value ? `${esc(short(ml.value.team))} ${odds(ml.value.odds)}<span>value bet</span>`
     : `${esc(short(g.winner))}<span>${ml ? `${num(ml.win_chance, 0)}% to win` : "to win"}</span>`;
   const spreadPick = g.pick && g.pick.text
-    ? `${esc(lineText(short(g.pick.team), g.pick.line))}<span>${num(g.edge)}-pt edge</span>` : `–<span>no line yet</span>`;
+    ? `${esc(lineText(short(g.pick.team), g.pick.line))}<span>${num(g.edge)}-pt edge${g.pick.strong ? " · sweet spot" : g.pick.caution ? " · check news" : ""}</span>` : `–<span>no line yet</span>`;
   const markets = `<table class="mk">
       <thead><tr><th scope="col"><span class="sr">Market</span></th><th scope="col">Line</th><th scope="col">Model</th><th scope="col">Pick</th></tr></thead>
       <tbody>
         <tr><th scope="row">Spread</th>
           <td>${m.spread !== null ? esc(lineText(short(g.home.team), m.spread)) : "–"}${moved ? `<span>opened ${esc(signed(m.spread_open))}</span>` : ""}</td>
           <td>${esc(lineText(short(g.home.team), -g.model.margin))}</td>
-          <td class="pick ${strong ? "strong" : ""}">${spreadPick}</td></tr>
+          <td class="pick ${strong ? "strong" : g.pick && g.pick.caution ? "caution" : ""}">${spreadPick}</td></tr>
         <tr><th scope="row">Total</th>
           <td>${m.total !== null ? num(m.total) : "–"}${m.total_open !== null && m.total_open !== m.total ? `<span>opened ${num(m.total_open)}</span>` : ""}</td>
           <td>${num(g.model.total)}</td>
@@ -332,7 +332,9 @@ function gameRow(g) {
           <td>${ml ? `${num(ml.win_chance, 0)}%<span>${esc(short(g.winner))}</span>` : "–"}</td>
           <td class="pick">${mlPick}</td></tr>
       </tbody></table>`;
-  const badges = `${betEarlyTag(g)}${g.total_bet_early ? totalTags(g).replace(/<span class="tag (warn)?"[^>]*>Total moved[^<]*<\/span>/, "") : ""}${qbTags(g)}${splitTags(g)}`;
+  const cautionTag = g.pick && g.pick.caution
+    ? `<span class="tag caution" title="Edges over ${state.predictions.settings?.sweet_spot_max ?? 7} points at the current line have gone about 50% since 2016: the market usually knows something the model doesn't">Big edge (${num(g.edge)} pts): check injury and lineup news before betting</span>` : "";
+  const badges = `${cautionTag}${betEarlyTag(g)}${g.total_bet_early ? totalTags(g).replace(/<span class="tag (warn)?"[^>]*>Total moved[^<]*<\/span>/, "") : ""}${qbTags(g)}${splitTags(g)}`;
   const details = `<details class="more"><summary>Details</summary>
       <div class="more-body">
         ${fieldSVG(g, strong)}
@@ -357,7 +359,7 @@ function renderBoard() {
   }
   $("#board-title").textContent = `${p.label} projections`;
   const strongN = p.games.filter((g) => g.pick && g.pick.strong).length;
-  $("#board-sub").textContent = `${p.games.length} games, ${strongN} strong picks. Projected scores are the model's; lines are the market's.`;
+  $("#board-sub").textContent = `${p.games.length} games, ${strongN} sweet-spot picks (3–7 point edges). Projected scores are the model's; lines are the market's.`;
   $("#strong-edge").textContent = p.settings?.strong_edge ?? 3;
 
   let games = [...p.games];

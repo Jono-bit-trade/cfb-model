@@ -270,7 +270,9 @@ def main(now=None):
             "locked": locked_pick(log_now, r),
             "edge": clean(abs(edge)) if not np.isnan(edge) else None,
             "pick": {"team": pick_team, "line": clean(pick_line), "text": fmt_line(pick_team, pick_line) if pick_team else None,
-                     "strong": bool(pick_side and abs(edge) >= config.STRONG_EDGE)},
+                     # sweet spot: 3-7 points; bigger edges at the current line usually mean the model is missing news
+                     "strong": bool(pick_side and config.STRONG_EDGE <= abs(edge) <= config.SWEET_SPOT_MAX),
+                     "caution": bool(pick_side and abs(edge) > config.SWEET_SPOT_MAX)},
             "winner": r.home if r.pred_margin > 0 else r.away,
             "total_pick": total_pick,
             "weather": {"dome": bool(r.dome == 1), "temp": clean(r.temp), "wind": clean(r.wind), "gust": clean(r.gust),
@@ -287,7 +289,7 @@ def main(now=None):
     if len(rows) and (rows["season_type"] == "postseason").all():
         label = "Bowl season"
     write_json({"updated": now, "season": season, "label": label, "games": out_games,
-                "settings": {"blend_w": config.BLEND_W, "strong_edge": config.STRONG_EDGE}},
+                "settings": {"blend_w": config.BLEND_W, "strong_edge": config.STRONG_EDGE, "sweet_spot_max": config.SWEET_SPOT_MAX}},
                SITE_DATA, "predictions.json")
 
     write_results(games, season, now)
