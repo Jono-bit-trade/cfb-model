@@ -5,7 +5,8 @@ on:
     # Times are UTC; Central is 5 hours behind until early November, then 6.
     - cron: "0 23 * * 0"        # Sunday evening: full refresh after Saturday's games, early picks lock
     - cron: "0 3 * * 2"         # Monday night: full refresh, picks, backtest
-    - cron: "0 14 * * 3-6"      # Wed-Sat mornings: latest lines, kickoff forecasts, QB status
+    - cron: "0 14 * * 1-6"      # Mon-Sat mornings: latest lines (line-movement history), forecasts, QB status
+    - cron: "0 23 * * 2"        # Tuesday evening: one more line snapshot before Wednesday bets
     - cron: "0 2,4 * * 5,6"     # Thu and Fri nights: scores as games end
     - cron: "0 18,20,22 * * 6"  # Saturday afternoon: scores as games end
     - cron: "0 0,2,4,6 * * 0"   # Saturday night: scores as games end

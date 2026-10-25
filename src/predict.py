@@ -500,6 +500,7 @@ def write_results(games, season, now=None):
             summary["week"] = {"week": last_wk, "games": int(len(wk)), "close": grading.summary(wk),
                                "locked": grading.summary(wk_lk), "our_picks": grading.our_picks(wk_lk)}
     summary["our_picks_backtest"] = our_picks_backtest()
+    summary["our_picks_lines"] = our_picks_three_lines(res, season)
 
     rows = grading.history_rows(cur)
     for r in rows:  # attach the locked-line grading to each game
@@ -518,6 +519,38 @@ def write_results(games, season, now=None):
     # Final scores for the board: games that ended in the last 4 days.
     recent = [r for r in rows if pd.Timestamp(r["date"]) > now - pd.Timedelta(days=4)]
     write_json({"updated": now, "games": sorted(recent, key=lambda r: r["date"], reverse=True)}, SITE_DATA, "finals.json")
+
+
+def our_picks_three_lines(res, season):
+    """The same ★ picks (chosen at the locked line) graded three ways: opening line (best case),
+    locked line (when you'd bet) and closing line (worst case). Also split live vs filled-in."""
+    d = res[res["season"] == season].copy()
+    for c in ("lock_spread", "lock_pred_margin"):
+        if c not in d:
+            d[c] = np.nan
+    filled = d["made_at"] == "backfill"
+    # same fallbacks as the locked view: filled-in games use the opener, unlocked live games their last line
+    d["lock_spread"] = d["lock_spread"].fillna(d["spread_open"].where(filled)).fillna(d["spread"])
+    d["lock_pred_margin"] = d["lock_pred_margin"].fillna(d["pred_margin"])
+    d = d[d["lock_spread"].notna() & d["lock_pred_margin"].notna() & d["actual_margin"].notna()]
+    if d.empty:
+        return None
+    edge = d["lock_pred_margin"] + d["lock_spread"]
+    ok_week = (d["season_type"] == "postseason") | (d["week"] >= config.OUR_PICK_FROM_WEEK)
+    d = d[(edge.abs() >= config.OUR_PICK_MIN) & ok_week]
+    side = np.sign(edge[d.index])
+    out = {}
+    for name, col in (("open", "spread_open"), ("locked", "lock_spread"), ("close", "spread")):
+        has = d[col].notna()
+        cover = side[has] * (d.loc[has, "actual_margin"] + d.loc[has, col])
+        w, l, p = int((cover > 0).sum()), int((cover < 0).sum()), int((cover == 0).sum())
+        out[name] = {"w": w, "l": l, "p": p, "pct": round(w / (w + l), 4) if w + l else None,
+                     "units": round(w * 100 / 110 - l, 2)}
+    live = d["made_at"] != "backfill"
+    cover = side[live] * (d.loc[live, "actual_margin"] + d.loc[live, "lock_spread"])
+    w, l, p = int((cover > 0).sum()), int((cover < 0).sum()), int((cover == 0).sum())
+    out["live"] = {"w": w, "l": l, "p": p, "pct": round(w / (w + l), 4) if w + l else None, "units": round(w * 100 / 110 - l, 2)}
+    return out
 
 
 def our_picks_backtest():
