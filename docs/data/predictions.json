@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T11:28:18.845383+00:00",
+ "updated": "2026-10-25T11:52:27.903485+00:00",
  "season": 2026,
  "label": "Week 9",
  "games": [
@@ -100,6 +100,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -107,6 +108,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -208,6 +210,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -215,6 +218,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -312,6 +316,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -319,6 +324,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -420,6 +426,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -427,6 +434,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -530,6 +538,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -537,6 +546,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -646,6 +656,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -653,6 +664,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -760,6 +772,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -767,6 +780,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -880,6 +894,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -887,6 +902,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -1000,6 +1016,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -1007,6 +1024,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -1114,6 +1132,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -1121,6 +1140,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -1200,6 +1220,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -1207,6 +1228,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -1316,6 +1338,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -1323,6 +1346,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -1338,14 +1362,14 @@
    "home": {
     "team": "Maryland",
     "record": "2\u20135",
-    "proj": 24.7,
+    "proj": 24.4,
     "rating": -2.3,
     "conf": "Big Ten"
    },
    "away": {
     "team": "Illinois",
     "record": "4\u20133",
-    "proj": 30.9,
+    "proj": 30.7,
     "rating": 3.4,
     "conf": "Big Ten"
    },
@@ -1360,7 +1384,7 @@
    },
    "model": {
     "margin": -6.3,
-    "total": 55.6,
+    "total": 55.0,
     "line_text": "Maryland +6.3",
     "rating_margin": -2.6
    },
@@ -1402,14 +1426,28 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
      "name": "Katin Houser",
-     "status": "unknown",
-     "note": null,
+     "status": "out",
+     "note": "confirmed by news: The Daily Illini",
      "if_out": null,
-     "news": null
+     "auto": true,
+     "news": {
+      "suggested": "out",
+      "qb": "Katin Houser",
+      "headline": "Katin Houser out indefinitely with broken hand",
+      "confirmed": true,
+      "evidence": [
+       "The Daily Illini: Katin Houser out indefinitely with broken hand"
+      ],
+      "missed_last": true,
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOc2dqZE5hQWNObjFCcWZ0cW9LU19lM3Rhc0x2OVlHM3FsOXFlNTBkb0FmWkk0WG5fQ0RBWmIxRktTc0R5T1hmNkJ6OV9ZVUs0dTNDTjlRQ2hSMjNMU25rTkdfQmdNQlR2Q1JZT19YZkhQQWx0Vk9nSDF2UFpQZm1PSEJ4b3MzTU5EM3c?oc=5",
+      "source": "The Daily Illini",
+      "published": "2026-10-11T07:00:00+00:00"
+     }
     }
    }
   },
@@ -1488,6 +1526,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -1495,6 +1534,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -1574,6 +1614,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -1581,6 +1622,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -1660,6 +1702,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -1667,6 +1710,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -1682,14 +1726,14 @@
    "home": {
     "team": "Syracuse",
     "record": "3\u20134",
-    "proj": 25.0,
+    "proj": 24.6,
     "rating": -0.9,
     "conf": "ACC"
    },
    "away": {
     "team": "SMU",
     "record": "6\u20131",
-    "proj": 32.7,
+    "proj": 33.1,
     "rating": 7.0,
     "conf": "ACC"
    },
@@ -1703,19 +1747,19 @@
     "line_text": "Syracuse +9.5"
    },
    "model": {
-    "margin": -7.6,
+    "margin": -8.5,
     "total": 57.7,
-    "line_text": "Syracuse +7.6",
+    "line_text": "Syracuse +8.5",
     "rating_margin": -4.9
    },
    "moneyline": {
     "home": 270.0,
     "away": -340.0,
-    "win_chance": 67.7,
+    "win_chance": 69.6,
     "value": {
      "team": "Syracuse",
      "odds": 270.0,
-     "gap": 6.3
+     "gap": 4.5
     }
    },
    "splits": null,
@@ -1754,7 +1798,7 @@
     "edge": 1.8,
     "line_text": "Syracuse +9.5"
    },
-   "edge": 1.9,
+   "edge": 1.0,
    "pick": {
     "team": "Syracuse",
     "line": 9.5,
@@ -1777,16 +1821,32 @@
    "qb": {
     "home": {
      "name": "Malachi Nelson",
-     "status": "unknown",
-     "note": null,
+     "status": "out",
+     "note": "confirmed by news: Troy Nunes Is An Absolute Magician + 2 more",
      "if_out": null,
-     "news": null
+     "auto": true,
+     "news": {
+      "suggested": "out",
+      "qb": "Malachi Nelson",
+      "headline": "Syracuse football: QB Amari Odom and QB Malachi Nelson undergo surgery",
+      "confirmed": true,
+      "evidence": [
+       "Troy Nunes Is An Absolute Magician: Syracuse football: QB Amari Odom and QB Malachi Nelson undergo surgery",
+       "Fingerlakes1.com: Syracuse quarterback Amari Odom out for season following shoulder surgery, Malachi Nelson sidelined several weeks",
+       "Syracuse.com: Fran Brown names starting QB for UNC game after Amari Odom, Malachi Nelson undergo surgery"
+      ],
+      "missed_last": true,
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPOHdlOWx5aEY2MG1VUFMyZ0R2TTZZV2FGOVVmM2huNWVaeHRycmtzcS10Y2hzY3NCU0NDend3SHRJRHZfOWs4azdkTUVVOEVOLU5wTlZrbTV1YUozd2xySmpUNUE3dmpZbHJJc3JGZkgtX09IUEZYYjE0VVlMcWxCbFU1ODZjZEx5aS1MRGRJbndVRzd2MWJYVnNZZkVPOTIzNGZWY3R5TzlTUU9PcE1aU2VXdk5tRzFEQ3BQQi1zSUNyb21kV2VtbzlKYmh5VkoyNnc?oc=5",
+      "source": "Troy Nunes Is An Absolute Magician",
+      "published": "2026-10-23T13:00:00+00:00"
+     }
     },
     "away": {
      "name": "Kevin Jennings",
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -1888,10 +1948,16 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": {
       "suggested": "available",
       "qb": "Hank Brown",
       "headline": "Hank Brown on his return to action",
+      "confirmed": false,
+      "evidence": [
+       "On3: Hank Brown on his return to action"
+      ],
+      "missed_last": false,
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbnlmRmROZUNVOVlTNkZHRDZuLXhwdnFqY3JOTm9jdDVKajNoeEpfUFVUcWwtSlROdk54anB4MmcteU5hOUZDQ1Z3TkNrTGU1OHY3bmxhdDZPcWJUUnBsdThsY1RnUkJnX3Vnejc1NDlPbF8xLWRZTnl6dFNqalZNeFMzcXRuR2VUTWVOOU9oajM?oc=5",
       "source": "On3",
       "published": "2026-10-25T03:21:22+00:00"
@@ -1902,6 +1968,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -2009,6 +2076,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -2016,6 +2084,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -2117,6 +2186,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -2124,6 +2194,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -2203,6 +2274,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -2210,6 +2282,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -2289,6 +2362,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -2296,6 +2370,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -2375,6 +2450,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -2382,6 +2458,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -2461,6 +2538,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -2468,6 +2546,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -2547,6 +2626,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -2554,6 +2634,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -2633,6 +2714,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -2640,6 +2722,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -2719,6 +2802,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -2726,6 +2810,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -2805,6 +2890,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -2812,6 +2898,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -2891,6 +2978,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -2898,6 +2986,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -2966,7 +3055,7 @@
     "wind": 6.0,
     "gust": 6.0,
     "rain": 0.0,
-    "code": 2,
+    "code": 3,
     "night": false,
     "kind": "actual",
     "updated": "cfbd"
@@ -2977,6 +3066,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -2984,6 +3074,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -3081,10 +3172,18 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": {
       "suggested": "available",
       "qb": "Josh Hoover",
       "headline": "Josh Hoover Plays Through Injury as No. 6 Indiana Escapes Michigan With Historic Overtime Victory",
+      "confirmed": false,
+      "evidence": [
+       "TWSN: Josh Hoover Plays Through Injury as No. 6 Indiana Escapes Michigan With Historic Overtime Victory",
+       "BVM Sports: Indiana Debated Benching Injured Josh Hoover in Win Over Michigan",
+       "The Daily Hoosier: \u201cHe was big time\u201d: Josh Hoover persevered through an injury to deliver for IU football in overtime"
+      ],
+      "missed_last": false,
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUURjNmVSMGdwY0lPRmx6MTh1TGhmUm5IVzl4MHlPanZPRDdodDl2OXo0bnJNQWxHYlBzVEdIYThHek9QaHp2akllQzE3c3dmUVlBS1FGcTNxTlVpYlU5QUV3S1dVaWgyWlhrS2VtNVJia0pMT2thWElJbEhHNW4wN0c0aDhUSjk2UjBjNFNTWDh1SmVuNy11UDl3OE4tZlZxLXUxV2VaRlFtc2pTWUFkQS1WNFozekw5NGhDV1Y2cVlNQQ?oc=5",
       "source": "TWSN",
       "published": "2026-10-25T03:35:00+00:00"
@@ -3095,6 +3194,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -3174,6 +3274,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -3181,6 +3282,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -3284,6 +3386,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -3291,6 +3394,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -3395,10 +3499,18 @@
       "home": 35.6,
       "away": 21.4
      },
+     "auto": false,
      "news": {
       "suggested": "questionable",
       "qb": "Gunner Stockton",
       "headline": "Kirby Smart explains if Gunner Stockton got a concussion vs. Auburn",
+      "confirmed": false,
+      "evidence": [
+       "UGA Wire: Kirby Smart explains if Gunner Stockton got a concussion vs. Auburn",
+       "247Sports: Kirby Smart pushes back on Gunner Stockton concussion speculation after Auburn loss",
+       "ClutchPoints: Georgia HC Kirby Smart reveals Gunner Stockton actually has shoulder injury, not concussion"
+      ],
+      "missed_last": false,
       "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQb2Y1Ymd5bDRCWEJEWkd2TTNwT0RzcEJITm1felpJRG9MVFVCazZvUzdTV2xrWklLOFA5TFhPVW1QSDBQRVAtRDJpR2FwSWxpaXBNT25hcTZzWnlqU1p6Yzg2d1diSTlKdWJIV3lCejR3dnlUVTN3S2Z6Zm1oRThfd0M2YnpIc0c1NU5LZksyNG82TkhvZDc5MXlvbVNYdy1PeUNyRDdLUk1WcFdESDE2UEJJWHdZc1Y0YU1JWkxwN0padzRjS0hhNXFNc2JIZWFnTWZTZ1hqbnhUWU9ZbWgwVHZPcnladEZxTkE?oc=5",
       "source": "UGA Wire",
       "published": "2026-10-23T16:29:00+00:00"
@@ -3412,10 +3524,16 @@
       "home": 36.3,
       "away": 20.7
      },
+     "auto": false,
      "news": {
       "suggested": "questionable",
       "qb": "Aaron Philo",
       "headline": "Florida Gators QB Aaron Philo Dealing with Injury, Tramell Jones First Start vs Texas Longhorns?",
+      "confirmed": false,
+      "evidence": [
+       "newscentermaine.com: Florida Gators QB Aaron Philo Dealing with Injury, Tramell Jones First Start vs Texas Longhorns?"
+      ],
+      "missed_last": true,
       "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxNVWVKN2ZzSUtIRGpJdkQxSXJJajNpempnUEZOMkNsMDF1SVBEdDZLLWhpMmdUWFdFZS1zaFJhYm1nUW15RFhWWkRPSmtTRmZEcUZ6ek56MFpQZncwSzRqNEdIb2k4azFlOU9DZDZPaTJwUzVhWkdRUjdPX1Axb3ZKN1FxNTVYbV9XZmI5ZVdlU2l3bFdHcXdTa20xckJPQU8yRTFDSWFkbVl0R19rZEFhWm9WSTZfYXhYRVNySnRicUJ6aVhzdkxOSkNZNmlOSERIeUhMQWY2WUJ6cDY1OVFPcmVtQVFBdTJSTDNGT1p5LVI2Tk1lUlVWZExmSHY5c2xkcDdhd2hIbGJNdjVsLWlmVVppTGpJY19ZTGVBVklNemJ0ZlpMQnpCSkNGa0dKeVkxOXNRazF2UjJ2a01MTnAwMVRDY0U4UQ?oc=5",
       "source": "newscentermaine.com",
       "published": "2026-10-23T22:13:00+00:00"
@@ -3526,6 +3644,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -3533,6 +3652,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -3612,6 +3732,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -3619,6 +3740,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -3716,6 +3838,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -3723,6 +3846,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -3826,6 +3950,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -3833,6 +3958,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -3912,6 +4038,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -3919,6 +4046,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -4016,6 +4144,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -4023,6 +4152,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -4129,10 +4259,17 @@
       "home": 33.3,
       "away": 13.2
      },
+     "auto": false,
      "news": {
       "suggested": "questionable",
       "qb": "Ty Dieffenbach",
       "headline": "UCLA\u2019s Ty Dieffenbach suffers a leg injury scare vs. Michigan State",
+      "confirmed": false,
+      "evidence": [
+       "ClutchPoints: UCLA\u2019s Ty Dieffenbach suffers a leg injury scare vs. Michigan State",
+       "USA Today: Ty Dieffenbach injury update: UCLA QB hurts leg, returns for touchdown"
+      ],
+      "missed_last": false,
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTWlDUXplYUV3YUZ4NEhVZC1XQnpNNzJRSWJTNThZSFRweDFLU1NqVi1Za2twcmttaEYzYW5HZDRnSEtLQWNHNEFvSzQwVUJHMDk5aUUzTTkzbGluU29hNVI2LUp1MUk0WGtvcXhEal9ZUklBUm4wVjl4Mzh4S2dkSGEyTDFiRUdPQ2stWTNYOTJPYXpyemdZWDgxRDQ?oc=5",
       "source": "ClutchPoints",
       "published": "2026-10-25T01:41:57+00:00"
@@ -4143,6 +4280,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -4222,6 +4360,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -4229,6 +4368,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -4308,6 +4448,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -4315,6 +4456,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -4394,6 +4536,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -4401,6 +4544,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -4501,24 +4645,16 @@
      "name": "Ashton Daniels",
      "status": "unknown",
      "note": null,
-     "if_out": {
-      "home": 28.9,
-      "away": 21.1
-     },
-     "news": {
-      "suggested": "questionable",
-      "qb": "Ashton Daniels",
-      "headline": "Ashton Daniels describes handling the hurt after loss 2OT loss to Miami",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZ05oYnJrTmRib01ieU9kQlJIMUlMRHlGY2dNRzYzQlpwRTFLSEp6UjYxT0JhaGZFc0p4WTlvenh0TVBFbXkwRGgtNUtjQklZQUdlZTJVUDBVaGdQMC1hQk5hY0tWUUx4d3hYWkNTendKMzU0LWZWdUIzR2ZfV1F1TElzMkRMTm5aMVpNMWQta0k5aDdmcWdXdXNVc240SUw5X1VBN1pON2szdkkxQ0J6UE1feWMySzdFY2NTNQ?oc=5",
-      "source": "Tallahassee Democrat",
-      "published": "2026-10-19T18:06:55+00:00"
-     }
+     "if_out": null,
+     "auto": false,
+     "news": null
     },
     "away": {
      "name": "Tait Reynolds",
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -4598,6 +4734,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -4605,6 +4742,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -4715,13 +4853,20 @@
       "home": 32.9,
       "away": 18.1
      },
+     "auto": false,
      "news": {
-      "suggested": "questionable",
+      "suggested": "out",
       "qb": "Arch Manning",
-      "headline": "$3 million Texas WR under fire for dropping incredible Arch Manning pass before leaving game with injury",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTExBM0htY0F4MkNYeUpOVl9FRVF5cmx5c1lvdlJMR2poOHF2UzVGdTlhZ0JVdThSZmt2SnhuUGNObTU1b3NmZWVVOUlEa3RDakhxX2kwNG5pV3pWakZQZzJiRTZXWFhuZVZxMDM1d1hGV2NHVVJfUWFmUHU0WnAyU3pXRXVIckdZQUhVb0Rja2ZnTERYeEhIeWxfd041Sk9fRzhTMmdQc2pRdnRVVEhKa3hLakhqdjdLRWplRlVMbThpa2M?oc=5",
-      "source": "HITC",
-      "published": "2026-10-25T10:00:00+00:00"
+      "headline": "Texas football: Arch Manning closes out headline-heavy week with Ole Miss win",
+      "confirmed": false,
+      "evidence": [
+       "Austin American-Statesman: Texas football: Arch Manning closes out headline-heavy week with Ole Miss win",
+       "Yahoo Sports: Texas vs Ole Miss: Arch Manning Injury Scare, Rebels Starter Carted Off, Two Other Longhorns Leave Field Hurt"
+      ],
+      "missed_last": false,
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdVV2S3pseEFZdUMyOW1XMXhNMGxCT0E1RFFpRjJsV3BDVkROeGlYSmRvUVNpQy04cmlwbFpRNGE0eG5JUTUtenpscW9KTjU1Q0M1dUpQOE5uZUppc2xZanY2MkRlMzhzak5VSUJHOVE5Y3dtV3R0OHZrVElwVTJTaFVlTDR1Zm12d0N3Um0wTkRLMDRXUVpTUXNXV1V6SHdKM0Jjb2JoMTNYc05QMlZBaGZPa256Zw?oc=5",
+      "source": "Austin American-Statesman",
+      "published": "2026-10-25T06:26:36+00:00"
      }
     },
     "away": {
@@ -4729,6 +4874,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -4744,14 +4890,14 @@
    "home": {
     "team": "USC",
     "record": "6\u20132",
-    "proj": 22.7,
+    "proj": 22.4,
     "rating": 8.7,
     "conf": "Big Ten"
    },
    "away": {
     "team": "Ohio State",
     "record": "6\u20131",
-    "proj": 32.9,
+    "proj": 32.6,
     "rating": 19.2,
     "conf": "Big Ten"
    },
@@ -4766,7 +4912,7 @@
    },
    "model": {
     "margin": -10.2,
-    "total": 55.6,
+    "total": 55.0,
     "line_text": "USC +10.2",
     "rating_margin": -7.4
    },
@@ -4836,23 +4982,29 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
      "name": "Julian Sayin",
-     "status": "unknown",
-     "note": null,
-     "if_out": {
-      "home": 22.4,
-      "away": 32.6
-     },
+     "status": "out",
+     "note": "confirmed by news: Sports Illustrated + 8 more",
+     "if_out": null,
+     "auto": true,
      "news": {
-      "suggested": "questionable",
+      "suggested": "out",
       "qb": "Julian Sayin",
-      "headline": "Jeremiah Smith\u2019s Heisman Case Gets Boost From Past Receiver Success After Julian Sayin Injury",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaGUzbkhXa25DZmlIMGY0TkMyQVZ6emMtV3RfSkd5czI0Mld1X1FEZGhwRkVaOWJiTWwwa3NId1p1MnJ4RDBIREhqRHB1X2VKWk5Bbml2NXhUYXNfNndRb2M0NjNyVDZpTklrV2dTRzE0bkptbkdqbUpFTGlpR01HZXBHQVpJLVJs?oc=5",
-      "source": "Yahoo Sports",
-      "published": "2026-10-24T13:20:50+00:00"
+      "headline": "Ryan Day Confirms Ohio State Quarterback Julian Sayin Is Out Indefinitely",
+      "confirmed": true,
+      "evidence": [
+       "Sports Illustrated: Ryan Day Confirms Ohio State Quarterback Julian Sayin Is Out Indefinitely",
+       "New York Post: Ohio State\u2019s national title hopes suddenly in jeopardy as star QB Julian Sayin could be out for season",
+       "The Lantern: Quarterback Julian Sayin \u201cout indefinitely\u201d with injury"
+      ],
+      "missed_last": false,
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSFlTSkI1NEphcG5aUTFRUVFqd0txSTVzTEJBZHV1OEkzWmNpeWhYX29EYXozUDJHWjBjSHBrSDdoQXpVTGxNOTJLeGVTSTczMllXYjNBNllOOTJoNE01c1pLUlB0NzBEampUZmxzMHVXdlBNOTlSYmJhWVM2VWNnMXlmQldEalc3MzFTQl9famduUkZjOTBXUnY3U21PNFdaTXQ5SFcyZlltZDIwWGdQSHk1N3ZRclhCejRNT3ZWcWtlajR1YXc?oc=5",
+      "source": "Sports Illustrated",
+      "published": "2026-10-21T15:00:02+00:00"
      }
     }
    }
@@ -4932,6 +5084,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -4939,6 +5092,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -5036,6 +5190,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -5043,6 +5198,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -5156,6 +5312,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -5163,6 +5320,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -5260,6 +5418,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -5267,6 +5426,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -5346,6 +5506,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -5353,6 +5514,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -5432,6 +5594,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -5439,6 +5602,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -5518,6 +5682,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -5525,6 +5690,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
@@ -5632,6 +5798,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     },
     "away": {
@@ -5639,6 +5806,7 @@
      "status": "unknown",
      "note": null,
      "if_out": null,
+     "auto": false,
      "news": null
     }
    }
