@@ -34,6 +34,22 @@ season,week,team,qb,status,note
 
 The next morning's run picks it up, or click **Run workflow** to update right away.
 
+## Betting splits (optional): sharp money and reverse line movement
+
+There's no free source for betting splits (share of bets vs. share of money), so you add them from a service you use, such as DraftKings splits on VSiN or Action Network. Add a line per game to `data/splits.csv`; percentages are for the home team's spread and for the over:
+
+```
+season,week,home,away,bets_home_pct,money_home_pct,bets_over_pct,money_over_pct
+2026,9,Texas,Ole Miss,38,61,70,52
+```
+
+The weekly board then flags:
+
+- **Sharp money:** the money share beats the bet share by 10+ points on one side (fewer, bigger bets).
+- **Reverse line movement:** 60%+ of bets are on one side, yet the spread moved 1+ point the other way since opening.
+
+Every logged split is saved with the pick, so the History page's "Sharp money and reverse line movement" table measures over time whether these signals win. The thresholds are `SHARP_GAP`, `PUBLIC_MIN` and `RLM_MIN_MOVE` in `src/config.py`.
+
 ## How the model works
 
 | Step | File | What it does |

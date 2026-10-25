@@ -107,7 +107,8 @@ def update_history_index(seasons):
     path = os.path.join(SITE_DATA, "history", "index.json")
     have = json.load(open(path))["seasons"] if os.path.exists(path) else []
     write_json({"seasons": sorted(set(have) | set(seasons), reverse=True), "current": config.THIS_SEASON,
-                "strong_edge": config.STRONG_EDGE}, path)
+                "strong_edge": config.STRONG_EDGE, "sharp_gap": config.SHARP_GAP, "public_min": config.PUBLIC_MIN,
+                "rlm_move": config.RLM_MIN_MOVE}, path)
 
 
 def print_report(overall, by_season, edges, qb_effect, groups, w):

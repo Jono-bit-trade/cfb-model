@@ -157,5 +157,7 @@ def history_rows(g):
             "ats": n(r.ats), "ou_pick": r.ou_pick, "te": n(abs(r.total_edge)) if not pd.isna(r.total_edge) else None,
             "ou": n(r.ou), "bf": bool(getattr(r, "backfill", False)),
             "sp_open": n(getattr(r, "spread_open", None)), "tot_open": n(getattr(r, "total_open", None)),
+            "bh": n(getattr(r, "bets_home_pct", None), 0), "mh": n(getattr(r, "money_home_pct", None), 0),
+            "bo": n(getattr(r, "bets_over_pct", None), 0), "mo": n(getattr(r, "money_over_pct", None), 0),
         })
     return out

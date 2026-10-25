@@ -171,3 +171,6 @@ table.history td { vertical-align: top; }
 .mark.l::before { content: "✗ "; }
 td .small { display: block; color: var(--muted); font-size: 13px; }
 .bf { color: var(--muted); font-size: 12px; margin-left: 4px; }
+
+.tag.rlm { background: var(--pylon-soft); border-color: var(--pylon); font-weight: 600; }
+.tag.sharp { background: var(--turf-soft); border-color: transparent; }

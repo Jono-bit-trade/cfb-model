@@ -30,6 +30,9 @@ FEATURE_GROUPS = ["CORE", "STYLE", "CONTEXT", "SITUATION"]  # drop a group to te
 # ---- Picks ----------------------------------------------------------------
 MIN_EDGE = 0.0               # only show a pick when |edge| >= this many points
 STRONG_EDGE = 3.0            # label picks at or above this as "strong" (the tuner suggests a value)
+SHARP_GAP = 10              # sharp money: money % exceeds bet % on a side by this many points
+PUBLIC_MIN = 60             # reverse line movement: at least this % of bets on one side...
+RLM_MIN_MOVE = 1.0          # ...while the spread moved at least this far the other way
 MARGIN_SD = 16.0             # spread of real results around the projection, for win chances
 VALUE_MIN_PROB = 0.04        # value moneyline: model's win chance must beat the market's by this much
 

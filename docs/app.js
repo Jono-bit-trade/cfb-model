@@ -9,6 +9,29 @@ const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "
 const num = (v, d = 1) => (v === null || v === undefined || Number.isNaN(v) ? "–" : Number(v).toFixed(d));
 const lineText = (team, line) => line === null || line === undefined ? "–" : Math.abs(line) < 0.05 ? `${team} PK` : `${team} ${line > 0 ? "+" : "−"}${Math.abs(line).toFixed(1)}`;
 const odds = (v) => v === null || v === undefined ? "–" : v > 0 ? `+${Math.round(v)}` : `−${Math.abs(Math.round(v))}`;
+const moveTag = (g) => {
+  const mv = g.market && g.market.line_move;
+  if (mv === null || mv === undefined || Math.abs(mv) < 0.5) return "";
+  const toward = mv > 0 ? g.home.team : g.away.team;
+  const withPick = g.pick && g.pick.team ? (g.pick.team === toward ? "with the pick" : "against the pick") : "";
+  return `<span class="tag ${withPick === "against the pick" ? "warn" : ""}" title="Change from the opening spread">Line moved ${num(Math.abs(mv))} toward ${esc(toward)}${withPick ? `, ${withPick}` : ""}</span>`;
+};
+const splitTags = (g) => {
+  const s = g.splits;
+  if (!s) return "";
+  let out = "";
+  if (s.rlm) {
+    const pub = s.public, pubPct = pub === g.home.team ? s.bets_home : 100 - s.bets_home;
+    out += `<span class="tag rlm">Reverse line movement: ${Math.round(pubPct)}% of bets on ${esc(pub)}, line moved ${num(Math.abs(g.market.line_move))} toward ${esc(s.rlm)}</span>`;
+  }
+  if (s.sharp) {
+    const bets = s.sharp === g.home.team ? s.bets_home : 100 - s.bets_home, money = s.sharp === g.home.team ? s.money_home : 100 - s.money_home;
+    out += `<span class="tag sharp">Sharp money: ${esc(s.sharp)} (${Math.round(money)}% of money, ${Math.round(bets)}% of bets)</span>`;
+  }
+  if (s.sharp_total) out += `<span class="tag sharp">Sharp money: ${s.sharp_total}</span>`;
+  return out;
+};
+const hasSharp = (g) => g.splits && (g.splits.sharp || g.splits.rlm || g.splits.sharp_total);
 const valueTag = (g) => g.moneyline && g.moneyline.value
   ? `<span class="tag" title="The model gives this side a ${num(g.moneyline.value.gap, 0)}-point better win chance than the moneyline implies">Value moneyline: ${esc(g.moneyline.value.team)} ${odds(g.moneyline.value.odds)}</span>` : "";
 const pct = (v) => (v === null || v === undefined ? "–" : `${(v * 100).toFixed(1)}%`);
@@ -110,6 +133,7 @@ function gameRow(g) {
       <div><dt>Model total</dt><dd>${num(g.model.total)}</dd></div>
       ${moved ? `<div><dt>Opened</dt><dd>${esc(lineText(g.home.team, m.spread_open))}</dd></div>` : ""}
       ${g.moneyline && g.moneyline.home !== null ? `<div><dt>Moneyline</dt><dd>${esc(g.away.team)} ${odds(g.moneyline.away)}, ${esc(g.home.team)} ${odds(g.moneyline.home)}</dd></div>` : ""}
+      ${g.splits ? `<div><dt>Bets / money</dt><dd>${esc(g.home.team)} ${Math.round(g.splits.bets_home)}% / ${Math.round(g.splits.money_home)}%</dd></div>` : ""}
       ${g.moneyline ? `<div><dt>Win chance</dt><dd>${esc(g.winner)} ${num(g.moneyline.win_chance, 0)}%</dd></div>` : ""}
     </dl>`;
   const strong = g.pick && g.pick.strong;
@@ -120,7 +144,7 @@ function gameRow(g) {
       <div class="kick"><time datetime="${esc(g.kickoff)}">${esc(k.time)}</time>${esc(k.day)}<br>${esc(g.venue || "")}${g.neutral ? " (neutral)" : ""}</div>
       <div class="teams">${team("away", !homeWins)}${team("home", homeWins)}</div>
       <div class="lines">${fieldSVG(g, strong)}${numbers}</div>
-      <div class="pick-row">${pick}${g.total_pick ? `<span class="tag">${esc(g.total_pick)}</span>` : ""}${valueTag(g)}${weatherTag(g.weather)}${qbTags(g)}</div>
+      <div class="pick-row">${pick}${g.total_pick ? `<span class="tag">${esc(g.total_pick)}</span>` : ""}${valueTag(g)}${moveTag(g)}${splitTags(g)}${weatherTag(g.weather)}${qbTags(g)}</div>
     </li>`;
 }
 
@@ -140,6 +164,7 @@ function renderBoard() {
   if (state.filter === "strong") games = games.filter((g) => g.pick && g.pick.strong);
   if (state.filter === "qb") games = games.filter(hasQbNews);
   if (state.filter === "weather") games = games.filter((g) => isWeatherGame(g.weather));
+  if (state.filter === "sharp") games = games.filter(hasSharp);
   if (state.sort === "edge") games.sort((a, b) => (b.edge ?? -1) - (a.edge ?? -1));
   $("#games").innerHTML = games.map(gameRow).join("");
   $("#games-empty").hidden = games.length > 0;
@@ -254,6 +279,51 @@ async function renderHistory() {
     return `<tr class="${hit ? "hit60" : ""}"><td>${c === 0 ? "Every game" : `${c}+ points`}</td><td class="num">${n}</td>
       <td class="num">${wl(a)}</td><td class="num">${pct(a.pct)}</td><td class="num">${wl(o)} ${o.pct !== null ? `(${pct(o.pct)})` : ""}</td></tr>`;
   }).join("");
+
+  // Line movement: who the money backed, and how the model did with or against it.
+  const coverOf = (r, line, home) => {
+    if (r.hs === null || line === null || line === undefined) return null;
+    const c = (r.hs - r.as) + line;            // > 0: home covered
+    if (c === 0) return 0.5;
+    return (c > 0) === home ? 1 : 0;
+  };
+  $("#h-moves tbody").innerHTML = [0.5, 1.5, 3, 5].map((c) => {
+    const moved = teamRows.filter((r) => r.sp_open !== null && r.sp_open !== undefined && r.sp !== null && Math.abs(r.sp_open - r.sp) >= c);
+    const towardHome = (r) => r.sp_open - r.sp > 0;
+    const open = tallyOf(moved.map((r) => ({ v: coverOf(r, r.sp_open, towardHome(r)) })), "v");
+    const close = tallyOf(moved.map((r) => ({ v: coverOf(r, r.sp, towardHome(r)) })), "v");
+    const withMove = tallyOf(moved.filter((r) => r.ats_pick && r.ats_pick === (towardHome(r) ? r.h : r.a)), "ats");
+    const against = tallyOf(moved.filter((r) => r.ats_pick && r.ats_pick !== (towardHome(r) ? r.h : r.a)), "ats");
+    const cell = (t) => `${wl(t)}${t.pct !== null ? ` (${pct(t.pct)})` : ""}`;
+    return `<tr><td>${c}+ points</td><td class="num">${moved.length}</td><td class="num">${pct(open.pct)}</td>
+      <td class="num">${pct(close.pct)}</td><td class="num">${cell(withMove)}</td><td class="num">${cell(against)}</td></tr>`;
+  }).join("");
+
+  // Sharp money and reverse line movement (only games where splits were logged)
+  const SG = H.index.sharp_gap ?? 10, PM = H.index.public_min ?? 60, RM = H.index.rlm_move ?? 1;
+  const withSplits = teamRows.filter((r) => r.bh !== null && r.bh !== undefined && r.mh !== null && r.mh !== undefined);
+  const side = (r, home) => home ? r.h : r.a;
+  const sharpHome = (r) => r.mh - r.bh >= SG ? true : r.mh - r.bh <= -SG ? false : null;
+  const rlmHome = (r) => {
+    if (r.sp_open === null || r.sp_open === undefined || r.sp === null) return null;
+    const mv = r.sp_open - r.sp;
+    if (r.bh <= 100 - PM && mv >= RM) return true;
+    if (r.bh >= PM && mv <= -RM) return false;
+    return null;
+  };
+  const signals = [
+    ["Side with sharp money", withSplits.filter((r) => sharpHome(r) !== null).map((r) => ({ v: coverOf(r, r.sp, sharpHome(r)) }))],
+    ["Reverse line movement side", withSplits.filter((r) => rlmHome(r) !== null).map((r) => ({ v: coverOf(r, r.sp, rlmHome(r)) }))],
+    ["Model picks with the sharp side", withSplits.filter((r) => sharpHome(r) !== null && r.ats_pick === side(r, sharpHome(r))).map((r) => ({ v: r.ats }))],
+    ["Model picks against the sharp side", withSplits.filter((r) => sharpHome(r) !== null && r.ats_pick && r.ats_pick !== side(r, sharpHome(r))).map((r) => ({ v: r.ats }))],
+  ];
+  $("#h-sharp-note").textContent = withSplits.length
+    ? `${withSplits.length} games with logged betting splits. All records are against the closing spread.`
+    : "No betting splits logged for this selection yet. They build up as data/splits.csv is filled in each week.";
+  $("#h-sharp tbody").innerHTML = withSplits.length ? signals.map(([label, rs]) => {
+    const t = tallyOf(rs, "v");
+    return `<tr><td>${label}</td><td class="num">${t.w + t.l + t.p}</td><td class="num">${wl(t)}</td><td class="num">${pct(t.pct)}</td></tr>`;
+  }).join("") : "";
 
   const list = [...shown].sort((x, y) => y.date.localeCompare(x.date));
   const LIMIT = 400;

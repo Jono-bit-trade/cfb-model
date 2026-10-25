@@ -176,6 +176,15 @@ def main():
         {"season": LAST, "week": 9, "team": a["home"], "qb": f"{a['home']} QB{LAST}", "status": "out", "note": "shoulder"},
         {"season": LAST, "week": 9, "team": b["away"], "qb": f"{b['away']} QB{LAST}", "status": "questionable", "note": "ankle"},
     ]).to_csv(os.path.join(DATA, "qb_status.csv"), index=False)
+    # Betting splits for week 9: one reverse-line-movement game, one sharp-money game.
+    lines = pd.read_csv(os.path.join(DATA, "lines", f"{LAST}.csv")).set_index("game_id")
+    rows = []
+    for i, gm in enumerate(upcoming.itertuples()):
+        mv = lines.loc[gm.game_id, "spread_open"] - lines.loc[gm.game_id, "spread"]
+        bets = 30 if mv >= 1 else 72 if mv <= -1 else 55
+        rows.append({"season": LAST, "week": 9, "home": gm.home, "away": gm.away, "bets_home_pct": bets,
+                     "money_home_pct": bets + (15 if i % 3 == 0 else 2), "bets_over_pct": 64, "money_over_pct": 50})
+    pd.DataFrame(rows).to_csv(os.path.join(DATA, "splits.csv"), index=False)
     print("sample data written to", DATA)
 
 

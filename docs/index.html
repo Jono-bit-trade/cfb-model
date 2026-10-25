@@ -37,6 +37,7 @@
         <button class="chip-btn" data-filter="strong" aria-pressed="false">Strong picks</button>
         <button class="chip-btn" data-filter="qb" aria-pressed="false">QB news</button>
         <button class="chip-btn" data-filter="weather" aria-pressed="false">Weather games</button>
+        <button class="chip-btn" data-filter="sharp" aria-pressed="false">Sharp money</button>
         <label class="sort">Sort
           <select id="sort">
             <option value="kickoff">Kickoff</option>
@@ -90,6 +91,20 @@
       <p class="note">Spread record at or above each edge size, for the season and team selected. Small samples swing a lot; trust rows with a few hundred games.</p>
       <div class="table-scroll edge-scroll"><table class="results" id="h-edges"><thead><tr>
         <th scope="col">Edge</th><th scope="col" class="num">Games</th><th scope="col" class="num">Spread record</th><th scope="col" class="num">Win %</th><th scope="col" class="num">Over/under (same edge on total)</th>
+      </tr></thead><tbody></tbody></table></div>
+      <h2 class="section-title">How line movement played out</h2>
+      <p class="note">Movement is from the opening spread to the final one before kickoff. The covered columns show how often the team the line moved toward covered; the model columns show its spread record when it picked with or against that team.</p>
+      <div class="table-scroll"><table class="results" id="h-moves"><thead><tr>
+        <th scope="col">Line moved</th><th scope="col" class="num">Games</th>
+        <th scope="col" class="num">Covered opening line</th>
+        <th scope="col" class="num">Covered closing line</th>
+        <th scope="col" class="num">Model with the move</th>
+        <th scope="col" class="num">Model against</th>
+      </tr></thead><tbody></tbody></table></div>
+      <h2 class="section-title">Sharp money and reverse line movement</h2>
+      <p class="note" id="h-sharp-note"></p>
+      <div class="table-scroll edge-scroll"><table class="results" id="h-sharp"><thead><tr>
+        <th scope="col">Signal</th><th scope="col" class="num">Games</th><th scope="col" class="num">Record</th><th scope="col" class="num">Win %</th>
       </tr></thead><tbody></tbody></table></div>
       <h2 class="section-title">Games</h2>
       <div class="table-scroll"><table class="results history" id="h-games"><thead><tr>

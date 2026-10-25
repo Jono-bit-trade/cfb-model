@@ -17,6 +17,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import config  # noqa: E402
 import features  # noqa: E402
 import qb  # noqa: E402
+import splits  # noqa: E402
 import weather  # noqa: E402
 from common import DATA, SITE_DATA, load, load_file, load_games, write_json  # noqa: E402
 import grading  # noqa: E402
@@ -113,6 +114,8 @@ def main(now=None):
                 m, t = model.predict(alt)
                 rows.loc[q, f"alt_margin_{s}"], rows.loc[q, f"alt_total_{s}"] = m, t
         rows = grading.grade(rows)
+        rows["line_move"] = rows["spread_open"] - rows["spread"]
+        rows = splits.attach(rows)
 
     out_games = []
     for r in rows.sort_values("start").itertuples():
@@ -150,7 +153,14 @@ def main(now=None):
             "moneyline": {"home": clean(r.home_ml), "away": clean(r.away_ml),
                           "win_chance": clean(round(100 * r.p_pick, 1)),
                           "value": {"team": r.val_pick, "odds": clean(r.val_odds),
-                                    "gap": clean(round(100 * r.val_gap, 1))} if r.val_pick else None},
+                                    "gap": clean(round(100 * r.val_gap, 1))} if isinstance(r.val_pick, str) and r.val_pick else None},
+            "splits": None if np.isnan(r.bets_home_pct) else {
+                "bets_home": clean(r.bets_home_pct), "money_home": clean(r.money_home_pct),
+                "bets_over": clean(r.bets_over_pct), "money_over": clean(r.money_over_pct),
+                "sharp": r.home if r.sharp_side == "home" else r.away if r.sharp_side == "away" else None,
+                "sharp_total": r.sharp_total or None,
+                "public": r.home if r.public_side == "home" else r.away if r.public_side == "away" else None,
+                "rlm": r.home if r.rlm_side == "home" else r.away if r.rlm_side == "away" else None},
             "edge": clean(abs(edge)) if not np.isnan(edge) else None,
             "pick": {"team": pick_team, "line": clean(pick_line), "text": fmt_line(pick_team, pick_line) if pick_team else None,
                      "strong": bool(pick_side and abs(edge) >= config.STRONG_EDGE)},
@@ -211,6 +221,8 @@ def update_log(rows, now):
             "pred_margin": rows["pred_margin"].round(2), "pred_total": rows["pred_total"].round(2),
             "spread": rows["spread"], "total": rows["total"], "home_ml": rows["home_ml"], "away_ml": rows["away_ml"],
             "spread_open": rows["spread_open"], "total_open": rows["total_open"],
+            "bets_home_pct": rows["bets_home_pct"], "money_home_pct": rows["money_home_pct"],
+            "bets_over_pct": rows["bets_over_pct"], "money_over_pct": rows["money_over_pct"],
             "made_at": now.isoformat()})
         new = new[pd.to_datetime(new["start"], utc=True, format="mixed") > now]  # never change a game that started
         if len(log):
