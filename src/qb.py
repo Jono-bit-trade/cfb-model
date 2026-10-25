@@ -22,6 +22,7 @@ from common import DATA
 
 LOOKBACK = 3
 STATUS_FILE = os.path.join(DATA, "qb_status.csv")
+CONFIRM_DIR = os.path.join(DATA, "qb_confirm")  # one small file per confirmation, made from the website's links
 OUT_STATUSES = {"out", "doubtful"}
 
 
@@ -61,10 +62,25 @@ def current_starters(passers, games, season):
 
 
 def load_status():
-    if not os.path.exists(STATUS_FILE):
-        return pd.DataFrame(columns=["season", "week", "team", "qb", "status", "note"])
-    s = pd.read_csv(STATUS_FILE, comment="#")
+    """Your QB statuses: data/qb_status.csv plus every confirmation file in data/qb_confirm/.
+    Later rows win; confirmation files are named season-week-team-timestamp and read in that order."""
+    cols = ["season", "week", "team", "qb", "status", "note"]
+    parts = []
+    if os.path.exists(STATUS_FILE):
+        parts.append(pd.read_csv(STATUS_FILE, comment="#"))
+    if os.path.isdir(CONFIRM_DIR):
+        for f in sorted(os.listdir(CONFIRM_DIR)):  # names end in a timestamp, so later confirmations win
+            if f.endswith(".csv"):
+                try:
+                    parts.append(pd.read_csv(os.path.join(CONFIRM_DIR, f), comment="#"))
+                except Exception as e:
+                    print(f"  ! couldn't read {f}: {e}")
+    parts = [p for p in parts if len(p)]
+    if not parts:
+        return pd.DataFrame(columns=cols)
+    s = pd.concat(parts, ignore_index=True)
     s["status"] = s["status"].astype(str).str.strip().str.lower()
+    s["team"] = s["team"].astype(str).str.strip()
     return s
 
 

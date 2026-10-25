@@ -207,19 +207,53 @@ function weatherTag(w) {
 }
 const isWeatherGame = (w) => !!w && !w.dome && ((w.wind ?? 0) >= 15 || (w.gust ?? 0) >= 25 || (w.rain ?? 0) >= 0.1 || (w.temp ?? 60) <= 32);
 
+const REPO = (() => {
+  const owner = location.hostname.endsWith(".github.io") ? location.hostname.split(".")[0] : "Jono-bit-trade";
+  const repo = location.hostname.endsWith(".github.io") ? (location.pathname.split("/")[1] || "jonos-picks") : "jonos-picks";
+  return `https://github.com/${owner}/${repo}`;
+})();
+const slug = (t) => String(t).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+function confirmLink(g, side, qbName, status, label, note) {
+  const season = state.predictions.season, week = g.week;
+  const csvCell = (v) => `"${String(v ?? "").replace(/"/g, "'")}"`;
+  const body = `season,week,team,qb,status,note\n${season},${week},${csvCell(g[side].team)},${csvCell(qbName)},${status},${csvCell(note)}\n`;
+  const file = `data/qb_confirm/${season}-w${String(week).padStart(2, "0")}-${slug(g[side].team)}-${Date.now()}.csv`;
+  const url = `${REPO}/new/main?filename=${encodeURIComponent(file)}&value=${encodeURIComponent(body)}`;
+  return `<a class="qb-btn ${status}" href="${esc(url)}" target="_blank" rel="noopener" title="Opens GitHub with the file filled in: click Commit changes to apply">${esc(label)}</a>`;
+}
+const timeAgo = (iso) => {
+  if (!iso) return "";
+  const h = (Date.now() - new Date(iso).getTime()) / 3.6e6;
+  return h < 1 ? "just now" : h < 24 ? `${Math.round(h)}h ago` : `${Math.round(h / 24)}d ago`;
+};
 function qbTags(g) {
   let out = "";
   for (const side of ["away", "home"]) {
     const q = g.qb[side];
-    if (!q || !q.status || ["unknown", "available"].includes(q.status)) continue;
+    if (!q) continue;
     const who = q.name ? `${q.name}` : `${g[side].team} QB`;
-    let text = `${who}: ${q.status}${q.note ? ` (${q.note})` : ""}`;
-    if (q.if_out) text += `. If he sits: ${g.away.team} ${num(q.if_out.away)}, ${g.home.team} ${num(q.if_out.home)}`;
-    out += `<span class="tag ${q.status === "probable" ? "" : "warn"}">${esc(text)}</span>`;
+    const ifOut = q.if_out ? `. If he sits: ${short(g.away.team)} ${num(q.if_out.away)}, ${short(g.home.team)} ${num(q.if_out.home)}` : "";
+    const confirmed = q.status && !["unknown"].includes(q.status);
+    if (confirmed && q.status !== "available") {
+      out += `<span class="tag ${q.status === "probable" ? "" : "warn"}">${esc(`${who}: ${q.status}${q.note ? ` (${q.note})` : ""}${ifOut}`)}</span>`;
+    }
+    if (q.news && !confirmed) {
+      const n = q.news, name = n.qb || who;
+      const word = { out: "may be out", doubtful: "doubtful", questionable: "questionable", available: "expected to play" }[n.suggested] || n.suggested;
+      out += `<div class="qb-news ${n.suggested}">
+          <div class="qb-news-head"><span class="qb-news-label">QB news · unverified</span><b>${esc(name)} (${esc(short(g[side].team))}) ${esc(word)}</b>${n.suggested !== "available" ? esc(ifOut) : ""}</div>
+          <a class="qb-news-link" href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.headline)}</a>
+          <div class="qb-news-src">${esc(n.source || "")}${n.published ? ` · ${esc(timeAgo(n.published))}` : ""}</div>
+          <div class="qb-news-actions"><span>Verify:</span>
+            ${confirmLink(g, side, name, "out", "He's out", n.headline)}
+            ${confirmLink(g, side, name, "questionable", "Questionable", n.headline)}
+            ${confirmLink(g, side, name, "available", "He's playing", n.headline)}</div>
+        </div>`;
+    }
   }
   return out;
 }
-const hasQbNews = (g) => ["away", "home"].some((s) => g.qb[s] && !["unknown", "available"].includes(g.qb[s].status));
+const hasQbNews = (g) => ["away", "home"].some((s) => g.qb[s] && (!["unknown", "available"].includes(g.qb[s].status) || (g.qb[s].news && g.qb[s].news.suggested !== "available")));
 
 /* ------------------------------------------------------------------ board */
 /* ------------------------------------------------------------- team marks */

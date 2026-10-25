@@ -10,6 +10,8 @@ on:
     - cron: "0 18,20,22 * * 6"  # Saturday afternoon: scores as games end
     - cron: "0 0,2,4,6 * * 0"   # Saturday night: scores as games end
   workflow_dispatch:            # adds a "Run workflow" button on the Actions tab
+  push:
+    paths: ["data/qb_confirm/**", "data/qb_status.csv"]   # you confirmed a QB status: re-run the picks
 
 concurrency:
   group: weekly-predictions
@@ -30,6 +32,7 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: Download data
+        if: github.event_name != 'push'
         env:
           CFBD_KEY: ${{ secrets.CFBD_KEY }}
         run: |
@@ -49,6 +52,11 @@ jobs:
           git commit -m "Update data $(date -u +%Y-%m-%d)" || echo "No new data"
           git pull --rebase
           git push
+
+      - name: Check QB injury news
+        if: github.event_name != 'push'
+        continue-on-error: true
+        run: python src/qb_news.py
 
       - name: Predict
         run: python src/predict.py

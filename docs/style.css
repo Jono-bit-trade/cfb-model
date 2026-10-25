@@ -290,3 +290,19 @@ td .with-logo + .with-logo { margin-top: 0; }
 :root[data-theme="dark"] { --wx-bg: #1c2740; --wx-bad-bg: #3a2c10; --wx-bad-rule: #8a6a24; }
 @media (max-width: 560px) { .meta .wx-s { display: none; } }
 @media (max-width: 420px) { .tabs a { padding-left: 8px; padding-right: 8px; font-size: 15px; } }
+
+/* ---------- QB injury news (unverified until you confirm) */
+.qb-news { flex: 1 1 100%; border: 1px solid var(--rule); border-left: 4px solid var(--pylon); border-radius: var(--radius-sm);
+  background: var(--pylon-soft); padding: 10px 12px; font-size: 14px; display: grid; gap: 4px; }
+.qb-news.available { border-left-color: var(--win); background: var(--turf-soft); }
+.qb-news-head { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; }
+.qb-news-label { font: 600 12px/1 var(--body); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+.qb-news-link { color: var(--ink); text-decoration: underline; text-underline-offset: 2px; }
+.qb-news-src { color: var(--muted); font-size: 13px; }
+.qb-news-actions { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 4px; }
+.qb-news-actions span { color: var(--muted); font-size: 13px; margin-right: 2px; }
+.qb-btn { display: inline-block; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--rule); background: var(--surface);
+  color: var(--ink); text-decoration: none; font-weight: 600; font-size: 13px; }
+.qb-btn:hover { border-color: var(--ink); }
+.qb-btn.out { border-color: var(--loss); color: var(--loss); }
+.qb-btn.available { border-color: var(--win); color: var(--win); }

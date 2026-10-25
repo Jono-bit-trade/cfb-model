@@ -17,6 +17,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import config  # noqa: E402
 import features  # noqa: E402
 import qb  # noqa: E402
+import qb_news  # noqa: E402
 import splits  # noqa: E402
 import weather  # noqa: E402
 from common import DATA, SITE_DATA, load, load_file, load_games, write_json  # noqa: E402
@@ -154,6 +155,8 @@ def main(now=None):
     rows = table[table["game_id"].isin(upcoming["game_id"])].copy()
     season = config.THIS_SEASON
     status = qb.load_status()
+    news = qb_news.load_news()
+    news_by = {(int(n.week), n.team): n._asdict() for n in news.itertuples()} if len(news) else {}
     starters = qb.current_starters(load("passers"), games, season)
     rec = records(games, season)
 
@@ -174,9 +177,11 @@ def main(now=None):
         rows["pred_margin"], rows["pred_total"] = model.predict(rows)
         if adjuster is not None:
             rows["pred_margin"], rows["pred_total"] = adjuster.apply(rows, rows["pred_margin"], rows["pred_total"])
-        # Questionable QB: also project the game as if he sits.
+        # Questionable QB (or unconfirmed injury news): also project the game as if he sits.
         for s in ("home", "away"):
-            q = rows[f"qb_status_{s}"] == "questionable"
+            flagged_news = pd.Series([news_by.get((int(r["week"]), r[s]), {}).get("suggested") in ("questionable", "doubtful", "out")
+                                      for _, r in rows.iterrows()], index=rows.index)
+            q = (rows[f"qb_status_{s}"] == "questionable") | ((rows[f"qb_status_{s}"] == "unknown") & flagged_news)
             if q.any():
                 alt = rows[q].copy()
                 alt[f"qb_out_{s}"] = 1.0
@@ -216,8 +221,12 @@ def main(now=None):
             if am is not None and not (isinstance(am, float) and np.isnan(am)):
                 ah, aa = split_score(am, d[f"alt_total_{s}"])
                 alt = {"home": clean(ah), "away": clean(aa)}
+            nw = news_by.get((int(r.week), d[s])) if not pd.isna(r.week) else None
             qbinfo[s] = {"name": text(d.get(f"qb_name_{s}")), "status": text(d.get(f"qb_status_{s}")),
-                         "note": text(d.get(f"qb_note_{s}")), "if_out": alt}
+                         "note": text(d.get(f"qb_note_{s}")), "if_out": alt,
+                         "news": {"suggested": nw["suggested"], "qb": text(nw["qb"]), "headline": text(nw["headline"]),
+                                  "link": text(nw["link"]), "source": text(nw["source"]), "published": text(nw["published"])}
+                         if nw else None}
         out_games.append({
             "id": int(r.game_id), "kickoff": r.start.isoformat(), "time_tbd": bool(r.start_tbd),
             "week": int(r.week) if not pd.isna(r.week) else None, "venue": text(r.venue), "neutral": bool(r.neutral),

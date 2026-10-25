@@ -221,6 +221,19 @@ def main():
         {"season": LAST, "week": 9, "team": a["home"], "qb": f"{a['home']} QB{LAST}", "status": "out", "note": "shoulder"},
         {"season": LAST, "week": 9, "team": b["away"], "qb": f"{b['away']} QB{LAST}", "status": "questionable", "note": "ankle"},
     ]).to_csv(os.path.join(DATA, "qb_status.csv"), index=False)
+    # Injury news the feed scanner might find (unconfirmed), plus one confirmation file from the website.
+    c = upcoming.iloc[2]
+    pd.DataFrame([{"season": LAST, "week": 9, "team": c["away"], "qb": f"{c['away']} QB{LAST}", "suggested": "questionable",
+                   "headline": f"{c['away']} QB{LAST} questionable with ankle injury", "link": "https://example.invalid/news/1",
+                   "source": "ESPN", "published": "2026-10-26T18:00:00+00:00", "fetched": "2026-10-27T15:00:00+00:00"},
+                  {"season": LAST, "week": 9, "team": c["home"], "qb": f"{c['home']} QB{LAST}", "suggested": "available",
+                   "headline": f"{c['home']} QB{LAST} expected to start", "link": "https://example.invalid/news/2",
+                   "source": "CBS Sports", "published": "2026-10-26T12:00:00+00:00", "fetched": "2026-10-27T15:00:00+00:00"}]
+                 ).to_csv(os.path.join(DATA, "qb_news.csv"), index=False)
+    os.makedirs(os.path.join(DATA, "qb_confirm"), exist_ok=True)
+    d = upcoming.iloc[3]
+    pd.DataFrame([{"season": LAST, "week": 9, "team": d["home"], "qb": f"{d['home']} QB{LAST}", "status": "out", "note": "confirmed"}]
+                 ).to_csv(os.path.join(DATA, "qb_confirm", f"{LAST}-w09-x-1761580000000.csv"), index=False)
     # Betting splits for week 9: one reverse-line-movement game, one sharp-money game.
     lines = pd.read_csv(os.path.join(DATA, "lines", f"{LAST}.csv")).set_index("game_id")
     rows = []
