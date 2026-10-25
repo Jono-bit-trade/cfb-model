@@ -334,7 +334,8 @@ function gameRow(g) {
       </tbody></table>`;
   const cautionTag = g.pick && g.pick.caution
     ? `<span class="tag caution" title="Edges over ${state.predictions.settings?.sweet_spot_max ?? 7} points at the current line have gone about 50% since 2016: the market usually knows something the model doesn't">Big edge (${num(g.edge)} pts): check injury and lineup news before betting</span>` : "";
-  const badges = `${cautionTag}${betEarlyTag(g)}${g.total_bet_early ? totalTags(g).replace(/<span class="tag (warn)?"[^>]*>Total moved[^<]*<\/span>/, "") : ""}${qbTags(g)}${splitTags(g)}`;
+  const ourTag = g.our_pick ? `<span class="tag ours" title="3–7 point edge${g.our_pick.locked ? " at the locked early line" : " (not locked yet)"}: one of our picks">★ Our pick: ${esc(g.our_pick.text)}${g.our_pick.locked ? " (locked)" : ""}</span>` : "";
+  const badges = `${ourTag}${cautionTag}${betEarlyTag(g)}${g.total_bet_early ? totalTags(g).replace(/<span class="tag (warn)?"[^>]*>Total moved[^<]*<\/span>/, "") : ""}${qbTags(g)}${splitTags(g)}`;
   const details = `<details class="more"><summary>Details</summary>
       <div class="more-body">
         ${fieldSVG(g, strong)}
@@ -359,11 +360,11 @@ function renderBoard() {
   }
   $("#board-title").textContent = `${p.label} projections`;
   const strongN = p.games.filter((g) => g.pick && g.pick.strong).length;
-  $("#board-sub").textContent = `${p.games.length} games, ${strongN} sweet-spot picks (3–7 point edges). Projected scores are the model's; lines are the market's.`;
+  $("#board-sub").textContent = `${p.games.length} games, ${p.games.filter((g) => g.our_pick).length} of our picks (3–7 point edges). Projected scores are the model's; lines are the market's.`;
   $("#strong-edge").textContent = p.settings?.strong_edge ?? 3;
 
   let games = [...p.games];
-  if (state.filter === "strong") games = games.filter((g) => g.pick && g.pick.strong);
+  if (state.filter === "strong") games = games.filter((g) => g.our_pick);
   if (state.filter === "qb") games = games.filter(hasQbNews);
   if (state.filter === "weather") games = games.filter((g) => isWeatherGame(g.weather));
   if (state.filter === "sharp") games = games.filter(hasSharp);
@@ -372,8 +373,14 @@ function renderBoard() {
   $("#games").innerHTML = games.map(gameRow).join("");
   $("#games-empty").hidden = games.length > 0;
 
-  const s = state.results?.summary?.season;
-  if (s && s.spread && s.spread.w + s.spread.l > 0) {
+  const sum = state.results?.summary || {}, s = sum.season, op = sum.our_picks;
+  const units = (u) => `${u >= 0 ? "+" : "−"}${Math.abs(u).toFixed(1)}u`;
+  if (op && op.w + op.l > 0) {
+    const wk = sum.our_picks_week, bt = sum.our_picks_backtest;
+    $("#season-line").innerHTML = `<span class="op-label">Our picks</span> ${wl(op)} · ${units(op.units)}`
+      + `<br><span>${wk && wk.w + wk.l > 0 ? `Week ${wk.week}: ${wl(wk)} · ` : ""}${s ? `${wl(s.winner)} picking winners` : ""}</span>`
+      + (bt ? `<br><span title="Same rule in the backtest, graded at the opening line">${bt.from}–${bt.to} backtest: ${wl(bt)}</span>` : "");
+  } else if (s && s.spread && s.spread.w + s.spread.l > 0) {
     $("#season-line").innerHTML = `${wl(s.spread)} against the spread<br><span>${wl(s.winner)} picking winners this season</span>`;
   }
 }
@@ -487,7 +494,11 @@ async function initHistory() {
   sel.value = H.season;
   sel.addEventListener("change", () => { H.season = sel.value; renderHistory(); });
   $("#h-team").addEventListener("input", (e) => { H.team = e.target.value.trim().toLowerCase(); renderHistory(); });
-  $("#h-edge").addEventListener("change", (e) => { H.edge = Number(e.target.value); renderHistory(); });
+  $("#h-edge").addEventListener("change", (e) => {
+    H.edge = e.target.value === "ours" ? "ours" : Number(e.target.value);
+    if (H.edge === "ours") { H.line = "early"; $("#h-line").value = "early"; }  // our picks are graded at the line you'd bet
+    renderHistory();
+  });
   $("#h-value").addEventListener("change", (e) => { H.valueOnly = e.target.checked; renderHistory(); });
   $("#h-line").addEventListener("change", (e) => { H.line = e.target.value; renderHistory(); });
   $("#h-week").addEventListener("change", (e) => { H.week = e.target.value; renderHistory(); });
@@ -505,6 +516,7 @@ async function initHistory() {
   renderHistory();
 }
 
+const edgeOk = (v) => H.edge === "ours" ? v !== null && v !== undefined && v >= 3 && v <= 7 : (v ?? -1) >= H.edge;
 async function renderHistory() {
   if (!H.index) return;
   const seasons = H.season === "all" ? H.index.seasons : [Number(H.season)];
@@ -523,7 +535,7 @@ async function renderHistory() {
   const byWeek = new Map();
   for (const r of rows) { const k = weekKey(r); if (!byWeek.has(k)) byWeek.set(k, []); byWeek.get(k).push(r); }
   const weekRec = (rs) => {
-    const e = rs.filter((r) => (r.edge ?? -1) >= H.edge), t = rs.filter((r) => (r.te ?? -1) >= H.edge);
+    const e = rs.filter((r) => edgeOk(r.edge)), t = rs.filter((r) => edgeOk(r.te));
     const ml = rs.filter((r) => (H.valueOnly ? r.val_u : r.ml_u) !== null && (H.valueOnly ? r.val_u : r.ml_u) !== undefined);
     const u = sumUnits(ml, H.valueOnly ? "val_u" : "ml_u");
     return { su: tallyOf(rs, "su"), ats: tallyOf(e, "ats"), ou: tallyOf(t, "ou"), u, mlN: ml.length };
@@ -537,9 +549,9 @@ async function renderHistory() {
   }).join("");
   if (H.week !== "all") rows = rows.filter((r) => weekKey(r) === H.week);
   const teamRows = rows;
-  const spreadRows = rows.filter((r) => (r.edge ?? -1) >= H.edge);
-  const totalRows = rows.filter((r) => (r.te ?? -1) >= H.edge);
-  const shown = H.edge > 0 ? spreadRows : rows;
+  const spreadRows = rows.filter((r) => edgeOk(r.edge));
+  const totalRows = rows.filter((r) => edgeOk(r.te));
+  const shown = H.edge === "ours" || H.edge > 0 ? spreadRows : rows;
 
   const su = tallyOf(shown, "su"), ats = tallyOf(spreadRows, "ats"), ou = tallyOf(totalRows, "ou");
   const mlRows = H.valueOnly ? shown.filter((r) => r.val_u !== null) : shown.filter((r) => r.ml_u !== null);
@@ -558,7 +570,7 @@ async function renderHistory() {
     ? "Graded at the early line: the pick locked on Sunday or Monday this season, and the opening line for earlier seasons (only games with an opening line are included). "
     : "Graded at the closing line, the last line before kickoff. ";
   $("#h-note").textContent = lineNote + `${shown.length} games in ${label}${H.team ? ` involving "${H.team}"` : ""}`
-    + `${H.edge ? `, where the model and the spread disagree by ${H.edge}+ points (over/under uses the same gap on the total)` : ""}. `
+    + `${H.edge === "ours" ? ", our picks only: the model and the spread disagree by 3 to 7 points" : H.edge ? `, where the model and the spread disagree by ${H.edge}+ points (over/under uses the same gap on the total)` : ""}. `
     + "Spread and over/under units assume standard −110 odds; moneyline units use each game's posted odds. "
     + "Past seasons were replayed using only information available before each game"
     + (bf ? `; ${bf} games this season were filled in the same way before launch.` : ".");

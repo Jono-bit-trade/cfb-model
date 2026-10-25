@@ -374,3 +374,5 @@ table.h2h .num { text-align: right; font-variant-numeric: tabular-nums; }
   table.compare .l, table.compare .r { width: auto; }
 }
 .cell-logo { display: inline-flex; align-items: center; gap: 6px; }
+.op-label { color: var(--pylon) !important; font-weight: 700 !important; text-transform: uppercase; letter-spacing: .05em; font-size: 14px; }
+.tag.ours { background: var(--pylon-soft); border-color: var(--pylon); font-weight: 700; color: var(--ink); }

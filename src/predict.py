@@ -105,6 +105,16 @@ def locked_pick(log, r):
             "line_text": fmt_line(r.home, x["lock_spread"])}
 
 
+def our_pick_now(locked, edge, team, line):
+    """The game counts as one of 'our picks' if its locked edge (or current edge, before it locks) is 3-7 points."""
+    lo, hi = config.STRONG_EDGE, config.SWEET_SPOT_MAX
+    if locked and locked.get("edge") is not None:
+        return {"text": locked["text"], "edge": locked["edge"], "locked": True} if lo <= locked["edge"] <= hi else None
+    if team and not np.isnan(edge) and lo <= abs(edge) <= hi:
+        return {"text": fmt_line(team, line), "edge": clean(abs(edge)), "locked": False}
+    return None
+
+
 def text(v):
     return v if isinstance(v, str) and v.strip() else None
 
@@ -270,6 +280,7 @@ def main(now=None):
             "line_history": line_series(history, r),
             "locked": locked_pick(log_now, r),
             "edge": clean(abs(edge)) if not np.isnan(edge) else None,
+            "our_pick": our_pick_now(locked_pick(log_now, r), edge, pick_team, pick_line),
             "pick": {"team": pick_team, "line": clean(pick_line), "text": fmt_line(pick_team, pick_line) if pick_team else None,
                      # sweet spot: 3-7 points; bigger edges at the current line usually mean the model is missing news
                      "strong": bool(pick_side and config.STRONG_EDGE <= abs(edge) <= config.SWEET_SPOT_MAX),
@@ -473,6 +484,14 @@ def write_results(games, season, now=None):
                "season_locked": grading.summary(cur_lk), "season_locked_strong":
                    grading.summary(cur_lk, config.STRONG_EDGE, config.STRONG_EDGE),
                "all_time": grading.summary(g)}
+    # Our picks: 3-7 point edges graded at the early (locked) line, the line you'd actually bet.
+    summary["our_picks"] = grading.our_picks(cur_lk)
+    summary["our_picks_live"] = grading.our_picks(cur_lk[~cur_lk["backfill"].astype(bool)]) if "backfill" in cur_lk else None
+    if len(cur_lk) and cur_lk["week"].notna().any():
+        last_wk = int(cur_lk.loc[cur_lk["season_type"] == "regular", "week"].max()) if (cur_lk["season_type"] == "regular").any() else None
+        if last_wk is not None:
+            summary["our_picks_week"] = {"week": last_wk, **grading.our_picks(cur_lk[(cur_lk["week"] == last_wk) & (cur_lk["season_type"] == "regular")])}
+    summary["our_picks_backtest"] = our_picks_backtest()
 
     rows = grading.history_rows(cur)
     for r in rows:  # attach the locked-line grading to each game
@@ -491,6 +510,23 @@ def write_results(games, season, now=None):
     # Final scores for the board: games that ended in the last 4 days.
     recent = [r for r in rows if pd.Timestamp(r["date"]) > now - pd.Timedelta(days=4)]
     write_json({"updated": now, "games": sorted(recent, key=lambda r: r["date"], reverse=True)}, SITE_DATA, "finals.json")
+
+
+def our_picks_backtest():
+    """Same rule in the walk-forward backtest, graded at the opening line (2023 on, when CFBD has openers)."""
+    path = os.path.join(DATA, "backtest_games.csv")
+    if not os.path.exists(path):
+        return None
+    bt = pd.read_csv(path, usecols=lambda c: c in ("season", "pred_margin", "spread_open", "actual_margin"))
+    bt = bt[bt["spread_open"].notna()]
+    if bt.empty:
+        return None
+    e = bt["pred_margin"] + bt["spread_open"]
+    cover = np.sign(e) * (bt["actual_margin"] + bt["spread_open"])
+    m = (e.abs() >= config.STRONG_EDGE) & (e.abs() <= config.SWEET_SPOT_MAX)
+    w, l, p = int((cover[m] > 0).sum()), int((cover[m] < 0).sum()), int((cover[m] == 0).sum())
+    return {"w": w, "l": l, "p": p, "pct": round(w / (w + l), 4) if w + l else None,
+            "units": round(w * 100 / 110 - l, 2), "from": int(bt["season"].min()), "to": int(bt["season"].max())}
 
 
 def write_teams():

@@ -129,6 +129,16 @@ def summary(g, min_edge=0.0, min_total_edge=0.0):
     }
 
 
+def our_picks(g, lo=None, hi=None):
+    """'Our picks': spread picks with an edge in the sweet spot (3-7 points by default)."""
+    import config
+    lo = config.STRONG_EDGE if lo is None else lo
+    hi = config.SWEET_SPOT_MAX if hi is None else hi
+    e = g["edge"].abs()
+    p = g[(e >= lo) & (e <= hi)]
+    return {**record(p["ats"]), "units": round(units_110(p["ats"]), 2), "picks": int(p["ats"].notna().sum())}
+
+
 def edge_table(g, col="edge", result="ats", cuts=(0, 2, 3, 4, 5, 6, 7, 8, 10, 12)):
     """Record at or above each edge size: shows where (if anywhere) the model clears 60%."""
     rows = []
