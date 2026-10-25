@@ -190,7 +190,33 @@
     "pct": 0.4791,
     "units": -46.91
    }
-  }
+  },
+  "our_picks": {
+   "w": 125,
+   "l": 110,
+   "p": 5,
+   "pct": 0.5319,
+   "units": 3.64,
+   "picks": 240
+  },
+  "our_picks_live": {
+   "w": 1,
+   "l": 0,
+   "p": 0,
+   "pct": 1.0,
+   "units": 0.91,
+   "picks": 1
+  },
+  "our_picks_week": {
+   "week": 8,
+   "w": 4,
+   "l": 3,
+   "p": 0,
+   "pct": 0.5714,
+   "units": 0.64,
+   "picks": 7
+  },
+  "our_picks_backtest": null
  },
  "games": [
   {
