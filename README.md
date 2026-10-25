@@ -100,6 +100,7 @@ Lines tend to move toward the side the model likes: in 2023-2025, lines moved to
 - **Line-movement adjustment (on, spreads):** where an opening line exists (2023 on), a second step adjusts the projected margin based on how the spread has moved, learned only from earlier seasons' out-of-sample projections. It lowered the margin error in both 2024 and 2025. The same idea for totals didn't help, so it's off for totals.
 - **Machine-learning settings:** shallower trees learning more slowly, faster-reacting efficiency ratings, and a separate blend weight for totals.
 - **Recent seasons weighted more:** tested (3- and 6-year half-lives) and left off: it didn't improve results. Team strength already comes from the current season, starting from last season's rating.
+- **Wind and totals:** projected totals drop about 0.12 points per mph of wind above 10 mph (using the kickoff forecast for upcoming games). Learned on 2016-2022; on 2023-2025 it lifted the model's over/under record in windy games from 49.9% to 51.0%. Dome and rain patterns looked like Under spots in older seasons but didn't hold up, so they aren't used.
 - **Win chances** are calibrated to the 16.6-point scatter measured in the backtest.
 
 ## The record

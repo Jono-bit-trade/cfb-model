@@ -33,6 +33,8 @@ GBM_MIN_LEAF = 40
 SEASON_HALF_LIFE = None      # ML layer: a season this many years older counts half (None = all seasons equal; 3 and 6 tested, no gain)
 MARKET_ADJUST = True         # second step from line movement, where opening lines exist (2023 on): lowered 2024-25 margin error
 MARKET_ADJUST_TOTALS = False # the same for totals didn't help in testing
+WIND_TOTAL_PER_MPH = -0.12   # totals: points per mph of wind above WIND_TOTAL_FROM_MPH (learned 2016-22; dome and
+WIND_TOTAL_FROM_MPH = 10     #   rain patterns were tested too but didn't hold up in 2023-25)
 MARKET_ADJUST_ALPHA = 50.0   # its ridge penalty: higher = smaller adjustments
 FEATURE_GROUPS = ["CORE", "STYLE", "CONTEXT", "SITUATION"]  # drop a group to test without it
 

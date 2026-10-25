@@ -46,7 +46,19 @@ class Model:
         margin = self.w * rows["rating_margin"].to_numpy() + (1 - self.w) * ml_m
         wt = config.BLEND_W_TOTAL if config.BLEND_W_TOTAL is not None else self.w
         total = wt * rows["rating_total"].to_numpy() + (1 - wt) * ml_t
+        total = total + wind_adjustment(rows)
         return margin, total
+
+
+def wind_adjustment(rows):
+    """Lower the projected total in windy outdoor games (learned on 2016-22, held on 2023-25):
+    the model alone underrated how much wind above ~10 mph suppresses scoring."""
+    if not config.WIND_TOTAL_PER_MPH or "wind" not in rows:
+        return 0.0
+    wind = rows["wind"].astype(float).fillna(0).to_numpy()
+    if "dome" in rows:
+        wind = np.where(rows["dome"].fillna(0).to_numpy() == 1, 0.0, wind)
+    return config.WIND_TOTAL_PER_MPH * np.clip(wind - config.WIND_TOTAL_FROM_MPH, 0, None)
 
 
 def season_weights(seasons):
