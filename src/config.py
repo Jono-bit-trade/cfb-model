@@ -25,6 +25,11 @@ EFF_PRIOR_SHRINK = 0.6       # efficiency ratings start at last season's x this
 
 # ---- Step 6: machine learning blend --------------------------------------
 BLEND_W = 0.5                # weight on the plain rating projection (1.0 = ratings only)
+BLEND_W_TOTAL = None         # same idea for totals; None = use BLEND_W
+GBM_DEPTH = 3                # machine-learning trees: depth, learning rate, rounds, minimum games per leaf
+GBM_LEARNING_RATE = 0.04
+GBM_ROUNDS = 350
+GBM_MIN_LEAF = 40
 FEATURE_GROUPS = ["CORE", "STYLE", "CONTEXT", "SITUATION"]  # drop a group to test without it
 
 # ---- Picks ----------------------------------------------------------------
@@ -34,7 +39,7 @@ STRONG_EDGE = 3.0            # label picks at or above this as "strong" (the tun
 SHARP_GAP = 10              # sharp money: money % exceeds bet % on a side by this many points
 PUBLIC_MIN = 60             # reverse line movement: at least this % of bets on one side...
 RLM_MIN_MOVE = 1.0          # ...while the spread moved at least this far the other way
-MARGIN_SD = 16.0             # spread of real results around the projection, for win chances
+MARGIN_SD = 16.6             # spread of real results around the projection, for win chances (measured 2016-25)
 VALUE_MIN_PROB = 0.04        # value moneyline: model's win chance must beat the market's by this much
 
 # ---- Weather ---------------------------------------------------------------

@@ -13,8 +13,9 @@ from features import TOTAL_FEATURES, features_for
 
 
 def _gbm():
-    return HistGradientBoostingRegressor(max_depth=3, learning_rate=0.04, max_iter=350,
-                                         min_samples_leaf=40, l2_regularization=1.0, random_state=7)
+    return HistGradientBoostingRegressor(max_depth=config.GBM_DEPTH, learning_rate=config.GBM_LEARNING_RATE,
+                                         max_iter=config.GBM_ROUNDS, min_samples_leaf=config.GBM_MIN_LEAF,
+                                         l2_regularization=1.0, random_state=7)
 
 
 class Model:
@@ -39,7 +40,8 @@ class Model:
         ml_m = self.margin.predict(rows[self.margin_cols])
         ml_t = self.total.predict(rows[self.total_cols])
         margin = self.w * rows["rating_margin"].to_numpy() + (1 - self.w) * ml_m
-        total = self.w * rows["rating_total"].to_numpy() + (1 - self.w) * ml_t
+        wt = config.BLEND_W_TOTAL if config.BLEND_W_TOTAL is not None else self.w
+        total = wt * rows["rating_total"].to_numpy() + (1 - wt) * ml_t
         return margin, total
 
 
