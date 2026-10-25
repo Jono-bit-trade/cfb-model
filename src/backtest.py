@@ -22,7 +22,7 @@ import config  # noqa: E402
 import features  # noqa: E402
 import grading  # noqa: E402
 from common import DATA, SITE_DATA, load_games, write_json  # noqa: E402
-from model import Model  # noqa: E402
+from model import MarketAdjust, Model  # noqa: E402
 from ratings import RatingEngine  # noqa: E402
 
 
@@ -42,6 +42,14 @@ def walk_forward(table, seasons, groups=None, w=None):
         if len(test) == 0 or train["season"].nunique() < 2:
             continue
         test["pred_margin"], test["pred_total"] = Model(groups, w).fit(train).predict(test)
+        if config.MARKET_ADJUST and out:
+            # learn the movement adjustment from earlier seasons' out-of-sample projections only
+            prior = pd.concat(out)
+            adj = MarketAdjust().fit(prior, prior["pred_margin_base"], prior["pred_total_base"])
+            test["pred_margin_base"], test["pred_total_base"] = test["pred_margin"], test["pred_total"]
+            test["pred_margin"], test["pred_total"] = adj.apply(test, test["pred_margin"], test["pred_total"])
+        else:
+            test["pred_margin_base"], test["pred_total_base"] = test["pred_margin"], test["pred_total"]
         out.append(test)
     if not out:
         raise SystemExit("Not enough seasons to backtest yet.")

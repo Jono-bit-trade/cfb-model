@@ -6,6 +6,7 @@ total) beyond the plain rating projection. The final projection blends the two:
     margin = BLEND_W * rating_margin + (1 - BLEND_W) * ml_margin
 """
 import numpy as np
+import pandas as pd
 from sklearn.ensemble import HistGradientBoostingRegressor
 
 import config
@@ -31,8 +32,9 @@ class Model:
         usable = lambda cols: [c for c in cols if c in train and train[c].notna().mean() >= 0.02 and train[c].nunique() > 1]
         self.margin_cols, self.total_cols = usable(self.features), usable(self.total_features)
         self.dropped = sorted(set(self.features + self.total_features) - set(self.margin_cols + self.total_cols))
-        self.margin = _gbm().fit(train[self.margin_cols], train["actual_margin"])
-        self.total = _gbm().fit(train[self.total_cols], train["actual_total"])
+        w = season_weights(train["season"])
+        self.margin = _gbm().fit(train[self.margin_cols], train["actual_margin"], sample_weight=w)
+        self.total = _gbm().fit(train[self.total_cols], train["actual_total"], sample_weight=w)
         self.n_train = len(train)
         return self
 
@@ -42,6 +44,59 @@ class Model:
         margin = self.w * rows["rating_margin"].to_numpy() + (1 - self.w) * ml_m
         wt = config.BLEND_W_TOTAL if config.BLEND_W_TOTAL is not None else self.w
         total = wt * rows["rating_total"].to_numpy() + (1 - wt) * ml_t
+        return margin, total
+
+
+def season_weights(seasons):
+    """Recent seasons count more: a season SEASON_HALF_LIFE years older counts half as much."""
+    if not config.SEASON_HALF_LIFE:
+        return None
+    s = seasons.to_numpy(dtype=float)
+    return 0.5 ** ((s.max() - s) / config.SEASON_HALF_LIFE)
+
+
+class MarketAdjust:
+    """Second step, used only where opening lines exist (2023 on in CFBD).
+
+    Learns from out-of-sample projections how much the line's movement since opening
+    says about the result the projection missed, e.g. "the final margin beat our
+    projection by about b points for every point the line moved toward the home team".
+    A small ridge regression on movement only, so it can't simply copy the market.
+    """
+
+    MARGIN_X = ["line_move", "line_move_x_edge"]
+    TOTAL_X = ["total_move"]
+
+    @staticmethod
+    def _frame(rows, margin, total):
+        x = pd.DataFrame(index=rows.index)
+        x["line_move"] = rows["spread_open"] - rows["spread"]
+        edge_open = margin + rows["spread_open"]
+        x["line_move_x_edge"] = x["line_move"] * np.sign(edge_open)  # moved toward / away from the model
+        x["total_move"] = rows["total"] - rows["total_open"]
+        return x
+
+    def fit(self, rows, margin, total):
+        from sklearn.linear_model import Ridge
+        x = self._frame(rows, margin, total)
+        mm = x[self.MARGIN_X].notna().all(axis=1) & rows["actual_margin"].notna()
+        tm = x[self.TOTAL_X].notna().all(axis=1) & rows["actual_total"].notna()
+        self.n_margin, self.n_total = int(mm.sum()), int(tm.sum())
+        self.margin = Ridge(alpha=config.MARKET_ADJUST_ALPHA).fit(
+            x.loc[mm, self.MARGIN_X], (rows["actual_margin"] - margin)[mm]) if mm.sum() >= 200 else None
+        self.total = Ridge(alpha=config.MARKET_ADJUST_ALPHA).fit(
+            x.loc[tm, self.TOTAL_X], (rows["actual_total"] - total)[tm]) if tm.sum() >= 200 else None
+        return self
+
+    def apply(self, rows, margin, total):
+        margin, total = np.asarray(margin, dtype=float).copy(), np.asarray(total, dtype=float).copy()
+        x = self._frame(rows, margin, total)
+        if self.margin is not None:
+            ok = x[self.MARGIN_X].notna().all(axis=1).to_numpy()
+            margin[ok] += self.margin.predict(x.loc[ok, self.MARGIN_X])
+        if self.total is not None:
+            ok = x[self.TOTAL_X].notna().all(axis=1).to_numpy()
+            total[ok] += self.total.predict(x.loc[ok, self.TOTAL_X])
         return margin, total
 
 

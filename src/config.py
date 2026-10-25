@@ -30,6 +30,9 @@ GBM_DEPTH = 3                # machine-learning trees: depth, learning rate, rou
 GBM_LEARNING_RATE = 0.04
 GBM_ROUNDS = 350
 GBM_MIN_LEAF = 40
+SEASON_HALF_LIFE = None      # ML layer: a season this many years older counts half (None = all seasons equal)
+MARKET_ADJUST = False        # second step from line movement, where opening lines exist (2023 on)
+MARKET_ADJUST_ALPHA = 50.0   # its ridge penalty: higher = smaller adjustments
 FEATURE_GROUPS = ["CORE", "STYLE", "CONTEXT", "SITUATION"]  # drop a group to test without it
 
 # ---- Picks ----------------------------------------------------------------
