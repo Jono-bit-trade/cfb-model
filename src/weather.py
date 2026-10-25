@@ -31,7 +31,7 @@ def condition_code(text):
     t = str(text or "").lower()
     for words, code in ((("thunder", "storm"), 95), (("snow", "sleet", "flurr"), 73), (("heavy rain",), 65),
                         (("rain", "shower"), 61), (("drizzle",), 51), (("fog", "mist", "haze"), 45),
-                        (("overcast",), 3), (("cloud",), 2), (("fair", "clear", "sunny"), 0)):
+                        (("overcast", "mostly cloudy"), 3), (("partly", "scattered", "few"), 2), (("cloud",), 3), (("fair", "clear", "sunny"), 0)):
         if any(w in t for w in words):
             return code
     return np.nan
@@ -198,9 +198,12 @@ def table():
         c = pd.concat([c[~((c["kind"] == "actual") & c["game_id"].isin(cfbd["game_id"]))], cfbd], ignore_index=True)
     if c.empty:
         return pd.DataFrame(columns=["game_id", "temp", "rain", "wind", "gust", "wx_code", "wx_kind", "wx_time"])
-    c["rank"] = (c["kind"] == "actual").astype(int)
-    c = c.sort_values(["rank", "fetched_at"]).groupby("game_id").tail(1)
     if "code" not in c:
         c["code"] = np.nan
+    # CFBD's upcoming-game rows carry no condition: borrow the icon code from our own forecast for that game
+    om = c[c["fetched_at"] != "cfbd"].dropna(subset=["code"]).sort_values("fetched_at").groupby("game_id")["code"].last()
+    c["code"] = c["code"].fillna(c["game_id"].map(om))
+    c["rank"] = (c["kind"] == "actual").astype(int)
+    c = c.sort_values(["rank", "fetched_at"]).groupby("game_id").tail(1)
     return c.rename(columns={"kind": "wx_kind", "fetched_at": "wx_time", "code": "wx_code"})[
         ["game_id", "temp", "rain", "wind", "gust", "wx_code", "wx_kind", "wx_time"]]
