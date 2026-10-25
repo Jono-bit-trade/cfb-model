@@ -30,7 +30,8 @@ import qb  # noqa: E402
 from common import DATA, load, load_games  # noqa: E402
 
 OUT = os.path.join(DATA, "qb_news.csv")
-COLS = ["season", "week", "team", "qb", "suggested", "headline", "link", "source", "published", "fetched"]
+COLS = ["season", "week", "team", "qb", "suggested", "confirmed", "sources", "missed_last", "headline", "link", "source",
+        "published", "evidence", "fetched"]
 FEEDS = {
     "ESPN": "https://www.espn.com/espn/rss/ncf/news",
     "CBS Sports": "https://www.cbssports.com/rss/headlines/college-football/",
@@ -38,7 +39,8 @@ FEEDS = {
 }
 GOOGLE = "https://news.google.com/rss/search?q={q}&hl=en-US&gl=US&ceid=US:en"
 HEADERS = {"User-Agent": "Mozilla/5.0 (personal college football model; RSS reader)"}
-MAX_AGE_DAYS = 6
+MAX_AGE_DAYS = 6      # short-term news (questionable, out this week) must be newer than the team's last game
+LONG_AGE_DAYS = 35    # long-term injuries (surgery, season-ending) are searched this far back
 WORKERS = 4
 
 # Ordered most to least serious; the injury words must sit right next to the player's name.
@@ -56,6 +58,11 @@ PATTERNS = [
                      r"injury update|dealing with"),
 ]
 SEVERITY = {"out": 3, "doubtful": 2, "questionable": 1, "available": 0}
+# "Out" wording strong enough to act on, and wording that means more than one game
+STRONG_OUT = (r"ruled out|will not play|won't play|will miss|to miss|out for|season[- ]ending|surgery|out indefinitely|"
+              r"not expected to play|done for the season|sidelined|is out\b|will be out|remains out|not dress")
+LONG_OUT = (r"season[- ]ending|out for (the )?(rest of the )?(season|year)|done for the season|surgery|out indefinitely|"
+            r"(several|multiple|two|three|four|five|six|\d+)(-| )(to-\w+ )?(weeks|games)|torn|broken|fracture")
 SKIP_SOURCES = re.compile(r"youtube|podcast|reddit", re.I)
 NEAR = 70  # characters between the name and the injury words
 PROPER = re.compile(r"\b[A-Z][a-z'’.-]+(?: [A-Z][a-z'’.-]+)+\b")  # "Hollywood Smothers", "Kirby Smart"
@@ -95,38 +102,51 @@ def _sentences(text):
     return [x for x in re.split(r"(?<=[.!?|:;])\s+|\s[-–—]\s", text) if x]
 
 
-def classify(text, name, team):
+def _spots(sent, name, team):
+    low, last = sent.lower(), name.split()[-1]
+    spots = [m.start() for m in re.finditer(re.escape(name.lower()), low)]
+    if not spots and team.lower() in low:
+        spots = [m.start() for m in re.finditer(rf"\b{re.escape(last.lower())}\b", low)]
+    others = [(m.start(), m.end()) for m in PROPER.finditer(sent)
+              if last not in m.group(0) and team.lower() not in m.group(0).lower()]
+    return low, spots, others
+
+
+def _about_him(low, spots, others, pat):
+    """True if words matching `pat` sit next to his name, with no other person closer to them."""
+    for m in re.finditer(pat, low):
+        for at in spots:
+            lo, hi = sorted((at, m.start()))
+            if hi - lo > NEAR or any(lo < a and b < hi for a, b in others):
+                continue
+            gap = abs(m.start() - at)
+            if any(min(abs(m.start() - a), abs(m.start() - b)) < gap for a, b in others):
+                continue
+            return True
+    return False
+
+
+def classify(text, name, team, detail=False):
     """Status suggested by an article, or None unless the injury words clearly refer to this quarterback.
 
     The words must be in the same sentence as his name, within a few words of it, with no other
-    person's name in between (so "X ruled out adds pressure to <QB>" doesn't flag the QB)."""
-    full, last = name, name.split()[-1]
-    best = None
+    person's name in between or closer (so "X ruled out adds pressure to <QB>" doesn't flag the QB).
+    With detail=True returns (status, strong, long_term)."""
+    best, strong, long_term = None, False, False
     for sent in _sentences(text):
-        low = sent.lower()
-        spots = [m.start() for m in re.finditer(re.escape(full.lower()), low)]
-        if not spots and team.lower() in low:
-            spots = [m.start() for m in re.finditer(rf"\b{re.escape(last.lower())}\b", low)]
+        low, spots, others = _spots(sent, name, team)
         if not spots:
             continue
-        others = [(m.start(), m.end()) for m in PROPER.finditer(sent)
-                  if last not in m.group(0) and team.lower() not in m.group(0).lower()]
         for status, pat in PATTERNS:
-            for m in re.finditer(pat, low):
-                for at in spots:
-                    lo, hi = sorted((at, m.start()))
-                    if hi - lo > NEAR:
-                        continue
-                    if any(lo < a and b < hi for a, b in others):
-                        continue  # someone else is named between them: the words are about that person
-                    gap = abs(m.start() - at)
-                    if any(min(abs(m.start() - a), abs(m.start() - b)) < gap for a, b in others):
-                        continue  # another person's name is closer to the injury words than his is
-                    if best is None or SEVERITY[status] > SEVERITY[best] and best != "available":
-                        best = status
-            if best == "available":
-                return best  # a recap or "cleared" story outranks injury words in the same piece
-    return best
+            if _about_him(low, spots, others, pat):
+                if status == "available":
+                    return ("available", False, False) if detail else "available"  # recap / cleared story wins
+                if best is None or SEVERITY[status] > SEVERITY[best]:
+                    best = status
+        if best == "out":
+            strong = strong or _about_him(low, spots, others, STRONG_OUT)
+            long_term = long_term or _about_him(low, spots, others, LONG_OUT)
+    return (best, strong, long_term) if detail else best
 
 
 def upcoming_starters(now):
@@ -138,13 +158,20 @@ def upcoming_starters(now):
     played = games[(games["season"] == season) & games["completed"].astype(bool)]
     last = pd.concat([played[["home", "start"]].rename(columns={"home": "team"}),
                       played[["away", "start"]].rename(columns={"away": "team"})]).groupby("team")["start"].max()
+    passers = load("passers")
+    threw = passers[(passers["season"] == season) & (passers["att"] > 0)].merge(games[["game_id", "start"]], on="game_id")
+    his_last = threw.groupby(["team", "player"])["start"].max()
     out = []
     for r in soon.itertuples():
         for team in (r.home, r.away):
             if starters.get(team):
+                team_last = last.get(team, pd.NaT)
+                mine = his_last.get((team, starters[team]), pd.NaT)
                 out.append({"season": season, "week": int(r.week), "team": team, "qb": starters[team],
-                            "last_game": last.get(team, pd.NaT)})
-    return pd.DataFrame(out).drop_duplicates(["team"]) if out else pd.DataFrame(columns=["season", "week", "team", "qb", "last_game"])
+                            "last_game": team_last, "his_last": mine,
+                            "missed_last": bool(not pd.isna(team_last) and (pd.isna(mine) or mine < team_last))})
+    cols = ["season", "week", "team", "qb", "last_game", "his_last", "missed_last"]
+    return pd.DataFrame(out).drop_duplicates(["team"]) if out else pd.DataFrame(columns=cols)
 
 
 def main(now=None):
@@ -165,7 +192,8 @@ def main(now=None):
             general.append(it)
 
     def search(row):
-        q = f'"{row.qb}" {row.team} (injury OR questionable OR doubtful OR "ruled out" OR status) when:{MAX_AGE_DAYS}d'
+        q = (f'"{row.qb}" {row.team} (injury OR injured OR questionable OR doubtful OR "ruled out" OR surgery OR out) '
+             f'when:{LONG_AGE_DAYS}d')
         time.sleep(0.3)
         return row.team, read_feed(GOOGLE.format(q=quote(q)))
 
@@ -174,34 +202,60 @@ def main(now=None):
 
     rows = []
     for r in teams.itertuples():
-        # only news since the team's last game (older stories are about a game already played)
-        cutoff = max(now - pd.Timedelta(days=MAX_AGE_DAYS), r.last_game + pd.Timedelta(hours=4)) \
-            if not pd.isna(r.last_game) else now - pd.Timedelta(days=MAX_AGE_DAYS)
-        best = None
+        since_game = r.last_game + pd.Timedelta(hours=4) if not pd.isna(r.last_game) else now - pd.Timedelta(days=MAX_AGE_DAYS)
+        short_cut = max(now - pd.Timedelta(days=MAX_AGE_DAYS), since_game)
+        long_cut = now - pd.Timedelta(days=LONG_AGE_DAYS)
+        found, seen = [], set()
         for it in general + searched.get(r.team, []):
-            if it["published"] is not None and it["published"] < cutoff:
+            if (it["source"] and SKIP_SOURCES.search(it["source"])) or SKIP_SOURCES.search(it["title"]):
                 continue
-            if it["source"] and SKIP_SOURCES.search(it["source"]) or SKIP_SOURCES.search(it["title"]):
+            key = it["title"].lower()[:80]
+            if key in seen:
                 continue
-            st = classify(it["title"], r.qb, r.team) or classify(it["desc"], r.qb, r.team)
+            seen.add(key)
+            st, strong, long_term = classify(it["title"], r.qb, r.team, detail=True)
+            if st is None:
+                st, strong, long_term = classify(it["desc"], r.qb, r.team, detail=True)
             if st is None:
                 continue
-            key = (it["published"] or cutoff, SEVERITY[st])  # newest first, then most serious
-            if best is None or key > best[0]:
-                best = (key, st, it)
-        if best:
-            _, st, it = best
-            rows.append({"season": r.season, "week": r.week, "team": r.team, "qb": r.qb, "suggested": st,
-                         "headline": it["title"][:240], "link": it["link"], "source": it["source"],
-                         "published": it["published"].isoformat() if it["published"] is not None else None,
-                         "fetched": now.isoformat()})
+            pub = it["published"]
+            if pub is None:
+                continue
+            if st == "out" and long_term:
+                # a long-term injury stays news until he plays again
+                if pub < long_cut or (not pd.isna(r.his_last) and r.his_last > pub):
+                    continue
+            elif pub < short_cut:
+                continue
+            found.append({**it, "status": st, "strong": strong, "long": long_term})
+        if not found:
+            continue
+        found.sort(key=lambda f: f["published"], reverse=True)
+        newest_ok = next((f["published"] for f in found if f["status"] == "available"), None)
+        outs = [f for f in found if f["status"] == "out" and f["strong"] and (newest_ok is None or f["published"] > newest_ok)]
+        out_sources = {(f["source"] or "").lower() for f in outs}
+        # Confirmed out: season-ending/surgery-type wording, or two different outlets saying he's out,
+        # or one outlet saying so after he already missed the last game - and no newer "he's playing" story.
+        confirmed = bool(outs) and (any(f["long"] for f in outs) or len(out_sources) >= 2 or r.missed_last)
+        if confirmed:
+            lead = next((f for f in outs if f["long"]), outs[0])
+            st = "out"
+        else:
+            lead = max(found, key=lambda f: (f["published"], SEVERITY[f["status"]]))
+            st = lead["status"]
+        evidence = [f"{f['source']}: {f['title'][:140]}" for f in (outs if confirmed else found)[:3]]
+        rows.append({"season": r.season, "week": r.week, "team": r.team, "qb": r.qb, "suggested": st,
+                     "confirmed": confirmed, "sources": len(out_sources) if confirmed else 1,
+                     "missed_last": r.missed_last, "headline": lead["title"][:240], "link": lead["link"],
+                     "source": lead["source"], "published": lead["published"].isoformat(),
+                     "evidence": " || ".join(evidence), "fetched": now.isoformat()})
     df = pd.DataFrame(rows, columns=COLS)
     df.to_csv(OUT, index=False)
     flagged = df[df["suggested"] != "available"]
     print(f"QB news: checked {len(teams)} starters in {time.time() - t0:.0f}s; {len(flagged)} possible injuries, "
           f"{len(df) - len(flagged)} 'expected to play' reports")
     for r in flagged.itertuples():
-        print(f"  {r.team}: {r.qb} -> {r.suggested} | {r.headline[:90]}")
+        print(f"  {r.team}: {r.qb} -> {r.suggested}{' (CONFIRMED, applied)' if r.confirmed else ''} | {r.headline[:90]}")
 
 
 def load_news():

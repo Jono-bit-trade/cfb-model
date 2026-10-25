@@ -234,6 +234,20 @@ function qbTags(g) {
     const who = q.name ? `${q.name}` : `${g[side].team} QB`;
     const ifOut = q.if_out ? `. If he sits: ${short(g.away.team)} ${num(q.if_out.away)}, ${short(g.home.team)} ${num(q.if_out.home)}` : "";
     const confirmed = q.status && !["unknown"].includes(q.status);
+    if (q.auto && q.news) {
+      const n = q.news, name = n.qb || who;
+      const ev = (n.evidence || []).map((e) => `<li>${esc(e)}</li>`).join("");
+      out += `<div class="qb-news auto">
+          <div class="qb-news-head"><span class="qb-news-label">QB out · confirmed by news · applied to picks</span><b>${esc(name)} (${esc(short(g[side].team))}) is out</b></div>
+          <a class="qb-news-link" href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.headline)}</a>
+          <div class="qb-news-src">${esc(n.source || "")}${n.published ? ` · ${esc(timeAgo(n.published))}` : ""}${n.missed_last ? " · didn't play last game" : ""}</div>
+          ${ev ? `<ul class="qb-news-ev">${ev}</ul>` : ""}
+          <div class="qb-news-actions"><span>Wrong?</span>
+            ${confirmLink(g, side, name, "available", "He's playing", "override of news")}
+            ${confirmLink(g, side, name, "questionable", "Only questionable", "override of news")}</div>
+        </div>`;
+      continue;
+    }
     if (confirmed && q.status !== "available") {
       out += `<span class="tag ${q.status === "probable" ? "" : "warn"}">${esc(`${who}: ${q.status}${q.note ? ` (${q.note})` : ""}${ifOut}`)}</span>`;
     }

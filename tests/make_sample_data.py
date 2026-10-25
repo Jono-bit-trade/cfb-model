@@ -225,7 +225,13 @@ def main():
     c = upcoming.iloc[2]
     pd.DataFrame([{"season": LAST, "week": 9, "team": c["away"], "qb": f"{c['away']} QB{LAST}", "suggested": "questionable",
                    "headline": f"{c['away']} QB{LAST} questionable with ankle injury", "link": "https://example.invalid/news/1",
-                   "source": "ESPN", "published": "2026-10-26T18:00:00+00:00", "fetched": "2026-10-27T15:00:00+00:00"},
+                   "source": "ESPN", "published": "2026-10-26T18:00:00+00:00", "fetched": "2026-10-27T15:00:00+00:00",
+                   "confirmed": False, "sources": 1, "missed_last": False, "evidence": ""},
+                  {"season": LAST, "week": 9, "team": upcoming.iloc[4]["away"], "qb": f"{upcoming.iloc[4]['away']} QB{LAST}",
+                   "suggested": "out", "confirmed": True, "sources": 2, "missed_last": True,
+                   "headline": "QB to undergo season-ending surgery", "link": "https://example.invalid/news/3", "source": "ESPN",
+                   "published": "2026-10-25T18:00:00+00:00", "fetched": "2026-10-27T15:00:00+00:00",
+                   "evidence": "ESPN: QB to undergo season-ending surgery || CBS Sports: QB out for the year"},
                   {"season": LAST, "week": 9, "team": c["home"], "qb": f"{c['home']} QB{LAST}", "suggested": "available",
                    "headline": f"{c['home']} QB{LAST} expected to start", "link": "https://example.invalid/news/2",
                    "source": "CBS Sports", "published": "2026-10-26T12:00:00+00:00", "fetched": "2026-10-27T15:00:00+00:00"}]

@@ -306,3 +306,6 @@ td .with-logo + .with-logo { margin-top: 0; }
 .qb-btn:hover { border-color: var(--ink); }
 .qb-btn.out { border-color: var(--loss); color: var(--loss); }
 .qb-btn.available { border-color: var(--win); color: var(--win); }
+.qb-news.auto { border-left-color: var(--loss); background: var(--surface); box-shadow: inset 0 0 0 1px var(--rule); }
+.qb-news.auto .qb-news-label { color: var(--loss); }
+.qb-news-ev { margin: 2px 0 0; padding-left: 18px; color: var(--muted); font-size: 13px; }

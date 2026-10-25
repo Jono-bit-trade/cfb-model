@@ -29,6 +29,7 @@ news = [q["news"] for x in p["games"] for q in x["qb"].values() if q.get("news")
 assert any(n["suggested"] == "questionable" for n in news), "expected unverified QB news"
 assert sum(1 for x in p["games"] for q in x["qb"].values() if q["status"] == "out") >= 2, "confirmation file not applied"
 assert any(q.get("if_out") for x in p["games"] for q in x["qb"].values() if q.get("news")), "expected an if-he-sits projection for news"
+assert any(q.get("auto") and q["status"] == "out" for x in p["games"] for q in x["qb"].values()), "confirmed news should apply"
 print(f"smoke test passed: {len(p['games'])} predictions, {len(r['teams'])} rated teams")
 EOF
 rm -rf "$TMP"

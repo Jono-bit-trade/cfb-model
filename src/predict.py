@@ -165,6 +165,12 @@ def main(now=None):
     for i, r in rows.iterrows():
         for s in ("home", "away"):
             st, name, note = qb.status_for(r["season"], r["week"], r[s], status)
+            nw = news_by.get((int(r["week"]), r[s]))
+            if st == "unknown" and nw and str(nw.get("confirmed")).lower() == "true":
+                # confirmed out by news articles (your own status, if any, always wins)
+                st, name = "out", nw.get("qb")
+                note = f"confirmed by news: {nw.get('source')}" + (f" + {int(nw['sources']) - 1} more" if int(nw.get("sources") or 1) > 1 else "")
+                rows.at[i, f"qb_auto_{s}"] = True
             rows.at[i, f"qb_status_{s}"] = st
             rows.at[i, f"qb_name_{s}"] = name or starters.get(r[s])
             rows.at[i, f"qb_note_{s}"] = note
@@ -180,6 +186,7 @@ def main(now=None):
         # Questionable QB (or unconfirmed injury news): also project the game as if he sits.
         for s in ("home", "away"):
             flagged_news = pd.Series([news_by.get((int(r["week"]), r[s]), {}).get("suggested") in ("questionable", "doubtful", "out")
+                                      and str(news_by.get((int(r["week"]), r[s]), {}).get("confirmed")).lower() != "true"
                                       for _, r in rows.iterrows()], index=rows.index)
             q = (rows[f"qb_status_{s}"] == "questionable") | ((rows[f"qb_status_{s}"] == "unknown") & flagged_news)
             if q.any():
@@ -224,7 +231,11 @@ def main(now=None):
             nw = news_by.get((int(r.week), d[s])) if not pd.isna(r.week) else None
             qbinfo[s] = {"name": text(d.get(f"qb_name_{s}")), "status": text(d.get(f"qb_status_{s}")),
                          "note": text(d.get(f"qb_note_{s}")), "if_out": alt,
+                         "auto": bool(d.get(f"qb_auto_{s}") == True),  # noqa: E712
                          "news": {"suggested": nw["suggested"], "qb": text(nw["qb"]), "headline": text(nw["headline"]),
+                                  "confirmed": str(nw.get("confirmed")).lower() == "true",
+                                  "evidence": [e for e in str(nw.get("evidence") or "").split(" || ") if e and e != "nan"],
+                                  "missed_last": str(nw.get("missed_last")).lower() == "true",
                                   "link": text(nw["link"]), "source": text(nw["source"]), "published": text(nw["published"])}
                          if nw else None}
         out_games.append({
