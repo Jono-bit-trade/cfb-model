@@ -1,0 +1,2980 @@
+season,game_id,team,player_id,player,att
+2018,401032057,App State,4036429,Zac Thomas,24.0
+2018,401032057,App State,4241012,Malik Williams,2.0
+2018,401032057,Middle Tennessee,545683,Brent Stockstill,36.0
+2018,401032058,Northern Illinois,4039470,Marcus Childers,2.0
+2018,401032058,UAB,4239793,Tyler Johnston III,5.0
+2018,401032059,Ohio,4244688,Nathan Rourke,22.0
+2018,401032059,San Diego State,3921648,Ryan Agnew,23.0
+2018,401032059,San Diego State,3139921,Christian Chapman,2.0
+2018,401032062,BYU,4361259,Zach Wilson,18.0
+2018,401032062,BYU,545796,Tanner Mangum,1.0
+2018,401032062,BYU,4036916,Troy Warner,1.0
+2018,401032062,Western Michigan,4362230,Kaleb Eleby,36.0
+2018,401032062,Western Michigan,3917615,Alex Mussat,1.0
+2018,401032060,South Florida,3858944,Blake Barnett,23.0
+2018,401032060,South Florida,3139606,Tyre McCants,1.0
+2018,401032060,South Florida,4044111,Chris Oladokun,5.0
+2018,401032060,South Florida,-7376, Team,2.0
+2018,401032060,Marshall,4261909,Isaiah Green,25.0
+2018,401032060,Marshall,4043607,Xavier Gaines,1.0
+2018,401032064,Army,4036923,Kelvin Hopkins Jr.,3.0
+2018,401032064,Army,4258442,Cam Thomas,1.0
+2018,401032064,Houston,4360175,Clayton Tune,32.0
+2018,401032065,Troy,4039901,Sawyer Smith,44.0
+2018,401032065,Buffalo,3916564,Tyree Jackson,35.0
+2018,401032076,Michigan,4035292,Shea Patterson,30.0
+2018,401032076,Florida,4034948,Feleipe Franks,23.0
+2018,401032076,Florida,3930066,Van Jefferson,1.0
+2018,401032075,Washington State,4038524,Gardner Minshew,49.0
+2018,401032075,Iowa State,4361741,Brock Purdy,27.0
+2018,401032074,Syracuse,3916447,Eric Dungey,30.0
+2018,401032074,West Virginia,4037449,Jack Allison,36.0
+2018,401032074,West Virginia,4039253,Trevon Wesco,1.0
+2018,401032074,West Virginia,4362211,Trey Lowe III,1.0
+2018,401035253,Louisiana,4241553,Andre Nunez,17.0
+2018,401035253,Louisiana,4241556,Levi Lewis,7.0
+2018,401035253,Louisiana,-6360, Team,1.0
+2018,401035253,Tulane,3843247,Justin McMillan,18.0
+2018,401032054,North Texas,4360916,Kason Martin,12.0
+2018,401032054,North Texas,4039073,Mason Fine,12.0
+2018,401032054,North Texas,547164,Quinn Shanbour,8.0
+2018,401032054,North Texas,4360900,Jason Bean,2.0
+2018,401032054,Utah State,4036378,Jordan Love,43.0
+2018,401032055,Fresno State,3127332,Marcus McMaryion,29.0
+2018,401032055,Arizona State,3128814,Manny Wilkins,31.0
+2018,401032056,Eastern Michigan,4259127,Mike Glass III,25.0
+2018,401032056,Eastern Michigan,3916616,Isaac Holder,1.0
+2018,401032056,Georgia Southern,4036650,Shai Werts,7.0
+2018,401032061,Toledo,4039495,Eli Peters,37.0
+2018,401032061,Florida International,3914306,Christian Alexander,26.0
+2018,401032061,Florida International,3914307,Maurice Alexander,1.0
+2018,401032063,Wake Forest,4037213,Jamie Newman,40.0
+2018,401032063,Memphis,3893630,Brady White,25.0
+2018,401032063,Memphis,4039360,John Williams,3.0
+2018,401032063,Memphis,4257347,Adam Williams,1.0
+2018,401032066,Louisiana Tech,3914382,J'Mar Smith,31.0
+2018,401032066,Hawai'i,4038220,Cole McDonald,20.0
+2018,401032066,Hawai'i,4373934,Chevan Cordeiro,14.0
+2018,401032068,Georgia Tech,3917810,TaQuon Marshall,9.0
+2018,401032068,Georgia Tech,4240482,Tobias Oliver,3.0
+2018,401032068,Minnesota,4240756,Tanner Morgan,13.0
+2018,401032069,TCU,3116420,Grayson Muehlstein,20.0
+2018,401032069,TCU,4362431,Justin Rogers,1.0
+2018,401032069,California,4242408,Chase Garbers,19.0
+2018,401032069,California,3127204,Chase Forrest,14.0
+2018,401032070,Duke,3917792,Daniel Jones,41.0
+2018,401032070,Duke,3917793,Quentin Harris,3.0
+2018,401032070,Temple,4044122,Anthony Russo,46.0
+2018,401032071,Wisconsin,4242331,Jack Coan,11.0
+2018,401032071,Miami,3123047,Malik Rosier,12.0
+2018,401032071,Miami,4240628,N'Kosi Perry,5.0
+2018,401032072,Vanderbilt,3915776,Kyle Shurmur,37.0
+2018,401032072,Vanderbilt,-7793, Team,1.0
+2018,401032072,Baylor,4241222,Charlie Brewer,34.0
+2018,401032072,Baylor,4362915,Gerry Bohannon,1.0
+2018,401032073,Auburn,3892775,Jarrett Stidham,21.0
+2018,401032073,Auburn,4242512,Malik Willis,1.0
+2018,401032073,Auburn,4361329,Joey Gatewood,1.0
+2018,401032073,Purdue,3116188,David Blough,37.0
+2018,401032073,Purdue,4372485,Rondale Moore,1.0
+2018,401032077,Virginia,3675812,Bryce Perkins,31.0
+2018,401032077,South Carolina,4038809,Jake Bentley,39.0
+2018,401035252,Nevada,3122611,Ty Gangi,34.0
+2018,401035252,Nevada,4409848,- 5b,2.0
+2018,401035252,Arkansas State,3116379,Justice Hansen,46.0
+2018,401035252,Arkansas State,4409845,- 0f,4.0
+2018,401032079,Clemson,4360310,Trevor Lawrence,40.0
+2018,401032079,Clemson,4239994,Chase Brice,2.0
+2018,401032079,Notre Dame,4046678,Ian Book,34.0
+2018,401032078,Alabama,4241479,Tua Tagovailoa,27.0
+2018,401032078,Alabama,4040715,Jalen Hurts,1.0
+2018,401032078,Oklahoma,3917315,Kyler Murray,37.0
+2018,401032080,Virginia Tech,3917958,Ryan Willis,31.0
+2018,401032080,Cincinnati,3125813,Hayden Moore,25.0
+2018,401032080,Cincinnati,4239086,Desmond Ridder,7.0
+2018,401035251,Pittsburgh,4240703,Kenny Pickett,28.0
+2018,401035251,Stanford,4044431,K.J. Costello,17.0
+2018,401035254,Oregon,4038941,Justin Herbert,33.0
+2018,401035254,Michigan State,3929824,Brian Lewerke,37.0
+2018,401032081,Oklahoma State,3122424,Taylor Cornelius,44.0
+2018,401032081,Oklahoma State,4241424,Tylan Wallace,1.0
+2018,401032081,Missouri,3924327,Drew Lock,38.0
+2018,401035250,Utah,4243258,Jason Shelley,45.0
+2018,401035250,Northwestern,3116144,Clayton Thorson,30.0
+2018,401032082,Texas A&M,4240904,Kellen Mond,26.0
+2018,401032082,NC State,546288,Ryan Finley,32.0
+2018,401032083,Mississippi State,558337,Nick Fitzgerald,32.0
+2018,401032083,Iowa,4036149,Nathan Stanley,31.0
+2018,401032084,UCF,4243535,D.J. Mack Jr.,30.0
+2018,401032084,UCF,4257599,Marlon Williams,1.0
+2018,401032084,LSU,3915511,Joe Burrow,34.0
+2018,401032088,Penn State,3116172,Trace McSorley,32.0
+2018,401032088,Penn State,4259592,Sean Clifford,2.0
+2018,401032088,Kentucky,4038940,Terry Wilson,15.0
+2018,401032085,Ohio State,4040616,Dwayne Haskins,37.0
+2018,401032085,Washington,3886812,Jake Browning,54.0
+2018,401032085,Washington,3886818,Myles Gaskin,1.0
+2018,401032086,Georgia,4240689,Jake Fromm,34.0
+2018,401032086,Texas,4241820,Sam Ehlinger,27.0
+2018,401032086,Texas,4039057,Lil'Jordan Humphrey,1.0
+2018,401032087,Alabama,4241479,Tua Tagovailoa,34.0
+2018,401032087,Alabama,4040715,Jalen Hurts,2.0
+2018,401032087,Clemson,4360310,Trevor Lawrence,32.0
+2018,401022516,Idaho,4245281,Colton Richardson,10.0
+2018,401022516,Idaho,4048933,Mason Petrino,23.0
+2018,401022516,Fresno State,3127332,Marcus McMaryion,26.0
+2018,401022516,Fresno State,4242995,Jorge Reyna,3.0
+2018,401012250,Georgia,4240689,Jake Fromm,16.0
+2018,401012250,Georgia,4362887,Justin Fields,8.0
+2018,401012250,Georgia,4379400,Matthew Downing,3.0
+2018,401012250,Austin Peay,4051927,JaVaughn Craig,11.0
+2018,401012250,Austin Peay,4249033,Jeremiah Oatsvall,10.0
+2018,401012249,Florida,4034948,Feleipe Franks,24.0
+2018,401012249,Florida,4034946,Kyle Trask,3.0
+2018,401012249,Charleston Southern,3953574,London Johnson,12.0
+2018,401012249,Charleston Southern,4246097,Jack Chambers,4.0
+2018,401012257,Tennessee,4035167,Jarrett Guarantano,25.0
+2018,401012257,West Virginia,559556,Will Grier,34.0
+2018,401012256,South Carolina,4038809,Jake Bentley,29.0
+2018,401012256,South Carolina,3126487,Michael Scarnecchia,6.0
+2018,401012256,Coastal Carolina,3124529,Kilton Anderson,13.0
+2018,401012256,Coastal Carolina,4361032,Bryce Carpenter,5.0
+2018,401012251,Kentucky,4038940,Terry Wilson,18.0
+2018,401012251,Kentucky,4035051,Gunnar Hoak,9.0
+2018,401012251,Central Michigan,4039271,Tony Poljan,27.0
+2018,401012259,Vanderbilt,3915776,Kyle Shurmur,17.0
+2018,401012259,Middle Tennessee,545683,Brent Stockstill,36.0
+2018,401012259,Middle Tennessee,-6654, Team,1.0
+2018,401021651,Kennesaw State,3911917,Chandler Burks,19.0
+2018,401021651,Georgia State,4361902,Dan Ellington,28.0
+2018,401013357,Massachusetts,3116772,Andrew Ford,19.0
+2018,401013357,Massachusetts,3125927,Ross Comis,9.0
+2018,401013357,Duquesne,3919110,Daniel Parr,29.0
+2018,401013357,Duquesne,3910966,Brett Brumbaugh,1.0
+2018,401013087,Massachusetts,3125927,Ross Comis,13.0
+2018,401013087,Massachusetts,3116772,Andrew Ford,18.0
+2018,401013087,Massachusetts,4242394,Michael Curtis,3.0
+2018,401013087,Massachusetts,4256223,Xavier Steele,2.0
+2018,401013087,Boston College,4035312,Anthony Brown,21.0
+2018,401013087,Boston College,4239936,EJ Perry,4.0
+2018,401013087,Boston College,4239943,Brandon Sebastian,1.0
+2018,401013087,Boston College,4239937,Matt McDonald,1.0
+2018,401013087,Boston College,4035339,Hamp Cheevers,1.0
+2018,401013489,Oklahoma State,3122424,Taylor Cornelius,34.0
+2018,401013489,Oklahoma State,4038433,Keondre Wudtee,3.0
+2018,401013489,Missouri State,4248313,Peyton Huslig,28.0
+2018,401013057,Kansas State,3886634,Alex Delton,14.0
+2018,401013057,Kansas State,4036419,Skylar John Thompson,14.0
+2018,401013057,South Dakota,4041531,Austin Simmons,56.0
+2018,401013026,Baylor,3116715,Jalan McClendon,13.0
+2018,401013026,Baylor,4241222,Charlie Brewer,15.0
+2018,401013026,Abilene Christian,4043980,Luke Anthony,38.0
+2018,401013026,Abilene Christian,4249726,Sema'J Davis,2.0
+2018,401012253,Texas Tech,4362159,Alan Bowman,49.0
+2018,401012253,Texas Tech,3910083,McLane Carter,7.0
+2018,401012253,Ole Miss,4242418,Jordan Ta'amu,32.0
+2018,401013048,Kansas,3127261,Peyton Bender,35.0
+2018,401013048,Kansas,4360331,Miles Kendrick,3.0
+2018,401013048,Nicholls,4051573,Chase Fourcade,24.0
+2018,401013072,TCU,4241784,Shawn Robinson,24.0
+2018,401013072,TCU,4034332,Michael Collins,5.0
+2018,401013072,TCU,3116420,Grayson Muehlstein,3.0
+2018,401013072,Southern,4251244,John Lampley,14.0
+2018,401013072,Southern,4251245,Glendon McDaniel,3.0
+2018,401013072,Southern,4369944,Ladarius Skelton,1.0
+2018,401014980,UTEP,4362029,Kai Locksley,26.0
+2018,401014980,UTEP,3124698,Ryan Metz,5.0
+2018,401014980,Northern Arizona,3913822,Case Cookus,26.0
+2018,401014972,Rice,3916383,Jackson Tyner,9.0
+2018,401014972,Rice,3122170,Shawn Stankavage,15.0
+2018,401014972,Prairie View A&M,3933408,Jalen Morton,28.0
+2018,401014972,Prairie View A&M,-7159, Team,1.0
+2018,401014977,Rice,3122170,Shawn Stankavage,31.0
+2018,401014977,Rice,3916383,Jackson Tyner,8.0
+2018,401014977,Rice,-7187, Team,2.0
+2018,401014977,Houston,4039300,D'Eriq King,24.0
+2018,401014977,Houston,4240251,Bryson Smith,1.0
+2018,401012681,Oregon,4038941,Justin Herbert,21.0
+2018,401012681,Oregon,4242490,Braxton Burmeister,5.0
+2018,401012681,Bowling Green,4244029,Jarret Doege,38.0
+2018,401012681,Bowling Green,-5422, Team,1.0
+2018,401022512,Stanford,4044431,K.J. Costello,31.0
+2018,401022512,Stanford,4044433,Jordan Fox,1.0
+2018,401022512,San Diego State,3139921,Christian Chapman,15.0
+2018,401012248,Washington,3886812,Jake Browning,30.0
+2018,401012248,Auburn,3892775,Jarrett Stidham,36.0
+2018,401012684,California,3858269,Ross Bowers,17.0
+2018,401012684,California,4242408,Chase Garbers,13.0
+2018,401012684,California,4038833,Brandon McIlwain,2.0
+2018,401012684,North Carolina,3895838,Nathan Elliott,35.0
+2018,401012682,Oregon State,4042803,Conor Blount,19.0
+2018,401012682,Oregon State,3124900,Jake Luton,1.0
+2018,401012682,Oregon State,4360705,Jack Colletto,4.0
+2018,401012682,Ohio State,4040616,Dwayne Haskins,30.0
+2018,401012682,Ohio State,4241992,Tate Martell,4.0
+2018,401020672,Monmouth,3910249,Kenji Bahar,42.0
+2018,401020672,Monmouth,4251340,Brandon Harris,2.0
+2018,401020672,Monmouth,4251339,Max Smyth,1.0
+2018,401020672,Eastern Michigan,3144983,Tyler Wiegers,21.0
+2018,401020672,Eastern Michigan,3916616,Isaac Holder,1.0
+2018,401020672,Eastern Michigan,4259127,Mike Glass III,5.0
+2018,401012683,Washington State,4038524,Gardner Minshew,57.0
+2018,401012683,Wyoming,4240351,Tyler Vander Waal,20.0
+2018,401012678,USC,4374303,JT Daniels,35.0
+2018,401012678,UNLV,4056052,Armani Rogers,27.0
+2018,401012676,BYU,545796,Tanner Mangum,28.0
+2018,401012676,Arizona,4039602,Khalil Tate,34.0
+2018,401013328,New Mexico State,4361467,Matt Romero,58.0
+2018,401013328,Minnesota,4360936,Zack Annexstad,33.0
+2018,401013328,Minnesota,4240756,Tanner Morgan,1.0
+2018,401013437,New Mexico State,4361467,Matt Romero,27.0
+2018,401013437,New Mexico State,3124971,Nick Jeanty,6.0
+2018,401013437,Wyoming,4240351,Tyler Vander Waal,22.0
+2018,401013448,Liberty,4029885,Stephen Calvert,36.0
+2018,401013448,Liberty,4246897,Mason Cunningham,1.0
+2018,401013448,Old Dominion,4243485,Steven Williams,30.0
+2018,401013448,Old Dominion,3914543,Blake LaRussa,4.0
+2018,401013095,LSU,3915511,Joe Burrow,24.0
+2018,401013095,Miami,3123047,Malik Rosier,35.0
+2018,401014975,Miami (OH),3125968,Gus Ragland,46.0
+2018,401014975,Marshall,4261909,Isaiah Green,37.0
+2018,401020675,Ohio,3920819,Quinton Maxwell,25.0
+2018,401020675,Ohio,4244688,Nathan Rourke,8.0
+2018,401020675,Howard,4247724,Caylin Newton,52.0
+2018,401020675,Howard,3933375,Jason Collins,1.0
+2018,401012804,Kent State,4362340,Woody Barrett,41.0
+2018,401012804,Illinois,3116087,AJ Bush,23.0
+2018,401012804,Illinois,2994660,- Team,1.0
+2018,401020676,Toledo,3932903,Mitchell Guadagni,16.0
+2018,401020676,Toledo,4039495,Eli Peters,13.0
+2018,401020676,Toledo,4362260,Carter Bradley,3.0
+2018,401020676,VMI,4249295,Reece Udinski,42.0
+2018,401020676,VMI,4249296,Chima Kpaduwa,2.0
+2018,401012679,UCLA,4367178,Dorian Thompson-Robinson,25.0
+2018,401012679,UCLA,3115966,Wilton Speight,12.0
+2018,401012679,Cincinnati,4239086,Desmond Ridder,24.0
+2018,401012679,Cincinnati,3125813,Hayden Moore,2.0
+2018,401012675,Utah,4035671,Tyler Huntley,39.0
+2018,401012675,Utah,4243258,Jason Shelley,2.0
+2018,401012675,Weber State,4251112,Kaden Jenks,22.0
+2018,401012677,Arizona State,3128814,Manny Wilkins,24.0
+2018,401012677,UTSA,4362984,Cordale Grundy,33.0
+2018,401012677,UTSA,3121549,D.J. Gillins,10.0
+2018,401012680,Colorado,3915436,Steven Montez,25.0
+2018,401012680,Colorado State,3127291,K.J. Carta-Samuels,33.0
+2018,401012680,Colorado State,4036357,Collin Hill,4.0
+2018,401013065,Florida Atlantic,4241399,Chris Robison,26.0
+2018,401013065,Florida Atlantic,559630,Rafe Peavey,3.0
+2018,401013065,Florida Atlantic,4243787,De'Andre Johnson,3.0
+2018,401013065,Oklahoma,3917315,Kyler Murray,11.0
+2018,401013065,Oklahoma,4037642,Austin Kendall,10.0
+2018,401013065,Oklahoma,4360271,Tanner Mordecai,2.0
+2018,401012851,Florida International,3914395,James Morgan,20.0
+2018,401012851,Florida International,3914306,Christian Alexander,8.0
+2018,401012851,Florida International,4385989,- 8a,2.0
+2018,401012851,Indiana,4045290,Peyton Ramsey,27.0
+2018,401012851,Indiana,4386270,Michal Penix Jr,10.0
+2018,401014976,North Texas,4039073,Mason Fine,50.0
+2018,401014976,North Texas,547164,Quinn Shanbour,1.0
+2018,401014976,SMU,3916208,Ben Hicks,24.0
+2018,401014974,Louisiana Tech,3914382,J'Mar Smith,29.0
+2018,401014974,Louisiana Tech,4038532,Isaiah Graham,2.0
+2018,401014974,South Alabama,3139423,Cole Garvin,16.0
+2018,401014974,South Alabama,3129265,Evan Orth,6.0
+2018,401014974,South Alabama,4363928,Roy Yancey,2.0
+2018,401014974,South Alabama,3918644,Bull Barge,1.0
+2018,401014974,South Alabama,4249400,Cephus Johnson,1.0
+2018,401013354,Western Kentucky,3124782,Drew Eckels,26.0
+2018,401013354,Western Kentucky,4243456,Davis Shanley,3.0
+2018,401013354,Western Kentucky,3915803,Quin Jernighan,1.0
+2018,401013354,Wisconsin,3886609,Alex Hornibrook,29.0
+2018,401013354,Wisconsin,-8025, Team,2.0
+2018,401014973,Charlotte,4259269,Chris Reynolds,20.0
+2018,401014973,Fordham,3128842,Luke Medlock,47.0
+2018,401014979,UAB,545682,A.J. Erdely,28.0
+2018,401014979,UAB,4239793,Tyler Johnston III,1.0
+2018,401014979,Savannah State,4266583,D'Vonn Gibbons,9.0
+2018,401014979,Savannah State,4250466,TJ Bell,8.0
+2018,401021654,Grambling,4250903,Geremy Hickbottom,18.0
+2018,401021654,Grambling,4241057,Aldon Clark,11.0
+2018,401021654,Grambling,3929000,Cecil Cherry,1.0
+2018,401021654,Louisiana,4241553,Andre Nunez,22.0
+2018,401021654,Louisiana,4241556,Levi Lewis,8.0
+2018,401014978,Jackson State,4383341,Derrick Ponder,29.0
+2018,401014978,Jackson State,4262737,Jarrad Hayes,8.0
+2018,401014978,Southern Miss,4040407,Jack Abraham,27.0
+2018,401014978,Southern Miss,4245107,Marcelo Rodriguez,5.0
+2018,401014978,Southern Miss,4362942,Tate Whatley,1.0
+2018,401012246,Alabama,4241479,Tua Tagovailoa,16.0
+2018,401012246,Alabama,4040715,Jalen Hurts,9.0
+2018,401012246,Alabama,4241464,Mac Jones,1.0
+2018,401012246,Louisville,4035995,Jawon Pass,39.0
+2018,401012254,Mississippi State,4242243,Keytaon Thompson,31.0
+2018,401012254,Mississippi State,4047628,Logan Burnett,1.0
+2018,401012254,Mississippi State,4362894,Jalen Mayden,2.0
+2018,401012254,Stephen F. Austin,3116417,Foster Sawyer,27.0
+2018,401012254,Stephen F. Austin,3943175,Josh Covey,4.0
+2018,401012254,Stephen F. Austin,3911491,Jake Blumrick,6.0
+2018,401012247,Arkansas,3886621,Ty Storey,17.0
+2018,401012247,Arkansas,4035584,Cole Kelley,12.0
+2018,401012247,Eastern Illinois,4040641,Johnathan Brantley,25.0
+2018,401012247,Eastern Illinois,4368707,Harry Woodbery,15.0
+2018,401020673,Western Michigan,3916726,Jon Wassink,36.0
+2018,401020673,Syracuse,3916447,Eric Dungey,19.0
+2018,401020673,Syracuse,4240391,Tommy DeVito,9.0
+2018,401020673,Syracuse,4037122,Carl Jones,3.0
+2018,401020671,Ball State,3915468,Riley Neal,30.0
+2018,401020671,Ball State,4039210,Drew Plitt,6.0
+2018,401020671,Ball State,4039205,Brandon Martin,1.0
+2018,401020671,Central Connecticut,3921586,Jacob Dolegala,24.0
+2018,401020671,Central Connecticut,3921588,Tanner Kingsley,4.0
+2018,401012862,Northern Illinois,4039470,Marcus Childers,25.0
+2018,401012862,Northern Illinois,3921951,D.J. Brown,1.0
+2018,401012862,Iowa,4036149,Nathan Stanley,23.0
+2018,401012862,Iowa,4240570,Peyton Mansell,2.0
+2018,401019472,Elon,4248286,Davis Cheek,11.0
+2018,401019472,Elon,4248282,Jalen Greene,1.0
+2018,401019472,South Florida,3858944,Blake Barnett,34.0
+2018,401019472,South Florida,3923382,Brett Kean,7.0
+2018,401019472,South Florida,4044111,Chris Oladokun,5.0
+2018,401013092,UAlbany,3139487,Vincent Testaverde,29.0
+2018,401013092,Pittsburgh,4240703,Kenny Pickett,22.0
+2018,401013092,Pittsburgh,3701527,Ricky Town,1.0
+2018,401022514,Stony Brook,3120809,Joe Carbone,11.0
+2018,401022514,Stony Brook,4033850,Tyquell Fields,3.0
+2018,401022514,Stony Brook,3120822,Marc Nolan,1.0
+2018,401022514,Air Force,4038186,Arion Worthman,8.0
+2018,401019473,Villanova,3120851,Zach Bednarczyk,40.0
+2018,401019473,Temple,3138735,Frank Nutile,32.0
+2018,401019473,Temple,4243276,Todd Centeio,1.0
+2018,401013094,Richmond,3912397,Kevin Johnson,28.0
+2018,401013094,Richmond,4051645,Joe Mancuso,1.0
+2018,401013094,Richmond,4250603,Markus Vinson,1.0
+2018,401013094,Virginia,3675812,Bryce Perkins,24.0
+2018,401013094,Virginia,4370775,Brennan Armstrong,2.0
+2018,401013091,James Madison,3895785,Ben Dinucci,27.0
+2018,401013091,James Madison,4028729,Cole Johnson,2.0
+2018,401013091,James Madison,3006142,- Team,1.0
+2018,401013091,NC State,546288,Ryan Finley,43.0
+2018,401019476,Central Arkansas,4032198,Breylin Smith,25.0
+2018,401019476,Tulsa,4039664,Luke Skipper,24.0
+2018,401022511,UC Davis,4248777,Jake Maier,55.0
+2018,401022511,UC Davis,-5481, Team,1.0
+2018,401022511,UC Davis,4248767,Carson Crawford,1.0
+2018,401022511,San José State,4036850,Montel Aaron,19.0
+2018,401022511,San José State,3921685,Josh Love,29.0
+2018,401022511,San José State,4036857,Michael Carrillo,4.0
+2018,401020674,Buffalo,3916564,Tyree Jackson,27.0
+2018,401020674,Buffalo,4239714,Kyle Vantrease,2.0
+2018,401020674,Delaware State,4259966,Jack McDaniels,15.0
+2018,401020674,Delaware State,4051100,Keenan Black,3.0
+2018,401012255,Missouri,3924327,Drew Lock,25.0
+2018,401012255,Missouri,4241193,Taylor Powell,9.0
+2018,401012255,UT Martin,4250970,Dresser Winn,24.0
+2018,401012255,UT Martin,4250952,Joe Hudson,6.0
+2018,401012258,Texas A&M,4240904,Kellen Mond,25.0
+2018,401012258,Texas A&M,4035225,Nick Starkel,8.0
+2018,401012258,Texas A&M,4240901,Connor Blumrick,1.0
+2018,401012258,Texas A&M,2994755,- Team,1.0
+2018,401012258,Northwestern State,3126207,Clay Holgorsen,19.0
+2018,401012258,Northwestern State,4371339,Shelton Eppler,16.0
+2018,401012880,Michigan State,3929824,Brian Lewerke,33.0
+2018,401012880,Utah State,4036378,Jordan Love,44.0
+2018,401012872,Maryland,4241937,Kasim Hill,29.0
+2018,401012872,Maryland,4036210,Tyrrell Pigrome,4.0
+2018,401012872,Maryland,4360637,Jeshaun Jones,1.0
+2018,401012872,Texas,4241820,Sam Ehlinger,39.0
+2018,401012820,Rutgers,4361530,Artur Sitkowski,29.0
+2018,401012820,Texas State,4241669,Willie Jones III,19.0
+2018,401012820,Texas State,4362667,Tyler Vitt,5.0
+2018,401012888,Michigan,4035292,Shea Patterson,30.0
+2018,401012888,Michigan,4258191,Dylan McCaffrey,6.0
+2018,401012888,Notre Dame,3932451,Brandon Wimbush,22.0
+2018,401013349,Penn State,3116172,Trace McSorley,36.0
+2018,401013349,App State,4036429,Zac Thomas,38.0
+2018,401013349,App State,4240999,Peyton Derrick,1.0
+2018,401019474,Mercer,4248731,Robert Riddle,19.0
+2018,401019474,Mercer,4043931,Kaelan Riley,8.0
+2018,401019474,Memphis,3893630,Brady White,28.0
+2018,401019474,Memphis,4371730,Brady McBride,10.0
+2018,401019474,Memphis,4243364,Connor Adair,1.0
+2018,401022515,Incarnate Word,4371174,Jon Copeland,36.0
+2018,401022515,Incarnate Word,4262832,Sean Brophy,3.0
+2018,401022515,New Mexico,4039390,Tevaka Tuioti,21.0
+2018,401022515,New Mexico,3915379,Sheriron Jones,3.0
+2018,401022515,New Mexico,3128784,Coltin Gerhart,1.0
+2018,401021655,SE Louisiana,3918038,Chason Virgil,39.0
+2018,401021655,SE Louisiana,3924370,Lorenzo Lee Nunez,2.0
+2018,401021655,SE Louisiana,-15611, Team,1.0
+2018,401021655,UL Monroe,4036585,Caleb Evans,53.0
+2018,401013342,Northwestern,3116144,Clayton Thorson,27.0
+2018,401013342,Northwestern,3915966,TJ Green,10.0
+2018,401013342,Purdue,3791146,Elijah Sindelar,30.0
+2018,401013342,Purdue,3116188,David Blough,16.0
+2018,401013089,Army,4036923,Kelvin Hopkins Jr.,21.0
+2018,401013089,Duke,3917792,Daniel Jones,17.0
+2018,401019470,UConn,4239134,David Pindell,41.0
+2018,401019470,UCF,4042113,McKenzie Milton,32.0
+2018,401019470,UCF,4243535,D.J. Mack Jr.,2.0
+2018,401021652,Arkansas State,3116379,Justice Hansen,36.0
+2018,401021652,Arkansas State,4036473,Logan Bonner,3.0
+2018,401021652,Arkansas State,2587814, ,1.0
+2018,401021652,Southeast Missouri State,3921977,Daniel Santacaterina,13.0
+2018,401021652,Southeast Missouri State,559516,Anthony Cooper,15.0
+2018,401021656,Troy,4039910,Kaleb Barker,29.0
+2018,401021656,Troy,4039901,Sawyer Smith,5.0
+2018,401021656,Boise State,3722362,Brett Rypien,28.0
+2018,401021653,Georgia Southern,4036650,Shai Werts,7.0
+2018,401021653,South Carolina State,3928363,Dewann Ford,6.0
+2018,401021653,South Carolina State,4251048,Tyrece Nick,3.0
+2018,401021653,South Carolina State,4384546,Cory Fields,1.0
+2018,401079833,East Carolina,4038520,Reid Herring,61.0
+2018,401079833,East Carolina,4239400,Kingsley Ifedi,5.0
+2018,401079833,North Carolina A&T,3139898,Lamar Raynard,20.0
+2018,401079833,North Carolina A&T,3949979,Kylil Carter,9.0
+2018,401019475,Navy,3916282,Garret Lewis,9.0
+2018,401019475,Navy,4039436,Malcolm Perry,3.0
+2018,401019475,Navy,3916251,Zach Abey,1.0
+2018,401019475,Hawai'i,4038220,Cole McDonald,41.0
+2018,401019475,Hawai'i,545334,Kolney Cassel,1.0
+2018,401013086,Tulane,3916103,Jonathan Banks,37.0
+2018,401013086,Tulane,4040640,Darius Bradwell,1.0
+2018,401013086,Wake Forest,4361994,Sam Hartman,51.0
+2018,401013096,Florida State,3921561,Deondre Francois,35.0
+2018,401013096,Virginia Tech,4037603,Josh Jackson,26.0
+2018,401013088,Clemson,4360310,Trevor Lawrence,14.0
+2018,401013088,Clemson,3728240,Kelly Bryant,17.0
+2018,401013088,Clemson,4239994,Chase Brice,4.0
+2018,401013088,Furman,4369448,Darren Grainger,5.0
+2018,401013088,Furman,4248684,JeMar Lincoln,4.0
+2018,401013090,Georgia Tech,3917810,TaQuon Marshall,18.0
+2018,401013090,Alcorn State,3928455,Noah Johnson,15.0
+2018,401013090,Alcorn State,4051442,Felix Harper,8.0
+2018,401022510,Colorado State,3127291,K.J. Carta-Samuels,50.0
+2018,401022510,Colorado State,-5691, Team,1.0
+2018,401022510,Hawai'i,4038220,Cole McDonald,37.0
+2018,401022517,Nevada,3122611,Ty Gangi,26.0
+2018,401022517,Nevada,4361444,Toa Taua,1.0
+2018,401022517,Nevada,3914836,Cristian Solano,1.0
+2018,401022517,Portland State,4028076,Davis Alexander,32.0
+2018,401022517,Portland State,4365764,Danny Velasquez,1.0
+2018,401022517,Portland State,4248831,Jalani Eason,1.0
+2018,401012268,Georgia,4240689,Jake Fromm,18.0
+2018,401012268,Georgia,4362887,Justin Fields,1.0
+2018,401012268,South Carolina,4038809,Jake Bentley,47.0
+2018,401012268,South Carolina,3126486,Deebo Samuel,1.0
+2018,401012263,Florida,4034948,Feleipe Franks,38.0
+2018,401012263,Kentucky,4038940,Terry Wilson,16.0
+2018,401012269,Tennessee,4035167,Jarrett Guarantano,13.0
+2018,401012269,Tennessee,3117245,Keller Chryst,3.0
+2018,401012269,East Tennessee State,3914214,Logan Marchi,26.0
+2018,401012269,East Tennessee State,3122907,Austin Herink,3.0
+2018,401012271,Vanderbilt,3915776,Kyle Shurmur,32.0
+2018,401012271,Vanderbilt,4037118,Mo Hasan,2.0
+2018,401012271,Nevada,3122611,Ty Gangi,39.0
+2018,401013358,Massachusetts,3116772,Andrew Ford,33.0
+2018,401013358,Massachusetts,3125927,Ross Comis,3.0
+2018,401013358,Georgia Southern,4036650,Shai Werts,9.0
+2018,401013490,Oklahoma State,3122424,Taylor Cornelius,40.0
+2018,401013490,Oklahoma State,4038433,Keondre Wudtee,2.0
+2018,401013490,Oklahoma State,4038432,Amen Ogbongbemiga,1.0
+2018,401013490,South Alabama,3129265,Evan Orth,25.0
+2018,401013490,South Alabama,3139423,Cole Garvin,6.0
+2018,401013490,South Alabama,4249400,Cephus Johnson,3.0
+2018,401012266,Kansas State,4036419,Skylar John Thompson,17.0
+2018,401012266,Kansas State,3886634,Alex Delton,4.0
+2018,401012266,Mississippi State,558337,Nick Fitzgerald,27.0
+2018,401013027,Baylor,4241222,Charlie Brewer,34.0
+2018,401013027,Baylor,3116715,Jalan McClendon,6.0
+2018,401013027,Baylor,4035390,Jared Atkinson,1.0
+2018,401013027,UTSA,4362984,Cordale Grundy,33.0
+2018,401012863,Iowa State,552119,Kyle Kempt,21.0
+2018,401012863,Iowa State,4035525,Zeb Noland,10.0
+2018,401012863,Iowa,4036149,Nathan Stanley,28.0
+2018,401013322,Texas Tech,4362159,Alan Bowman,25.0
+2018,401013322,Texas Tech,4043136,Jett Duffey,9.0
+2018,401013322,Texas Tech,4043138,Colt Garrett,1.0
+2018,401013322,Lamar,3128413,Darrel Colbert Jr.,26.0
+2018,401013322,Lamar,4243484,Jordan Hoy,6.0
+2018,401013049,Kansas,3127261,Peyton Bender,26.0
+2018,401013049,Kansas,4360331,Miles Kendrick,1.0
+2018,401013049,Central Michigan,4039271,Tony Poljan,32.0
+2018,401019477,TCU,4241784,Shawn Robinson,28.0
+2018,401019477,SMU,3916208,Ben Hicks,38.0
+2018,401019477,SMU,-7347, Team,1.0
+2018,401013326,West Virginia,559556,Will Grier,26.0
+2018,401013326,West Virginia,4037449,Jack Allison,3.0
+2018,401013326,Youngstown State,3129311,Montgomery VanGorder,24.0
+2018,401014991,UTEP,3124698,Ryan Metz,10.0
+2018,401014991,UTEP,4362029,Kai Locksley,19.0
+2018,401014991,UNLV,4056052,Armani Rogers,13.0
+2018,401014991,UNLV,4035856,Max Gilliam,1.0
+2018,401014988,Rice,3122170,Shawn Stankavage,30.0
+2018,401014988,Rice,-7187, Team,2.0
+2018,401014988,Hawai'i,4038220,Cole McDonald,33.0
+2018,401012731,Oregon,4038941,Justin Herbert,26.0
+2018,401012731,Oregon,4242490,Braxton Burmeister,3.0
+2018,401012731,Portland State,4248831,Jalani Eason,14.0
+2018,401012731,Portland State,4248844,Beau Kelly,1.0
+2018,401012731,Portland State,4028076,Davis Alexander,1.0
+2018,401012736,Stanford,4044431,K.J. Costello,27.0
+2018,401012736,Stanford,-7422, Team,1.0
+2018,401012736,USC,4374303,JT Daniels,34.0
+2018,401012736,USC,4035691,Matt Fink,2.0
+2018,401012733,Washington,3886812,Jake Browning,37.0
+2018,401012733,Washington,4243322,Jake Haener,7.0
+2018,401012733,Washington,3886809,Andre Baccellia,1.0
+2018,401012733,North Dakota,3910639,Nate Ketteringham,30.0
+2018,401012733,North Dakota,3910346,Andrew Zimmerman,2.0
+2018,401012733,North Dakota,2991921, ,1.0
+2018,401012735,California,4242408,Chase Garbers,28.0
+2018,401012735,California,4038833,Brandon McIlwain,7.0
+2018,401012735,BYU,545796,Tanner Mangum,41.0
+2018,401012732,Oregon State,4042803,Conor Blount,22.0
+2018,401012732,Oregon State,3124900,Jake Luton,9.0
+2018,401012732,Southern Utah,4040873,Chris Helbig,48.0
+2018,401012734,Washington State,4038524,Gardner Minshew,51.0
+2018,401012734,Washington State,4055171,Anthony Gordon,3.0
+2018,401012734,San José State,4036850,Montel Aaron,25.0
+2018,401012734,San José State,4390394,- 1b,1.0
+2018,401012734,San José State,4036855,JaQuan Blackwell,1.0
+2018,401012734,San José State,4390371,Ii  Bobb Brown,1.0
+2018,401013438,New Mexico State,4361467,Matt Romero,33.0
+2018,401013438,New Mexico State,4241635,Josh Adkins,3.0
+2018,401013438,New Mexico State,3124971,Nick Jeanty,1.0
+2018,401013438,Utah State,4036378,Jordan Love,27.0
+2018,401013438,Utah State,4259219,Henry Colombi,4.0
+2018,401013367,Liberty,4029885,Stephen Calvert,37.0
+2018,401013367,Army,4036923,Kelvin Hopkins Jr.,7.0
+2018,401013367,Army,3916786,Luke Langdon,1.0
+2018,401012262,Auburn,3892775,Jarrett Stidham,11.0
+2018,401012262,Auburn,4371976,Cord Sandberg,1.0
+2018,401012262,Auburn,4242512,Malik Willis,2.0
+2018,401012262,Alabama State,4250414,Darryl Pearson Jr.,15.0
+2018,401012262,Alabama State,4250415,KaDarius Davis,7.0
+2018,401012262,Alabama State,4058637,Dakota Rocker,7.0
+2018,401012264,LSU,3915511,Joe Burrow,20.0
+2018,401012264,SE Louisiana,3918038,Chason Virgil,33.0
+2018,401012264,SE Louisiana,3924370,Lorenzo Lee Nunez,1.0
+2018,401019482,Miami (OH),3125968,Gus Ragland,41.0
+2018,401019482,Cincinnati,4239086,Desmond Ridder,11.0
+2018,401020677,Kent State,4362340,Woody Barrett,27.0
+2018,401020677,Kent State,4244068,Dustin Crum,2.0
+2018,401020677,Howard,4247724,Caylin Newton,25.0
+2018,401020677,Howard,4247723,Ramar Williams,5.0
+2018,401020678,Akron,4038741,Kato Nelson,26.0
+2018,401020678,Akron,4240142,Alex Ramart,5.0
+2018,401020678,Morgan State,4030759,DeAndre Harris,14.0
+2018,401020678,Morgan State,4389989,Golatt Jr.Dj,8.0
+2018,401012728,UCLA,4367178,Dorian Thompson-Robinson,26.0
+2018,401012728,Oklahoma,3917315,Kyler Murray,33.0
+2018,401012728,Oklahoma,4360271,Tanner Mordecai,2.0
+2018,401012730,Utah,4035671,Tyler Huntley,31.0
+2018,401012730,Northern Illinois,4039470,Marcus Childers,33.0
+2018,401012727,Arizona State,3128814,Manny Wilkins,48.0
+2018,401012727,Michigan State,3929824,Brian Lewerke,39.0
+2018,401012726,Arizona,4039602,Khalil Tate,45.0
+2018,401012726,Arizona,4245679,Rhett Rodriguez,5.0
+2018,401012726,Houston,4039300,D'Eriq King,34.0
+2018,401012726,Houston,3886565,Quinten Dormady,5.0
+2018,401012726,Houston,4240251,Bryson Smith,1.0
+2018,401012729,Colorado,3915436,Steven Montez,50.0
+2018,401012729,Nebraska,4361182,Adrian Martinez,20.0
+2018,401012729,Nebraska,4240792,Andrew Bunch,9.0
+2018,401014986,Middle Tennessee,545683,Brent Stockstill,32.0
+2018,401014986,UT Martin,4250970,Dresser Winn,53.0
+2018,401014986,UT Martin,4250952,Joe Hudson,2.0
+2018,401014983,Florida Atlantic,4241399,Chris Robison,40.0
+2018,401014983,Florida Atlantic,3919101,Ocie Rose,1.0
+2018,401014983,Air Force,4239964,Isaiah Sanders,13.0
+2018,401014982,Florida International,3914395,James Morgan,27.0
+2018,401014982,Florida International,3914306,Christian Alexander,4.0
+2018,401014982,Old Dominion,4243485,Steven Williams,22.0
+2018,401014982,Old Dominion,3914543,Blake LaRussa,15.0
+2018,401014987,North Texas,4039073,Mason Fine,40.0
+2018,401014987,North Texas,4243827,Cade Pearson,4.0
+2018,401014987,North Texas,4360916,Kason Martin,1.0
+2018,401014987,North Texas,547164,Quinn Shanbour,4.0
+2018,401014987,Incarnate Word,4371174,Jon Copeland,30.0
+2018,401014984,Louisiana Tech,3914382,J'Mar Smith,37.0
+2018,401014984,Louisiana Tech,4384187,Aaron Allen,5.0
+2018,401014984,Louisiana Tech,4035108,Trey Baldwin,3.0
+2018,401014984,Southern,4251244,John Lampley,24.0
+2018,401014984,Southern,4251243,Kendall Catalon,1.0
+2018,401014992,Western Kentucky,3124782,Drew Eckels,41.0
+2018,401014992,Maine,4034303,Chris Ferguson,28.0
+2018,401014992,Maine,3120540,Drew Belcher,1.0
+2018,401014981,Charlotte,4259269,Chris Reynolds,22.0
+2018,401014981,Charlotte,3061283,- Team,1.0
+2018,401014981,Charlotte,3139889,Hasaan Klugh,2.0
+2018,401014981,App State,4036429,Zac Thomas,14.0
+2018,401014981,App State,3917147,Tae Hayes,1.0
+2018,401014981,App State,4036427,Jacob Huesman,1.0
+2018,401014990,UAB,545682,A.J. Erdely,26.0
+2018,401014990,UAB,-7715, Team,1.0
+2018,401014990,Coastal Carolina,3124529,Kilton Anderson,18.0
+2018,401021657,Texas Southern,547963,Jay Christophe,40.0
+2018,401021657,Texas State,4390098,Willie Jonesiii,28.0
+2018,401021657,Texas State,4241667,Jaylen Gipson,1.0
+2018,401012260,Alabama,4241479,Tua Tagovailoa,19.0
+2018,401012260,Alabama,4040715,Jalen Hurts,9.0
+2018,401012260,Alabama,4241464,Mac Jones,1.0
+2018,401012260,Arkansas State,3116379,Justice Hansen,36.0
+2018,401012260,Arkansas State,4036473,Logan Bonner,14.0
+2018,401012260,Arkansas State,3917168,Darveon Brown,1.0
+2018,401012265,Ole Miss,4242418,Jordan Ta'amu,33.0
+2018,401012265,Ole Miss,4362874,Matt Corral,2.0
+2018,401012265,Southern Illinois,3121350,Sam Straub,47.0
+2018,401012265,Southern Illinois,4368342,Stone Labanowitz,1.0
+2018,401012261,Arkansas,4035584,Cole Kelley,9.0
+2018,401012261,Arkansas,3886621,Ty Storey,13.0
+2018,401012261,Colorado State,3127291,K.J. Carta-Samuels,47.0
+2018,401012261,Colorado State,4036357,Collin Hill,3.0
+2018,401012889,Western Michigan,3916726,Jon Wassink,34.0
+2018,401012889,Michigan,4035292,Shea Patterson,17.0
+2018,401012889,Michigan,4258191,Dylan McCaffrey,1.0
+2018,401013377,Ball State,3915468,Riley Neal,50.0
+2018,401013377,Notre Dame,3932451,Brandon Wimbush,31.0
+2018,401013377,Notre Dame,4372768,Phil Jurkovec,1.0
+2018,401013352,Eastern Michigan,3144983,Tyler Wiegers,28.0
+2018,401013352,Eastern Michigan,4259127,Mike Glass III,5.0
+2018,401013352,Eastern Michigan,-5878, Team,1.0
+2018,401013352,Purdue,3791146,Elijah Sindelar,14.0
+2018,401013352,Purdue,3116188,David Blough,10.0
+2018,401013107,William & Mary,4249609,Shon Mitchell,24.0
+2018,401013107,William & Mary,4249610,Ted Hefter,5.0
+2018,401013107,William & Mary,-8054, Team,1.0
+2018,401013107,Virginia Tech,4037603,Josh Jackson,16.0
+2018,401013107,Virginia Tech,3917958,Ryan Willis,7.0
+2018,401013102,Savannah State,4250466,TJ Bell,7.0
+2018,401013102,Savannah State,4266583,D'Vonn Gibbons,5.0
+2018,401013102,Miami,3123047,Malik Rosier,12.0
+2018,401013102,Miami,4240628,N'Kosi Perry,14.0
+2018,401013102,Miami,4362507,Jarren Williams,3.0
+2018,401013102,Miami,4240633,Cade Weldon,2.0
+2018,401021658,Florida A&M,3927948,Ryan Stanley,27.0
+2018,401021658,Florida A&M,4390274,Rasean Mckay,4.0
+2018,401021658,Troy,4039910,Kaleb Barker,23.0
+2018,401021658,Troy,4039901,Sawyer Smith,7.0
+2018,401021658,Troy,4362723,Gunnar Watson,8.0
+2018,401014985,Marshall,4261909,Isaiah Green,39.0
+2018,401014985,Eastern Kentucky,4250715,Dakota Allen,10.0
+2018,401014985,Eastern Kentucky,4034464,Austin Scott,6.0
+2018,401014985,Eastern Kentucky,4368766,Alphonso Howard,3.0
+2018,401014989,Southern Miss,4040407,Jack Abraham,46.0
+2018,401014989,Southern Miss,4374491,J.J. Jones,1.0
+2018,401014989,UL Monroe,4036585,Caleb Evans,28.0
+2018,401019478,Buffalo,3916564,Tyree Jackson,45.0
+2018,401019478,Temple,3138735,Frank Nutile,31.0
+2018,401019478,Temple,4044122,Anthony Russo,4.0
+2018,401019478,Temple,-7598, Team,2.0
+2018,401019478,Temple,4243276,Todd Centeio,1.0
+2018,401012873,Bowling Green,4244029,Jarret Doege,27.0
+2018,401012873,Maryland,4241937,Kasim Hill,16.0
+2018,401012267,Missouri,3924327,Drew Lock,45.0
+2018,401012267,Wyoming,4240351,Tyler Vander Waal,28.0
+2018,401012270,Texas A&M,4240904,Kellen Mond,40.0
+2018,401012270,Clemson,3728240,Kelly Bryant,17.0
+2018,401012270,Clemson,4360310,Trevor Lawrence,9.0
+2018,401012270,Clemson,3135321,Hunter Renfrow,1.0
+2018,401012821,Ohio State,4040616,Dwayne Haskins,23.0
+2018,401012821,Ohio State,4241992,Tate Martell,10.0
+2018,401012821,Ohio State,4040608,Jonathon Cooper,2.0
+2018,401012821,Rutgers,4361530,Artur Sitkowski,18.0
+2018,401012821,Rutgers,3127375,Giovanni Rescigno,12.0
+2018,401013105,Penn State,3116172,Trace McSorley,30.0
+2018,401013105,Penn State,4259592,Sean Clifford,1.0
+2018,401013105,Pittsburgh,4240703,Kenny Pickett,18.0
+2018,401012852,Indiana,4045290,Peyton Ramsey,22.0
+2018,401012852,Virginia,3675812,Bryce Perkins,24.0
+2018,401012852,Virginia,-7809, Team,1.0
+2018,401013101,Indiana State,4368126,Jalil Kilpatrick,9.0
+2018,401013101,Indiana State,4368129,Ryan Boyle,3.0
+2018,401013101,Louisville,4035995,Jawon Pass,14.0
+2018,401013101,Louisville,4240069,Malik Cunningham,7.0
+2018,401013101,Louisville,4360799,Jordan Travis,1.0
+2018,401013106,Wagner,3118131,Thomas Linta,15.0
+2018,401013106,Wagner,4242419,Graham Lindman,15.0
+2018,401013106,Wagner,3913122,Luke Massei,3.0
+2018,401013106,Syracuse,3916447,Eric Dungey,32.0
+2018,401013106,Syracuse,4240391,Tommy DeVito,5.0
+2018,401012805,Western Illinois,3121628,Sean McGuire,36.0
+2018,401012805,Western Illinois,4031136,Connor Sampson,6.0
+2018,401012805,Illinois,4390173,M.J. Rivers,16.0
+2018,401012805,Illinois,3116087,AJ Bush,7.0
+2018,401013099,Samford,3127051,Devlin Hodges,60.0
+2018,401013099,Florida State,3921561,Deondre Francois,46.0
+2018,401013355,Wisconsin,3886609,Alex Hornibrook,11.0
+2018,401013355,Wisconsin,4242332,Danny Vanden Boom,1.0
+2018,401013355,Wisconsin,-8025, Team,1.0
+2018,401013355,New Mexico,3915379,Sheriron Jones,16.0
+2018,401013355,New Mexico,4039390,Tevaka Tuioti,8.0
+2018,401013329,Minnesota,4360936,Zack Annexstad,26.0
+2018,401013329,Fresno State,3127332,Marcus McMaryion,32.0
+2018,401013329,Fresno State,4242995,Jorge Reyna,1.0
+2018,401013329,Fresno State,4049391,Josh Hokit,1.0
+2018,401013098,Northwestern,3116144,Clayton Thorson,38.0
+2018,401013098,Northwestern,3915966,TJ Green,18.0
+2018,401013098,Duke,3917792,Daniel Jones,22.0
+2018,401013098,Duke,3917793,Quentin Harris,2.0
+2018,401013319,Texas,4241820,Sam Ehlinger,27.0
+2018,401013319,Tulsa,4039664,Luke Skipper,24.0
+2018,401013319,Tulsa,4039662,Keenen Johnson,2.0
+2018,401022518,Sacramento State,3125336,Kevin Thomson,18.0
+2018,401022518,Sacramento State,4248898,Wyatt Clapper,2.0
+2018,401022518,San Diego State,3921648,Ryan Agnew,17.0
+2018,401022518,San Diego State,3139921,Christian Chapman,11.0
+2018,401019483,UConn,4239134,David Pindell,21.0
+2018,401019483,Boise State,3722362,Brett Rypien,28.0
+2018,401019483,Boise State,4260440,Chase Cord,5.0
+2018,401013104,Georgia State,4361902,Dan Ellington,28.0
+2018,401013104,Georgia State,3917540,Aaron Winchester,6.0
+2018,401013104,NC State,546288,Ryan Finley,38.0
+2018,401013104,NC State,4240121,Thayer Thomas,1.0
+2018,401013100,South Florida,3858944,Blake Barnett,31.0
+2018,401013100,Georgia Tech,3917810,TaQuon Marshall,18.0
+2018,401013103,East Carolina,4038520,Reid Herring,32.0
+2018,401013103,East Carolina,4360131,Holton Ahlers,1.0
+2018,401013103,North Carolina,3895838,Nathan Elliott,38.0
+2018,401013103,North Carolina,4361573,Cade Fortin,6.0
+2018,401019481,UCF,4042113,McKenzie Milton,39.0
+2018,401019481,UCF,4243535,D.J. Mack Jr.,4.0
+2018,401019481,UCF,4362419,Brett Bell,2.0
+2018,401019481,South Carolina State,4251048,Tyrece Nick,13.0
+2018,401019481,South Carolina State,3928363,Dewann Ford,6.0
+2018,401019481,South Carolina State,4053971,- 9,1.0
+2018,401019479,Navy,4039436,Malcolm Perry,3.0
+2018,401019479,Navy,3916251,Zach Abey,1.0
+2018,401019479,Navy,3916282,Garret Lewis,2.0
+2018,401019479,Memphis,3893630,Brady White,25.0
+2018,401019480,Tulane,3916103,Jonathan Banks,16.0
+2018,401019480,Tulane,4243912,Jaylon Monroe,1.0
+2018,401019480,Nicholls,4051573,Chase Fourcade,31.0
+2018,401019480,Nicholls,4371261,Winston Jones,1.0
+2018,401013097,Boston College,4239937,Matt McDonald,6.0
+2018,401013097,Boston College,4239936,EJ Perry,12.0
+2018,401013097,Boston College,4035312,Anthony Brown,2.0
+2018,401013097,Holy Cross,4030554,Emmett Clifford,11.0
+2018,401013097,Holy Cross,3912609,Geoff Wade,10.0
+2018,401013097,Holy Cross,4247704,Connor Degenhardt,1.0
+2018,401013108,Wake Forest,4361994,Sam Hartman,27.0
+2018,401013108,Towson,3916725,Tom Flacco,51.0
+2018,401019485,Alabama A&M,3932119,Josh Cartwright,1.0
+2018,401019485,Alabama A&M,4250212,Aqeel Glass,27.0
+2018,401019485,Cincinnati,3125813,Hayden Moore,7.0
+2018,401019485,Cincinnati,4037495,Jake Sopko,1.0
+2018,401019485,Cincinnati,4239086,Desmond Ridder,10.0
+2018,401019485,Cincinnati,4360056,Ben Bryant,8.0
+2018,401012277,Alabama,4040715,Jalen Hurts,10.0
+2018,401012277,Alabama,4241464,Mac Jones,3.0
+2018,401012277,Alabama,4241479,Tua Tagovailoa,15.0
+2018,401012277,Ole Miss,4242418,Jordan Ta'amu,22.0
+2018,401013343,Akron,4038741,Kato Nelson,28.0
+2018,401013343,Northwestern,3116144,Clayton Thorson,52.0
+2018,401013343,Northwestern,3915966,TJ Green,6.0
+2018,401012741,Colorado,3915436,Steven Montez,19.0
+2018,401012741,Colorado,3917811,Dante Wigley,1.0
+2018,401012741,Colorado,4040880,Sam Noyer,5.0
+2018,401012741,New Hampshire,4032529,Christian Lupoli,31.0
+2018,401012741,New Hampshire,4366961,Tommy Herion,8.0
+2018,401012739,Texas,3125121,Jerrod Heard,1.0
+2018,401012739,Texas,4241820,Sam Ehlinger,33.0
+2018,401012739,USC,4374303,JT Daniels,48.0
+2018,401013109,Wake Forest,4361994,Sam Hartman,45.0
+2018,401013109,Boston College,4035312,Anthony Brown,25.0
+2018,401013114,Miami,3123047,Malik Rosier,23.0
+2018,401013114,Toledo,3932903,Mitchell Guadagni,21.0
+2018,401013114,Toledo,4039495,Eli Peters,2.0
+2018,401014994,Bethune-Cookman,3945456,Akevious Williams,27.0
+2018,401014994,Bethune-Cookman,4259407,David Isreal,6.0
+2018,401014994,Florida Atlantic,559630,Rafe Peavey,2.0
+2018,401014994,Florida Atlantic,4241399,Chris Robison,27.0
+2018,401014994,Florida Atlantic,4243787,De'Andre Johnson,1.0
+2018,401021659,Coastal Carolina,3124529,Kilton Anderson,14.0
+2018,401021659,Coastal Carolina,4361032,Bryce Carpenter,2.0
+2018,401021659,Campbell,4051021,Daniel Smith,34.0
+2018,401012746,California,4038833,Brandon McIlwain,7.0
+2018,401012746,California,4242408,Chase Garbers,25.0
+2018,401012746,Idaho State,3139063,Tanner Gueller,23.0
+2018,401019484,Memphis,3893630,Brady White,26.0
+2018,401019484,Memphis,4371730,Brady McBride,1.0
+2018,401019484,Georgia State,3917540,Aaron Winchester,5.0
+2018,401019484,Georgia State,4241290,Jack Walker,3.0
+2018,401019484,Georgia State,4361902,Dan Ellington,26.0
+2018,401021660,Texas State,4241669,Willie Jones III,29.0
+2018,401021660,Texas State,4362667,Tyler Vitt,2.0
+2018,401021660,South Alabama,3129265,Evan Orth,33.0
+2018,401012742,Washington,3886812,Jake Browning,24.0
+2018,401012742,Utah,-7771, Team,1.0
+2018,401012742,Utah,4035671,Tyler Huntley,38.0
+2018,401012278,Louisiana,4241553,Andre Nunez,29.0
+2018,401012278,Louisiana,4241556,Levi Lewis,5.0
+2018,401012278,Mississippi State,558337,Nick Fitzgerald,21.0
+2018,401012278,Mississippi State,4242243,Keytaon Thompson,3.0
+2018,401012740,UCLA,4367178,Dorian Thompson-Robinson,24.0
+2018,401012740,Fresno State,3127332,Marcus McMaryion,33.0
+2018,401012283,Vanderbilt,3915776,Kyle Shurmur,43.0
+2018,401012283,Notre Dame,3932451,Brandon Wimbush,23.0
+2018,401012283,Notre Dame,4046678,Ian Book,3.0
+2018,401013074,TCU,4241784,Shawn Robinson,40.0
+2018,401013074,Ohio State,4040616,Dwayne Haskins,38.0
+2018,401014996,Tulane,-7689, Team,2.0
+2018,401014996,Tulane,3916103,Jonathan Banks,24.0
+2018,401014996,UAB,545682,A.J. Erdely,27.0
+2018,401013323,Texas Tech,4362159,Alan Bowman,59.0
+2018,401013323,Houston,4039300,D'Eriq King,51.0
+2018,401013323,Houston,4039307,Marquez Stevenson,1.0
+2018,401012274,Colorado State,3127291,K.J. Carta-Samuels,33.0
+2018,401012274,Colorado State,4036357,Collin Hill,8.0
+2018,401012274,Florida,4034948,Feleipe Franks,15.0
+2018,401019487,Navy,3916282,Garret Lewis,5.0
+2018,401019487,Navy,4039436,Malcolm Perry,9.0
+2018,401019487,Lehigh,3912949,Brad Mayes,31.0
+2018,401019487,Lehigh,4030586,Tyler Monaco,9.0
+2018,401013368,Hawai'i,4038220,Cole McDonald,32.0
+2018,401013368,Army,4036923,Kelvin Hopkins Jr.,10.0
+2018,401012864,Northern Iowa,3120656,Eli Dunne,28.0
+2018,401012864,Northern Iowa,4052616,Colton Howell,10.0
+2018,401012864,Iowa,4036149,Nathan Stanley,28.0
+2018,401012864,Iowa,4240570,Peyton Mansell,3.0
+2018,401020679,Northern Illinois,4039469,Anthony Thompson,1.0
+2018,401020679,Northern Illinois,4039470,Marcus Childers,18.0
+2018,401020679,Northern Illinois,4258563,Matt Ference,1.0
+2018,401020679,Central Michigan,4039268,Tommy Lazzaro,22.0
+2018,401020679,Central Michigan,4039271,Tony Poljan,11.0
+2018,401012744,Nevada,3122611,Ty Gangi,35.0
+2018,401012744,Nevada,3927804,Kaleb Fossum,1.0
+2018,401012744,Nevada,4361444,Toa Taua,1.0
+2018,401012744,Oregon State,3124900,Jake Luton,35.0
+2018,401012744,Oregon State,4042803,Conor Blount,20.0
+2018,401012744,Oregon State,4042806,Timmy Hernandez,1.0
+2018,401012279,Missouri,3924327,Drew Lock,43.0
+2018,401012279,Purdue,3116188,David Blough,55.0
+2018,401013330,Minnesota,4034772,Seth Green,1.0
+2018,401013330,Minnesota,4240756,Tanner Morgan,5.0
+2018,401013330,Minnesota,4360936,Zack Annexstad,20.0
+2018,401013330,Miami (OH),3125968,Gus Ragland,20.0
+2018,401013330,Miami (OH),3672880,Alex James Malzone,3.0
+2018,401013350,Kent State,4244068,Dustin Crum,2.0
+2018,401013350,Kent State,4362340,Woody Barrett,38.0
+2018,401013350,Penn State,3116172,Trace McSorley,22.0
+2018,401013350,Penn State,4259592,Sean Clifford,3.0
+2018,401012822,Kansas,3127261,Peyton Bender,12.0
+2018,401012822,Kansas,3917957,Carter Stanley,1.0
+2018,401012822,Kansas,4360326,Pooka Williams Jr.,1.0
+2018,401012822,Kansas,4360331,Miles Kendrick,11.0
+2018,401012822,Rutgers,3127375,Giovanni Rescigno,12.0
+2018,401012822,Rutgers,4361530,Artur Sitkowski,19.0
+2018,401012806,Illinois,2994660,- Team,2.0
+2018,401012806,Illinois,4360372,M.J. Rivers II,29.0
+2018,401012806,South Florida,3858944,Blake Barnett,40.0
+2018,401012275,Georgia,4240689,Jake Fromm,12.0
+2018,401012275,Georgia,4362887,Justin Fields,8.0
+2018,401012275,Georgia,4379400,Matthew Downing,1.0
+2018,401012275,Middle Tennessee,545683,Brent Stockstill,29.0
+2018,401012275,Middle Tennessee,4037366,Ty Lee,1.0
+2018,401020681,Eastern Kentucky,-5872, Team,1.0
+2018,401020681,Eastern Kentucky,4250715,Dakota Allen,14.0
+2018,401020681,Eastern Kentucky,4368766,Alphonso Howard,2.0
+2018,401020681,Bowling Green,4046743,Grant Loy,1.0
+2018,401020681,Bowling Green,4244029,Jarret Doege,39.0
+2018,401013028,Duke,3917793,Quentin Harris,30.0
+2018,401013028,Baylor,3116715,Jalan McClendon,16.0
+2018,401013028,Baylor,4241222,Charlie Brewer,26.0
+2018,401020680,Delaware State,-5800, Team,1.0
+2018,401020680,Delaware State,4051100,Keenan Black,2.0
+2018,401020680,Delaware State,4259966,Jack McDaniels,9.0
+2018,401020680,Delaware State,4383132,Brett Pilkerton,3.0
+2018,401020680,Western Michigan,-7923, Team,1.0
+2018,401020680,Western Michigan,3916726,Jon Wassink,30.0
+2018,401020680,Western Michigan,3917615,Alex Mussat,2.0
+2018,401020682,Buffalo,3916564,Tyree Jackson,26.0
+2018,401020682,Eastern Michigan,3144983,Tyler Wiegers,11.0
+2018,401020682,Eastern Michigan,4244805,Jeff Hubbard,2.0
+2018,401020682,Eastern Michigan,4259127,Mike Glass III,27.0
+2018,401020682,Eastern Michigan,4391539,- 1r,1.0
+2018,401013356,BYU,545796,Tanner Mangum,22.0
+2018,401013356,BYU,4046668,Aleva Hifo,1.0
+2018,401013356,Wisconsin,3886609,Alex Hornibrook,28.0
+2018,401013491,Boise State,3722362,Brett Rypien,56.0
+2018,401013491,Oklahoma State,3122424,Taylor Cornelius,26.0
+2018,401013491,Oklahoma State,4038460,Dillon Stoner,1.0
+2018,401012853,Ball State,3915468,Riley Neal,24.0
+2018,401012853,Ball State,4039210,Drew Plitt,4.0
+2018,401012853,Indiana,4045290,Peyton Ramsey,27.0
+2018,401012853,Indiana,4360423,Michael Penix Jr.,5.0
+2018,401012273,Auburn,3892775,Jarrett Stidham,28.0
+2018,401012273,LSU,2561489,Zach Von Rosenberg,1.0
+2018,401012273,LSU,3915511,Joe Burrow,34.0
+2018,401019488,Arkansas State,3116379,Justice Hansen,33.0
+2018,401019488,Tulsa,4039664,Luke Skipper,27.0
+2018,401012738,Arizona State,3128814,Manny Wilkins,45.0
+2018,401012738,San Diego State,3921648,Ryan Agnew,24.0
+2018,401013058,UTSA,3121549,D.J. Gillins,11.0
+2018,401013058,UTSA,4362984,Cordale Grundy,23.0
+2018,401013058,Kansas State,3886634,Alex Delton,1.0
+2018,401013058,Kansas State,4036419,Skylar John Thompson,18.0
+2018,401013359,Florida International,3914395,James Morgan,23.0
+2018,401013359,Massachusetts,3116772,Andrew Ford,5.0
+2018,401013359,Massachusetts,3125927,Ross Comis,12.0
+2018,401013359,Massachusetts,4242394,Michael Curtis,15.0
+2018,401013117,Virginia,3675812,Bryce Perkins,30.0
+2018,401013117,Ohio,4244688,Nathan Rourke,31.0
+2018,401019486,Rhode Island,3124662,JaJuan Lawson,34.0
+2018,401019486,UConn,4239134,David Pindell,27.0
+2018,401013337,Troy,4039909,Sam Letton,1.0
+2018,401013337,Troy,4039910,Kaleb Barker,21.0
+2018,401013337,Nebraska,4240792,Andrew Bunch,27.0
+2018,401012281,Tennessee,3117245,Keller Chryst,3.0
+2018,401012281,Tennessee,4035167,Jarrett Guarantano,16.0
+2018,401012281,UTEP,3124698,Ryan Metz,1.0
+2018,401012281,UTEP,4362029,Kai Locksley,22.0
+2018,401012874,Temple,-7598, Team,1.0
+2018,401012874,Temple,4044121,Isaiah Wright,1.0
+2018,401012874,Temple,4044122,Anthony Russo,25.0
+2018,401012874,Temple,4243276,Todd Centeio,1.0
+2018,401012874,Maryland,4036210,Tyrrell Pigrome,4.0
+2018,401012874,Maryland,4241937,Kasim Hill,17.0
+2018,401012737,Southern Utah,4040873,Chris Helbig,44.0
+2018,401012737,Arizona,4039602,Khalil Tate,20.0
+2018,401012737,Arizona,4245679,Rhett Rodriguez,2.0
+2018,401012743,San José State,3921685,Josh Love,31.0
+2018,401012743,San José State,4036850,Montel Aaron,10.0
+2018,401012743,Oregon,-7045, Team,2.0
+2018,401012743,Oregon,4038941,Justin Herbert,34.0
+2018,401022521,Prairie View A&M,3933408,Jalen Morton,37.0
+2018,401022521,UNLV,4056052,Armani Rogers,21.0
+2018,401013039,Oklahoma,3917315,Kyler Murray,29.0
+2018,401013039,Iowa State,4035525,Zeb Noland,36.0
+2018,401012276,Murray State,3123209,Shuler Bentley,6.0
+2018,401012276,Murray State,4040826,Drew Anderson,32.0
+2018,401012276,Murray State,4249970,Preston Rice,3.0
+2018,401012276,Kentucky,4035051,Gunnar Hoak,5.0
+2018,401012276,Kentucky,4035072,Benny Snell Jr.,1.0
+2018,401012276,Kentucky,4038940,Terry Wilson,25.0
+2018,401022519,Utah State,4036378,Jordan Love,26.0
+2018,401022519,Utah State,4259219,Henry Colombi,9.0
+2018,401022519,Tennessee Tech,4034572,Luke Ward,10.0
+2018,401022519,Tennessee Tech,4368908,Bailey Fisher,14.0
+2018,401012745,Washington State,4038524,Gardner Minshew,57.0
+2018,401012745,Washington State,4055191,Trey Tinsley,8.0
+2018,401012745,Eastern Washington,3122176,Gage Gubrud,36.0
+2018,401012272,North Texas,547164,Quinn Shanbour,1.0
+2018,401012272,North Texas,4039073,Mason Fine,45.0
+2018,401012272,Arkansas,2027858, ,2.0
+2018,401012272,Arkansas,4035584,Cole Kelley,35.0
+2018,401012272,Arkansas,4372000,John Stephen Jones,3.0
+2018,401012272,Arkansas,4372004,Connor Noland,7.0
+2018,401013110,Georgia Southern,3917196,Obe Fortune,1.0
+2018,401013110,Georgia Southern,4036650,Shai Werts,8.0
+2018,401013110,Clemson,3728240,Kelly Bryant,10.0
+2018,401013110,Clemson,4239994,Chase Brice,2.0
+2018,401013110,Clemson,4360310,Trevor Lawrence,19.0
+2018,401013111,Syracuse,3916447,Eric Dungey,15.0
+2018,401013111,Syracuse,4240391,Tommy DeVito,15.0
+2018,401013111,Florida State,3921561,Deondre Francois,36.0
+2018,401013111,Florida State,3921571,Nyqwan Murray,1.0
+2018,401013112,Pittsburgh,4240703,Kenny Pickett,23.0
+2018,401013112,Georgia Tech,3917810,TaQuon Marshall,15.0
+2018,401013112,Georgia Tech,4391405,- 8p,1.0
+2018,401022520,Wyoming,4240351,Tyler Vander Waal,42.0
+2018,401022520,Wofford,4032575,Joe Newman,15.0
+2018,401014993,Charlotte,4259269,Chris Reynolds,34.0
+2018,401014993,Old Dominion,4243485,Steven Williams,28.0
+2018,401012890,Michigan,4035292,Shea Patterson,18.0
+2018,401012890,SMU,3916208,Ben Hicks,16.0
+2018,401012890,SMU,4243760,Tyler Page,1.0
+2018,401012890,SMU,4360537,William Brown,17.0
+2018,401013113,Louisville,4035995,Jawon Pass,3.0
+2018,401013113,Louisville,4240069,Malik Cunningham,18.0
+2018,401013113,Western Kentucky,4037556,Steven Duncan,5.0
+2018,401013113,Western Kentucky,4243456,Davis Shanley,33.0
+2018,401012747,Stanford,4044431,K.J. Costello,30.0
+2018,401012747,Stanford,4242546,Davis Mills,2.0
+2018,401012747,Stanford,4360738,Jack West,1.0
+2018,401012747,UC Davis,4248767,Carson Crawford,3.0
+2018,401012747,UC Davis,4248777,Jake Maier,45.0
+2018,401012747,UC Davis,4365938,Hunter Rodrigues,7.0
+2018,401012282,Texas A&M,4035225,Nick Starkel,3.0
+2018,401012282,Texas A&M,4240904,Kellen Mond,24.0
+2018,401012282,UL Monroe,4036585,Caleb Evans,28.0
+2018,401013439,New Mexico,3915379,Sheriron Jones,19.0
+2018,401013439,New Mexico State,3124971,Nick Jeanty,6.0
+2018,401013439,New Mexico State,4241635,Josh Adkins,21.0
+2018,401013439,New Mexico State,4361467,Matt Romero,13.0
+2018,401022522,Air Force,3935217,Andrew Smith,3.0
+2018,401022522,Air Force,4038186,Arion Worthman,4.0
+2018,401022522,Air Force,4239964,Isaiah Sanders,17.0
+2018,401022522,Utah State,3125366,Aaron Wade,3.0
+2018,401022522,Utah State,4036378,Jordan Love,38.0
+2018,401013075,Texas,4241820,Sam Ehlinger,32.0
+2018,401013075,TCU,-7595, Team,1.0
+2018,401013075,TCU,3676833,KaVontae Turpin,1.0
+2018,401013075,TCU,4034332,Michael Collins,9.0
+2018,401013075,TCU,4241784,Shawn Robinson,29.0
+2018,401014998,Southern Miss,4040407,Jack Abraham,34.0
+2018,401014998,Rice,3122170,Shawn Stankavage,26.0
+2018,401013129,Wake Forest,4037213,Jamie Newman,7.0
+2018,401013129,Wake Forest,4361994,Sam Hartman,24.0
+2018,401013129,Notre Dame,4046678,Ian Book,34.0
+2018,401013129,Notre Dame,4372768,Phil Jurkovec,2.0
+2018,401012290,Florida,4034946,Kyle Trask,1.0
+2018,401012290,Florida,4034948,Feleipe Franks,18.0
+2018,401012290,Tennessee,3117245,Keller Chryst,7.0
+2018,401012290,Tennessee,4035167,Jarrett Guarantano,18.0
+2018,401013124,Miami,3123047,Malik Rosier,3.0
+2018,401013124,Miami,4240628,N'Kosi Perry,25.0
+2018,401013124,Miami,4240633,Cade Weldon,1.0
+2018,401013124,Florida International,3914306,Christian Alexander,4.0
+2018,401013124,Florida International,3914395,James Morgan,24.0
+2018,401013126,Marshall,4261909,Isaiah Green,43.0
+2018,401013126,NC State,546288,Ryan Finley,40.0
+2018,401019490,Florida Atlantic,4040761,Devin Singletary,1.0
+2018,401019490,Florida Atlantic,4241399,Chris Robison,26.0
+2018,401019490,UCF,4042113,McKenzie Milton,32.0
+2018,401019494,Memphis,3893630,Brady White,29.0
+2018,401019494,Memphis,4039359,Darrell Henderson,1.0
+2018,401019494,South Alabama,3129265,Evan Orth,32.0
+2018,401014999,Texas State,3918122,Ishmael Davis,1.0
+2018,401014999,Texas State,4040546,Hutch White,1.0
+2018,401014999,Texas State,4241667,Jaylen Gipson,4.0
+2018,401014999,Texas State,4241669,Willie Jones III,1.0
+2018,401014999,Texas State,4362667,Tyler Vitt,22.0
+2018,401014999,UTSA,4362984,Cordale Grundy,35.0
+2018,401013122,Florida State,-5995, Team,1.0
+2018,401013122,Florida State,3921561,Deondre Francois,31.0
+2018,401013122,Northern Illinois,4039470,Marcus Childers,41.0
+2018,401021663,Louisiana,4241553,Andre Nunez,14.0
+2018,401021663,Louisiana,4241556,Levi Lewis,4.0
+2018,401021663,Coastal Carolina,-15591, Team,1.0
+2018,401021663,Coastal Carolina,3124529,Kilton Anderson,11.0
+2018,401021663,Coastal Carolina,4361032,Bryce Carpenter,5.0
+2018,401012291,Vanderbilt,3915776,Kyle Shurmur,38.0
+2018,401012291,Vanderbilt,4037118,Mo Hasan,2.0
+2018,401012291,South Carolina,4038809,Jake Bentley,28.0
+2018,401013324,Oklahoma State,3122424,Taylor Cornelius,38.0
+2018,401013324,Texas Tech,4362159,Alan Bowman,46.0
+2018,401013346,Tulane,3843247,Justin McMillan,2.0
+2018,401013346,Tulane,3916103,Jonathan Banks,14.0
+2018,401013346,Ohio State,4040616,Dwayne Haskins,24.0
+2018,401013346,Ohio State,4241992,Tate Martell,14.0
+2018,401013360,Massachusetts,4242394,Michael Curtis,19.0
+2018,401013360,Charlotte,3061283,- Team,1.0
+2018,401013360,Charlotte,3139889,Hasaan Klugh,1.0
+2018,401013360,Charlotte,4259269,Chris Reynolds,34.0
+2018,401013125,Pittsburgh,3895791,Dane Jackson,1.0
+2018,401013125,Pittsburgh,4240703,Kenny Pickett,33.0
+2018,401013125,North Carolina,3895838,Nathan Elliott,31.0
+2018,401013125,North Carolina,4393339,- 8p,1.0
+2018,401013440,UTEP,4362029,Kai Locksley,16.0
+2018,401013440,New Mexico State,4241635,Josh Adkins,18.0
+2018,401022523,Colorado State,3127291,K.J. Carta-Samuels,27.0
+2018,401022523,Colorado State,4036357,Collin Hill,17.0
+2018,401022523,Illinois State,3916142,Brady Davis,29.0
+2018,401016406,BYU,545796,Tanner Mangum,25.0
+2018,401016406,BYU,4361259,Zach Wilson,2.0
+2018,401016406,McNeese,3123719,James Tabary,21.0
+2018,401016406,McNeese,4051451,Cody Orgeron,5.0
+2018,401022524,Hawai'i,4038220,Cole McDonald,40.0
+2018,401022524,Duquesne,3910966,Brett Brumbaugh,2.0
+2018,401022524,Duquesne,3919110,Daniel Parr,24.0
+2018,401021661,App State,3933149,Zeb Speir,3.0
+2018,401021661,App State,4036427,Jacob Huesman,2.0
+2018,401021661,App State,4036429,Zac Thomas,15.0
+2018,401021661,App State,4240999,Peyton Derrick,7.0
+2018,401021661,Gardner-Webb,4246131,Jordan Smith,27.0
+2018,401021661,Gardner-Webb,4246132,Jaylen Myers,5.0
+2018,401013450,North Texas,4039073,Mason Fine,27.0
+2018,401013450,Liberty,4029885,Stephen Calvert,39.0
+2018,401013450,Liberty,4246920,DJ Stubbs,1.0
+2018,401020685,Nevada,3122611,Ty Gangi,50.0
+2018,401020685,Toledo,3932903,Mitchell Guadagni,24.0
+2018,401020685,Toledo,4039493,Desmond Phillips,1.0
+2018,401012289,Missouri,3924327,Drew Lock,48.0
+2018,401012289,Georgia,4240689,Jake Fromm,23.0
+2018,401012854,Michigan State,3929824,Brian Lewerke,25.0
+2018,401012854,Michigan State,4241983,Cody White,1.0
+2018,401012854,Indiana,4045290,Peyton Ramsey,46.0
+2018,401012891,Michigan,4035292,Shea Patterson,22.0
+2018,401012891,Michigan,4036262,Brandon Peters,1.0
+2018,401012891,Michigan,4258191,Dylan McCaffrey,8.0
+2018,401012891,Nebraska,4240792,Andrew Bunch,9.0
+2018,401012891,Nebraska,4361182,Adrian Martinez,15.0
+2018,401020811,Miami (OH),3125968,Gus Ragland,15.0
+2018,401020811,Bowling Green,-5422, Team,1.0
+2018,401020811,Bowling Green,4046743,Grant Loy,4.0
+2018,401020811,Bowling Green,4244029,Jarret Doege,45.0
+2018,401012286,Kentucky,4038940,Terry Wilson,14.0
+2018,401012286,Mississippi State,558337,Nick Fitzgerald,32.0
+2018,401013120,Georgia Tech,3917810,TaQuon Marshall,6.0
+2018,401013120,Georgia Tech,4240482,Tobias Oliver,2.0
+2018,401013120,Clemson,3728240,Kelly Bryant,10.0
+2018,401013120,Clemson,4239994,Chase Brice,2.0
+2018,401013120,Clemson,4360310,Trevor Lawrence,18.0
+2018,401013121,Duke,3917793,Quentin Harris,27.0
+2018,401013121,Duke,4240452,Chris Katrenick,12.0
+2018,401013121,North Carolina Central,4037398,Naiil Ramadan,15.0
+2018,401013121,North Carolina Central,4250678,Chauncey Caldwell,6.0
+2018,401019491,Cincinnati,-5625, Team,2.0
+2018,401019491,Cincinnati,4239086,Desmond Ridder,29.0
+2018,401019491,Ohio,4244688,Nathan Rourke,27.0
+2018,401020684,Central Michigan,4039268,Tommy Lazzaro,16.0
+2018,401020684,Maine,4034303,Chris Ferguson,4.0
+2018,401020684,Maine,4250012,Isaiah Robinson,32.0
+2018,401012823,Buffalo,3916564,Tyree Jackson,28.0
+2018,401012823,Rutgers,3127375,Giovanni Rescigno,24.0
+2018,401012823,Rutgers,4361530,Artur Sitkowski,13.0
+2018,401013029,Baylor,3116715,Jalan McClendon,2.0
+2018,401013029,Baylor,4241222,Charlie Brewer,27.0
+2018,401013029,Kansas,3127261,Peyton Bender,17.0
+2018,401013029,Kansas,3917957,Carter Stanley,6.0
+2018,401013029,Kansas,4360331,Miles Kendrick,4.0
+2018,401015000,Ball State,3915468,Riley Neal,45.0
+2018,401015000,Western Kentucky,4037556,Steven Duncan,16.0
+2018,401015000,Western Kentucky,4243456,Davis Shanley,19.0
+2018,401012285,Auburn,3892775,Jarrett Stidham,22.0
+2018,401012285,Arkansas,2027858, ,1.0
+2018,401012285,Arkansas,3886621,Ty Storey,31.0
+2018,401021662,Arkansas State,3116379,Justice Hansen,27.0
+2018,401021662,UNLV,4056052,Armani Rogers,21.0
+2018,401012751,Arizona State,3128814,Manny Wilkins,27.0
+2018,401012751,Washington,3886809,Andre Baccellia,1.0
+2018,401012751,Washington,3886812,Jake Browning,22.0
+2018,401012750,Arizona,4039602,Khalil Tate,17.0
+2018,401012750,Oregon State,4042803,Conor Blount,24.0
+2018,401012750,Oregon State,4360705,Jack Colletto,2.0
+2018,401013059,West Virginia,559556,Will Grier,35.0
+2018,401013059,West Virginia,4037449,Jack Allison,1.0
+2018,401013059,Kansas State,3886634,Alex Delton,12.0
+2018,401013059,Kansas State,4036419,Skylar John Thompson,17.0
+2018,401020686,Western Michigan,3916726,Jon Wassink,25.0
+2018,401020686,Georgia State,4361902,Dan Ellington,29.0
+2018,401013128,Virginia Tech,3917958,Ryan Willis,18.0
+2018,401013128,Virginia Tech,4037603,Josh Jackson,16.0
+2018,401013128,Old Dominion,3914543,Blake LaRussa,49.0
+2018,401013128,Old Dominion,4243485,Steven Williams,1.0
+2018,401012748,USC,4374303,JT Daniels,26.0
+2018,401012748,Washington State,4038524,Gardner Minshew,52.0
+2018,401021664,Troy,4039901,Sawyer Smith,4.0
+2018,401021664,Troy,4039910,Kaleb Barker,28.0
+2018,401021664,UL Monroe,4036585,Caleb Evans,48.0
+2018,401019493,Texas Southern,547963,Jay Christophe,8.0
+2018,401019493,Texas Southern,3126243,Glen Cuiellette,35.0
+2018,401019493,Houston,4039300,D'Eriq King,25.0
+2018,401019493,Houston,4360175,Clayton Tune,23.0
+2018,401019493,Houston,4360176,Ike Ogbogu,1.0
+2018,401013127,Syracuse,3916447,Eric Dungey,27.0
+2018,401013127,Syracuse,4240391,Tommy DeVito,4.0
+2018,401013127,Syracuse,4240408,Nykeim Johnson,1.0
+2018,401013127,UConn,4239134,David Pindell,24.0
+2018,401013127,UConn,4239141,Marvin Washington,5.0
+2018,401019492,South Florida,3858944,Blake Barnett,20.0
+2018,401019492,East Carolina,4038520,Reid Herring,48.0
+2018,401019492,East Carolina,4360131,Holton Ahlers,2.0
+2018,401012749,Oregon,4038941,Justin Herbert,33.0
+2018,401012749,Stanford,4044431,K.J. Costello,26.0
+2018,401012875,Minnesota,4360936,Zack Annexstad,32.0
+2018,401012875,Maryland,4241937,Kasim Hill,14.0
+2018,401013040,Akron,4038741,Kato Nelson,28.0
+2018,401013040,Iowa State,4035525,Zeb Noland,34.0
+2018,401012287,LSU,3915511,Joe Burrow,28.0
+2018,401012287,Louisiana Tech,3914382,J'Mar Smith,50.0
+2018,401019495,Navy,3916282,Garret Lewis,3.0
+2018,401019495,Navy,4039436,Malcolm Perry,1.0
+2018,401019495,SMU,3916208,Ben Hicks,3.0
+2018,401019495,SMU,4360537,William Brown,29.0
+2018,401012807,Penn State,3116172,Trace McSorley,19.0
+2018,401012807,Penn State,4259592,Sean Clifford,1.0
+2018,401012807,Illinois,3917634,Trenard Davis,1.0
+2018,401012807,Illinois,4360372,M.J. Rivers II,28.0
+2018,401012807,Illinois,4371942,Matt Robinson,2.0
+2018,401013119,Purdue,3116188,David Blough,28.0
+2018,401013119,Boston College,4035312,Anthony Brown,27.0
+2018,401013119,Boston College,4239936,EJ Perry,2.0
+2018,401013066,Oklahoma,3917315,Kyler Murray,15.0
+2018,401013066,Army,4036923,Kelvin Hopkins Jr.,7.0
+2018,401013066,Army,4258459,Fred Cooper Jr.,1.0
+2018,401013123,Louisville,3116660,Cornelius Sturghill,1.0
+2018,401013123,Louisville,4035995,Jawon Pass,19.0
+2018,401013123,Louisville,4240069,Malik Cunningham,9.0
+2018,401013123,Virginia,3675812,Bryce Perkins,24.0
+2018,401013123,Virginia,4037582,Hasise Dubois,1.0
+2018,401013123,Virginia,4370775,Brennan Armstrong,1.0
+2018,401013123,Virginia,4393280,- 3a,1.0
+2018,401012865,Wisconsin,3886609,Alex Hornibrook,22.0
+2018,401012865,Iowa,4036149,Nathan Stanley,22.0
+2018,401012284,Texas A&M,4035225,Nick Starkel,11.0
+2018,401012284,Texas A&M,4240904,Kellen Mond,33.0
+2018,401012284,Alabama,4040715,Jalen Hurts,3.0
+2018,401012284,Alabama,4241479,Tua Tagovailoa,30.0
+2018,401019489,Temple,4044122,Anthony Russo,20.0
+2018,401019489,Temple,4243276,Todd Centeio,1.0
+2018,401019489,Tulsa,4039664,Luke Skipper,40.0
+2018,401012288,Kent State,4038930,Kavious Price,1.0
+2018,401012288,Kent State,4362340,Woody Barrett,42.0
+2018,401012288,Ole Miss,4242418,Jordan Ta'amu,38.0
+2018,401020683,Eastern Michigan,3144983,Tyler Wiegers,11.0
+2018,401020683,Eastern Michigan,4259127,Mike Glass III,16.0
+2018,401020683,San Diego State,3921648,Ryan Agnew,22.0
+2018,401022525,Air Force,4038186,Arion Worthman,4.0
+2018,401022525,Air Force,4382332,Donald Hammond III,15.0
+2018,401022525,Nevada,3122611,Ty Gangi,33.0
+2018,401012752,Colorado,3122623,Jay MacIntyre,1.0
+2018,401012752,Colorado,3915436,Steven Montez,26.0
+2018,401012752,UCLA,4394325,- Thmpsn-Robinson,35.0
+2018,401013060,Texas,3127200,Tre Watson,1.0
+2018,401013060,Texas,4039057,Lil'Jordan Humphrey,1.0
+2018,401013060,Texas,4241820,Sam Ehlinger,36.0
+2018,401013060,Kansas State,3886634,Alex Delton,7.0
+2018,401013060,Kansas State,4036419,Skylar John Thompson,18.0
+2018,401012294,Southern Miss,4040407,Jack Abraham,44.0
+2018,401012294,Auburn,3892775,Jarrett Stidham,33.0
+2018,401013137,Wake Forest,3700815,Kendall Hinton,3.0
+2018,401013137,Wake Forest,4361994,Sam Hartman,17.0
+2018,401013137,Rice,3122170,Shawn Stankavage,32.0
+2018,401013466,Miami,4240628,N'Kosi Perry,12.0
+2018,401013466,North Carolina,3895838,Nathan Elliott,25.0
+2018,401013466,North Carolina,4037521,Chazz Surratt,10.0
+2018,401015005,Marshall,4261909,Isaiah Green,39.0
+2018,401015005,Western Kentucky,4037556,Steven Duncan,39.0
+2018,401015003,Florida Atlantic,3122720,Jake Stoshak,1.0
+2018,401015003,Florida Atlantic,4241399,Chris Robison,27.0
+2018,401015003,Middle Tennessee,545683,Brent Stockstill,40.0
+2018,401021667,Coastal Carolina,4361032,Bryce Carpenter,22.0
+2018,401021667,Troy,4039901,Sawyer Smith,3.0
+2018,401021667,Troy,4039910,Kaleb Barker,15.0
+2018,401021667,Troy,4241737,Luke Whittemore,1.0
+2018,401019496,Memphis,3893630,Brady White,30.0
+2018,401019496,Tulane,3843247,Justin McMillan,1.0
+2018,401019496,Tulane,3916103,Jonathan Banks,21.0
+2018,401021668,UL Monroe,3911475,JT Jackson,2.0
+2018,401021668,UL Monroe,4036585,Caleb Evans,32.0
+2018,401021668,Georgia State,4361902,Dan Ellington,18.0
+2018,401012755,Washington,3886812,Jake Browning,25.0
+2018,401012755,BYU,545796,Tanner Mangum,21.0
+2018,401013133,Florida State,3921561,Deondre Francois,27.0
+2018,401013133,Louisville,4035995,Jawon Pass,45.0
+2018,401012299,Vanderbilt,-7793, Team,1.0
+2018,401012299,Vanderbilt,3915776,Kyle Shurmur,29.0
+2018,401012299,Tennessee State,3728285,Demry Croft,31.0
+2018,401013131,Clemson,4239992,Amari Rodgers,1.0
+2018,401013131,Clemson,4239994,Chase Brice,13.0
+2018,401013131,Clemson,4360310,Trevor Lawrence,15.0
+2018,401013131,Syracuse,3916447,Eric Dungey,40.0
+2018,401013041,TCU,4241784,Shawn Robinson,29.0
+2018,401013041,Iowa State,4035525,Zeb Noland,28.0
+2018,401013361,Massachusetts,3116772,Andrew Ford,38.0
+2018,401013361,Massachusetts,3125927,Ross Comis,5.0
+2018,401013361,Ohio,4244688,Nathan Rourke,32.0
+2018,401022527,Hawai'i,4038220,Cole McDonald,57.0
+2018,401022527,San José State,3921685,Josh Love,49.0
+2018,401021665,App State,4036429,Zac Thomas,18.0
+2018,401021665,App State,4240999,Peyton Derrick,2.0
+2018,401021665,South Alabama,3129265,Evan Orth,33.0
+2018,401020688,Northern Illinois,4039470,Marcus Childers,35.0
+2018,401020688,Eastern Michigan,-5878, Team,1.0
+2018,401020688,Eastern Michigan,3144983,Tyler Wiegers,40.0
+2018,401013451,New Mexico,3915379,Sheriron Jones,27.0
+2018,401013451,New Mexico,4039390,Tevaka Tuioti,14.0
+2018,401013451,Liberty,4029885,Stephen Calvert,41.0
+2018,401013451,Liberty,4246897,Mason Cunningham,5.0
+2018,401013451,Liberty,4246920,DJ Stubbs,1.0
+2018,401013338,Nebraska,4361182,Adrian Martinez,42.0
+2018,401013338,Purdue,3116188,David Blough,42.0
+2018,401012881,Michigan State,3929824,Brian Lewerke,25.0
+2018,401012881,Central Michigan,4039268,Tommy Lazzaro,34.0
+2018,401012881,Central Michigan,4039274,Jonathan Ward,1.0
+2018,401012297,LSU,3915511,Joe Burrow,25.0
+2018,401012297,Ole Miss,4242418,Jordan Ta'amu,38.0
+2018,401015004,Louisiana Tech,3914382,J'Mar Smith,39.0
+2018,401015004,North Texas,4039073,Mason Fine,35.0
+2018,401012292,Louisiana,4241553,Andre Nunez,15.0
+2018,401012292,Louisiana,4241556,Levi Lewis,5.0
+2018,401012292,Alabama,4040715,Jalen Hurts,6.0
+2018,401012292,Alabama,4241464,Mac Jones,2.0
+2018,401012292,Alabama,4241479,Tua Tagovailoa,8.0
+2018,401012296,Kentucky,4038940,Terry Wilson,20.0
+2018,401012296,South Carolina,3126487,Michael Scarnecchia,6.0
+2018,401012296,South Carolina,4038809,Jake Bentley,28.0
+2018,401012824,Indiana,4045290,Peyton Ramsey,40.0
+2018,401012824,Rutgers,4361529,Isaih Pacheco,1.0
+2018,401012824,Rutgers,4361530,Artur Sitkowski,35.0
+2018,401012295,Georgia,4240689,Jake Fromm,22.0
+2018,401012295,Georgia,4362887,Justin Fields,2.0
+2018,401012295,Tennessee,4035167,Jarrett Guarantano,21.0
+2018,401020689,Fresno State,3127332,Marcus McMaryion,31.0
+2018,401020689,Fresno State,4242995,Jorge Reyna,1.0
+2018,401020689,Fresno State,4373896,Shawn Dourseau,1.0
+2018,401020689,Toledo,3932903,Mitchell Guadagni,10.0
+2018,401020689,Toledo,4039495,Eli Peters,21.0
+2018,401012298,Florida,4034948,Feleipe Franks,31.0
+2018,401012298,Florida,4240600,Kadarius Toney,1.0
+2018,401012298,Mississippi State,558337,Nick Fitzgerald,26.0
+2018,401013132,Duke,3917792,Daniel Jones,35.0
+2018,401013132,Duke,3917793,Quentin Harris,4.0
+2018,401013132,Virginia Tech,3917958,Ryan Willis,27.0
+2018,401013132,Virginia Tech,4260219,Sean Savoy,1.0
+2018,401019497,Cincinnati,3125813,Hayden Moore,3.0
+2018,401019497,Cincinnati,4239086,Desmond Ridder,26.0
+2018,401019497,UConn,4239134,David Pindell,23.0
+2018,401019497,UConn,4239141,Marvin Washington,13.0
+2018,401013134,Bowling Green,-5422, Team,1.0
+2018,401013134,Bowling Green,4046743,Grant Loy,4.0
+2018,401013134,Bowling Green,4244029,Jarret Doege,44.0
+2018,401013134,Georgia Tech,3917810,TaQuon Marshall,6.0
+2018,401013134,Georgia Tech,4240482,Tobias Oliver,1.0
+2018,401013130,Boston College,3929118,Jeff Smith,1.0
+2018,401013130,Boston College,4035312,Anthony Brown,33.0
+2018,401013130,Temple,4044122,Anthony Russo,45.0
+2018,401013130,Temple,4243276,Todd Centeio,2.0
+2018,401013130,Temple,4360973,Trad Beatty,1.0
+2018,401022526,Boise State,3722362,Brett Rypien,42.0
+2018,401022526,Boise State,4260440,Chase Cord,1.0
+2018,401022526,Wyoming,2028046, ,1.0
+2018,401022526,Wyoming,4240351,Tyler Vander Waal,25.0
+2018,401021666,Arkansas State,-5250, Team,1.0
+2018,401021666,Arkansas State,3116379,Justice Hansen,50.0
+2018,401021666,Georgia Southern,4036650,Shai Werts,3.0
+2018,401015002,Arkansas-Pine Bluff,4383504,Skyler Perry,19.0
+2018,401015002,Arkansas-Pine Bluff,4394626,C Robinson Ii,2.0
+2018,401015002,Florida International,3914306,Christian Alexander,5.0
+2018,401015002,Florida International,3914395,James Morgan,14.0
+2018,401012293,Arkansas,3886621,Ty Storey,26.0
+2018,401012293,Arkansas,4035584,Cole Kelley,1.0
+2018,401012293,Texas A&M,4240904,Kellen Mond,25.0
+2018,401012754,Arizona State,3128814,Manny Wilkins,25.0
+2018,401012754,Oregon State,4042803,Conor Blount,23.0
+2018,401012754,Oregon State,4255985,Aidan Willard,1.0
+2018,401013325,West Virginia,559556,Will Grier,41.0
+2018,401013325,Texas Tech,3139470,Jah'Shawn Johnson,1.0
+2018,401013325,Texas Tech,4043136,Jett Duffey,27.0
+2018,401013325,Texas Tech,4362159,Alan Bowman,20.0
+2018,401020750,Western Michigan,3916726,Jon Wassink,42.0
+2018,401020750,Miami (OH),3125968,Gus Ragland,32.0
+2018,401012756,Washington State,3958689,- 1a,1.0
+2018,401012756,Washington State,4038524,Gardner Minshew,56.0
+2018,401012756,Utah,4035671,Tyler Huntley,20.0
+2018,401012756,Utah,4035672,Nygel King,1.0
+2018,401012756,Utah,4035680,Demari Simpkins,1.0
+2018,401012753,USC,4374303,JT Daniels,24.0
+2018,401012753,Arizona,4039602,Khalil Tate,33.0
+2018,401015001,UAB,545682,A.J. Erdely,16.0
+2018,401015001,UAB,4239793,Tyler Johnston III,1.0
+2018,401015001,UAB,4239837,Andre Wilson,1.0
+2018,401015001,Charlotte,4259269,Chris Reynolds,25.0
+2018,401019498,SMU,3916208,Ben Hicks,12.0
+2018,401019498,SMU,4046731,Jamie Sackville,2.0
+2018,401019498,SMU,4243765,Austin Upshaw,3.0
+2018,401019498,SMU,4360537,William Brown,20.0
+2018,401019498,Houston Christian,4051055,Andrew Haidet,1.0
+2018,401019498,Houston Christian,4250360,Bailey Zappe,50.0
+2018,401012757,Oregon,4038941,Justin Herbert,22.0
+2018,401012757,California,3127211,Patrick Laird,1.0
+2018,401012757,California,4038833,Brandon McIlwain,21.0
+2018,401012757,California,4242408,Chase Garbers,9.0
+2018,401013030,Oklahoma,3917315,Kyler Murray,21.0
+2018,401013030,Oklahoma,4037642,Austin Kendall,2.0
+2018,401013030,Baylor,3116715,Jalan McClendon,3.0
+2018,401013030,Baylor,4241222,Charlie Brewer,60.0
+2018,401013347,Ohio State,4040616,Dwayne Haskins,39.0
+2018,401013347,Penn State,3116172,Trace McSorley,32.0
+2018,401012758,Notre Dame,4046678,Ian Book,33.0
+2018,401012758,Stanford,4044431,K.J. Costello,27.0
+2018,401012892,Northwestern,-6958, Team,2.0
+2018,401012892,Northwestern,3116144,Clayton Thorson,27.0
+2018,401012892,Michigan,4035292,Shea Patterson,24.0
+2018,401013135,NC State,546288,Ryan Finley,32.0
+2018,401013135,Virginia,3675812,Bryce Perkins,35.0
+2018,401013136,UCF,4042113,McKenzie Milton,34.0
+2018,401013136,Pittsburgh,4240703,Kenny Pickett,26.0
+2018,401013050,Oklahoma State,3122424,Taylor Cornelius,20.0
+2018,401013050,Kansas,3917957,Carter Stanley,32.0
+2018,401013369,Buffalo,3916564,Tyree Jackson,24.0
+2018,401013369,Army,4036923,Kelvin Hopkins Jr.,5.0
+2018,401015006,Old Dominion,3914543,Blake LaRussa,36.0
+2018,401015006,East Carolina,4038520,Reid Herring,42.0
+2018,401015006,East Carolina,4360131,Holton Ahlers,3.0
+2018,401015007,UTSA,4362984,Cordale Grundy,35.0
+2018,401015007,UTEP,3124698,Ryan Metz,3.0
+2018,401015007,UTEP,4362029,Kai Locksley,16.0
+2018,401020687,Kent State,4362340,Woody Barrett,44.0
+2018,401020687,Ball State,3915468,Riley Neal,50.0
+2018,401020687,Ball State,4039210,Drew Plitt,2.0
+2018,401012300,Alabama,4040715,Jalen Hurts,5.0
+2018,401012300,Alabama,4241479,Tua Tagovailoa,13.0
+2018,401012300,Arkansas,3886621,Ty Storey,39.0
+2018,401012300,Arkansas,4035584,Cole Kelley,1.0
+2018,401019504,Air Force,4382332,Donald Hammond III,10.0
+2018,401019504,Navy,3916282,Garret Lewis,6.0
+2018,401019504,Navy,4039436,Malcolm Perry,6.0
+2018,401012761,Colorado,3915436,Steven Montez,33.0
+2018,401012761,Arizona State,3128814,Manny Wilkins,18.0
+2018,401013140,Wake Forest,3700815,Kendall Hinton,5.0
+2018,401013140,Wake Forest,4256908,Matthew Considine,2.0
+2018,401013140,Wake Forest,4361994,Sam Hartman,20.0
+2018,401013140,Clemson,3135321,Hunter Renfrow,1.0
+2018,401013140,Clemson,4239994,Chase Brice,4.0
+2018,401013140,Clemson,4360310,Trevor Lawrence,25.0
+2018,401013141,Miami,4240628,N'Kosi Perry,32.0
+2018,401013141,Florida State,-5995, Team,1.0
+2018,401013141,Florida State,3921561,Deondre Francois,30.0
+2018,401013141,Florida State,4240020,James Blackman,1.0
+2018,401015010,Marshall,-6530, Team,1.0
+2018,401015010,Marshall,3913137,Alex Thomson,34.0
+2018,401015010,Middle Tennessee,545683,Brent Stockstill,40.0
+2018,401015008,Florida Atlantic,4241399,Chris Robison,32.0
+2018,401015008,Old Dominion,3914537,Miles Fox,1.0
+2018,401015008,Old Dominion,3914543,Blake LaRussa,50.0
+2018,401012759,California,4038833,Brandon McIlwain,43.0
+2018,401012759,Arizona,4039602,Khalil Tate,25.0
+2018,401019502,Memphis,3893630,Brady White,18.0
+2018,401019502,Memphis,4243364,Connor Adair,1.0
+2018,401019502,UConn,4239134,David Pindell,37.0
+2018,401019502,UConn,4239141,Marvin Washington,6.0
+2018,401013051,Kansas,3127261,Peyton Bender,25.0
+2018,401013051,Kansas,3917957,Carter Stanley,8.0
+2018,401013051,Kansas,3917960,Steven Sims Jr.,1.0
+2018,401013051,West Virginia,559556,Will Grier,41.0
+2018,401021671,Texas State,4040546,Hutch White,2.0
+2018,401021671,Texas State,4362667,Tyler Vitt,39.0
+2018,401021671,Louisiana,4241553,Andre Nunez,18.0
+2018,401021671,Louisiana,4241556,Levi Lewis,5.0
+2018,401012303,UL Monroe,4036585,Caleb Evans,28.0
+2018,401012303,UL Monroe,4365325,Colby Suits,10.0
+2018,401012303,Ole Miss,4242418,Jordan Ta'amu,24.0
+2018,401012303,Ole Miss,4362874,Matt Corral,10.0
+2018,401012760,Washington,3886812,Jake Browning,26.0
+2018,401012760,UCLA,4367178,Dorian Thompson-Robinson,38.0
+2018,401012302,Vanderbilt,3915776,Kyle Shurmur,28.0
+2018,401012302,Vanderbilt,4037118,Mo Hasan,2.0
+2018,401012302,Georgia,4240689,Jake Fromm,23.0
+2018,401012302,Georgia,4362887,Justin Fields,6.0
+2018,401012302,Georgia,4379400,Matthew Downing,2.0
+2018,401012876,Maryland,4036210,Tyrrell Pigrome,3.0
+2018,401012876,Maryland,4241937,Kasim Hill,10.0
+2018,401012876,Michigan,3929923,Grant Perry,1.0
+2018,401012876,Michigan,4035292,Shea Patterson,27.0
+2018,401013042,Oklahoma State,3122424,Taylor Cornelius,33.0
+2018,401013042,Iowa State,4035525,Zeb Noland,2.0
+2018,401013042,Iowa State,4361741,Brock Purdy,23.0
+2018,401019501,Tulane,3843247,Justin McMillan,25.0
+2018,401019501,Tulane,3916103,Jonathan Banks,5.0
+2018,401019501,Cincinnati,4239086,Desmond Ridder,25.0
+2018,401013362,Massachusetts,3116772,Andrew Ford,27.0
+2018,401013362,Massachusetts,3125927,Ross Comis,23.0
+2018,401013362,Massachusetts,4242394,Michael Curtis,2.0
+2018,401013362,South Florida,3858944,Blake Barnett,24.0
+2018,401015011,UTEP,3124698,Ryan Metz,33.0
+2018,401015011,North Texas,4039073,Mason Fine,34.0
+2018,401022529,Colorado State,3127291,K.J. Carta-Samuels,27.0
+2018,401022529,Colorado State,4036357,Collin Hill,2.0
+2018,401022529,San José State,3921685,Josh Love,40.0
+2018,401022529,San José State,4036850,Montel Aaron,3.0
+2018,401022531,Hawai'i,4373934,Chevan Cordeiro,29.0
+2018,401022531,Wyoming,2028046, ,1.0
+2018,401022531,Wyoming,3125418,Nick Smith,1.0
+2018,401022531,Wyoming,4240351,Tyler Vander Waal,16.0
+2018,401022530,New Mexico,-6869, Team,1.0
+2018,401022530,New Mexico,3915379,Sheriron Jones,20.0
+2018,401022530,UNLV,4035856,Max Gilliam,35.0
+2018,401012304,Mississippi State,558337,Nick Fitzgerald,17.0
+2018,401012304,Auburn,3892775,Jarrett Stidham,38.0
+2018,401012305,Missouri,3924327,Drew Lock,36.0
+2018,401012305,South Carolina,3126487,Michael Scarnecchia,35.0
+2018,401012882,Michigan State,-6639, Team,1.0
+2018,401012882,Michigan State,3929824,Brian Lewerke,51.0
+2018,401012882,Northwestern,3116144,Clayton Thorson,47.0
+2018,401013441,Liberty,4029885,Stephen Calvert,54.0
+2018,401013441,New Mexico State,4241635,Josh Adkins,51.0
+2018,401019499,Houston,4039300,D'Eriq King,27.0
+2018,401019499,Tulsa,4244601,Seth Boomer,31.0
+2018,401022532,Fresno State,3127332,Marcus McMaryion,28.0
+2018,401022532,Nevada,3914836,Cristian Solano,43.0
+2018,401020753,Eastern Michigan,3144983,Tyler Wiegers,7.0
+2018,401020753,Eastern Michigan,4259127,Mike Glass III,24.0
+2018,401020753,Western Michigan,3916726,Jon Wassink,27.0
+2018,401020752,Buffalo,3916564,Tyree Jackson,20.0
+2018,401020752,Central Michigan,4039268,Tommy Lazzaro,23.0
+2018,401020752,Central Michigan,4039271,Tony Poljan,10.0
+2018,401020751,Bowling Green,4244029,Jarret Doege,34.0
+2018,401020751,Toledo,4039495,Eli Peters,35.0
+2018,401022528,Boise State,3722362,Brett Rypien,41.0
+2018,401022528,Boise State,4260440,Chase Cord,3.0
+2018,401022528,San Diego State,3921648,Ryan Agnew,15.0
+2018,401015012,UTSA,3121549,D.J. Gillins,4.0
+2018,401015012,UTSA,4362984,Cordale Grundy,18.0
+2018,401015012,Rice,3122170,Shawn Stankavage,27.0
+2018,401015012,Rice,3916370,Jack Fox,1.0
+2018,401015012,Rice,3916383,Jackson Tyner,2.0
+2018,401013339,Wisconsin,3886609,Alex Hornibrook,24.0
+2018,401013339,Nebraska,4240792,Andrew Bunch,2.0
+2018,401013339,Nebraska,4361182,Adrian Martinez,42.0
+2018,401012762,Washington State,4038524,Gardner Minshew,40.0
+2018,401012762,Oregon State,4042803,Conor Blount,21.0
+2018,401012762,Oregon State,4360705,Jack Colletto,5.0
+2018,401016407,Utah State,4036378,Jordan Love,28.0
+2018,401016407,BYU,545796,Tanner Mangum,45.0
+2018,401016407,BYU,4361259,Zach Wilson,4.0
+2018,401012763,Utah,4035671,Tyler Huntley,21.0
+2018,401012763,Stanford,-7422, Team,2.0
+2018,401012763,Stanford,4044431,K.J. Costello,40.0
+2018,401012306,Texas A&M,-7622, Team,1.0
+2018,401012306,Texas A&M,4240904,Kellen Mond,29.0
+2018,401012306,Kentucky,4038940,Terry Wilson,20.0
+2018,401013142,Syracuse,3916447,Eric Dungey,38.0
+2018,401013142,Pittsburgh,4240703,Kenny Pickett,20.0
+2018,401012855,Ohio State,4040616,Dwayne Haskins,44.0
+2018,401012855,Indiana,4045290,Peyton Ramsey,49.0
+2018,401020755,Ohio,3932784,Marcus Brunson,1.0
+2018,401020755,Ohio,4244688,Nathan Rourke,20.0
+2018,401020755,Kent State,4362340,Woody Barrett,35.0
+2018,401013143,Notre Dame,4046678,Ian Book,35.0
+2018,401013143,Virginia Tech,3917958,Ryan Willis,52.0
+2018,401012866,Minnesota,3728299,Jacob Herbers,1.0
+2018,401012866,Minnesota,4034772,Seth Green,2.0
+2018,401012866,Minnesota,4360936,Zack Annexstad,33.0
+2018,401012866,Iowa,4036149,Nathan Stanley,39.0
+2018,401015009,UAB,545682,A.J. Erdely,24.0
+2018,401015009,UAB,3116647,Duke Culver,3.0
+2018,401015009,Louisiana Tech,3914382,J'Mar Smith,23.0
+2018,401013139,NC State,546288,Ryan Finley,34.0
+2018,401013139,Boston College,4035312,Anthony Brown,25.0
+2018,401020812,Akron,4038741,Kato Nelson,35.0
+2018,401020812,Miami (OH),3125968,Gus Ragland,33.0
+2018,401020754,Northern Illinois,4039470,Marcus Childers,29.0
+2018,401020754,Ball State,3915468,Riley Neal,56.0
+2018,401019500,UCF,4042113,McKenzie Milton,34.0
+2018,401019500,UCF,4243535,D.J. Mack Jr.,3.0
+2018,401019500,SMU,3916208,Ben Hicks,23.0
+2018,401019500,SMU,4360537,William Brown,19.0
+2018,401012301,LSU,3915511,Joe Burrow,34.0
+2018,401012301,Florida,4034948,Feleipe Franks,27.0
+2018,401012301,Florida,4360231,Lucas Krull,1.0
+2018,401021670,Georgia Southern,4036650,Shai Werts,8.0
+2018,401021670,South Alabama,3129265,Evan Orth,30.0
+2018,401021670,South Alabama,4249400,Cephus Johnson,1.0
+2018,401013031,Baylor,4241222,Charlie Brewer,44.0
+2018,401013031,Baylor,4259169,Trestan Ebner,1.0
+2018,401013031,Kansas State,4036419,Skylar John Thompson,26.0
+2018,401012808,Illinois,3116087,AJ Bush,18.0
+2018,401012808,Illinois,3917634,Trenard Davis,1.0
+2018,401012808,Rutgers,4361530,Artur Sitkowski,46.0
+2018,401013067,Oklahoma,3917315,Kyler Murray,25.0
+2018,401013067,Oklahoma,4037642,Austin Kendall,1.0
+2018,401013067,Texas,4039057,Lil'Jordan Humphrey,2.0
+2018,401013067,Texas,4241820,Sam Ehlinger,35.0
+2018,401013138,Georgia Tech,3917810,TaQuon Marshall,2.0
+2018,401013138,Louisville,4035995,Jawon Pass,35.0
+2018,401013138,Louisville,4360799,Jordan Travis,9.0
+2018,401019503,Temple,4044122,Anthony Russo,25.0
+2018,401019503,Temple,4243276,Todd Centeio,5.0
+2018,401019503,East Carolina,4038520,Reid Herring,31.0
+2018,401019503,East Carolina,4239400,Kingsley Ifedi,4.0
+2018,401019503,East Carolina,4360131,Holton Ahlers,4.0
+2018,401021669,Georgia State,4361902,Dan Ellington,36.0
+2018,401021669,Troy,4039901,Sawyer Smith,15.0
+2018,401021669,Troy,4039910,Kaleb Barker,10.0
+2018,401012310,Georgia,4240689,Jake Fromm,34.0
+2018,401012310,LSU,3915511,Joe Burrow,30.0
+2018,401012312,Florida,4034948,Feleipe Franks,29.0
+2018,401012312,Vanderbilt,3915776,Kyle Shurmur,36.0
+2018,401012309,Tennessee,4035167,Jarrett Guarantano,32.0
+2018,401012309,Auburn,3892775,Jarrett Stidham,45.0
+2018,401012309,Auburn,-5275, Team,1.0
+2018,401012311,South Carolina,4038809,Jake Bentley,35.0
+2018,401012311,Texas A&M,4240904,Kellen Mond,37.0
+2018,401013061,Oklahoma State,3122424,Taylor Cornelius,35.0
+2018,401013061,Kansas State,4036419,Skylar John Thompson,22.0
+2018,401013032,Baylor,4241222,Charlie Brewer,38.0
+2018,401013032,Baylor,-5327, Team,1.0
+2018,401013032,Texas,4039034,Shane Buechele,34.0
+2018,401013032,Texas,4241820,Sam Ehlinger,5.0
+2018,401013043,Iowa State,4361741,Brock Purdy,25.0
+2018,401013043,West Virginia,559556,Will Grier,15.0
+2018,401013043,West Virginia,4039230,Brendan Ferns,1.0
+2018,401013076,Texas Tech,4043136,Jett Duffey,24.0
+2018,401013076,Texas Tech,3910083,McLane Carter,3.0
+2018,401013076,TCU,4241784,Shawn Robinson,45.0
+2018,401015018,Rice,3122170,Shawn Stankavage,12.0
+2018,401015018,Rice,4244861,Evan Marshman,16.0
+2018,401015018,UAB,545682,A.J. Erdely,17.0
+2018,401015018,UAB,4239793,Tyler Johnston III,2.0
+2018,401012766,Oregon,4038941,Justin Herbert,32.0
+2018,401012766,Washington,3886812,Jake Browning,25.0
+2018,401012767,California,4038833,Brandon McIlwain,32.0
+2018,401012767,California,3127211,Patrick Laird,1.0
+2018,401012767,California,2991797,- Team,1.0
+2018,401012767,UCLA,4367178,Dorian Thompson-Robinson,15.0
+2018,401012765,USC,4374303,JT Daniels,34.0
+2018,401012765,Colorado,3915436,Steven Montez,46.0
+2018,401016408,BYU,4361259,Zach Wilson,24.0
+2018,401016408,Hawai'i,4038220,Cole McDonald,38.0
+2018,401013442,New Mexico State,4241635,Josh Adkins,44.0
+2018,401013442,Louisiana,4241553,Andre Nunez,25.0
+2018,401013442,Louisiana,4241556,Levi Lewis,4.0
+2018,401013452,Liberty,4029885,Stephen Calvert,32.0
+2018,401013452,Troy,4039901,Sawyer Smith,25.0
+2018,401013452,Troy,4362723,Gunnar Watson,4.0
+2018,401013452,Troy,-7679, Team,1.0
+2018,401020810,Miami (OH),3125968,Gus Ragland,24.0
+2018,401020810,Miami (OH),3672880,Alex James Malzone,1.0
+2018,401020810,Kent State,4362340,Woody Barrett,29.0
+2018,401020758,Ohio,4244688,Nathan Rourke,23.0
+2018,401020758,Northern Illinois,4039470,Marcus Childers,33.0
+2018,401020756,Akron,4038741,Kato Nelson,29.0
+2018,401020756,Akron,4053896,Alvin Davis,2.0
+2018,401020756,Buffalo,3916564,Tyree Jackson,30.0
+2018,401020759,Toledo,3932903,Mitchell Guadagni,27.0
+2018,401020759,Eastern Michigan,4259127,Mike Glass III,8.0
+2018,401020759,Eastern Michigan,3144983,Tyler Wiegers,15.0
+2018,401012764,Utah,4035671,Tyler Huntley,19.0
+2018,401012764,Utah,3926231,Britain Covey,2.0
+2018,401012764,Utah,4243258,Jason Shelley,1.0
+2018,401012764,Arizona,4245679,Rhett Rodriguez,38.0
+2018,401012764,Arizona,4372597,Jamarye Joiner,4.0
+2018,401012764,Arizona,4039602,Khalil Tate,4.0
+2018,401015014,Middle Tennessee,4374350,Asher O'Hara,20.0
+2018,401015014,Middle Tennessee,545683,Brent Stockstill,7.0
+2018,401015014,Florida International,3914395,James Morgan,36.0
+2018,401015017,North Texas,4039073,Mason Fine,38.0
+2018,401015017,Southern Miss,4040407,Jack Abraham,42.0
+2018,401015017,Southern Miss,4039275,Kwadra Griggs,2.0
+2018,401015015,UTSA,4362984,Cordale Grundy,38.0
+2018,401015015,UTSA,4362982,Jordan Weeks,2.0
+2018,401015015,Louisiana Tech,3914382,J'Mar Smith,36.0
+2018,401015015,Louisiana Tech,-6384, Team,1.0
+2018,401015013,Western Kentucky,4243456,Davis Shanley,29.0
+2018,401015013,Western Kentucky,4037556,Steven Duncan,10.0
+2018,401015013,Charlotte,4259269,Chris Reynolds,19.0
+2018,401015013,Charlotte,3917848,Evan Shirreffs,7.0
+2018,401015013,Charlotte,4396555,- 12,1.0
+2018,401021675,Alabama State,4250415,KaDarius Davis,8.0
+2018,401021675,Alabama State,4250414,Darryl Pearson Jr.,9.0
+2018,401021675,Alabama State,4058637,Dakota Rocker,2.0
+2018,401021675,South Alabama,3129265,Evan Orth,15.0
+2018,401021675,South Alabama,4249400,Cephus Johnson,2.0
+2018,401012307,Alabama,4241479,Tua Tagovailoa,22.0
+2018,401012307,Alabama,4040715,Jalen Hurts,8.0
+2018,401012307,Missouri,3924327,Drew Lock,26.0
+2018,401012308,Ole Miss,4242418,Jordan Ta'amu,35.0
+2018,401012308,Arkansas,3886621,Ty Storey,16.0
+2018,401012308,Arkansas,4035584,Cole Kelley,5.0
+2018,401012308,Arkansas,559629,Jared Cornelius,1.0
+2018,401020760,Western Michigan,3916726,Jon Wassink,37.0
+2018,401020760,Bowling Green,4244029,Jarret Doege,34.0
+2018,401020760,Bowling Green,4046743,Grant Loy,1.0
+2018,401020760,Bowling Green,4362121,James Harris Jr.,1.0
+2018,401020757,Ball State,3915468,Riley Neal,26.0
+2018,401020757,Ball State,3125731,Corey Lacanaria,1.0
+2018,401020757,Central Michigan,4039268,Tommy Lazzaro,22.0
+2018,401020757,Central Michigan,4039274,Jonathan Ward,1.0
+2018,401015016,Marshall,3913137,Alex Thomson,29.0
+2018,401015016,Old Dominion,3914543,Blake LaRussa,54.0
+2018,401013331,Ohio State,4040616,Dwayne Haskins,44.0
+2018,401013331,Minnesota,4360936,Zack Annexstad,23.0
+2018,401012883,Michigan State,3929824,Brian Lewerke,52.0
+2018,401012883,Michigan State,4241961,Connor Heyward,1.0
+2018,401012883,Penn State,3116172,Trace McSorley,32.0
+2018,401012825,Maryland,4241937,Kasim Hill,17.0
+2018,401012825,Maryland,4036210,Tyrrell Pigrome,3.0
+2018,401012825,Rutgers,4361530,Artur Sitkowski,16.0
+2018,401012825,Rutgers,3127375,Giovanni Rescigno,1.0
+2018,401012893,Michigan,4035292,Shea Patterson,20.0
+2018,401012893,Wisconsin,3886609,Alex Hornibrook,20.0
+2018,401012856,Indiana,4045290,Peyton Ramsey,42.0
+2018,401012856,Iowa,4036149,Nathan Stanley,33.0
+2018,401013340,Nebraska,4361182,Adrian Martinez,35.0
+2018,401013340,Northwestern,3116144,Clayton Thorson,64.0
+2018,401013340,Northwestern,-6958, Team,1.0
+2018,401012809,Illinois,3116087,AJ Bush,25.0
+2018,401012809,Illinois,4371942,Matt Robinson,4.0
+2018,401012809,Purdue,3116188,David Blough,36.0
+2018,401012809,Purdue,4035711,Jared Sparks,1.0
+2018,401013370,Army,4036923,Kelvin Hopkins Jr.,5.0
+2018,401013370,San José State,4036850,Montel Aaron,17.0
+2018,401013370,San José State,4036857,Michael Carrillo,1.0
+2018,401013148,Notre Dame,4046678,Ian Book,32.0
+2018,401013148,Pittsburgh,4240703,Kenny Pickett,28.0
+2018,401013148,Pittsburgh,3123944,Qadree Ollison,1.0
+2018,401013148,Pittsburgh,3861927,Jeff George Jr.,1.0
+2018,401013148,Pittsburgh,4373337,Chris Maloney,1.0
+2018,401021672,Arkansas State,3116379,Justice Hansen,40.0
+2018,401021672,Arkansas State,4036473,Logan Bonner,5.0
+2018,401021672,App State,4036429,Zac Thomas,27.0
+2018,401021674,UL Monroe,4036585,Caleb Evans,22.0
+2018,401021674,Coastal Carolina,4361032,Bryce Carpenter,19.0
+2018,401021674,Coastal Carolina,4361033,Fred Payton,3.0
+2018,401021674,Coastal Carolina,4030393,Chandler Kryst,1.0
+2018,401021674,Coastal Carolina,-15591, Team,1.0
+2018,401021673,Texas State,4362667,Tyler Vitt,21.0
+2018,401021673,Texas State,4241669,Willie Jones III,6.0
+2018,401021673,Georgia Southern,4036650,Shai Werts,12.0
+2018,401019508,Temple,4044122,Anthony Russo,31.0
+2018,401019508,Temple,4243276,Todd Centeio,1.0
+2018,401019508,Navy,3916282,Garret Lewis,11.0
+2018,401019505,South Florida,3858944,Blake Barnett,39.0
+2018,401019505,South Florida,-7376, Team,1.0
+2018,401019505,Tulsa,4244601,Seth Boomer,21.0
+2018,401019507,East Carolina,4038520,Reid Herring,42.0
+2018,401019507,East Carolina,4360131,Holton Ahlers,18.0
+2018,401019507,East Carolina,4239400,Kingsley Ifedi,3.0
+2018,401019507,Houston,4039300,D'Eriq King,23.0
+2018,401019507,Houston,4240251,Bryson Smith,1.0
+2018,401019507,Houston,4360175,Clayton Tune,4.0
+2018,401019506,UCF,4042113,McKenzie Milton,29.0
+2018,401019506,Memphis,3893630,Brady White,29.0
+2018,401013144,Boston College,4035312,Anthony Brown,22.0
+2018,401013144,Louisville,4035995,Jawon Pass,31.0
+2018,401013144,Louisville,4360799,Jordan Travis,4.0
+2018,401013147,Virginia Tech,3917958,Ryan Willis,36.0
+2018,401013147,North Carolina,3895838,Nathan Elliott,14.0
+2018,401013147,North Carolina,4361573,Cade Fortin,18.0
+2018,401013147,North Carolina,4240661,Dazz Newsome,1.0
+2018,401013147,North Carolina,3895828,Anthony Ratliff-Williams,1.0
+2018,401013146,Miami,3123047,Malik Rosier,23.0
+2018,401013146,Miami,4240628,N'Kosi Perry,6.0
+2018,401013146,Virginia,3675812,Bryce Perkins,21.0
+2018,401013145,Georgia Tech,3917810,TaQuon Marshall,11.0
+2018,401013145,Georgia Tech,4240482,Tobias Oliver,6.0
+2018,401013145,Georgia Tech,4360581,Jaylen Jackson,1.0
+2018,401013145,Duke,3917792,Daniel Jones,27.0
+2018,401022536,Utah State,4036378,Jordan Love,23.0
+2018,401022536,Utah State,4259219,Henry Colombi,8.0
+2018,401022536,UNLV,4035856,Max Gilliam,36.0
+2018,401022534,Boise State,3722362,Brett Rypien,38.0
+2018,401022534,Nevada,3122611,Ty Gangi,41.0
+2018,401022534,Nevada,4396692,- Of,1.0
+2018,401022535,Colorado State,3127291,K.J. Carta-Samuels,42.0
+2018,401022535,New Mexico,3915379,Sheriron Jones,20.0
+2018,401022535,New Mexico,4286787,- 1,1.0
+2018,401022537,Wyoming,4240351,Tyler Vander Waal,32.0
+2018,401022537,Fresno State,3127332,Marcus McMaryion,32.0
+2018,401022533,Air Force,4239964,Isaiah Sanders,15.0
+2018,401022533,Air Force,4382332,Donald Hammond III,1.0
+2018,401022533,Air Force,3935217,Andrew Smith,1.0
+2018,401022533,San Diego State,3921648,Ryan Agnew,25.0
+2018,401012318,Tennessee,3117245,Keller Chryst,15.0
+2018,401012318,Tennessee,4035167,Jarrett Guarantano,10.0
+2018,401012318,Alabama,4241479,Tua Tagovailoa,29.0
+2018,401012318,Alabama,4040715,Jalen Hurts,3.0
+2018,401012314,Kentucky,4038940,Terry Wilson,9.0
+2018,401012314,Vanderbilt,3915776,Kyle Shurmur,23.0
+2018,401013363,Massachusetts,3116772,Andrew Ford,34.0
+2018,401013363,Massachusetts,3125927,Ross Comis,9.0
+2018,401013363,Coastal Carolina,3124529,Kilton Anderson,10.0
+2018,401013363,Coastal Carolina,4361033,Fred Payton,7.0
+2018,401013363,Coastal Carolina,4361032,Bryce Carpenter,1.0
+2018,401013052,Texas Tech,4362159,Alan Bowman,46.0
+2018,401013052,Texas Tech,4043136,Jett Duffey,3.0
+2018,401013052,Kansas,3127261,Peyton Bender,41.0
+2018,401013068,TCU,4034332,Michael Collins,17.0
+2018,401013068,TCU,4241784,Shawn Robinson,8.0
+2018,401013068,Oklahoma,3917315,Kyler Murray,24.0
+2018,401013068,Oklahoma,4241389,CeeDee Lamb,1.0
+2018,401015022,UTEP,3124698,Ryan Metz,17.0
+2018,401015022,UTEP,4362030,Brandon Jones,15.0
+2018,401015022,UTEP,3915880,Terry Juniel,1.0
+2018,401015022,Louisiana Tech,3914382,J'Mar Smith,29.0
+2018,401015020,Rice,4244861,Evan Marshman,15.0
+2018,401015020,Rice,4362537,Andrew Bird,1.0
+2018,401015020,Rice,4362528,Wiley Green,6.0
+2018,401015020,Rice,4398969,- 5o,1.0
+2018,401015020,Florida International,3914395,James Morgan,29.0
+2018,401012773,Oregon,4038941,Justin Herbert,44.0
+2018,401012773,Washington State,4038524,Gardner Minshew,51.0
+2018,401012768,Stanford,4044431,K.J. Costello,29.0
+2018,401012768,Arizona State,3128814,Manny Wilkins,42.0
+2018,401012768,Arizona State,-5234, Team,1.0
+2018,401012768,Arizona State,4047839,N'Keal Harry,1.0
+2018,401012772,Washington,3886812,Jake Browning,25.0
+2018,401012772,Colorado,3915436,Steven Montez,28.0
+2018,401012771,California,4242408,Chase Garbers,26.0
+2018,401012771,Oregon State,4360705,Jack Colletto,20.0
+2018,401012771,Oregon State,4042803,Conor Blount,13.0
+2018,401012770,USC,4374303,JT Daniels,16.0
+2018,401012770,USC,4035691,Matt Fink,7.0
+2018,401012770,Utah,4035671,Tyler Huntley,29.0
+2018,401012770,Utah,-7771, Team,1.0
+2018,401013443,New Mexico State,4241635,Josh Adkins,38.0
+2018,401013443,Georgia Southern,4036650,Shai Werts,4.0
+2018,401013453,Liberty,4029885,Stephen Calvert,48.0
+2018,401013453,Idaho State,3139063,Tanner Gueller,44.0
+2018,401012316,Auburn,3892775,Jarrett Stidham,22.0
+2018,401012316,Ole Miss,4242418,Jordan Ta'amu,40.0
+2018,401012316,Ole Miss,-7034, Team,1.0
+2018,401012315,LSU,3915511,Joe Burrow,28.0
+2018,401012315,LSU,4035454,Ed Alexander,2.0
+2018,401012315,Mississippi State,558337,Nick Fitzgerald,24.0
+2018,401013371,Miami (OH),3125968,Gus Ragland,53.0
+2018,401013371,Army,4258442,Cam Thomas,2.0
+2018,401020762,Ohio,4244688,Nathan Rourke,12.0
+2018,401020762,Ohio,3920819,Quinton Maxwell,1.0
+2018,401020762,Bowling Green,4244029,Jarret Doege,24.0
+2018,401020761,Kent State,4362340,Woody Barrett,30.0
+2018,401020761,Kent State,3915270,Myles Washington,1.0
+2018,401020761,Akron,4038741,Kato Nelson,35.0
+2018,401020763,Toledo,4039495,Eli Peters,17.0
+2018,401020763,Toledo,3932903,Mitchell Guadagni,4.0
+2018,401020763,Buffalo,3916564,Tyree Jackson,46.0
+2018,401012769,UCLA,3115966,Wilton Speight,27.0
+2018,401012769,UCLA,4367178,Dorian Thompson-Robinson,8.0
+2018,401012769,Arizona,4245679,Rhett Rodriguez,34.0
+2018,401015019,Middle Tennessee,545683,Brent Stockstill,20.0
+2018,401015019,Charlotte,3917848,Evan Shirreffs,40.0
+2018,401015021,Florida Atlantic,4241399,Chris Robison,35.0
+2018,401015021,Florida Atlantic,4243787,De'Andre Johnson,3.0
+2018,401015021,Florida Atlantic,559630,Rafe Peavey,3.0
+2018,401015021,Florida Atlantic,3916069,Jovon Durante,1.0
+2018,401015021,Marshall,3913137,Alex Thomson,24.0
+2018,401015023,North Texas,4039073,Mason Fine,40.0
+2018,401015023,UAB,545682,A.J. Erdely,22.0
+2018,401015025,UTSA,4362982,Jordan Weeks,27.0
+2018,401015025,UTSA,4362984,Cordale Grundy,1.0
+2018,401015025,Southern Miss,4040407,Jack Abraham,33.0
+2018,401015025,Southern Miss,4245107,Marcelo Rodriguez,2.0
+2018,401015024,Western Kentucky,4243456,Davis Shanley,31.0
+2018,401015024,Western Kentucky,4363077,Kavaris Thomas,1.0
+2018,401015024,Old Dominion,3914543,Blake LaRussa,32.0
+2018,401015024,Old Dominion,-88752, Team,1.0
+2018,401012313,Arkansas,4372004,Connor Noland,16.0
+2018,401012313,Arkansas,4035584,Cole Kelley,3.0
+2018,401012313,Tulsa,4244601,Seth Boomer,25.0
+2018,401020765,Western Michigan,3916726,Jon Wassink,9.0
+2018,401020765,Central Michigan,4039268,Tommy Lazzaro,24.0
+2018,401020765,Central Michigan,4039271,Tony Poljan,3.0
+2018,401020765,Central Michigan,3915484,Brandon Childress,1.0
+2018,401020764,Ball State,3915468,Riley Neal,39.0
+2018,401020764,Eastern Michigan,3144983,Tyler Wiegers,28.0
+2018,401012317,Missouri,3924327,Drew Lock,29.0
+2018,401012317,Missouri,4241193,Taylor Powell,3.0
+2018,401012317,Memphis,3893630,Brady White,37.0
+2018,401012317,Memphis,4039360,John Williams,1.0
+2018,401013348,Ohio State,4040616,Dwayne Haskins,72.0
+2018,401013348,Purdue,3116188,David Blough,43.0
+2018,401012884,Michigan State,3929824,Brian Lewerke,25.0
+2018,401012884,Michigan State,4241965,Rocky Lombardi,2.0
+2018,401012884,Michigan State,3929831,Darrell Stewart Jr.,1.0
+2018,401012884,Michigan,4035292,Shea Patterson,25.0
+2018,401012867,Maryland,4241937,Kasim Hill,15.0
+2018,401012867,Maryland,4036210,Tyrrell Pigrome,1.0
+2018,401012867,Iowa,4036149,Nathan Stanley,22.0
+2018,401012867,Iowa,4240570,Peyton Mansell,1.0
+2018,401012867,Iowa,4360480,Spencer Petras,1.0
+2018,401012846,Rutgers,4361530,Artur Sitkowski,31.0
+2018,401012846,Northwestern,3116144,Clayton Thorson,34.0
+2018,401012857,Penn State,3116172,Trace McSorley,36.0
+2018,401012857,Penn State,3791110,Tommy Stevens,1.0
+2018,401012857,Indiana,4045290,Peyton Ramsey,35.0
+2018,401012857,Indiana,4360423,Michael Penix Jr.,19.0
+2018,401012810,Wisconsin,3886609,Alex Hornibrook,22.0
+2018,401012810,Illinois,4360372,M.J. Rivers II,13.0
+2018,401012810,Illinois,3116087,AJ Bush,8.0
+2018,401013332,Minnesota,4240756,Tanner Morgan,16.0
+2018,401013332,Minnesota,4360936,Zack Annexstad,20.0
+2018,401013332,Nebraska,4361182,Adrian Martinez,29.0
+2018,401013332,Nebraska,4361198,Maurice Washington,1.0
+2018,401019511,UConn,4239134,David Pindell,21.0
+2018,401019511,South Florida,3858944,Blake Barnett,28.0
+2018,401021676,Arkansas State,3116379,Justice Hansen,28.0
+2018,401021676,Georgia State,4361902,Dan Ellington,26.0
+2018,401021676,Georgia State,3917540,Aaron Winchester,7.0
+2018,401021677,Louisiana,4241553,Andre Nunez,23.0
+2018,401021677,Louisiana,4241556,Levi Lewis,4.0
+2018,401021677,App State,4036429,Zac Thomas,20.0
+2018,401021678,UL Monroe,4036585,Caleb Evans,29.0
+2018,401021678,Texas State,4362667,Tyler Vitt,25.0
+2018,401019510,Temple,4044122,Anthony Russo,41.0
+2018,401019510,Temple,4243276,Todd Centeio,1.0
+2018,401019510,Cincinnati,4239086,Desmond Ridder,33.0
+2018,401019510,Cincinnati,-5625, Team,1.0
+2018,401019509,East Carolina,4360131,Holton Ahlers,52.0
+2018,401019509,East Carolina,-5866, Team,3.0
+2018,401019509,UCF,4243535,D.J. Mack Jr.,20.0
+2018,401019509,UCF,4362385,Quadry Jones,1.0
+2018,401019512,Houston,4039300,D'Eriq King,38.0
+2018,401019512,Houston,4240251,Bryson Smith,1.0
+2018,401019512,Navy,3916282,Garret Lewis,14.0
+2018,401019512,Navy,4039436,Malcolm Perry,1.0
+2018,401019512,Navy,-6810, Team,1.0
+2018,401019513,Tulane,3916103,Jonathan Banks,22.0
+2018,401019513,Tulane,-7689, Team,1.0
+2018,401019513,SMU,3916208,Ben Hicks,40.0
+2018,401013151,Florida State,3921561,Deondre Francois,40.0
+2018,401013151,Florida State,4240034,D.J. Matthews,1.0
+2018,401013151,Wake Forest,4361994,Sam Hartman,46.0
+2018,401013151,Wake Forest,4037213,Jamie Newman,8.0
+2018,401013149,Clemson,4360310,Trevor Lawrence,39.0
+2018,401013149,Clemson,4239994,Chase Brice,9.0
+2018,401013149,NC State,546288,Ryan Finley,34.0
+2018,401013149,NC State,4240096,Matt McKay,1.0
+2018,401013152,North Carolina,3895838,Nathan Elliott,52.0
+2018,401013152,North Carolina,3895828,Anthony Ratliff-Williams,1.0
+2018,401013152,North Carolina,4240676,Beau Corrales,1.0
+2018,401013152,Syracuse,3916447,Eric Dungey,33.0
+2018,401013152,Syracuse,4240391,Tommy DeVito,19.0
+2018,401013150,Virginia,3675812,Bryce Perkins,32.0
+2018,401013150,Virginia,3917914,Olamide Zaccheaus,1.0
+2018,401013150,Virginia,-7809, Team,1.0
+2018,401013150,Duke,3917792,Daniel Jones,40.0
+2018,401013150,Duke,3917787,T.J. Rahming,1.0
+2018,401013150,Duke,-5849, Team,1.0
+2018,401022540,Utah State,4036378,Jordan Love,28.0
+2018,401022540,Wyoming,4361690,Sean Chambers,5.0
+2018,401022540,Wyoming,4240351,Tyler Vander Waal,19.0
+2018,401022538,Boise State,3722362,Brett Rypien,26.0
+2018,401022538,Boise State,3914569,Jaylon Henderson,1.0
+2018,401022538,Colorado State,3127291,K.J. Carta-Samuels,30.0
+2018,401022538,Colorado State,4036357,Collin Hill,14.0
+2018,401022541,New Mexico,3915379,Sheriron Jones,32.0
+2018,401022541,Fresno State,3127332,Marcus McMaryion,30.0
+2018,401022539,Air Force,4239964,Isaiah Sanders,11.0
+2018,401022539,UNLV,4035856,Max Gilliam,38.0
+2018,401022543,San Diego State,3921648,Ryan Agnew,11.0
+2018,401022543,San José State,3921685,Josh Love,36.0
+2018,401022543,San José State,4361540,Leki Nunn,1.0
+2018,401022542,Nevada,3122611,Ty Gangi,29.0
+2018,401022542,Nevada,4361444,Toa Taua,3.0
+2018,401022542,Hawai'i,4038220,Cole McDonald,37.0
+2018,401022542,Hawai'i,4373934,Chevan Cordeiro,1.0
+2018,401012320,Georgia,4240689,Jake Fromm,24.0
+2018,401012320,Florida,4034948,Feleipe Franks,21.0
+2018,401012323,Tennessee,4035167,Jarrett Guarantano,39.0
+2018,401012323,South Carolina,4038809,Jake Bentley,16.0
+2018,401012322,Kentucky,4038940,Terry Wilson,30.0
+2018,401012322,Kentucky,4035051,Gunnar Hoak,8.0
+2018,401012322,Missouri,3924327,Drew Lock,27.0
+2018,401012319,Vanderbilt,3915776,Kyle Shurmur,19.0
+2018,401012319,Arkansas,3886621,Ty Storey,36.0
+2018,401013364,Massachusetts,3125927,Ross Comis,15.0
+2018,401013364,UConn,4239134,David Pindell,6.0
+2018,401013320,Oklahoma State,3122424,Taylor Cornelius,34.0
+2018,401013320,Texas,4241820,Sam Ehlinger,42.0
+2018,401013062,Kansas State,4036419,Skylar John Thompson,21.0
+2018,401013062,Oklahoma,3917315,Kyler Murray,24.0
+2018,401013062,Oklahoma,4037642,Austin Kendall,4.0
+2018,401013062,Oklahoma,3122413,Nick Basquine,1.0
+2018,401013033,Baylor,3116715,Jalan McClendon,21.0
+2018,401013033,Baylor,4241222,Charlie Brewer,8.0
+2018,401013033,West Virginia,559556,Will Grier,27.0
+2018,401013033,West Virginia,4037449,Jack Allison,4.0
+2018,401013044,Iowa State,4361741,Brock Purdy,27.0
+2018,401013044,Texas Tech,4362159,Alan Bowman,56.0
+2018,401013044,Texas Tech,3860070,Seth Collins,1.0
+2018,401013053,Kansas,3127261,Peyton Bender,29.0
+2018,401013053,TCU,4034332,Michael Collins,33.0
+2018,401015031,UTEP,4362029,Kai Locksley,11.0
+2018,401015031,UTEP,4362030,Brandon Jones,9.0
+2018,401015031,UAB,545682,A.J. Erdely,18.0
+2018,401015031,UAB,4239793,Tyler Johnston III,5.0
+2018,401015030,Rice,4362528,Wiley Green,37.0
+2018,401015030,Rice,4398969,- 5o,3.0
+2018,401015030,North Texas,4039073,Mason Fine,35.0
+2018,401012775,Oregon,4038941,Justin Herbert,48.0
+2018,401012775,Arizona,4039602,Khalil Tate,33.0
+2018,401012779,Stanford,4044431,K.J. Costello,42.0
+2018,401012779,Washington State,4038524,Gardner Minshew,50.0
+2018,401012778,Washington,3886812,Jake Browning,21.0
+2018,401012778,Washington,4243322,Jake Haener,4.0
+2018,401012778,Washington,4361088,Colson Yankoff,1.0
+2018,401012778,California,4242408,Chase Garbers,23.0
+2018,401012778,California,4038833,Brandon McIlwain,1.0
+2018,401012777,Oregon State,3124900,Jake Luton,39.0
+2018,401012777,Oregon State,4360705,Jack Colletto,14.0
+2018,401012777,Oregon State,4042806,Timmy Hernandez,1.0
+2018,401012777,Colorado,3915436,Steven Montez,39.0
+2018,401012776,USC,4243216,Jack Sears,28.0
+2018,401012776,USC,4035692,Tyler Vaughns,1.0
+2018,401012776,Arizona State,3128814,Manny Wilkins,22.0
+2018,401012776,Arizona State,4047852,Dillon Sterling-Cole,2.0
+2018,401016409,BYU,4361259,Zach Wilson,30.0
+2018,401016409,Northern Illinois,4039470,Marcus Childers,21.0
+2018,401016409,Northern Illinois,3921970,Sutton Smith,1.0
+2018,401013444,New Mexico State,4241635,Josh Adkins,59.0
+2018,401013444,Texas State,4241669,Willie Jones III,18.0
+2018,401020766,Ohio,4244688,Nathan Rourke,19.0
+2018,401020766,Ohio,3920819,Quinton Maxwell,3.0
+2018,401020766,Ball State,4039210,Drew Plitt,17.0
+2018,401020766,Ball State,3915468,Riley Neal,15.0
+2018,401020768,Akron,4038741,Kato Nelson,27.0
+2018,401020768,Central Michigan,4039271,Tony Poljan,37.0
+2018,401020768,Central Michigan,3125801,Devon Spalding,1.0
+2018,401020768,Central Michigan,3915484,Brandon Childress,1.0
+2018,401020767,Toledo,3932903,Mitchell Guadagni,18.0
+2018,401020767,Toledo,4039495,Eli Peters,14.0
+2018,401020767,Western Michigan,4362230,Kaleb Eleby,28.0
+2018,401020767,Western Michigan,3916726,Jon Wassink,4.0
+2018,401012774,UCLA,3115966,Wilton Speight,39.0
+2018,401012774,Utah,4035671,Tyler Huntley,21.0
+2018,401012774,Utah,3926231,Britain Covey,1.0
+2018,401015029,Middle Tennessee,545683,Brent Stockstill,32.0
+2018,401015029,Middle Tennessee,4291782,Chase Cunningham,1.0
+2018,401015029,Old Dominion,3914543,Blake LaRussa,35.0
+2018,401015028,Florida Atlantic,559630,Rafe Peavey,26.0
+2018,401015028,Florida Atlantic,4241399,Chris Robison,3.0
+2018,401015028,Louisiana Tech,3914382,J'Mar Smith,35.0
+2018,401015027,Florida International,3914395,James Morgan,28.0
+2018,401015027,Western Kentucky,4243456,Davis Shanley,25.0
+2018,401015027,Western Kentucky,4037556,Steven Duncan,8.0
+2018,401015027,Western Kentucky,3932147,Ryan Nuss,1.0
+2018,401015026,Charlotte,3917848,Evan Shirreffs,14.0
+2018,401015026,Southern Miss,4040407,Jack Abraham,30.0
+2018,401015026,Southern Miss,4362942,Tate Whatley,8.0
+2018,401015026,Southern Miss,-7384, Team,1.0
+2018,401012321,Mississippi State,558337,Nick Fitzgerald,22.0
+2018,401012321,Texas A&M,4240904,Kellen Mond,46.0
+2018,401013372,Eastern Michigan,3144983,Tyler Wiegers,29.0
+2018,401013372,Army,4036923,Kelvin Hopkins Jr.,8.0
+2018,401012885,Michigan State,4241965,Rocky Lombardi,46.0
+2018,401012885,Purdue,3116188,David Blough,49.0
+2018,401012811,Maryland,4241937,Kasim Hill,19.0
+2018,401012811,Maryland,4360634,Tyler DeSue,2.0
+2018,401012811,Illinois,3116087,AJ Bush,19.0
+2018,401012811,Illinois,4360372,M.J. Rivers II,13.0
+2018,401012868,Penn State,3116172,Trace McSorley,25.0
+2018,401012868,Penn State,3791110,Tommy Stevens,4.0
+2018,401012868,Iowa,4036149,Nathan Stanley,49.0
+2018,401012868,Iowa,3917640,Colten Rastetter,1.0
+2018,401012858,Indiana,4045290,Peyton Ramsey,44.0
+2018,401012858,Minnesota,4240756,Tanner Morgan,24.0
+2018,401013344,Wisconsin,4242331,Jack Coan,31.0
+2018,401013344,Wisconsin,-8025, Team,2.0
+2018,401013344,Northwestern,3116144,Clayton Thorson,30.0
+2018,401085385,Nebraska,4361182,Adrian Martinez,22.0
+2018,401085385,Nebraska,4243539,Noah Vedral,9.0
+2018,401085385,Bethune-Cookman,4259407,David Isreal,27.0
+2018,401085385,Bethune-Cookman,3122329,Jabari Dunham,3.0
+2018,401013189,Notre Dame,4046678,Ian Book,33.0
+2018,401013189,Navy,3916282,Garret Lewis,11.0
+2018,401013189,Navy,3916251,Zach Abey,1.0
+2018,401021681,Arkansas State,3116379,Justice Hansen,30.0
+2018,401021681,Arkansas State,-5250, Team,1.0
+2018,401021681,Louisiana,4241553,Andre Nunez,26.0
+2018,401021681,Louisiana,4241556,Levi Lewis,2.0
+2018,401021679,Troy,4039901,Sawyer Smith,16.0
+2018,401021679,South Alabama,3129265,Evan Orth,29.0
+2018,401021679,South Alabama,4249400,Cephus Johnson,1.0
+2018,401021682,Georgia State,4361902,Dan Ellington,25.0
+2018,401021682,Georgia State,4401003,- 1p,1.0
+2018,401021682,Coastal Carolina,4361033,Fred Payton,17.0
+2018,401021682,Coastal Carolina,4030387,Chance Thrasher,1.0
+2018,401021680,App State,4240999,Peyton Derrick,12.0
+2018,401021680,App State,4036427,Jacob Huesman,14.0
+2018,401021680,App State,4036429,Zac Thomas,1.0
+2018,401021680,Georgia Southern,4036650,Shai Werts,3.0
+2018,401019515,South Florida,3858944,Blake Barnett,39.0
+2018,401019515,Houston,4039300,D'Eriq King,40.0
+2018,401019514,Cincinnati,4239086,Desmond Ridder,50.0
+2018,401019514,Cincinnati,3125813,Hayden Moore,2.0
+2018,401019514,SMU,3916208,Ben Hicks,41.0
+2018,401019516,Tulsa,4244601,Seth Boomer,26.0
+2018,401019516,Tulane,3843247,Justin McMillan,19.0
+2018,401013155,Florida State,3921561,Deondre Francois,36.0
+2018,401013155,Florida State,4240020,James Blackman,4.0
+2018,401013155,Clemson,4360310,Trevor Lawrence,37.0
+2018,401013155,Clemson,4239994,Chase Brice,7.0
+2018,401013154,Boston College,4035312,Anthony Brown,28.0
+2018,401013154,Boston College,3929118,Jeff Smith,2.0
+2018,401013154,Miami,3123047,Malik Rosier,35.0
+2018,401013154,Miami,-6626, Team,2.0
+2018,401013154,Miami,4240631,DeeJay Dallas,1.0
+2018,401013159,NC State,546288,Ryan Finley,44.0
+2018,401013159,Syracuse,3916447,Eric Dungey,38.0
+2018,401013159,Syracuse,3916451,Dontae Strickland,1.0
+2018,401013159,Syracuse,4240391,Tommy DeVito,3.0
+2018,401013157,Wake Forest,4361994,Sam Hartman,24.0
+2018,401013157,Louisville,4035995,Jawon Pass,54.0
+2018,401013153,Virginia Tech,3917958,Ryan Willis,22.0
+2018,401013153,Georgia Tech,4240482,Tobias Oliver,1.0
+2018,401013158,North Carolina,3895838,Nathan Elliott,38.0
+2018,401013158,Virginia,3675812,Bryce Perkins,27.0
+2018,401013156,Duke,3917792,Daniel Jones,42.0
+2018,401013156,Duke,-5849, Team,1.0
+2018,401013156,Pittsburgh,4240703,Kenny Pickett,18.0
+2018,401013156,Pittsburgh,-7111, Team,1.0
+2018,401022545,Utah State,4036378,Jordan Love,34.0
+2018,401022545,Utah State,4259219,Henry Colombi,8.0
+2018,401022545,New Mexico,3128784,Coltin Gerhart,12.0
+2018,401022545,New Mexico,3915379,Sheriron Jones,25.0
+2018,401022544,Boise State,3722362,Brett Rypien,34.0
+2018,401022544,Boise State,4373678,Khalil Shakir,2.0
+2018,401022544,Air Force,4239964,Isaiah Sanders,15.0
+2018,401022544,Air Force,4262383,Joseph Saucier,1.0
+2018,401022546,Colorado State,4036357,Collin Hill,54.0
+2018,401022546,Wyoming,4361690,Sean Chambers,10.0
+2018,401022547,Fresno State,3127332,Marcus McMaryion,31.0
+2018,401022547,Fresno State,4242995,Jorge Reyna,7.0
+2018,401022547,Hawai'i,4038220,Cole McDonald,28.0
+2018,401022547,Hawai'i,4363640,Jeremy Moussa,6.0
+2018,401022547,Hawai'i,-6139, Team,1.0
+2018,401022548,San Diego State,3921648,Ryan Agnew,40.0
+2018,401022548,Nevada,3122611,Ty Gangi,43.0
+2018,401022549,UNLV,4035856,Max Gilliam,50.0
+2018,401022549,San José State,3921685,Josh Love,36.0
+2018,401022549,San José State,4361540,Leki Nunn,1.0
+2018,401012326,Georgia,4240689,Jake Fromm,20.0
+2018,401012326,Kentucky,4038940,Terry Wilson,29.0
+2018,401012325,Florida,4034946,Kyle Trask,18.0
+2018,401012325,Florida,4034948,Feleipe Franks,22.0
+2018,401012325,Missouri,3924327,Drew Lock,32.0
+2018,401012330,Tennessee,4035167,Jarrett Guarantano,21.0
+2018,401012330,Charlotte,3917848,Evan Shirreffs,25.0
+2018,401012328,South Carolina,4038809,Jake Bentley,32.0
+2018,401012328,Ole Miss,4242418,Jordan Ta'amu,46.0
+2018,401012328,Ole Miss,4362874,Matt Corral,2.0
+2018,401013365,Massachusetts,3125927,Ross Comis,44.0
+2018,401013365,Liberty,4029885,Stephen Calvert,35.0
+2018,401013034,Oklahoma State,3122424,Taylor Cornelius,40.0
+2018,401013034,Oklahoma State,4241424,Tylan Wallace,1.0
+2018,401013034,Baylor,3116715,Jalan McClendon,17.0
+2018,401013034,Baylor,4241222,Charlie Brewer,8.0
+2018,401013034,Baylor,3928923,Drew Galitz,1.0
+2018,401013063,Kansas State,3886634,Alex Delton,25.0
+2018,401013063,Kansas State,4036419,Skylar John Thompson,2.0
+2018,401013063,Kansas State,3125077,Colby Dean Moore,1.0
+2018,401013063,TCU,4034332,Michael Collins,33.0
+2018,401013045,Iowa State,4361741,Brock Purdy,23.0
+2018,401013045,Iowa State,552119,Kyle Kempt,1.0
+2018,401013045,Kansas,3127261,Peyton Bender,41.0
+2018,401013045,Kansas,-6294, Team,1.0
+2018,401013045,Kansas,4035886,Khalil Herbert,1.0
+2018,401013069,Texas Tech,4362159,Alan Bowman,26.0
+2018,401013069,Texas Tech,4043136,Jett Duffey,17.0
+2018,401013069,Texas Tech,3860070,Seth Collins,1.0
+2018,401013069,Oklahoma,3917315,Kyler Murray,35.0
+2018,401013188,West Virginia,559556,Will Grier,42.0
+2018,401013188,Texas,4241820,Sam Ehlinger,35.0
+2018,401015035,UTEP,4362029,Kai Locksley,21.0
+2018,401015035,UTEP,4362030,Brandon Jones,3.0
+2018,401015035,Rice,4362528,Wiley Green,32.0
+2018,401012782,Oregon,4038941,Justin Herbert,32.0
+2018,401012782,Oregon,3930199,Blake Maimone,1.0
+2018,401012782,UCLA,3115966,Wilton Speight,25.0
+2018,401012782,UCLA,4367178,Dorian Thompson-Robinson,23.0
+2018,401012782,UCLA,3140630,Stefan Flintoft,1.0
+2018,401012784,Stanford,4044431,K.J. Costello,43.0
+2018,401012784,Stanford,-7422, Team,1.0
+2018,401012784,Washington,3886812,Jake Browning,27.0
+2018,401012785,California,4242408,Chase Garbers,25.0
+2018,401012785,California,4038833,Brandon McIlwain,7.0
+2018,401012785,Washington State,4038524,Gardner Minshew,51.0
+2018,401012783,Oregon State,3124900,Jake Luton,45.0
+2018,401012783,Oregon State,4042806,Timmy Hernandez,1.0
+2018,401012783,USC,4374303,JT Daniels,26.0
+2018,401016410,BYU,4361259,Zach Wilson,27.0
+2018,401016410,BYU,4242377,Neil Pau'u,1.0
+2018,401016410,Boise State,3722362,Brett Rypien,35.0
+2018,401013445,New Mexico State,4241635,Josh Adkins,44.0
+2018,401013445,Alcorn State,3928455,Noah Johnson,37.0
+2018,401012324,Auburn,3892775,Jarrett Stidham,29.0
+2018,401012324,Auburn,3916946,Ryan Davis,1.0
+2018,401012324,Texas A&M,4240904,Kellen Mond,30.0
+2018,401012327,LSU,3915511,Joe Burrow,35.0
+2018,401012327,Alabama,4241479,Tua Tagovailoa,42.0
+2018,401020770,Miami (OH),3125968,Gus Ragland,35.0
+2018,401020770,Buffalo,3916564,Tyree Jackson,34.0
+2018,401020770,Buffalo,4049301,Anthony Johnson,1.0
+2018,401020773,Ohio,4244688,Nathan Rourke,14.0
+2018,401020773,Ohio,3920819,Quinton Maxwell,5.0
+2018,401020773,Western Michigan,4362230,Kaleb Eleby,19.0
+2018,401020769,Kent State,4362340,Woody Barrett,24.0
+2018,401020769,Bowling Green,4244029,Jarret Doege,37.0
+2018,401020769,Bowling Green,3914397,Scott Miller,1.0
+2018,401020772,Akron,4038741,Kato Nelson,26.0
+2018,401020772,Akron,4240142,Alex Ramart,12.0
+2018,401020772,Northern Illinois,4039470,Marcus Childers,28.0
+2018,401020771,Toledo,4039495,Eli Peters,34.0
+2018,401020771,Toledo,4039493,Desmond Phillips,1.0
+2018,401020771,Ball State,4039210,Drew Plitt,47.0
+2018,401020771,Ball State,3125731,Corey Lacanaria,1.0
+2018,401012781,Utah,4035671,Tyler Huntley,15.0
+2018,401012781,Utah,4243258,Jason Shelley,11.0
+2018,401012781,Arizona State,3128814,Manny Wilkins,24.0
+2018,401012780,Arizona,4039602,Khalil Tate,22.0
+2018,401012780,Colorado,3915436,Steven Montez,42.0
+2018,401012780,Colorado,3124074,Travon McMillian,1.0
+2018,401015034,Middle Tennessee,545683,Brent Stockstill,42.0
+2018,401015034,Western Kentucky,3124782,Drew Eckels,32.0
+2018,401015034,Western Kentucky,4037556,Steven Duncan,14.0
+2018,401015034,Western Kentucky,4243456,Davis Shanley,1.0
+2018,401015032,Florida Atlantic,4241399,Chris Robison,10.0
+2018,401015032,Florida Atlantic,4243787,De'Andre Johnson,6.0
+2018,401015032,Florida International,3914395,James Morgan,32.0
+2018,401015032,Florida International,3914306,Christian Alexander,2.0
+2018,401015036,UTSA,4362982,Jordan Weeks,26.0
+2018,401015036,UTSA,3121549,D.J. Gillins,5.0
+2018,401015036,UTSA,4362984,Cordale Grundy,4.0
+2018,401015036,UAB,4239793,Tyler Johnston III,17.0
+2018,401012329,Louisiana Tech,3914382,J'Mar Smith,30.0
+2018,401012329,Louisiana Tech,4384187,Aaron Allen,1.0
+2018,401012329,Mississippi State,558337,Nick Fitzgerald,28.0
+2018,401012329,Mississippi State,4242243,Keytaon Thompson,1.0
+2018,401020774,Eastern Michigan,3144983,Tyler Wiegers,25.0
+2018,401020774,Eastern Michigan,4259127,Mike Glass III,7.0
+2018,401020774,Eastern Michigan,4039315,Isaac Stiebeling,1.0
+2018,401020774,Central Michigan,4039271,Tony Poljan,27.0
+2018,401020774,Central Michigan,4039264,Austin Hergott,5.0
+2018,401015033,Marshall,4261909,Isaiah Green,25.0
+2018,401015033,Marshall,3913137,Alex Thomson,13.0
+2018,401015033,Southern Miss,4362942,Tate Whatley,25.0
+2018,401013341,Ohio State,4040616,Dwayne Haskins,32.0
+2018,401013341,Nebraska,4361182,Adrian Martinez,33.0
+2018,401012877,Michigan State,3929824,Brian Lewerke,20.0
+2018,401012877,Michigan State,4241965,Rocky Lombardi,2.0
+2018,401012877,Maryland,4241937,Kasim Hill,21.0
+2018,401012877,Maryland,4036210,Tyrrell Pigrome,3.0
+2018,401012847,Rutgers,4361530,Artur Sitkowski,39.0
+2018,401012847,Wisconsin,3886609,Alex Hornibrook,16.0
+2018,401012847,Wisconsin,4242331,Jack Coan,7.0
+2018,401012894,Michigan,4035292,Shea Patterson,17.0
+2018,401012894,Penn State,3116172,Trace McSorley,13.0
+2018,401012894,Penn State,3791110,Tommy Stevens,4.0
+2018,401012812,Minnesota,4240756,Tanner Morgan,27.0
+2018,401012812,Minnesota,4034772,Seth Green,1.0
+2018,401012812,Illinois,3116087,AJ Bush,25.0
+2018,401012869,Iowa,4036149,Nathan Stanley,32.0
+2018,401012869,Purdue,3116188,David Blough,32.0
+2018,401013345,Northwestern,3116144,Clayton Thorson,29.0
+2018,401013345,Notre Dame,4046678,Ian Book,34.0
+2018,401013373,Army,4036923,Kelvin Hopkins Jr.,5.0
+2018,401013373,Air Force,4382332,Donald Hammond III,15.0
+2018,401013373,Air Force,4239964,Isaiah Sanders,7.0
+2018,401019519,UConn,4239134,David Pindell,28.0
+2018,401019519,Tulsa,4244601,Seth Boomer,14.0
+2018,401021684,Arkansas State,3116379,Justice Hansen,37.0
+2018,401021684,Arkansas State,3128695,Kendrick Edwards,10.0
+2018,401021684,Arkansas State,3917168,Darveon Brown,1.0
+2018,401021684,Arkansas State,3917190,Warren Wand,1.0
+2018,401021684,Arkansas State,4036473,Logan Bonner,1.0
+2018,401021684,South Alabama,3129265,Evan Orth,15.0
+2018,401021684,South Alabama,4249400,Cephus Johnson,8.0
+2018,401021687,Louisiana,4241553,Andre Nunez,25.0
+2018,401021687,Louisiana,4241556,Levi Lewis,3.0
+2018,401021687,Louisiana,3917569,Ja'Marcus Bradley,1.0
+2018,401021687,Troy,4039901,Sawyer Smith,22.0
+2018,401021687,Troy,4039910,Kaleb Barker,1.0
+2018,401021685,UL Monroe,4036585,Caleb Evans,22.0
+2018,401021685,Georgia Southern,4036650,Shai Werts,15.0
+2018,401021686,Georgia State,3917540,Aaron Winchester,18.0
+2018,401021686,Georgia State,4361902,Dan Ellington,22.0
+2018,401021686,Texas State,4241669,Willie Jones III,26.0
+2018,401021686,Texas State,4362669,T.J. Graham,4.0
+2018,401021683,App State,4036427,Jacob Huesman,19.0
+2018,401021683,Coastal Carolina,4361033,Fred Payton,16.0
+2018,401021683,Coastal Carolina,3124529,Kilton Anderson,10.0
+2018,401021683,Coastal Carolina,4030393,Chandler Kryst,1.0
+2018,401019517,Temple,4044122,Anthony Russo,52.0
+2018,401019517,UCF,4042113,McKenzie Milton,33.0
+2018,401019521,South Florida,3858944,Blake Barnett,49.0
+2018,401019521,Tulane,3843247,Justin McMillan,11.0
+2018,401019518,Cincinnati,4239086,Desmond Ridder,17.0
+2018,401019518,Cincinnati,3125813,Hayden Moore,3.0
+2018,401019518,Navy,3916251,Zach Abey,4.0
+2018,401019520,East Carolina,4360131,Holton Ahlers,62.0
+2018,401019520,Memphis,3893630,Brady White,30.0
+2018,401019522,Houston,4039300,D'Eriq King,22.0
+2018,401019522,SMU,3916208,Ben Hicks,43.0
+2018,401019522,SMU,4243760,Tyler Page,1.0
+2018,401013164,Florida State,4240020,James Blackman,46.0
+2018,401013164,Florida State,-5995, Team,2.0
+2018,401013164,NC State,546288,Ryan Finley,27.0
+2018,401013164,NC State,3916433,Jakobi Meyers,1.0
+2018,401013161,Boston College,4035312,Anthony Brown,26.0
+2018,401013161,Virginia Tech,3917958,Ryan Willis,42.0
+2018,401013161,Virginia Tech,4361959,Quincy Patterson II,1.0
+2018,401013161,Virginia Tech,4401965,- 4p,1.0
+2018,401013162,Clemson,4239994,Chase Brice,7.0
+2018,401013162,Clemson,4360310,Trevor Lawrence,12.0
+2018,401013162,Clemson,4360307,Derion Kendrick,1.0
+2018,401013162,Louisville,4240069,Malik Cunningham,10.0
+2018,401013162,Louisville,4035995,Jawon Pass,24.0
+2018,401013166,Wake Forest,4361994,Sam Hartman,37.0
+2018,401013166,Syracuse,3916447,Eric Dungey,35.0
+2018,401013163,Miami,3123047,Malik Rosier,12.0
+2018,401013163,Miami,4240628,N'Kosi Perry,16.0
+2018,401013163,Duke,3917792,Daniel Jones,35.0
+2018,401013163,Duke,4240455,Deon Jackson,1.0
+2018,401013163,Duke,3917793,Quentin Harris,1.0
+2018,401013165,Georgia Tech,4240482,Tobias Oliver,2.0
+2018,401013165,North Carolina,3895838,Nathan Elliott,26.0
+2018,401013165,North Carolina,4361575,Jace Ruder,5.0
+2018,401013160,Virginia,3675812,Bryce Perkins,24.0
+2018,401013160,Pittsburgh,4240703,Kenny Pickett,14.0
+2018,401022551,Utah State,4036378,Jordan Love,13.0
+2018,401022551,Utah State,4259219,Henry Colombi,11.0
+2018,401022551,Hawai'i,4038220,Cole McDonald,45.0
+2018,401022551,Hawai'i,4363640,Jeremy Moussa,3.0
+2018,401022552,Wyoming,4361690,Sean Chambers,8.0
+2018,401022552,San José State,3921685,Josh Love,32.0
+2018,401022550,New Mexico,3128784,Coltin Gerhart,20.0
+2018,401022550,San Diego State,3139921,Christian Chapman,19.0
+2018,401022550,San Diego State,3921648,Ryan Agnew,6.0
+2018,401022553,Fresno State,3127332,Marcus McMaryion,35.0
+2018,401022553,UNLV,4035856,Max Gilliam,30.0
+2018,401022553,UNLV,4361566,Kenyon Oblad,4.0
+2018,401012334,Georgia,4240689,Jake Fromm,20.0
+2018,401012334,Georgia,4362887,Justin Fields,2.0
+2018,401012334,Georgia,3915165,Rodrigo Blankenship,1.0
+2018,401012334,Auburn,3892775,Jarrett Stidham,36.0
+2018,401012334,Auburn,4242520,JaTarvious Whitlow,1.0
+2018,401012333,Florida,4034948,Feleipe Franks,21.0
+2018,401012333,South Carolina,4038809,Jake Bentley,28.0
+2018,401012336,Tennessee,4035167,Jarrett Guarantano,20.0
+2018,401012336,Kentucky,4038940,Terry Wilson,34.0
+2018,401012336,Kentucky,4035051,Gunnar Hoak,4.0
+2018,401012335,Vanderbilt,3915776,Kyle Shurmur,35.0
+2018,401012335,Vanderbilt,-7793, Team,1.0
+2018,401012335,Missouri,3924327,Drew Lock,33.0
+2018,401013366,Massachusetts,3125927,Ross Comis,33.0
+2018,401013366,BYU,4361259,Zach Wilson,22.0
+2018,401013366,BYU,536122,Matt Hadley,1.0
+2018,401013070,Oklahoma State,3122424,Taylor Cornelius,53.0
+2018,401013070,Oklahoma,3917315,Kyler Murray,29.0
+2018,401013070,Oklahoma,-7026, Team,1.0
+2018,401013054,Kansas State,3886634,Alex Delton,17.0
+2018,401013054,Kansas State,3125077,Colby Dean Moore,1.0
+2018,401013054,Kansas,3127261,Peyton Bender,34.0
+2018,401013035,Baylor,4241222,Charlie Brewer,36.0
+2018,401013035,Baylor,3116715,Jalan McClendon,12.0
+2018,401013035,Iowa State,4361741,Brock Purdy,23.0
+2018,401013035,Iowa State,-6249, Team,2.0
+2018,401013321,Texas Tech,4043136,Jett Duffey,47.0
+2018,401013321,Texas Tech,3910083,McLane Carter,1.0
+2018,401013321,Texas,4241820,Sam Ehlinger,34.0
+2018,401013077,TCU,4034332,Michael Collins,37.0
+2018,401013077,West Virginia,559556,Will Grier,39.0
+2018,401013077,West Virginia,4037449,Jack Allison,2.0
+2018,401015041,UTEP,4362029,Kai Locksley,29.0
+2018,401015041,UTEP,4362030,Brandon Jones,11.0
+2018,401015041,Middle Tennessee,545683,Brent Stockstill,40.0
+2018,401015040,Rice,3122170,Shawn Stankavage,32.0
+2018,401015040,Rice,4362534,Parker Towns,3.0
+2018,401015040,Louisiana Tech,3914382,J'Mar Smith,34.0
+2018,401012789,Oregon,4038941,Justin Herbert,33.0
+2018,401012789,Oregon,-7045, Team,1.0
+2018,401012789,Utah,4243258,Jason Shelley,31.0
+2018,401012790,Stanford,4044431,K.J. Costello,33.0
+2018,401012790,Stanford,4044447,Jack Richardson,1.0
+2018,401012790,Stanford,4360738,Jack West,4.0
+2018,401012790,Oregon State,3124900,Jake Luton,26.0
+2018,401012790,Oregon State,4042803,Conor Blount,9.0
+2018,401012787,California,4242408,Chase Garbers,26.0
+2018,401012787,USC,4374303,JT Daniels,34.0
+2018,401012788,Washington State,4038524,Gardner Minshew,58.0
+2018,401012788,Washington State,4055171,Anthony Gordon,2.0
+2018,401012788,Washington State,3884368,James Williams,1.0
+2018,401012788,Colorado,3915436,Steven Montez,35.0
+2018,401012788,Colorado,4040880,Sam Noyer,3.0
+2018,401013174,Liberty,4029885,Stephen Calvert,27.0
+2018,401013174,Virginia,3675812,Bryce Perkins,22.0
+2018,401012332,LSU,3915511,Joe Burrow,21.0
+2018,401012332,Arkansas,3886621,Ty Storey,38.0
+2018,401012332,Arkansas,4035584,Cole Kelley,1.0
+2018,401020776,Miami (OH),3125968,Gus Ragland,32.0
+2018,401020776,Ohio,4244688,Nathan Rourke,27.0
+2018,401020776,Ohio,3920819,Quinton Maxwell,1.0
+2018,401020775,Kent State,4244068,Dustin Crum,15.0
+2018,401020775,Kent State,4362340,Woody Barrett,13.0
+2018,401020775,Buffalo,3916564,Tyree Jackson,16.0
+2018,401020775,Buffalo,4239714,Kyle Vantrease,5.0
+2018,401020778,Akron,4240142,Alex Ramart,15.0
+2018,401020778,Eastern Michigan,3144983,Tyler Wiegers,23.0
+2018,401020778,Eastern Michigan,4039315,Isaac Stiebeling,1.0
+2018,401020777,Toledo,4039495,Eli Peters,47.0
+2018,401020777,Northern Illinois,4039470,Marcus Childers,19.0
+2018,401012786,UCLA,3115966,Wilton Speight,35.0
+2018,401012786,Arizona State,3128814,Manny Wilkins,22.0
+2018,401015039,Florida Atlantic,4241399,Chris Robison,21.0
+2018,401015039,Florida Atlantic,4243787,De'Andre Johnson,4.0
+2018,401015039,Western Kentucky,4037556,Steven Duncan,38.0
+2018,401015038,Florida International,3914395,James Morgan,29.0
+2018,401015038,Florida International,3914306,Christian Alexander,1.0
+2018,401015038,UTSA,3121549,D.J. Gillins,31.0
+2018,401015038,UTSA,4245191,Bryce Rivers,1.0
+2018,401015042,North Texas,4039073,Mason Fine,44.0
+2018,401015042,Old Dominion,3914543,Blake LaRussa,43.0
+2018,401015037,Charlotte,3917848,Evan Shirreffs,18.0
+2018,401015037,Charlotte,3139889,Hasaan Klugh,2.0
+2018,401015037,Marshall,4261909,Isaiah Green,25.0
+2018,401015037,Marshall,3123074,Tyre Brady,1.0
+2018,401015043,UAB,4239793,Tyler Johnston III,27.0
+2018,401015043,Southern Miss,4362942,Tate Whatley,38.0
+2018,401015043,Southern Miss,4362945,Neil McLaurin,1.0
+2018,401012331,Alabama,4241479,Tua Tagovailoa,21.0
+2018,401012331,Alabama,4241464,Mac Jones,6.0
+2018,401012331,Mississippi State,558337,Nick Fitzgerald,20.0
+2018,401012337,Ole Miss,4404405,Jordan Taamu,35.0
+2018,401012337,Texas A&M,4240904,Kellen Mond,28.0
+2018,401020779,Central Michigan,4039264,Austin Hergott,21.0
+2018,401020779,Bowling Green,4244029,Jarret Doege,23.0
+2018,401020779,Bowling Green,4046743,Grant Loy,1.0
+2018,401020779,Bowling Green,4244034,Colin DeBord,1.0
+2018,401020779,Bowling Green,4373421,Ra'veion Hargrove,1.0
+2018,401012886,Ohio State,4040616,Dwayne Haskins,39.0
+2018,401012886,Michigan State,3929824,Brian Lewerke,24.0
+2018,401012886,Michigan State,4241965,Rocky Lombardi,20.0
+2018,401012859,Maryland,4036210,Tyrrell Pigrome,13.0
+2018,401012859,Maryland,4241937,Kasim Hill,12.0
+2018,401012859,Indiana,4045290,Peyton Ramsey,28.0
+2018,401012848,Rutgers,4361530,Artur Sitkowski,18.0
+2018,401012848,Rutgers,4361529,Isaih Pacheco,1.0
+2018,401012848,Michigan,4035292,Shea Patterson,27.0
+2018,401013351,Penn State,3116172,Trace McSorley,25.0
+2018,401013351,Wisconsin,4242331,Jack Coan,20.0
+2018,401013333,Minnesota,4240756,Tanner Morgan,19.0
+2018,401013333,Minnesota,4034772,Seth Green,1.0
+2018,401013333,Purdue,3116188,David Blough,31.0
+2018,401013333,Purdue,4260395,Nick Sipe,1.0
+2018,401012813,Nebraska,4361182,Adrian Martinez,34.0
+2018,401012813,Illinois,3116087,AJ Bush,25.0
+2018,401012870,Iowa,4036149,Nathan Stanley,41.0
+2018,401012870,Northwestern,3116144,Clayton Thorson,30.0
+2018,401013374,Army,4036923,Kelvin Hopkins Jr.,6.0
+2018,401013374,Lafayette,4247780,Sean O'Malley,16.0
+2018,401013171,Notre Dame,3932451,Brandon Wimbush,25.0
+2018,401013171,Florida State,3921561,Deondre Francois,47.0
+2018,401013171,Florida State,4240021,Cam Akers,1.0
+2018,401019525,UConn,4239134,David Pindell,38.0
+2018,401019525,SMU,3916208,Ben Hicks,29.0
+2018,401019525,SMU,4243760,Tyler Page,1.0
+2018,401021688,Arkansas State,3116379,Justice Hansen,20.0
+2018,401021688,Arkansas State,4036473,Logan Bonner,9.0
+2018,401021688,Coastal Carolina,4361033,Fred Payton,18.0
+2018,401021688,Coastal Carolina,3124529,Kilton Anderson,13.0
+2018,401021690,Louisiana,4241553,Andre Nunez,19.0
+2018,401021690,Louisiana,4241556,Levi Lewis,7.0
+2018,401021690,Georgia State,3917540,Aaron Winchester,21.0
+2018,401021691,UL Monroe,4036585,Caleb Evans,32.0
+2018,401021691,UL Monroe,3911475,JT Jackson,1.0
+2018,401021691,South Alabama,4249400,Cephus Johnson,4.0
+2018,401021691,South Alabama,3139423,Cole Garvin,19.0
+2018,401021689,Troy,4039901,Sawyer Smith,28.0
+2018,401021689,Troy,4241737,Luke Whittemore,1.0
+2018,401021689,Troy,4039935,Sidney Davis,1.0
+2018,401021689,Georgia Southern,4036650,Shai Werts,23.0
+2018,401021702,Texas State,4362667,Tyler Vitt,28.0
+2018,401021702,Texas State,4241669,Willie Jones III,2.0
+2018,401021702,App State,4036429,Zac Thomas,36.0
+2018,401019527,Temple,4044122,Anthony Russo,22.0
+2018,401019527,Houston,4039300,D'Eriq King,46.0
+2018,401019527,Houston,4240251,Bryson Smith,1.0
+2018,401019524,South Florida,4044111,Chris Oladokun,22.0
+2018,401019524,South Florida,3923382,Brett Kean,10.0
+2018,401019524,Cincinnati,4239086,Desmond Ridder,24.0
+2018,401019526,East Carolina,4360131,Holton Ahlers,67.0
+2018,401019526,East Carolina,-5866, Team,1.0
+2018,401019526,Tulane,3843247,Justin McMillan,28.0
+2018,401019523,UCF,4042113,McKenzie Milton,21.0
+2018,401019523,Navy,3916251,Zach Abey,2.0
+2018,401019528,Memphis,3893630,Brady White,20.0
+2018,401019528,Memphis,4371730,Brady McBride,3.0
+2018,401019528,Tulsa,4244601,Seth Boomer,26.0
+2018,401013169,Boston College,4239936,EJ Perry,21.0
+2018,401013169,Boston College,4035312,Anthony Brown,3.0
+2018,401013169,Clemson,4360310,Trevor Lawrence,40.0
+2018,401013169,Clemson,-5650, Team,1.0
+2018,401013167,NC State,546288,Ryan Finley,51.0
+2018,401013167,NC State,3916433,Jakobi Meyers,1.0
+2018,401013167,Wake Forest,4037213,Jamie Newman,33.0
+2018,401013173,Virginia Tech,3917958,Ryan Willis,34.0
+2018,401013173,Virginia Tech,4361959,Quincy Patterson II,4.0
+2018,401013173,Pittsburgh,4240703,Kenny Pickett,11.0
+2018,401013172,Miami,4240628,N'Kosi Perry,23.0
+2018,401013172,Georgia Tech,3917810,TaQuon Marshall,4.0
+2018,401013170,North Carolina,3895838,Nathan Elliott,41.0
+2018,401013170,North Carolina,-7741, Team,1.0
+2018,401013170,North Carolina,3116677,Allen Artis,1.0
+2018,401013170,North Carolina,4037514,Rontavius Groves,1.0
+2018,401013170,North Carolina,4361574,Bryson Richardson,1.0
+2018,401013170,Duke,3917792,Daniel Jones,54.0
+2018,401013168,Syracuse,3916447,Eric Dungey,27.0
+2018,401013168,Louisville,4035995,Jawon Pass,24.0
+2018,401013168,Louisville,4035998,Sean McCormack,5.0
+2018,401013168,Louisville,4240069,Malik Cunningham,1.0
+2018,401022557,Utah State,4036378,Jordan Love,42.0
+2018,401022557,Utah State,4361607,Andrew Peasley,8.0
+2018,401022557,San José State,3921685,Josh Love,36.0
+2018,401022557,San José State,4036857,Michael Carrillo,6.0
+2018,401022556,Boise State,3722362,Brett Rypien,29.0
+2018,401022556,Boise State,4260452,CT Thomas,1.0
+2018,401022556,Fresno State,3127332,Marcus McMaryion,35.0
+2018,401022555,Colorado State,4036357,Collin Hill,40.0
+2018,401022555,Nevada,3122611,Ty Gangi,35.0
+2018,401022555,Nevada,3914836,Cristian Solano,1.0
+2018,401022554,New Mexico,3915379,Sheriron Jones,9.0
+2018,401022554,New Mexico,3128784,Coltin Gerhart,9.0
+2018,401022554,Air Force,4382332,Donald Hammond III,6.0
+2018,401022558,San Diego State,3921648,Ryan Agnew,25.0
+2018,401022558,San Diego State,3139921,Christian Chapman,10.0
+2018,401022558,UNLV,4035856,Max Gilliam,24.0
+2018,401012340,Idaho,4048933,Mason Petrino,31.0
+2018,401012340,Idaho,4367414,Nikhil Nayar,4.0
+2018,401012340,Idaho,3918077,Jante Boston,2.0
+2018,401012340,Florida,4034948,Feleipe Franks,27.0
+2018,401012340,Florida,4360230,Emory Jones,16.0
+2018,401012341,Georgia,4362887,Justin Fields,8.0
+2018,401012341,Georgia,4240689,Jake Fromm,5.0
+2018,401012341,Georgia,4379400,Matthew Downing,4.0
+2018,401012341,Massachusetts,3125927,Ross Comis,31.0
+2018,401012341,Massachusetts,4242394,Michael Curtis,1.0
+2018,401012346,Tennessee,3117245,Keller Chryst,19.0
+2018,401012346,Tennessee,4035167,Jarrett Guarantano,2.0
+2018,401012346,Missouri,3924327,Drew Lock,30.0
+2018,401012345,South Carolina,4038809,Jake Bentley,29.0
+2018,401012345,South Carolina,3126487,Michael Scarnecchia,4.0
+2018,401012345,South Carolina,4259505,Jay Urich,1.0
+2018,401012345,South Carolina,4362852,Dakereon Joyner,2.0
+2018,401012345,Chattanooga,3917280,Nick Tiano,36.0
+2018,401012345,Chattanooga,4247264,Bryce Nunnelly,1.0
+2018,401012342,Kentucky,4038940,Terry Wilson,14.0
+2018,401012342,Middle Tennessee,545683,Brent Stockstill,33.0
+2018,401012348,Vanderbilt,3915776,Kyle Shurmur,34.0
+2018,401012348,Vanderbilt,3118190,Parker Thome,1.0
+2018,401012348,Ole Miss,4242418,Jordan Ta'amu,51.0
+2018,401013327,Oklahoma State,3122424,Taylor Cornelius,46.0
+2018,401013327,West Virginia,559556,Will Grier,48.0
+2018,401013064,Kansas State,4036419,Skylar John Thompson,27.0
+2018,401013064,Texas Tech,4043136,Jett Duffey,27.0
+2018,401013064,Texas Tech,3910083,McLane Carter,3.0
+2018,401013036,Baylor,4241222,Charlie Brewer,29.0
+2018,401013036,TCU,3116420,Grayson Muehlstein,15.0
+2018,401013036,TCU,4034332,Michael Collins,6.0
+2018,401013046,Iowa State,4361741,Brock Purdy,23.0
+2018,401013046,Iowa State,552119,Kyle Kempt,6.0
+2018,401013046,Texas,4241820,Sam Ehlinger,15.0
+2018,401013046,Texas,4039034,Shane Buechele,10.0
+2018,401013055,Kansas,3127261,Peyton Bender,27.0
+2018,401013055,Kansas,4360326,Pooka Williams Jr.,1.0
+2018,401013055,Oklahoma,3917315,Kyler Murray,32.0
+2018,401015049,UTEP,4362030,Brandon Jones,25.0
+2018,401015049,UTEP,4362029,Kai Locksley,9.0
+2018,401015049,Western Kentucky,4037556,Steven Duncan,31.0
+2018,401015049,Western Kentucky,4243457,DeAngelo Malone,1.0
+2018,401012343,Rice,3122170,Shawn Stankavage,13.0
+2018,401012343,Rice,3916383,Jackson Tyner,1.0
+2018,401012343,Rice,4362534,Parker Towns,1.0
+2018,401012343,LSU,3915511,Joe Burrow,28.0
+2018,401012343,LSU,4242210,Myles Brennan,6.0
+2018,401012793,Oregon,4038941,Justin Herbert,34.0
+2018,401012793,Arizona State,3128814,Manny Wilkins,32.0
+2018,401012794,Washington,3886812,Jake Browning,23.0
+2018,401012794,Washington,4243322,Jake Haener,2.0
+2018,401012794,Oregon State,3124900,Jake Luton,31.0
+2018,401012794,Oregon State,4042803,Conor Blount,3.0
+2018,401012794,Oregon State,3930294,Daniel Rodriguez,1.0
+2018,401012795,Washington State,4038524,Gardner Minshew,55.0
+2018,401012795,Washington State,4055191,Trey Tinsley,1.0
+2018,401012795,Arizona,4039602,Khalil Tate,30.0
+2018,401012795,Arizona,4245679,Rhett Rodriguez,4.0
+2018,401012791,USC,4374303,JT Daniels,34.0
+2018,401012791,UCLA,3115966,Wilton Speight,22.0
+2018,401013446,BYU,4361259,Zach Wilson,26.0
+2018,401013446,BYU,545796,Tanner Mangum,3.0
+2018,401013446,BYU,3894887,Austin Lee,1.0
+2018,401013446,New Mexico State,4241635,Josh Adkins,61.0
+2018,401012339,Liberty,4029885,Stephen Calvert,28.0
+2018,401012339,Auburn,3892775,Jarrett Stidham,18.0
+2018,401012339,Auburn,4242512,Malik Willis,3.0
+2018,401020782,Miami (OH),3125968,Gus Ragland,24.0
+2018,401020782,Northern Illinois,4039470,Marcus Childers,32.0
+2018,401020782,Northern Illinois,3128397,Jauan Wesley,1.0
+2018,401020781,Ohio,4244688,Nathan Rourke,26.0
+2018,401020781,Ohio,3920819,Quinton Maxwell,1.0
+2018,401020781,Buffalo,3916564,Tyree Jackson,21.0
+2018,401020781,Buffalo,4040824,Dominic Johnson,2.0
+2018,401020783,Kent State,4362340,Woody Barrett,33.0
+2018,401020783,Kent State,4244068,Dustin Crum,8.0
+2018,401020783,Toledo,4039495,Eli Peters,14.0
+2018,401020783,Toledo,4362260,Carter Bradley,4.0
+2018,401020784,Akron,4038741,Kato Nelson,28.0
+2018,401020784,Bowling Green,4244029,Jarret Doege,27.0
+2018,401012792,Utah,4243258,Jason Shelley,23.0
+2018,401012792,Colorado,3915436,Steven Montez,22.0
+2018,401012792,Colorado,4243162,Tyler Lytle,5.0
+2018,401012792,Colorado,4040880,Sam Noyer,6.0
+2018,401015045,Florida Atlantic,4241399,Chris Robison,35.0
+2018,401015045,North Texas,4039073,Mason Fine,33.0
+2018,401015045,North Texas,547164,Quinn Shanbour,2.0
+2018,401015044,Florida International,3914395,James Morgan,31.0
+2018,401015044,Florida International,3914307,Maurice Alexander,1.0
+2018,401015044,Charlotte,3139889,Hasaan Klugh,22.0
+2018,401015047,UTSA,4245191,Bryce Rivers,31.0
+2018,401015047,UTSA,4362982,Jordan Weeks,3.0
+2018,401015047,Marshall,4261909,Isaiah Green,36.0
+2018,401015046,Louisiana Tech,3914382,J'Mar Smith,43.0
+2018,401015046,Southern Miss,4040407,Jack Abraham,29.0
+2018,401015046,Southern Miss,4362942,Tate Whatley,2.0
+2018,401012347,UAB,4239793,Tyler Johnston III,39.0
+2018,401012347,UAB,545682,A.J. Erdely,1.0
+2018,401012347,Texas A&M,4240904,Kellen Mond,20.0
+2018,401012338,Alabama,4241479,Tua Tagovailoa,22.0
+2018,401012338,Alabama,4040715,Jalen Hurts,4.0
+2018,401012338,The Citadel,4032239,Brandon Rainey,2.0
+2018,401012344,Mississippi State,558337,Nick Fitzgerald,14.0
+2018,401012344,Mississippi State,4242243,Keytaon Thompson,4.0
+2018,401012344,Arkansas,3886621,Ty Storey,27.0
+2018,401012344,Arkansas,4372004,Connor Noland,3.0
+2018,401012344,Arkansas,4372000,John Stephen Jones,3.0
+2018,401012344,Arkansas,4242178,De'Vion Warren,1.0
+2018,401020780,Western Michigan,4362230,Kaleb Eleby,29.0
+2018,401020780,Ball State,4039210,Drew Plitt,26.0
+2018,401020780,Ball State,3125731,Corey Lacanaria,1.0
+2018,401012878,Ohio State,4040616,Dwayne Haskins,38.0
+2018,401012878,Maryland,4036210,Tyrrell Pigrome,13.0
+2018,401012878,Maryland,4036234,Wade Lees,1.0
+2018,401012887,Michigan State,4241965,Rocky Lombardi,41.0
+2018,401012887,Nebraska,4361182,Adrian Martinez,37.0
+2018,401012849,Rutgers,3127375,Giovanni Rescigno,8.0
+2018,401012849,Rutgers,4361530,Artur Sitkowski,7.0
+2018,401012849,Rutgers,4033797,Trey Sneed,1.0
+2018,401012849,Penn State,3116172,Trace McSorley,37.0
+2018,401012860,Michigan,4035292,Shea Patterson,28.0
+2018,401012860,Indiana,4045290,Peyton Ramsey,35.0
+2018,401015048,VMI,4369910,Chance Newman,15.0
+2018,401015048,VMI,4249295,Reece Udinski,27.0
+2018,401015048,Old Dominion,3914543,Blake LaRussa,20.0
+2018,401015048,Old Dominion,4037420,Drayton Arnold,2.0
+2018,401015048,Old Dominion,4374379,Jonah Fitzgerald,3.0
+2018,401013353,Wisconsin,4242331,Jack Coan,24.0
+2018,401013353,Purdue,3116188,David Blough,48.0
+2018,401013334,Minnesota,4240756,Tanner Morgan,32.0
+2018,401013334,Northwestern,3116144,Clayton Thorson,21.0
+2018,401012814,Iowa,4036149,Nathan Stanley,21.0
+2018,401012814,Iowa,4240570,Peyton Mansell,2.0
+2018,401012814,Illinois,3116087,AJ Bush,28.0
+2018,401012814,Illinois,4360372,M.J. Rivers II,2.0
+2018,401013375,Army,4036923,Kelvin Hopkins Jr.,6.0
+2018,401013375,Colgate,3909280,Sage Attwood,16.0
+2018,401013182,Notre Dame,4046678,Ian Book,37.0
+2018,401013182,Notre Dame,3932451,Brandon Wimbush,1.0
+2018,401013182,Syracuse,4240391,Tommy DeVito,31.0
+2018,401013182,Syracuse,3916447,Eric Dungey,4.0
+2018,401019532,UConn,4239134,David Pindell,25.0
+2018,401019532,UConn,3914240,Tyler Davis,1.0
+2018,401019532,UConn,3921920,Brandon Bisack,7.0
+2018,401019532,East Carolina,4360131,Holton Ahlers,31.0
+2018,401019532,East Carolina,-5866, Team,2.0
+2018,401021693,Arkansas State,3116379,Justice Hansen,27.0
+2018,401021693,UL Monroe,4036585,Caleb Evans,28.0
+2018,401021695,Louisiana,4241553,Andre Nunez,18.0
+2018,401021695,Louisiana,4241556,Levi Lewis,1.0
+2018,401021695,South Alabama,3139423,Cole Garvin,28.0
+2018,401021696,Troy,4039901,Sawyer Smith,27.0
+2018,401021696,Texas State,4362667,Tyler Vitt,23.0
+2018,401021692,Georgia State,4361902,Dan Ellington,21.0
+2018,401021692,App State,4036429,Zac Thomas,24.0
+2018,401021692,App State,4036427,Jacob Huesman,2.0
+2018,401021694,Georgia Southern,4036650,Shai Werts,6.0
+2018,401021694,Coastal Carolina,4361033,Fred Payton,14.0
+2018,401021694,Coastal Carolina,3124529,Kilton Anderson,10.0
+2018,401019533,Temple,4044122,Anthony Russo,34.0
+2018,401019533,Temple,4243276,Todd Centeio,1.0
+2018,401019533,South Florida,3858944,Blake Barnett,23.0
+2018,401019531,Cincinnati,4239086,Desmond Ridder,26.0
+2018,401019531,UCF,4042113,McKenzie Milton,25.0
+2018,401019529,Houston,4360175,Clayton Tune,15.0
+2018,401019529,Houston,4039300,D'Eriq King,15.0
+2018,401019529,Tulane,3843247,Justin McMillan,20.0
+2018,401019529,Tulane,4243908,Dane Ledford,4.0
+2018,401019534,Navy,3916251,Zach Abey,2.0
+2018,401019534,Tulsa,4244601,Seth Boomer,28.0
+2018,401019530,Memphis,3893630,Brady White,31.0
+2018,401019530,SMU,3916208,Ben Hicks,55.0
+2018,401019530,SMU,3916204,James Proche,1.0
+2018,401019530,SMU,4046731,Jamie Sackville,1.0
+2018,401013175,Florida State,3921561,Deondre Francois,39.0
+2018,401013175,Boston College,4035312,Anthony Brown,36.0
+2018,401013175,Boston College,3929118,Jeff Smith,2.0
+2018,401013176,Clemson,4360310,Trevor Lawrence,38.0
+2018,401013176,Clemson,4239994,Chase Brice,1.0
+2018,401013176,Duke,3917792,Daniel Jones,43.0
+2018,401013176,Duke,3917793,Quentin Harris,1.0
+2018,401013178,Louisville,4240069,Malik Cunningham,14.0
+2018,401013178,Louisville,4035995,Jawon Pass,11.0
+2018,401013181,Wake Forest,4037213,Jamie Newman,29.0
+2018,401013181,Pittsburgh,4240703,Kenny Pickett,30.0
+2018,401013179,Virginia Tech,3917958,Ryan Willis,36.0
+2018,401013179,Miami,4240628,N'Kosi Perry,34.0
+2018,401013177,Georgia Tech,3917810,TaQuon Marshall,8.0
+2018,401013177,Virginia,3675812,Bryce Perkins,26.0
+2018,401013177,Virginia,4370775,Brennan Armstrong,2.0
+2018,401013180,North Carolina,3895838,Nathan Elliott,24.0
+2018,401013180,North Carolina,3929199,Manny Miles,4.0
+2018,401013180,Western Carolina,3911636,Tyrie Adams,34.0
+2018,401013180,Western Carolina,3922009,Nate Mullen,1.0
+2018,401013180,Western Carolina,-7893, Team,1.0
+2018,401022561,Utah State,4036378,Jordan Love,24.0
+2018,401022561,Colorado State,4036357,Collin Hill,37.0
+2018,401022561,Colorado State,4256051,Ryan Stonehouse,1.0
+2018,401022560,Boise State,3722362,Brett Rypien,27.0
+2018,401022560,New Mexico,3915379,Sheriron Jones,14.0
+2018,401022560,New Mexico,4261168,Bryson Carroll,0.0
+2018,401022559,Wyoming,4240351,Tyler Vander Waal,26.0
+2018,401022559,Wyoming,4361690,Sean Chambers,2.0
+2018,401022559,Wyoming,4036754,Austin Conway,1.0
+2018,401022559,Air Force,4382332,Donald Hammond III,9.0
+2018,401022563,Fresno State,3127332,Marcus McMaryion,24.0
+2018,401022563,San Diego State,3139921,Christian Chapman,13.0
+2018,401022563,San Diego State,3921648,Ryan Agnew,8.0
+2018,401022564,UNLV,4056052,Armani Rogers,15.0
+2018,401022564,UNLV,4035856,Max Gilliam,9.0
+2018,401022564,Hawai'i,4038220,Cole McDonald,30.0
+2018,401022564,Hawai'i,4373934,Chevan Cordeiro,5.0
+2018,401022564,Hawai'i,-6139, Team,1.0
+2018,401022562,San José State,4036857,Michael Carrillo,26.0
+2018,401022562,San José State,4405859,Chance Lachapelle,1.0
+2018,401022562,Nevada,3122611,Ty Gangi,32.0
+2018,401022562,Nevada,4036788,Jaxson Kincaide,1.0
+2018,401012352,Georgia,4240689,Jake Fromm,16.0
+2018,401012352,Georgia,4362887,Justin Fields,3.0
+2018,401012352,Georgia Tech,3917810,TaQuon Marshall,12.0
+2018,401012352,Georgia Tech,4360578,James Graham,1.0
+2018,401012352,Georgia Tech,4240482,Tobias Oliver,1.0
+2018,401012351,Florida,4034948,Feleipe Franks,26.0
+2018,401012351,Florida,4043893,Nick Sproles,1.0
+2018,401012351,Florida State,3921561,Deondre Francois,29.0
+2018,401012351,Florida State,4240034,D.J. Matthews,1.0
+2018,401012357,Tennessee,4035167,Jarrett Guarantano,29.0
+2018,401012357,Tennessee,3117245,Keller Chryst,4.0
+2018,401012357,Vanderbilt,3915776,Kyle Shurmur,35.0
+2018,401012355,South Carolina,4038809,Jake Bentley,50.0
+2018,401012355,Clemson,4360310,Trevor Lawrence,36.0
+2018,401012355,Clemson,-5650, Team,1.0
+2018,401012353,Kentucky,4038940,Terry Wilson,23.0
+2018,401012353,Kentucky,4259979,Lynn Bowden Jr.,1.0
+2018,401012353,Louisville,4240069,Malik Cunningham,8.0
+2018,401012353,Louisville,4035998,Sean McCormack,8.0
+2018,401013078,Oklahoma State,3122424,Taylor Cornelius,40.0
+2018,401013078,TCU,3116420,Grayson Muehlstein,25.0
+2018,401013047,Kansas State,4036419,Skylar John Thompson,27.0
+2018,401013047,Iowa State,4361741,Brock Purdy,27.0
+2018,401013037,Baylor,4241222,Charlie Brewer,30.0
+2018,401013037,Baylor,3116715,Jalan McClendon,1.0
+2018,401013037,Baylor,3928925,JaMycal Hasty,1.0
+2018,401013037,Texas Tech,3910083,McLane Carter,37.0
+2018,401013056,Kansas,3127261,Peyton Bender,35.0
+2018,401013056,Texas,4241820,Sam Ehlinger,28.0
+2018,401013071,West Virginia,559556,Will Grier,49.0
+2018,401013071,Oklahoma,3917315,Kyler Murray,27.0
+2018,401015056,UTEP,4362030,Brandon Jones,23.0
+2018,401015056,Southern Miss,4040407,Jack Abraham,20.0
+2018,401015056,Southern Miss,4362942,Tate Whatley,1.0
+2018,401015055,Rice,4362528,Wiley Green,13.0
+2018,401015055,Rice,4244856,Austin Trammell,1.0
+2018,401015055,Old Dominion,3914543,Blake LaRussa,53.0
+2018,401012797,Oregon,4038941,Justin Herbert,12.0
+2018,401012797,Oregon,4242490,Braxton Burmeister,2.0
+2018,401012797,Oregon State,3124900,Jake Luton,37.0
+2018,401012797,Oregon State,4042806,Timmy Hernandez,1.0
+2018,401012797,Oregon State,4360705,Jack Colletto,1.0
+2018,401012801,Stanford,4044431,K.J. Costello,37.0
+2018,401012801,UCLA,3115966,Wilton Speight,47.0
+2018,401012798,Washington,3886812,Jake Browning,14.0
+2018,401012798,Washington,4039000,Aaron Fuller,1.0
+2018,401012798,Washington State,4038524,Gardner Minshew,35.0
+2018,401012803,California,4242408,Chase Garbers,26.0
+2018,401012803,Colorado,3915436,Steven Montez,33.0
+2018,401012800,USC,4374303,JT Daniels,51.0
+2018,401012800,Notre Dame,4046678,Ian Book,39.0
+2018,401012802,BYU,4361259,Zach Wilson,29.0
+2018,401012802,Utah,4243258,Jason Shelley,28.0
+2018,401013447,New Mexico State,4241635,Josh Adkins,54.0
+2018,401013447,Liberty,4029885,Stephen Calvert,31.0
+2018,401012350,Auburn,3892775,Jarrett Stidham,30.0
+2018,401012350,Auburn,3916946,Ryan Davis,1.0
+2018,401012350,Auburn,4242512,Malik Willis,1.0
+2018,401012350,Auburn,4242517,Traivon Leonard,1.0
+2018,401012350,Alabama,4241479,Tua Tagovailoa,32.0
+2018,401012350,Alabama,4040715,Jalen Hurts,1.0
+2018,401012356,LSU,3915511,Joe Burrow,38.0
+2018,401012356,LSU,4242214,Clyde Edwards-Helaire,1.0
+2018,401012356,Texas A&M,-7622, Team,2.0
+2018,401012356,Texas A&M,4240904,Kellen Mond,49.0
+2018,401020785,Miami (OH),3125968,Gus Ragland,16.0
+2018,401020785,Miami (OH),-6629, Team,1.0
+2018,401020785,Ball State,4039210,Drew Plitt,29.0
+2018,401020785,Ball State,4361636,John Paddock,6.0
+2018,401020785,Ball State,3125731,Corey Lacanaria,1.0
+2018,401020787,Ohio,4244688,Nathan Rourke,14.0
+2018,401020787,Akron,4038741,Kato Nelson,41.0
+2018,401020790,Kent State,4362340,Woody Barrett,34.0
+2018,401020790,Kent State,4038930,Kavious Price,1.0
+2018,401020790,Eastern Michigan,3144983,Tyler Wiegers,26.0
+2018,401020789,Toledo,4039495,Eli Peters,30.0
+2018,401020789,Toledo,4362260,Carter Bradley,1.0
+2018,401020789,Central Michigan,4362563,George Pearson,24.0
+2018,401020789,Central Michigan,4039264,Austin Hergott,19.0
+2018,401012799,Arizona State,3128814,Manny Wilkins,31.0
+2018,401012799,Arizona,4039602,Khalil Tate,39.0
+2018,401015053,Middle Tennessee,545683,Brent Stockstill,29.0
+2018,401015053,UAB,545682,A.J. Erdely,20.0
+2018,401015053,UAB,4239793,Tyler Johnston III,4.0
+2018,401015050,Florida Atlantic,4241399,Chris Robison,22.0
+2018,401015050,Florida Atlantic,4243787,De'Andre Johnson,6.0
+2018,401015050,Florida Atlantic,4360617,Doug Johnson Jr.,6.0
+2018,401015050,Charlotte,3139889,Hasaan Klugh,16.0
+2018,401015050,Charlotte,-107006, Team,1.0
+2018,401015051,Florida International,3914395,James Morgan,33.0
+2018,401015051,Florida International,3914306,Christian Alexander,5.0
+2018,401015051,Marshall,4261909,Isaiah Green,27.0
+2018,401015054,North Texas,4039073,Mason Fine,36.0
+2018,401015054,UTSA,4245191,Bryce Rivers,32.0
+2018,401015054,UTSA,4362985,Brenden Brady,1.0
+2018,401015052,Louisiana Tech,3914382,J'Mar Smith,44.0
+2018,401015052,Louisiana Tech,3914374,James Jackson,8.0
+2018,401015052,Louisiana Tech,-6384, Team,1.0
+2018,401015052,Western Kentucky,4037556,Steven Duncan,22.0
+2018,401015052,Western Kentucky,3915802,Lucky Jackson,1.0
+2018,401012349,Ole Miss,4242418,Jordan Ta'amu,17.0
+2018,401012349,Ole Miss,4362874,Matt Corral,8.0
+2018,401012349,Mississippi State,558337,Nick Fitzgerald,18.0
+2018,401012354,Arkansas,4372004,Connor Noland,17.0
+2018,401012354,Arkansas,3886621,Ty Storey,7.0
+2018,401012354,Arkansas,4242178,De'Vion Warren,1.0
+2018,401012354,Missouri,3924327,Drew Lock,25.0
+2018,401012354,Missouri,4241193,Taylor Powell,2.0
+2018,401020786,Western Michigan,4362230,Kaleb Eleby,35.0
+2018,401020786,Northern Illinois,4039470,Marcus Childers,21.0
+2018,401020788,Buffalo,3916564,Tyree Jackson,20.0
+2018,401020788,Buffalo,4239714,Kyle Vantrease,2.0
+2018,401020788,Bowling Green,4244029,Jarret Doege,17.0
+2018,401020788,Bowling Green,4046743,Grant Loy,1.0
+2018,401012895,Ohio State,4040616,Dwayne Haskins,30.0
+2018,401012895,Michigan,4035292,Shea Patterson,34.0
+2018,401012895,Michigan,4360698,Joe Milton,3.0
+2018,401012895,Michigan,4036262,Brandon Peters,1.0
+2018,401012850,Michigan State,4241965,Rocky Lombardi,43.0
+2018,401012850,Michigan State,3929824,Brian Lewerke,1.0
+2018,401012850,Rutgers,3127375,Giovanni Rescigno,17.0
+2018,401012850,Rutgers,4361529,Isaih Pacheco,1.0
+2018,401012879,Maryland,4036210,Tyrrell Pigrome,23.0
+2018,401012879,Penn State,3116172,Trace McSorley,22.0
+2018,401012879,Penn State,3791110,Tommy Stevens,2.0
+2018,401012861,Indiana,4045290,Peyton Ramsey,51.0
+2018,401012861,Purdue,3116188,David Blough,35.0
+2018,401013335,Wisconsin,3886609,Alex Hornibrook,33.0
+2018,401013335,Minnesota,4240756,Tanner Morgan,16.0
+2018,401012871,Nebraska,4361182,Adrian Martinez,38.0
+2018,401012871,Iowa,4036149,Nathan Stanley,27.0
+2018,401012871,Iowa,3917640,Colten Rastetter,1.0
+2018,401012815,Illinois,3116087,AJ Bush,39.0
+2018,401012815,Northwestern,3116144,Clayton Thorson,18.0
+2018,401019538,UConn,4239134,David Pindell,23.0
+2018,401019538,UConn,4362140,Steven Krajewski,3.0
+2018,401019538,Temple,3138735,Frank Nutile,12.0
+2018,401019538,Temple,4243276,Todd Centeio,3.0
+2018,401019538,Temple,-7598, Team,1.0
+2018,401021698,Arkansas State,3116379,Justice Hansen,24.0
+2018,401021698,Texas State,4362667,Tyler Vitt,26.0
+2018,401021698,Texas State,4241667,Jaylen Gipson,1.0
+2018,401021701,Louisiana,4241553,Andre Nunez,15.0
+2018,401021701,Louisiana,4241556,Levi Lewis,6.0
+2018,401021701,UL Monroe,4036585,Caleb Evans,24.0
+2018,401021697,Troy,4039901,Sawyer Smith,34.0
+2018,401021697,Troy,4039930,Tyler Sumpter,1.0
+2018,401021697,App State,4036429,Zac Thomas,24.0
+2018,401021699,South Alabama,3129265,Evan Orth,4.0
+2018,401021699,South Alabama,3139423,Cole Garvin,9.0
+2018,401021699,Coastal Carolina,3124529,Kilton Anderson,32.0
+2018,401021699,Coastal Carolina,4361032,Bryce Carpenter,1.0
+2018,401021700,Georgia State,4361902,Dan Ellington,33.0
+2018,401021700,Georgia Southern,4036650,Shai Werts,11.0
+2018,401019535,South Florida,4044111,Chris Oladokun,12.0
+2018,401019535,South Florida,3923382,Brett Kean,17.0
+2018,401019535,UCF,4042113,McKenzie Milton,10.0
+2018,401019535,UCF,4243535,D.J. Mack Jr.,14.0
+2018,401019536,Cincinnati,4239086,Desmond Ridder,29.0
+2018,401019536,Cincinnati,3125813,Hayden Moore,11.0
+2018,401019536,East Carolina,4360131,Holton Ahlers,22.0
+2018,401019536,East Carolina,4038520,Reid Herring,6.0
+2018,401019537,Houston,4360175,Clayton Tune,43.0
+2018,401019537,Memphis,3893630,Brady White,33.0
+2018,401019539,Navy,3916251,Zach Abey,13.0
+2018,401019539,Navy,4039436,Malcolm Perry,1.0
+2018,401019539,Navy,3916282,Garret Lewis,2.0
+2018,401019539,Tulane,3843247,Justin McMillan,29.0
+2018,401019539,Tulane,4040646,Sean Harper,1.0
+2018,401019540,Tulsa,4244601,Seth Boomer,27.0
+2018,401019540,Tulsa,4039662,Keenen Johnson,1.0
+2018,401019540,SMU,3916208,Ben Hicks,46.0
+2018,401013184,Boston College,4035312,Anthony Brown,37.0
+2018,401013184,Syracuse,3916447,Eric Dungey,34.0
+2018,401013184,Syracuse,4361952,Taj Harris,1.0
+2018,401013187,NC State,546288,Ryan Finley,28.0
+2018,401013187,NC State,4240121,Thayer Thomas,1.0
+2018,401013187,North Carolina,4361573,Cade Fortin,40.0
+2018,401013185,Wake Forest,4037213,Jamie Newman,23.0
+2018,401013185,Duke,3917792,Daniel Jones,36.0
+2018,401013183,Virginia Tech,3917958,Ryan Willis,33.0
+2018,401013183,Virginia Tech,-7798, Team,1.0
+2018,401013183,Virginia,3675812,Bryce Perkins,29.0
+2018,401013186,Miami,4240628,N'Kosi Perry,24.0
+2018,401013186,Pittsburgh,4240703,Kenny Pickett,22.0
+2018,401013186,Pittsburgh,3861927,Jeff George Jr.,2.0
+2018,401022566,Utah State,4036378,Jordan Love,46.0
+2018,401022566,Boise State,3722362,Brett Rypien,32.0
+2018,401022565,Colorado State,4036357,Collin Hill,23.0
+2018,401022565,Colorado State,3127291,K.J. Carta-Samuels,9.0
+2018,401022565,Air Force,4382332,Donald Hammond III,16.0
+2018,401022567,Wyoming,4240351,Tyler Vander Waal,17.0
+2018,401022567,New Mexico,3128784,Coltin Gerhart,14.0
+2018,401022567,New Mexico,3915379,Sheriron Jones,3.0
+2018,401022570,Fresno State,3127332,Marcus McMaryion,29.0
+2018,401022570,San José State,4036850,Montel Aaron,1.0
+2018,401022570,San José State,4036857,Michael Carrillo,41.0
+2018,401022570,San José State,4406951,Cha Lachapelle,1.0
+2018,401022568,San Diego State,3139921,Christian Chapman,19.0
+2018,401022568,San Diego State,3921648,Ryan Agnew,4.0
+2018,401022568,Hawai'i,4038220,Cole McDonald,46.0
+2018,401022569,UNLV,4056052,Armani Rogers,20.0
+2018,401022569,UNLV,4035856,Max Gilliam,3.0
+2018,401022569,Nevada,3122611,Ty Gangi,45.0
+2018,401056705,Alabama,4241479,Tua Tagovailoa,25.0
+2018,401056705,Alabama,4040715,Jalen Hurts,9.0
+2018,401056705,Georgia,4240689,Jake Fromm,38.0
+2018,401056705,Georgia,4362887,Justin Fields,1.0
+2018,401098253,Akron,4038741,Kato Nelson,39.0
+2018,401098253,Akron,4260320,Andre Williams,1.0
+2018,401098253,South Carolina,4038809,Jake Bentley,27.0
+2018,401082044,Drake,4051481,Grant Kraemer,29.0
+2018,401082044,Iowa State,4361741,Brock Purdy,22.0
+2018,401082044,Iowa State,552119,Kyle Kempt,3.0
+2018,401082044,Iowa State,4407705,- 1k,2.0
+2018,401099853,California,4242408,Chase Garbers,39.0
+2018,401099853,Stanford,4044431,K.J. Costello,29.0
+2018,401056704,Utah,4243258,Jason Shelley,27.0
+2018,401056704,Washington,3886812,Jake Browning,33.0
+2018,401081953,Norfolk State,4247919,Juwan Carter,36.0
+2018,401081953,Liberty,4029885,Stephen Calvert,31.0
+2018,401081953,Liberty,4246897,Mason Cunningham,1.0
+2018,401056703,UAB,4239793,Tyler Johnston III,15.0
+2018,401056703,Middle Tennessee,545683,Brent Stockstill,45.0
+2018,401056696,Buffalo,3916564,Tyree Jackson,35.0
+2018,401056696,Northern Illinois,4039470,Marcus Childers,33.0
+2018,401100159,Virginia Tech,3917958,Ryan Willis,26.0
+2018,401100159,Marshall,4261909,Isaiah Green,34.0
+2018,401056702,Northwestern,3116144,Clayton Thorson,43.0
+2018,401056702,Ohio State,4040616,Dwayne Haskins,41.0
+2018,401056698,Oklahoma,3917315,Kyler Murray,34.0
+2018,401056698,Texas,4241820,Sam Ehlinger,36.0
+2018,401056698,Texas,4362087,Keaontay Ingram,1.0
+2018,401056701,App State,4036429,Zac Thomas,13.0
+2018,401056701,Louisiana,4241553,Andre Nunez,21.0
+2018,401056701,Louisiana,4241556,Levi Lewis,1.0
+2018,401088766,NC State,546288,Ryan Finley,44.0
+2018,401088766,NC State,4240096,Matt McKay,1.0
+2018,401088766,East Carolina,4038520,Reid Herring,22.0
+2018,401088766,East Carolina,4360129,Caiden Norman,2.0
+2018,401088766,East Carolina,4239400,Kingsley Ifedi,1.0
+2018,401056699,Memphis,3893630,Brady White,29.0
+2018,401056699,Memphis,4039359,Darrell Henderson,1.0
+2018,401056699,UCF,4243535,D.J. Mack Jr.,27.0
+2018,401056699,UCF,-5563, Team,1.0
+2018,401056697,Pittsburgh,4240703,Kenny Pickett,16.0
+2018,401056697,Clemson,4360310,Trevor Lawrence,24.0
+2018,401056700,Fresno State,3127332,Marcus McMaryion,32.0
+2018,401056700,Boise State,3722362,Brett Rypien,31.0
+2018,401013376,Navy,3916282,Garret Lewis,11.0
+2018,401013376,Navy,3916251,Zach Abey,5.0
+2018,401013376,Navy,4039425,OJ Davis,1.0
+2018,401013376,Army,4036923,Kelvin Hopkins Jr.,9.0

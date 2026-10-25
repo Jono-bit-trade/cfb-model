@@ -1,0 +1,2648 @@
+season,game_id,team,player_id,player,att
+2014,400610199,San Diego State,547570,Quinn Kaehler,27.0
+2014,400610199,Navy,530568,Keenan Reynolds,7.0
+2014,400610209,NC State,512191,Jacoby Brissett,26.0
+2014,400610209,NC State,3116742,Bo Hines,1.0
+2014,400610209,NC State,530517,Shadrach Thornton,1.0
+2014,400610209,UCF,551184,Justin Holman,53.0
+2014,400610207,Virginia Tech,514481,Michael Brewer,24.0
+2014,400610207,Virginia Tech,3124069,Isaiah Ford,1.0
+2014,400610207,Cincinnati,534259,Gunner Kiel,26.0
+2014,400610207,Cincinnati,552214,Michael Colosimo,10.0
+2014,400610207,Cincinnati,512086,Shaq Washington,1.0
+2014,400610213,Pittsburgh,530450,Chad Voytik,35.0
+2014,400610213,Houston,545552,Greg Ward Jr.,24.0
+2014,400610213,Houston,512471,Kenneth Farrow,1.0
+2014,400610225,BYU,381494,Christian Stewart,48.0
+2014,400610225,BYU,3147290,- Team,1.0
+2014,400610225,Memphis,534849,Paxton Lynch,46.0
+2014,400610228,Florida,3121647,Treon Harris,11.0
+2014,400610228,Florida,511889,Jeff Driskel,17.0
+2014,400610228,East Carolina,500938,Shane Carden,66.0
+2014,400610228,East Carolina,505407,Justin Hardy,1.0
+2014,400610228,East Carolina,552940,Zay Jones,1.0
+2014,400610215,Louisville,545559,Kyle Bolin,40.0
+2014,400610215,Louisville,3116642,Reggie Bonnafon,3.0
+2014,400610215,Louisville,511623,Ryan Johnson,1.0
+2014,400610215,Georgia,504004,Hutson Mason,15.0
+2014,400610215,Georgia,546345,Brice Ramsey,9.0
+2014,400610224,Iowa,535844,C.J. Beathard,23.0
+2014,400610224,Iowa,518380,Jake Rudock,8.0
+2014,400610224,Tennessee,546540,Joshua Dobbs,21.0
+2014,400610224,Tennessee,517470,Marlin Lane,1.0
+2014,400610216,Miami,3123048,Brad Kaaya,33.0
+2014,400610216,South Carolina,504295,Dylan Thompson,34.0
+2014,400610227,Washington,535325,Cyler Miles,38.0
+2014,400610227,Washington,535318,Jeff Lindquist,1.0
+2014,400610227,Oklahoma State,3116407,Mason Rudolph,26.0
+2014,400610227,Oklahoma State,534661,Brandon Sheperd,1.0
+2014,400610218,UCLA,511982,Brett Hundley,24.0
+2014,400610218,Kansas State,550158,Jake Waters,48.0
+2014,400610218,Kansas State,515181,Tyler Lockett,1.0
+2014,400610179,Michigan State,512705,Connor Cook,42.0
+2014,400610179,Baylor,480746,Bryce Petty,51.0
+2014,400610179,Baylor,517290,Jay Lee,1.0
+2014,400610182,Ole Miss,500990,Bo Wallace,23.0
+2014,400610182,Ole Miss,550123,Devante Kincade,3.0
+2014,400610182,TCU,517127,Trevone Boykin,31.0
+2014,400610182,TCU,531231,Kolby Listenbee,1.0
+2014,400610182,TCU,512469,Bram Kohlhausen,5.0
+2014,400610226,Texas A&M,559681,Kyle Allen,35.0
+2014,400610226,West Virginia,3116460,Skyler Howard,45.0
+2014,400610202,Utah State,3125353,Kent Myers,12.0
+2014,400610202,UTEP,500571,Jameill Showers,24.0
+2014,400610204,Fresno State,550587,Zack Greenlee,18.0
+2014,400610204,Fresno State,546271,Brian Burrell,20.0
+2014,400610204,Rice,514894,Driphus Jackson,24.0
+2014,400610204,Rice,536504,Luke Turner,2.0
+2014,400610325,Ohio State,534294,Cardale Jones,23.0
+2014,400610325,Oregon,511459,Marcus Mariota,37.0
+2014,400610325,Oregon,530875,Jeff Lockie,1.0
+2014,400610177,Florida State,530308,Jameis Winston,45.0
+2014,400610177,Florida State,530299,Sean Maguire,3.0
+2014,400610177,Oregon,511459,Marcus Mariota,36.0
+2014,400610206,Maryland,480846,C.J. Brown,27.0
+2014,400610206,Stanford,516357,Kevin Hogan,20.0
+2014,400610206,Stanford,516354,Evan Crower,6.0
+2014,400610220,Nebraska,533270,Tommy Armstrong Jr.,51.0
+2014,400610220,USC,513329,Cody Kessler,39.0
+2014,400610219,Wisconsin,514230,Joel Stave,27.0
+2014,400610219,Auburn,550021,Nick Marshall,22.0
+2014,400610219,Auburn,511843,C.J. Uzomah,1.0
+2014,400610214,Notre Dame,550967,Malik Zaire,15.0
+2014,400610214,Notre Dame,515409,Everett Golson,11.0
+2014,400610214,LSU,546033,Anthony Jennings,14.0
+2014,400610200,Arkansas State,538156,Fredi Knighten,31.0
+2014,400610200,Toledo,545910,Logan Woodside,27.0
+2014,400610221,Colorado State,515528,Garrett Grayson,34.0
+2014,400610221,Colorado State,515534,Charles Lovett,1.0
+2014,400610221,Utah,531051,Travis Wilson,26.0
+2014,400610221,Utah,518526,Adam Schulz,2.0
+2014,400610221,Utah,534238,Jason Thompson,1.0
+2014,400610211,Duke,501046,Anthony Boone,31.0
+2014,400610211,Duke,513346,Will Monday,1.0
+2014,400610211,Duke,517452,Jamison Crowder,1.0
+2014,400610211,Arizona State,504700,Taylor Kelly,34.0
+2014,400610181,Boise State,504908,Grant Hedrick,34.0
+2014,400610181,Boise State,546224,Thomas Sperbeck,1.0
+2014,400610181,Arizona,552097,Anu Solomon,49.0
+2014,400610181,Arizona,3161453,- Team,1.0
+2014,400610222,Illinois,515454,Reilly O'Toole,39.0
+2014,400610222,Illinois,534652,Wes Lunt,8.0
+2014,400610222,Louisiana Tech,530696,Cody Sokol,28.0
+2014,400610205,Central Michigan,531455,Cooper Rush,45.0
+2014,400610205,Western Kentucky,504866,Brandon Doughty,42.0
+2014,400610178,Ohio State,534294,Cardale Jones,35.0
+2014,400610178,Ohio State,514182,Evan Spencer,1.0
+2014,400610178,Alabama,504052,Blake Sims,36.0
+2014,400610180,Georgia Tech,531104,Justin Thomas,12.0
+2014,400610180,Mississippi State,512030,Dak Prescott,51.0
+2014,400610223,Texas,547338,Tyrone Swoopes,25.0
+2014,400610223,Arkansas,515915,Brandon Allen,23.0
+2014,400610198,Air Force,535972,Kale Pearson,9.0
+2014,400610198,Air Force,554520,Jalen Robinette,1.0
+2014,400610198,Western Michigan,532645,Zach Terrell,38.0
+2014,400610203,Marshall,518267,Rakeem Cato,37.0
+2014,400610203,Northern Illinois,532480,Drew Hare,27.0
+2014,400610201,South Alabama,507211,Brandon Bridge,37.0
+2014,400610201,Bowling Green,531801,James Knapke,39.0
+2014,400610201,Bowling Green,3125748,Cody Callaway,1.0
+2014,400610201,Bowling Green,547066,Ronnie Moore,1.0
+2014,400610217,Minnesota,530731,Mitch Leidner,31.0
+2014,400610217,Minnesota,512737,David Cobb,1.0
+2014,400610217,Minnesota,530733,K.J. Maye,1.0
+2014,400610217,Missouri,531385,Maty Mauk,19.0
+2014,400610212,North Carolina,516347,Marquise Williams,37.0
+2014,400610212,North Carolina,545238,Mitch Trubisky,9.0
+2014,400610212,Rutgers,518344,Gary Nova,20.0
+2014,400610210,Boston College,503970,Tyler Murphy,19.0
+2014,400610210,Penn State,552329,Christian Hackenberg,50.0
+2014,400610208,Clemson,512052,Cole Stoudt,36.0
+2014,400610208,Clemson,505313,David Olson,1.0
+2014,400610208,Oklahoma,534449,Trevor Knight,37.0
+2014,400610197,Nevada,501241,Cody Fajardo,29.0
+2014,400610197,Louisiana,503922,Terrance Broadway,31.0
+2014,400547982,Navy,530568,Keenan Reynolds,4.0
+2014,400547982,Ohio State,545624,J.T. Barrett,15.0
+2014,400548010,UAB,3129249,Cody Clements,19.0
+2014,400548010,UAB,550754,Jeremiah Briscoe,1.0
+2014,400548010,Troy,546145,Brandon Silvers,24.0
+2014,400548010,Troy,3125460,Dontreal Pruitt,6.0
+2014,400547728,Massachusetts,518271,Blake Frohnapfel,22.0
+2014,400547728,Boston College,503970,Tyler Murphy,24.0
+2014,400547642,UCF,551184,Justin Holman,14.0
+2014,400547642,UCF,551185,Pete DiNovo,8.0
+2014,400547642,Penn State,552329,Christian Hackenberg,47.0
+2014,400547644,Houston,545550,John O'Korn,43.0
+2014,400547644,Houston,501268,Billy Cosh,7.0
+2014,400547644,UTSA,535979,Tucker Carter,24.0
+2014,400547648,SMU,536139,Neal Burcham,26.0
+2014,400547648,SMU,545334,Kolney Cassel,8.0
+2014,400547648,SMU,532113,Matt Davis,6.0
+2014,400547648,Baylor,480746,Bryce Petty,23.0
+2014,400547648,Baylor,535511,Seth Russell,23.0
+2014,400547648,Baylor,550004,Chris Johnson,1.0
+2014,400547641,UConn,533235,Casey Cochran,31.0
+2014,400547641,UConn,533264,Chandler Whitmer,17.0
+2014,400547641,BYU,482594,Taysom Hill,36.0
+2014,400547646,South Florida,549804,Mike White,26.0
+2014,400547646,South Florida,539215,Steven Bench,1.0
+2014,400547646,Western Carolina,533122,Troy Mitchell,67.0
+2014,400547646,Western Carolina,548861,Terryon Robinson,1.0
+2014,400547645,Memphis,534849,Paxton Lynch,27.0
+2014,400547645,Austin Peay,552240,Trey Taylor,9.0
+2014,400547645,Austin Peay,546599,Darrien Boone,7.0
+2014,400547640,Temple,549759,P.J. Walker,34.0
+2014,400547640,Temple,500975,Connor Reilly,2.0
+2014,400547640,Vanderbilt,517211,Stephen Rivers,25.0
+2014,400547640,Vanderbilt,532000,Patton Robinette,6.0
+2014,400547640,Vanderbilt,546184,Johnny McCrary,3.0
+2014,400547643,East Carolina,500938,Shane Carden,37.0
+2014,400547643,East Carolina,545645,Kurt Benkert,8.0
+2014,400547643,East Carolina,505407,Justin Hardy,1.0
+2014,400547643,North Carolina Central,3120893,Quinn Billerman,18.0
+2014,400547643,North Carolina Central,537229,Malcolm Bell,4.0
+2014,400547647,Tulane,545757,Tanner Lee,44.0
+2014,400547647,Tulsa,532273,Dane Evans,53.0
+2014,400548404,New Mexico State,3124981,Tyler Rogers,27.0
+2014,400548404,Cal Poly,538420,Dano Graves,3.0
+2014,400548404,Cal Poly,515084,Chris Brown,3.0
+2014,400548404,Cal Poly,505531,Chris Nicholls,1.0
+2014,400547740,Georgia,504004,Hutson Mason,26.0
+2014,400547740,Clemson,512052,Cole Stoudt,29.0
+2014,400547740,Clemson,3122840,Deshaun Watson,4.0
+2014,400548178,Tennessee,512424,Justin Worley,38.0
+2014,400548178,Tennessee,532065,Nathan Peterman,1.0
+2014,400548178,Tennessee,3122122,Alton Howard,1.0
+2014,400548178,Utah State,512806,Chuckie Keeton,35.0
+2014,400548402,South Carolina,504295,Dylan Thompson,40.0
+2014,400548402,Texas A&M,549865,Kenny Hill,60.0
+2014,400548400,Kentucky,530944,Patrick Towles,29.0
+2014,400548400,Kentucky,546354,Reese Phillips,4.0
+2014,400548400,UT Martin,516783,Jarod Neal,25.0
+2014,400548400,UT Martin,504238,Dylan Favre,9.0
+2014,400547762,Oklahoma State,511260,J.W. Walsh,27.0
+2014,400547762,Florida State,530308,Jameis Winston,40.0
+2014,400547839,Kansas State,550158,Jake Waters,28.0
+2014,400547839,Kansas State,517248,Joe Hubener,2.0
+2014,400547839,Stephen F. Austin,535983,Zach Conque,30.0
+2014,400547839,Stephen F. Austin,513787,Joe Minden,9.0
+2014,400547840,Iowa State,511969,Sam B. Richardson,31.0
+2014,400547840,North Dakota State,515607,Carson Wentz,28.0
+2014,400547838,Texas Tech,550386,Davis Webb,52.0
+2014,400547838,Central Arkansas,548897,Taylor Reed,33.0
+2014,400547838,Central Arkansas,504417,Ryan Howard,6.0
+2014,400547838,Central Arkansas,518679,Bobby Watkins,1.0
+2014,400547837,TCU,517127,Trevone Boykin,41.0
+2014,400547837,TCU,501033,Matt Joeckel,8.0
+2014,400547837,TCU,545514,Cameron Echols-Luper,1.0
+2014,400547837,Samford,517400,Michael Eubank,15.0
+2014,400547837,Samford,516601,Carson Barnett,5.0
+2014,400547835,West Virginia,501098,Clint Trickett,45.0
+2014,400547835,Alabama,504052,Blake Sims,33.0
+2014,400548011,UTEP,500571,Jameill Showers,22.0
+2014,400548011,New Mexico,533208,Cole Gautsche,5.0
+2014,400548011,New Mexico,546483,Clayton Mitchem,4.0
+2014,400548008,Rice,514894,Driphus Jackson,24.0
+2014,400548008,Rice,536503,Tyler Stehling,2.0
+2014,400548008,Notre Dame,515409,Everett Golson,22.0
+2014,400548257,Oregon,511459,Marcus Mariota,20.0
+2014,400548257,Oregon,530875,Jeff Lockie,12.0
+2014,400548257,South Dakota,513823,Kevin Earl,26.0
+2014,400548257,South Dakota,537987,Ryan Saeger,8.0
+2014,400548259,Stanford,516357,Kevin Hogan,16.0
+2014,400548259,Stanford,516354,Evan Crower,13.0
+2014,400548259,Stanford,546469,Ryan Burns,1.0
+2014,400548259,UC Davis,505882,London Lacy,22.0
+2014,400548173,Washington,535318,Jeff Lindquist,26.0
+2014,400548173,Hawai'i,532976,Ikaika Woolsey,42.0
+2014,400548173,Hawai'i,547195,Marcus Kemp,1.0
+2014,400547975,California,547401,Jared Goff,34.0
+2014,400547975,California,3127202,Luke Rubenzer,5.0
+2014,400547975,Northwestern,500419,Trevor Siemian,44.0
+2014,400547975,Northwestern,546836,Jayme Taylor,1.0
+2014,400548258,Oregon State,504786,Sean Mannion,45.0
+2014,400548258,Portland State,529363,Kieran McDonagh,17.0
+2014,400548258,Portland State,529368,Paris Penn,8.0
+2014,400548258,Portland State,529389,Darnell Adams,2.0
+2014,400548174,Southern Utah,547096,Aaron Cantu,31.0
+2014,400548174,Southern Utah,485026,Ammon Olsen,10.0
+2014,400548174,Southern Utah,547102,Mike Sharp,1.0
+2014,400548174,Nevada,501241,Cody Fajardo,41.0
+2014,400547993,Washington State,504823,Connor Halliday,56.0
+2014,400547993,Rutgers,518344,Gary Nova,27.0
+2014,400548172,USC,513329,Cody Kessler,37.0
+2014,400548172,USC,546415,Max Browne,4.0
+2014,400548172,Fresno State,546271,Brian Burrell,19.0
+2014,400548172,Fresno State,501052,Brandon Connette,17.0
+2014,400548398,Auburn,550019,Jeremy Johnson,16.0
+2014,400548398,Auburn,550021,Nick Marshall,6.0
+2014,400548398,Arkansas,515915,Brandon Allen,31.0
+2014,400548000,LSU,546033,Anthony Jennings,21.0
+2014,400548000,Wisconsin,515835,Tanner McEvoy,24.0
+2014,400548005,Miami (OH),500913,Andrew Hendrix,49.0
+2014,400548005,Marshall,518267,Rakeem Cato,32.0
+2014,400548097,Ohio,511552,Derrius Vick,24.0
+2014,400548097,Kent State,531864,Colin Reardon,41.0
+2014,400548090,Akron,514617,Kyle Pohl,36.0
+2014,400548090,Akron,550357,Thomas Woodson,8.0
+2014,400548090,Howard,519005,Greg McGhee,26.0
+2014,400548096,Toledo,515906,Phillip Ely,34.0
+2014,400548096,Toledo,552746,Michael Julian,1.0
+2014,400548096,New Hampshire,511741,Sean Goldrich,39.0
+2014,400548096,New Hampshire,498533,Andy Vailas,6.0
+2014,400547820,UCLA,511982,Brett Hundley,33.0
+2014,400547820,Virginia,535548,Matt Johns,22.0
+2014,400547820,Virginia,530521,Greyson Lambert,23.0
+2014,400548256,Utah,531051,Travis Wilson,18.0
+2014,400548256,Utah,514737,Kendal Thompson,10.0
+2014,400548256,Utah,550218,Brandon Cox,3.0
+2014,400548256,Idaho State,519384,Justin Arias,40.0
+2014,400548255,Arizona State,504700,Taylor Kelly,27.0
+2014,400548255,Arizona State,517393,Mike Bercovici,12.0
+2014,400548255,Weber State,545788,Billy Green,29.0
+2014,400548177,Arizona,552097,Anu Solomon,44.0
+2014,400548177,Arizona,500237,Jesse Scroggins III,2.0
+2014,400548177,UNLV,3125318,Blake Decker,41.0
+2014,400548171,Colorado,550278,Sefo Liufau,39.0
+2014,400548171,Colorado State,515528,Garrett Grayson,23.0
+2014,400548006,Middle Tennessee,531589,Austin Grammer,17.0
+2014,400548006,Middle Tennessee,545683,Brent Stockstill,3.0
+2014,400548006,Savannah State,3131252,Ker-Sean Wilson,31.0
+2014,400547968,Florida Atlantic,550876,Jaquez Johnson,12.0
+2014,400547968,Florida Atlantic,550873,Greg Hankerson,18.0
+2014,400547968,Nebraska,533270,Tommy Armstrong Jr.,29.0
+2014,400547968,Nebraska,533182,Ryker Fyfe,4.0
+2014,400547968,Nebraska,545618,Johnny Stanton,1.0
+2014,400548004,Florida International,3128843,Alex McGough,27.0
+2014,400548004,Florida International,536571,E.J. Hilliard,6.0
+2014,400548004,Bethune-Cookman,521060,Quentin Williams,17.0
+2014,400547836,North Texas,3122972,Josh Greer,11.0
+2014,400547836,North Texas,515147,Andrew McNulty,6.0
+2014,400547836,Texas,511262,David Ash,34.0
+2014,400547834,Louisiana Tech,530696,Cody Sokol,36.0
+2014,400547834,Oklahoma,534449,Trevor Knight,34.0
+2014,400548003,Western Kentucky,504866,Brandon Doughty,56.0
+2014,400548003,Bowling Green,513573,Matt Quinn Johnson,36.0
+2014,400548407,Arkansas-Pine Bluff,508835,Benjamin Anderson,19.0
+2014,400548407,Arkansas-Pine Bluff,553010,Marcus Terrell,2.0
+2014,400548407,Texas State,548240,Tyler Jones,25.0
+2014,400548407,Texas State,3125432,Connor White,5.0
+2014,400548406,Southern,3140995,Austin Howard,31.0
+2014,400548406,Southern,553188,Deonte Shorts,9.0
+2014,400548406,Louisiana,503922,Terrance Broadway,32.0
+2014,400548406,Louisiana,531678,Brooks Haack,4.0
+2014,400548169,Ole Miss,500990,Bo Wallace,36.0
+2014,400548169,Boise State,504908,Grant Hedrick,46.0
+2014,400548169,Boise State,504915,Matt Miller,2.0
+2014,400548009,Mississippi State,512030,Dak Prescott,26.0
+2014,400548009,Mississippi State,546603,Damian Williams,8.0
+2014,400548009,Southern Miss,552880,Nick Mullens,42.0
+2014,400547988,Western Michigan,532645,Zach Terrell,41.0
+2014,400547988,Purdue,550170,Danny Etling,38.0
+2014,400548093,Ball State,531552,Ozzie Mann,32.0
+2014,400548093,Colgate,547756,Jake Melville,26.0
+2014,400548092,Central Michigan,531455,Cooper Rush,26.0
+2014,400548092,Chattanooga,512913,Jacob Huesman,24.0
+2014,400548091,Northern Illinois,532480,Drew Hare,13.0
+2014,400548091,Northern Illinois,511607,Matt McIntosh,14.0
+2014,400548091,Northern Illinois,532644,Anthony Maddie,4.0
+2014,400548091,Presbyterian,514079,Kaleb Griffin,4.0
+2014,400548091,Presbyterian,547381,Heys McMath,14.0
+2014,400548403,Abilene Christian,551394,Parker McKenzie,40.0
+2014,400548403,Georgia State,3124848,Nick Arbuckle,47.0
+2014,400547751,Elon,499869,Mike Quinn,38.0
+2014,400547751,Duke,501046,Anthony Boone,33.0
+2014,400547751,Duke,530478,Thomas Sirk,7.0
+2014,400547751,Duke,545221,Parker Boehme,2.0
+2014,400553383,North Dakota,533958,Joe Mollberg,20.0
+2014,400553383,San José State,499830,Blake Jurich,25.0
+2014,400553383,San José State,512675,Joe Gray,1.0
+2014,400547815,Villanova,513877,John Robertson,27.0
+2014,400547815,Syracuse,514440,Terrel Hunt,17.0
+2014,400547815,Syracuse,545284,Austin Wilson,17.0
+2014,400547815,Syracuse,514471,Riley Dixon,1.0
+2014,400547808,Delaware,503697,Trent Hurley,13.0
+2014,400547808,Delaware,502506,Justin Burns,3.0
+2014,400547808,Pittsburgh,530450,Chad Voytik,13.0
+2014,400547808,Pittsburgh,519055,Trey Anderson,1.0
+2014,400547825,William & Mary,529984,Steve Cluley,21.0
+2014,400547825,William & Mary,516388,Christian Brumbaugh,2.0
+2014,400547825,Virginia Tech,514481,Michael Brewer,30.0
+2014,400547825,Virginia Tech,501222,Mark Leal,1.0
+2014,400547936,James Madison,517034,Vad Lee,37.0
+2014,400547936,Maryland,480846,C.J. Brown,24.0
+2014,400547936,Maryland,534328,Caleb Rowe,11.0
+2014,400547952,Jacksonville State,514502,Max Shortell,18.0
+2014,400547952,Jacksonville State,537200,Eli Jenkins,13.0
+2014,400547952,Jacksonville State,512172,Christian LeMay,6.0
+2014,400547952,Michigan State,512705,Connor Cook,13.0
+2014,400547952,Michigan State,535578,Tyler O'Connor,8.0
+2014,400547952,Michigan State,550477,Damion Terry,3.0
+2014,400547795,Liberty,514651,Josh Woodrum,33.0
+2014,400547795,North Carolina,516347,Marquise Williams,29.0
+2014,400547795,North Carolina,545238,Mitch Trubisky,16.0
+2014,400548094,Buffalo,513614,Joe Licata,36.0
+2014,400548094,Duquesne,535022,Dillon Buechel,37.0
+2014,400548401,Missouri,531385,Maty Mauk,21.0
+2014,400548401,South Dakota State,3140828,Zach Lujan,28.0
+2014,400548401,South Dakota State,506664,Austin Sumner,4.0
+2014,400547943,Michigan,501543,Devin Gardner,14.0
+2014,400547943,Michigan,546706,Shane Morris,5.0
+2014,400547943,App State,548447,Taylor Lamb,14.0
+2014,400547943,App State,512882,Kameron Bryant,19.0
+2014,400547916,Indiana,535825,Nate Sudfeld,18.0
+2014,400547916,Indiana State,500445,Mike Perish,32.0
+2014,400547916,Indiana State,498956,Chris O'Leary,1.0
+2014,400547960,Eastern Illinois,500846,Andrew Manley,34.0
+2014,400547960,Eastern Illinois,530943,Jalen Whitlow,23.0
+2014,400547960,Minnesota,530731,Mitch Leidner,17.0
+2014,400547960,Minnesota,545477,Chris Streveler,1.0
+2014,400547928,Northern Iowa,515648,Sawyer Kollmorgen,37.0
+2014,400547928,Iowa,518380,Jake Rudock,41.0
+2014,400547904,Youngstown State,514655,Dante Nania,24.0
+2014,400547904,Illinois,534652,Wes Lunt,38.0
+2014,400548007,Old Dominion,513949,Taylor Heinicke,40.0
+2014,400548007,Hampton,537150,Jaylian Williamson,45.0
+2014,400548007,Hampton,-6113, Team,1.0
+2014,400548405,Arkansas State,538156,Fredi Knighten,29.0
+2014,400548405,Arkansas State,538152,Tres Houston,1.0
+2014,400548405,Montana State,533805,Dakota Prukop,26.0
+2014,400547829,UL Monroe,501565,Pete Thomas,41.0
+2014,400547829,Wake Forest,3124092,John Wolford,22.0
+2014,400547802,Georgia Southern,532925,Kevin Ellison,16.0
+2014,400547802,Georgia Southern,549301,Favian Upshaw,1.0
+2014,400547802,NC State,512191,Jacoby Brissett,40.0
+2014,400547786,Miami,3123048,Brad Kaaya,29.0
+2014,400547786,Louisville,530357,Will Gardner,28.0
+2014,400547772,Georgia Tech,531104,Justin Thomas,15.0
+2014,400547772,Wofford,515987,Michael Weimer,4.0
+2014,400547772,Wofford,532323,Evan Jacks,9.0
+2014,400548179,Wyoming,520520,Colby Kirkegaard,21.0
+2014,400548179,Montana,506820,Jordan Johnson,45.0
+2014,400548179,Montana,537435,Ryan Burke,1.0
+2014,400548170,Air Force,535972,Kale Pearson,6.0
+2014,400548170,Nicholls,500514,Kalen Henderson,25.0
+2014,400548170,Nicholls,505475,Beaux Hebert,6.0
+2014,400548175,San Diego State,547570,Quinn Kaehler,29.0
+2014,400548175,Northern Arizona,515301,Kyren Poe,28.0
+2014,400547655,Navy,530568,Keenan Reynolds,8.0
+2014,400547655,Temple,549759,P.J. Walker,49.0
+2014,400548017,UAB,550754,Jeremiah Briscoe,15.0
+2014,400548017,UAB,3129249,Cody Clements,18.0
+2014,400548017,UAB,503643,Nolen Smith,1.0
+2014,400548017,Mississippi State,512030,Dak Prescott,25.0
+2014,400548017,Mississippi State,546603,Damian Williams,6.0
+2014,400548099,Massachusetts,518271,Blake Frohnapfel,38.0
+2014,400548099,Colorado,550278,Sefo Liufau,42.0
+2014,400547651,Houston,545550,John O'Korn,24.0
+2014,400547651,Houston,501268,Billy Cosh,1.0
+2014,400547651,Houston,545552,Greg Ward Jr.,1.0
+2014,400547651,Grambling,557882,Stephen Johnson,18.0
+2014,400547651,Grambling,518420,D.J. Williams,9.0
+2014,400547653,SMU,545334,Kolney Cassel,21.0
+2014,400547653,SMU,536139,Neal Burcham,22.0
+2014,400547653,SMU,532113,Matt Davis,2.0
+2014,400547653,North Texas,3122972,Josh Greer,12.0
+2014,400547653,North Texas,515147,Andrew McNulty,5.0
+2014,400547649,UConn,533264,Chandler Whitmer,27.0
+2014,400547649,Stony Brook,549332,Conor Bednarski,19.0
+2014,400547649,Stony Brook,503793,John Kinder,10.0
+2014,400547654,South Florida,539215,Steven Bench,36.0
+2014,400547654,South Florida,549804,Mike White,1.0
+2014,400547654,Maryland,480846,C.J. Brown,28.0
+2014,400547652,Memphis,534849,Paxton Lynch,41.0
+2014,400547652,Memphis,501534,Keiwone Malone,1.0
+2014,400547652,UCLA,511982,Brett Hundley,44.0
+2014,400547650,East Carolina,500938,Shane Carden,46.0
+2014,400547650,South Carolina,504295,Dylan Thompson,38.0
+2014,400547656,Tulane,545757,Tanner Lee,24.0
+2014,400547656,Tulane,532173,Devin Powell,11.0
+2014,400547656,Georgia Tech,531104,Justin Thomas,8.0
+2014,400547657,Tulsa,532273,Dane Evans,43.0
+2014,400547657,Tulsa,514152,Joseph Calcagni,7.0
+2014,400547657,Oklahoma,534449,Trevor Knight,34.0
+2014,400547657,Oklahoma,550504,Cody Thomas,4.0
+2014,400548409,New Mexico State,3124981,Tyler Rogers,44.0
+2014,400548409,Georgia State,3124848,Nick Arbuckle,37.0
+2014,400548411,Idaho,553235,Matt Linehan,47.0
+2014,400548411,UL Monroe,501565,Pete Thomas,44.0
+2014,400548101,Florida,511889,Jeff Driskel,45.0
+2014,400548101,Florida,3121647,Treon Harris,2.0
+2014,400548101,Eastern Michigan,552782,Brogan Roback,10.0
+2014,400548101,Eastern Michigan,3125823,Reginald Bell,6.0
+2014,400548101,Eastern Michigan,501541,Rob Bolden,5.0
+2014,400548396,Tennessee,512424,Justin Worley,38.0
+2014,400548396,Arkansas State,538156,Fredi Knighten,34.0
+2014,400548396,Arkansas State,538142,Luke Ferguson,1.0
+2014,400548396,Arkansas State,545944,Brandon Cox,1.0
+2014,400548103,Kentucky,530944,Patrick Towles,31.0
+2014,400548103,Ohio,532433,JD Sprague,25.0
+2014,400548103,Ohio,532440,Greg Windham,1.0
+2014,400548103,Ohio,511552,Derrius Vick,6.0
+2014,400548395,Vanderbilt,517211,Stephen Rivers,25.0
+2014,400548395,Ole Miss,500990,Bo Wallace,30.0
+2014,400548395,Ole Miss,550114,Ryan Buchanan,7.0
+2014,400548395,Ole Miss,550123,Devante Kincade,1.0
+2014,400547844,Oklahoma State,514105,Daxx Garman,26.0
+2014,400547844,Oklahoma State,511260,J.W. Walsh,9.0
+2014,400547844,Missouri State,517095,Kierra Harris,21.0
+2014,400547844,Missouri State,498975,Julian Burton,1.0
+2014,400547844,Missouri State,538084,Brodie Lambert,2.0
+2014,400547843,Kansas State,550158,Jake Waters,29.0
+2014,400547843,Iowa State,511969,Sam B. Richardson,30.0
+2014,400547843,Iowa State,502093,Jarvis West,1.0
+2014,400547842,Baylor,535511,Seth Russell,25.0
+2014,400547842,Baylor,550004,Chris Johnson,3.0
+2014,400547842,Northwestern State,549719,Zach Adkins,17.0
+2014,400547842,Northwestern State,533408,Matthew Flores,1.0
+2014,400547842,Northwestern State,549722,Daniel Hazlewood,1.0
+2014,400547845,Texas Tech,550386,Davis Webb,31.0
+2014,400547845,UTEP,500571,Jameill Showers,25.0
+2014,400547845,UTEP,545833,Aaron Jones,1.0
+2014,400547847,Kansas,545417,Montell Cozart,24.0
+2014,400547847,Southeast Missouri State,534028,Kyle Snyder,27.0
+2014,400547847,Southeast Missouri State,534060,Paul McRoberts,1.0
+2014,400547841,West Virginia,501098,Clint Trickett,40.0
+2014,400547841,West Virginia,3116456,William Crest Jr.,4.0
+2014,400547841,Towson,529954,Connor Frazier,17.0
+2014,400547841,Towson,503389,Joe Brennan,7.0
+2014,400547953,Oregon,511459,Marcus Mariota,28.0
+2014,400547953,Michigan State,512705,Connor Cook,47.0
+2014,400548260,Stanford,516357,Kevin Hogan,30.0
+2014,400548260,USC,513329,Cody Kessler,22.0
+2014,400548261,Washington,535325,Cyler Miles,24.0
+2014,400548261,Eastern Washington,511713,Vernon Adams Jr.,46.0
+2014,400548262,California,547401,Jared Goff,22.0
+2014,400548262,California,3127202,Luke Rubenzer,4.0
+2014,400548262,California,504731,Austin Hinder,3.0
+2014,400548262,Sacramento State,498266,Garrett Safron,33.0
+2014,400548262,Sacramento State,546921,Daniel Kniffin,8.0
+2014,400548183,Oregon State,504786,Sean Mannion,37.0
+2014,400548183,Hawai'i,532976,Ikaika Woolsey,50.0
+2014,400548183,Hawai'i,504955,Joey Iosefa,1.0
+2014,400548184,Washington State,504823,Connor Halliday,57.0
+2014,400548184,Nevada,501241,Cody Fajardo,21.0
+2014,400547846,BYU,482594,Taysom Hill,28.0
+2014,400547846,Texas,547338,Tyrone Swoopes,31.0
+2014,400548186,Auburn,550021,Nick Marshall,19.0
+2014,400548186,Auburn,550019,Jeremy Johnson,4.0
+2014,400548186,San José State,499830,Blake Jurich,27.0
+2014,400548186,San José State,512675,Joe Gray,5.0
+2014,400548394,LSU,546033,Anthony Jennings,13.0
+2014,400548394,LSU,559751,Brandon Harris,5.0
+2014,400548394,Sam Houston,538456,Jared Johnson,25.0
+2014,400548394,Sam Houston,535337,Don King III,3.0
+2014,400548100,Miami (OH),500913,Andrew Hendrix,52.0
+2014,400548100,Eastern Kentucky,519443,Jared McClain,11.0
+2014,400548100,Eastern Kentucky,535722,Bennie Coney,16.0
+2014,400548100,Eastern Kentucky,532892,Jeff Glover,1.0
+2014,400548104,Kent State,531864,Colin Reardon,40.0
+2014,400548104,South Alabama,507211,Brandon Bridge,25.0
+2014,400547986,Akron,514617,Kyle Pohl,46.0
+2014,400547986,Penn State,552329,Christian Hackenberg,36.0
+2014,400547986,Penn State,518192,Bill Belton,1.0
+2014,400548102,Toledo,515906,Phillip Ely,34.0
+2014,400548102,Toledo,545910,Logan Woodside,10.0
+2014,400548102,Missouri,531385,Maty Mauk,32.0
+2014,400548102,Missouri,546197,Eddie Printz,1.0
+2014,400548182,Utah,531051,Travis Wilson,20.0
+2014,400548182,Utah,514737,Kendal Thompson,7.0
+2014,400548182,Fresno State,501052,Brandon Connette,24.0
+2014,400548182,Fresno State,546271,Brian Burrell,16.0
+2014,400548185,Arizona State,504700,Taylor Kelly,20.0
+2014,400548185,Arizona State,517393,Mike Bercovici,1.0
+2014,400548185,New Mexico,551028,Lamar Jordan,11.0
+2014,400548018,Arizona,552097,Anu Solomon,32.0
+2014,400548018,UTSA,535979,Tucker Carter,33.0
+2014,400547961,Middle Tennessee,531589,Austin Grammer,38.0
+2014,400547961,Minnesota,530731,Mitch Leidner,11.0
+2014,400548013,Florida Atlantic,550873,Greg Hankerson,19.0
+2014,400548013,Alabama,504052,Blake Sims,14.0
+2014,400548013,Alabama,514124,Jake Coker,24.0
+2014,400548012,Florida International,536571,E.J. Hilliard,16.0
+2014,400548012,Florida International,3128843,Alex McGough,18.0
+2014,400548012,Wagner,548555,Brian Gehring,21.0
+2014,400548012,Wagner,534019,Chris Andrews,2.0
+2014,400548014,Louisiana Tech,530696,Cody Sokol,33.0
+2014,400548014,Louisiana,503922,Terrance Broadway,31.0
+2014,400548014,Louisiana,531678,Brooks Haack,13.0
+2014,400547905,Western Kentucky,504866,Brandon Doughty,48.0
+2014,400547905,Illinois,534652,Wes Lunt,50.0
+2014,400548393,Arkansas,515915,Brandon Allen,5.0
+2014,400548393,Arkansas,547206,Austin Allen,9.0
+2014,400548393,Nicholls,500514,Kalen Henderson,30.0
+2014,400548393,Nicholls,505475,Beaux Hebert,13.0
+2014,400547929,Ball State,531552,Ozzie Mann,30.0
+2014,400547929,Iowa,518380,Jake Rudock,52.0
+2014,400547929,Iowa,535844,C.J. Beathard,3.0
+2014,400547989,Central Michigan,531455,Cooper Rush,16.0
+2014,400547989,Purdue,550170,Danny Etling,32.0
+2014,400547989,Purdue,534770,Austin Appleby,17.0
+2014,400547976,Northern Illinois,532480,Drew Hare,10.0
+2014,400547976,Northern Illinois,532644,Anthony Maddie,4.0
+2014,400547976,Northern Illinois,511607,Matt McIntosh,9.0
+2014,400547976,Northwestern,500419,Trevor Siemian,41.0
+2014,400547976,Northwestern,518323,Zack Oliver,2.0
+2014,400547821,Richmond,501175,Michael Strauss,36.0
+2014,400547821,Richmond,501176,Michael Rocco,11.0
+2014,400547821,Virginia,530521,Greyson Lambert,15.0
+2014,400547821,Virginia,535548,Matt Johns,7.0
+2014,400547821,Virginia,511361,David Watford,1.0
+2014,400548015,Rhode Island,547236,Mack Lowrie,28.0
+2014,400548015,Marshall,518267,Rakeem Cato,29.0
+2014,400548015,Marshall,535461,Gunnar Holcombe,6.0
+2014,400548410,Savannah State,3131250,Tino Smith II,20.0
+2014,400548410,Savannah State,3131252,Ker-Sean Wilson,19.0
+2014,400548410,Georgia Southern,532925,Kevin Ellison,2.0
+2014,400548410,Georgia Southern,549301,Favian Upshaw,3.0
+2014,400547787,Florida A&M,519942,Damien Fleming,14.0
+2014,400547787,Florida A&M,540215,Carson Royal,3.0
+2014,400547787,Miami,3123048,Brad Kaaya,22.0
+2014,400547787,Miami,501563,Jake Heaps,8.0
+2014,400548016,Southern Miss,552880,Nick Mullens,33.0
+2014,400548016,Alcorn State,539240,John Gibbs Jr.,26.0
+2014,400548016,Alcorn State,3145174,john Gibbs,26.0
+2014,400548016,Alcorn State,539244,Zerick Rollins Jr.,1.0
+2014,400548016,Alcorn State,3145223,Zer Rollins,1.0
+2014,400548098,Buffalo,513614,Joe Licata,50.0
+2014,400548098,Buffalo,531953,Jordan Johnson,1.0
+2014,400548098,Army,515360,Angel Santiago,6.0
+2014,400548098,Army,535646,A.J. Schurr,1.0
+2014,400548105,Bowling Green,531801,James Knapke,31.0
+2014,400548105,Bowling Green,3125748,Cody Callaway,3.0
+2014,400548105,VMI,547410,Al Cobb,43.0
+2014,400548105,VMI,529534,Hayden Alford,7.0
+2014,400548105,VMI,3117104,Ryan Swingle,5.0
+2014,400548397,Texas A&M,549865,Kenny Hill,26.0
+2014,400548397,Texas A&M,559681,Kyle Allen,16.0
+2014,400548397,Lamar,499979,Caleb Berry,42.0
+2014,400547826,Ohio State,545624,J.T. Barrett,29.0
+2014,400547826,Virginia Tech,514481,Michael Brewer,36.0
+2014,400547994,Rutgers,518344,Gary Nova,19.0
+2014,400547994,Rutgers,547549,Chris Laviano,3.0
+2014,400547994,Howard,519005,Greg McGhee,29.0
+2014,400547944,Michigan,501543,Devin Gardner,32.0
+2014,400547944,Notre Dame,515409,Everett Golson,34.0
+2014,400548001,Western Illinois,535735,Trenton Norvell,21.0
+2014,400548001,Wisconsin,515835,Tanner McEvoy,28.0
+2014,400548001,Wisconsin,534813,Bart Houston,1.0
+2014,400547969,Nebraska,533270,Tommy Armstrong Jr.,31.0
+2014,400547969,McNeese,517680,Tyler Bolfing,17.0
+2014,400547969,McNeese,515190,Daniel Sams,9.0
+2014,400547803,Old Dominion,513949,Taylor Heinicke,49.0
+2014,400547803,Old Dominion,513961,Antonio Vaughan,1.0
+2014,400547803,NC State,512191,Jacoby Brissett,29.0
+2014,400547752,Troy,546145,Brandon Silvers,27.0
+2014,400547752,Troy,3125460,Dontreal Pruitt,7.0
+2014,400547752,Duke,501046,Anthony Boone,41.0
+2014,400547752,Duke,530478,Thomas Sirk,1.0
+2014,400548408,App State,512882,Kameron Bryant,17.0
+2014,400548408,App State,548447,Taylor Lamb,10.0
+2014,400548408,App State,506309,Logan Hallock,2.0
+2014,400548408,Campbell,499533,Dakota Wolf,14.0
+2014,400548408,Campbell,552434,David Salmon,6.0
+2014,400548408,Campbell,532740,Riley Gallaher,3.0
+2014,400547763,Florida State,530308,Jameis Winston,27.0
+2014,400547763,Florida State,530299,Sean Maguire,5.0
+2014,400547763,The Citadel,515435,Aaron Miller,11.0
+2014,400547763,The Citadel,3131847,Dominique Allen,2.0
+2014,400547763,The Citadel,-5627, Team,1.0
+2014,400547729,Boston College,503970,Tyler Murphy,28.0
+2014,400547729,Pittsburgh,530450,Chad Voytik,20.0
+2014,400547741,Clemson,512052,Cole Stoudt,31.0
+2014,400547741,Clemson,3122840,Deshaun Watson,9.0
+2014,400547741,Clemson,537012,Nick Schuessler,2.0
+2014,400547741,South Carolina State,507125,TeDarrius Wiley,15.0
+2014,400547741,South Carolina State,537355,Adrian Kollock Jr.,10.0
+2014,400547741,South Carolina State,3144815,Adri Kollock Jr,10.0
+2014,400547830,Wake Forest,3124092,John Wolford,38.0
+2014,400547830,Wake Forest,530328,Tyler Cameron,1.0
+2014,400547830,Gardner-Webb,502467,Lucas Beatty,7.0
+2014,400547830,Gardner-Webb,3140998,Tyrell Maxwell,9.0
+2014,400547796,North Carolina,516347,Marquise Williams,29.0
+2014,400547796,North Carolina,545238,Mitch Trubisky,2.0
+2014,400547796,San Diego State,547570,Quinn Kaehler,39.0
+2014,400547780,Louisville,530357,Will Gardner,22.0
+2014,400547780,Louisville,3116642,Reggie Bonnafon,11.0
+2014,400547780,Louisville,545557,Brett Nelson,4.0
+2014,400547780,Louisville,545559,Kyle Bolin,2.0
+2014,400547780,Murray State,532909,KD Humphries,19.0
+2014,400547780,Murray State,508164,CJ Bennett,19.0
+2014,400548188,Utah State,512806,Chuckie Keeton,30.0
+2014,400548188,Idaho State,519384,Justin Arias,47.0
+2014,400548181,Boise State,504908,Grant Hedrick,33.0
+2014,400548181,Colorado State,515528,Garrett Grayson,58.0
+2014,400548180,Wyoming,520520,Colby Kirkegaard,37.0
+2014,400548180,Air Force,535972,Kale Pearson,32.0
+2014,400548187,UNLV,3125318,Blake Decker,18.0
+2014,400548187,UNLV,481341,Marcus Sullivan,1.0
+2014,400548187,Northern Colorado,533762,Sean Rubalcaba,21.0
+2014,400548413,Abilene Christian,551394,Parker McKenzie,34.0
+2014,400548413,Troy,546145,Brandon Silvers,21.0
+2014,400548413,Troy,3125460,Dontreal Pruitt,17.0
+2014,400548025,UAB,-5, Team,1.0
+2014,400548025,UAB,550754,Jeremiah Briscoe,8.0
+2014,400548025,UAB,3129249,Cody Clements,23.0
+2014,400548025,Alabama A&M,504457,Chris Leachman,3.0
+2014,400548025,Alabama A&M,518589,Brandon Wells,22.0
+2014,400548025,Alabama A&M,555166,Jaymason Lee,9.0
+2014,400548191,Northern Iowa,-6939, Team,1.0
+2014,400548191,Northern Iowa,501843,Brion Carnes,1.0
+2014,400548191,Northern Iowa,515648,Sawyer Kollmorgen,40.0
+2014,400548191,Hawai'i,505049,Jeremy Higgins,6.0
+2014,400548191,Hawai'i,532976,Ikaika Woolsey,30.0
+2014,400548190,UC Davis,505882,London Lacy,34.0
+2014,400548190,Colorado State,515528,Garrett Grayson,31.0
+2014,400548190,Colorado State,546267,Nick Stevens,3.0
+2014,400547664,SE Louisiana,-15611, Team,1.0
+2014,400547664,SE Louisiana,504745,Bryan Bennett,34.0
+2014,400547664,Tulane,545757,Tanner Lee,30.0
+2014,400548264,Portland State,529363,Kieran McDonagh,51.0
+2014,400548264,Washington State,504823,Connor Halliday,62.0
+2014,400548264,Washington State,550629,Luke Falk,2.0
+2014,400547970,Fresno State,546271,Brian Burrell,59.0
+2014,400547970,Nebraska,533182,Ryker Fyfe,3.0
+2014,400547970,Nebraska,533270,Tommy Armstrong Jr.,21.0
+2014,400548189,Air Force,535972,Kale Pearson,15.0
+2014,400548189,Georgia State,3124848,Nick Arbuckle,42.0
+2014,400548107,Indiana State,500445,Mike Perish,43.0
+2014,400548107,Ball State,531552,Ozzie Mann,46.0
+2014,400547665,Florida Atlantic,550873,Greg Hankerson,3.0
+2014,400547665,Florida Atlantic,550876,Jaquez Johnson,20.0
+2014,400547665,Tulsa,514152,Joseph Calcagni,3.0
+2014,400547665,Tulsa,532273,Dane Evans,49.0
+2014,400547849,West Virginia,501098,Clint Trickett,49.0
+2014,400547849,Maryland,480846,C.J. Brown,35.0
+2014,400547849,Maryland,534328,Caleb Rowe,3.0
+2014,400547831,Utah State,512806,Chuckie Keeton,27.0
+2014,400547831,Utah State,550720,Darell Garretson,16.0
+2014,400547831,Utah State,550724,Ronald Butler,1.0
+2014,400547831,Wake Forest,3124092,John Wolford,50.0
+2014,400548388,Florida,511889,Jeff Driskel,43.0
+2014,400548388,Kentucky,530944,Patrick Towles,45.0
+2014,400548106,Baylor,480746,Bryce Petty,34.0
+2014,400548106,Baylor,535511,Seth Russell,3.0
+2014,400548106,Buffalo,513614,Joe Licata,25.0
+2014,400548106,Buffalo,513615,Tony Daniel,6.0
+2014,400547990,Purdue,550170,Danny Etling,40.0
+2014,400547990,Notre Dame,515409,Everett Golson,40.0
+2014,400547658,BYU,482594,Taysom Hill,34.0
+2014,400547658,Houston,545550,John O'Korn,52.0
+2014,400547658,Houston,545552,Greg Ward Jr.,1.0
+2014,400548021,Louisiana Tech,505012,Taylor Burch,1.0
+2014,400548021,Louisiana Tech,530696,Cody Sokol,31.0
+2014,400548021,Louisiana Tech,531316,Ryan Higgins,4.0
+2014,400548021,North Texas,549918,Dajon Williams,7.0
+2014,400548021,North Texas,3122972,Josh Greer,27.0
+2014,400547906,Washington,513050,Marvin Hall,1.0
+2014,400547906,Washington,535324,Jaydon Mickens,1.0
+2014,400547906,Washington,535325,Cyler Miles,20.0
+2014,400547906,Illinois,515454,Reilly O'Toole,5.0
+2014,400547906,Illinois,534652,Wes Lunt,25.0
+2014,400547773,Georgia Tech,531104,Justin Thomas,24.0
+2014,400547773,Georgia Southern,532925,Kevin Ellison,10.0
+2014,400547773,Georgia Southern,549301,Favian Upshaw,12.0
+2014,400547730,USC,513329,Cody Kessler,41.0
+2014,400547730,Boston College,503970,Tyler Murphy,13.0
+2014,400548412,Texas State,548240,Tyler Jones,36.0
+2014,400548412,Navy,551222,Tago Smith,7.0
+2014,400547848,UCLA,511982,Brett Hundley,4.0
+2014,400547848,UCLA,511987,Jerry Neuheisel,30.0
+2014,400547848,Texas,547338,Tyrone Swoopes,34.0
+2014,400547853,Oklahoma State,514105,Daxx Garman,30.0
+2014,400547853,UTSA,535979,Tucker Carter,15.0
+2014,400547853,UTSA,3124039,Blake Bogenschutz,14.0
+2014,400547781,Louisville,530357,Will Gardner,34.0
+2014,400547781,Louisville,3116642,Reggie Bonnafon,9.0
+2014,400547781,Virginia,530521,Greyson Lambert,24.0
+2014,400547781,Virginia,535548,Matt Johns,6.0
+2014,400548390,Ole Miss,500990,Bo Wallace,28.0
+2014,400548390,Ole Miss,550114,Ryan Buchanan,2.0
+2014,400548390,Ole Miss,550123,Devante Kincade,6.0
+2014,400548390,Louisiana,503922,Terrance Broadway,30.0
+2014,400548110,Western Michigan,532645,Zach Terrell,15.0
+2014,400548110,Idaho,553235,Matt Linehan,42.0
+2014,400548263,Colorado,550268,Jordan Gehrke,8.0
+2014,400548263,Colorado,550278,Sefo Liufau,46.0
+2014,400548263,Arizona State,504700,Taylor Kelly,21.0
+2014,400548263,Arizona State,517393,Mike Bercovici,4.0
+2014,400548026,UTEP,500571,Jameill Showers,16.0
+2014,400548026,New Mexico State,3124972,Andrew Allen,1.0
+2014,400548026,New Mexico State,3124981,Tyler Rogers,40.0
+2014,400547852,Iowa,518380,Jake Rudock,24.0
+2014,400547852,Iowa State,511969,Sam B. Richardson,36.0
+2014,400547945,Miami (OH),500913,Andrew Hendrix,26.0
+2014,400547945,Michigan,501543,Devin Gardner,20.0
+2014,400547945,Michigan,546706,Shane Morris,2.0
+2014,400547662,East Carolina,500938,Shane Carden,47.0
+2014,400547662,Virginia Tech,514481,Michael Brewer,56.0
+2014,400547788,Arkansas State,538142,Luke Ferguson,1.0
+2014,400547788,Arkansas State,538152,Tres Houston,1.0
+2014,400547788,Arkansas State,538156,Fredi Knighten,40.0
+2014,400547788,Miami,501563,Jake Heaps,2.0
+2014,400547788,Miami,3123048,Brad Kaaya,24.0
+2014,400548023,Texas A&M,549865,Kenny Hill,31.0
+2014,400548023,Texas A&M,559681,Kyle Allen,2.0
+2014,400548023,Rice,514894,Driphus Jackson,32.0
+2014,400548023,Rice,536503,Tyler Stehling,4.0
+2014,400547753,Duke,501046,Anthony Boone,32.0
+2014,400547753,Duke,530478,Thomas Sirk,2.0
+2014,400547753,Kansas,535521,Michael Cummings,2.0
+2014,400547753,Kansas,545417,Montell Cozart,27.0
+2014,400547663,NC State,511308,Garrett Leatham,4.0
+2014,400547663,NC State,512191,Jacoby Brissett,29.0
+2014,400547663,South Florida,549804,Mike White,16.0
+2014,400547663,South Florida,3139591,Quinton Flowers,4.0
+2014,400548192,Nevada,501241,Cody Fajardo,39.0
+2014,400548192,Arizona,552097,Anu Solomon,26.0
+2014,400547660,Missouri,531385,Maty Mauk,24.0
+2014,400547660,UCF,551184,Justin Holman,36.0
+2014,400547983,Ohio State,534294,Cardale Jones,4.0
+2014,400547983,Ohio State,545624,J.T. Barrett,30.0
+2014,400547983,Kent State,531864,Colin Reardon,27.0
+2014,400547983,Kent State,550246,Nathan Strock,7.0
+2014,400548022,Eastern Michigan,501541,Rob Bolden,7.0
+2014,400548022,Eastern Michigan,552782,Brogan Roback,17.0
+2014,400548022,Old Dominion,513949,Taylor Heinicke,30.0
+2014,400548024,Alabama,504052,Blake Sims,17.0
+2014,400548024,Alabama,514124,Jake Coker,7.0
+2014,400548024,Southern Miss,532089,Cole Weeks,2.0
+2014,400548024,Southern Miss,552880,Nick Mullens,35.0
+2014,400548389,UL Monroe,501565,Pete Thomas,30.0
+2014,400548389,LSU,546033,Anthony Jennings,18.0
+2014,400548389,LSU,559751,Brandon Harris,2.0
+2014,400548020,Middle Tennessee,531589,Austin Grammer,28.0
+2014,400548020,Western Kentucky,504866,Brandon Doughty,66.0
+2014,400547850,Oklahoma,534449,Trevor Knight,33.0
+2014,400547850,Tennessee,512424,Justin Worley,44.0
+2014,400547661,UConn,533264,Chandler Whitmer,29.0
+2014,400547661,UConn,546675,Tim Boyle,9.0
+2014,400547661,Boise State,504908,Grant Hedrick,27.0
+2014,400547661,Boise State,504915,Matt Miller,1.0
+2014,400547661,Boise State,552056,Terrell Johnson,1.0
+2014,400547659,Cincinnati,502335,Munchie Legaux,5.0
+2014,400547659,Cincinnati,534259,Gunner Kiel,37.0
+2014,400547659,Toledo,504635,Dwight Macon,1.0
+2014,400547659,Toledo,545910,Logan Woodside,40.0
+2014,400547659,Toledo,552746,Michael Julian,2.0
+2014,400547809,Pittsburgh,519055,Trey Anderson,2.0
+2014,400547809,Pittsburgh,530450,Chad Voytik,17.0
+2014,400547809,Florida International,536571,E.J. Hilliard,5.0
+2014,400547809,Florida International,3128843,Alex McGough,30.0
+2014,400548108,Northern Illinois,532480,Drew Hare,28.0
+2014,400548108,UNLV,3125318,Blake Decker,42.0
+2014,400547855,TCU,517127,Trevone Boykin,46.0
+2014,400547855,Minnesota,530731,Mitch Leidner,26.0
+2014,400547855,Minnesota,545477,Chris Streveler,3.0
+2014,400548019,Marshall,518267,Rakeem Cato,29.0
+2014,400548019,Marshall,535461,Gunnar Holcombe,4.0
+2014,400548019,Ohio,511552,Derrius Vick,29.0
+2014,400548019,Ohio,532433,JD Sprague,8.0
+2014,400548019,Ohio,532440,Greg Windham,1.0
+2014,400547995,Penn State,552329,Christian Hackenberg,44.0
+2014,400547995,Rutgers,518344,Gary Nova,30.0
+2014,400548265,Army,515360,Angel Santiago,2.0
+2014,400548265,Army,535646,A.J. Schurr,2.0
+2014,400548265,Army,535660,Alex Tardieu,1.0
+2014,400548265,Stanford,516357,Kevin Hogan,28.0
+2014,400547917,Bowling Green,531801,James Knapke,73.0
+2014,400547917,Indiana,535825,Nate Sudfeld,41.0
+2014,400547816,Syracuse,514440,Terrel Hunt,30.0
+2014,400547816,Central Michigan,531455,Cooper Rush,34.0
+2014,400548392,Georgia,504004,Hutson Mason,22.0
+2014,400548392,South Carolina,504295,Dylan Thompson,30.0
+2014,400548391,Mississippi State,504243,Jameon Lewis,1.0
+2014,400548391,Mississippi State,512030,Dak Prescott,21.0
+2014,400548391,Mississippi State,546603,Damian Williams,2.0
+2014,400548391,South Alabama,507211,Brandon Bridge,39.0
+2014,400548391,South Alabama,514749,Matt Floyd,16.0
+2014,400548193,Oregon,511459,Marcus Mariota,23.0
+2014,400548193,Oregon,530875,Jeff Lockie,8.0
+2014,400548193,Wyoming,520520,Colby Kirkegaard,33.0
+2014,400547851,Arkansas,515915,Brandon Allen,12.0
+2014,400547851,Texas Tech,550386,Davis Webb,45.0
+2014,400548109,Vanderbilt,532000,Patton Robinette,21.0
+2014,400548109,Vanderbilt,3122157,Wade Freebeck,2.0
+2014,400548109,Massachusetts,518271,Blake Frohnapfel,34.0
+2014,400548109,Massachusetts,3125945,Brian McDonald,1.0
+2014,400548030,Nicholls,500514,Kalen Henderson,15.0
+2014,400548030,Nicholls,505475,Beaux Hebert,16.0
+2014,400548030,Nicholls,533375,Dash Duncan,1.0
+2014,400548030,North Texas,515147,Andrew McNulty,3.0
+2014,400548030,North Texas,549918,Dajon Williams,14.0
+2014,400547667,Bethune-Cookman,521060,Quentin Williams,12.0
+2014,400547667,Bethune-Cookman,555829,Larry Brihm Jr.,3.0
+2014,400547667,UCF,531755,Nick Patti,2.0
+2014,400547667,UCF,551184,Justin Holman,11.0
+2014,400548114,Norfolk State,3126935,Terrance Ervin,12.0
+2014,400548114,Buffalo,513614,Joe Licata,25.0
+2014,400548114,Buffalo,513615,Tony Daniel,3.0
+2014,400548114,Buffalo,531955,Collin Michael,1.0
+2014,400548385,Troy,515163,K.D. Edenfield,1.0
+2014,400548385,Troy,517960,Dallas Tidwell,5.0
+2014,400548385,Troy,3125460,Dontreal Pruitt,27.0
+2014,400548385,Georgia,504004,Hutson Mason,11.0
+2014,400548385,Georgia,530931,Faton Bauta,3.0
+2014,400548385,Georgia,546345,Brice Ramsey,8.0
+2014,400547731,Maine,533619,Dan Collins,13.0
+2014,400547731,Maine,3120540,Drew Belcher,5.0
+2014,400547731,Boston College,503970,Tyler Murphy,18.0
+2014,400547731,Boston College,3122790,Darius Wade,3.0
+2014,400547804,Presbyterian,547381,Heys McMath,25.0
+2014,400547804,NC State,511308,Garrett Leatham,1.0
+2014,400547804,NC State,512191,Jacoby Brissett,21.0
+2014,400548266,California,547401,Jared Goff,30.0
+2014,400548266,Arizona,552097,Anu Solomon,73.0
+2014,400548029,Marshall,518267,Rakeem Cato,31.0
+2014,400548029,Marshall,535461,Gunnar Holcombe,7.0
+2014,400548029,Akron,514617,Kyle Pohl,37.0
+2014,400548029,Akron,550357,Thomas Woodson,15.0
+2014,400547672,Delaware State,514934,Marlon Kelly,4.0
+2014,400547672,Delaware State,3139918,Gil Rivera,19.0
+2014,400547672,Temple,500975,Connor Reilly,6.0
+2014,400547672,Temple,549759,P.J. Walker,14.0
+2014,400547672,Temple,552353,Tim DiGiorgio,1.0
+2014,400547991,Southern Illinois,-12171, Team,1.0
+2014,400547991,Southern Illinois,512983,Mark Iannotti,45.0
+2014,400547991,Purdue,550170,Danny Etling,26.0
+2014,400547977,Western Illinois,-7902, Team,1.0
+2014,400547977,Western Illinois,535735,Trenton Norvell,49.0
+2014,400547977,Northwestern,500419,Trevor Siemian,25.0
+2014,400548195,Southern Utah,485026,Ammon Olsen,28.0
+2014,400548195,Southern Utah,547096,Aaron Cantu,2.0
+2014,400548195,Fresno State,501052,Brandon Connette,11.0
+2014,400548195,Fresno State,546271,Brian Burrell,20.0
+2014,400548195,Fresno State,550587,Zack Greenlee,7.0
+2014,400548028,Northwestern State,549719,Zach Adkins,35.0
+2014,400548028,Louisiana Tech,530696,Cody Sokol,34.0
+2014,400548203,Utah State,550720,Darell Garretson,46.0
+2014,400548203,Arkansas State,538156,Fredi Knighten,33.0
+2014,400548027,Florida Atlantic,550873,Greg Hankerson,1.0
+2014,400548027,Florida Atlantic,550876,Jaquez Johnson,28.0
+2014,400548027,Wyoming,520520,Colby Kirkegaard,23.0
+2014,400548384,Florida,511889,Jeff Driskel,28.0
+2014,400548384,Alabama,504052,Blake Sims,33.0
+2014,400548384,Alabama,514124,Jake Coker,2.0
+2014,400547817,Maryland,480846,C.J. Brown,26.0
+2014,400547817,Syracuse,514440,Terrel Hunt,28.0
+2014,400560174,UNLV,517186,Nick Sherry,11.0
+2014,400560174,UNLV,3125318,Blake Decker,28.0
+2014,400560174,Houston,501268,Billy Cosh,1.0
+2014,400560174,Houston,545550,John O'Korn,27.0
+2014,400560174,Houston,545552,Greg Ward Jr.,1.0
+2014,400548198,Oregon State,504786,Sean Mannion,31.0
+2014,400548198,San Diego State,547570,Quinn Kaehler,26.0
+2014,400547822,BYU,482594,Taysom Hill,23.0
+2014,400547822,Virginia,530521,Greyson Lambert,35.0
+2014,400547822,Virginia,535548,Matt Johns,23.0
+2014,400547918,Indiana,535825,Nate Sudfeld,33.0
+2014,400547918,Missouri,531385,Maty Mauk,48.0
+2014,400548268,Washington,535325,Cyler Miles,27.0
+2014,400548268,Georgia State,513425,Ronnie Bell,1.0
+2014,400548268,Georgia State,3124848,Nick Arbuckle,33.0
+2014,400547962,San José State,499830,Blake Jurich,29.0
+2014,400547962,San José State,512675,Joe Gray,4.0
+2014,400547962,Minnesota,545477,Chris Streveler,7.0
+2014,400548197,New Mexico,533208,Cole Gautsche,6.0
+2014,400548197,New Mexico,536830,David Anaya,1.0
+2014,400548197,New Mexico,546483,Clayton Mitchem,4.0
+2014,400548197,New Mexico,551028,Lamar Jordan,3.0
+2014,400548197,New Mexico State,3124981,Tyler Rogers,47.0
+2014,400547774,Georgia Tech,531104,Justin Thomas,18.0
+2014,400547774,Virginia Tech,514481,Michael Brewer,39.0
+2014,400547907,Texas State,548240,Tyler Jones,43.0
+2014,400547907,Illinois,534652,Wes Lunt,39.0
+2014,400547782,Louisville,530357,Will Gardner,28.0
+2014,400547782,Louisville,545557,Brett Nelson,3.0
+2014,400547782,Louisville,545559,Kyle Bolin,5.0
+2014,400547782,Florida International,536571,E.J. Hilliard,12.0
+2014,400547782,Florida International,3128843,Alex McGough,13.0
+2014,400548113,Western Michigan,532645,Zach Terrell,29.0
+2014,400548113,Murray State,508164,CJ Bennett,4.0
+2014,400548113,Murray State,532909,KD Humphries,31.0
+2014,400548196,Colorado,550278,Sefo Liufau,45.0
+2014,400548196,Hawai'i,505049,Jeremy Higgins,17.0
+2014,400548196,Hawai'i,532975,Taylor Graham,5.0
+2014,400548196,Hawai'i,532976,Ikaika Woolsey,24.0
+2014,400548414,Georgia Southern,532925,Kevin Ellison,11.0
+2014,400548414,South Alabama,507211,Brandon Bridge,34.0
+2014,400547832,Wake Forest,3124092,John Wolford,35.0
+2014,400547832,Army,515360,Angel Santiago,4.0
+2014,400547832,Army,550766,Joe Walker,1.0
+2014,400547810,Iowa,518380,Jake Rudock,10.0
+2014,400547810,Iowa,535844,C.J. Beathard,8.0
+2014,400547810,Pittsburgh,530450,Chad Voytik,29.0
+2014,400547668,Miami (OH),500913,Andrew Hendrix,26.0
+2014,400547668,Cincinnati,534259,Gunner Kiel,39.0
+2014,400547669,East Carolina,500938,Shane Carden,48.0
+2014,400547669,East Carolina,545645,Kurt Benkert,2.0
+2014,400547669,North Carolina,516347,Marquise Williams,25.0
+2014,400547669,North Carolina,518696,Tommy Hibbard,1.0
+2014,400547669,North Carolina,545238,Mitch Trubisky,16.0
+2014,400547669,North Carolina,545256,Ryan Switzer,1.0
+2014,400547671,Texas A&M,549865,Kenny Hill,22.0
+2014,400547671,Texas A&M,559681,Kyle Allen,15.0
+2014,400547671,SMU,519812,Garrett Krstich,24.0
+2014,400547671,SMU,545334,Kolney Cassel,5.0
+2014,400547673,Duke,501046,Anthony Boone,27.0
+2014,400547673,Duke,530478,Thomas Sirk,1.0
+2014,400547673,Tulane,545757,Tanner Lee,35.0
+2014,400547673,Tulane,3126255,Rae Juan Marbley,1.0
+2014,400547858,West Virginia,501098,Clint Trickett,41.0
+2014,400547858,Oklahoma,534449,Trevor Knight,29.0
+2014,400547858,Oklahoma,534450,Durron Neal,1.0
+2014,400547789,Miami,3123048,Brad Kaaya,42.0
+2014,400547789,Nebraska,533270,Tommy Armstrong Jr.,13.0
+2014,400547856,Kansas State,550158,Jake Waters,40.0
+2014,400547856,Auburn,550021,Nick Marshall,31.0
+2014,400548386,LSU,517209,Terrence Magee,1.0
+2014,400548386,LSU,546033,Anthony Jennings,26.0
+2014,400548386,LSU,559751,Brandon Harris,9.0
+2014,400548386,Mississippi State,512030,Dak Prescott,24.0
+2014,400547670,Memphis,534849,Paxton Lynch,35.0
+2014,400547670,Middle Tennessee,531589,Austin Grammer,35.0
+2014,400547954,Eastern Michigan,501541,Rob Bolden,29.0
+2014,400547954,Michigan State,512705,Connor Cook,6.0
+2014,400547954,Michigan State,535578,Tyler O'Connor,5.0
+2014,400547954,Michigan State,550477,Damion Terry,8.0
+2014,400547946,Michigan,501543,Devin Gardner,26.0
+2014,400547946,Michigan,546706,Shane Morris,13.0
+2014,400547946,Utah,514737,Kendal Thompson,7.0
+2014,400547946,Utah,531051,Travis Wilson,20.0
+2014,400547742,Florida State,530299,Sean Maguire,39.0
+2014,400547742,Clemson,512052,Cole Stoudt,5.0
+2014,400547742,Clemson,3122840,Deshaun Watson,28.0
+2014,400547857,Kansas,545417,Montell Cozart,33.0
+2014,400547857,Kansas,3133361,Joe Dineen Jr.,1.0
+2014,400547857,Central Michigan,531455,Cooper Rush,26.0
+2014,400547666,UConn,533264,Chandler Whitmer,9.0
+2014,400547666,South Florida,549804,Mike White,18.0
+2014,400548115,Northern Illinois,532480,Drew Hare,29.0
+2014,400548115,Northern Illinois,532644,Anthony Maddie,2.0
+2014,400548115,Arkansas,515915,Brandon Allen,22.0
+2014,400548115,Arkansas,547206,Austin Allen,1.0
+2014,400547996,Rutgers,518344,Gary Nova,14.0
+2014,400547996,Navy,530568,Keenan Reynolds,22.0
+2014,400547987,Penn State,545636,D.J. Crook,9.0
+2014,400547987,Penn State,552329,Christian Hackenberg,23.0
+2014,400547987,Massachusetts,518271,Blake Frohnapfel,33.0
+2014,400548031,Rice,514894,Driphus Jackson,22.0
+2014,400548031,Rice,536503,Tyler Stehling,12.0
+2014,400548031,Old Dominion,513949,Taylor Heinicke,43.0
+2014,400548032,Southern Miss,552880,Nick Mullens,35.0
+2014,400548032,Southern Miss,3129224,Tez Parks,1.0
+2014,400548032,App State,548447,Taylor Lamb,40.0
+2014,400548111,Ball State,531552,Ozzie Mann,27.0
+2014,400548111,Toledo,545910,Logan Woodside,22.0
+2014,400548002,Bowling Green,531801,James Knapke,28.0
+2014,400548002,Bowling Green,3125748,Cody Callaway,5.0
+2014,400548002,Wisconsin,515835,Tanner McEvoy,16.0
+2014,400548002,Wisconsin,534813,Bart Houston,2.0
+2014,400548194,Louisiana,503922,Terrance Broadway,38.0
+2014,400548194,Louisiana,505186,Hunter Stover,1.0
+2014,400548194,Boise State,504908,Grant Hedrick,31.0
+2014,400548387,South Carolina,504295,Dylan Thompson,34.0
+2014,400548387,Vanderbilt,532000,Patton Robinette,5.0
+2014,400548387,Vanderbilt,3122157,Wade Freebeck,20.0
+2014,400548112,Ohio,511552,Derrius Vick,6.0
+2014,400548112,Ohio,532433,JD Sprague,13.0
+2014,400548112,Idaho,553235,Matt Linehan,55.0
+2014,400548267,Oregon,511459,Marcus Mariota,25.0
+2014,400548267,Washington State,504823,Connor Halliday,63.0
+2014,400547811,Akron,514617,Kyle Pohl,29.0
+2014,400547811,Akron,550357,Thomas Woodson,6.0
+2014,400547811,Pittsburgh,530450,Chad Voytik,34.0
+2014,400548271,California,547401,Jared Goff,42.0
+2014,400548271,Colorado,550278,Sefo Liufau,67.0
+2014,400548118,Eastern Illinois,499513,Taylor Duncan,1.0
+2014,400548118,Eastern Illinois,530943,Jalen Whitlow,46.0
+2014,400548118,Ohio,532433,JD Sprague,28.0
+2014,400548118,Ohio,532440,Greg Windham,3.0
+2014,400548034,Florida Atlantic,550876,Jaquez Johnson,34.0
+2014,400548034,UTSA,535979,Tucker Carter,39.0
+2014,400547860,Baylor,480746,Bryce Petty,44.0
+2014,400547860,Baylor,535511,Seth Russell,6.0
+2014,400547860,Iowa State,511969,Sam B. Richardson,39.0
+2014,400547919,Maryland,480846,C.J. Brown,15.0
+2014,400547919,Maryland,534328,Caleb Rowe,18.0
+2014,400547919,Indiana,535825,Nate Sudfeld,37.0
+2014,400548202,UNLV,3125318,Blake Decker,31.0
+2014,400548202,San Diego State,547570,Quinn Kaehler,27.0
+2014,400548202,San Diego State,547571,Donnel Pumphrey,1.0
+2014,400548035,Louisiana Tech,530696,Cody Sokol,35.0
+2014,400548035,Auburn,550019,Jeremy Johnson,5.0
+2014,400548035,Auburn,550021,Nick Marshall,17.0
+2014,400548273,Washington,535318,Jeff Lindquist,1.0
+2014,400548273,Washington,535325,Cyler Miles,29.0
+2014,400548273,Stanford,516357,Kevin Hogan,26.0
+2014,400547679,Tulane,499807,Nick Montana,5.0
+2014,400547679,Tulane,532173,Devin Powell,15.0
+2014,400547679,Tulane,545757,Tanner Lee,9.0
+2014,400547679,Rutgers,518344,Gary Nova,21.0
+2014,400548270,USC,513329,Cody Kessler,32.0
+2014,400548270,USC,3120353,Ajene Harris,1.0
+2014,400548270,Oregon State,504786,Sean Mannion,32.0
+2014,400548270,Oregon State,546362,Luke Del Rio,3.0
+2014,400547978,Northwestern,500419,Trevor Siemian,37.0
+2014,400547978,Penn State,518192,Bill Belton,1.0
+2014,400547978,Penn State,552329,Christian Hackenberg,45.0
+2014,400547680,Texas State,548240,Tyler Jones,31.0
+2014,400547680,Tulsa,532273,Dane Evans,40.0
+2014,400548269,UCLA,511982,Brett Hundley,23.0
+2014,400548269,Arizona State,517393,Mike Bercovici,68.0
+2014,400547859,Oklahoma State,514105,Daxx Garman,31.0
+2014,400547859,Texas Tech,537478,Taylor Symmank,1.0
+2014,400547859,Texas Tech,550386,Davis Webb,54.0
+2014,400547859,Texas Tech,3139477,Patrick Mahomes,5.0
+2014,400547833,Louisville,3116642,Reggie Bonnafon,32.0
+2014,400547833,Wake Forest,3124092,John Wolford,34.0
+2014,400547676,Ole Miss,500990,Bo Wallace,37.0
+2014,400547676,Memphis,534849,Paxton Lynch,31.0
+2014,400550418,Georgia Southern,532925,Kevin Ellison,10.0
+2014,400550418,Georgia Southern,549301,Favian Upshaw,2.0
+2014,400550418,App State,548447,Taylor Lamb,42.0
+2014,400547861,UTEP,500571,Jameill Showers,28.0
+2014,400547861,Kansas State,517248,Joe Hubener,4.0
+2014,400547861,Kansas State,550158,Jake Waters,15.0
+2014,400548200,Fresno State,501052,Brandon Connette,1.0
+2014,400548200,Fresno State,546271,Brian Burrell,39.0
+2014,400548200,New Mexico,546483,Clayton Mitchem,1.0
+2014,400548200,New Mexico,551028,Lamar Jordan,7.0
+2014,400547930,Purdue,534770,Austin Appleby,6.0
+2014,400547930,Purdue,550170,Danny Etling,26.0
+2014,400547930,Iowa,535844,C.J. Beathard,37.0
+2014,400548119,Miami (OH),500913,Andrew Hendrix,38.0
+2014,400548119,Buffalo,513614,Joe Licata,38.0
+2014,400548119,Buffalo,531956,Marcus McGill,1.0
+2014,400547675,Temple,500975,Connor Reilly,2.0
+2014,400547675,Temple,549759,P.J. Walker,29.0
+2014,400547675,UConn,512100,Deshon Foxx,1.0
+2014,400547675,UConn,533264,Chandler Whitmer,22.0
+2014,400547675,UConn,546675,Tim Boyle,4.0
+2014,400547677,TCU,501033,Matt Joeckel,7.0
+2014,400547677,TCU,517127,Trevone Boykin,36.0
+2014,400547677,SMU,519812,Garrett Krstich,30.0
+2014,400547677,SMU,532113,Matt Davis,3.0
+2014,400548382,Texas A&M,549865,Kenny Hill,41.0
+2014,400548382,Arkansas,515915,Brandon Allen,27.0
+2014,400547754,Duke,501046,Anthony Boone,51.0
+2014,400547754,Miami,3123048,Brad Kaaya,34.0
+2014,400547764,NC State,511308,Garrett Leatham,1.0
+2014,400547764,NC State,512191,Jacoby Brissett,48.0
+2014,400547764,NC State,3116742,Bo Hines,1.0
+2014,400547764,Florida State,530308,Jameis Winston,38.0
+2014,400547823,Virginia,511361,David Watford,3.0
+2014,400547823,Virginia,535548,Matt Johns,28.0
+2014,400547823,Kent State,531864,Colin Reardon,31.0
+2014,400547823,Kent State,550246,Nathan Strock,3.0
+2014,400547827,Virginia Tech,514481,Michael Brewer,32.0
+2014,400547827,Western Michigan,532645,Zach Terrell,32.0
+2014,400548201,Nevada,501241,Cody Fajardo,18.0
+2014,400548201,San José State,512675,Joe Gray,46.0
+2014,400547674,Ohio State,545624,J.T. Barrett,36.0
+2014,400547674,Cincinnati,534259,Gunner Kiel,32.0
+2014,400547674,Cincinnati,3125808,Jarred Evans,1.0
+2014,400547947,Michigan,501543,Devin Gardner,6.0
+2014,400547947,Michigan,546706,Shane Morris,19.0
+2014,400547947,Minnesota,530731,Mitch Leidner,22.0
+2014,400547862,Kansas,545417,Montell Cozart,31.0
+2014,400547862,Texas,547338,Tyrone Swoopes,34.0
+2014,400548417,UL Monroe,501565,Pete Thomas,43.0
+2014,400548417,Troy,546145,Brandon Silvers,34.0
+2014,400548036,Middle Tennessee,531589,Austin Grammer,30.0
+2014,400548036,Old Dominion,513949,Taylor Heinicke,44.0
+2014,400547732,Boston College,503970,Tyler Murphy,18.0
+2014,400547732,Colorado State,515528,Garrett Grayson,41.0
+2014,400547743,Clemson,512052,Cole Stoudt,3.0
+2014,400547743,Clemson,3122840,Deshaun Watson,36.0
+2014,400547743,North Carolina,516347,Marquise Williams,38.0
+2014,400547743,North Carolina,545238,Mitch Trubisky,11.0
+2014,400548380,Missouri,531385,Maty Mauk,34.0
+2014,400548380,South Carolina,504295,Dylan Thompson,37.0
+2014,400547908,Nebraska,533270,Tommy Armstrong Jr.,21.0
+2014,400547908,Illinois,515454,Reilly O'Toole,38.0
+2014,400548383,Kentucky,530944,Patrick Towles,30.0
+2014,400548383,Vanderbilt,3122157,Wade Freebeck,25.0
+2014,400548459,Yale,511215,Morgan Roberts,40.0
+2014,400548459,Army,515360,Angel Santiago,8.0
+2014,400548459,Army,535646,A.J. Schurr,12.0
+2014,400548459,Army,535647,Kelvin White,1.0
+2014,400548272,Utah,514737,Kendal Thompson,2.0
+2014,400548272,Utah,531051,Travis Wilson,38.0
+2014,400548272,Washington State,504823,Connor Halliday,61.0
+2014,400547678,South Florida,549804,Mike White,19.0
+2014,400547678,Wisconsin,515835,Tanner McEvoy,18.0
+2014,400547955,Michigan State,512705,Connor Cook,12.0
+2014,400547955,Michigan State,535578,Tyler O'Connor,2.0
+2014,400547955,Michigan State,550477,Damion Terry,6.0
+2014,400547955,Wyoming,520520,Colby Kirkegaard,24.0
+2014,400548037,Rice,514894,Driphus Jackson,22.0
+2014,400548037,Southern Miss,552880,Nick Mullens,45.0
+2014,400548037,Southern Miss,552888,Tyler Sarrazin,1.0
+2014,400548033,UAB,503643,Nolen Smith,1.0
+2014,400548033,UAB,550754,Jeremiah Briscoe,5.0
+2014,400548033,UAB,3129249,Cody Clements,29.0
+2014,400548033,Florida International,3128843,Alex McGough,24.0
+2014,400547818,Syracuse,514440,Terrel Hunt,38.0
+2014,400547818,Notre Dame,515409,Everett Golson,39.0
+2014,400548381,Georgia,504004,Hutson Mason,25.0
+2014,400548381,Tennessee,512424,Justin Worley,35.0
+2014,400548381,Tennessee,532065,Nathan Peterman,9.0
+2014,400548117,Central Michigan,531455,Cooper Rush,31.0
+2014,400548117,Toledo,545910,Logan Woodside,34.0
+2014,400548379,New Mexico State,3124972,Andrew Allen,2.0
+2014,400548379,New Mexico State,3124981,Tyler Rogers,31.0
+2014,400548379,LSU,520118,Brad Kragthorpe,1.0
+2014,400548379,LSU,546033,Anthony Jennings,5.0
+2014,400548379,LSU,559751,Brandon Harris,14.0
+2014,400548038,Western Kentucky,504866,Brandon Doughty,54.0
+2014,400548038,Navy,530568,Keenan Reynolds,14.0
+2014,400548199,Boise State,504908,Grant Hedrick,33.0
+2014,400548199,Boise State,546288,Ryan Finley,25.0
+2014,400548199,Air Force,535972,Kale Pearson,11.0
+2014,400548416,Idaho,553235,Matt Linehan,40.0
+2014,400548416,South Alabama,507211,Brandon Bridge,25.0
+2014,400548116,Bowling Green,513596,Ryan Burbrink,1.0
+2014,400548116,Bowling Green,531801,James Knapke,59.0
+2014,400548116,Massachusetts,518271,Blake Frohnapfel,61.0
+2014,400548043,UAB,3129249,Cody Clements,25.0
+2014,400548043,Western Kentucky,504866,Brandon Doughty,37.0
+2014,400547797,Virginia Tech,514481,Michael Brewer,27.0
+2014,400547797,North Carolina,516347,Marquise Williams,33.0
+2014,400547797,North Carolina,545238,Mitch Trubisky,4.0
+2014,400548208,Rice,514894,Driphus Jackson,23.0
+2014,400548208,Hawai'i,532976,Ikaika Woolsey,27.0
+2014,400548278,California,547401,Jared Goff,53.0
+2014,400548278,Washington State,504823,Connor Halliday,70.0
+2014,400548205,Air Force,535972,Kale Pearson,16.0
+2014,400548205,Air Force,554520,Jalen Robinette,1.0
+2014,400548205,Navy,530568,Keenan Reynolds,14.0
+2014,400548205,Navy,551222,Tago Smith,2.0
+2014,400548204,Utah State,550720,Darell Garretson,25.0
+2014,400548204,BYU,381494,Christian Stewart,29.0
+2014,400548204,BYU,482594,Taysom Hill,11.0
+2014,400548039,Florida Atlantic,550876,Jaquez Johnson,42.0
+2014,400548039,Florida International,3128843,Alex McGough,29.0
+2014,400548376,Florida,511889,Jeff Driskel,23.0
+2014,400548376,Florida,3121647,Treon Harris,4.0
+2014,400548376,Tennessee,512424,Justin Worley,39.0
+2014,400547865,Baylor,480746,Bryce Petty,22.0
+2014,400547865,Texas,547338,Tyrone Swoopes,34.0
+2014,400547937,Maryland,480846,C.J. Brown,18.0
+2014,400547937,Maryland,534328,Caleb Rowe,22.0
+2014,400547937,Ohio State,534294,Cardale Jones,1.0
+2014,400547937,Ohio State,545624,J.T. Barrett,23.0
+2014,400548209,UNLV,517186,Nick Sherry,18.0
+2014,400548209,UNLV,3125318,Blake Decker,10.0
+2014,400548209,San José State,512675,Joe Gray,30.0
+2014,400547909,Purdue,534770,Austin Appleby,20.0
+2014,400547909,Illinois,515454,Reilly O'Toole,14.0
+2014,400547909,Illinois,534652,Wes Lunt,39.0
+2014,400547920,Indiana,535825,Nate Sudfeld,29.0
+2014,400547920,North Texas,549918,Dajon Williams,34.0
+2014,400548418,App State,512882,Kameron Bryant,6.0
+2014,400548418,App State,548447,Taylor Lamb,30.0
+2014,400548418,South Alabama,507211,Brandon Bridge,28.0
+2014,400547790,Georgia Tech,531104,Justin Thomas,7.0
+2014,400547790,Miami,3123048,Brad Kaaya,25.0
+2014,400547682,Houston,545550,John O'Korn,26.0
+2014,400547682,Houston,545552,Greg Ward Jr.,17.0
+2014,400547682,UCF,551184,Justin Holman,18.0
+2014,400548275,USC,513329,Cody Kessler,45.0
+2014,400548275,Arizona State,517393,Mike Bercovici,45.0
+2014,400547979,Northwestern,500419,Trevor Siemian,29.0
+2014,400547979,Wisconsin,514230,Joel Stave,19.0
+2014,400547979,Wisconsin,515835,Tanner McEvoy,10.0
+2014,400548422,Texas State,548240,Tyler Jones,20.0
+2014,400548422,Idaho,553235,Matt Linehan,52.0
+2014,400548276,UCLA,511982,Brett Hundley,21.0
+2014,400548276,Utah,514737,Kendal Thompson,13.0
+2014,400548276,Utah,531051,Travis Wilson,5.0
+2014,400547863,Oklahoma State,514105,Daxx Garman,41.0
+2014,400547863,Iowa State,511969,Sam B. Richardson,39.0
+2014,400547783,Louisville,3116642,Reggie Bonnafon,22.0
+2014,400547783,Syracuse,503821,Jarrod West,1.0
+2014,400547783,Syracuse,514440,Terrel Hunt,32.0
+2014,400547783,Syracuse,545284,Austin Wilson,3.0
+2014,400548374,Ole Miss,500990,Bo Wallace,31.0
+2014,400548374,Alabama,504052,Blake Sims,31.0
+2014,400548125,Western Michigan,532645,Zach Terrell,37.0
+2014,400548125,Western Michigan,545923,Corey Davis,1.0
+2014,400548125,Toledo,545910,Logan Woodside,28.0
+2014,400548277,Colorado,550278,Sefo Liufau,49.0
+2014,400548277,Oregon State,504786,Sean Mannion,37.0
+2014,400548421,Georgia Southern,532925,Kevin Ellison,13.0
+2014,400548421,New Mexico State,3124972,Andrew Allen,2.0
+2014,400548421,New Mexico State,3124981,Tyler Rogers,48.0
+2014,400547765,Wake Forest,530328,Tyler Cameron,7.0
+2014,400547765,Wake Forest,3124092,John Wolford,15.0
+2014,400547765,Florida State,530299,Sean Maguire,2.0
+2014,400547765,Florida State,530308,Jameis Winston,39.0
+2014,400548040,UTEP,500571,Jameill Showers,28.0
+2014,400548040,Louisiana Tech,530696,Cody Sokol,16.0
+2014,400548040,Louisiana Tech,531316,Ryan Higgins,1.0
+2014,400548207,Fresno State,546271,Brian Burrell,28.0
+2014,400548207,San Diego State,3125232,Nick Bawden,24.0
+2014,400548126,Miami (OH),500913,Andrew Hendrix,58.0
+2014,400548126,Massachusetts,518271,Blake Frohnapfel,60.0
+2014,400548126,Massachusetts,520781,Marken Michel,1.0
+2014,400547684,East Carolina,500938,Shane Carden,41.0
+2014,400547684,SMU,519812,Garrett Krstich,67.0
+2014,400548419,Arkansas State,538156,Fredi Knighten,36.0
+2014,400548419,UL Monroe,501565,Pete Thomas,39.0
+2014,400548419,UL Monroe,512345,Brayle Brown,7.0
+2014,400548419,UL Monroe,512356,Justin Manton,1.0
+2014,400547866,West Virginia,501098,Clint Trickett,35.0
+2014,400547866,West Virginia,3116460,Skyler Howard,2.0
+2014,400547866,Kansas,530978,T.J. Millweard,1.0
+2014,400547866,Kansas,535521,Michael Cummings,17.0
+2014,400547866,Kansas,545417,Montell Cozart,10.0
+2014,400547744,NC State,512191,Jacoby Brissett,18.0
+2014,400547744,Clemson,512052,Cole Stoudt,1.0
+2014,400547744,Clemson,3122840,Deshaun Watson,29.0
+2014,400547812,Virginia,501177,Miles Gooch,1.0
+2014,400547812,Virginia,535548,Matt Johns,16.0
+2014,400547812,Pittsburgh,530450,Chad Voytik,30.0
+2014,400548206,Nevada,501241,Cody Fajardo,43.0
+2014,400548206,Boise State,504908,Grant Hedrick,31.0
+2014,400547864,Kansas State,550158,Jake Waters,31.0
+2014,400547864,Texas Tech,550386,Davis Webb,43.0
+2014,400547864,Texas Tech,3139477,Patrick Mahomes,7.0
+2014,400548373,LSU,546033,Anthony Jennings,10.0
+2014,400548373,LSU,559751,Brandon Harris,14.0
+2014,400548373,Auburn,550019,Jeremy Johnson,3.0
+2014,400548373,Auburn,550021,Nick Marshall,22.0
+2014,400547683,Memphis,534849,Paxton Lynch,25.0
+2014,400547683,Cincinnati,502335,Munchie Legaux,13.0
+2014,400547683,Cincinnati,534259,Gunner Kiel,27.0
+2014,400548122,Eastern Michigan,501541,Rob Bolden,30.0
+2014,400548122,Akron,514617,Kyle Pohl,40.0
+2014,400548122,Akron,550357,Thomas Woodson,10.0
+2014,400547997,Michigan,501543,Devin Gardner,22.0
+2014,400547997,Rutgers,503831,Michael Burton,1.0
+2014,400547997,Rutgers,518344,Gary Nova,39.0
+2014,400548042,Middle Tennessee,531589,Austin Grammer,26.0
+2014,400548042,Middle Tennessee,545681,Shane Tucker,1.0
+2014,400548042,Southern Miss,552880,Nick Mullens,54.0
+2014,400547956,Nebraska,533182,Ryker Fyfe,2.0
+2014,400547956,Nebraska,533270,Tommy Armstrong Jr.,43.0
+2014,400547956,Michigan State,512705,Connor Cook,29.0
+2014,400548375,Kentucky,530944,Patrick Towles,29.0
+2014,400548375,South Carolina,504295,Dylan Thompson,37.0
+2014,400547867,Oklahoma,534449,Trevor Knight,35.0
+2014,400547867,TCU,517127,Trevone Boykin,38.0
+2014,400547867,TCU,517133,David Porter,1.0
+2014,400548123,Northern Illinois,532480,Drew Hare,15.0
+2014,400548123,Northern Illinois,532644,Anthony Maddie,10.0
+2014,400548123,Kent State,531864,Colin Reardon,36.0
+2014,400548123,Kent State,546030,Jack Williams,1.0
+2014,400548123,Kent State,550246,Nathan Strock,1.0
+2014,400548044,New Mexico,502920,Jeric Magnant,1.0
+2014,400548044,New Mexico,533208,Cole Gautsche,2.0
+2014,400548044,New Mexico,551028,Lamar Jordan,11.0
+2014,400548044,UTSA,535979,Tucker Carter,8.0
+2014,400548044,UTSA,3124039,Blake Bogenschutz,16.0
+2014,400548041,Marshall,518267,Rakeem Cato,23.0
+2014,400548041,Marshall,535461,Gunnar Holcombe,4.0
+2014,400548041,Old Dominion,513949,Taylor Heinicke,25.0
+2014,400548120,Army,515360,Angel Santiago,3.0
+2014,400548120,Army,535646,A.J. Schurr,2.0
+2014,400548120,Ball State,531552,Ozzie Mann,26.0
+2014,400548121,Bowling Green,531801,James Knapke,39.0
+2014,400548121,Buffalo,513614,Joe Licata,24.0
+2014,400548420,Louisiana,503922,Terrance Broadway,26.0
+2014,400548420,Louisiana,531678,Brooks Haack,4.0
+2014,400548420,Louisiana,545809,Elijah McGuire,1.0
+2014,400548420,Georgia State,513425,Ronnie Bell,4.0
+2014,400548420,Georgia State,3124848,Nick Arbuckle,27.0
+2014,400548279,Notre Dame,515409,Everett Golson,43.0
+2014,400548279,Stanford,516357,Kevin Hogan,36.0
+2014,400548378,Georgia,504004,Hutson Mason,17.0
+2014,400548378,Georgia,534669,Todd Gurley II,1.0
+2014,400548378,Georgia,546345,Brice Ramsey,4.0
+2014,400548378,Vanderbilt,517211,Stephen Rivers,13.0
+2014,400548378,Vanderbilt,3122157,Wade Freebeck,18.0
+2014,400548377,Mississippi State,512030,Dak Prescott,26.0
+2014,400548377,Mississippi State,546607,Gabe Myles,1.0
+2014,400548377,Texas A&M,549865,Kenny Hill,62.0
+2014,400548124,Ohio,532433,JD Sprague,21.0
+2014,400548124,Central Michigan,531455,Cooper Rush,27.0
+2014,400548274,Arizona,552097,Anu Solomon,31.0
+2014,400548274,Oregon,511459,Marcus Mariota,32.0
+2014,400548274,Oregon,3122672,Royce Freeman,1.0
+2014,400547685,Tulsa,514152,Joseph Calcagni,6.0
+2014,400547685,Tulsa,532273,Dane Evans,29.0
+2014,400547685,Colorado State,515528,Garrett Grayson,18.0
+2014,400547685,Colorado State,546267,Nick Stevens,8.0
+2014,400548047,UAB,3129249,Cody Clements,23.0
+2014,400548047,North Texas,515147,Andrew McNulty,14.0
+2014,400548047,North Texas,549918,Dajon Williams,21.0
+2014,400548426,Troy,546145,Brandon Silvers,30.0
+2014,400548426,New Mexico State,3124981,Tyler Rogers,33.0
+2014,400548372,Charleston Southern,518239,Austin Brown,24.0
+2014,400548372,Charleston Southern,534708,Daniel Croghan III,1.0
+2014,400548372,Vanderbilt,546184,Johnny McCrary,16.0
+2014,400548372,Vanderbilt,3122157,Wade Freebeck,7.0
+2014,400548371,Chattanooga,512913,Jacob Huesman,16.0
+2014,400548371,Chattanooga,548475,Alejandro Bennifield,1.0
+2014,400548371,Tennessee,512424,Justin Worley,24.0
+2014,400548371,Tennessee,532065,Nathan Peterman,5.0
+2014,400547963,Minnesota,530731,Mitch Leidner,15.0
+2014,400547963,Northwestern,500419,Trevor Siemian,50.0
+2014,400548283,California,547401,Jared Goff,51.0
+2014,400548283,Washington,535325,Cyler Miles,29.0
+2014,400548423,Liberty,514651,Josh Woodrum,37.0
+2014,400548423,Liberty,529501,Darrin Peterson,1.0
+2014,400548423,App State,548447,Taylor Lamb,31.0
+2014,400548464,VMI,547410,Al Cobb,40.0
+2014,400548464,Navy,551208,Will Worth,1.0
+2014,400548464,Navy,551222,Tago Smith,5.0
+2014,400548210,Air Force,535972,Kale Pearson,18.0
+2014,400548210,Air Force,554528,Nate Romine,11.0
+2014,400548210,Utah State,531204,Nick Vigil,2.0
+2014,400548210,Utah State,550720,Darell Garretson,29.0
+2014,400547869,West Virginia,501098,Clint Trickett,44.0
+2014,400547869,Texas Tech,550386,Davis Webb,46.0
+2014,400547686,BYU,381494,Christian Stewart,37.0
+2014,400547686,UCF,551184,Justin Holman,51.0
+2014,400548366,Florida,511889,Jeff Driskel,25.0
+2014,400548366,LSU,546033,Anthony Jennings,21.0
+2014,400547868,Baylor,480746,Bryce Petty,55.0
+2014,400547868,TCU,517127,Trevone Boykin,47.0
+2014,400547868,TCU,545514,Cameron Echols-Luper,1.0
+2014,400548045,Florida International,3128843,Alex McGough,25.0
+2014,400548045,UTSA,545729,Austin Robinson,17.0
+2014,400548045,UTSA,3124039,Blake Bogenschutz,9.0
+2014,400548212,UNLV,3125318,Blake Decker,40.0
+2014,400548212,Fresno State,546271,Brian Burrell,44.0
+2014,400547957,Purdue,534770,Austin Appleby,37.0
+2014,400547957,Michigan State,512705,Connor Cook,37.0
+2014,400548213,Hawai'i,532975,Taylor Graham,17.0
+2014,400548213,Hawai'i,532976,Ikaika Woolsey,9.0
+2014,400548213,Wyoming,520520,Colby Kirkegaard,30.0
+2014,400547688,Tulane,499807,Nick Montana,26.0
+2014,400547688,UConn,533264,Chandler Whitmer,24.0
+2014,400547688,UConn,546675,Tim Boyle,2.0
+2014,400547755,Georgia Tech,500212,B.J. Bostic,1.0
+2014,400547755,Georgia Tech,512366,Tim Byerly,10.0
+2014,400547755,Georgia Tech,531104,Justin Thomas,15.0
+2014,400547755,Duke,501046,Anthony Boone,26.0
+2014,400547690,Houston,545552,Greg Ward Jr.,28.0
+2014,400547690,Memphis,534849,Paxton Lynch,37.0
+2014,400548281,USC,513329,Cody Kessler,30.0
+2014,400548281,Arizona,552097,Anu Solomon,72.0
+2014,400548282,UCLA,511982,Brett Hundley,37.0
+2014,400548282,UCLA,531261,Devin Lewis Fuller,1.0
+2014,400548282,Oregon,511459,Marcus Mariota,27.0
+2014,400547871,Oklahoma State,514105,Daxx Garman,31.0
+2014,400547871,Kansas,535521,Michael Cummings,37.0
+2014,400547745,Louisville,530357,Will Gardner,16.0
+2014,400547745,Louisville,3116642,Reggie Bonnafon,13.0
+2014,400547745,Louisville,3154487,- Team,1.0
+2014,400547745,Clemson,512052,Cole Stoudt,33.0
+2014,400547745,Clemson,3122840,Deshaun Watson,6.0
+2014,400548132,Western Michigan,532645,Zach Terrell,29.0
+2014,400548132,Ball State,546005,Jack Milas,42.0
+2014,400548425,Georgia Southern,532925,Kevin Ellison,11.0
+2014,400548425,Georgia Southern,549301,Favian Upshaw,4.0
+2014,400548425,Idaho,531172,Chad Chalich,1.0
+2014,400548425,Idaho,553235,Matt Linehan,31.0
+2014,400548048,UTEP,500571,Jameill Showers,26.0
+2014,400548048,Old Dominion,513949,Taylor Heinicke,25.0
+2014,400547921,Iowa,518380,Jake Rudock,27.0
+2014,400547921,Iowa,535844,C.J. Beathard,5.0
+2014,400547921,Indiana,535825,Nate Sudfeld,9.0
+2014,400547921,Indiana,3128252,Chris Covington,12.0
+2014,400548130,Miami (OH),500913,Andrew Hendrix,41.0
+2014,400548130,Akron,514617,Kyle Pohl,22.0
+2014,400548130,Akron,550357,Thomas Woodson,14.0
+2014,400547689,East Carolina,500938,Shane Carden,33.0
+2014,400547689,East Carolina,505407,Justin Hardy,1.0
+2014,400547689,South Florida,549804,Mike White,41.0
+2014,400547689,South Florida,552748,Rodney Adams,1.0
+2014,400547691,Temple,549759,P.J. Walker,31.0
+2014,400547691,Tulsa,532273,Dane Evans,36.0
+2014,400548424,Arkansas State,515874,Stephen Hogan,4.0
+2014,400548424,Arkansas State,538156,Fredi Knighten,26.0
+2014,400548424,Georgia State,513860,Ben McLane,3.0
+2014,400548424,Georgia State,3124848,Nick Arbuckle,36.0
+2014,400548368,Ole Miss,500990,Bo Wallace,19.0
+2014,400548368,Texas A&M,549865,Kenny Hill,53.0
+2014,400547687,Miami,509992,Ryan Williams,1.0
+2014,400547687,Miami,3123048,Brad Kaaya,24.0
+2014,400547687,Cincinnati,512086,Shaq Washington,1.0
+2014,400547687,Cincinnati,534259,Gunner Kiel,57.0
+2014,400547687,Cincinnati,3125808,Jarred Evans,2.0
+2014,400547733,NC State,512191,Jacoby Brissett,30.0
+2014,400547733,Boston College,503970,Tyler Murphy,19.0
+2014,400548211,Nevada,501241,Cody Fajardo,50.0
+2014,400548211,Colorado State,515528,Garrett Grayson,36.0
+2014,400548128,Eastern Michigan,501541,Rob Bolden,5.0
+2014,400548128,Eastern Michigan,3125823,Reginald Bell,13.0
+2014,400548128,Buffalo,513614,Joe Licata,44.0
+2014,400547948,Michigan,501543,Devin Gardner,24.0
+2014,400547948,Michigan,511688,Russell Bellomy,2.0
+2014,400547948,Penn State,518192,Bill Belton,1.0
+2014,400547948,Penn State,552329,Christian Hackenberg,32.0
+2014,400548367,UL Monroe,501565,Pete Thomas,31.0
+2014,400548367,UL Monroe,512345,Brayle Brown,8.0
+2014,400548367,Kentucky,530944,Patrick Towles,28.0
+2014,400548367,Kentucky,546354,Reese Phillips,1.0
+2014,400548367,Kentucky,551103,Jojo Kemp,1.0
+2014,400548046,Middle Tennessee,531589,Austin Grammer,37.0
+2014,400548046,Marshall,518267,Rakeem Cato,33.0
+2014,400548370,Missouri,531385,Maty Mauk,21.0
+2014,400548370,Georgia,504004,Hutson Mason,28.0
+2014,400548370,Georgia,546345,Brice Ramsey,1.0
+2014,400547870,Oklahoma,534449,Trevor Knight,20.0
+2014,400547870,Texas,547338,Tyrone Swoopes,44.0
+2014,400548129,Northern Illinois,532480,Drew Hare,33.0
+2014,400548129,Central Michigan,531455,Cooper Rush,31.0
+2014,400547910,Illinois,515454,Reilly O'Toole,19.0
+2014,400547910,Illinois,546062,Aaron Bailey,5.0
+2014,400547910,Wisconsin,514230,Joel Stave,14.0
+2014,400547910,Wisconsin,515835,Tanner McEvoy,4.0
+2014,400548214,New Mexico,533208,Cole Gautsche,6.0
+2014,400548214,New Mexico,551028,Lamar Jordan,18.0
+2014,400548214,San Diego State,547567,Chase Favreau,1.0
+2014,400548214,San Diego State,547570,Quinn Kaehler,3.0
+2014,400548214,San Diego State,3125232,Nick Bawden,13.0
+2014,400548049,Rice,514894,Driphus Jackson,21.0
+2014,400548049,Army,515360,Angel Santiago,11.0
+2014,400548049,Army,535646,A.J. Schurr,3.0
+2014,400548127,Bowling Green,531801,James Knapke,39.0
+2014,400548127,Ohio,532433,JD Sprague,56.0
+2014,400548127,Ohio,532440,Greg Windham,8.0
+2014,400547766,Syracuse,545284,Austin Wilson,9.0
+2014,400547766,Syracuse,3116756,AJ Long,27.0
+2014,400547766,Florida State,530308,Jameis Winston,36.0
+2014,400548365,Alabama,504052,Blake Sims,21.0
+2014,400548365,Arkansas,515915,Brandon Allen,40.0
+2014,400548369,Auburn,550021,Nick Marshall,35.0
+2014,400548369,Mississippi State,512030,Dak Prescott,34.0
+2014,400548369,Mississippi State,559659,Logan Cooke,1.0
+2014,400548131,Kent State,531864,Colin Reardon,41.0
+2014,400548131,Kent State,550339,Nick Holley,1.0
+2014,400548131,Massachusetts,518271,Blake Frohnapfel,38.0
+2014,400547872,Toledo,545910,Logan Woodside,36.0
+2014,400547872,Iowa State,511969,Sam B. Richardson,53.0
+2014,400548280,Washington State,504823,Connor Halliday,69.0
+2014,400548280,Stanford,516357,Kevin Hogan,35.0
+2014,400547798,Notre Dame,515409,Everett Golson,38.0
+2014,400547798,North Carolina,516347,Marquise Williams,41.0
+2014,400547798,North Carolina,530417,Quinshad Davis,1.0
+2014,400548428,Troy,546145,Brandon Silvers,30.0
+2014,400548428,Troy,3125460,Dontreal Pruitt,10.0
+2014,400548428,App State,548447,Taylor Lamb,16.0
+2014,400547964,Minnesota,530731,Mitch Leidner,18.0
+2014,400547964,Purdue,534770,Austin Appleby,26.0
+2014,400548051,Florida Atlantic,537395,Dalton Schomp,1.0
+2014,400548051,Florida Atlantic,550876,Jaquez Johnson,34.0
+2014,400548051,Western Kentucky,504866,Brandon Doughty,44.0
+2014,400548219,BYU,381494,Christian Stewart,63.0
+2014,400548219,Nevada,501241,Cody Fajardo,40.0
+2014,400548362,Florida,511889,Jeff Driskel,19.0
+2014,400548362,Florida,3121647,Treon Harris,12.0
+2014,400548362,Missouri,531385,Maty Mauk,18.0
+2014,400547874,Baylor,480746,Bryce Petty,36.0
+2014,400547874,Baylor,535511,Seth Russell,1.0
+2014,400547874,West Virginia,501098,Clint Trickett,35.0
+2014,400547931,Maryland,480846,C.J. Brown,23.0
+2014,400547931,Maryland,534317,Perry Hills,10.0
+2014,400547931,Iowa,518380,Jake Rudock,56.0
+2014,400548050,Florida International,536571,E.J. Hilliard,5.0
+2014,400548050,Florida International,3128843,Alex McGough,27.0
+2014,400548050,Marshall,518267,Rakeem Cato,27.0
+2014,400548218,Hawai'i,532976,Ikaika Woolsey,31.0
+2014,400548218,San Diego State,547570,Quinn Kaehler,24.0
+2014,400548052,Louisiana Tech,530696,Cody Sokol,31.0
+2014,400548052,UTSA,517795,Kam Jones,1.0
+2014,400548052,UTSA,535979,Tucker Carter,3.0
+2014,400548052,UTSA,545729,Austin Robinson,29.0
+2014,400548052,UTSA,3124056,Brady Jones,1.0
+2014,400548288,Washington,535325,Cyler Miles,28.0
+2014,400548288,Washington,546876,Troy Williams,10.0
+2014,400548288,Oregon,511459,Marcus Mariota,33.0
+2014,400547692,Tulane,499807,Nick Montana,41.0
+2014,400547692,UCF,516039,J.J. Worton,1.0
+2014,400547692,UCF,531755,Nick Patti,6.0
+2014,400547692,UCF,551184,Justin Holman,17.0
+2014,400548363,Furman,513251,Tanner Skogen,1.0
+2014,400548363,Furman,548617,Dillon Woodruff,3.0
+2014,400548363,Furman,559492,P.J. Blazejowski,15.0
+2014,400548363,South Carolina,504295,Dylan Thompson,22.0
+2014,400548363,South Carolina,548142,Connor Mitch,4.0
+2014,400548363,South Carolina,548144,Perry Orth,2.0
+2014,400547775,Georgia Tech,531104,Justin Thomas,18.0
+2014,400547775,North Carolina,516347,Marquise Williams,47.0
+2014,400547694,Houston,545552,Greg Ward Jr.,33.0
+2014,400547694,Temple,549759,P.J. Walker,29.0
+2014,400548286,USC,513329,Cody Kessler,26.0
+2014,400548286,USC,546415,Max Browne,2.0
+2014,400548286,Colorado,511433,Nelson Spruce,1.0
+2014,400548286,Colorado,550268,Jordan Gehrke,13.0
+2014,400548286,Colorado,550278,Sefo Liufau,35.0
+2014,400547971,Northwestern,500419,Trevor Siemian,39.0
+2014,400547971,Nebraska,533270,Tommy Armstrong Jr.,29.0
+2014,400547971,Nebraska,3121398,De'Mornay Pierson-El,1.0
+2014,400548427,Texas State,548240,Tyler Jones,23.0
+2014,400548427,Louisiana,503922,Terrance Broadway,21.0
+2014,400548427,Louisiana,531678,Brooks Haack,2.0
+2014,400548287,UCLA,511982,Brett Hundley,42.0
+2014,400548287,California,547401,Jared Goff,41.0
+2014,400548287,California,3127202,Luke Rubenzer,1.0
+2014,400547876,Oklahoma State,514105,Daxx Garman,25.0
+2014,400547876,TCU,501033,Matt Joeckel,3.0
+2014,400547876,TCU,517127,Trevone Boykin,39.0
+2014,400548138,Western Michigan,532645,Zach Terrell,24.0
+2014,400548138,Bowling Green,531801,James Knapke,33.0
+2014,400548216,Fresno State,546271,Brian Burrell,25.0
+2014,400548216,Boise State,504908,Grant Hedrick,30.0
+2014,400548216,Boise State,546224,Thomas Sperbeck,2.0
+2014,400548054,North Texas,515147,Andrew McNulty,35.0
+2014,400548054,Southern Miss,552880,Nick Mullens,41.0
+2014,400548137,Miami (OH),500913,Andrew Hendrix,42.0
+2014,400548137,Northern Illinois,532480,Drew Hare,16.0
+2014,400548137,Northern Illinois,532644,Anthony Maddie,5.0
+2014,400548137,Northern Illinois,547867,Aregeros Turner,1.0
+2014,400548361,Ole Miss,500990,Bo Wallace,28.0
+2014,400548361,Ole Miss,550123,Devante Kincade,1.0
+2014,400548361,Ole Miss,559642,Jeremy Liggins,1.0
+2014,400548361,Tennessee,512424,Justin Worley,34.0
+2014,400548364,Texas A&M,549865,Kenny Hill,26.0
+2014,400548364,Texas A&M,559681,Kyle Allen,5.0
+2014,400548364,Alabama,504052,Blake Sims,27.0
+2014,400548364,Alabama,514124,Jake Coker,8.0
+2014,400547756,Duke,501046,Anthony Boone,37.0
+2014,400547756,Duke,530478,Thomas Sirk,1.0
+2014,400547756,Virginia,511362,Darius Jennings,1.0
+2014,400547756,Virginia,535548,Matt Johns,45.0
+2014,400547819,Wake Forest,515580,Kevin Sousa,1.0
+2014,400547819,Wake Forest,530328,Tyler Cameron,8.0
+2014,400547819,Wake Forest,3124092,John Wolford,14.0
+2014,400547819,Syracuse,3116756,AJ Long,32.0
+2014,400547813,Virginia Tech,514481,Michael Brewer,45.0
+2014,400547813,Pittsburgh,530450,Chad Voytik,17.0
+2014,400547813,Pittsburgh,546650,Tyler Boyd,1.0
+2014,400548133,Akron,514601,Zach D'Orazio,1.0
+2014,400548133,Akron,550357,Thomas Woodson,45.0
+2014,400548133,Ohio,532433,JD Sprague,37.0
+2014,400547877,Kansas State,550158,Jake Waters,23.0
+2014,400547877,Oklahoma,534449,Trevor Knight,32.0
+2014,400547877,Oklahoma,534450,Durron Neal,1.0
+2014,400547877,Oklahoma,550504,Cody Thomas,2.0
+2014,400547805,Louisville,530357,Will Gardner,36.0
+2014,400547805,NC State,512191,Jacoby Brissett,32.0
+2014,400547984,Ohio State,545624,J.T. Barrett,31.0
+2014,400547984,Rutgers,518344,Gary Nova,28.0
+2014,400547984,Rutgers,547549,Chris Laviano,1.0
+2014,400548360,LSU,546033,Anthony Jennings,14.0
+2014,400548360,LSU,559751,Brandon Harris,1.0
+2014,400548360,Kentucky,530944,Patrick Towles,36.0
+2014,400547873,Kansas,535521,Michael Cummings,32.0
+2014,400547873,Texas Tech,550386,Davis Webb,44.0
+2014,400548053,Middle Tennessee,531589,Austin Grammer,19.0
+2014,400548053,UAB,3129249,Cody Clements,30.0
+2014,400547734,Boston College,501647,Josh Bordner,1.0
+2014,400547734,Boston College,503970,Tyler Murphy,19.0
+2014,400547734,Clemson,512052,Cole Stoudt,45.0
+2014,400547875,Texas,547338,Tyrone Swoopes,36.0
+2014,400547875,Iowa State,511969,Sam B. Richardson,55.0
+2014,400547693,Cincinnati,502335,Munchie Legaux,5.0
+2014,400547693,Cincinnati,534259,Gunner Kiel,20.0
+2014,400547693,Cincinnati,3125808,Jarred Evans,2.0
+2014,400547693,SMU,519812,Garrett Krstich,31.0
+2014,400547693,SMU,532113,Matt Davis,6.0
+2014,400548215,New Mexico,533208,Cole Gautsche,7.0
+2014,400548215,New Mexico,551028,Lamar Jordan,3.0
+2014,400548215,Air Force,535972,Kale Pearson,9.0
+2014,400548284,Utah,514737,Kendal Thompson,8.0
+2014,400548284,Utah,531051,Travis Wilson,10.0
+2014,400548284,Oregon State,504786,Sean Mannion,37.0
+2014,400547695,South Florida,549804,Mike White,26.0
+2014,400547695,Tulsa,532273,Dane Evans,34.0
+2014,400547922,Michigan State,512705,Connor Cook,32.0
+2014,400547922,Indiana,535797,Nate Boudreau,1.0
+2014,400547922,Indiana,3128254,Zander Diamont,15.0
+2014,400548134,Army,515360,Angel Santiago,10.0
+2014,400548134,Army,535646,A.J. Schurr,3.0
+2014,400548134,Army,535647,Kelvin White,1.0
+2014,400548134,Army,550766,Joe Walker,1.0
+2014,400548134,Kent State,531864,Colin Reardon,40.0
+2014,400548135,Ball State,546005,Jack Milas,38.0
+2014,400548135,Central Michigan,531455,Cooper Rush,32.0
+2014,400547767,Notre Dame,515409,Everett Golson,52.0
+2014,400547767,Florida State,530308,Jameis Winston,31.0
+2014,400548359,Georgia,504004,Hutson Mason,17.0
+2014,400548359,Arkansas,515915,Brandon Allen,45.0
+2014,400548285,Arizona State,517393,Mike Bercovici,33.0
+2014,400548285,Arizona State,534754,D.J. Foster,1.0
+2014,400548285,Stanford,516357,Kevin Hogan,39.0
+2014,400548430,New Mexico State,3124972,Andrew Allen,11.0
+2014,400548430,New Mexico State,3124981,Tyler Rogers,5.0
+2014,400548430,Idaho,531172,Chad Chalich,32.0
+2014,400548430,Idaho,553235,Matt Linehan,5.0
+2014,400548217,Utah State,531196,Craig Harrison,12.0
+2014,400548217,Utah State,550720,Darell Garretson,19.0
+2014,400548217,Colorado State,515528,Garrett Grayson,31.0
+2014,400548217,Colorado State,515534,Charles Lovett,1.0
+2014,400548429,Georgia State,3124848,Nick Arbuckle,40.0
+2014,400548429,South Alabama,507211,Brandon Bridge,32.0
+2014,400548136,Eastern Michigan,3125823,Reginald Bell,21.0
+2014,400548136,Massachusetts,518271,Blake Frohnapfel,51.0
+2014,400548220,San José State,512675,Joe Gray,45.0
+2014,400548220,Wyoming,520520,Colby Kirkegaard,27.0
+2014,400550419,Troy,546145,Brandon Silvers,18.0
+2014,400550419,Troy,3125460,Dontreal Pruitt,6.0
+2014,400550419,South Alabama,507211,Brandon Bridge,21.0
+2014,400548055,Florida Atlantic,550876,Jaquez Johnson,37.0
+2014,400548055,Marshall,518267,Rakeem Cato,24.0
+2014,400548225,Utah State,531196,Craig Harrison,23.0
+2014,400548225,Utah State,550724,Ronald Butler,1.0
+2014,400548225,Utah State,3125353,Kent Myers,5.0
+2014,400548225,UNLV,3125318,Blake Decker,38.0
+2014,400548221,BYU,381494,Christian Stewart,38.0
+2014,400548221,Boise State,504908,Grant Hedrick,31.0
+2014,400547938,Maryland,480846,C.J. Brown,29.0
+2014,400547938,Wisconsin,514228,Drew Meyer,1.0
+2014,400547938,Wisconsin,514230,Joel Stave,15.0
+2014,400547938,Wisconsin,515835,Tanner McEvoy,7.0
+2014,400548293,Oregon State,504786,Sean Mannion,30.0
+2014,400548293,Oregon State,546362,Luke Del Rio,8.0
+2014,400548293,Stanford,516354,Evan Crower,3.0
+2014,400548293,Stanford,516357,Kevin Hogan,27.0
+2014,400548223,Hawai'i,532976,Ikaika Woolsey,34.0
+2014,400548223,Nevada,501241,Cody Fajardo,27.0
+2014,400548223,Nevada,533196,Hasaan Henderson,1.0
+2014,400548291,Washington,546876,Troy Williams,26.0
+2014,400548291,Arizona State,504700,Taylor Kelly,25.0
+2014,400547776,Georgia Tech,512366,Tim Byerly,1.0
+2014,400547776,Georgia Tech,531104,Justin Thomas,10.0
+2014,400547776,Pittsburgh,519055,Trey Anderson,15.0
+2014,400547776,Pittsburgh,530450,Chad Voytik,20.0
+2014,400548292,USC,513329,Cody Kessler,32.0
+2014,400548292,USC,546415,Max Browne,1.0
+2014,400548292,Utah,531051,Travis Wilson,32.0
+2014,400548433,Texas State,548240,Tyler Jones,20.0
+2014,400548433,UL Monroe,501565,Pete Thomas,36.0
+2014,400548433,UL Monroe,512345,Brayle Brown,4.0
+2014,400548294,UCLA,511982,Brett Hundley,39.0
+2014,400548294,Colorado,550278,Sefo Liufau,45.0
+2014,400548294,Colorado,3122607,Shay Fields,1.0
+2014,400547879,Oklahoma State,514105,Daxx Garman,41.0
+2014,400547879,West Virginia,501098,Clint Trickett,30.0
+2014,400548143,Western Michigan,532645,Zach Terrell,28.0
+2014,400548143,Ohio,511552,Derrius Vick,31.0
+2014,400548143,Ohio,532433,JD Sprague,5.0
+2014,400548432,Georgia Southern,532925,Kevin Ellison,6.0
+2014,400548432,Georgia State,3124848,Nick Arbuckle,38.0
+2014,400547735,Wake Forest,3124092,John Wolford,30.0
+2014,400547735,Boston College,503970,Tyler Murphy,15.0
+2014,400548060,UTEP,500571,Jameill Showers,18.0
+2014,400548060,UTSA,545729,Austin Robinson,20.0
+2014,400548057,North Texas,515147,Andrew McNulty,33.0
+2014,400548057,North Texas,549918,Dajon Williams,1.0
+2014,400548057,Rice,514894,Driphus Jackson,26.0
+2014,400548141,Miami (OH),500913,Andrew Hendrix,28.0
+2014,400548141,Kent State,531864,Colin Reardon,39.0
+2014,400548141,Kent State,550246,Nathan Strock,1.0
+2014,400547696,East Carolina,500938,Shane Carden,64.0
+2014,400547696,East Carolina,552940,Zay Jones,1.0
+2014,400547696,UConn,533264,Chandler Whitmer,30.0
+2014,400547696,UConn,546675,Tim Boyle,2.0
+2014,400547698,Temple,500975,Connor Reilly,9.0
+2014,400547698,Temple,513398,Jalen Fitzpatrick,1.0
+2014,400547698,Temple,549759,P.J. Walker,28.0
+2014,400547698,UCF,551184,Justin Holman,39.0
+2014,400548354,Ole Miss,500990,Bo Wallace,33.0
+2014,400548354,Ole Miss,550016,Jordan Wilkins,1.0
+2014,400548354,LSU,546033,Anthony Jennings,16.0
+2014,400548431,Arkansas State,515882,J.D. McKissic,1.0
+2014,400548431,Arkansas State,515892,Chris Stone,1.0
+2014,400548431,Arkansas State,538156,Fredi Knighten,37.0
+2014,400548431,Louisiana,503922,Terrance Broadway,17.0
+2014,400547880,TCU,501033,Matt Joeckel,3.0
+2014,400547880,TCU,512469,Bram Kohlhausen,1.0
+2014,400547880,TCU,517127,Trevone Boykin,39.0
+2014,400547880,TCU,545502,Zach Allen,2.0
+2014,400547880,Texas Tech,550386,Davis Webb,30.0
+2014,400547880,Texas Tech,3139477,Patrick Mahomes,11.0
+2014,400547799,Virginia,501177,Miles Gooch,1.0
+2014,400547799,Virginia,530521,Greyson Lambert,40.0
+2014,400547799,North Carolina,516347,Marquise Williams,28.0
+2014,400547799,North Carolina,545238,Mitch Trubisky,1.0
+2014,400547791,Virginia Tech,501222,Mark Leal,8.0
+2014,400547791,Virginia Tech,514481,Michael Brewer,20.0
+2014,400547791,Miami,3123048,Brad Kaaya,16.0
+2014,400548059,Arkansas,501264,Sebastian Tretola,1.0
+2014,400548059,Arkansas,515915,Brandon Allen,24.0
+2014,400548059,Arkansas,547206,Austin Allen,1.0
+2014,400548059,UAB,550754,Jeremiah Briscoe,18.0
+2014,400547878,Kansas State,550158,Jake Waters,30.0
+2014,400547878,Texas,547338,Tyrone Swoopes,25.0
+2014,400547699,Memphis,534849,Paxton Lynch,23.0
+2014,400547699,Memphis,3126208,Jason Stewart,4.0
+2014,400547699,SMU,519812,Garrett Krstich,22.0
+2014,400547699,SMU,532113,Matt Davis,9.0
+2014,400547699,SMU,545334,Kolney Cassel,2.0
+2014,400547949,Michigan,501543,Devin Gardner,30.0
+2014,400547949,Michigan,546706,Shane Morris,1.0
+2014,400547949,Michigan State,512705,Connor Cook,22.0
+2014,400547746,Clemson,512052,Cole Stoudt,35.0
+2014,400547746,Syracuse,503821,Jarrod West,1.0
+2014,400547746,Syracuse,3116756,AJ Long,27.0
+2014,400548358,Missouri,531385,Maty Mauk,23.0
+2014,400548358,Vanderbilt,546184,Johnny McCrary,31.0
+2014,400547972,Nebraska,533270,Tommy Armstrong Jr.,22.0
+2014,400547972,Rutgers,518344,Gary Nova,19.0
+2014,400547972,Rutgers,547549,Chris Laviano,7.0
+2014,400548355,Kentucky,530944,Patrick Towles,43.0
+2014,400548355,Kentucky,3126329,Garrett Johnson,1.0
+2014,400548355,Mississippi State,512030,Dak Prescott,33.0
+2014,400547697,Cincinnati,502335,Munchie Legaux,15.0
+2014,400547697,Cincinnati,534259,Gunner Kiel,22.0
+2014,400547697,South Florida,539215,Steven Bench,14.0
+2014,400547697,South Florida,549804,Mike White,19.0
+2014,400548139,Akron,550357,Thomas Woodson,39.0
+2014,400548139,Ball State,546005,Jack Milas,36.0
+2014,400548142,Northern Illinois,532480,Drew Hare,14.0
+2014,400548142,Northern Illinois,532644,Anthony Maddie,3.0
+2014,400548142,Eastern Michigan,3125823,Reginald Bell,34.0
+2014,400547911,Minnesota,530731,Mitch Leidner,30.0
+2014,400547911,Illinois,515454,Reilly O'Toole,21.0
+2014,400547911,Illinois,546062,Aaron Bailey,1.0
+2014,400547911,Illinois,3115915,Mike Dudek,1.0
+2014,400547985,Penn State,552329,Christian Hackenberg,49.0
+2014,400547985,Ohio State,545624,J.T. Barrett,19.0
+2014,400548056,Southern Miss,532089,Cole Weeks,45.0
+2014,400548056,Southern Miss,552880,Nick Mullens,4.0
+2014,400548056,Louisiana Tech,530696,Cody Sokol,46.0
+2014,400548140,Buffalo,513614,Joe Licata,35.0
+2014,400548140,Buffalo,513639,Ron Willoughby,1.0
+2014,400548140,Central Michigan,531455,Cooper Rush,24.0
+2014,400548357,Alabama,504052,Blake Sims,24.0
+2014,400548357,Tennessee,532065,Nathan Peterman,4.0
+2014,400548357,Tennessee,546540,Joshua Dobbs,32.0
+2014,400548356,Auburn,530917,Jonathan Wallace,1.0
+2014,400548356,Auburn,550021,Nick Marshall,14.0
+2014,400548356,South Carolina,504295,Dylan Thompson,50.0
+2014,400548356,South Carolina,548173,Pharoh Cooper,2.0
+2014,400548144,Toledo,545910,Logan Woodside,34.0
+2014,400548144,Massachusetts,518271,Blake Frohnapfel,56.0
+2014,400548144,Massachusetts,520781,Marken Michel,1.0
+2014,400548144,Massachusetts,537087,Bernard Davis,1.0
+2014,400548290,Arizona,552097,Anu Solomon,38.0
+2014,400548290,Washington State,504823,Connor Halliday,79.0
+2014,400548289,Oregon,511459,Marcus Mariota,30.0
+2014,400548289,California,547401,Jared Goff,52.0
+2014,400548289,California,3127202,Luke Rubenzer,2.0
+2014,400548058,Western Kentucky,504866,Brandon Doughty,26.0
+2014,400548058,Old Dominion,513949,Taylor Heinicke,40.0
+2014,400548224,San José State,512675,Joe Gray,46.0
+2014,400548224,Navy,530568,Keenan Reynolds,7.0
+2014,400548222,Wyoming,520520,Colby Kirkegaard,38.0
+2014,400548222,Colorado State,515528,Garrett Grayson,21.0
+2014,400548222,Colorado State,546267,Nick Stevens,3.0
+2014,400548062,UAB,-5, Team,1.0
+2014,400548062,UAB,3129249,Cody Clements,25.0
+2014,400548062,Florida Atlantic,550876,Jaquez Johnson,31.0
+2014,400550420,Troy,546145,Brandon Silvers,7.0
+2014,400550420,Troy,3125460,Dontreal Pruitt,4.0
+2014,400550420,Georgia Southern,532925,Kevin Ellison,9.0
+2014,400550420,Georgia Southern,549301,Favian Upshaw,1.0
+2014,400547768,Florida State,530308,Jameis Winston,48.0
+2014,400547768,Louisville,530357,Will Gardner,38.0
+2014,400548300,California,547401,Jared Goff,47.0
+2014,400548300,Oregon State,504786,Sean Mannion,45.0
+2014,400548465,Navy,-6810, Team,1.0
+2014,400548465,Navy,516220,Noah Copeland,1.0
+2014,400548465,Navy,530568,Keenan Reynolds,15.0
+2014,400548465,Notre Dame,515409,Everett Golson,25.0
+2014,400548226,Air Force,535972,Kale Pearson,12.0
+2014,400548226,Army,515360,Angel Santiago,11.0
+2014,400548226,Army,535646,A.J. Schurr,2.0
+2014,400548064,BYU,381494,Christian Stewart,45.0
+2014,400548064,Middle Tennessee,531589,Austin Grammer,32.0
+2014,400548348,Florida,3121647,Treon Harris,6.0
+2014,400548348,Georgia,504004,Hutson Mason,41.0
+2014,400547884,Baylor,480746,Bryce Petty,27.0
+2014,400547884,Baylor,535511,Seth Russell,9.0
+2014,400547884,Kansas,535521,Michael Cummings,30.0
+2014,400547939,Maryland,480846,C.J. Brown,38.0
+2014,400547939,Penn State,552329,Christian Hackenberg,42.0
+2014,400547973,Purdue,534770,Austin Appleby,46.0
+2014,400547973,Nebraska,533270,Tommy Armstrong Jr.,21.0
+2014,400548063,Louisiana Tech,505012,Taylor Burch,3.0
+2014,400548063,Louisiana Tech,530696,Cody Sokol,42.0
+2014,400548063,Louisiana Tech,531316,Ryan Higgins,4.0
+2014,400548063,Western Kentucky,504866,Brandon Doughty,35.0
+2014,400548063,Western Kentucky,3124781,Troy Jones,4.0
+2014,400548298,Washington,535325,Cyler Miles,19.0
+2014,400548298,Colorado,550278,Sefo Liufau,52.0
+2014,400547777,Georgia Tech,531104,Justin Thomas,13.0
+2014,400547777,Virginia,530521,Greyson Lambert,32.0
+2014,400547777,Virginia,535548,Matt Johns,9.0
+2014,400547704,Houston,545552,Greg Ward Jr.,19.0
+2014,400547704,South Florida,539215,Steven Bench,25.0
+2014,400547704,South Florida,3139591,Quinton Flowers,1.0
+2014,400548297,USC,513329,Cody Kessler,32.0
+2014,400548297,Washington State,504823,Connor Halliday,9.0
+2014,400548297,Washington State,550629,Luke Falk,57.0
+2014,400547932,Northwestern,500419,Trevor Siemian,18.0
+2014,400547932,Northwestern,518323,Zack Oliver,6.0
+2014,400547932,Iowa,518380,Jake Rudock,19.0
+2014,400547932,Iowa,535844,C.J. Beathard,6.0
+2014,400548439,Texas State,548240,Tyler Jones,30.0
+2014,400548439,New Mexico State,3124981,Tyler Rogers,52.0
+2014,400548295,UCLA,511982,Brett Hundley,26.0
+2014,400548295,Arizona,552097,Anu Solomon,48.0
+2014,400547882,Oklahoma State,514105,Daxx Garman,23.0
+2014,400547882,Kansas State,517248,Joe Hubener,5.0
+2014,400547882,Kansas State,550158,Jake Waters,28.0
+2014,400548146,Western Michigan,532645,Zach Terrell,23.0
+2014,400548146,Miami (OH),500913,Andrew Hendrix,19.0
+2014,400548146,Miami (OH),514286,Drew Kummer,10.0
+2014,400548066,UTEP,500571,Jameill Showers,23.0
+2014,400548066,Southern Miss,512500,Casey Martin,1.0
+2014,400548066,Southern Miss,532089,Cole Weeks,46.0
+2014,400547703,East Carolina,500938,Shane Carden,41.0
+2014,400547703,East Carolina,505407,Justin Hardy,1.0
+2014,400547703,Temple,549759,P.J. Walker,19.0
+2014,400548436,Arkansas State,538152,Tres Houston,1.0
+2014,400548436,Arkansas State,538156,Fredi Knighten,28.0
+2014,400548436,Idaho,531172,Chad Chalich,9.0
+2014,400548436,Idaho,553235,Matt Linehan,22.0
+2014,400548349,Ole Miss,500990,Bo Wallace,40.0
+2014,400548349,Auburn,550021,Nick Marshall,22.0
+2014,400548353,Texas A&M,559681,Kyle Allen,28.0
+2014,400548353,UL Monroe,501565,Pete Thomas,47.0
+2014,400548353,UL Monroe,512345,Brayle Brown,1.0
+2014,400548353,UL Monroe,546125,Kenzee Jackson,1.0
+2014,400547757,Duke,501046,Anthony Boone,31.0
+2014,400547757,Pittsburgh,530450,Chad Voytik,24.0
+2014,400547885,West Virginia,501098,Clint Trickett,26.0
+2014,400547885,TCU,517127,Trevone Boykin,30.0
+2014,400547792,Miami,501563,Jake Heaps,2.0
+2014,400547792,Miami,3123048,Brad Kaaya,17.0
+2014,400547792,North Carolina,516347,Marquise Williams,32.0
+2014,400547792,North Carolina,545238,Mitch Trubisky,6.0
+2014,400547736,Virginia Tech,514481,Michael Brewer,48.0
+2014,400547736,Virginia Tech,3154827,- Team,1.0
+2014,400547736,Boston College,503970,Tyler Murphy,15.0
+2014,400548230,Nevada,501241,Cody Fajardo,24.0
+2014,400548230,San Diego State,547570,Quinn Kaehler,36.0
+2014,400547701,Memphis,534849,Paxton Lynch,31.0
+2014,400547701,Tulsa,532273,Dane Evans,54.0
+2014,400548145,Eastern Michigan,501541,Rob Bolden,19.0
+2014,400548145,Central Michigan,531455,Cooper Rush,23.0
+2014,400547923,Michigan,501543,Devin Gardner,29.0
+2014,400547923,Indiana,3128254,Zander Diamont,8.0
+2014,400548351,Missouri,531385,Maty Mauk,33.0
+2014,400548351,Kentucky,530944,Patrick Towles,36.0
+2014,400547883,Oklahoma,534449,Trevor Knight,35.0
+2014,400547883,Oklahoma,550504,Cody Thomas,8.0
+2014,400547883,Iowa State,511969,Sam B. Richardson,40.0
+2014,400547883,Iowa State,531222,Grant Rohach,4.0
+2014,400547883,Iowa State,545386,Holden Kramer,1.0
+2014,400547881,Texas,547338,Tyrone Swoopes,25.0
+2014,400547881,Texas Tech,3139477,Patrick Mahomes,21.0
+2014,400547881,Texas Tech,3139487,Vincent Testaverde,26.0
+2014,400548352,South Carolina,504295,Dylan Thompson,32.0
+2014,400548352,South Carolina,548173,Pharoh Cooper,2.0
+2014,400548352,Tennessee,546540,Joshua Dobbs,40.0
+2014,400547700,Cincinnati,502335,Munchie Legaux,24.0
+2014,400547700,Cincinnati,534259,Gunner Kiel,1.0
+2014,400547700,Cincinnati,552214,Michael Colosimo,1.0
+2014,400547700,Tulane,545757,Tanner Lee,35.0
+2014,400548228,Fresno State,546271,Brian Burrell,13.0
+2014,400548228,Fresno State,550587,Zack Greenlee,16.0
+2014,400548228,Wyoming,520520,Colby Kirkegaard,28.0
+2014,400548231,New Mexico,551028,Lamar Jordan,7.0
+2014,400548231,UNLV,3125318,Blake Decker,44.0
+2014,400548296,Utah,531051,Travis Wilson,22.0
+2014,400548296,Arizona State,504700,Taylor Kelly,32.0
+2014,400548296,Arizona State,517393,Mike Bercovici,1.0
+2014,400547998,Wisconsin,514230,Joel Stave,16.0
+2014,400547998,Wisconsin,515835,Tanner McEvoy,4.0
+2014,400547998,Rutgers,518344,Gary Nova,15.0
+2014,400547998,Rutgers,547549,Chris Laviano,12.0
+2014,400548061,Rice,514894,Driphus Jackson,24.0
+2014,400548061,Rice,536503,Tyler Stehling,1.0
+2014,400548061,Florida International,536571,E.J. Hilliard,4.0
+2014,400548061,Florida International,3128843,Alex McGough,19.0
+2014,400547702,UCF,551184,Justin Holman,42.0
+2014,400547702,UConn,533264,Chandler Whitmer,25.0
+2014,400547702,UConn,546675,Tim Boyle,3.0
+2014,400547806,Syracuse,3116756,AJ Long,42.0
+2014,400547806,NC State,512191,Jacoby Brissett,32.0
+2014,400547806,NC State,3116742,Bo Hines,1.0
+2014,400548438,Louisiana,503922,Terrance Broadway,28.0
+2014,400548438,South Alabama,507211,Brandon Bridge,27.0
+2014,400548438,South Alabama,514749,Matt Floyd,8.0
+2014,400548350,Arkansas,515915,Brandon Allen,43.0
+2014,400548350,Arkansas,547205,Damon Mitchell,1.0
+2014,400548350,Mississippi State,512030,Dak Prescott,27.0
+2014,400548299,Oregon,511459,Marcus Mariota,30.0
+2014,400548299,Oregon,530875,Jeff Lockie,1.0
+2014,400548299,Stanford,516354,Evan Crower,4.0
+2014,400548299,Stanford,516357,Kevin Hogan,29.0
+2014,400548229,Hawai'i,532976,Ikaika Woolsey,46.0
+2014,400548229,Utah State,550724,Ronald Butler,1.0
+2014,400548229,Utah State,3125353,Kent Myers,15.0
+2014,400548065,Vanderbilt,546184,Johnny McCrary,29.0
+2014,400548065,Old Dominion,513949,Taylor Heinicke,36.0
+2014,400548435,Georgia State,513425,Ronnie Bell,2.0
+2014,400548435,Georgia State,3124848,Nick Arbuckle,17.0
+2014,400548435,App State,512882,Kameron Bryant,1.0
+2014,400548435,App State,548447,Taylor Lamb,13.0
+2014,400548227,San José State,512675,Joe Gray,51.0
+2014,400548227,Colorado State,515528,Garrett Grayson,28.0
+2014,400547912,Ohio State,534294,Cardale Jones,9.0
+2014,400547912,Ohio State,545624,J.T. Barrett,24.0
+2014,400547912,Ohio State,549819,Jalin Marshall,1.0
+2014,400547912,Illinois,515454,Reilly O'Toole,11.0
+2014,400547912,Illinois,546062,Aaron Bailey,16.0
+2014,400548069,UAB,3129249,Cody Clements,36.0
+2014,400548069,UAB,514147,Hunter Mullins,1.0
+2014,400548069,Louisiana Tech,530696,Cody Sokol,33.0
+2014,400547706,Houston,545552,Greg Ward Jr.,45.0
+2014,400547706,Tulane,545757,Tanner Lee,35.0
+2014,400547708,SMU,532113,Matt Davis,32.0
+2014,400547708,Tulsa,532273,Dane Evans,24.0
+2014,400547705,UConn,533264,Chandler Whitmer,31.0
+2014,400547705,UConn,546675,Tim Boyle,6.0
+2014,400547705,Army,515360,Angel Santiago,3.0
+2014,400550749,Memphis,534849,Paxton Lynch,28.0
+2014,400550749,Temple,549759,P.J. Walker,37.0
+2014,400548444,New Mexico State,3124981,Tyler Rogers,34.0
+2014,400548444,Louisiana,503922,Terrance Broadway,23.0
+2014,400548236,Idaho,531172,Chad Chalich,22.0
+2014,400548236,Idaho,553235,Matt Linehan,11.0
+2014,400548236,San Diego State,547570,Quinn Kaehler,22.0
+2014,400548343,Georgia,504004,Hutson Mason,16.0
+2014,400548343,Georgia,546345,Brice Ramsey,5.0
+2014,400548343,Kentucky,530944,Patrick Towles,31.0
+2014,400548347,Florida,3121647,Treon Harris,21.0
+2014,400548347,Florida,511889,Jeff Driskel,1.0
+2014,400548347,Vanderbilt,546184,Johnny McCrary,35.0
+2014,400548347,Vanderbilt,532000,Patton Robinette,10.0
+2014,400547886,Kansas State,550158,Jake Waters,37.0
+2014,400547886,Kansas State,517248,Joe Hubener,3.0
+2014,400547886,TCU,517127,Trevone Boykin,34.0
+2014,400547888,Baylor,480746,Bryce Petty,42.0
+2014,400547888,Baylor,535511,Seth Russell,1.0
+2014,400547888,Oklahoma,534449,Trevor Knight,27.0
+2014,400547888,Oklahoma,550504,Cody Thomas,2.0
+2014,400547887,Iowa State,531222,Grant Rohach,50.0
+2014,400547887,Kansas,535521,Michael Cummings,40.0
+2014,400547887,Kansas,545417,Montell Cozart,3.0
+2014,400547889,West Virginia,501098,Clint Trickett,49.0
+2014,400547889,Texas,547338,Tyrone Swoopes,29.0
+2014,400548072,UTEP,500571,Jameill Showers,22.0
+2014,400548072,Western Kentucky,504866,Brandon Doughty,34.0
+2014,400548071,Rice,514894,Driphus Jackson,28.0
+2014,400548071,UTSA,545729,Austin Robinson,16.0
+2014,400548071,UTSA,535979,Tucker Carter,16.0
+2014,400548304,Oregon,511459,Marcus Mariota,29.0
+2014,400548304,Utah,531051,Travis Wilson,28.0
+2014,400548304,Utah,514737,Kendal Thompson,5.0
+2014,400548303,Washington,535325,Cyler Miles,24.0
+2014,400548303,UCLA,511982,Brett Hundley,36.0
+2014,400548305,Oregon State,504786,Sean Mannion,41.0
+2014,400548305,Washington State,550629,Luke Falk,61.0
+2014,400548346,Auburn,550021,Nick Marshall,21.0
+2014,400548346,Texas A&M,559681,Kyle Allen,29.0
+2014,400548342,LSU,546033,Anthony Jennings,26.0
+2014,400548342,Alabama,504052,Blake Sims,45.0
+2014,400548149,Ohio,511552,Derrius Vick,18.0
+2014,400548149,Ohio,532433,JD Sprague,1.0
+2014,400548149,Buffalo,513614,Joe Licata,20.0
+2014,400548149,Buffalo,513615,Tony Daniel,5.0
+2014,400548148,Kent State,531864,Colin Reardon,23.0
+2014,400548148,Kent State,550246,Nathan Strock,18.0
+2014,400548148,Toledo,545910,Logan Woodside,25.0
+2014,400548148,Toledo,552746,Michael Julian,7.0
+2014,400548147,Akron,514617,Kyle Pohl,62.0
+2014,400548147,Bowling Green,531801,James Knapke,34.0
+2014,400548302,Arizona State,504700,Taylor Kelly,28.0
+2014,400548302,Notre Dame,515409,Everett Golson,41.0
+2014,400548301,Arizona,552097,Anu Solomon,38.0
+2014,400548301,Colorado,550278,Sefo Liufau,33.0
+2014,400548301,Colorado,511433,Nelson Spruce,1.0
+2014,400548301,Colorado,550268,Jordan Gehrke,5.0
+2014,400548068,Florida Atlantic,550876,Jaquez Johnson,25.0
+2014,400548068,Florida Atlantic,550873,Greg Hankerson,6.0
+2014,400548068,North Texas,515147,Andrew McNulty,16.0
+2014,400548068,North Texas,537383,Blake Macek,1.0
+2014,400548067,Florida International,3128843,Alex McGough,13.0
+2014,400548067,Old Dominion,513949,Taylor Heinicke,35.0
+2014,400548344,Ole Miss,500990,Bo Wallace,15.0
+2014,400548344,Ole Miss,550123,Devante Kincade,8.0
+2014,400548344,Ole Miss,550114,Ryan Buchanan,7.0
+2014,400548344,Presbyterian,547381,Heys McMath,17.0
+2014,400548344,Presbyterian,514079,Kaleb Griffin,3.0
+2014,400548345,Mississippi State,512030,Dak Prescott,23.0
+2014,400548345,Mississippi State,546603,Damian Williams,3.0
+2014,400548345,Mississippi State,531334,Devon Bell,1.0
+2014,400548345,UT Martin,516783,Jarod Neal,27.0
+2014,400548345,UT Martin,504238,Dylan Favre,16.0
+2014,400548150,Ball State,546005,Jack Milas,39.0
+2014,400548150,Northern Illinois,532480,Drew Hare,27.0
+2014,400548150,Northern Illinois,532644,Anthony Maddie,4.0
+2014,400548070,Marshall,518267,Rakeem Cato,19.0
+2014,400548070,Southern Miss,532089,Cole Weeks,19.0
+2014,400548070,Southern Miss,552862,Parker Adamson,1.0
+2014,400547958,Ohio State,545624,J.T. Barrett,26.0
+2014,400547958,Michigan State,512705,Connor Cook,45.0
+2014,400547950,Michigan,501543,Devin Gardner,24.0
+2014,400547950,Northwestern,500419,Trevor Siemian,49.0
+2014,400547924,Penn State,552329,Christian Hackenberg,29.0
+2014,400547924,Indiana,3128254,Zander Diamont,27.0
+2014,400547992,Wisconsin,514230,Joel Stave,29.0
+2014,400547992,Wisconsin,515835,Tanner McEvoy,1.0
+2014,400547992,Purdue,534770,Austin Appleby,37.0
+2014,400547933,Minnesota,530731,Mitch Leidner,13.0
+2014,400547933,Minnesota,545472,Conor Rhoda,1.0
+2014,400547933,Iowa,518380,Jake Rudock,19.0
+2014,400547933,Iowa,535844,C.J. Beathard,7.0
+2014,400548441,Arkansas State,538156,Fredi Knighten,32.0
+2014,400548441,Arkansas State,515874,Stephen Hogan,1.0
+2014,400548441,South Alabama,514749,Matt Floyd,20.0
+2014,400548441,South Alabama,3125255,Hunter Vaughn,5.0
+2014,400548440,UL Monroe,501565,Pete Thomas,41.0
+2014,400548440,App State,548447,Taylor Lamb,35.0
+2014,400548442,Troy,546145,Brandon Silvers,21.0
+2014,400548442,Troy,517960,Dallas Tidwell,1.0
+2014,400548442,Georgia State,3124848,Nick Arbuckle,37.0
+2014,400548443,Texas State,548240,Tyler Jones,51.0
+2014,400548443,Georgia Southern,532925,Kevin Ellison,9.0
+2014,400547769,Florida State,530308,Jameis Winston,35.0
+2014,400547769,Virginia,530521,Greyson Lambert,35.0
+2014,400547737,Boston College,503970,Tyler Murphy,15.0
+2014,400547737,Boston College,3122790,Darius Wade,5.0
+2014,400547737,Louisville,530357,Will Gardner,19.0
+2014,400547737,Louisville,3116642,Reggie Bonnafon,5.0
+2014,400547747,Clemson,512052,Cole Stoudt,42.0
+2014,400547747,Wake Forest,3124092,John Wolford,29.0
+2014,400547747,Wake Forest,530347,Jared Crump,1.0
+2014,400547778,NC State,512191,Jacoby Brissett,35.0
+2014,400547778,Georgia Tech,531104,Justin Thomas,6.0
+2014,400547778,Georgia Tech,512366,Tim Byerly,2.0
+2014,400547758,Duke,501046,Anthony Boone,33.0
+2014,400547758,Syracuse,545284,Austin Wilson,19.0
+2014,400547758,Syracuse,545275,Mitch Kimble,13.0
+2014,400548237,Utah State,3125353,Kent Myers,16.0
+2014,400548237,Utah State,550724,Ronald Butler,1.0
+2014,400548237,Wyoming,520520,Colby Kirkegaard,40.0
+2014,400548233,Boise State,504908,Grant Hedrick,32.0
+2014,400548233,New Mexico,551028,Lamar Jordan,16.0
+2014,400548234,Colorado State,515528,Garrett Grayson,24.0
+2014,400548234,Colorado State,546267,Nick Stevens,4.0
+2014,400548234,Hawai'i,532976,Ikaika Woolsey,47.0
+2014,400548234,Hawai'i,504955,Joey Iosefa,1.0
+2014,400548234,Hawai'i,516282,Quinton Pedroza,1.0
+2014,400548232,Air Force,535972,Kale Pearson,6.0
+2014,400548232,Air Force,538425,Colton Huntsman,1.0
+2014,400548232,UNLV,3125318,Blake Decker,32.0
+2014,400548232,UNLV,534198,Troy Hawthorne,1.0
+2014,400548232,UNLV,552513,Jared Lebowitz,12.0
+2014,400548235,Fresno State,546271,Brian Burrell,26.0
+2014,400548235,San José State,512675,Joe Gray,44.0
+2014,400548446,Navy,530568,Keenan Reynolds,8.0
+2014,400548446,Georgia Southern,532925,Kevin Ellison,12.0
+2014,400548446,Georgia Southern,549301,Favian Upshaw,4.0
+2014,400548153,Massachusetts,518271,Blake Frohnapfel,44.0
+2014,400548153,Ball State,546005,Jack Milas,37.0
+2014,400548153,Ball State,3125731,Corey Lacanaria,1.0
+2014,400547709,UCF,551184,Justin Holman,27.0
+2014,400547709,UCF,531755,Nick Patti,2.0
+2014,400547709,Tulsa,532273,Dane Evans,28.0
+2014,400547709,Tulsa,514152,Joseph Calcagni,1.0
+2014,400547710,Cincinnati,534259,Gunner Kiel,44.0
+2014,400547710,East Carolina,500938,Shane Carden,61.0
+2014,400547712,SMU,532113,Matt Davis,31.0
+2014,400547712,South Florida,549804,Mike White,16.0
+2014,400547712,South Florida,3139591,Quinton Flowers,15.0
+2014,400547711,Memphis,534849,Paxton Lynch,25.0
+2014,400547711,Tulane,545757,Tanner Lee,48.0
+2014,400547713,Temple,549759,P.J. Walker,38.0
+2014,400547713,Penn State,552329,Christian Hackenberg,26.0
+2014,400548447,Idaho,553235,Matt Linehan,36.0
+2014,400548447,Troy,546145,Brandon Silvers,25.0
+2014,400548447,Troy,546150,Kinderick Dent,1.0
+2014,400548337,Georgia,504004,Hutson Mason,19.0
+2014,400548337,Auburn,550021,Nick Marshall,23.0
+2014,400548337,Auburn,550019,Jeremy Johnson,5.0
+2014,400548339,Florida,3121647,Treon Harris,11.0
+2014,400548339,South Carolina,504295,Dylan Thompson,41.0
+2014,400548339,South Carolina,548173,Pharoh Cooper,1.0
+2014,400548340,Tennessee,546540,Joshua Dobbs,27.0
+2014,400548340,Tennessee,532065,Nathan Peterman,1.0
+2014,400548340,Kentucky,530944,Patrick Towles,25.0
+2014,400548340,Kentucky,546354,Reese Phillips,4.0
+2014,400547891,Oklahoma State,514105,Daxx Garman,29.0
+2014,400547891,Texas,547338,Tyrone Swoopes,33.0
+2014,400547890,Texas Tech,3139477,Patrick Mahomes,50.0
+2014,400547890,Oklahoma,550504,Cody Thomas,20.0
+2014,400547892,Kansas,535521,Michael Cummings,37.0
+2014,400547892,Kansas,530978,T.J. Millweard,1.0
+2014,400547892,TCU,517127,Trevone Boykin,36.0
+2014,400548075,UTEP,500571,Jameill Showers,11.0
+2014,400548075,North Texas,515147,Andrew McNulty,28.0
+2014,400548074,Rice,514894,Driphus Jackson,23.0
+2014,400548074,Marshall,518267,Rakeem Cato,37.0
+2014,400548309,Stanford,516357,Kevin Hogan,27.0
+2014,400548309,Utah,531051,Travis Wilson,28.0
+2014,400548307,Washington,535325,Cyler Miles,29.0
+2014,400548307,Washington,513050,Marvin Hall,1.0
+2014,400548307,Arizona,552097,Anu Solomon,39.0
+2014,400548306,California,547401,Jared Goff,46.0
+2014,400548306,California,535271,Cole Leininger,1.0
+2014,400548306,USC,513329,Cody Kessler,42.0
+2014,400548308,Oregon State,504786,Sean Mannion,33.0
+2014,400548308,Arizona State,504700,Taylor Kelly,44.0
+2014,400548242,BYU,381494,Christian Stewart,32.0
+2014,400548242,UNLV,552513,Jared Lebowitz,20.0
+2014,400548242,UNLV,3125318,Blake Decker,25.0
+2014,400548336,LSU,546033,Anthony Jennings,22.0
+2014,400548336,Arkansas,515915,Brandon Allen,27.0
+2014,400548156,Miami (OH),500913,Andrew Hendrix,41.0
+2014,400548156,Central Michigan,531455,Cooper Rush,23.0
+2014,400548154,Kent State,531864,Colin Reardon,37.0
+2014,400548154,Kent State,550246,Nathan Strock,10.0
+2014,400548154,Bowling Green,531801,James Knapke,36.0
+2014,400548151,Akron,514617,Kyle Pohl,29.0
+2014,400548151,Akron,550357,Thomas Woodson,6.0
+2014,400548151,Buffalo,513614,Joe Licata,21.0
+2014,400548151,Buffalo,531953,Jordan Johnson,1.0
+2014,400548151,Buffalo,513615,Tony Daniel,1.0
+2014,400548152,Toledo,504635,Dwight Macon,11.0
+2014,400548152,Toledo,552746,Michael Julian,7.0
+2014,400548152,Toledo,545910,Logan Woodside,5.0
+2014,400548152,Northern Illinois,532480,Drew Hare,22.0
+2014,400548073,Middle Tennessee,531589,Austin Grammer,33.0
+2014,400548073,Florida International,3128843,Alex McGough,24.0
+2014,400548076,UTSA,545729,Austin Robinson,44.0
+2014,400548076,Southern Miss,552880,Nick Mullens,34.0
+2014,400548077,Western Kentucky,504866,Brandon Doughty,25.0
+2014,400548077,Army,515360,Angel Santiago,6.0
+2014,400548338,Alabama,504052,Blake Sims,31.0
+2014,400548338,Mississippi State,512030,Dak Prescott,48.0
+2014,400548155,Western Michigan,532645,Zach Terrell,19.0
+2014,400548155,Western Michigan,545935,Cameron Thomas,1.0
+2014,400548155,Eastern Michigan,3125823,Reginald Bell,22.0
+2014,400548341,Missouri,531385,Maty Mauk,40.0
+2014,400548341,Texas A&M,559681,Kyle Allen,35.0
+2014,400548341,Texas A&M,532122,Tra Carson,1.0
+2014,400547965,Ohio State,545624,J.T. Barrett,25.0
+2014,400547965,Minnesota,530731,Mitch Leidner,19.0
+2014,400547940,Michigan State,512705,Connor Cook,31.0
+2014,400547940,Maryland,480846,C.J. Brown,43.0
+2014,400547925,Rutgers,518344,Gary Nova,27.0
+2014,400547925,Indiana,3128254,Zander Diamont,31.0
+2014,400547974,Wisconsin,514230,Joel Stave,11.0
+2014,400547974,Nebraska,533270,Tommy Armstrong Jr.,18.0
+2014,400547913,Iowa,518380,Jake Rudock,21.0
+2014,400547913,Iowa,535844,C.J. Beathard,3.0
+2014,400547913,Illinois,534652,Wes Lunt,25.0
+2014,400547913,Illinois,515454,Reilly O'Toole,6.0
+2014,400547980,Northwestern,500419,Trevor Siemian,48.0
+2014,400547980,Notre Dame,515409,Everett Golson,40.0
+2014,400548445,Arkansas State,538156,Fredi Knighten,28.0
+2014,400548445,Arkansas State,545944,Brandon Cox,1.0
+2014,400548445,App State,548447,Taylor Lamb,22.0
+2014,400548448,Louisiana,503922,Terrance Broadway,13.0
+2014,400548448,Louisiana,531430,Jalen Nixon,1.0
+2014,400548448,UL Monroe,501565,Pete Thomas,54.0
+2014,400548448,UL Monroe,512345,Brayle Brown,1.0
+2014,400548449,South Alabama,3125255,Hunter Vaughn,28.0
+2014,400548449,South Alabama,512248,Jake Howton,1.0
+2014,400548449,Texas State,548240,Tyler Jones,43.0
+2014,400547770,Florida State,530308,Jameis Winston,42.0
+2014,400547770,Miami,3123048,Brad Kaaya,34.0
+2014,400547748,Clemson,3122840,Deshaun Watson,6.0
+2014,400547748,Clemson,512052,Cole Stoudt,11.0
+2014,400547748,Clemson,537012,Nick Schuessler,4.0
+2014,400547748,Georgia Tech,531104,Justin Thomas,11.0
+2014,400547807,NC State,512191,Jacoby Brissett,19.0
+2014,400547807,Wake Forest,3124092,John Wolford,32.0
+2014,400547759,Virginia Tech,514481,Michael Brewer,23.0
+2014,400547759,Virginia Tech,535627,A.J. Hughes,1.0
+2014,400547759,Duke,501046,Anthony Boone,40.0
+2014,400547759,Duke,530478,Thomas Sirk,1.0
+2014,400547800,North Carolina,516347,Marquise Williams,40.0
+2014,400547800,Pittsburgh,530450,Chad Voytik,16.0
+2014,400548241,Utah State,3125353,Kent Myers,21.0
+2014,400548241,New Mexico,551028,Lamar Jordan,18.0
+2014,400548239,Boise State,504908,Grant Hedrick,28.0
+2014,400548239,San Diego State,547570,Quinn Kaehler,29.0
+2014,400548239,San Diego State,534185,Lloyd Mills,1.0
+2014,400548238,Air Force,535972,Kale Pearson,15.0
+2014,400548238,Nevada,501241,Cody Fajardo,36.0
+2014,400548240,San José State,512675,Joe Gray,45.0
+2014,400548240,Hawai'i,532976,Ikaika Woolsey,16.0
+2014,400548082,UAB,3129249,Cody Clements,26.0
+2014,400548082,Marshall,518267,Rakeem Cato,38.0
+2014,400548158,Massachusetts,545642,Austin Whipple,20.0
+2014,400548158,Massachusetts,537087,Bernard Davis,1.0
+2014,400548158,Akron,514617,Kyle Pohl,39.0
+2014,400547714,UCF,551184,Justin Holman,22.0
+2014,400547714,UCF,531755,Nick Patti,4.0
+2014,400547714,SMU,532113,Matt Davis,15.0
+2014,400547714,SMU,519812,Garrett Krstich,7.0
+2014,400547715,Cincinnati,534259,Gunner Kiel,30.0
+2014,400547715,Cincinnati,502335,Munchie Legaux,4.0
+2014,400547715,Cincinnati,552214,Michael Colosimo,2.0
+2014,400547715,UConn,546675,Tim Boyle,21.0
+2014,400547715,UConn,533264,Chandler Whitmer,5.0
+2014,400547715,UConn,512100,Deshon Foxx,1.0
+2014,400547717,Houston,545552,Greg Ward Jr.,21.0
+2014,400547717,Tulsa,532273,Dane Evans,40.0
+2014,400547718,South Florida,549804,Mike White,35.0
+2014,400547718,South Florida,539215,Steven Bench,11.0
+2014,400547718,Memphis,534849,Paxton Lynch,23.0
+2014,400547716,East Carolina,500938,Shane Carden,44.0
+2014,400547716,Tulane,545757,Tanner Lee,43.0
+2014,400548452,New Mexico State,3124981,Tyler Rogers,32.0
+2014,400548452,UL Monroe,501565,Pete Thomas,50.0
+2014,400548331,Georgia,504004,Hutson Mason,12.0
+2014,400548331,Georgia,546345,Brice Ramsey,12.0
+2014,400548331,Georgia,530931,Faton Bauta,2.0
+2014,400548331,Charleston Southern,518239,Austin Brown,10.0
+2014,400548331,Charleston Southern,534708,Daniel Croghan III,7.0
+2014,400548330,Florida,511889,Jeff Driskel,11.0
+2014,400548330,Florida,3121647,Treon Harris,12.0
+2014,400548330,Eastern Kentucky,535722,Bennie Coney,19.0
+2014,400548330,Eastern Kentucky,519443,Jared McClain,3.0
+2014,400548330,Eastern Kentucky,554825,Barton Mann,6.0
+2014,400548330,Eastern Kentucky,532892,Jeff Glover,1.0
+2014,400548334,Tennessee,546540,Joshua Dobbs,37.0
+2014,400548334,Tennessee,532066,Patrick Ashford,1.0
+2014,400548334,Missouri,531385,Maty Mauk,25.0
+2014,400548333,South Carolina,504295,Dylan Thompson,17.0
+2014,400548333,South Carolina,548173,Pharoh Cooper,1.0
+2014,400548333,South Carolina,548142,Connor Mitch,2.0
+2014,400548333,South Alabama,3125255,Hunter Vaughn,23.0
+2014,400548333,South Alabama,507211,Brandon Bridge,11.0
+2014,400548335,Vanderbilt,546184,Johnny McCrary,31.0
+2014,400548335,Vanderbilt,532000,Patton Robinette,3.0
+2014,400548335,Vanderbilt,517211,Stephen Rivers,2.0
+2014,400548335,Mississippi State,512030,Dak Prescott,21.0
+2014,400548335,Mississippi State,546603,Damian Williams,4.0
+2014,400547896,Oklahoma State,3116407,Mason Rudolph,25.0
+2014,400547896,Baylor,480746,Bryce Petty,29.0
+2014,400547893,Kansas State,550158,Jake Waters,34.0
+2014,400547893,West Virginia,3116460,Skyler Howard,23.0
+2014,400547893,West Virginia,501098,Clint Trickett,25.0
+2014,400547895,Iowa State,511969,Sam B. Richardson,38.0
+2014,400547895,Texas Tech,3139477,Patrick Mahomes,35.0
+2014,400547894,Kansas,535521,Michael Cummings,22.0
+2014,400547894,Kansas,530978,T.J. Millweard,1.0
+2014,400547894,Oklahoma,550504,Cody Thomas,13.0
+2014,400548078,UTEP,500571,Jameill Showers,30.0
+2014,400548078,Rice,514894,Driphus Jackson,22.0
+2014,400548313,Oregon,511459,Marcus Mariota,32.0
+2014,400548313,Oregon,530875,Jeff Lockie,4.0
+2014,400548313,Colorado,550268,Jordan Gehrke,18.0
+2014,400548313,Colorado,550278,Sefo Liufau,14.0
+2014,400548315,Stanford,516357,Kevin Hogan,20.0
+2014,400548315,Stanford,516354,Evan Crower,1.0
+2014,400548315,California,547401,Jared Goff,31.0
+2014,400548315,California,3127202,Luke Rubenzer,9.0
+2014,400548314,Washington,535325,Cyler Miles,23.0
+2014,400548314,Washington,499791,Deontae Cooper,1.0
+2014,400548314,Oregon State,504786,Sean Mannion,46.0
+2014,400548311,Washington State,550629,Luke Falk,74.0
+2014,400548311,Arizona State,504700,Taylor Kelly,25.0
+2014,400548312,USC,513329,Cody Kessler,34.0
+2014,400548312,UCLA,511982,Brett Hundley,31.0
+2014,400548463,BYU,381494,Christian Stewart,18.0
+2014,400548463,BYU,530619,McCoy Hill,2.0
+2014,400548463,Savannah State,534967,Leon Prunty,25.0
+2014,400548463,Savannah State,3131247,Michael Knox,3.0
+2014,400548329,Auburn,550021,Nick Marshall,18.0
+2014,400548329,Auburn,550019,Jeremy Johnson,4.0
+2014,400548329,Samford,517400,Michael Eubank,29.0
+2014,400548157,Ohio,511552,Derrius Vick,28.0
+2014,400548157,Northern Illinois,532480,Drew Hare,23.0
+2014,400548157,Northern Illinois,532644,Anthony Maddie,1.0
+2014,400548159,Toledo,545910,Logan Woodside,18.0
+2014,400548159,Toledo,504635,Dwight Macon,2.0
+2014,400548159,Bowling Green,3125748,Cody Callaway,13.0
+2014,400548159,Bowling Green,531801,James Knapke,24.0
+2014,400548310,Utah,531051,Travis Wilson,29.0
+2014,400548310,Utah,550226,Conner Manning,6.0
+2014,400548310,Arizona,552097,Anu Solomon,17.0
+2014,400548310,Arizona,500237,Jesse Scroggins III,5.0
+2014,400548080,Middle Tennessee,531589,Austin Grammer,27.0
+2014,400548080,Florida Atlantic,550876,Jaquez Johnson,33.0
+2014,400548080,Florida Atlantic,550873,Greg Hankerson,1.0
+2014,400548080,Florida Atlantic,537395,Dalton Schomp,1.0
+2014,400548079,Florida International,3128843,Alex McGough,25.0
+2014,400548079,North Texas,515147,Andrew McNulty,20.0
+2014,400548083,UTSA,545729,Austin Robinson,20.0
+2014,400548083,UTSA,3124037,Dalton Sturm,3.0
+2014,400548083,Western Kentucky,504866,Brandon Doughty,35.0
+2014,400548081,Louisiana Tech,530696,Cody Sokol,31.0
+2014,400548081,Old Dominion,513949,Taylor Heinicke,40.0
+2014,400548328,Alabama,504052,Blake Sims,25.0
+2014,400548328,Alabama,514124,Jake Coker,18.0
+2014,400548328,Western Carolina,533122,Troy Mitchell,39.0
+2014,400548332,Ole Miss,500990,Bo Wallace,31.0
+2014,400548332,Ole Miss,550123,Devante Kincade,1.0
+2014,400548332,Ole Miss,550114,Ryan Buchanan,6.0
+2014,400548332,Arkansas,515915,Brandon Allen,10.0
+2014,400548332,Arkansas,547206,Austin Allen,5.0
+2014,400548332,Arkansas,535893,Jonathan Williams,1.0
+2014,400548162,Western Michigan,532645,Zach Terrell,20.0
+2014,400548162,Western Michigan,532661,Daniel Braverman,1.0
+2014,400548162,Central Michigan,531455,Cooper Rush,44.0
+2014,400548161,Ball State,531552,Ozzie Mann,7.0
+2014,400548161,Ball State,546005,Jack Milas,17.0
+2014,400548161,Eastern Michigan,3125823,Reginald Bell,49.0
+2014,400547926,Ohio State,545624,J.T. Barrett,35.0
+2014,400547926,Indiana,3128254,Zander Diamont,27.0
+2014,400547999,Michigan State,512705,Connor Cook,24.0
+2014,400547999,Michigan State,535578,Tyler O'Connor,1.0
+2014,400547999,Michigan State,550477,Damion Terry,1.0
+2014,400547999,Rutgers,518344,Gary Nova,26.0
+2014,400547999,Rutgers,547549,Chris Laviano,5.0
+2014,400547941,Maryland,480846,C.J. Brown,24.0
+2014,400547941,Michigan,501543,Devin Gardner,24.0
+2014,400547914,Penn State,552329,Christian Hackenberg,16.0
+2014,400547914,Illinois,515454,Reilly O'Toole,25.0
+2014,400547914,Illinois,534652,Wes Lunt,17.0
+2014,400547934,Wisconsin,514230,Joel Stave,14.0
+2014,400547934,Iowa,518380,Jake Rudock,30.0
+2014,400547966,Minnesota,530731,Mitch Leidner,17.0
+2014,400547966,Nebraska,533270,Tommy Armstrong Jr.,19.0
+2014,400547981,Northwestern,500419,Trevor Siemian,12.0
+2014,400547981,Northwestern,518323,Zack Oliver,11.0
+2014,400547981,Northwestern,546734,Matt Alviti,1.0
+2014,400547981,Purdue,534770,Austin Appleby,48.0
+2014,400548460,Army,515360,Angel Santiago,4.0
+2014,400548460,Fordham,512108,Mike Nebrich,38.0
+2014,400548460,Fordham,553311,Joe Pavlik,1.0
+2014,400547784,Notre Dame,515409,Everett Golson,24.0
+2014,400547784,Louisville,3116642,Reggie Bonnafon,21.0
+2014,400550421,Arkansas State,538156,Fredi Knighten,57.0
+2014,400550421,Texas State,548240,Tyler Jones,22.0
+2014,400548450,Louisiana,503922,Terrance Broadway,33.0
+2014,400548450,App State,548447,Taylor Lamb,22.0
+2014,400547749,Georgia State,3124848,Nick Arbuckle,29.0
+2014,400547749,Georgia State,513425,Ronnie Bell,4.0
+2014,400547749,Clemson,512052,Cole Stoudt,29.0
+2014,400547749,Clemson,537012,Nick Schuessler,2.0
+2014,400547749,Clemson,505313,David Olson,2.0
+2014,400547738,Florida State,530308,Jameis Winston,32.0
+2014,400547738,Boston College,503970,Tyler Murphy,10.0
+2014,400547738,Boston College,501647,Josh Bordner,1.0
+2014,400547828,Wake Forest,3124092,John Wolford,32.0
+2014,400547828,Virginia Tech,514481,Michael Brewer,28.0
+2014,400547828,Virginia Tech,530541,Brenden Motley,1.0
+2014,400547793,Miami,3123048,Brad Kaaya,33.0
+2014,400547793,Virginia,530521,Greyson Lambert,25.0
+2014,400547760,North Carolina,516347,Marquise Williams,27.0
+2014,400547760,Duke,501046,Anthony Boone,40.0
+2014,400547814,Syracuse,3116756,AJ Long,19.0
+2014,400547814,Syracuse,545275,Mitch Kimble,6.0
+2014,400547814,Pittsburgh,530450,Chad Voytik,20.0
+2014,400548248,Utah State,3125353,Kent Myers,22.0
+2014,400548248,Utah State,550724,Ronald Butler,1.0
+2014,400548248,San José State,3125299,Mitch Ravizza,21.0
+2014,400548244,Boise State,504908,Grant Hedrick,19.0
+2014,400548244,Wyoming,520520,Colby Kirkegaard,14.0
+2014,400548244,Wyoming,546512,Tom Thornton,10.0
+2014,400548244,Wyoming,503091,Sam Stratton,5.0
+2014,400548245,Colorado State,515528,Garrett Grayson,29.0
+2014,400548245,Colorado State,546267,Nick Stevens,7.0
+2014,400548245,New Mexico,551028,Lamar Jordan,11.0
+2014,400548243,Air Force,535972,Kale Pearson,22.0
+2014,400548243,Air Force,554528,Nate Romine,4.0
+2014,400548243,Air Force,538425,Colton Huntsman,1.0
+2014,400548243,San Diego State,547570,Quinn Kaehler,30.0
+2014,400548243,San Diego State,547571,Donnel Pumphrey,1.0
+2014,400548246,Fresno State,546271,Brian Burrell,46.0
+2014,400548246,Fresno State,501052,Brandon Connette,1.0
+2014,400548246,Nevada,501241,Cody Fajardo,24.0
+2014,400548247,UNLV,552513,Jared Lebowitz,30.0
+2014,400548247,UNLV,3125318,Blake Decker,13.0
+2014,400548247,UNLV,512664,Logan Yunker,1.0
+2014,400548247,Hawai'i,532976,Ikaika Woolsey,21.0
+2014,400548247,Hawai'i,504955,Joey Iosefa,1.0
+2014,400548453,South Alabama,507211,Brandon Bridge,28.0
+2014,400548453,South Alabama,3125255,Hunter Vaughn,3.0
+2014,400548453,Navy,530568,Keenan Reynolds,4.0
+2014,400548089,Southern Miss,552880,Nick Mullens,42.0
+2014,400548089,UAB,3129249,Cody Clements,21.0
+2014,400548089,UAB,552904,Jordan Howard,1.0
+2014,400548166,Buffalo,513614,Joe Licata,27.0
+2014,400548166,Massachusetts,545642,Austin Whipple,28.0
+2014,400548166,Massachusetts,552639,Todd Stafford,1.0
+2014,400547719,South Florida,549804,Mike White,25.0
+2014,400547719,South Florida,539215,Steven Bench,13.0
+2014,400547719,South Florida,514758,Mike McFarland,1.0
+2014,400547719,UCF,551184,Justin Holman,29.0
+2014,400547722,Temple,549759,P.J. Walker,35.0
+2014,400547722,Cincinnati,534259,Gunner Kiel,31.0
+2014,400547721,SMU,532113,Matt Davis,27.0
+2014,400547721,SMU,545334,Kolney Cassel,1.0
+2014,400547721,Houston,545552,Greg Ward Jr.,28.0
+2014,400547721,Houston,545550,John O'Korn,1.0
+2014,400547723,Memphis,534849,Paxton Lynch,41.0
+2014,400547723,UConn,546675,Tim Boyle,24.0
+2014,400547723,UConn,533264,Chandler Whitmer,1.0
+2014,400547723,UConn,512100,Deshon Foxx,1.0
+2014,400547720,Tulsa,532273,Dane Evans,32.0
+2014,400547720,East Carolina,500938,Shane Carden,41.0
+2014,400548455,Arkansas State,538156,Fredi Knighten,21.0
+2014,400548455,Arkansas State,515874,Stephen Hogan,1.0
+2014,400548455,New Mexico State,3124981,Tyler Rogers,43.0
+2014,400548454,App State,548447,Taylor Lamb,20.0
+2014,400548454,Idaho,553235,Matt Linehan,37.0
+2014,400547779,Georgia Tech,531104,Justin Thomas,16.0
+2014,400547779,Georgia,504004,Hutson Mason,28.0
+2014,400547771,Florida State,530308,Jameis Winston,24.0
+2014,400547771,Florida,3121647,Treon Harris,32.0
+2014,400548326,Vanderbilt,532000,Patton Robinette,22.0
+2014,400548326,Vanderbilt,546184,Johnny McCrary,7.0
+2014,400548326,Vanderbilt,511336,Josh Grady,1.0
+2014,400548326,Tennessee,546540,Joshua Dobbs,20.0
+2014,400547750,Clemson,3122840,Deshaun Watson,19.0
+2014,400547750,Clemson,512052,Cole Stoudt,2.0
+2014,400547750,South Carolina,504295,Dylan Thompson,39.0
+2014,400547750,South Carolina,548173,Pharoh Cooper,2.0
+2014,400547785,Louisville,545559,Kyle Bolin,31.0
+2014,400547785,Louisville,3116642,Reggie Bonnafon,4.0
+2014,400547785,Kentucky,530944,Patrick Towles,29.0
+2014,400547900,Kansas,535521,Michael Cummings,27.0
+2014,400547900,Kansas State,550158,Jake Waters,27.0
+2014,400547900,Kansas State,517248,Joe Hubener,3.0
+2014,400547899,Texas Tech,3139477,Patrick Mahomes,56.0
+2014,400547899,Texas Tech,537478,Taylor Symmank,1.0
+2014,400547899,Baylor,480746,Bryce Petty,25.0
+2014,400547899,Baylor,535511,Seth Russell,17.0
+2014,400547898,West Virginia,3116460,Skyler Howard,40.0
+2014,400547898,Iowa State,511969,Sam B. Richardson,50.0
+2014,400547897,Texas,547338,Tyrone Swoopes,34.0
+2014,400547897,TCU,517127,Trevone Boykin,34.0
+2014,400548087,Middle Tennessee,531589,Austin Grammer,16.0
+2014,400548087,Middle Tennessee,545682,A.J. Erdely,1.0
+2014,400548087,UTEP,500571,Jameill Showers,13.0
+2014,400548086,Louisiana Tech,530696,Cody Sokol,32.0
+2014,400548086,Louisiana Tech,531316,Ryan Higgins,1.0
+2014,400548086,Louisiana Tech,505012,Taylor Burch,2.0
+2014,400548086,Rice,514894,Driphus Jackson,40.0
+2014,400548320,Oregon State,504786,Sean Mannion,39.0
+2014,400548320,Oregon State,546362,Luke Del Rio,7.0
+2014,400548320,Oregon,511459,Marcus Mariota,25.0
+2014,400548317,UCLA,511982,Brett Hundley,32.0
+2014,400548317,UCLA,511987,Jerry Neuheisel,9.0
+2014,400548317,Stanford,516357,Kevin Hogan,19.0
+2014,400548321,Washington State,550629,Luke Falk,49.0
+2014,400548321,Washington,535325,Cyler Miles,39.0
+2014,400548321,Washington,535318,Jeff Lindquist,2.0
+2014,400548322,BYU,381494,Christian Stewart,38.0
+2014,400548322,California,547401,Jared Goff,60.0
+2014,400548318,Notre Dame,550967,Malik Zaire,20.0
+2014,400548318,Notre Dame,515409,Everett Golson,18.0
+2014,400548318,USC,513329,Cody Kessler,40.0
+2014,400548323,Alabama,504052,Blake Sims,27.0
+2014,400548323,Auburn,550021,Nick Marshall,43.0
+2014,400548327,Texas A&M,559681,Kyle Allen,27.0
+2014,400548327,LSU,546033,Anthony Jennings,21.0
+2014,400548164,Ohio,511552,Derrius Vick,18.0
+2014,400548164,Ohio,532433,JD Sprague,8.0
+2014,400548164,Miami (OH),500913,Andrew Hendrix,38.0
+2014,400548163,Akron,514617,Kyle Pohl,42.0
+2014,400548163,Kent State,531864,Colin Reardon,45.0
+2014,400548168,Eastern Michigan,3125823,Reginald Bell,23.0
+2014,400548168,Toledo,545910,Logan Woodside,18.0
+2014,400548168,Toledo,552746,Michael Julian,2.0
+2014,400548319,Colorado,550278,Sefo Liufau,31.0
+2014,400548319,Utah,531051,Travis Wilson,37.0
+2014,400548316,Arizona,552097,Anu Solomon,21.0
+2014,400548316,Arizona State,504700,Taylor Kelly,22.0
+2014,400548316,Arizona State,517393,Mike Bercovici,22.0
+2014,400548085,Old Dominion,513949,Taylor Heinicke,50.0
+2014,400548085,Florida Atlantic,550876,Jaquez Johnson,19.0
+2014,400548088,UTSA,535979,Tucker Carter,29.0
+2014,400548088,North Texas,515147,Andrew McNulty,43.0
+2014,400548084,Marshall,518267,Rakeem Cato,46.0
+2014,400548084,Western Kentucky,504866,Brandon Doughty,50.0
+2014,400548084,Western Kentucky,3124776,Nacarius Fant,1.0
+2014,400548324,Mississippi State,512030,Dak Prescott,37.0
+2014,400548324,Ole Miss,500990,Bo Wallace,30.0
+2014,400548324,Ole Miss,550016,Jordan Wilkins,1.0
+2014,400548325,Missouri,531385,Maty Mauk,42.0
+2014,400548325,Arkansas,515915,Brandon Allen,30.0
+2014,400548167,Northern Illinois,532480,Drew Hare,20.0
+2014,400548167,Western Michigan,532645,Zach Terrell,33.0
+2014,400548165,Bowling Green,531801,James Knapke,27.0
+2014,400548165,Ball State,531552,Ozzie Mann,29.0
+2014,400547951,Michigan,501543,Devin Gardner,32.0
+2014,400547951,Michigan,535147,Drake Johnson,1.0
+2014,400547951,Ohio State,545624,J.T. Barrett,21.0
+2014,400547951,Ohio State,534294,Cardale Jones,3.0
+2014,400547959,Penn State,552329,Christian Hackenberg,45.0
+2014,400547959,Michigan State,512705,Connor Cook,25.0
+2014,400547959,Michigan State,550477,Damion Terry,1.0
+2014,400547942,Rutgers,518344,Gary Nova,42.0
+2014,400547942,Maryland,480846,C.J. Brown,24.0
+2014,400547927,Purdue,534770,Austin Appleby,35.0
+2014,400547927,Indiana,3128254,Zander Diamont,24.0
+2014,400547967,Minnesota,530731,Mitch Leidner,18.0
+2014,400547967,Wisconsin,514230,Joel Stave,18.0
+2014,400547935,Iowa,518380,Jake Rudock,38.0
+2014,400547935,Nebraska,533270,Tommy Armstrong Jr.,27.0
+2014,400547935,Nebraska,533182,Ryker Fyfe,1.0
+2014,400547915,Northwestern,518323,Zack Oliver,38.0
+2014,400547915,Northwestern,533331,Andrew Scanlan,1.0
+2014,400547915,Northwestern,546734,Matt Alviti,3.0
+2014,400547915,Illinois,515454,Reilly O'Toole,28.0
+2014,400548458,Troy,546145,Brandon Silvers,34.0
+2014,400548458,Louisiana,503922,Terrance Broadway,19.0
+2014,400548457,Georgia Southern,532925,Kevin Ellison,19.0
+2014,400548457,UL Monroe,501565,Pete Thomas,45.0
+2014,400548457,UL Monroe,512345,Brayle Brown,3.0
+2014,400548456,Texas State,548240,Tyler Jones,32.0
+2014,400548456,Georgia State,3124848,Nick Arbuckle,46.0
+2014,400548456,Georgia State,513848,Lynquez Blair,1.0
+2014,400547739,Syracuse,3116756,AJ Long,18.0
+2014,400547739,Syracuse,545284,Austin Wilson,2.0
+2014,400547739,Boston College,503970,Tyler Murphy,17.0
+2014,400547801,North Carolina,516347,Marquise Williams,22.0
+2014,400547801,North Carolina,545238,Mitch Trubisky,13.0
+2014,400547801,NC State,512191,Jacoby Brissett,11.0
+2014,400547761,Duke,501046,Anthony Boone,31.0
+2014,400547761,Duke,530478,Thomas Sirk,1.0
+2014,400547761,Wake Forest,3124092,John Wolford,36.0
+2014,400547824,Virginia,530521,Greyson Lambert,32.0
+2014,400547824,Virginia,535548,Matt Johns,6.0
+2014,400547824,Virginia Tech,514481,Michael Brewer,33.0
+2014,400547824,Virginia Tech,530541,Brenden Motley,2.0
+2014,400547794,Pittsburgh,530450,Chad Voytik,12.0
+2014,400547794,Miami,3123048,Brad Kaaya,45.0
+2014,400548250,Boise State,504908,Grant Hedrick,24.0
+2014,400548250,Boise State,546224,Thomas Sperbeck,2.0
+2014,400548250,Boise State,546288,Ryan Finley,2.0
+2014,400548250,Utah State,3125353,Kent Myers,28.0
+2014,400548249,Air Force,554528,Nate Romine,15.0
+2014,400548249,Colorado State,515528,Garrett Grayson,46.0
+2014,400548253,New Mexico,551028,Lamar Jordan,7.0
+2014,400548253,Wyoming,520520,Colby Kirkegaard,44.0
+2014,400548251,Hawai'i,532976,Ikaika Woolsey,39.0
+2014,400548251,Fresno State,546271,Brian Burrell,32.0
+2014,400548254,San José State,512675,Joe Gray,12.0
+2014,400548254,San José State,499830,Blake Jurich,15.0
+2014,400548254,San José State,520582,Chris Kearney,1.0
+2014,400548254,San José State,3125299,Mitch Ravizza,2.0
+2014,400548254,San Diego State,547570,Quinn Kaehler,15.0
+2014,400548254,San Diego State,3125232,Nick Bawden,1.0
+2014,400548252,Nevada,501241,Cody Fajardo,13.0
+2014,400548252,UNLV,3125318,Blake Decker,39.0
+2014,400547724,East Carolina,500938,Shane Carden,48.0
+2014,400547724,UCF,551184,Justin Holman,33.0
+2014,400547725,Houston,545552,Greg Ward Jr.,45.0
+2014,400547725,Cincinnati,534259,Gunner Kiel,24.0
+2014,400547725,Cincinnati,502335,Munchie Legaux,14.0
+2014,400547726,UConn,533264,Chandler Whitmer,3.0
+2014,400547726,UConn,546675,Tim Boyle,11.0
+2014,400547726,SMU,532113,Matt Davis,33.0
+2014,400547727,Tulane,545757,Tanner Lee,33.0
+2014,400547727,Tulane,499807,Nick Montana,7.0
+2014,400547727,Temple,549759,P.J. Walker,38.0
+2014,400547901,Oklahoma,550504,Cody Thomas,17.0
+2014,400547901,Oklahoma State,3116407,Mason Rudolph,35.0
+2014,400547903,Baylor,480746,Bryce Petty,40.0
+2014,400547903,Kansas State,550158,Jake Waters,27.0
+2014,400547902,TCU,517127,Trevone Boykin,41.0
+2014,400547902,TCU,517133,David Porter,1.0
+2014,400547902,TCU,512469,Bram Kohlhausen,3.0
+2014,400547902,Iowa State,511969,Sam B. Richardson,40.0
+2014,400547902,Iowa State,502093,Jarvis West,1.0
+2014,400609076,Arizona,500237,Jesse Scroggins III,11.0
+2014,400609076,Arizona,552097,Anu Solomon,12.0
+2014,400609076,Arizona,517210,Jerrard Randall,3.0
+2014,400609076,Oregon,511459,Marcus Mariota,38.0
+2014,400609076,Oregon,530875,Jeff Lockie,2.0
+2014,400609077,Marshall,518267,Rakeem Cato,46.0
+2014,400609077,Louisiana Tech,530696,Cody Sokol,20.0
+2014,400609098,Missouri,531385,Maty Mauk,34.0
+2014,400609098,Alabama,504052,Blake Sims,27.0
+2014,400609055,Bowling Green,531801,James Knapke,21.0
+2014,400609055,Bowling Green,3125748,Cody Callaway,4.0
+2014,400609055,Northern Illinois,532480,Drew Hare,49.0
+2014,400609096,Wisconsin,514230,Joel Stave,43.0
+2014,400609096,Ohio State,534294,Cardale Jones,17.0
+2014,400609096,Ohio State,549819,Jalin Marshall,1.0
+2014,400608167,Georgia Tech,531104,Justin Thomas,14.0
+2014,400608167,Florida State,530308,Jameis Winston,30.0
+2014,400609154,Fresno State,546271,Brian Burrell,45.0
+2014,400609154,Fresno State,504943,Greg Watson,1.0
+2014,400609154,Boise State,504908,Grant Hedrick,16.0
+2014,400548461,Navy,530568,Keenan Reynolds,8.0
+2014,400548461,Army,535646,A.J. Schurr,3.0
+2014,400548461,Army,535647,Kelvin White,2.0
+2014,400548461,Army,515360,Angel Santiago,2.0

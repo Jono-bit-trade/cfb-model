@@ -1,0 +1,849 @@
+game_id,season,week,season_type,start,start_tbd,completed,neutral,conf_game,venue_id,venue,home,away,home_class,away_class,home_conf,away_conf,home_pts,away_pts
+332412309,2013,1,regular,2013-08-29T22:00:00.000Z,False,True,False,False,3696.0,Dix Stadium,Kent State,Liberty,fbs,fcs,Mid-American,Big South,17,10
+332412579,2013,1,regular,2013-08-29T22:00:00.000Z,False,True,False,False,3994.0,Williams-Brice Stadium,South Carolina,North Carolina,fbs,fbs,SEC,ACC,27,10
+332410154,2013,1,regular,2013-08-29T22:30:00.000Z,False,True,False,False,3630.0,Allegacy Federal Credit Union Stadium,Wake Forest,Presbyterian,fbs,fcs,ACC,Big South,31,7
+332410084,2013,1,regular,2013-08-29T23:00:00.000Z,False,True,False,False,3830.0,"Memorial Stadium (Bloomington, IN)",Indiana,Indiana State,fbs,fcs,Big Ten,MVFC,73,35
+332410135,2013,1,regular,2013-08-29T23:00:00.000Z,False,True,False,False,3953.0,Huntington Bank Stadium,Minnesota,UNLV,fbs,fbs,Big Ten,Mountain West,51,23
+332410189,2013,1,regular,2013-08-29T23:00:00.000Z,False,True,False,False,3700.0,Doyt L. Perry Stadium,Bowling Green,Tulsa,fbs,fbs,Mid-American,Conference USA,34,7
+332412050,2013,1,regular,2013-08-29T23:00:00.000Z,False,True,False,False,3919.0,Scheumann Stadium,Ball State,Illinois State,fbs,fcs,Mid-American,MVFC,51,28
+332412116,2013,1,regular,2013-08-29T23:00:00.000Z,False,True,False,False,3652.0,FBC Mortgage Stadium,UCF,Akron,fbs,fbs,American Athletic,Mid-American,38,7
+332410041,2013,1,regular,2013-08-29T23:30:00.000Z,False,True,False,False,3892.0,Pratt & Whitney Stadium,UConn,Towson,fbs,fcs,American Athletic,CAA,18,33
+332410006,2013,1,regular,2013-08-29T23:30:00.000Z,False,True,True,False,3797.0,Ladd Peebles Stadium,South Alabama,Southern Utah,fbs,fcs,Sun Belt,Big Sky,21,22
+332412393,2013,1,regular,2013-08-29T23:30:00.000Z,False,True,False,False,3725.0,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Western Carolina,fbs,fcs,Conference USA,Southern,45,24
+332412655,2013,1,regular,2013-08-30T00:00:00.000Z,False,True,False,False,3493.0,Caesars Superdome,Tulane,Jackson State,fbs,fcs,Conference USA,SWAC,34,7
+332410254,2013,1,regular,2013-08-30T00:00:00.000Z,False,True,False,False,587.0,Rice-Eccles Stadium,Utah,Utah State,fbs,fbs,Pac-12,Mountain West,30,26
+332410238,2013,1,regular,2013-08-30T01:15:00.000Z,False,True,False,True,3973.0,FirstBank Stadium,Vanderbilt,Ole Miss,fbs,fbs,SEC,SEC,35,39
+332410023,2013,1,regular,2013-08-30T02:00:00.000Z,False,True,False,False,3935.0,CEFCU Stadium,San José State,Sacramento State,fbs,fcs,Mountain West,Big Sky,24,0
+332410278,2013,1,regular,2013-08-30T02:30:00.000Z,False,True,False,False,3660.0,Valley Children's Stadium,Fresno State,Rutgers,fbs,fbs,Mountain West,American Athletic,52,51
+332410062,2013,1,regular,2013-08-30T03:00:00.000Z,False,True,False,False,3610.0,Aloha Stadium,Hawai'i,USC,fbs,fbs,Mountain West,Pac-12,13,30
+332420349,2013,1,regular,2013-08-30T23:00:00.000Z,False,True,False,False,3841.0,Michie Stadium,Army,Morgan State,fbs,fcs,FBS Independents,MEAC,28,12
+332422247,2013,1,regular,2013-08-30T23:00:00.000Z,False,True,True,False,3495.0,Georgia Dome,Georgia State,Samford,fbs,fcs,Sun Belt,Southern,21,31
+332422390,2013,1,regular,2013-08-31T00:00:00.000Z,False,True,False,False,3948.0,Hard Rock Stadium,Miami,Florida Atlantic,fbs,fbs,ACC,Conference USA,34,6
+332422567,2013,1,regular,2013-08-31T00:00:00.000Z,False,True,False,False,3735.0,Gerald J. Ford Stadium,SMU,Texas Tech,fbs,fbs,American Athletic,Big 12,23,41
+332420127,2013,1,regular,2013-08-31T00:00:00.000Z,False,True,False,False,3936.0,Spartan Stadium,Michigan State,Western Michigan,fbs,fbs,Big Ten,Mid-American,26,13
+332422306,2013,1,regular,2013-08-31T00:30:00.000Z,False,True,False,False,3636.0,Bill Snyder Family Stadium,Kansas State,North Dakota State,fbs,fcs,Big 12,MVFC,21,24
+332420248,2013,1,regular,2013-08-31T00:30:00.000Z,False,True,False,False,,,Houston,Southern,fbs,fcs,American Athletic,SWAC,62,13
+332420012,2013,1,regular,2013-08-31T02:00:00.000Z,False,True,False,False,3619.0,Arizona Stadium,Arizona,Northern Arizona,fbs,fcs,Pac-12,Big Sky,35,0
+332430059,2013,1,regular,2013-08-31T16:00:00.000Z,False,True,False,False,721.0,Bobby Dodd Stadium,Georgia Tech,Elon,fbs,fcs,ACC,Southern,70,0
+332430103,2013,1,regular,2013-08-31T16:00:00.000Z,False,True,False,False,3615.0,"Alumni Stadium (Chestnut Hill, MA)",Boston College,Villanova,fbs,fcs,ACC,CAA,24,14
+332430356,2013,1,regular,2013-08-31T16:00:00.000Z,False,True,False,False,3832.0,"Memorial Stadium (Champaign, IL)",Illinois,Southern Illinois,fbs,fcs,Big Ten,MVFC,42,34
+332430194,2013,1,regular,2013-08-31T16:00:00.000Z,False,True,False,False,3861.0,Ohio Stadium,Ohio State,Buffalo,fbs,fbs,Big Ten,Mid-American,40,20
+332430277,2013,1,regular,2013-08-31T16:00:00.000Z,False,True,False,False,3842.0,Milan Puskar Stadium,West Virginia,William & Mary,fbs,fcs,Big 12,CAA,24,17
+332432132,2013,1,regular,2013-08-31T16:00:00.000Z,False,True,False,False,3854.0,Nippert Stadium,Cincinnati,Purdue,fbs,fbs,American Athletic,Big Ten,42,7
+332430275,2013,1,regular,2013-08-31T16:00:00.000Z,False,True,False,False,347.0,Camp Randall Stadium,Wisconsin,Massachusetts,fbs,fbs,Big Ten,Mid-American,45,0
+332430057,2013,1,regular,2013-08-31T16:21:00.000Z,False,True,False,False,3634.0,Ben Hill Griffin Stadium,Florida,Toledo,fbs,fbs,SEC,Mid-American,24,6
+332430152,2013,1,regular,2013-08-31T16:30:00.000Z,False,True,False,False,3670.0,Carter-Finley Stadium,NC State,Louisiana Tech,fbs,fbs,ACC,Conference USA,40,14
+332430120,2013,1,regular,2013-08-31T16:30:00.000Z,False,True,False,False,3665.0,SECU Stadium,Maryland,Florida International,fbs,fbs,ACC,Conference USA,43,10
+332430245,2013,1,regular,2013-08-31T17:00:00.000Z,False,True,False,False,3795.0,Kyle Field,Texas A&M,Rice,fbs,fbs,SEC,Conference USA,52,31
+332432005,2013,1,regular,2013-08-31T19:00:00.000Z,False,True,False,False,3713.0,Falcon Stadium,Air Force,Colgate,fbs,fcs,Mountain West,Patriot,38,13
+332430197,2013,1,regular,2013-08-31T19:30:00.000Z,False,True,True,False,,,Oklahoma State,Mississippi State,fbs,fbs,Big 12,SEC,21,3
+332430087,2013,1,regular,2013-08-31T19:30:00.000Z,False,True,False,False,3855.0,Notre Dame Stadium,Notre Dame,Temple,fbs,fbs,FBS Independents,American Athletic,28,6
+332430213,2013,1,regular,2013-08-31T19:30:00.000Z,False,True,True,False,,,Penn State,Syracuse,fbs,fbs,Big Ten,ACC,23,17
+332430258,2013,1,regular,2013-08-31T19:30:00.000Z,False,True,False,False,3923.0,Scott Stadium,Virginia,BYU,fbs,fbs,ACC,FBS Independents,19,16
+332432294,2013,1,regular,2013-08-31T19:30:00.000Z,False,True,False,False,3793.0,Kinnick Stadium,Iowa,Northern Illinois,fbs,fbs,Big Ten,Mid-American,27,30
+332430130,2013,1,regular,2013-08-31T19:30:00.000Z,False,True,False,False,3558.0,Michigan Stadium,Michigan,Central Michigan,fbs,fbs,Big Ten,Mid-American,59,9
+332430008,2013,1,regular,2013-08-31T20:00:00.000Z,False,True,False,False,3887.0,Razorback Stadium,Arkansas,Louisiana,fbs,fbs,SEC,Sun Belt,34,14
+332432483,2013,1,regular,2013-08-31T20:00:00.000Z,False,True,False,False,3626.0,Autzen Stadium,Oregon,Nicholls,fbs,fcs,Pac-12,Southland,66,3
+332430150,2013,1,regular,2013-08-31T20:00:00.000Z,False,True,False,False,3982.0,Wallace Wade Stadium,Duke,North Carolina Central,fbs,fcs,ACC,MEAC,45,0
+332430259,2013,1,regular,2013-08-31T21:30:00.000Z,False,True,True,False,3495.0,Georgia Dome,Virginia Tech,Alabama,fbs,fbs,ACC,SEC,10,35
+332432199,2013,1,regular,2013-08-31T22:00:00.000Z,False,True,False,False,3912.0,Rynearson Stadium,Eastern Michigan,Howard,fbs,fcs,Mid-American,MEAC,34,24
+332430204,2013,1,regular,2013-08-31T22:00:00.000Z,False,True,False,False,3893.0,Reser Stadium,Oregon State,Eastern Washington,fbs,fcs,Pac-12,Big Sky,46,49
+332432633,2013,1,regular,2013-08-31T22:00:00.000Z,False,True,False,False,3853.0,Neyland Stadium,Tennessee,Austin Peay,fbs,fcs,SEC,OVC,45,0
+332430142,2013,1,regular,2013-08-31T23:00:00.000Z,False,True,False,False,3838.0,Memorial Stadium,Missouri,Murray State,fbs,fcs,SEC,OVC,58,14
+332430058,2013,1,regular,2013-08-31T23:00:00.000Z,False,True,False,False,3886.0,Raymond James Stadium,South Florida,McNeese,fbs,fcs,American Athletic,Southland,21,53
+332432032,2013,1,regular,2013-08-31T23:00:00.000Z,False,True,False,False,3625.0,Centennial Bank Stadium,Arkansas State,Arkansas-Pine Bluff,fbs,fcs,Sun Belt,SWAC,62,11
+332432653,2013,1,regular,2013-08-31T23:00:00.000Z,False,True,False,False,3975.0,Veterans Memorial Stadium (AL),Troy,UAB,fbs,fbs,Sun Belt,Conference USA,34,31
+332430002,2013,1,regular,2013-08-31T23:00:00.000Z,False,True,False,False,3785.0,Jordan-Hare Stadium,Auburn,Washington State,fbs,fbs,SEC,Pac-12,31,24
+332432572,2013,1,regular,2013-08-31T23:00:00.000Z,False,True,False,False,3815.0,M. M. Roberts Stadium,Southern Miss,Texas State,fbs,fbs,Conference USA,Sun Belt,15,22
+332430151,2013,1,regular,2013-08-31T23:00:00.000Z,False,True,False,False,3699.0,Dowdy-Ficklen Stadium,East Carolina,Old Dominion,fbs,fcs,Conference USA,FCS Independents,52,38
+332430201,2013,1,regular,2013-08-31T23:00:00.000Z,False,True,False,False,3835.0,"Memorial Stadium (Norman, OK)",Oklahoma,UL Monroe,fbs,fbs,Big 12,Sun Belt,34,0
+332430276,2013,1,regular,2013-08-31T23:00:00.000Z,False,True,False,False,3775.0,Joan C. Edwards Stadium,Marshall,Miami (OH),fbs,fbs,Conference USA,Mid-American,52,14
+332430249,2013,1,regular,2013-08-31T23:00:00.000Z,False,True,False,False,3825.0,DATCU Stadium,North Texas,Idaho,fbs,fbs,Conference USA,FBS Independents,40,6
+332430098,2013,1,regular,2013-08-31T23:10:00.000Z,False,True,True,False,3810.0,Nissan Stadium,Western Kentucky,Kentucky,fbs,fbs,Sun Belt,SEC,35,26
+332430239,2013,1,regular,2013-08-31T23:30:00.000Z,False,True,True,False,3724.0,Floyd Casey Stadium,Baylor,Wofford,fbs,fcs,Big 12,Southern,69,3
+332430066,2013,1,regular,2013-09-01T00:00:00.000Z,False,True,False,False,3772.0,Jack Trice Stadium,Iowa State,Northern Iowa,fbs,fcs,Big 12,MVFC,20,28
+332430228,2013,1,regular,2013-09-01T00:00:00.000Z,False,True,False,False,3836.0,"Memorial Stadium (Clemson, SC)",Clemson,Georgia,fbs,fbs,ACC,SEC,38,35
+332430021,2013,1,regular,2013-09-01T00:00:00.000Z,False,True,False,False,3932.0,Qualcomm Stadium,San Diego State,Eastern Illinois,fbs,fcs,Mountain West,OVC,19,40
+332430251,2013,1,regular,2013-09-01T00:00:00.000Z,False,True,False,False,3910.0,DKR-Texas Memorial Stadium,Texas,New Mexico State,fbs,fbs,Big 12,FBS Independents,56,7
+332430167,2013,1,regular,2013-09-01T00:00:00.000Z,False,True,False,False,3971.0,University Stadium (NM),New Mexico,UTSA,fbs,fbs,Mountain West,Conference USA,13,21
+332430158,2013,1,regular,2013-09-01T00:00:00.000Z,False,True,False,False,3834.0,"Memorial Stadium (Lincoln, NE)",Nebraska,Wyoming,fbs,fbs,Big Ten,Mountain West,37,34
+332432628,2013,1,regular,2013-09-01T01:00:00.000Z,False,True,True,False,,,TCU,LSU,fbs,fbs,Big 12,SEC,27,37
+332430264,2013,1,regular,2013-09-01T02:00:00.000Z,False,True,False,False,3765.0,Husky Stadium,Washington,Boise State,fbs,fbs,Pac-12,Mountain West,38,6
+332430026,2013,1,regular,2013-09-01T02:00:00.000Z,False,True,False,False,1056.0,Rose Bowl,UCLA,Nevada,fbs,fbs,Pac-12,Mountain West,58,20
+332430025,2013,1,regular,2013-09-01T02:30:00.000Z,False,True,False,False,3831.0,California Memorial Stadium,California,Northwestern,fbs,fbs,Pac-12,Big Ten,30,44
+332440097,2013,1,regular,2013-09-01T19:30:00.000Z,False,True,False,False,3873.0,L&N Federal Credit Union Stadium,Louisville,Ohio,fbs,fbs,American Athletic,Mid-American,49,7
+332440036,2013,1,regular,2013-09-01T22:00:00.000Z,False,True,True,False,,,Colorado State,Colorado,fbs,fbs,Mountain West,Pac-12,27,41
+332450221,2013,1,regular,2013-09-03T00:00:00.000Z,False,True,False,True,3752.0,Acrisure Stadium,Pittsburgh,Florida State,fbs,fbs,ACC,ACC,13,41
+332480151,2013,2,regular,2013-09-05T23:30:00.000Z,False,True,False,True,3699.0,Dowdy-Ficklen Stadium,East Carolina,Florida Atlantic,fbs,fbs,Conference USA,Conference USA,31,13
+332480009,2013,2,regular,2013-09-06T02:00:00.000Z,False,True,False,False,3947.0,Mountain America Stadium,Arizona State,Sacramento State,fbs,fcs,Pac-12,Big Sky,55,0
+332492229,2013,2,regular,2013-09-07T00:00:00.000Z,False,True,False,False,218.0,FIU Stadium,Florida International,UCF,fbs,fbs,Conference USA,American Athletic,0,38
+332490103,2013,2,regular,2013-09-07T00:00:00.000Z,False,True,False,True,3615.0,"Alumni Stadium (Chestnut Hill, MA)",Boston College,Wake Forest,fbs,fbs,ACC,ACC,24,10
+332502636,2013,2,regular,2013-09-07T16:00:00.000Z,False,True,False,False,3604.0,Alamodome,UTSA,Oklahoma State,fbs,fbs,Conference USA,Big 12,35,56
+332502309,2013,2,regular,2013-09-07T16:00:00.000Z,False,True,False,True,3696.0,Dix Stadium,Kent State,Bowling Green,fbs,fbs,Mid-American,Mid-American,22,41
+332500127,2013,2,regular,2013-09-07T16:00:00.000Z,False,True,False,False,3936.0,Spartan Stadium,Michigan State,South Florida,fbs,fbs,Big Ten,American Athletic,21,6
+332500356,2013,2,regular,2013-09-07T16:00:00.000Z,False,True,False,False,3832.0,"Memorial Stadium (Champaign, IL)",Illinois,Cincinnati,fbs,fbs,Big Ten,American Athletic,45,17
+332500213,2013,2,regular,2013-09-07T16:00:00.000Z,False,True,False,False,3632.0,Beaver Stadium,Penn State,Eastern Michigan,fbs,fbs,Big Ten,Mid-American,45,7
+332500218,2013,2,regular,2013-09-07T16:00:00.000Z,False,True,False,True,3806.0,Lincoln Financial Field,Temple,Houston,fbs,fbs,American Athletic,American Athletic,13,22
+332500097,2013,2,regular,2013-09-07T16:00:00.000Z,False,True,False,False,3873.0,L&N Federal Credit Union Stadium,Louisville,Eastern Kentucky,fbs,fcs,American Athletic,OVC,44,7
+332502294,2013,2,regular,2013-09-07T16:00:00.000Z,False,True,False,False,3793.0,Kinnick Stadium,Iowa,Missouri State,fbs,fcs,Big Ten,MVFC,28,14
+332500275,2013,2,regular,2013-09-07T16:00:00.000Z,False,True,False,False,347.0,Camp Randall Stadium,Wisconsin,Tennessee Tech,fbs,fcs,Big Ten,OVC,48,0
+332500096,2013,2,regular,2013-09-07T16:00:00.000Z,False,True,False,False,3683.0,Kroger Field,Kentucky,Miami (OH),fbs,fbs,SEC,Mid-American,41,7
+332502390,2013,2,regular,2013-09-07T16:00:00.000Z,False,True,False,False,3948.0,Hard Rock Stadium,Miami,Florida,fbs,fbs,ACC,SEC,21,16
+332502628,2013,2,regular,2013-09-07T16:00:00.000Z,False,True,False,False,3616.0,Amon G. Carter Stadium,TCU,SE Louisiana,fbs,fcs,Big 12,Southland,38,17
+332502509,2013,2,regular,2013-09-07T16:00:00.000Z,False,True,False,False,3907.0,Ross-Ade Stadium,Purdue,Indiana State,fbs,fcs,Big Ten,MVFC,20,14
+332500164,2013,2,regular,2013-09-07T16:00:00.000Z,False,True,True,False,3754.0,High Point Solutions Stadium,Rutgers,Norfolk State,fbs,fcs,American Athletic,MEAC,38,0
+332502633,2013,2,regular,2013-09-07T16:21:00.000Z,False,True,False,False,3853.0,Neyland Stadium,Tennessee,Western Kentucky,fbs,fbs,SEC,Sun Belt,52,20
+332500228,2013,2,regular,2013-09-07T16:30:00.000Z,False,True,False,False,3836.0,"Memorial Stadium (Clemson, SC)",Clemson,South Carolina State,fbs,fcs,ACC,MEAC,52,13
+332500153,2013,2,regular,2013-09-07T16:30:00.000Z,False,True,False,False,3787.0,Kenan Stadium,North Carolina,Middle Tennessee,fbs,fbs,ACC,Conference USA,40,20
+332502050,2013,2,regular,2013-09-07T17:00:00.000Z,False,True,False,False,3919.0,Scheumann Stadium,Ball State,Army,fbs,fbs,Mid-American,FBS Independents,40,14
+332500259,2013,2,regular,2013-09-07T17:30:00.000Z,False,True,False,False,3799.0,Lane Stadium,Virginia Tech,Western Carolina,fbs,fcs,ACC,Southern,45,3
+332500254,2013,2,regular,2013-09-07T18:00:00.000Z,False,True,False,False,587.0,Rice-Eccles Stadium,Utah,Weber State,fbs,fcs,Pac-12,Big Sky,70,7
+332502247,2013,2,regular,2013-09-07T18:00:00.000Z,False,True,True,False,3495.0,Georgia Dome,Georgia State,Chattanooga,fbs,fcs,Sun Belt,Southern,14,42
+332500113,2013,2,regular,2013-09-07T18:00:00.000Z,False,True,True,False,3738.0,Gillette Stadium,Massachusetts,Maine,fbs,fcs,Mid-American,CAA,14,24
+332500068,2013,2,regular,2013-09-07T19:00:00.000Z,False,True,False,False,3653.0,Albertsons Stadium,Boise State,UT Martin,fbs,fcs,Mountain West,OVC,63,14
+332502117,2013,2,regular,2013-09-07T19:00:00.000Z,False,True,False,False,3786.0,Kelly/Shorts Stadium,Central Michigan,New Hampshire,fbs,fcs,Mid-American,CAA,24,21
+332500344,2013,2,regular,2013-09-07T19:30:00.000Z,False,True,False,False,3693.0,Davis Wade Stadium,Mississippi State,Alcorn State,fbs,fcs,SEC,SWAC,51,7
+332500142,2013,2,regular,2013-09-07T19:30:00.000Z,False,True,False,False,3838.0,Memorial Stadium,Missouri,Toledo,fbs,fbs,SEC,Mid-American,38,23
+332502655,2013,2,regular,2013-09-07T19:30:00.000Z,False,True,False,False,3493.0,Caesars Superdome,Tulane,South Alabama,fbs,fbs,Conference USA,Sun Belt,39,41
+332502005,2013,2,regular,2013-09-07T19:30:00.000Z,False,True,False,True,3713.0,Falcon Stadium,Air Force,Utah State,fbs,fbs,Mountain West,Mountain West,20,52
+332500194,2013,2,regular,2013-09-07T19:30:00.000Z,False,True,False,False,3861.0,Ohio Stadium,Ohio State,San Diego State,fbs,fbs,Big Ten,Mountain West,42,7
+332500239,2013,2,regular,2013-09-07T19:30:00.000Z,False,True,False,False,3724.0,Floyd Casey Stadium,Baylor,Buffalo,fbs,fbs,Big 12,Mid-American,70,13
+332500258,2013,2,regular,2013-09-07T19:30:00.000Z,False,True,False,False,3923.0,Scott Stadium,Virginia,Oregon,fbs,fbs,ACC,Pac-12,10,59
+332500120,2013,2,regular,2013-09-07T20:00:00.000Z,False,True,False,False,3665.0,SECU Stadium,Maryland,Old Dominion,fbs,fcs,ACC,FCS Independents,47,10
+332502751,2013,2,regular,2013-09-07T20:00:00.000Z,False,True,False,False,3984.0,War Memorial Stadium,Wyoming,Idaho,fbs,fbs,Mountain West,FBS Independents,42,10
+332500235,2013,2,regular,2013-09-07T20:30:00.000Z,False,True,False,False,3805.0,Simmons Bank Liberty Stadium,Memphis,Duke,fbs,fbs,American Athletic,ACC,14,28
+332500061,2013,2,regular,2013-09-07T20:30:00.000Z,False,True,False,True,3917.0,Sanford Stadium,Georgia,South Carolina,fbs,fbs,SEC,SEC,41,30
+332500025,2013,2,regular,2013-09-07T21:00:00.000Z,False,True,False,False,3831.0,California Memorial Stadium,California,Portland State,fbs,fcs,Pac-12,Big Sky,37,30
+332500152,2013,2,regular,2013-09-07T22:00:00.000Z,False,True,False,False,3670.0,Carter-Finley Stadium,NC State,Richmond,fbs,fcs,ACC,CAA,23,21
+332500084,2013,2,regular,2013-09-07T22:00:00.000Z,False,True,False,False,3830.0,"Memorial Stadium (Bloomington, IN)",Indiana,Navy,fbs,fbs,Big Ten,FBS Independents,35,41
+332500077,2013,2,regular,2013-09-07T22:00:00.000Z,False,True,False,False,3911.0,Ryan Field,Northwestern,Syracuse,fbs,fbs,Big Ten,ACC,48,27
+332502006,2013,2,regular,2013-09-07T22:00:00.000Z,False,True,False,False,3768.0,InfoCision Stadium,Akron,James Madison,fbs,fcs,Mid-American,CAA,35,33
+332500158,2013,2,regular,2013-09-07T22:00:00.000Z,False,True,False,False,3834.0,"Memorial Stadium (Lincoln, NE)",Nebraska,Southern Miss,fbs,fbs,Big Ten,Conference USA,56,13
+332502306,2013,2,regular,2013-09-07T22:30:00.000Z,False,True,False,False,3636.0,Bill Snyder Family Stadium,Kansas State,Louisiana,fbs,fbs,Big 12,Sun Belt,48,27
+332500276,2013,2,regular,2013-09-07T22:30:00.000Z,False,True,False,False,3775.0,Joan C. Edwards Stadium,Marshall,Gardner-Webb,fbs,fcs,Conference USA,Big South,55,0
+332502711,2013,2,regular,2013-09-07T23:00:00.000Z,False,True,False,False,3980.0,Waldo Stadium,Western Michigan,Nicholls,fbs,fcs,Mid-American,Southland,23,27
+332502348,2013,2,regular,2013-09-07T23:00:00.000Z,False,True,False,False,3776.0,Joe Aillet Stadium,Louisiana Tech,Lamar,fbs,fcs,Conference USA,Southland,27,14
+332500008,2013,2,regular,2013-09-07T23:00:00.000Z,False,True,True,False,,,Arkansas,Samford,fbs,fcs,SEC,Southern,31,21
+332502653,2013,2,regular,2013-09-07T23:00:00.000Z,False,True,False,False,3975.0,Veterans Memorial Stadium (AL),Troy,Savannah State,fbs,fcs,Sun Belt,MEAC,66,3
+332502641,2013,2,regular,2013-09-07T23:00:00.000Z,False,True,False,False,3784.0,Jones AT&T Stadium,Texas Tech,Stephen F. Austin,fbs,fcs,Big 12,Southland,61,13
+332502433,2013,2,regular,2013-09-07T23:00:00.000Z,False,True,False,False,3817.0,Malone Stadium,UL Monroe,Grambling,fbs,fcs,Sun Belt,SWAC,48,10
+332502305,2013,2,regular,2013-09-07T23:00:00.000Z,False,True,False,False,3833.0,Memorial Stadium,Kansas,South Dakota,fbs,fcs,Big 12,MVFC,31,14
+332500145,2013,2,regular,2013-09-07T23:00:00.000Z,False,True,False,False,3974.0,Vaught-Hemingway Stadium,Ole Miss,Southeast Missouri State,fbs,fcs,SEC,OVC,31,13
+332500245,2013,2,regular,2013-09-07T23:00:00.000Z,False,True,False,False,3795.0,Kyle Field,Texas A&M,Sam Houston,fbs,fcs,SEC,Southland,65,28
+332500326,2013,2,regular,2013-09-07T23:00:00.000Z,False,True,False,False,3644.0,Bobcat Stadium (TX),Texas State,Prairie View A&M,fbs,fcs,Sun Belt,SWAC,28,3
+332500195,2013,2,regular,2013-09-07T23:00:00.000Z,False,True,False,False,3876.0,Peden Stadium,Ohio,North Texas,fbs,fbs,Mid-American,Conference USA,27,21
+332500252,2013,2,regular,2013-09-07T23:00:00.000Z,False,True,False,False,3801.0,LaVell Edwards Stadium,BYU,Texas,fbs,fbs,FBS Independents,Big 12,40,21
+332500202,2013,2,regular,2013-09-07T23:00:00.000Z,False,True,False,False,3674.0,Chapman Stadium,Tulsa,Colorado State,fbs,fbs,Conference USA,Mountain West,30,27
+332500201,2013,2,regular,2013-09-07T23:00:00.000Z,False,True,False,True,3835.0,"Memorial Stadium (Norman, OK)",Oklahoma,West Virginia,fbs,fbs,Big 12,Big 12,16,7
+332500238,2013,2,regular,2013-09-07T23:30:00.000Z,False,True,False,False,3973.0,FirstBank Stadium,Vanderbilt,Austin Peay,fbs,fcs,SEC,OVC,38,3
+332500002,2013,2,regular,2013-09-07T23:30:00.000Z,False,True,False,False,3785.0,Jordan-Hare Stadium,Auburn,Arkansas State,fbs,fbs,SEC,Sun Belt,38,9
+332500099,2013,2,regular,2013-09-07T23:37:00.000Z,False,True,False,False,3958.0,Tiger Stadium (LA),LSU,UAB,fbs,fbs,SEC,Conference USA,56,17
+332500130,2013,2,regular,2013-09-08T00:00:00.000Z,False,True,False,False,3558.0,Michigan Stadium,Michigan,Notre Dame,fbs,fbs,Big Ten,FBS Independents,41,30
+332500204,2013,2,regular,2013-09-08T00:00:00.000Z,False,True,False,False,3893.0,Reser Stadium,Oregon State,Hawai'i,fbs,fbs,Pac-12,Mountain West,33,14
+332500166,2013,2,regular,2013-09-08T00:00:00.000Z,False,True,False,False,3601.0,Aggie Memorial Stadium,New Mexico State,Minnesota,fbs,fbs,FBS Independents,Big Ten,21,44
+332502567,2013,2,regular,2013-09-08T00:00:00.000Z,False,True,False,False,3735.0,Gerald J. Ford Stadium,SMU,Montana State,fbs,fcs,American Athletic,Big Sky,31,30
+332502638,2013,2,regular,2013-09-08T00:00:00.000Z,False,True,False,False,3946.0,Sun Bowl,UTEP,New Mexico,fbs,fbs,Conference USA,Mountain West,35,42
+332500038,2013,2,regular,2013-09-08T00:00:00.000Z,False,True,False,False,3726.0,Folsom Field,Colorado,Central Arkansas,fbs,fcs,Pac-12,Southland,38,24
+332502440,2013,2,regular,2013-09-08T01:05:00.000Z,False,True,False,False,3816.0,Mackay Stadium,Nevada,UC Davis,fbs,fcs,Mountain West,Big Sky,36,7
+332500278,2013,2,regular,2013-09-08T02:00:00.000Z,False,True,False,False,3660.0,Valley Children's Stadium,Fresno State,Cal Poly,fbs,fcs,Mountain West,Big Sky,41,25
+332502439,2013,2,regular,2013-09-08T02:30:00.000Z,False,True,False,False,3914.0,Sam Boyd Stadium,UNLV,Arizona,fbs,fbs,Mountain West,Pac-12,13,58
+332500030,2013,2,regular,2013-09-08T02:30:00.000Z,False,True,False,True,477.0,Los Angeles Memorial Coliseum,USC,Washington State,fbs,fbs,Pac-12,Pac-12,7,10
+332500024,2013,2,regular,2013-09-08T03:00:00.000Z,False,True,False,False,3940.0,Stanford Stadium,Stanford,San José State,fbs,fbs,Pac-12,Mountain West,34,13
+332552641,2013,3,regular,2013-09-12T23:30:00.000Z,False,True,False,True,3784.0,Jones AT&T Stadium,Texas Tech,TCU,fbs,fbs,Big 12,Big 12,20,10
+332552348,2013,3,regular,2013-09-12T23:30:00.000Z,False,True,False,True,3776.0,Joe Aillet Stadium,Louisiana Tech,Tulane,fbs,fbs,Conference USA,Conference USA,15,24
+332552032,2013,3,regular,2013-09-12T23:30:00.000Z,False,True,False,True,3625.0,Centennial Bank Stadium,Arkansas State,Troy,fbs,fbs,Sun Belt,Sun Belt,41,34
+332560068,2013,3,regular,2013-09-14T00:00:00.000Z,False,True,False,True,3653.0,Albertsons Stadium,Boise State,Air Force,fbs,fbs,Mountain West,Mountain West,42,20
+332570151,2013,3,regular,2013-09-14T16:00:00.000Z,False,True,False,False,3699.0,Dowdy-Ficklen Stadium,East Carolina,Virginia Tech,fbs,fbs,Conference USA,ACC,10,15
+332570084,2013,3,regular,2013-09-14T16:00:00.000Z,False,True,False,False,3830.0,"Memorial Stadium (Bloomington, IN)",Indiana,Bowling Green,fbs,fbs,Big Ten,Mid-American,42,10
+332570201,2013,3,regular,2013-09-14T16:00:00.000Z,False,True,False,False,3835.0,"Memorial Stadium (Norman, OK)",Oklahoma,Tulsa,fbs,fbs,Big 12,Conference USA,51,20
+332570349,2013,3,regular,2013-09-14T16:00:00.000Z,False,True,False,False,3841.0,Michie Stadium,Army,Stanford,fbs,fbs,FBS Independents,Pac-12,20,34
+332570096,2013,3,regular,2013-09-14T16:00:00.000Z,False,True,False,False,3683.0,Kroger Field,Kentucky,Louisville,fbs,fbs,SEC,American Athletic,13,27
+332570158,2013,3,regular,2013-09-14T16:00:00.000Z,False,True,False,False,3834.0,"Memorial Stadium (Lincoln, NE)",Nebraska,UCLA,fbs,fbs,Big Ten,Pac-12,21,41
+332570130,2013,3,regular,2013-09-14T16:00:00.000Z,False,True,False,False,3558.0,Michigan Stadium,Michigan,Akron,fbs,fbs,Big Ten,Mid-American,28,24
+332570277,2013,3,regular,2013-09-14T16:00:00.000Z,False,True,False,False,3842.0,Milan Puskar Stadium,West Virginia,Georgia State,fbs,fbs,Big 12,Sun Belt,41,7
+332570135,2013,3,regular,2013-09-14T16:00:00.000Z,False,True,False,False,3953.0,Huntington Bank Stadium,Minnesota,Western Illinois,fbs,fcs,Big Ten,MVFC,29,12
+332570008,2013,3,regular,2013-09-14T16:21:00.000Z,False,True,False,False,3887.0,Razorback Stadium,Arkansas,Southern Miss,fbs,fbs,SEC,Conference USA,24,3
+332570221,2013,3,regular,2013-09-14T16:30:00.000Z,False,True,False,False,3752.0,Acrisure Stadium,Pittsburgh,New Mexico,fbs,fbs,ACC,Mountain West,49,27
+332570154,2013,3,regular,2013-09-14T16:30:00.000Z,False,True,False,False,3630.0,Allegacy Federal Credit Union Stadium,Wake Forest,UL Monroe,fbs,fbs,ACC,Sun Belt,19,21
+332570164,2013,3,regular,2013-09-14T17:00:00.000Z,False,True,False,False,3754.0,High Point Solutions Stadium,Rutgers,Eastern Michigan,fbs,fbs,American Athletic,Mid-American,28,10
+332570218,2013,3,regular,2013-09-14T17:00:00.000Z,False,True,False,False,3806.0,Lincoln Financial Field,Temple,Fordham,fbs,fcs,American Athletic,Patriot,29,30
+332570127,2013,3,regular,2013-09-14T18:00:00.000Z,False,True,False,False,3936.0,Spartan Stadium,Michigan State,Youngstown State,fbs,fcs,Big Ten,MVFC,55,17
+332570030,2013,3,regular,2013-09-14T19:00:00.000Z,False,True,False,False,477.0,Los Angeles Memorial Coliseum,USC,Boston College,fbs,fbs,Pac-12,ACC,35,7
+332570052,2013,3,regular,2013-09-14T19:30:00.000Z,False,True,False,False,3697.0,Doak Campbell Stadium,Florida State,Nevada,fbs,fbs,ACC,Mountain West,62,7
+332572483,2013,3,regular,2013-09-14T19:30:00.000Z,False,True,False,False,3626.0,Autzen Stadium,Oregon,Tennessee,fbs,fbs,Pac-12,SEC,59,14
+332570150,2013,3,regular,2013-09-14T19:30:00.000Z,False,True,False,True,3982.0,Wallace Wade Stadium,Duke,Georgia Tech,fbs,fbs,ACC,ACC,14,38
+332570245,2013,3,regular,2013-09-14T19:30:00.000Z,False,True,False,True,3795.0,Kyle Field,Texas A&M,Alabama,fbs,fbs,SEC,SEC,42,49
+332570036,2013,3,regular,2013-09-14T19:30:00.000Z,False,True,True,False,3761.0,Sonny Lubick Field at Hughes Stadium,Colorado State,Cal Poly,fbs,fcs,Mountain West,Big Sky,34,17
+332572084,2013,3,regular,2013-09-14T19:30:00.000Z,False,True,False,False,3965.0,UB Stadium,Buffalo,Stony Brook,fbs,fcs,Mid-American,CAA,26,23
+332572426,2013,3,regular,2013-09-14T19:30:00.000Z,False,True,False,False,3852.0,Navy-Marine Corps Memorial Stadium,Navy,Delaware,fbs,fcs,FBS Independents,CAA,51,7
+332572751,2013,3,regular,2013-09-14T20:00:00.000Z,False,True,False,False,3984.0,War Memorial Stadium,Wyoming,Northern Colorado,fbs,fcs,Mountain West,Big Sky,35,7
+332570183,2013,3,regular,2013-09-14T20:00:00.000Z,False,True,False,False,1964.0,JMA Wireless Dome,Syracuse,Wagner,fbs,fcs,ACC,NEC,54,0
+332570249,2013,3,regular,2013-09-14T20:00:00.000Z,False,True,False,False,3825.0,DATCU Stadium,North Texas,Ball State,fbs,fbs,Conference USA,Mid-American,34,27
+332570070,2013,3,regular,2013-09-14T21:00:00.000Z,False,True,False,False,3791.0,Kibbie Dome,Idaho,Northern Illinois,fbs,fbs,FBS Independents,Mid-American,35,45
+332572229,2013,3,regular,2013-09-14T22:00:00.000Z,False,True,False,False,218.0,FIU Stadium,Florida International,Bethune-Cookman,fbs,fcs,Conference USA,MEAC,13,34
+332570213,2013,3,regular,2013-09-14T22:00:00.000Z,False,True,False,False,3632.0,Beaver Stadium,Penn State,UCF,fbs,fbs,Big Ten,American Athletic,31,34
+332570356,2013,3,regular,2013-09-14T22:00:00.000Z,False,True,False,False,,,Illinois,Washington,fbs,fbs,Big Ten,Pac-12,24,34
+332570066,2013,3,regular,2013-09-14T22:00:00.000Z,False,True,False,False,3772.0,Jack Trice Stadium,Iowa State,Iowa,fbs,fbs,Big 12,Big Ten,21,27
+332570265,2013,3,regular,2013-09-14T22:30:00.000Z,False,True,False,False,3820.0,Gesa Field,Washington State,Southern Utah,fbs,fcs,Pac-12,Big Sky,48,10
+332570309,2013,3,regular,2013-09-14T23:00:00.000Z,False,True,False,False,3666.0,Cajun Field,Louisiana,Nicholls,fbs,fcs,Sun Belt,Southland,70,7
+332572132,2013,3,regular,2013-09-14T23:00:00.000Z,False,True,False,False,3854.0,Nippert Stadium,Cincinnati,Northwestern State,fbs,fcs,American Athletic,Southland,66,9
+332572649,2013,3,regular,2013-09-14T23:00:00.000Z,False,True,False,False,3739.0,Glass Bowl,Toledo,Eastern Washington,fbs,fcs,Mid-American,Big Sky,33,21
+332570099,2013,3,regular,2013-09-14T23:00:00.000Z,False,True,False,False,3958.0,Tiger Stadium (LA),LSU,Kent State,fbs,fbs,SEC,Mid-American,45,13
+332572579,2013,3,regular,2013-09-14T23:00:00.000Z,False,True,False,True,3994.0,Williams-Brice Stadium,South Carolina,Vanderbilt,fbs,fbs,SEC,SEC,35,25
+332570025,2013,3,regular,2013-09-14T23:00:00.000Z,False,True,False,False,3831.0,California Memorial Stadium,California,Ohio State,fbs,fbs,Pac-12,Big Ten,34,52
+332570058,2013,3,regular,2013-09-14T23:00:00.000Z,False,True,False,False,3886.0,Raymond James Stadium,South Florida,Florida Atlantic,fbs,fbs,American Athletic,Conference USA,10,28
+332572306,2013,3,regular,2013-09-14T23:00:00.000Z,False,True,False,False,3636.0,Bill Snyder Family Stadium,Kansas State,Massachusetts,fbs,fbs,Big 12,Mid-American,37,7
+332570002,2013,3,regular,2013-09-14T23:00:00.000Z,False,True,False,True,3785.0,Jordan-Hare Stadium,Auburn,Mississippi State,fbs,fbs,SEC,SEC,24,20
+332572393,2013,3,regular,2013-09-14T23:00:00.000Z,False,True,False,False,3725.0,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Memphis,fbs,fbs,Conference USA,American Athletic,17,15
+332570041,2013,3,regular,2013-09-14T23:30:00.000Z,False,True,False,False,3892.0,Pratt & Whitney Stadium,UConn,Maryland,fbs,fbs,American Athletic,ACC,21,32
+332570242,2013,3,regular,2013-09-14T23:30:00.000Z,False,True,False,False,3895.0,Rice Stadium,Rice,Kansas,fbs,fbs,Conference USA,Big 12,23,14
+332570006,2013,3,regular,2013-09-14T23:30:00.000Z,False,True,False,True,3797.0,Ladd Peebles Stadium,South Alabama,Western Kentucky,fbs,fbs,Sun Belt,Sun Belt,31,24
+332570197,2013,3,regular,2013-09-14T23:30:00.000Z,False,True,False,False,3646.0,Boone Pickens Stadium,Oklahoma State,Lamar,fbs,fcs,Big 12,Southland,59,3
+332570328,2013,3,regular,2013-09-15T00:00:00.000Z,False,True,False,False,3905.0,Maverik Stadium,Utah State,Weber State,fbs,fcs,Mountain West,Big Sky,70,6
+332570166,2013,3,regular,2013-09-15T00:00:00.000Z,False,True,False,False,3601.0,Aggie Memorial Stadium,New Mexico State,UTEP,fbs,fbs,FBS Independents,Conference USA,21,42
+332570195,2013,3,regular,2013-09-15T00:00:00.000Z,False,True,False,False,3876.0,Peden Stadium,Ohio,Marshall,fbs,fbs,Mid-American,Conference USA,34,31
+332570251,2013,3,regular,2013-09-15T00:00:00.000Z,False,True,False,False,3910.0,DKR-Texas Memorial Stadium,Texas,Ole Miss,fbs,fbs,Big 12,SEC,23,44
+332572509,2013,3,regular,2013-09-15T00:00:00.000Z,False,True,False,False,3907.0,Ross-Ade Stadium,Purdue,Notre Dame,fbs,fbs,Big Ten,FBS Independents,24,31
+332570077,2013,3,regular,2013-09-15T01:00:00.000Z,False,True,False,False,3911.0,Ryan Field,Northwestern,Western Michigan,fbs,fbs,Big Ten,Mid-American,38,17
+332572439,2013,3,regular,2013-09-15T02:00:00.000Z,False,True,False,False,3914.0,Sam Boyd Stadium,UNLV,Central Michigan,fbs,fbs,Mountain West,Mid-American,31,21
+332570254,2013,3,regular,2013-09-15T02:00:00.000Z,False,True,False,True,587.0,Rice-Eccles Stadium,Utah,Oregon State,fbs,fbs,Pac-12,Pac-12,48,51
+332570012,2013,3,regular,2013-09-15T02:30:00.000Z,False,True,False,False,3619.0,Arizona Stadium,Arizona,UTSA,fbs,fbs,Pac-12,Conference USA,38,13
+332570009,2013,3,regular,2013-09-15T02:30:00.000Z,False,True,False,False,3947.0,Mountain America Stadium,Arizona State,Wisconsin,fbs,fbs,Pac-12,Big Ten,32,30
+332620152,2013,4,regular,2013-09-19T23:30:00.000Z,False,True,False,True,3670.0,Carter-Finley Stadium,NC State,Clemson,fbs,fbs,ACC,ACC,14,26
+332630278,2013,4,regular,2013-09-21T01:00:00.000Z,False,True,False,True,3660.0,Valley Children's Stadium,Fresno State,Boise State,fbs,fbs,Mountain West,Mountain West,41,40
+332640097,2013,4,regular,2013-09-21T16:00:00.000Z,False,True,False,False,3873.0,L&N Federal Credit Union Stadium,Louisville,Florida International,fbs,fbs,American Athletic,Conference USA,72,0
+332640194,2013,4,regular,2013-09-21T16:00:00.000Z,False,True,False,False,3861.0,Ohio Stadium,Ohio State,Florida A&M,fbs,fcs,Big Ten,MEAC,76,0
+332642226,2013,4,regular,2013-09-21T16:00:00.000Z,False,True,False,True,3715.0,FAU Stadium,Florida Atlantic,Middle Tennessee,fbs,fbs,Conference USA,Conference USA,35,42
+332640259,2013,4,regular,2013-09-21T16:00:00.000Z,False,True,False,False,3799.0,Lane Stadium,Virginia Tech,Marshall,fbs,fbs,ACC,Conference USA,29,21
+332640349,2013,4,regular,2013-09-21T16:00:00.000Z,False,True,False,False,3841.0,Michie Stadium,Army,Wake Forest,fbs,fbs,FBS Independents,ACC,11,25
+332640113,2013,4,regular,2013-09-21T16:00:00.000Z,False,True,False,False,3738.0,Gillette Stadium,Massachusetts,Vanderbilt,fbs,fbs,Mid-American,SEC,7,24
+332640135,2013,4,regular,2013-09-21T16:00:00.000Z,False,True,False,False,3953.0,Huntington Bank Stadium,Minnesota,San José State,fbs,fbs,Big Ten,Mountain West,43,24
+332642117,2013,4,regular,2013-09-21T16:00:00.000Z,False,True,False,True,3786.0,Kelly/Shorts Stadium,Central Michigan,Toledo,fbs,fbs,Mid-American,Mid-American,17,38
+332642294,2013,4,regular,2013-09-21T16:00:00.000Z,False,True,False,False,3793.0,Kinnick Stadium,Iowa,Western Michigan,fbs,fbs,Big Ten,Mid-American,59,3
+332642305,2013,4,regular,2013-09-21T16:00:00.000Z,False,True,False,False,3833.0,Memorial Stadium,Kansas,Louisiana Tech,fbs,fbs,Big 12,Conference USA,13,10
+332640059,2013,4,regular,2013-09-21T16:00:00.000Z,False,True,False,True,721.0,Bobby Dodd Stadium,Georgia Tech,North Carolina,fbs,fbs,ACC,ACC,28,20
+332640061,2013,4,regular,2013-09-21T16:21:00.000Z,False,True,False,False,3917.0,Sanford Stadium,Georgia,North Texas,fbs,fbs,SEC,Conference USA,45,21
+332640150,2013,4,regular,2013-09-21T16:30:00.000Z,False,True,False,True,3982.0,Wallace Wade Stadium,Duke,Pittsburgh,fbs,fbs,ACC,ACC,55,58
+332640183,2013,4,regular,2013-09-21T16:30:00.000Z,False,True,False,False,1964.0,JMA Wireless Dome,Syracuse,Tulane,fbs,fbs,ACC,Conference USA,52,17
+332642199,2013,4,regular,2013-09-21T17:00:00.000Z,False,True,False,True,3912.0,Rynearson Stadium,Eastern Michigan,Ball State,fbs,fbs,Mid-American,Mid-American,20,51
+332640195,2013,4,regular,2013-09-21T18:00:00.000Z,False,True,False,False,3876.0,Peden Stadium,Ohio,Austin Peay,fbs,fcs,Mid-American,OVC,38,0
+332642247,2013,4,regular,2013-09-21T18:00:00.000Z,False,True,False,False,3495.0,Georgia Dome,Georgia State,Jacksonville State,fbs,fcs,Sun Belt,OVC,26,32
+332640242,2013,4,regular,2013-09-21T19:00:00.000Z,False,True,True,False,,,Rice,Houston,fbs,fbs,Conference USA,American Athletic,26,31
+332640005,2013,4,regular,2013-09-21T19:00:00.000Z,False,True,True,False,3803.0,Legion Field,UAB,Northwestern State,fbs,fcs,Conference USA,Southland,52,28
+332640264,2013,4,regular,2013-09-21T19:00:00.000Z,False,True,False,False,3765.0,Husky Stadium,Washington,Idaho State,fbs,fcs,Pac-12,Big Sky,56,0
+332640275,2013,4,regular,2013-09-21T19:30:00.000Z,False,True,False,True,347.0,Camp Randall Stadium,Wisconsin,Purdue,fbs,fbs,Big Ten,Big Ten,41,10
+332640057,2013,4,regular,2013-09-21T19:30:00.000Z,False,True,False,True,3634.0,Ben Hill Griffin Stadium,Florida,Tennessee,fbs,fbs,SEC,SEC,31,17
+332640087,2013,4,regular,2013-09-21T19:30:00.000Z,False,True,False,False,3855.0,Notre Dame Stadium,Notre Dame,Michigan State,fbs,fbs,FBS Independents,Big Ten,17,13
+332640077,2013,4,regular,2013-09-21T19:30:00.000Z,False,True,False,False,3911.0,Ryan Field,Northwestern,Maine,fbs,fcs,Big Ten,CAA,35,21
+332640258,2013,4,regular,2013-09-21T19:30:00.000Z,False,True,False,False,3923.0,Scott Stadium,Virginia,VMI,fbs,fcs,ACC,Big South,49,0
+332640030,2013,4,regular,2013-09-21T19:30:00.000Z,False,True,False,False,477.0,Los Angeles Memorial Coliseum,USC,Utah State,fbs,fbs,Pac-12,Mountain West,17,14
+332640120,2013,4,regular,2013-09-21T19:30:00.000Z,False,True,False,False,,,Maryland,West Virginia,fbs,fbs,ACC,Big 12,37,0
+332640158,2013,4,regular,2013-09-21T19:30:00.000Z,False,True,False,False,3834.0,"Memorial Stadium (Lincoln, NE)",Nebraska,South Dakota State,fbs,fcs,Big Ten,MVFC,59,20
+332640213,2013,4,regular,2013-09-21T19:30:00.000Z,False,True,False,False,3632.0,Beaver Stadium,Penn State,Kent State,fbs,fbs,Big Ten,Mid-American,34,0
+332640189,2013,4,regular,2013-09-21T19:30:00.000Z,False,True,False,False,3700.0,Doyt L. Perry Stadium,Bowling Green,Murray State,fbs,fcs,Mid-American,OVC,48,7
+332640164,2013,4,regular,2013-09-21T19:30:00.000Z,False,True,False,False,3754.0,High Point Solutions Stadium,Rutgers,Arkansas,fbs,fbs,American Athletic,SEC,28,24
+332640193,2013,4,regular,2013-09-21T20:00:00.000Z,False,True,False,False,3996.0,Yager Stadium,Miami (OH),Cincinnati,fbs,fbs,Mid-American,American Athletic,0,14
+332640239,2013,4,regular,2013-09-21T20:00:00.000Z,False,True,False,False,3724.0,Floyd Casey Stadium,Baylor,UL Monroe,fbs,fbs,Big 12,Sun Belt,70,7
+332640235,2013,4,regular,2013-09-21T20:30:00.000Z,False,True,False,False,3805.0,Simmons Bank Liberty Stadium,Memphis,Arkansas State,fbs,fbs,American Athletic,Sun Belt,31,7
+332642006,2013,4,regular,2013-09-21T22:00:00.000Z,False,True,False,False,3768.0,InfoCision Stadium,Akron,Louisiana,fbs,fbs,Mid-American,Sun Belt,30,35
+332640052,2013,4,regular,2013-09-21T22:00:00.000Z,False,True,False,False,3697.0,Doak Campbell Stadium,Florida State,Bethune-Cookman,fbs,fcs,ACC,MEAC,54,6
+332640333,2013,4,regular,2013-09-21T23:00:00.000Z,False,True,False,False,3657.0,Bryant-Denny Stadium,Alabama,Colorado State,fbs,fbs,SEC,Mountain West,31,6
+332640024,2013,4,regular,2013-09-21T23:00:00.000Z,False,True,False,True,3940.0,Stanford Stadium,Stanford,Arizona State,fbs,fbs,Pac-12,Pac-12,42,28
+332640245,2013,4,regular,2013-09-21T23:00:00.000Z,False,True,False,False,3795.0,Kyle Field,Texas A&M,SMU,fbs,fbs,SEC,American Athletic,42,13
+332642390,2013,4,regular,2013-09-21T23:00:00.000Z,False,True,False,False,3948.0,Hard Rock Stadium,Miami,Savannah State,fbs,fcs,ACC,MEAC,77,7
+332642459,2013,4,regular,2013-09-21T23:00:00.000Z,False,True,False,False,3764.0,Huskie Stadium,Northern Illinois,Eastern Illinois,fbs,fcs,Mid-American,OVC,43,39
+332640098,2013,4,regular,2013-09-21T23:00:00.000Z,False,True,False,False,3796.0,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Morgan State,fbs,fcs,Sun Belt,MEAC,58,17
+332642641,2013,4,regular,2013-09-21T23:00:00.000Z,False,True,False,False,3784.0,Jones AT&T Stadium,Texas Tech,Texas State,fbs,fbs,Big 12,Sun Belt,33,7
+332640344,2013,4,regular,2013-09-21T23:30:00.000Z,False,True,False,False,3693.0,Davis Wade Stadium,Mississippi State,Troy,fbs,fbs,SEC,Sun Belt,62,7
+332640021,2013,4,regular,2013-09-21T23:30:00.000Z,False,True,False,False,3932.0,Qualcomm Stadium,San Diego State,Oregon State,fbs,fbs,Mountain West,Pac-12,30,34
+332640099,2013,4,regular,2013-09-21T23:45:00.000Z,False,True,False,True,3958.0,Tiger Stadium (LA),LSU,Auburn,fbs,fbs,SEC,SEC,35,21
+332640041,2013,4,regular,2013-09-22T00:00:00.000Z,False,True,False,False,3892.0,Pratt & Whitney Stadium,UConn,Michigan,fbs,fbs,American Athletic,Big Ten,21,24
+332642638,2013,4,regular,2013-09-22T00:00:00.000Z,False,True,False,True,3946.0,Sun Bowl,UTEP,UTSA,fbs,fbs,Conference USA,Conference USA,13,32
+332640251,2013,4,regular,2013-09-22T00:00:00.000Z,False,True,False,True,3910.0,DKR-Texas Memorial Stadium,Texas,Kansas State,fbs,fbs,Big 12,Big 12,31,21
+332640084,2013,4,regular,2013-09-22T00:00:00.000Z,False,True,False,False,3830.0,"Memorial Stadium (Bloomington, IN)",Indiana,Missouri,fbs,fbs,Big Ten,SEC,28,45
+332642440,2013,4,regular,2013-09-22T00:05:00.000Z,False,True,False,True,3816.0,Mackay Stadium,Nevada,Hawai'i,fbs,fbs,Mountain West,Mountain West,31,9
+332642439,2013,4,regular,2013-09-22T01:00:00.000Z,False,True,True,False,3914.0,Sam Boyd Stadium,UNLV,Western Illinois,fbs,fcs,Mountain West,MVFC,38,7
+332640252,2013,4,regular,2013-09-22T02:15:00.000Z,False,True,False,False,3801.0,LaVell Edwards Stadium,BYU,Utah,fbs,fbs,FBS Independents,Pac-12,13,20
+332642005,2013,4,regular,2013-09-22T02:15:00.000Z,False,True,False,True,3713.0,Falcon Stadium,Air Force,Wyoming,fbs,fbs,Mountain West,Mountain West,23,56
+332640265,2013,4,regular,2013-09-22T02:30:00.000Z,False,True,False,False,3820.0,Gesa Field,Washington State,Idaho,fbs,fbs,Pac-12,FBS Independents,42,0
+332640026,2013,4,regular,2013-09-22T02:30:00.000Z,False,True,False,False,1056.0,Rose Bowl,UCLA,New Mexico State,fbs,fbs,Pac-12,FBS Independents,59,13
+332690059,2013,5,regular,2013-09-26T23:30:00.000Z,False,True,False,True,721.0,Bobby Dodd Stadium,Georgia Tech,Virginia Tech,fbs,fbs,ACC,ACC,10,17
+332690202,2013,5,regular,2013-09-26T23:30:00.000Z,False,True,False,False,3674.0,Chapman Stadium,Tulsa,Iowa State,fbs,fbs,Conference USA,Big 12,21,38
+332700023,2013,5,regular,2013-09-28T01:00:00.000Z,False,True,False,True,3935.0,CEFCU Stadium,San José State,Utah State,fbs,fbs,Mountain West,Mountain West,12,40
+332700252,2013,5,regular,2013-09-28T01:00:00.000Z,False,True,False,False,3801.0,LaVell Edwards Stadium,BYU,Middle Tennessee,fbs,fbs,FBS Independents,Conference USA,37,10
+332712509,2013,5,regular,2013-09-28T16:00:00.000Z,False,True,False,False,3907.0,Ross-Ade Stadium,Purdue,Northern Illinois,fbs,fbs,Big Ten,Mid-American,24,55
+332712628,2013,5,regular,2013-09-28T16:00:00.000Z,False,True,False,False,3616.0,Amon G. Carter Stadium,TCU,SMU,fbs,fbs,Big 12,American Athletic,48,17
+332712116,2013,5,regular,2013-09-28T16:00:00.000Z,False,True,False,False,3652.0,FBC Mortgage Stadium,UCF,South Carolina,fbs,fbs,American Athletic,SEC,25,28
+332710058,2013,5,regular,2013-09-28T16:00:00.000Z,False,True,False,False,3886.0,Raymond James Stadium,South Florida,Miami,fbs,fbs,American Athletic,ACC,21,49
+332710277,2013,5,regular,2013-09-28T16:00:00.000Z,False,True,False,True,3842.0,Milan Puskar Stadium,West Virginia,Oklahoma State,fbs,fbs,Big 12,Big 12,30,21
+332710356,2013,5,regular,2013-09-28T16:00:00.000Z,False,True,False,False,3832.0,"Memorial Stadium (Champaign, IL)",Illinois,Miami (OH),fbs,fbs,Big Ten,Mid-American,50,14
+332712633,2013,5,regular,2013-09-28T16:21:00.000Z,False,True,False,False,3853.0,Neyland Stadium,Tennessee,South Alabama,fbs,fbs,SEC,Sun Belt,31,24
+332710221,2013,5,regular,2013-09-28T16:30:00.000Z,False,True,False,True,3752.0,Acrisure Stadium,Pittsburgh,Virginia,fbs,fbs,ACC,ACC,14,3
+332710153,2013,5,regular,2013-09-28T16:30:00.000Z,False,True,False,False,3787.0,Kenan Stadium,North Carolina,East Carolina,fbs,fbs,ACC,Conference USA,31,55
+332710098,2013,5,regular,2013-09-28T18:00:00.000Z,False,True,False,False,3796.0,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Navy,fbs,fbs,Sun Belt,FBS Independents,19,7
+332710189,2013,5,regular,2013-09-28T18:30:00.000Z,False,True,False,True,3700.0,Doyt L. Perry Stadium,Bowling Green,Akron,fbs,fbs,Mid-American,Mid-American,31,14
+332710150,2013,5,regular,2013-09-28T19:00:00.000Z,False,True,False,False,3982.0,Wallace Wade Stadium,Duke,Troy,fbs,fbs,ACC,Sun Belt,38,31
+332710204,2013,5,regular,2013-09-28T19:00:00.000Z,False,True,False,True,3893.0,Reser Stadium,Oregon State,Colorado,fbs,fbs,Pac-12,Pac-12,44,17
+332712050,2013,5,regular,2013-09-28T19:00:00.000Z,False,True,False,True,3919.0,Scheumann Stadium,Ball State,Toledo,fbs,fbs,Mid-American,Mid-American,31,24
+332710135,2013,5,regular,2013-09-28T19:30:00.000Z,False,True,False,True,3953.0,Huntington Bank Stadium,Minnesota,Iowa,fbs,fbs,Big Ten,Big Ten,7,23
+332712084,2013,5,regular,2013-09-28T19:30:00.000Z,False,True,False,False,3965.0,UB Stadium,Buffalo,UConn,fbs,fbs,Mid-American,American Athletic,41,12
+332710087,2013,5,regular,2013-09-28T19:30:00.000Z,False,True,False,False,3855.0,Notre Dame Stadium,Notre Dame,Oklahoma,fbs,fbs,FBS Independents,Big 12,21,35
+332710103,2013,5,regular,2013-09-28T19:30:00.000Z,False,True,False,True,3615.0,"Alumni Stadium (Chestnut Hill, MA)",Boston College,Florida State,fbs,fbs,ACC,ACC,34,48
+332710036,2013,5,regular,2013-09-28T19:30:00.000Z,False,True,False,False,3761.0,Sonny Lubick Field at Hughes Stadium,Colorado State,UTEP,fbs,fbs,Mountain West,Conference USA,59,42
+332710152,2013,5,regular,2013-09-28T19:30:00.000Z,False,True,False,False,3670.0,Carter-Finley Stadium,NC State,Central Michigan,fbs,fbs,ACC,Mid-American,48,14
+332710228,2013,5,regular,2013-09-28T19:30:00.000Z,False,True,False,True,3836.0,"Memorial Stadium (Clemson, SC)",Clemson,Wake Forest,fbs,fbs,ACC,ACC,56,7
+332710061,2013,5,regular,2013-09-28T19:30:00.000Z,False,True,False,True,3917.0,Sanford Stadium,Georgia,LSU,fbs,fbs,SEC,SEC,44,41
+332712348,2013,5,regular,2013-09-28T20:00:00.000Z,False,True,True,False,,,Louisiana Tech,Army,fbs,fbs,Conference USA,FBS Independents,16,35
+332712636,2013,5,regular,2013-09-28T20:00:00.000Z,False,True,False,False,3604.0,Alamodome,UTSA,Houston,fbs,fbs,Conference USA,American Athletic,28,59
+332710070,2013,5,regular,2013-09-28T21:00:00.000Z,False,True,False,False,3791.0,Kibbie Dome,Idaho,Temple,fbs,fbs,FBS Independents,American Athletic,26,24
+332710333,2013,5,regular,2013-09-28T22:30:00.000Z,False,True,False,True,3657.0,Bryant-Denny Stadium,Alabama,Ole Miss,fbs,fbs,SEC,SEC,25,0
+332712433,2013,5,regular,2013-09-28T23:00:00.000Z,False,True,False,False,3817.0,Malone Stadium,UL Monroe,Tulane,fbs,fbs,Sun Belt,Conference USA,14,31
+332710242,2013,5,regular,2013-09-28T23:00:00.000Z,False,True,False,True,3895.0,Rice Stadium,Rice,Florida Atlantic,fbs,fbs,Conference USA,Conference USA,18,14
+332710008,2013,5,regular,2013-09-28T23:00:00.000Z,False,True,False,True,3887.0,Razorback Stadium,Arkansas,Texas A&M,fbs,fbs,SEC,SEC,33,45
+332710326,2013,5,regular,2013-09-28T23:00:00.000Z,False,True,False,False,3644.0,Bobcat Stadium (TX),Texas State,Wyoming,fbs,fbs,Sun Belt,Mountain West,42,21
+332710264,2013,5,regular,2013-09-28T23:00:00.000Z,False,True,False,True,3765.0,Husky Stadium,Washington,Arizona,fbs,fbs,Pac-12,Pac-12,31,13
+332712711,2013,5,regular,2013-09-28T23:00:00.000Z,False,True,False,True,3980.0,Waldo Stadium,Western Michigan,Kent State,fbs,fbs,Mid-American,Mid-American,14,32
+332710096,2013,5,regular,2013-09-28T23:00:00.000Z,False,True,False,True,3683.0,Kroger Field,Kentucky,Florida,fbs,fbs,SEC,SEC,7,24
+332710142,2013,5,regular,2013-09-28T23:30:00.000Z,False,True,False,False,3838.0,Memorial Stadium,Missouri,Arkansas State,fbs,fbs,SEC,Sun Belt,41,19
+332710238,2013,5,regular,2013-09-28T23:30:00.000Z,False,True,False,False,3973.0,FirstBank Stadium,Vanderbilt,UAB,fbs,fbs,SEC,Conference USA,52,24
+332710167,2013,5,regular,2013-09-29T00:00:00.000Z,False,True,False,True,3971.0,University Stadium (NM),New Mexico,UNLV,fbs,fbs,Mountain West,Mountain West,42,56
+332712440,2013,5,regular,2013-09-29T00:00:00.000Z,False,True,False,True,3816.0,Mackay Stadium,Nevada,Air Force,fbs,fbs,Mountain West,Mountain West,45,42
+332710194,2013,5,regular,2013-09-29T00:00:00.000Z,False,True,False,True,3861.0,Ohio Stadium,Ohio State,Wisconsin,fbs,fbs,Big Ten,Big Ten,31,24
+332710166,2013,5,regular,2013-09-29T00:00:00.000Z,False,True,False,False,3601.0,Aggie Memorial Stadium,New Mexico State,San Diego State,fbs,fbs,FBS Independents,Mountain West,16,26
+332710265,2013,5,regular,2013-09-29T02:00:00.000Z,False,True,False,True,,,Washington State,Stanford,fbs,fbs,Pac-12,Pac-12,17,55
+332710068,2013,5,regular,2013-09-29T02:15:00.000Z,False,True,False,False,3653.0,Albertsons Stadium,Boise State,Southern Miss,fbs,fbs,Mountain West,Conference USA,60,7
+332710009,2013,5,regular,2013-09-29T02:30:00.000Z,False,True,False,True,3947.0,Mountain America Stadium,Arizona State,USC,fbs,fbs,Pac-12,Pac-12,62,41
+332712483,2013,5,regular,2013-09-29T02:30:00.000Z,False,True,False,True,3626.0,Autzen Stadium,Oregon,California,fbs,fbs,Pac-12,Pac-12,55,16
+332710062,2013,5,regular,2013-09-29T04:00:00.000Z,False,True,False,True,3610.0,Aloha Stadium,Hawai'i,Fresno State,fbs,fbs,Mountain West,Mountain West,37,42
+332760066,2013,6,regular,2013-10-03T23:30:00.000Z,False,True,False,True,3772.0,Jack Trice Stadium,Iowa State,Texas,fbs,fbs,Big 12,Big 12,30,31
+332762433,2013,6,regular,2013-10-03T23:30:00.000Z,False,True,False,True,3817.0,Malone Stadium,UL Monroe,Western Kentucky,fbs,fbs,Sun Belt,Sun Belt,10,31
+332760254,2013,6,regular,2013-10-04T02:00:00.000Z,False,True,False,True,587.0,Rice-Eccles Stadium,Utah,UCLA,fbs,fbs,Pac-12,Pac-12,27,34
+332770328,2013,6,regular,2013-10-05T00:00:00.000Z,False,True,False,False,3905.0,Maverik Stadium,Utah State,BYU,fbs,fbs,Mountain West,FBS Independents,14,31
+332770021,2013,6,regular,2013-10-05T01:00:00.000Z,False,True,False,True,3932.0,Qualcomm Stadium,San Diego State,Nevada,fbs,fbs,Mountain West,Mountain West,51,44
+332782426,2013,6,regular,2013-10-05T15:30:00.000Z,False,True,False,False,3852.0,Navy-Marine Corps Memorial Stadium,Navy,Air Force,fbs,fbs,FBS Independents,Mountain West,28,10
+332782294,2013,6,regular,2013-10-05T16:00:00.000Z,False,True,False,True,3793.0,Kinnick Stadium,Iowa,Michigan State,fbs,fbs,Big Ten,Big Ten,14,26
+332780258,2013,6,regular,2013-10-05T16:00:00.000Z,False,True,False,False,3923.0,Scott Stadium,Virginia,Ball State,fbs,fbs,ACC,Mid-American,27,48
+332780158,2013,6,regular,2013-10-05T16:00:00.000Z,False,True,False,True,3834.0,"Memorial Stadium (Lincoln, NE)",Nebraska,Illinois,fbs,fbs,Big Ten,Big Ten,39,19
+332780052,2013,6,regular,2013-10-05T16:00:00.000Z,False,True,False,True,3697.0,Doak Campbell Stadium,Florida State,Maryland,fbs,fbs,ACC,ACC,63,0
+332782084,2013,6,regular,2013-10-05T16:00:00.000Z,False,True,False,True,3965.0,UB Stadium,Buffalo,Eastern Michigan,fbs,fbs,Mid-American,Mid-American,42,14
+332780084,2013,6,regular,2013-10-05T16:00:00.000Z,False,True,False,True,3830.0,"Memorial Stadium (Bloomington, IN)",Indiana,Penn State,fbs,fbs,Big Ten,Big Ten,44,24
+332782567,2013,6,regular,2013-10-05T16:00:00.000Z,False,True,False,True,3735.0,Gerald J. Ford Stadium,SMU,Rutgers,fbs,fbs,American Athletic,American Athletic,52,55
+332780218,2013,6,regular,2013-10-05T16:00:00.000Z,False,True,False,True,3806.0,Lincoln Financial Field,Temple,Louisville,fbs,fbs,American Athletic,American Athletic,7,30
+332782305,2013,6,regular,2013-10-05T16:00:00.000Z,False,True,False,True,3833.0,Memorial Stadium,Kansas,Texas Tech,fbs,fbs,Big 12,Big 12,16,54
+332780333,2013,6,regular,2013-10-05T16:21:00.000Z,False,True,False,False,3657.0,Bryant-Denny Stadium,Alabama,Georgia State,fbs,fbs,SEC,Sun Belt,45,3
+332780259,2013,6,regular,2013-10-05T16:30:00.000Z,False,True,False,True,3799.0,Lane Stadium,Virginia Tech,North Carolina,fbs,fbs,ACC,ACC,27,17
+332780193,2013,6,regular,2013-10-05T17:00:00.000Z,False,True,False,True,3996.0,Yager Stadium,Miami (OH),Central Michigan,fbs,fbs,Mid-American,Mid-American,9,21
+332780103,2013,6,regular,2013-10-05T17:00:00.000Z,False,True,False,False,3615.0,"Alumni Stadium (Chestnut Hill, MA)",Boston College,Army,fbs,fbs,ACC,FBS Independents,48,27
+332782653,2013,6,regular,2013-10-05T17:00:00.000Z,False,True,False,True,3975.0,Veterans Memorial Stadium (AL),Troy,South Alabama,fbs,fbs,Sun Belt,Sun Belt,34,33
+332780276,2013,6,regular,2013-10-05T18:00:00.000Z,False,True,False,True,3775.0,Joan C. Edwards Stadium,Marshall,UTSA,fbs,fbs,Conference USA,Conference USA,34,10
+332782006,2013,6,regular,2013-10-05T18:00:00.000Z,False,True,False,True,3768.0,InfoCision Stadium,Akron,Ohio,fbs,fbs,Mid-American,Mid-American,3,43
+332780005,2013,6,regular,2013-10-05T19:00:00.000Z,False,True,False,True,3803.0,Legion Field,UAB,Florida Atlantic,fbs,fbs,Conference USA,Conference USA,23,37
+332782649,2013,6,regular,2013-10-05T19:00:00.000Z,False,True,False,True,3739.0,Glass Bowl,Toledo,Western Michigan,fbs,fbs,Mid-American,Mid-American,47,20
+332780183,2013,6,regular,2013-10-05T19:30:00.000Z,False,True,False,True,1964.0,JMA Wireless Dome,Syracuse,Clemson,fbs,fbs,ACC,ACC,14,49
+332782309,2013,6,regular,2013-10-05T19:30:00.000Z,False,True,False,True,3696.0,Dix Stadium,Kent State,Northern Illinois,fbs,fbs,Mid-American,Mid-American,24,38
+332782655,2013,6,regular,2013-10-05T19:30:00.000Z,False,True,False,True,3493.0,Caesars Superdome,Tulane,North Texas,fbs,fbs,Conference USA,Conference USA,24,21
+332782393,2013,6,regular,2013-10-05T19:30:00.000Z,False,True,False,True,3725.0,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,East Carolina,fbs,fbs,Conference USA,Conference USA,17,24
+332780154,2013,6,regular,2013-10-05T19:30:00.000Z,False,True,False,True,3630.0,Allegacy Federal Credit Union Stadium,Wake Forest,NC State,fbs,fbs,ACC,ACC,28,13
+332782633,2013,6,regular,2013-10-05T19:30:00.000Z,False,True,False,True,3853.0,Neyland Stadium,Tennessee,Georgia,fbs,fbs,SEC,SEC,31,34
+332780202,2013,6,regular,2013-10-05T19:30:00.000Z,False,True,False,True,3674.0,Chapman Stadium,Tulsa,Rice,fbs,fbs,Conference USA,Conference USA,27,30
+332780197,2013,6,regular,2013-10-05T19:30:00.000Z,False,True,False,True,3646.0,Boone Pickens Stadium,Oklahoma State,Kansas State,fbs,fbs,Big 12,Big 12,33,29
+332780189,2013,6,regular,2013-10-05T19:30:00.000Z,False,True,False,True,3700.0,Doyt L. Perry Stadium,Bowling Green,Massachusetts,fbs,fbs,Mid-American,Mid-American,28,7
+332780130,2013,6,regular,2013-10-05T19:30:00.000Z,False,True,False,True,3558.0,Michigan Stadium,Michigan,Minnesota,fbs,fbs,Big Ten,Big Ten,42,13
+332782390,2013,6,regular,2013-10-05T19:30:00.000Z,False,True,False,True,3948.0,Hard Rock Stadium,Miami,Georgia Tech,fbs,fbs,ACC,ACC,45,30
+332780025,2013,6,regular,2013-10-05T20:00:00.000Z,False,True,False,True,3831.0,California Memorial Stadium,California,Washington State,fbs,fbs,Pac-12,Pac-12,22,44
+332782572,2013,6,regular,2013-10-05T20:00:00.000Z,False,True,False,True,3815.0,M. M. Roberts Stadium,Southern Miss,Florida International,fbs,fbs,Conference USA,Conference USA,23,24
+332780235,2013,6,regular,2013-10-05T20:30:00.000Z,False,True,False,True,3805.0,Simmons Bank Liberty Stadium,Memphis,UCF,fbs,fbs,American Athletic,American Athletic,17,24
+332780070,2013,6,regular,2013-10-05T21:00:00.000Z,False,True,False,False,3791.0,Kibbie Dome,Idaho,Fresno State,fbs,fbs,FBS Independents,Mountain West,14,61
+332780038,2013,6,regular,2013-10-05T22:00:00.000Z,False,True,False,True,3726.0,Folsom Field,Colorado,Oregon,fbs,fbs,Pac-12,Pac-12,16,57
+332780309,2013,6,regular,2013-10-05T23:00:00.000Z,False,True,False,True,3666.0,Cajun Field,Louisiana,Texas State,fbs,fbs,Sun Belt,Sun Belt,48,24
+332780002,2013,6,regular,2013-10-05T23:00:00.000Z,False,True,False,True,3785.0,Jordan-Hare Stadium,Auburn,Ole Miss,fbs,fbs,SEC,SEC,30,22
+332780167,2013,6,regular,2013-10-05T23:00:00.000Z,False,True,False,False,3971.0,University Stadium (NM),New Mexico,New Mexico State,fbs,fbs,Mountain West,FBS Independents,66,17
+332780201,2013,6,regular,2013-10-05T23:00:00.000Z,False,True,False,True,3835.0,"Memorial Stadium (Norman, OK)",Oklahoma,TCU,fbs,fbs,Big 12,Big 12,20,17
+332780344,2013,6,regular,2013-10-05T23:00:00.000Z,False,True,False,True,3693.0,Davis Wade Stadium,Mississippi State,LSU,fbs,fbs,SEC,SEC,26,59
+332780057,2013,6,regular,2013-10-05T23:00:00.000Z,False,True,False,True,3634.0,Ben Hill Griffin Stadium,Florida,Arkansas,fbs,fbs,SEC,SEC,30,10
+332780058,2013,6,regular,2013-10-05T23:00:00.000Z,False,True,False,True,3886.0,Raymond James Stadium,South Florida,Cincinnati,fbs,fbs,American Athletic,American Athletic,26,20
+332782579,2013,6,regular,2013-10-05T23:30:00.000Z,False,True,False,True,3994.0,Williams-Brice Stadium,South Carolina,Kentucky,fbs,fbs,SEC,SEC,35,28
+332780087,2013,6,regular,2013-10-05T23:30:00.000Z,False,True,True,False,,,Notre Dame,Arizona State,fbs,fbs,FBS Independents,Pac-12,37,34
+332782638,2013,6,regular,2013-10-05T23:30:00.000Z,False,True,False,True,3946.0,Sun Bowl,UTEP,Louisiana Tech,fbs,fbs,Conference USA,Conference USA,35,38
+332780238,2013,6,regular,2013-10-05T23:30:00.000Z,False,True,False,True,3973.0,FirstBank Stadium,Vanderbilt,Missouri,fbs,fbs,SEC,SEC,28,51
+332780077,2013,6,regular,2013-10-06T00:00:00.000Z,False,True,False,True,3911.0,Ryan Field,Northwestern,Ohio State,fbs,fbs,Big Ten,Big Ten,30,40
+332780239,2013,6,regular,2013-10-06T00:00:00.000Z,False,True,False,True,3724.0,Floyd Casey Stadium,Baylor,West Virginia,fbs,fbs,Big 12,Big 12,73,42
+332780024,2013,6,regular,2013-10-06T02:30:00.000Z,False,True,False,True,3940.0,Stanford Stadium,Stanford,Washington,fbs,fbs,Pac-12,Pac-12,31,28
+332780062,2013,6,regular,2013-10-06T04:00:00.000Z,False,True,False,True,3610.0,Aloha Stadium,Hawai'i,San José State,fbs,fbs,Mountain West,Mountain West,27,37
+332830097,2013,7,regular,2013-10-10T23:30:00.000Z,False,True,False,True,3873.0,L&N Federal Credit Union Stadium,Louisville,Rutgers,fbs,fbs,American Athletic,American Athletic,24,10
+332832005,2013,7,regular,2013-10-11T01:00:00.000Z,False,True,False,True,3713.0,Falcon Stadium,Air Force,San Diego State,fbs,fbs,Mountain West,Mountain West,20,27
+332830030,2013,7,regular,2013-10-11T02:30:00.000Z,False,True,False,True,477.0,Los Angeles Memorial Coliseum,USC,Arizona,fbs,fbs,Pac-12,Pac-12,38,31
+332842132,2013,7,regular,2013-10-12T00:30:00.000Z,False,True,False,True,3854.0,Nippert Stadium,Cincinnati,Temple,fbs,fbs,American Athletic,American Athletic,38,20
+332850127,2013,7,regular,2013-10-12T16:00:00.000Z,False,True,False,True,3936.0,Spartan Stadium,Michigan State,Indiana,fbs,fbs,Big Ten,Big Ten,42,28
+332850251,2013,7,regular,2013-10-12T16:00:00.000Z,False,True,True,True,,,Texas,Oklahoma,fbs,fbs,Big 12,Big 12,36,20
+332850248,2013,7,regular,2013-10-12T16:00:00.000Z,False,True,False,True,,,Houston,Memphis,fbs,fbs,American Athletic,American Athletic,25,15
+332850061,2013,7,regular,2013-10-12T16:00:00.000Z,False,True,False,True,3917.0,Sanford Stadium,Georgia,Missouri,fbs,fbs,SEC,SEC,26,41
+332850041,2013,7,regular,2013-10-12T16:00:00.000Z,False,True,False,True,3892.0,Pratt & Whitney Stadium,UConn,South Florida,fbs,fbs,American Athletic,American Athletic,10,13
+332852509,2013,7,regular,2013-10-12T16:00:00.000Z,False,True,False,True,3907.0,Ross-Ade Stadium,Purdue,Nebraska,fbs,fbs,Big Ten,Big Ten,7,44
+332850259,2013,7,regular,2013-10-12T16:00:00.000Z,False,True,False,True,3799.0,Lane Stadium,Virginia Tech,Pittsburgh,fbs,fbs,ACC,ACC,19,9
+332852628,2013,7,regular,2013-10-12T16:00:00.000Z,False,True,False,True,3616.0,Amon G. Carter Stadium,TCU,Kansas,fbs,fbs,Big 12,Big 12,27,17
+332852641,2013,7,regular,2013-10-12T16:00:00.000Z,False,True,False,True,3784.0,Jones AT&T Stadium,Texas Tech,Iowa State,fbs,fbs,Big 12,Big 12,42,35
+332850349,2013,7,regular,2013-10-12T16:00:00.000Z,False,True,False,False,3841.0,Michie Stadium,Army,Eastern Michigan,fbs,fbs,FBS Independents,Mid-American,50,25
+332850008,2013,7,regular,2013-10-12T16:21:00.000Z,False,True,False,True,3887.0,Razorback Stadium,Arkansas,South Carolina,fbs,fbs,SEC,SEC,7,52
+332850150,2013,7,regular,2013-10-12T16:30:00.000Z,False,True,False,False,3982.0,Wallace Wade Stadium,Duke,Navy,fbs,fbs,ACC,FBS Independents,35,7
+332852711,2013,7,regular,2013-10-12T18:00:00.000Z,False,True,False,True,3980.0,Waldo Stadium,Western Michigan,Buffalo,fbs,fbs,Mid-American,Mid-American,0,33
+332850195,2013,7,regular,2013-10-12T18:00:00.000Z,False,True,False,True,3876.0,Peden Stadium,Ohio,Central Michigan,fbs,fbs,Mid-American,Mid-American,23,26
+332850002,2013,7,regular,2013-10-12T18:00:00.000Z,False,True,False,False,3785.0,Jordan-Hare Stadium,Auburn,Western Carolina,fbs,fcs,SEC,Southern,62,3
+332850113,2013,7,regular,2013-10-12T19:00:00.000Z,False,True,False,True,3738.0,Gillette Stadium,Massachusetts,Miami (OH),fbs,fbs,Mid-American,Mid-American,17,10
+332852050,2013,7,regular,2013-10-12T19:00:00.000Z,False,True,False,True,3919.0,Scheumann Stadium,Ball State,Kent State,fbs,fbs,Mid-American,Mid-American,27,24
+332852655,2013,7,regular,2013-10-12T19:30:00.000Z,False,True,False,True,3493.0,Caesars Superdome,Tulane,East Carolina,fbs,fbs,Conference USA,Conference USA,36,33
+332850099,2013,7,regular,2013-10-12T19:30:00.000Z,False,True,False,True,3958.0,Tiger Stadium (LA),LSU,Florida,fbs,fbs,SEC,SEC,17,6
+332850120,2013,7,regular,2013-10-12T19:30:00.000Z,False,True,False,True,3665.0,SECU Stadium,Maryland,Virginia,fbs,fbs,ACC,ACC,27,26
+332850275,2013,7,regular,2013-10-12T19:30:00.000Z,False,True,False,True,347.0,Camp Randall Stadium,Wisconsin,Northwestern,fbs,fbs,Big Ten,Big Ten,35,6
+332850036,2013,7,regular,2013-10-12T19:30:00.000Z,False,True,False,True,3761.0,Sonny Lubick Field at Hughes Stadium,Colorado State,San José State,fbs,fbs,Mountain West,Mountain West,27,34
+332852247,2013,7,regular,2013-10-12T19:30:00.000Z,False,True,False,True,3495.0,Georgia Dome,Georgia State,Troy,fbs,fbs,Sun Belt,Sun Belt,28,35
+332850152,2013,7,regular,2013-10-12T19:30:00.000Z,False,True,False,True,3670.0,Carter-Finley Stadium,NC State,Syracuse,fbs,fbs,ACC,ACC,10,24
+332852751,2013,7,regular,2013-10-12T19:30:00.000Z,False,True,False,True,3984.0,War Memorial Stadium,Wyoming,New Mexico,fbs,fbs,Mountain West,Mountain West,38,31
+332852306,2013,7,regular,2013-10-12T19:30:00.000Z,False,True,False,True,3636.0,Bill Snyder Family Stadium,Kansas State,Baylor,fbs,fbs,Big 12,Big 12,25,35
+332850228,2013,7,regular,2013-10-12T19:30:00.000Z,False,True,False,True,3836.0,"Memorial Stadium (Clemson, SC)",Clemson,Boston College,fbs,fbs,ACC,ACC,24,14
+332850264,2013,7,regular,2013-10-12T20:00:00.000Z,False,True,False,True,3765.0,Husky Stadium,Washington,Oregon,fbs,fbs,Pac-12,Pac-12,24,45
+332852636,2013,7,regular,2013-10-12T20:00:00.000Z,False,True,False,True,3604.0,Alamodome,UTSA,Rice,fbs,fbs,Conference USA,Conference USA,21,27
+332852226,2013,7,regular,2013-10-12T21:00:00.000Z,False,True,False,True,3715.0,FAU Stadium,Florida Atlantic,Marshall,fbs,fbs,Conference USA,Conference USA,23,24
+332850213,2013,7,regular,2013-10-12T21:00:00.000Z,False,True,False,True,3632.0,Beaver Stadium,Penn State,Michigan,fbs,fbs,Big Ten,Big Ten,43,40
+332852459,2013,7,regular,2013-10-12T21:00:00.000Z,False,True,False,True,3764.0,Huskie Stadium,Northern Illinois,Akron,fbs,fbs,Mid-American,Mid-American,27,20
+332850254,2013,7,regular,2013-10-12T22:00:00.000Z,False,True,False,True,587.0,Rice-Eccles Stadium,Utah,Stanford,fbs,fbs,Pac-12,Pac-12,27,21
+332850252,2013,7,regular,2013-10-12T23:00:00.000Z,False,True,False,False,3801.0,LaVell Edwards Stadium,BYU,Georgia Tech,fbs,fbs,FBS Independents,ACC,38,20
+332850249,2013,7,regular,2013-10-12T23:00:00.000Z,False,True,False,True,3825.0,DATCU Stadium,North Texas,Middle Tennessee,fbs,fbs,Conference USA,Conference USA,34,7
+332850326,2013,7,regular,2013-10-12T23:00:00.000Z,False,True,False,True,3644.0,Bobcat Stadium (TX),Texas State,UL Monroe,fbs,fbs,Sun Belt,Sun Belt,14,21
+332852032,2013,7,regular,2013-10-12T23:00:00.000Z,False,True,False,False,3625.0,Centennial Bank Stadium,Arkansas State,Idaho,fbs,fbs,Sun Belt,FBS Independents,48,24
+332850096,2013,7,regular,2013-10-12T23:00:00.000Z,False,True,False,True,3683.0,Kroger Field,Kentucky,Alabama,fbs,fbs,SEC,SEC,7,48
+332850344,2013,7,regular,2013-10-12T23:30:00.000Z,False,True,False,False,3693.0,Davis Wade Stadium,Mississippi State,Bowling Green,fbs,fbs,SEC,Mid-American,21,20
+332852229,2013,7,regular,2013-10-12T23:30:00.000Z,False,True,False,True,218.0,FIU Stadium,Florida International,UAB,fbs,fbs,Conference USA,Conference USA,24,27
+332850328,2013,7,regular,2013-10-13T00:00:00.000Z,False,True,False,True,3905.0,Maverik Stadium,Utah State,Boise State,fbs,fbs,Mountain West,Mountain West,23,34
+332852439,2013,7,regular,2013-10-13T00:00:00.000Z,False,True,False,True,3914.0,Sam Boyd Stadium,UNLV,Hawai'i,fbs,fbs,Mountain West,Mountain West,39,37
+332852638,2013,7,regular,2013-10-13T00:00:00.000Z,False,True,False,True,3946.0,Sun Bowl,UTEP,Tulsa,fbs,fbs,Conference USA,Conference USA,20,34
+332850145,2013,7,regular,2013-10-13T00:30:00.000Z,False,True,False,True,3974.0,Vaught-Hemingway Stadium,Ole Miss,Texas A&M,fbs,fbs,SEC,SEC,38,41
+332850009,2013,7,regular,2013-10-13T02:00:00.000Z,False,True,False,True,3947.0,Mountain America Stadium,Arizona State,Colorado,fbs,fbs,Pac-12,Pac-12,54,13
+332850265,2013,7,regular,2013-10-13T02:30:00.000Z,False,True,False,True,3820.0,Gesa Field,Washington State,Oregon State,fbs,fbs,Pac-12,Pac-12,24,52
+332850026,2013,7,regular,2013-10-13T02:30:00.000Z,False,True,False,True,1056.0,Rose Bowl,UCLA,California,fbs,fbs,Pac-12,Pac-12,37,10
+332880098,2013,8,regular,2013-10-16T00:00:00.000Z,False,True,False,True,3796.0,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Louisiana,fbs,fbs,Sun Belt,Sun Belt,20,37
+332900153,2013,8,regular,2013-10-17T23:30:00.000Z,False,True,False,True,3787.0,Kenan Stadium,North Carolina,Miami,fbs,fbs,ACC,ACC,23,27
+332910097,2013,8,regular,2013-10-19T00:00:00.000Z,False,True,False,True,3873.0,L&N Federal Credit Union Stadium,Louisville,UCF,fbs,fbs,American Athletic,American Athletic,35,38
+332920277,2013,8,regular,2013-10-19T16:00:00.000Z,False,True,False,True,3842.0,Milan Puskar Stadium,West Virginia,Texas Tech,fbs,fbs,Big 12,Big 12,27,37
+332920197,2013,8,regular,2013-10-19T16:00:00.000Z,False,True,False,True,3646.0,Boone Pickens Stadium,Oklahoma State,TCU,fbs,fbs,Big 12,Big 12,24,10
+332920235,2013,8,regular,2013-10-19T16:00:00.000Z,False,True,False,True,3805.0,Simmons Bank Liberty Stadium,Memphis,SMU,fbs,fbs,American Athletic,American Athletic,29,34
+332920238,2013,8,regular,2013-10-19T16:00:00.000Z,False,True,False,True,3973.0,FirstBank Stadium,Vanderbilt,Georgia,fbs,fbs,SEC,SEC,31,27
+332920151,2013,8,regular,2013-10-19T16:00:00.000Z,False,True,False,True,3699.0,Dowdy-Ficklen Stadium,East Carolina,Southern Miss,fbs,fbs,Conference USA,Conference USA,55,14
+332922633,2013,8,regular,2013-10-19T16:00:00.000Z,False,True,False,True,3853.0,Neyland Stadium,Tennessee,South Carolina,fbs,fbs,SEC,SEC,23,21
+332922649,2013,8,regular,2013-10-19T16:00:00.000Z,False,True,False,False,3739.0,Glass Bowl,Toledo,Navy,fbs,fbs,Mid-American,FBS Independents,45,44
+332920127,2013,8,regular,2013-10-19T16:00:00.000Z,False,True,False,True,3936.0,Spartan Stadium,Michigan State,Purdue,fbs,fbs,Big Ten,Big Ten,14,0
+332920077,2013,8,regular,2013-10-19T16:00:00.000Z,False,True,False,True,3911.0,Ryan Field,Northwestern,Minnesota,fbs,fbs,Big Ten,Big Ten,17,20
+332922132,2013,8,regular,2013-10-19T16:00:00.000Z,False,True,False,True,3854.0,Nippert Stadium,Cincinnati,UConn,fbs,fbs,American Athletic,American Athletic,41,16
+332920142,2013,8,regular,2013-10-19T16:21:00.000Z,False,True,False,True,3838.0,Memorial Stadium,Missouri,Florida,fbs,fbs,SEC,SEC,36,17
+332920059,2013,8,regular,2013-10-19T16:30:00.000Z,False,True,False,True,721.0,Bobby Dodd Stadium,Georgia Tech,Syracuse,fbs,fbs,ACC,ACC,56,0
+332922199,2013,8,regular,2013-10-19T17:00:00.000Z,False,True,False,True,3912.0,Rynearson Stadium,Eastern Michigan,Ohio,fbs,fbs,Mid-American,Mid-American,28,56
+332920193,2013,8,regular,2013-10-19T17:00:00.000Z,False,True,False,True,3996.0,Yager Stadium,Miami (OH),Akron,fbs,fbs,Mid-American,Mid-American,17,24
+332920218,2013,8,regular,2013-10-19T17:00:00.000Z,False,True,False,False,3806.0,Lincoln Financial Field,Temple,Army,fbs,fbs,American Athletic,FBS Independents,33,14
+332922711,2013,8,regular,2013-10-19T18:00:00.000Z,False,True,False,True,3980.0,Waldo Stadium,Western Michigan,Ball State,fbs,fbs,Mid-American,Mid-American,17,38
+332920038,2013,8,regular,2013-10-19T18:00:00.000Z,False,True,False,False,3726.0,Folsom Field,Colorado,Charleston Southern,fbs,fcs,Pac-12,Big South,43,10
+332922751,2013,8,regular,2013-10-19T18:00:00.000Z,False,True,False,True,3984.0,War Memorial Stadium,Wyoming,Colorado State,fbs,fbs,Mountain West,Mountain West,22,52
+332922117,2013,8,regular,2013-10-19T19:00:00.000Z,False,True,False,True,3786.0,Kelly/Shorts Stadium,Central Michigan,Northern Illinois,fbs,fbs,Mid-American,Mid-American,17,38
+332920006,2013,8,regular,2013-10-19T19:00:00.000Z,False,True,False,False,3797.0,Ladd Peebles Stadium,South Alabama,Kent State,fbs,fbs,Sun Belt,Mid-American,38,21
+332922084,2013,8,regular,2013-10-19T19:30:00.000Z,False,True,False,True,3965.0,UB Stadium,Buffalo,Massachusetts,fbs,fbs,Mid-American,Mid-American,32,3
+332922348,2013,8,regular,2013-10-19T19:30:00.000Z,False,True,False,True,3776.0,Joe Aillet Stadium,Louisiana Tech,North Texas,fbs,fbs,Conference USA,Conference USA,13,28
+332920248,2013,8,regular,2013-10-19T19:30:00.000Z,False,True,False,False,,,Houston,BYU,fbs,fbs,American Athletic,FBS Independents,46,47
+332920258,2013,8,regular,2013-10-19T19:30:00.000Z,False,True,False,True,3923.0,Scott Stadium,Virginia,Duke,fbs,fbs,ACC,ACC,22,35
+332920130,2013,8,regular,2013-10-19T19:30:00.000Z,False,True,False,True,3558.0,Michigan Stadium,Michigan,Indiana,fbs,fbs,Big Ten,Big Ten,63,47
+332920154,2013,8,regular,2013-10-19T19:30:00.000Z,False,True,False,True,3630.0,Allegacy Federal Credit Union Stadium,Wake Forest,Maryland,fbs,fbs,ACC,ACC,34,10
+332920245,2013,8,regular,2013-10-19T19:30:00.000Z,False,True,False,True,3795.0,Kyle Field,Texas A&M,Auburn,fbs,fbs,SEC,SEC,41,45
+332922305,2013,8,regular,2013-10-19T19:30:00.000Z,False,True,False,True,3833.0,Memorial Stadium,Kansas,Oklahoma,fbs,fbs,Big 12,Big 12,19,34
+332920194,2013,8,regular,2013-10-19T19:30:00.000Z,False,True,False,True,3861.0,Ohio Stadium,Ohio State,Iowa,fbs,fbs,Big Ten,Big Ten,34,24
+332920024,2013,8,regular,2013-10-19T19:30:00.000Z,False,True,False,True,3940.0,Stanford Stadium,Stanford,UCLA,fbs,fbs,Pac-12,Pac-12,24,10
+332920009,2013,8,regular,2013-10-19T22:00:00.000Z,False,True,False,True,3947.0,Mountain America Stadium,Arizona State,Washington,fbs,fbs,Pac-12,Pac-12,53,24
+332920221,2013,8,regular,2013-10-19T23:00:00.000Z,False,True,False,False,3752.0,Acrisure Stadium,Pittsburgh,Old Dominion,fbs,fcs,ACC,FCS Independents,35,24
+332920145,2013,8,regular,2013-10-19T23:00:00.000Z,False,True,False,True,3974.0,Vaught-Hemingway Stadium,Ole Miss,LSU,fbs,fbs,SEC,SEC,27,24
+332920239,2013,8,regular,2013-10-19T23:00:00.000Z,False,True,False,True,3724.0,Floyd Casey Stadium,Baylor,Iowa State,fbs,fbs,Big 12,Big 12,71,7
+332920326,2013,8,regular,2013-10-19T23:00:00.000Z,False,True,False,True,3644.0,Bobcat Stadium (TX),Texas State,Georgia State,fbs,fbs,Sun Belt,Sun Belt,24,17
+332920333,2013,8,regular,2013-10-19T23:00:00.000Z,False,True,False,True,3657.0,Bryant-Denny Stadium,Alabama,Arkansas,fbs,fbs,SEC,SEC,52,0
+332920087,2013,8,regular,2013-10-19T23:30:00.000Z,False,True,False,False,3855.0,Notre Dame Stadium,Notre Dame,USC,fbs,fbs,FBS Independents,Pac-12,14,10
+332920166,2013,8,regular,2013-10-20T00:00:00.000Z,False,True,False,False,3601.0,Aggie Memorial Stadium,New Mexico State,Rice,fbs,fbs,FBS Independents,Conference USA,19,45
+332920228,2013,8,regular,2013-10-20T00:00:00.000Z,False,True,False,True,3836.0,"Memorial Stadium (Clemson, SC)",Clemson,Florida State,fbs,fbs,ACC,ACC,14,51
+332920356,2013,8,regular,2013-10-20T00:00:00.000Z,False,True,False,True,3832.0,"Memorial Stadium (Champaign, IL)",Illinois,Wisconsin,fbs,fbs,Big Ten,Big Ten,32,56
+332920068,2013,8,regular,2013-10-20T00:00:00.000Z,False,True,False,True,3653.0,Albertsons Stadium,Boise State,Nevada,fbs,fbs,Mountain West,Mountain West,34,17
+332920167,2013,8,regular,2013-10-20T01:00:00.000Z,False,True,False,True,3971.0,University Stadium (NM),New Mexico,Utah State,fbs,fbs,Mountain West,Mountain West,10,45
+332922483,2013,8,regular,2013-10-20T02:00:00.000Z,False,True,False,True,3626.0,Autzen Stadium,Oregon,Washington State,fbs,fbs,Pac-12,Pac-12,62,38
+332920278,2013,8,regular,2013-10-20T02:00:00.000Z,False,True,False,True,3660.0,Valley Children's Stadium,Fresno State,UNLV,fbs,fbs,Mountain West,Mountain West,38,14
+332920012,2013,8,regular,2013-10-20T02:00:00.000Z,False,True,False,True,3619.0,Arizona Stadium,Arizona,Utah,fbs,fbs,Pac-12,Pac-12,35,24
+332920025,2013,8,regular,2013-10-20T02:30:00.000Z,False,True,False,True,3831.0,California Memorial Stadium,California,Oregon State,fbs,fbs,Pac-12,Pac-12,17,49
+332952032,2013,9,regular,2013-10-23T00:00:00.000Z,False,True,False,True,3625.0,Centennial Bank Stadium,Arkansas State,Louisiana,fbs,fbs,Sun Belt,Sun Belt,7,23
+332972393,2013,9,regular,2013-10-24T23:30:00.000Z,False,True,False,True,3725.0,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Marshall,fbs,fbs,Conference USA,Conference USA,51,49
+332970344,2013,9,regular,2013-10-24T23:30:00.000Z,False,True,False,True,3693.0,Davis Wade Stadium,Mississippi State,Kentucky,fbs,fbs,SEC,SEC,28,22
+332980252,2013,9,regular,2013-10-26T00:00:00.000Z,False,True,False,False,3801.0,LaVell Edwards Stadium,BYU,Boise State,fbs,fbs,FBS Independents,Mountain West,37,20
+332992006,2013,9,regular,2013-10-26T16:00:00.000Z,False,True,False,True,3768.0,InfoCision Stadium,Akron,Ball State,fbs,fbs,Mid-American,Mid-American,24,42
+332992390,2013,9,regular,2013-10-26T16:00:00.000Z,False,True,False,True,3948.0,Hard Rock Stadium,Miami,Wake Forest,fbs,fbs,ACC,ACC,24,21
+332990058,2013,9,regular,2013-10-26T16:00:00.000Z,False,True,False,True,3886.0,Raymond James Stadium,South Florida,Louisville,fbs,fbs,American Athletic,American Athletic,3,34
+332990066,2013,9,regular,2013-10-26T16:00:00.000Z,False,True,False,True,3772.0,Jack Trice Stadium,Iowa State,Oklahoma State,fbs,fbs,Big 12,Big 12,27,58
+332990164,2013,9,regular,2013-10-26T16:00:00.000Z,False,True,False,True,3754.0,High Point Solutions Stadium,Rutgers,Houston,fbs,fbs,American Athletic,American Athletic,14,49
+332992294,2013,9,regular,2013-10-26T16:00:00.000Z,False,True,False,True,3793.0,Kinnick Stadium,Iowa,Northwestern,fbs,fbs,Big Ten,Big Ten,17,10
+332992116,2013,9,regular,2013-10-26T16:00:00.000Z,False,True,False,True,3652.0,FBC Mortgage Stadium,UCF,UConn,fbs,fbs,American Athletic,American Athletic,62,17
+332990135,2013,9,regular,2013-10-26T16:00:00.000Z,False,True,False,True,3953.0,Huntington Bank Stadium,Minnesota,Nebraska,fbs,fbs,Big Ten,Big Ten,34,23
+332990245,2013,9,regular,2013-10-26T16:21:00.000Z,False,True,False,True,3795.0,Kyle Field,Texas A&M,Vanderbilt,fbs,fbs,SEC,SEC,56,24
+332990258,2013,9,regular,2013-10-26T16:30:00.000Z,False,True,False,True,3923.0,Scott Stadium,Virginia,Georgia Tech,fbs,fbs,ACC,ACC,25,35
+332992426,2013,9,regular,2013-10-26T17:00:00.000Z,False,True,False,False,3852.0,Navy-Marine Corps Memorial Stadium,Navy,Pittsburgh,fbs,fbs,FBS Independents,ACC,24,21
+332990195,2013,9,regular,2013-10-26T18:00:00.000Z,False,True,False,True,3876.0,Peden Stadium,Ohio,Miami (OH),fbs,fbs,Mid-American,Mid-American,41,16
+332990189,2013,9,regular,2013-10-26T18:30:00.000Z,False,True,False,True,3700.0,Doyt L. Perry Stadium,Bowling Green,Toledo,fbs,fbs,Mid-American,Mid-American,25,28
+332992567,2013,9,regular,2013-10-26T19:00:00.000Z,False,True,False,True,3735.0,Gerald J. Ford Stadium,SMU,Temple,fbs,fbs,American Athletic,American Athletic,59,49
+332990113,2013,9,regular,2013-10-26T19:00:00.000Z,False,True,False,True,3738.0,Gillette Stadium,Massachusetts,Western Michigan,fbs,fbs,Mid-American,Mid-American,30,31
+332990052,2013,9,regular,2013-10-26T19:30:00.000Z,False,True,False,True,3697.0,Doak Campbell Stadium,Florida State,NC State,fbs,fbs,ACC,ACC,49,17
+332992309,2013,9,regular,2013-10-26T19:30:00.000Z,False,True,False,True,3696.0,Dix Stadium,Kent State,Buffalo,fbs,fbs,Mid-American,Mid-American,21,41
+332992655,2013,9,regular,2013-10-26T19:30:00.000Z,False,True,False,True,3493.0,Caesars Superdome,Tulane,Tulsa,fbs,fbs,Conference USA,Conference USA,14,7
+332990242,2013,9,regular,2013-10-26T19:30:00.000Z,False,True,False,True,3895.0,Rice Stadium,Rice,UTEP,fbs,fbs,Conference USA,Conference USA,45,7
+332990356,2013,9,regular,2013-10-26T19:30:00.000Z,False,True,False,True,3832.0,"Memorial Stadium (Champaign, IL)",Illinois,Michigan State,fbs,fbs,Big Ten,Big Ten,3,42
+332990153,2013,9,regular,2013-10-26T19:30:00.000Z,False,True,False,True,3787.0,Kenan Stadium,North Carolina,Boston College,fbs,fbs,ACC,ACC,34,10
+332992459,2013,9,regular,2013-10-26T19:30:00.000Z,False,True,False,True,3764.0,Huskie Stadium,Northern Illinois,Eastern Michigan,fbs,fbs,Mid-American,Mid-American,59,20
+332990333,2013,9,regular,2013-10-26T19:30:00.000Z,False,True,False,True,3657.0,Bryant-Denny Stadium,Alabama,Tennessee,fbs,fbs,SEC,SEC,45,10
+332990259,2013,9,regular,2013-10-26T19:30:00.000Z,False,True,False,True,3799.0,Lane Stadium,Virginia Tech,Duke,fbs,fbs,ACC,ACC,10,13
+332990120,2013,9,regular,2013-10-26T19:30:00.000Z,False,True,False,True,3665.0,SECU Stadium,Maryland,Clemson,fbs,fbs,ACC,ACC,27,40
+332992306,2013,9,regular,2013-10-26T19:45:00.000Z,False,True,False,True,3636.0,Bill Snyder Family Stadium,Kansas State,West Virginia,fbs,fbs,Big 12,Big 12,35,12
+332990030,2013,9,regular,2013-10-26T20:00:00.000Z,False,True,False,True,477.0,Los Angeles Memorial Coliseum,USC,Utah,fbs,fbs,Pac-12,Pac-12,19,3
+332990098,2013,9,regular,2013-10-26T20:00:00.000Z,False,True,False,True,3796.0,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Troy,fbs,fbs,Sun Belt,Sun Belt,26,32
+332990201,2013,9,regular,2013-10-26T20:45:00.000Z,False,True,False,True,3835.0,"Memorial Stadium (Norman, OK)",Oklahoma,Texas Tech,fbs,fbs,Big 12,Big 12,38,30
+332992005,2013,9,regular,2013-10-26T21:00:00.000Z,False,True,False,False,3713.0,Falcon Stadium,Air Force,Notre Dame,fbs,fbs,Mountain West,FBS Independents,10,45
+332992636,2013,9,regular,2013-10-26T21:00:00.000Z,False,True,False,True,3604.0,Alamodome,UTSA,UAB,fbs,fbs,Conference USA,Conference USA,52,31
+332992229,2013,9,regular,2013-10-26T22:00:00.000Z,False,True,False,True,218.0,FIU Stadium,Florida International,Louisiana Tech,fbs,fbs,Conference USA,Conference USA,7,23
+332992440,2013,9,regular,2013-10-26T22:05:00.000Z,False,True,False,True,3816.0,Mackay Stadium,Nevada,UNLV,fbs,fbs,Mountain West,Mountain West,22,27
+332992572,2013,9,regular,2013-10-26T23:00:00.000Z,False,True,False,True,3815.0,M. M. Roberts Stadium,Southern Miss,North Texas,fbs,fbs,Conference USA,Conference USA,14,55
+332990142,2013,9,regular,2013-10-26T23:00:00.000Z,False,True,False,True,3838.0,Memorial Stadium,Missouri,South Carolina,fbs,fbs,SEC,SEC,24,27
+332992483,2013,9,regular,2013-10-26T23:00:00.000Z,False,True,False,True,3626.0,Autzen Stadium,Oregon,UCLA,fbs,fbs,Pac-12,Pac-12,42,14
+332992433,2013,9,regular,2013-10-26T23:00:00.000Z,False,True,False,True,3817.0,Malone Stadium,UL Monroe,Georgia State,fbs,fbs,Sun Belt,Sun Belt,38,10
+332990099,2013,9,regular,2013-10-26T23:00:00.000Z,False,True,False,False,3958.0,Tiger Stadium (LA),LSU,Furman,fbs,fcs,SEC,Southern,48,16
+332990023,2013,9,regular,2013-10-26T23:00:00.000Z,False,True,False,True,3935.0,CEFCU Stadium,San José State,Wyoming,fbs,fbs,Mountain West,Mountain West,51,44
+332990326,2013,9,regular,2013-10-26T23:00:00.000Z,False,True,False,True,3644.0,Bobcat Stadium (TX),Texas State,South Alabama,fbs,fbs,Sun Belt,Sun Belt,33,31
+332992305,2013,9,regular,2013-10-26T23:00:00.000Z,False,True,False,True,3833.0,Memorial Stadium,Kansas,Baylor,fbs,fbs,Big 12,Big 12,14,59
+332990145,2013,9,regular,2013-10-26T23:30:00.000Z,False,True,False,False,3974.0,Vaught-Hemingway Stadium,Ole Miss,Idaho,fbs,fbs,SEC,FBS Independents,59,14
+332992628,2013,9,regular,2013-10-26T23:30:00.000Z,False,True,False,True,3616.0,Amon G. Carter Stadium,TCU,Texas,fbs,fbs,Big 12,Big 12,7,30
+332990002,2013,9,regular,2013-10-26T23:30:00.000Z,False,True,False,False,3785.0,Jordan-Hare Stadium,Auburn,Florida Atlantic,fbs,fbs,SEC,Conference USA,45,10
+332990194,2013,9,regular,2013-10-27T00:00:00.000Z,False,True,False,True,3861.0,Ohio Stadium,Ohio State,Penn State,fbs,fbs,Big Ten,Big Ten,63,14
+332990166,2013,9,regular,2013-10-27T00:00:00.000Z,False,True,False,False,3601.0,Aggie Memorial Stadium,New Mexico State,Abilene Christian,fbs,fcs,FBS Independents,FCS Independents,34,29
+332990038,2013,9,regular,2013-10-27T00:00:00.000Z,False,True,False,True,3726.0,Folsom Field,Colorado,Arizona,fbs,fbs,Pac-12,Pac-12,20,44
+332990021,2013,9,regular,2013-10-27T02:30:00.000Z,False,True,False,True,3932.0,Qualcomm Stadium,San Diego State,Fresno State,fbs,fbs,Mountain West,Mountain West,28,35
+332990204,2013,9,regular,2013-10-27T02:30:00.000Z,False,True,False,True,3893.0,Reser Stadium,Oregon State,Stanford,fbs,fbs,Pac-12,Pac-12,12,20
+332990264,2013,9,regular,2013-10-27T03:00:00.000Z,False,True,False,True,3765.0,Husky Stadium,Washington,California,fbs,fbs,Pac-12,Pac-12,41,17
+332990062,2013,9,regular,2013-10-27T04:00:00.000Z,False,True,False,True,3610.0,Aloha Stadium,Hawai'i,Colorado State,fbs,fbs,Mountain West,Mountain West,28,35
+333030235,2013,10,regular,2013-10-31T00:00:00.000Z,False,True,False,True,3805.0,Simmons Bank Liberty Stadium,Memphis,Cincinnati,fbs,fbs,American Athletic,American Athletic,21,34
+333040248,2013,10,regular,2013-10-31T23:00:00.000Z,False,True,False,True,,,Houston,South Florida,fbs,fbs,American Athletic,American Athletic,35,23
+333040249,2013,10,regular,2013-10-31T23:30:00.000Z,False,True,False,True,3825.0,DATCU Stadium,North Texas,Rice,fbs,fbs,Conference USA,Conference USA,28,16
+333042653,2013,10,regular,2013-10-31T23:30:00.000Z,False,True,False,True,3975.0,Veterans Memorial Stadium (AL),Troy,UL Monroe,fbs,fbs,Sun Belt,Sun Belt,37,49
+333040265,2013,10,regular,2013-11-01T02:30:00.000Z,False,True,False,True,3820.0,Gesa Field,Washington State,Arizona State,fbs,fbs,Pac-12,Pac-12,21,55
+333050204,2013,10,regular,2013-11-02T01:00:00.000Z,False,True,False,True,3893.0,Reser Stadium,Oregon State,USC,fbs,fbs,Pac-12,Pac-12,14,31
+333062005,2013,10,regular,2013-11-02T16:00:00.000Z,False,True,False,False,3713.0,Falcon Stadium,Air Force,Army,fbs,fbs,Mountain West,FBS Independents,42,28
+333062294,2013,10,regular,2013-11-02T16:00:00.000Z,False,True,False,True,3793.0,Kinnick Stadium,Iowa,Wisconsin,fbs,fbs,Big Ten,Big Ten,9,28
+333060103,2013,10,regular,2013-11-02T16:00:00.000Z,False,True,False,True,3615.0,"Alumni Stadium (Chestnut Hill, MA)",Boston College,Virginia Tech,fbs,fbs,ACC,ACC,34,27
+333060213,2013,10,regular,2013-11-02T16:00:00.000Z,False,True,False,True,3632.0,Beaver Stadium,Penn State,Illinois,fbs,fbs,Big Ten,Big Ten,24,17
+333060113,2013,10,regular,2013-11-02T16:00:00.000Z,False,True,False,True,3738.0,Gillette Stadium,Massachusetts,Northern Illinois,fbs,fbs,Mid-American,Mid-American,19,63
+333060276,2013,10,regular,2013-11-02T16:00:00.000Z,False,True,False,True,3775.0,Joan C. Edwards Stadium,Marshall,Southern Miss,fbs,fbs,Conference USA,Conference USA,61,13
+333062509,2013,10,regular,2013-11-02T16:00:00.000Z,False,True,False,True,3907.0,Ross-Ade Stadium,Purdue,Ohio State,fbs,fbs,Big Ten,Big Ten,0,56
+333060164,2013,10,regular,2013-11-02T16:00:00.000Z,False,True,False,True,3754.0,High Point Solutions Stadium,Rutgers,Temple,fbs,fbs,American Athletic,American Athletic,23,20
+333062579,2013,10,regular,2013-11-02T16:21:00.000Z,False,True,False,True,3994.0,Williams-Brice Stadium,South Carolina,Mississippi State,fbs,fbs,SEC,SEC,34,16
+333060152,2013,10,regular,2013-11-02T16:30:00.000Z,False,True,False,True,3670.0,Carter-Finley Stadium,NC State,North Carolina,fbs,fbs,ACC,ACC,19,27
+333060183,2013,10,regular,2013-11-02T16:30:00.000Z,False,True,False,True,1964.0,JMA Wireless Dome,Syracuse,Wake Forest,fbs,fbs,ACC,ACC,13,0
+333062247,2013,10,regular,2013-11-02T17:00:00.000Z,False,True,False,True,3495.0,Georgia Dome,Georgia State,Western Kentucky,fbs,fbs,Sun Belt,Sun Belt,28,44
+333060005,2013,10,regular,2013-11-02T17:00:00.000Z,False,True,False,True,3803.0,Legion Field,UAB,Middle Tennessee,fbs,fbs,Conference USA,Conference USA,21,24
+333060025,2013,10,regular,2013-11-02T19:30:00.000Z,False,True,False,True,3831.0,California Memorial Stadium,California,Arizona,fbs,fbs,Pac-12,Pac-12,28,33
+333060084,2013,10,regular,2013-11-02T19:30:00.000Z,False,True,False,True,3830.0,"Memorial Stadium (Bloomington, IN)",Indiana,Minnesota,fbs,fbs,Big Ten,Big Ten,39,42
+333060158,2013,10,regular,2013-11-02T19:30:00.000Z,False,True,False,True,3834.0,"Memorial Stadium (Lincoln, NE)",Nebraska,Northwestern,fbs,fbs,Big Ten,Big Ten,27,24
+333060202,2013,10,regular,2013-11-02T19:30:00.000Z,False,True,False,True,3674.0,Chapman Stadium,Tulsa,UTSA,fbs,fbs,Conference USA,Conference USA,15,34
+333060127,2013,10,regular,2013-11-02T19:30:00.000Z,False,True,False,True,3936.0,Spartan Stadium,Michigan State,Michigan,fbs,fbs,Big Ten,Big Ten,29,6
+333060258,2013,10,regular,2013-11-02T19:30:00.000Z,False,True,False,True,3923.0,Scott Stadium,Virginia,Clemson,fbs,fbs,ACC,ACC,10,59
+333060057,2013,10,regular,2013-11-02T19:30:00.000Z,False,True,True,True,,,Florida,Georgia,fbs,fbs,SEC,SEC,20,23
+333060087,2013,10,regular,2013-11-02T19:30:00.000Z,False,True,False,False,3855.0,Notre Dame Stadium,Notre Dame,Navy,fbs,fbs,FBS Independents,FBS Independents,38,34
+333062306,2013,10,regular,2013-11-02T19:30:00.000Z,False,True,False,True,3636.0,Bill Snyder Family Stadium,Kansas State,Iowa State,fbs,fbs,Big 12,Big 12,41,7
+333060251,2013,10,regular,2013-11-02T19:30:00.000Z,False,True,False,True,3910.0,DKR-Texas Memorial Stadium,Texas,Kansas,fbs,fbs,Big 12,Big 12,35,13
+333062006,2013,10,regular,2013-11-02T19:30:00.000Z,False,True,False,True,3768.0,InfoCision Stadium,Akron,Kent State,fbs,fbs,Mid-American,Mid-American,16,7
+333062628,2013,10,regular,2013-11-02T19:30:00.000Z,False,True,False,True,3616.0,Amon G. Carter Stadium,TCU,West Virginia,fbs,fbs,Big 12,Big 12,27,30
+333060328,2013,10,regular,2013-11-02T20:00:00.000Z,False,True,False,True,3905.0,Maverik Stadium,Utah State,Hawai'i,fbs,fbs,Mountain West,Mountain West,47,10
+333062439,2013,10,regular,2013-11-02T20:00:00.000Z,False,True,False,True,3914.0,Sam Boyd Stadium,UNLV,San José State,fbs,fbs,Mountain West,Mountain West,24,34
+333062226,2013,10,regular,2013-11-02T21:00:00.000Z,False,True,False,True,3715.0,FAU Stadium,Florida Atlantic,Tulane,fbs,fbs,Conference USA,Conference USA,34,17
+333060309,2013,10,regular,2013-11-02T21:00:00.000Z,False,True,False,False,3666.0,Cajun Field,Louisiana,New Mexico State,fbs,fbs,Sun Belt,FBS Independents,49,35
+333060070,2013,10,regular,2013-11-02T21:00:00.000Z,False,True,False,False,3791.0,Kibbie Dome,Idaho,Texas State,fbs,fbs,FBS Independents,Sun Belt,21,37
+333062229,2013,10,regular,2013-11-02T22:00:00.000Z,False,True,False,True,218.0,FIU Stadium,Florida International,East Carolina,fbs,fbs,Conference USA,Conference USA,13,34
+333060008,2013,10,regular,2013-11-02T22:00:00.000Z,False,True,False,True,3887.0,Razorback Stadium,Arkansas,Auburn,fbs,fbs,SEC,SEC,17,35
+333060142,2013,10,regular,2013-11-02T23:00:00.000Z,False,True,False,True,3838.0,Memorial Stadium,Missouri,Tennessee,fbs,fbs,SEC,SEC,31,3
+333062649,2013,10,regular,2013-11-02T23:00:00.000Z,False,True,False,True,3739.0,Glass Bowl,Toledo,Eastern Michigan,fbs,fbs,Mid-American,Mid-American,55,16
+333062641,2013,10,regular,2013-11-02T23:00:00.000Z,False,True,False,True,3784.0,Jones AT&T Stadium,Texas Tech,Oklahoma State,fbs,fbs,Big 12,Big 12,34,52
+333060059,2013,10,regular,2013-11-02T23:00:00.000Z,False,True,False,True,721.0,Bobby Dodd Stadium,Georgia Tech,Pittsburgh,fbs,fbs,ACC,ACC,21,10
+333060026,2013,10,regular,2013-11-02T23:30:00.000Z,False,True,False,True,1056.0,Rose Bowl,UCLA,Colorado,fbs,fbs,Pac-12,Pac-12,45,23
+333060096,2013,10,regular,2013-11-02T23:30:00.000Z,False,True,False,False,3683.0,Kroger Field,Kentucky,Alabama State,fbs,fcs,SEC,SWAC,48,14
+333060006,2013,10,regular,2013-11-02T23:30:00.000Z,False,True,False,True,3797.0,Ladd Peebles Stadium,South Alabama,Arkansas State,fbs,fbs,Sun Belt,Sun Belt,16,17
+333060052,2013,10,regular,2013-11-03T00:00:00.000Z,False,True,False,True,3697.0,Doak Campbell Stadium,Florida State,Miami,fbs,fbs,ACC,ACC,41,14
+333060036,2013,10,regular,2013-11-03T00:00:00.000Z,False,True,False,True,3761.0,Sonny Lubick Field at Hughes Stadium,Colorado State,Boise State,fbs,fbs,Mountain West,Mountain West,30,42
+333060021,2013,10,regular,2013-11-03T00:00:00.000Z,False,True,False,True,3932.0,Qualcomm Stadium,San Diego State,New Mexico,fbs,fbs,Mountain West,Mountain West,35,30
+333060245,2013,10,regular,2013-11-03T01:00:00.000Z,False,True,False,False,3795.0,Kyle Field,Texas A&M,UTEP,fbs,fbs,SEC,Conference USA,57,7
+333060278,2013,10,regular,2013-11-03T02:30:00.000Z,False,True,False,True,3660.0,Valley Children's Stadium,Fresno State,Nevada,fbs,fbs,Mountain West,Mountain West,41,23
+333092084,2013,11,regular,2013-11-06T01:00:00.000Z,False,True,False,True,3965.0,UB Stadium,Buffalo,Ohio,fbs,fbs,Mid-American,Mid-American,30,3
+333090193,2013,11,regular,2013-11-06T01:00:00.000Z,False,True,False,True,3996.0,Yager Stadium,Miami (OH),Bowling Green,fbs,fbs,Mid-American,Mid-American,3,45
+333102050,2013,11,regular,2013-11-07T01:00:00.000Z,False,True,False,True,3919.0,Scheumann Stadium,Ball State,Central Michigan,fbs,fbs,Mid-American,Mid-American,44,24
+333110309,2013,11,regular,2013-11-08T00:30:00.000Z,False,True,False,True,3666.0,Cajun Field,Louisiana,Troy,fbs,fbs,Sun Belt,Sun Belt,41,36
+333110239,2013,11,regular,2013-11-08T00:30:00.000Z,False,True,False,True,3724.0,Floyd Casey Stadium,Baylor,Oklahoma,fbs,fbs,Big 12,Big 12,41,12
+333110024,2013,11,regular,2013-11-08T02:00:00.000Z,False,True,False,True,3940.0,Stanford Stadium,Stanford,Oregon,fbs,fbs,Pac-12,Pac-12,26,20
+333120041,2013,11,regular,2013-11-09T01:30:00.000Z,False,True,False,True,3892.0,Pratt & Whitney Stadium,UConn,Louisville,fbs,fbs,American Athletic,American Athletic,10,31
+333120167,2013,11,regular,2013-11-09T02:00:00.000Z,False,True,False,True,3971.0,University Stadium (NM),New Mexico,Air Force,fbs,fbs,Mountain West,Mountain West,45,37
+333130135,2013,11,regular,2013-11-09T17:00:00.000Z,False,True,False,True,3953.0,Huntington Bank Stadium,Minnesota,Penn State,fbs,fbs,Big Ten,Big Ten,24,10
+333130096,2013,11,regular,2013-11-09T17:00:00.000Z,False,True,False,True,3683.0,Kroger Field,Kentucky,Missouri,fbs,fbs,SEC,SEC,17,48
+333130057,2013,11,regular,2013-11-09T17:00:00.000Z,False,True,False,True,3634.0,Ben Hill Griffin Stadium,Florida,Vanderbilt,fbs,fbs,SEC,SEC,17,34
+333132132,2013,11,regular,2013-11-09T17:00:00.000Z,False,True,False,True,3854.0,Nippert Stadium,Cincinnati,SMU,fbs,fbs,American Athletic,American Athletic,28,25
+333130276,2013,11,regular,2013-11-09T17:00:00.000Z,False,True,False,True,3775.0,Joan C. Edwards Stadium,Marshall,UAB,fbs,fbs,Conference USA,Conference USA,56,14
+333132509,2013,11,regular,2013-11-09T17:00:00.000Z,False,True,False,True,3907.0,Ross-Ade Stadium,Purdue,Iowa,fbs,fbs,Big Ten,Big Ten,14,38
+333130349,2013,11,regular,2013-11-09T17:00:00.000Z,False,True,False,False,3841.0,Michie Stadium,Army,Western Kentucky,fbs,fbs,FBS Independents,Sun Belt,17,21
+333130154,2013,11,regular,2013-11-09T17:00:00.000Z,False,True,False,True,3630.0,Allegacy Federal Credit Union Stadium,Wake Forest,Florida State,fbs,fbs,ACC,ACC,3,59
+333132641,2013,11,regular,2013-11-09T17:00:00.000Z,False,True,False,True,3784.0,Jones AT&T Stadium,Texas Tech,Kansas State,fbs,fbs,Big 12,Big 12,26,49
+333132633,2013,11,regular,2013-11-09T17:00:00.000Z,False,True,False,True,3853.0,Neyland Stadium,Tennessee,Auburn,fbs,fbs,SEC,SEC,23,55
+333130066,2013,11,regular,2013-11-09T17:00:00.000Z,False,True,False,True,3772.0,Jack Trice Stadium,Iowa State,TCU,fbs,fbs,Big 12,Big 12,17,21
+333130145,2013,11,regular,2013-11-09T17:21:00.000Z,False,True,False,True,3974.0,Vaught-Hemingway Stadium,Ole Miss,Arkansas,fbs,fbs,SEC,SEC,34,24
+333130153,2013,11,regular,2013-11-09T17:30:00.000Z,False,True,False,True,3787.0,Kenan Stadium,North Carolina,Virginia,fbs,fbs,ACC,ACC,45,14
+333130061,2013,11,regular,2013-11-09T17:30:00.000Z,False,True,False,False,3917.0,Sanford Stadium,Georgia,App State,fbs,fcs,SEC,Southern,45,6
+333132199,2013,11,regular,2013-11-09T18:00:00.000Z,False,True,False,True,3912.0,Rynearson Stadium,Eastern Michigan,Western Michigan,fbs,fbs,Mid-American,Mid-American,35,32
+333132636,2013,11,regular,2013-11-09T19:00:00.000Z,False,True,False,True,3604.0,Alamodome,UTSA,Tulane,fbs,fbs,Conference USA,Conference USA,10,7
+333130025,2013,11,regular,2013-11-09T20:00:00.000Z,False,True,False,True,3831.0,California Memorial Stadium,California,USC,fbs,fbs,Pac-12,Pac-12,28,62
+333130275,2013,11,regular,2013-11-09T20:30:00.000Z,False,True,False,False,347.0,Camp Randall Stadium,Wisconsin,BYU,fbs,fbs,Big Ten,FBS Independents,27,17
+333130120,2013,11,regular,2013-11-09T20:30:00.000Z,False,True,False,True,3665.0,SECU Stadium,Maryland,Syracuse,fbs,fbs,ACC,ACC,3,20
+333130130,2013,11,regular,2013-11-09T20:30:00.000Z,False,True,False,True,3558.0,Michigan Stadium,Michigan,Nebraska,fbs,fbs,Big Ten,Big Ten,13,17
+333130166,2013,11,regular,2013-11-09T20:30:00.000Z,False,True,False,False,3601.0,Aggie Memorial Stadium,New Mexico State,Boston College,fbs,fbs,FBS Independents,ACC,34,48
+333130084,2013,11,regular,2013-11-09T20:30:00.000Z,False,True,False,True,3830.0,"Memorial Stadium (Bloomington, IN)",Indiana,Illinois,fbs,fbs,Big Ten,Big Ten,52,35
+333130245,2013,11,regular,2013-11-09T20:30:00.000Z,False,True,False,True,3795.0,Kyle Field,Texas A&M,Mississippi State,fbs,fbs,SEC,SEC,51,41
+333130249,2013,11,regular,2013-11-09T20:30:00.000Z,False,True,False,True,3825.0,DATCU Stadium,North Texas,UTEP,fbs,fbs,Conference USA,Conference USA,41,7
+333130036,2013,11,regular,2013-11-09T20:30:00.000Z,False,True,False,True,3761.0,Sonny Lubick Field at Hughes Stadium,Colorado State,Nevada,fbs,fbs,Mountain West,Mountain West,38,17
+333132426,2013,11,regular,2013-11-09T20:30:00.000Z,False,True,False,False,3852.0,Navy-Marine Corps Memorial Stadium,Navy,Hawai'i,fbs,fbs,FBS Independents,Mountain West,42,28
+333130151,2013,11,regular,2013-11-09T20:45:00.000Z,False,True,False,True,3699.0,Dowdy-Ficklen Stadium,East Carolina,Tulsa,fbs,fbs,Conference USA,Conference USA,58,24
+333130150,2013,11,regular,2013-11-09T21:00:00.000Z,False,True,False,True,3982.0,Wallace Wade Stadium,Duke,NC State,fbs,fbs,ACC,ACC,38,20
+333130254,2013,11,regular,2013-11-09T21:00:00.000Z,False,True,False,True,587.0,Rice-Eccles Stadium,Utah,Arizona State,fbs,fbs,Pac-12,Pac-12,19,20
+333130197,2013,11,regular,2013-11-09T21:00:00.000Z,False,True,False,True,3646.0,Boone Pickens Stadium,Oklahoma State,Kansas,fbs,fbs,Big 12,Big 12,42,6
+333132393,2013,11,regular,2013-11-09T21:00:00.000Z,False,True,False,True,3725.0,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Florida International,fbs,fbs,Conference USA,Conference USA,48,0
+333130235,2013,11,regular,2013-11-09T21:30:00.000Z,False,True,False,False,3805.0,Simmons Bank Liberty Stadium,Memphis,UT Martin,fbs,fcs,American Athletic,OVC,21,6
+333130070,2013,11,regular,2013-11-09T22:00:00.000Z,False,True,False,False,3791.0,Kibbie Dome,Idaho,Old Dominion,fbs,fcs,FBS Independents,FCS Independents,38,59
+333130277,2013,11,regular,2013-11-10T00:00:00.000Z,False,True,False,True,3842.0,Milan Puskar Stadium,West Virginia,Texas,fbs,fbs,Big 12,Big 12,40,47
+333132390,2013,11,regular,2013-11-10T00:00:00.000Z,False,True,False,True,3948.0,Hard Rock Stadium,Miami,Virginia Tech,fbs,fbs,ACC,ACC,24,42
+333132433,2013,11,regular,2013-11-10T00:00:00.000Z,False,True,False,True,3817.0,Malone Stadium,UL Monroe,Arkansas State,fbs,fbs,Sun Belt,Sun Belt,14,42
+333132116,2013,11,regular,2013-11-10T00:00:00.000Z,False,True,False,True,3652.0,FBC Mortgage Stadium,UCF,Houston,fbs,fbs,American Athletic,American Athletic,19,14
+333132348,2013,11,regular,2013-11-10T00:00:00.000Z,False,True,False,True,3776.0,Joe Aillet Stadium,Louisiana Tech,Southern Miss,fbs,fbs,Conference USA,Conference USA,36,13
+333130264,2013,11,regular,2013-11-10T01:00:00.000Z,False,True,False,True,3765.0,Husky Stadium,Washington,Colorado,fbs,fbs,Pac-12,Pac-12,59,7
+333130333,2013,11,regular,2013-11-10T01:00:00.000Z,False,True,False,True,3657.0,Bryant-Denny Stadium,Alabama,LSU,fbs,fbs,SEC,SEC,38,17
+333130221,2013,11,regular,2013-11-10T01:00:00.000Z,False,True,False,False,3752.0,Acrisure Stadium,Pittsburgh,Notre Dame,fbs,fbs,ACC,FBS Independents,28,21
+333132439,2013,11,regular,2013-11-10T01:00:00.000Z,False,True,False,True,3914.0,Sam Boyd Stadium,UNLV,Utah State,fbs,fbs,Mountain West,Mountain West,24,28
+333130012,2013,11,regular,2013-11-10T03:00:00.000Z,False,True,False,True,3619.0,Arizona Stadium,Arizona,UCLA,fbs,fbs,Pac-12,Pac-12,26,31
+333132751,2013,11,regular,2013-11-10T03:15:00.000Z,False,True,False,True,3984.0,War Memorial Stadium,Wyoming,Fresno State,fbs,fbs,Mountain West,Mountain West,10,48
+333130023,2013,11,regular,2013-11-10T03:30:00.000Z,False,True,False,True,3935.0,CEFCU Stadium,San José State,San Diego State,fbs,fbs,Mountain West,Mountain West,30,34
+333160189,2013,12,regular,2013-11-13T00:30:00.000Z,False,True,False,True,3700.0,Doyt L. Perry Stadium,Bowling Green,Ohio,fbs,fbs,Mid-American,Mid-American,49,0
+333162649,2013,12,regular,2013-11-13T00:30:00.000Z,False,True,False,True,3739.0,Glass Bowl,Toledo,Buffalo,fbs,fbs,Mid-American,Mid-American,51,41
+333172459,2013,12,regular,2013-11-14T01:00:00.000Z,False,True,False,True,3764.0,Huskie Stadium,Northern Illinois,Ball State,fbs,fbs,Mid-American,Mid-American,48,27
+333172309,2013,12,regular,2013-11-14T01:00:00.000Z,False,True,False,True,3696.0,Dix Stadium,Kent State,Miami (OH),fbs,fbs,Mid-American,Mid-American,24,6
+333180228,2013,12,regular,2013-11-15T00:30:00.000Z,False,True,False,True,3836.0,"Memorial Stadium (Clemson, SC)",Clemson,Georgia Tech,fbs,fbs,ACC,ACC,55,31
+333180202,2013,12,regular,2013-11-15T00:36:00.000Z,False,True,False,True,3674.0,Chapman Stadium,Tulsa,Marshall,fbs,fbs,Conference USA,Conference USA,34,45
+333190026,2013,12,regular,2013-11-16T02:00:00.000Z,False,True,False,True,1056.0,Rose Bowl,UCLA,Washington,fbs,fbs,Pac-12,Pac-12,41,31
+333200356,2013,12,regular,2013-11-16T17:00:00.000Z,False,True,False,True,3832.0,"Memorial Stadium (Champaign, IL)",Illinois,Ohio State,fbs,fbs,Big Ten,Big Ten,35,60
+333200218,2013,12,regular,2013-11-16T17:00:00.000Z,False,True,False,True,3806.0,Lincoln Financial Field,Temple,UCF,fbs,fbs,American Athletic,American Athletic,36,39
+333200275,2013,12,regular,2013-11-16T17:00:00.000Z,False,True,False,True,347.0,Camp Randall Stadium,Wisconsin,Indiana,fbs,fbs,Big Ten,Big Ten,51,3
+333200213,2013,12,regular,2013-11-16T17:00:00.000Z,False,True,False,True,3632.0,Beaver Stadium,Penn State,Purdue,fbs,fbs,Big Ten,Big Ten,45,21
+333202711,2013,12,regular,2013-11-16T17:00:00.000Z,False,True,False,True,3980.0,Waldo Stadium,Western Michigan,Central Michigan,fbs,fbs,Mid-American,Mid-American,22,27
+333202305,2013,12,regular,2013-11-16T17:00:00.000Z,False,True,False,True,3833.0,Memorial Stadium,Kansas,West Virginia,fbs,fbs,Big 12,Big 12,31,19
+333200164,2013,12,regular,2013-11-16T17:00:00.000Z,False,True,False,True,3754.0,High Point Solutions Stadium,Rutgers,Cincinnati,fbs,fbs,American Athletic,American Athletic,17,52
+333200145,2013,12,regular,2013-11-16T17:00:00.000Z,False,True,False,False,3974.0,Vaught-Hemingway Stadium,Ole Miss,Troy,fbs,fbs,SEC,Sun Belt,51,21
+333200201,2013,12,regular,2013-11-16T17:00:00.000Z,False,True,False,True,3835.0,"Memorial Stadium (Norman, OK)",Oklahoma,Iowa State,fbs,fbs,Big 12,Big 12,48,10
+333200238,2013,12,regular,2013-11-16T17:21:00.000Z,False,True,False,True,3973.0,FirstBank Stadium,Vanderbilt,Kentucky,fbs,fbs,SEC,SEC,22,6
+333200259,2013,12,regular,2013-11-16T17:30:00.000Z,False,True,False,True,3799.0,Lane Stadium,Virginia Tech,Maryland,fbs,fbs,ACC,ACC,24,27
+333202572,2013,12,regular,2013-11-16T17:30:00.000Z,False,True,False,True,3815.0,M. M. Roberts Stadium,Southern Miss,Florida Atlantic,fbs,fbs,Conference USA,Conference USA,7,41
+333200103,2013,12,regular,2013-11-16T17:30:00.000Z,False,True,False,True,3615.0,"Alumni Stadium (Chestnut Hill, MA)",Boston College,NC State,fbs,fbs,ACC,ACC,38,21
+333200221,2013,12,regular,2013-11-16T17:30:00.000Z,False,True,False,True,3752.0,Acrisure Stadium,Pittsburgh,North Carolina,fbs,fbs,ACC,ACC,27,34
+333200113,2013,12,regular,2013-11-16T18:00:00.000Z,False,True,False,True,3738.0,Gillette Stadium,Massachusetts,Akron,fbs,fbs,Mid-American,Mid-American,13,14
+333202247,2013,12,regular,2013-11-16T19:00:00.000Z,False,True,False,True,3495.0,Georgia Dome,Georgia State,Louisiana,fbs,fbs,Sun Belt,Sun Belt,21,35
+333200012,2013,12,regular,2013-11-16T19:00:00.000Z,False,True,False,True,3619.0,Arizona Stadium,Arizona,Washington State,fbs,fbs,Pac-12,Pac-12,17,24
+333200151,2013,12,regular,2013-11-16T19:00:00.000Z,False,True,False,True,3699.0,Dowdy-Ficklen Stadium,East Carolina,UAB,fbs,fbs,Conference USA,Conference USA,63,14
+333200252,2013,12,regular,2013-11-16T20:00:00.000Z,False,True,False,False,3801.0,LaVell Edwards Stadium,BYU,Idaho State,fbs,fcs,FBS Independents,Big Sky,59,13
+333202567,2013,12,regular,2013-11-16T20:00:00.000Z,False,True,False,True,3735.0,Gerald J. Ford Stadium,SMU,UConn,fbs,fbs,American Athletic,American Athletic,38,21
+333202306,2013,12,regular,2013-11-16T20:30:00.000Z,False,True,False,True,3636.0,Bill Snyder Family Stadium,Kansas State,TCU,fbs,fbs,Big 12,Big 12,33,31
+333200251,2013,12,regular,2013-11-16T20:30:00.000Z,False,True,False,True,3910.0,DKR-Texas Memorial Stadium,Texas,Oklahoma State,fbs,fbs,Big 12,Big 12,13,38
+333200150,2013,12,regular,2013-11-16T20:30:00.000Z,False,True,False,True,3982.0,Wallace Wade Stadium,Duke,Miami,fbs,fbs,ACC,ACC,48,30
+333200077,2013,12,regular,2013-11-16T20:30:00.000Z,False,True,False,True,3911.0,Ryan Field,Northwestern,Michigan,fbs,fbs,Big Ten,Big Ten,19,27
+333202426,2013,12,regular,2013-11-16T20:30:00.000Z,False,True,False,False,3852.0,Navy-Marine Corps Memorial Stadium,Navy,South Alabama,fbs,fbs,FBS Independents,Sun Belt,42,14
+333200158,2013,12,regular,2013-11-16T20:30:00.000Z,False,True,False,True,3834.0,"Memorial Stadium (Lincoln, NE)",Nebraska,Michigan State,fbs,fbs,Big Ten,Big Ten,28,41
+333200052,2013,12,regular,2013-11-16T20:30:00.000Z,False,True,False,True,3697.0,Doak Campbell Stadium,Florida State,Syracuse,fbs,fbs,ACC,ACC,59,3
+333200002,2013,12,regular,2013-11-16T20:30:00.000Z,False,True,False,True,3785.0,Jordan-Hare Stadium,Auburn,Georgia,fbs,fbs,SEC,SEC,43,38
+333202483,2013,12,regular,2013-11-16T21:00:00.000Z,False,True,False,True,3626.0,Autzen Stadium,Oregon,Utah,fbs,fbs,Pac-12,Pac-12,44,21
+333200038,2013,12,regular,2013-11-16T22:30:00.000Z,False,True,False,True,3726.0,Folsom Field,Colorado,California,fbs,fbs,Pac-12,Pac-12,41,24
+333202579,2013,12,regular,2013-11-17T00:00:00.000Z,False,True,False,True,3994.0,Williams-Brice Stadium,South Carolina,Florida,fbs,fbs,SEC,SEC,19,14
+333200242,2013,12,regular,2013-11-17T00:00:00.000Z,False,True,False,True,3895.0,Rice Stadium,Rice,Louisiana Tech,fbs,fbs,Conference USA,Conference USA,52,14
+333200167,2013,12,regular,2013-11-17T00:00:00.000Z,False,True,False,True,3971.0,University Stadium (NM),New Mexico,Colorado State,fbs,fbs,Mountain West,Mountain West,42,66
+333200097,2013,12,regular,2013-11-17T00:00:00.000Z,False,True,False,True,3873.0,L&N Federal Credit Union Stadium,Louisville,Houston,fbs,fbs,American Athletic,American Athletic,20,13
+333200058,2013,12,regular,2013-11-17T00:00:00.000Z,False,True,False,True,3886.0,Raymond James Stadium,South Florida,Memphis,fbs,fbs,American Athletic,American Athletic,10,23
+333200239,2013,12,regular,2013-11-17T00:20:00.000Z,False,True,True,True,,,Baylor,Texas Tech,fbs,fbs,Big 12,Big 12,63,34
+333202032,2013,12,regular,2013-11-17T00:30:00.000Z,False,True,False,True,3625.0,Centennial Bank Stadium,Arkansas State,Texas State,fbs,fbs,Sun Belt,Sun Belt,38,21
+333200344,2013,12,regular,2013-11-17T00:45:00.000Z,False,True,False,True,3693.0,Davis Wade Stadium,Mississippi State,Alabama,fbs,fbs,SEC,SEC,7,20
+333200030,2013,12,regular,2013-11-17T01:00:00.000Z,False,True,False,True,477.0,Los Angeles Memorial Coliseum,USC,Stanford,fbs,fbs,Pac-12,Pac-12,20,17
+333202638,2013,12,regular,2013-11-17T01:00:00.000Z,False,True,False,True,3946.0,Sun Bowl,UTEP,Florida International,fbs,fbs,Conference USA,Conference USA,33,10
+333200009,2013,12,regular,2013-11-17T02:30:00.000Z,False,True,False,True,3947.0,Mountain America Stadium,Arizona State,Oregon State,fbs,fbs,Pac-12,Pac-12,30,17
+333200068,2013,12,regular,2013-11-17T03:15:00.000Z,False,True,False,True,3653.0,Albertsons Stadium,Boise State,Wyoming,fbs,fbs,Mountain West,Mountain West,48,7
+333202440,2013,12,regular,2013-11-17T03:30:00.000Z,False,True,False,True,3816.0,Mackay Stadium,Nevada,San José State,fbs,fbs,Mountain West,Mountain West,38,16
+333200062,2013,12,regular,2013-11-17T03:30:00.000Z,False,True,False,True,3610.0,Aloha Stadium,Hawai'i,San Diego State,fbs,fbs,Mountain West,Mountain West,21,28
+333230193,2013,13,regular,2013-11-20T01:00:00.000Z,False,True,False,True,3996.0,Yager Stadium,Miami (OH),Buffalo,fbs,fbs,Mid-American,Mid-American,7,44
+333230195,2013,13,regular,2013-11-20T01:00:00.000Z,False,True,False,True,3876.0,Peden Stadium,Ohio,Kent State,fbs,fbs,Mid-American,Mid-American,13,44
+333242649,2013,13,regular,2013-11-21T01:00:00.000Z,False,True,False,True,3739.0,Glass Bowl,Toledo,Northern Illinois,fbs,fbs,Mid-American,Mid-American,17,35
+333252116,2013,13,regular,2013-11-22T00:30:00.000Z,False,True,False,True,3652.0,FBC Mortgage Stadium,UCF,Rutgers,fbs,fbs,American Athletic,American Athletic,41,17
+333250005,2013,13,regular,2013-11-22T00:30:00.000Z,False,True,False,True,3803.0,Legion Field,UAB,Rice,fbs,fbs,Conference USA,Conference USA,34,37
+333252005,2013,13,regular,2013-11-22T02:30:00.000Z,False,True,False,True,3713.0,Falcon Stadium,Air Force,UNLV,fbs,fbs,Mountain West,Mountain West,21,41
+333260023,2013,13,regular,2013-11-23T02:30:00.000Z,False,True,False,False,3935.0,CEFCU Stadium,San José State,Navy,fbs,fbs,Mountain West,FBS Independents,52,58
+333272390,2013,13,regular,2013-11-23T17:00:00.000Z,False,True,False,True,3948.0,Hard Rock Stadium,Miami,Virginia,fbs,fbs,ACC,ACC,45,26
+333272294,2013,13,regular,2013-11-23T17:00:00.000Z,False,True,False,True,3793.0,Kinnick Stadium,Iowa,Michigan,fbs,fbs,Big Ten,Big Ten,24,21
+333272306,2013,13,regular,2013-11-23T17:00:00.000Z,False,True,False,True,3636.0,Bill Snyder Family Stadium,Kansas State,Oklahoma,fbs,fbs,Big 12,Big 12,31,41
+333270077,2013,13,regular,2013-11-23T17:00:00.000Z,False,True,False,True,3911.0,Ryan Field,Northwestern,Michigan State,fbs,fbs,Big Ten,Big Ten,6,30
+333270228,2013,13,regular,2013-11-23T17:00:00.000Z,False,True,False,False,3836.0,"Memorial Stadium (Clemson, SC)",Clemson,The Citadel,fbs,fcs,ACC,Southern,52,6
+333270248,2013,13,regular,2013-11-23T17:00:00.000Z,False,True,False,True,,,Houston,Cincinnati,fbs,fbs,American Athletic,American Athletic,17,24
+333270097,2013,13,regular,2013-11-23T17:00:00.000Z,False,True,False,True,3873.0,L&N Federal Credit Union Stadium,Louisville,Memphis,fbs,fbs,American Athletic,American Athletic,24,17
+333272509,2013,13,regular,2013-11-23T17:00:00.000Z,False,True,False,True,3907.0,Ross-Ade Stadium,Purdue,Illinois,fbs,fbs,Big Ten,Big Ten,16,20
+333270154,2013,13,regular,2013-11-23T17:00:00.000Z,False,True,False,True,3630.0,Allegacy Federal Credit Union Stadium,Wake Forest,Duke,fbs,fbs,ACC,ACC,21,28
+333270153,2013,13,regular,2013-11-23T17:00:00.000Z,False,True,False,False,3787.0,Kenan Stadium,North Carolina,Old Dominion,fbs,fcs,ACC,FCS Independents,80,20
+333270008,2013,13,regular,2013-11-23T17:21:00.000Z,False,True,False,True,,,Arkansas,Mississippi State,fbs,fbs,SEC,SEC,17,24
+333270183,2013,13,regular,2013-11-23T17:30:00.000Z,False,True,False,True,1964.0,JMA Wireless Dome,Syracuse,Pittsburgh,fbs,fbs,ACC,ACC,16,17
+333270152,2013,13,regular,2013-11-23T17:30:00.000Z,False,True,False,False,3670.0,Carter-Finley Stadium,NC State,East Carolina,fbs,fbs,ACC,Conference USA,28,42
+333272199,2013,13,regular,2013-11-23T18:00:00.000Z,False,True,False,True,3912.0,Rynearson Stadium,Eastern Michigan,Bowling Green,fbs,fbs,Mid-American,Mid-American,7,58
+333272117,2013,13,regular,2013-11-23T18:00:00.000Z,False,True,False,True,3786.0,Kelly/Shorts Stadium,Central Michigan,Massachusetts,fbs,fbs,Mid-American,Mid-American,37,0
+333272579,2013,13,regular,2013-11-23T18:00:00.000Z,False,True,False,False,3994.0,Williams-Brice Stadium,South Carolina,Coastal Carolina,fbs,fcs,SEC,Big South,70,10
+333270059,2013,13,regular,2013-11-23T18:30:00.000Z,False,True,False,False,721.0,Bobby Dodd Stadium,Georgia Tech,Alabama A&M,fbs,fcs,ACC,SWAC,66,7
+333270057,2013,13,regular,2013-11-23T19:00:00.000Z,False,True,False,False,3634.0,Ben Hill Griffin Stadium,Florida,Georgia Southern,fbs,fcs,SEC,Southern,20,26
+333272751,2013,13,regular,2013-11-23T19:00:00.000Z,False,True,False,True,3984.0,War Memorial Stadium,Wyoming,Hawai'i,fbs,fbs,Mountain West,Mountain West,59,56
+333270333,2013,13,regular,2013-11-23T19:00:00.000Z,False,True,False,False,3657.0,Bryant-Denny Stadium,Alabama,Chattanooga,fbs,fcs,SEC,Southern,49,0
+333272226,2013,13,regular,2013-11-23T20:00:00.000Z,False,True,False,False,3715.0,FAU Stadium,Florida Atlantic,New Mexico State,fbs,fbs,Conference USA,FBS Independents,55,10
+333272032,2013,13,regular,2013-11-23T20:00:00.000Z,False,True,False,True,3625.0,Centennial Bank Stadium,Arkansas State,Georgia State,fbs,fbs,Sun Belt,Sun Belt,35,33
+333270249,2013,13,regular,2013-11-23T20:30:00.000Z,False,True,False,True,3825.0,DATCU Stadium,North Texas,UTSA,fbs,fbs,Conference USA,Conference USA,13,21
+333270052,2013,13,regular,2013-11-23T20:30:00.000Z,False,True,False,False,3697.0,Doak Campbell Stadium,Florida State,Idaho,fbs,fbs,ACC,FBS Independents,80,14
+333270120,2013,13,regular,2013-11-23T20:30:00.000Z,False,True,False,True,3665.0,SECU Stadium,Maryland,Boston College,fbs,fbs,ACC,ACC,26,29
+333270087,2013,13,regular,2013-11-23T20:30:00.000Z,False,True,False,False,3855.0,Notre Dame Stadium,Notre Dame,BYU,fbs,fbs,FBS Independents,FBS Independents,23,13
+333270135,2013,13,regular,2013-11-23T20:30:00.000Z,False,True,False,True,3953.0,Huntington Bank Stadium,Minnesota,Wisconsin,fbs,fbs,Big Ten,Big Ten,7,20
+333270328,2013,13,regular,2013-11-23T20:30:00.000Z,False,True,False,True,3905.0,Maverik Stadium,Utah State,Colorado State,fbs,fbs,Mountain West,Mountain West,13,0
+333270099,2013,13,regular,2013-11-23T20:30:00.000Z,False,True,False,True,3958.0,Tiger Stadium (LA),LSU,Texas A&M,fbs,fbs,SEC,SEC,34,10
+333270194,2013,13,regular,2013-11-23T20:30:00.000Z,False,True,False,True,3861.0,Ohio Stadium,Ohio State,Indiana,fbs,fbs,Big Ten,Big Ten,42,14
+333270012,2013,13,regular,2013-11-23T20:30:00.000Z,False,True,False,True,3619.0,Arizona Stadium,Arizona,Oregon,fbs,fbs,Pac-12,Pac-12,42,16
+333272572,2013,13,regular,2013-11-23T20:30:00.000Z,False,True,False,True,3815.0,M. M. Roberts Stadium,Southern Miss,Middle Tennessee,fbs,fbs,Conference USA,Conference USA,21,42
+333272655,2013,13,regular,2013-11-23T20:30:00.000Z,False,True,False,True,3493.0,Caesars Superdome,Tulane,UTEP,fbs,fbs,Conference USA,Conference USA,45,3
+333270213,2013,13,regular,2013-11-23T20:30:00.000Z,False,True,False,True,3632.0,Beaver Stadium,Penn State,Nebraska,fbs,fbs,Big Ten,Big Ten,20,23
+333270265,2013,13,regular,2013-11-23T20:30:00.000Z,False,True,False,True,3820.0,Gesa Field,Washington State,Utah,fbs,fbs,Pac-12,Pac-12,49,37
+333270024,2013,13,regular,2013-11-23T21:00:00.000Z,False,True,False,True,3940.0,Stanford Stadium,Stanford,California,fbs,fbs,Pac-12,Pac-12,63,13
+333270278,2013,13,regular,2013-11-23T21:00:00.000Z,False,True,False,True,3660.0,Valley Children's Stadium,Fresno State,New Mexico,fbs,fbs,Mountain West,Mountain West,69,28
+333272229,2013,13,regular,2013-11-23T23:00:00.000Z,False,True,False,True,218.0,FIU Stadium,Florida International,Marshall,fbs,fbs,Conference USA,Conference USA,10,48
+333270058,2013,13,regular,2013-11-24T00:00:00.000Z,False,True,False,True,3886.0,Raymond James Stadium,South Florida,SMU,fbs,fbs,American Athletic,American Athletic,6,16
+333270326,2013,13,regular,2013-11-24T00:00:00.000Z,False,True,False,True,3644.0,Bobcat Stadium (TX),Texas State,Western Kentucky,fbs,fbs,Sun Belt,Sun Belt,7,38
+333270026,2013,13,regular,2013-11-24T00:00:00.000Z,False,True,False,True,1056.0,Rose Bowl,UCLA,Arizona State,fbs,fbs,Pac-12,Pac-12,33,38
+333270061,2013,13,regular,2013-11-24T00:00:00.000Z,False,True,False,True,3917.0,Sanford Stadium,Georgia,Kentucky,fbs,fbs,SEC,SEC,59,17
+333272348,2013,13,regular,2013-11-24T00:00:00.000Z,False,True,False,True,3776.0,Joe Aillet Stadium,Louisiana Tech,Tulsa,fbs,fbs,Conference USA,Conference USA,14,24
+333270006,2013,13,regular,2013-11-24T00:00:00.000Z,False,True,False,True,3797.0,Ladd Peebles Stadium,South Alabama,UL Monroe,fbs,fbs,Sun Belt,Sun Belt,36,14
+333270218,2013,13,regular,2013-11-24T00:00:00.000Z,False,True,False,True,3806.0,Lincoln Financial Field,Temple,UConn,fbs,fbs,American Athletic,American Athletic,21,28
+333272633,2013,13,regular,2013-11-24T00:00:00.000Z,False,True,False,True,3853.0,Neyland Stadium,Tennessee,Vanderbilt,fbs,fbs,SEC,SEC,10,14
+333270145,2013,13,regular,2013-11-24T00:45:00.000Z,False,True,False,True,3974.0,Vaught-Hemingway Stadium,Ole Miss,Missouri,fbs,fbs,SEC,SEC,10,24
+333270197,2013,13,regular,2013-11-24T01:00:00.000Z,False,True,False,True,3646.0,Boone Pickens Stadium,Oklahoma State,Baylor,fbs,fbs,Big 12,Big 12,49,17
+333270066,2013,13,regular,2013-11-24T01:00:00.000Z,False,True,False,True,3772.0,Jack Trice Stadium,Iowa State,Kansas,fbs,fbs,Big 12,Big 12,34,0
+333270038,2013,13,regular,2013-11-24T02:30:00.000Z,False,True,False,True,3726.0,Folsom Field,Colorado,USC,fbs,fbs,Pac-12,Pac-12,29,47
+333270204,2013,13,regular,2013-11-24T03:30:00.000Z,False,True,False,True,3893.0,Reser Stadium,Oregon State,Washington,fbs,fbs,Pac-12,Pac-12,27,69
+333270021,2013,13,regular,2013-11-24T03:30:00.000Z,False,True,False,True,3932.0,Qualcomm Stadium,San Diego State,Boise State,fbs,fbs,Mountain West,Mountain West,34,31
+333302459,2013,14,regular,2013-11-27T00:00:00.000Z,False,True,False,True,3764.0,Huskie Stadium,Northern Illinois,Western Michigan,fbs,fbs,Mid-American,Mid-American,33,14
+333320344,2013,14,regular,2013-11-29T00:30:00.000Z,False,True,False,True,3693.0,Davis Wade Stadium,Mississippi State,Ole Miss,fbs,fbs,SEC,SEC,17,10
+333320251,2013,14,regular,2013-11-29T00:30:00.000Z,False,True,False,True,3910.0,DKR-Texas Memorial Stadium,Texas,Texas Tech,fbs,fbs,Big 12,Big 12,41,16
+333330276,2013,14,regular,2013-11-29T17:00:00.000Z,False,True,False,True,3775.0,Joan C. Edwards Stadium,Marshall,East Carolina,fbs,fbs,Conference USA,Conference USA,59,28
+333332006,2013,14,regular,2013-11-29T17:00:00.000Z,False,True,False,True,3768.0,InfoCision Stadium,Akron,Toledo,fbs,fbs,Mid-American,Mid-American,31,29
+333330158,2013,14,regular,2013-11-29T17:00:00.000Z,False,True,False,True,3834.0,"Memorial Stadium (Lincoln, NE)",Nebraska,Iowa,fbs,fbs,Big Ten,Big Ten,17,38
+333330248,2013,14,regular,2013-11-29T17:00:00.000Z,False,True,False,True,,,Houston,SMU,fbs,fbs,American Athletic,American Athletic,34,0
+333332050,2013,14,regular,2013-11-29T18:00:00.000Z,False,True,False,True,3919.0,Scheumann Stadium,Ball State,Miami (OH),fbs,fbs,Mid-American,Mid-American,55,14
+333332084,2013,14,regular,2013-11-29T18:30:00.000Z,False,True,False,True,3965.0,UB Stadium,Buffalo,Bowling Green,fbs,fbs,Mid-American,Mid-American,7,24
+333332117,2013,14,regular,2013-11-29T19:00:00.000Z,False,True,False,True,3786.0,Kelly/Shorts Stadium,Central Michigan,Eastern Michigan,fbs,fbs,Mid-American,Mid-American,42,10
+333332653,2013,14,regular,2013-11-29T19:00:00.000Z,False,True,False,True,3975.0,Veterans Memorial Stadium (AL),Troy,Texas State,fbs,fbs,Sun Belt,Sun Belt,42,28
+333330195,2013,14,regular,2013-11-29T19:00:00.000Z,False,True,False,True,3876.0,Peden Stadium,Ohio,Massachusetts,fbs,fbs,Mid-American,Mid-American,51,23
+333330099,2013,14,regular,2013-11-29T19:30:00.000Z,False,True,False,True,3958.0,Tiger Stadium (LA),LSU,Arkansas,fbs,fbs,SEC,SEC,31,27
+333332226,2013,14,regular,2013-11-29T20:00:00.000Z,False,True,False,True,3715.0,FAU Stadium,Florida Atlantic,Florida International,fbs,fbs,Conference USA,Conference USA,21,6
+333330221,2013,14,regular,2013-11-29T20:30:00.000Z,False,True,False,True,3752.0,Acrisure Stadium,Pittsburgh,Miami,fbs,fbs,ACC,ACC,31,41
+333330264,2013,14,regular,2013-11-29T20:30:00.000Z,False,True,False,True,3765.0,Husky Stadium,Washington,Washington State,fbs,fbs,Pac-12,Pac-12,27,17
+333330023,2013,14,regular,2013-11-29T20:30:00.000Z,False,True,False,True,3935.0,CEFCU Stadium,San José State,Fresno State,fbs,fbs,Mountain West,Mountain West,62,52
+333332483,2013,14,regular,2013-11-30T00:00:00.000Z,False,True,False,True,3626.0,Autzen Stadium,Oregon,Oregon State,fbs,fbs,Pac-12,Pac-12,36,35
+333332116,2013,14,regular,2013-11-30T01:00:00.000Z,False,True,False,True,3652.0,FBC Mortgage Stadium,UCF,South Florida,fbs,fbs,American Athletic,American Athletic,23,20
+333340153,2013,14,regular,2013-11-30T17:00:00.000Z,False,True,False,True,3787.0,Kenan Stadium,North Carolina,Duke,fbs,fbs,ACC,ACC,25,27
+333342305,2013,14,regular,2013-11-30T17:00:00.000Z,False,True,False,True,3833.0,Memorial Stadium,Kansas,Kansas State,fbs,fbs,Big 12,Big 12,10,31
+333340041,2013,14,regular,2013-11-30T17:00:00.000Z,False,True,False,True,3892.0,Pratt & Whitney Stadium,UConn,Rutgers,fbs,fbs,American Athletic,American Athletic,28,17
+333340057,2013,14,regular,2013-11-30T17:00:00.000Z,False,True,False,False,3634.0,Ben Hill Griffin Stadium,Florida,Florida State,fbs,fbs,SEC,ACC,7,37
+333340235,2013,14,regular,2013-11-30T17:00:00.000Z,False,True,False,True,3805.0,Simmons Bank Liberty Stadium,Memphis,Temple,fbs,fbs,American Athletic,American Athletic,21,41
+333340130,2013,14,regular,2013-11-30T17:00:00.000Z,False,True,False,True,3558.0,Michigan Stadium,Michigan,Ohio State,fbs,fbs,Big Ten,Big Ten,41,42
+333340127,2013,14,regular,2013-11-30T17:00:00.000Z,False,True,False,True,3936.0,Spartan Stadium,Michigan State,Minnesota,fbs,fbs,Big Ten,Big Ten,14,3
+333340238,2013,14,regular,2013-11-30T17:21:00.000Z,False,True,False,False,3973.0,FirstBank Stadium,Vanderbilt,Wake Forest,fbs,fbs,SEC,ACC,23,21
+333340152,2013,14,regular,2013-11-30T17:30:00.000Z,False,True,False,True,3670.0,Carter-Finley Stadium,NC State,Maryland,fbs,fbs,ACC,ACC,21,41
+333340005,2013,14,regular,2013-11-30T18:00:00.000Z,False,True,False,True,3803.0,Legion Field,UAB,Southern Miss,fbs,fbs,Conference USA,Conference USA,27,62
+333340036,2013,14,regular,2013-11-30T19:00:00.000Z,False,True,False,True,3761.0,Sonny Lubick Field at Hughes Stadium,Colorado State,Air Force,fbs,fbs,Mountain West,Mountain West,58,13
+333340328,2013,14,regular,2013-11-30T19:00:00.000Z,False,True,False,True,3905.0,Maverik Stadium,Utah State,Wyoming,fbs,fbs,Mountain West,Mountain West,35,7
+333342247,2013,14,regular,2013-11-30T19:00:00.000Z,False,True,False,True,3495.0,Georgia Dome,Georgia State,South Alabama,fbs,fbs,Sun Belt,Sun Belt,17,38
+333340254,2013,14,regular,2013-11-30T19:00:00.000Z,False,True,False,True,587.0,Rice-Eccles Stadium,Utah,Colorado,fbs,fbs,Pac-12,Pac-12,24,17
+333340202,2013,14,regular,2013-11-30T19:30:00.000Z,False,True,False,True,3674.0,Chapman Stadium,Tulsa,North Texas,fbs,fbs,Conference USA,Conference USA,10,42
+333340242,2013,14,regular,2013-11-30T20:00:00.000Z,False,True,False,True,3895.0,Rice Stadium,Rice,Tulane,fbs,fbs,Conference USA,Conference USA,17,13
+333342440,2013,14,regular,2013-11-30T20:00:00.000Z,False,True,False,False,3816.0,Mackay Stadium,Nevada,BYU,fbs,fbs,Mountain West,FBS Independents,23,28
+333340002,2013,14,regular,2013-11-30T20:30:00.000Z,False,True,False,True,3785.0,Jordan-Hare Stadium,Auburn,Alabama,fbs,fbs,SEC,SEC,34,28
+333342628,2013,14,regular,2013-11-30T20:30:00.000Z,False,True,False,True,3616.0,Amon G. Carter Stadium,TCU,Baylor,fbs,fbs,Big 12,Big 12,38,41
+333340356,2013,14,regular,2013-11-30T20:30:00.000Z,False,True,False,True,3832.0,"Memorial Stadium (Champaign, IL)",Illinois,Northwestern,fbs,fbs,Big Ten,Big Ten,34,37
+333340258,2013,14,regular,2013-11-30T20:30:00.000Z,False,True,False,True,3923.0,Scott Stadium,Virginia,Virginia Tech,fbs,fbs,ACC,ACC,6,16
+333342636,2013,14,regular,2013-11-30T20:30:00.000Z,False,True,False,True,3604.0,Alamodome,UTSA,Louisiana Tech,fbs,fbs,Conference USA,Conference USA,30,10
+333340183,2013,14,regular,2013-11-30T20:30:00.000Z,False,True,False,True,1964.0,JMA Wireless Dome,Syracuse,Boston College,fbs,fbs,ACC,ACC,34,31
+333340166,2013,14,regular,2013-11-30T20:30:00.000Z,False,True,False,False,3601.0,Aggie Memorial Stadium,New Mexico State,Idaho,fbs,fbs,FBS Independents,FBS Independents,24,16
+333340084,2013,14,regular,2013-11-30T20:30:00.000Z,False,True,False,True,3830.0,"Memorial Stadium (Bloomington, IN)",Indiana,Purdue,fbs,fbs,Big Ten,Big Ten,56,36
+333340275,2013,14,regular,2013-11-30T20:30:00.000Z,False,True,False,True,347.0,Camp Randall Stadium,Wisconsin,Penn State,fbs,fbs,Big Ten,Big Ten,24,31
+333340059,2013,14,regular,2013-11-30T20:30:00.000Z,False,True,False,False,721.0,Bobby Dodd Stadium,Georgia Tech,Georgia,fbs,fbs,ACC,SEC,34,41
+333342393,2013,14,regular,2013-11-30T20:45:00.000Z,False,True,False,True,3725.0,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,UTEP,fbs,fbs,Conference USA,Conference USA,48,17
+333340098,2013,14,regular,2013-11-30T21:00:00.000Z,False,True,False,True,3796.0,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Arkansas State,fbs,fbs,Sun Belt,Sun Belt,34,31
+333340277,2013,14,regular,2013-11-30T21:00:00.000Z,False,True,False,True,3842.0,Milan Puskar Stadium,West Virginia,Iowa State,fbs,fbs,Big 12,Big 12,44,52
+333340096,2013,14,regular,2013-12-01T00:00:00.000Z,False,True,False,True,3683.0,Kroger Field,Kentucky,Tennessee,fbs,fbs,SEC,SEC,14,27
+333340024,2013,14,regular,2013-12-01T00:00:00.000Z,False,True,False,False,3940.0,Stanford Stadium,Stanford,Notre Dame,fbs,fbs,Pac-12,FBS Independents,27,20
+333342579,2013,14,regular,2013-12-01T00:00:00.000Z,False,True,False,False,3994.0,Williams-Brice Stadium,South Carolina,Clemson,fbs,fbs,SEC,ACC,31,17
+333340309,2013,14,regular,2013-12-01T00:00:00.000Z,False,True,False,True,3666.0,Cajun Field,Louisiana,UL Monroe,fbs,fbs,Sun Belt,Sun Belt,28,31
+333340142,2013,14,regular,2013-12-01T00:45:00.000Z,False,True,False,True,3838.0,Memorial Stadium,Missouri,Texas A&M,fbs,fbs,SEC,SEC,28,21
+333340030,2013,14,regular,2013-12-01T01:00:00.000Z,False,True,False,True,477.0,Los Angeles Memorial Coliseum,USC,UCLA,fbs,fbs,Pac-12,Pac-12,14,35
+333340009,2013,14,regular,2013-12-01T02:30:00.000Z,False,True,False,True,3947.0,Mountain America Stadium,Arizona State,Arizona,fbs,fbs,Pac-12,Pac-12,58,21
+333340068,2013,14,regular,2013-12-01T03:15:00.000Z,False,True,False,True,3653.0,Albertsons Stadium,Boise State,New Mexico,fbs,fbs,Mountain West,Mountain West,45,17
+333342439,2013,14,regular,2013-12-01T03:30:00.000Z,False,True,False,True,3914.0,Sam Boyd Stadium,UNLV,San Diego State,fbs,fbs,Mountain West,Mountain West,45,19
+333340062,2013,14,regular,2013-12-01T04:00:00.000Z,False,True,False,False,3610.0,Aloha Stadium,Hawai'i,Army,fbs,fbs,Mountain West,FBS Independents,49,42
+333392132,2013,15,regular,2013-12-06T00:30:00.000Z,False,True,False,True,3854.0,Nippert Stadium,Cincinnati,Louisville,fbs,fbs,American Athletic,American Athletic,24,31
+333402459,2013,15,regular,2013-12-07T01:00:00.000Z,False,True,True,True,,,Northern Illinois,Bowling Green,fbs,fbs,Mid-American,Mid-American,27,47
+333410197,2013,15,regular,2013-12-07T17:00:00.000Z,False,True,False,True,3646.0,Boone Pickens Stadium,Oklahoma State,Oklahoma,fbs,fbs,Big 12,Big 12,24,33
+333410242,2013,15,regular,2013-12-07T17:00:00.000Z,False,True,False,True,3895.0,Rice Stadium,Rice,Marshall,fbs,fbs,Conference USA,Conference USA,41,24
+333412567,2013,15,regular,2013-12-07T17:00:00.000Z,False,True,False,True,3735.0,Gerald J. Ford Stadium,SMU,UCF,fbs,fbs,American Athletic,American Athletic,13,17
+333410041,2013,15,regular,2013-12-07T18:00:00.000Z,False,True,False,True,3892.0,Pratt & Whitney Stadium,UConn,Memphis,fbs,fbs,American Athletic,American Athletic,45,10
+333410239,2013,15,regular,2013-12-07T20:30:00.000Z,False,True,False,True,3724.0,Floyd Casey Stadium,Baylor,Texas,fbs,fbs,Big 12,Big 12,30,10
+333410002,2013,15,regular,2013-12-07T21:00:00.000Z,False,True,True,True,3495.0,Georgia Dome,Auburn,Missouri,fbs,fbs,SEC,SEC,59,42
+333410164,2013,15,regular,2013-12-08T00:30:00.000Z,False,True,False,True,3754.0,High Point Solutions Stadium,Rutgers,South Florida,fbs,fbs,American Athletic,American Athletic,31,6
+333410009,2013,15,regular,2013-12-08T00:45:00.000Z,False,True,False,True,3947.0,Mountain America Stadium,Arizona State,Stanford,fbs,fbs,Pac-12,Pac-12,14,38
+333410006,2013,15,regular,2013-12-08T01:00:00.000Z,False,True,False,True,3797.0,Ladd Peebles Stadium,South Alabama,Louisiana,fbs,fbs,Sun Belt,Sun Belt,30,8
+333410052,2013,15,regular,2013-12-08T01:00:00.000Z,False,True,True,True,,,Florida State,Duke,fbs,fbs,ACC,ACC,45,7
+333410127,2013,15,regular,2013-12-08T01:17:00.000Z,False,True,True,True,,,Michigan State,Ohio State,fbs,fbs,Big Ten,Big Ten,34,24
+333410278,2013,15,regular,2013-12-08T03:00:00.000Z,False,True,False,True,3660.0,Valley Children's Stadium,Fresno State,Utah State,fbs,fbs,Mountain West,Mountain West,24,17
+333482426,2013,16,regular,2013-12-14T20:00:00.000Z,False,True,True,False,3806.0,Lincoln Financial Field,Navy,Army,fbs,fbs,FBS Independents,FBS Independents,34,7
+333550036,2013,1,postseason,2013-12-21T19:00:00.000Z,False,True,True,False,3971.0,University Stadium (NM),Colorado State,Washington State,fbs,fbs,Mountain West,Pac-12,48,45
+333550030,2013,1,postseason,2013-12-21T20:30:00.000Z,False,True,True,False,3914.0,Sam Boyd Stadium,USC,Fresno State,fbs,fbs,Pac-12,Mountain West,45,20
+333550021,2013,1,postseason,2013-12-21T22:30:00.000Z,False,True,True,False,3653.0,Albertsons Stadium,San Diego State,Buffalo,fbs,fbs,Mountain West,Mid-American,49,24
+333550309,2013,1,postseason,2013-12-22T02:00:00.000Z,False,True,True,False,3493.0,Caesars Superdome,Louisiana,Tulane,fbs,fbs,Sun Belt,Conference USA,24,21
+333570151,2013,1,postseason,2013-12-23T19:00:00.000Z,False,True,True,False,,,East Carolina,Ohio,fbs,fbs,Conference USA,Mid-American,37,20
+333580204,2013,1,postseason,2013-12-25T01:00:00.000Z,False,True,True,False,3610.0,Aloha Stadium,Oregon State,Boise State,fbs,fbs,Pac-12,Mountain West,38,23
+333600189,2013,1,postseason,2013-12-26T23:00:00.000Z,False,True,True,False,,,Bowling Green,Pittsburgh,fbs,fbs,Mid-American,ACC,27,30
+333602459,2013,1,postseason,2013-12-27T02:30:00.000Z,False,True,True,False,3932.0,Qualcomm Stadium,Northern Illinois,Utah State,fbs,fbs,Mid-American,Mountain West,14,21
+333610120,2013,1,postseason,2013-12-27T19:30:00.000Z,False,True,True,False,3852.0,Navy-Marine Corps Memorial Stadium,Maryland,Marshall,fbs,fbs,ACC,Conference USA,20,31
+333610135,2013,1,postseason,2013-12-27T23:00:00.000Z,False,True,True,False,,,Minnesota,Syracuse,fbs,fbs,Big Ten,ACC,17,21
+333610264,2013,1,postseason,2013-12-28T02:30:00.000Z,False,True,True,False,,,Washington,BYU,fbs,fbs,Pac-12,FBS Independents,31,16
+333620087,2013,1,postseason,2013-12-28T17:00:00.000Z,False,True,True,False,,,Notre Dame,Rutgers,fbs,fbs,FBS Independents,American Athletic,29,16
+333620153,2013,1,postseason,2013-12-28T20:20:00.000Z,False,True,True,False,,,North Carolina,Cincinnati,fbs,fbs,ACC,American Athletic,39,17
+333620097,2013,1,postseason,2013-12-28T23:45:00.000Z,False,True,True,False,,,Louisville,Miami,fbs,fbs,American Athletic,ACC,36,9
+333622306,2013,1,postseason,2013-12-29T03:15:00.000Z,False,True,True,False,3947.0,Mountain America Stadium,Kansas State,Michigan,fbs,fbs,Big 12,Big Ten,31,14
+333642426,2013,1,postseason,2013-12-30T16:45:00.000Z,False,True,True,False,3616.0,Amon G. Carter Stadium,Navy,Middle Tennessee,fbs,fbs,FBS Independents,Conference USA,24,6
+333640059,2013,1,postseason,2013-12-30T20:15:00.000Z,False,True,True,False,3810.0,Nissan Stadium,Georgia Tech,Ole Miss,fbs,fbs,ACC,SEC,17,25
+333640251,2013,1,postseason,2013-12-30T23:51:00.000Z,False,True,True,False,3604.0,Alamodome,Texas,Oregon,fbs,fbs,Big 12,Pac-12,7,30
+333642641,2013,1,postseason,2013-12-31T03:15:00.000Z,False,True,True,False,3932.0,Qualcomm Stadium,Texas Tech,Arizona State,fbs,fbs,Big 12,Pac-12,37,23
+333650103,2013,1,postseason,2013-12-31T17:30:00.000Z,False,True,True,False,,,Boston College,Arizona,fbs,fbs,ACC,Pac-12,19,42
+333650026,2013,1,postseason,2013-12-31T19:00:00.000Z,False,True,True,False,3946.0,Sun Bowl,UCLA,Virginia Tech,fbs,fbs,Pac-12,ACC,42,12
+333650344,2013,1,postseason,2013-12-31T21:00:00.000Z,False,True,True,False,3805.0,Simmons Bank Liberty Stadium,Mississippi State,Rice,fbs,fbs,SEC,Conference USA,44,7
+333650245,2013,1,postseason,2014-01-01T01:00:00.000Z,False,True,True,False,3495.0,Georgia Dome,Texas A&M,Duke,fbs,fbs,SEC,ACC,52,48
+340010249,2013,1,postseason,2014-01-01T17:00:00.000Z,False,True,True,False,,,North Texas,UNLV,fbs,fbs,Conference USA,Mountain West,36,14
+340010061,2013,1,postseason,2014-01-01T17:00:00.000Z,False,True,True,False,,,Georgia,Nebraska,fbs,fbs,SEC,Big Ten,19,24
+340010099,2013,1,postseason,2014-01-01T18:00:00.000Z,False,True,True,False,3886.0,Raymond James Stadium,LSU,Iowa,fbs,fbs,SEC,Big Ten,21,14
+340012579,2013,1,postseason,2014-01-01T18:00:00.000Z,False,True,True,False,,,South Carolina,Wisconsin,fbs,fbs,SEC,Big Ten,34,24
+340010127,2013,1,postseason,2014-01-01T22:00:00.000Z,False,True,True,False,1056.0,Rose Bowl,Michigan State,Stanford,fbs,fbs,Big Ten,Pac-12,24,20
+340010239,2013,1,postseason,2014-01-02T01:30:00.000Z,False,True,True,False,,,Baylor,UCF,fbs,fbs,Big 12,American Athletic,42,52
+340020333,2013,1,postseason,2014-01-03T01:30:00.000Z,False,True,True,False,3493.0,Caesars Superdome,Alabama,Oklahoma,fbs,fbs,SEC,Big 12,31,45
+340030142,2013,1,postseason,2014-01-04T01:00:00.000Z,False,True,True,False,,,Missouri,Oklahoma State,fbs,fbs,SEC,Big 12,41,31
+340030194,2013,1,postseason,2014-01-04T01:30:00.000Z,False,True,True,False,3948.0,Hard Rock Stadium,Ohio State,Clemson,fbs,fbs,Big Ten,ACC,35,40
+340040248,2013,1,postseason,2014-01-04T18:00:00.000Z,False,True,True,False,3803.0,Legion Field,Houston,Vanderbilt,fbs,fbs,American Athletic,SEC,24,41
+340052050,2013,1,postseason,2014-01-06T02:00:00.000Z,False,True,True,False,3797.0,Ladd Peebles Stadium,Ball State,Arkansas State,fbs,fbs,Mid-American,Sun Belt,20,23
+340060002,2013,1,postseason,2014-01-07T01:30:00.000Z,False,True,True,False,1056.0,Rose Bowl,Auburn,Florida State,fbs,fbs,SEC,ACC,31,34
