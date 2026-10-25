@@ -308,14 +308,14 @@ function gameRow(g) {
       ${logo(g[side].team, 34)}
       <div class="team-id"><span class="name">${esc(g[side].team)}</span><span class="rec">${esc(g[side].record)}</span></div>
       <span class="score" aria-label="projected ${num(g[side].proj)} points">${Math.round(g[side].proj)}</span></div>`;
-  const m = g.market, strong = g.pick && g.pick.strong;
+  const m = g.market, strong = !!g.our_pick;
   const moved = m.spread !== null && m.spread_open !== null && m.spread_open !== m.spread;
   const totalEdge = m.total !== null ? Math.abs(g.model.total - m.total) : null;
   const ml = g.moneyline;
   const mlPick = ml && ml.value ? `${esc(short(ml.value.team))} ${odds(ml.value.odds)}<span>value bet</span>`
     : `${esc(short(g.winner))}<span>${ml ? `${num(ml.win_chance, 0)}% to win` : "to win"}</span>`;
   const spreadPick = g.pick && g.pick.text
-    ? `${esc(lineText(short(g.pick.team), g.pick.line))}<span>${num(g.edge)}-pt edge${g.pick.strong ? " · sweet spot" : g.pick.caution ? " · check news" : ""}</span>` : `–<span>no line yet</span>`;
+    ? `${esc(lineText(short(g.pick.team), g.pick.line))}<span>${num(g.edge)}-pt edge${g.our_pick ? " · ★ our pick" : ""}</span>` : `–<span>no line yet</span>`;
   const markets = `<table class="mk">
       <thead><tr><th scope="col"><span class="sr">Market</span></th><th scope="col">Line</th><th scope="col">Model</th><th scope="col">Pick</th></tr></thead>
       <tbody>
@@ -333,8 +333,8 @@ function gameRow(g) {
           <td class="pick">${mlPick}</td></tr>
       </tbody></table>`;
   const cautionTag = g.pick && g.pick.caution
-    ? `<span class="tag caution" title="Edges over ${state.predictions.settings?.sweet_spot_max ?? 7} points at the current line have gone about 50% since 2016: the market usually knows something the model doesn't">Big edge (${num(g.edge)} pts): check injury and lineup news before betting</span>` : "";
-  const ourTag = g.our_pick ? `<span class="tag ours" title="3–7 point edge${g.our_pick.locked ? " at the locked early line" : " (not locked yet)"}: one of our picks">★ Our pick: ${esc(g.our_pick.text)}${g.our_pick.locked ? " (locked)" : ""}</span>` : "";
+    ? `<span class="tag caution" title="Edges this big hold up when bet early, but once the line has settled near kickoff they've gone about 50%: make sure there's no injury or lineup news the model is missing">Big edge (${num(g.edge)} pts): double-check injury and lineup news</span>` : "";
+  const ourTag = g.our_pick ? `<span class="tag ours" title="5+ point edge${g.our_pick.locked ? " at the locked early line" : " (not locked yet)"}: one of our picks. Bet it early, before the line moves.">★ Our pick: ${esc(g.our_pick.text)}${g.our_pick.locked ? " (locked)" : ""}</span>` : "";
   const badges = `${ourTag}${cautionTag}${betEarlyTag(g)}${g.total_bet_early ? totalTags(g).replace(/<span class="tag (warn)?"[^>]*>Total moved[^<]*<\/span>/, "") : ""}${qbTags(g)}${splitTags(g)}`;
   const details = `<details class="more"><summary>Details</summary>
       <div class="more-body">
@@ -360,7 +360,7 @@ function renderBoard() {
   }
   $("#board-title").textContent = `${p.label} projections`;
   const strongN = p.games.filter((g) => g.pick && g.pick.strong).length;
-  $("#board-sub").textContent = `${p.games.length} games, ${p.games.filter((g) => g.our_pick).length} of our picks (3–7 point edges). Projected scores are the model's; lines are the market's.`;
+  $("#board-sub").textContent = `${p.games.length} games, ${p.games.filter((g) => g.our_pick).length} of our picks (5+ point edges at the early line). Projected scores are the model's; lines are the market's.`;
   $("#strong-edge").textContent = p.settings?.strong_edge ?? 3;
 
   let games = [...p.games];
@@ -516,7 +516,7 @@ async function initHistory() {
   renderHistory();
 }
 
-const edgeOk = (v) => H.edge === "ours" ? v !== null && v !== undefined && v >= 3 && v <= 7 : (v ?? -1) >= H.edge;
+const edgeOk = (v) => H.edge === "ours" ? v !== null && v !== undefined && v >= 5 : (v ?? -1) >= H.edge;
 async function renderHistory() {
   if (!H.index) return;
   const seasons = H.season === "all" ? H.index.seasons : [Number(H.season)];
@@ -570,7 +570,7 @@ async function renderHistory() {
     ? "Graded at the early line: the pick locked on Sunday or Monday this season, and the opening line for earlier seasons (only games with an opening line are included). "
     : "Graded at the closing line, the last line before kickoff. ";
   $("#h-note").textContent = lineNote + `${shown.length} games in ${label}${H.team ? ` involving "${H.team}"` : ""}`
-    + `${H.edge === "ours" ? ", our picks only: the model and the spread disagree by 3 to 7 points" : H.edge ? `, where the model and the spread disagree by ${H.edge}+ points (over/under uses the same gap on the total)` : ""}. `
+    + `${H.edge === "ours" ? ", our picks only: the model and the early line disagree by 5+ points" : H.edge ? `, where the model and the spread disagree by ${H.edge}+ points (over/under uses the same gap on the total)` : ""}. `
     + "Spread and over/under units assume standard −110 odds; moneyline units use each game's posted odds. "
     + "Past seasons were replayed using only information available before each game"
     + (bf ? `; ${bf} games this season were filled in the same way before launch.` : ".");

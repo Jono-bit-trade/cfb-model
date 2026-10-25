@@ -106,8 +106,8 @@ def locked_pick(log, r):
 
 
 def our_pick_now(locked, edge, team, line):
-    """The game counts as one of 'our picks' if its locked edge (or current edge, before it locks) is 3-7 points."""
-    lo, hi = config.STRONG_EDGE, config.SWEET_SPOT_MAX
+    """The game counts as one of 'our picks' if its locked edge (or current edge, before it locks) is OUR_PICK_MIN+."""
+    lo, hi = config.OUR_PICK_MIN, float("inf")
     if locked and locked.get("edge") is not None:
         return {"text": locked["text"], "edge": locked["edge"], "locked": True} if lo <= locked["edge"] <= hi else None
     if team and not np.isnan(edge) and lo <= abs(edge) <= hi:
@@ -484,7 +484,7 @@ def write_results(games, season, now=None):
                "season_locked": grading.summary(cur_lk), "season_locked_strong":
                    grading.summary(cur_lk, config.STRONG_EDGE, config.STRONG_EDGE),
                "all_time": grading.summary(g)}
-    # Our picks: 3-7 point edges graded at the early (locked) line, the line you'd actually bet.
+    # Our picks: 5+ point edges graded at the early (locked) line, the line you'd actually bet.
     summary["our_picks"] = grading.our_picks(cur_lk)
     summary["our_picks_live"] = grading.our_picks(cur_lk[~cur_lk["backfill"].astype(bool)]) if "backfill" in cur_lk else None
     if len(cur_lk) and cur_lk["week"].notna().any():
@@ -523,7 +523,7 @@ def our_picks_backtest():
         return None
     e = bt["pred_margin"] + bt["spread_open"]
     cover = np.sign(e) * (bt["actual_margin"] + bt["spread_open"])
-    m = (e.abs() >= config.STRONG_EDGE) & (e.abs() <= config.SWEET_SPOT_MAX)
+    m = e.abs() >= config.OUR_PICK_MIN
     w, l, p = int((cover[m] > 0).sum()), int((cover[m] < 0).sum()), int((cover[m] == 0).sum())
     return {"w": w, "l": l, "p": p, "pct": round(w / (w + l), 4) if w + l else None,
             "units": round(w * 100 / 110 - l, 2), "from": int(bt["season"].min()), "to": int(bt["season"].max())}

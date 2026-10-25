@@ -81,3 +81,6 @@ if os.path.exists(_TUNED) and os.environ.get("CFB_IGNORE_TUNED") != "1":
 BIG_SPREAD = 21.0
 # Spread edges in this range are the "sweet spot"; bigger edges usually mean the model is missing news.
 SWEET_SPOT_MAX = 7.0
+# "Our picks": spread edges of at least this many points at the early (locked) line, where you'd bet.
+# 2023-25 backtest vs the opener: 5+ = 57.0% (+61 units); 3-5 = 52.8%; graded at the close the same picks are ~51%.
+OUR_PICK_MIN = 5.0

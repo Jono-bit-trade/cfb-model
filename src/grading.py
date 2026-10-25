@@ -130,10 +130,10 @@ def summary(g, min_edge=0.0, min_total_edge=0.0):
 
 
 def our_picks(g, lo=None, hi=None):
-    """'Our picks': spread picks with an edge in the sweet spot (3-7 points by default)."""
+    """'Our picks': spread picks with an edge of OUR_PICK_MIN+ points (grade them at the early line)."""
     import config
-    lo = config.STRONG_EDGE if lo is None else lo
-    hi = config.SWEET_SPOT_MAX if hi is None else hi
+    lo = config.OUR_PICK_MIN if lo is None else lo
+    hi = float("inf") if hi is None else hi
     e = g["edge"].abs()
     p = g[(e >= lo) & (e <= hi)]
     return {**record(p["ats"]), "units": round(units_110(p["ats"]), 2), "picks": int(p["ats"].notna().sum())}
