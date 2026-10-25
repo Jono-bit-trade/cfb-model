@@ -32,7 +32,9 @@
    "ou_pick": "Over",
    "te": 2.9,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": null,
+   "tot_open": null
   },
   {
    "id": 401864494,
@@ -64,7 +66,9 @@
    "ou_pick": "Under",
    "te": 5.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -35.5,
+   "tot_open": null
   },
   {
    "id": 401858202,
@@ -96,7 +100,9 @@
    "ou_pick": "Over",
    "te": 3.6,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": null,
+   "tot_open": null
   },
   {
    "id": 401864577,
@@ -128,7 +134,9 @@
    "ou_pick": "Over",
    "te": 9.6,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -10.0,
+   "tot_open": null
   },
   {
    "id": 401866408,
@@ -160,7 +168,9 @@
    "ou_pick": "Over",
    "te": 2.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -8.5,
+   "tot_open": null
   },
   {
    "id": 401858201,
@@ -192,7 +202,9 @@
    "ou_pick": "Over",
    "te": 1.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -3.0,
+   "tot_open": null
   },
   {
    "id": 401864570,
@@ -224,7 +236,9 @@
    "ou_pick": "Under",
    "te": 2.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -28.5,
+   "tot_open": null
   },
   {
    "id": 401862693,
@@ -256,7 +270,9 @@
    "ou_pick": "Over",
    "te": 3.7,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -3.0,
+   "tot_open": null
   },
   {
    "id": 401858423,
@@ -288,7 +304,9 @@
    "ou_pick": "Under",
    "te": 3.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -30.5,
+   "tot_open": null
   },
   {
    "id": 401856767,
@@ -320,7 +338,9 @@
    "ou_pick": "Under",
    "te": 7.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -41.5,
+   "tot_open": null
   },
   {
    "id": 401858204,
@@ -352,7 +372,9 @@
    "ou_pick": "Under",
    "te": 1.9,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -22.5,
+   "tot_open": null
   },
   {
    "id": 401864425,
@@ -384,7 +406,9 @@
    "ou_pick": "Over",
    "te": 3.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -22.5,
+   "tot_open": 51.5
   },
   {
    "id": 401864424,
@@ -416,7 +440,9 @@
    "ou_pick": "Under",
    "te": 2.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -28.5,
+   "tot_open": 55.5
   },
   {
    "id": 401866409,
@@ -448,7 +474,9 @@
    "ou_pick": "Over",
    "te": 4.3,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -24.5,
+   "tot_open": 48.5
   },
   {
    "id": 401856663,
@@ -480,7 +508,9 @@
    "ou_pick": "Under",
    "te": 11.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -54.5,
+   "tot_open": 60.5
   },
   {
    "id": 401856776,
@@ -512,7 +542,9 @@
    "ou_pick": "Under",
    "te": 3.9,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -7.0,
+   "tot_open": null
   },
   {
    "id": 401858422,
@@ -544,7 +576,9 @@
    "ou_pick": "Under",
    "te": 2.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -43.5,
+   "tot_open": null
   },
   {
    "id": 401858424,
@@ -576,7 +610,9 @@
    "ou_pick": "Under",
    "te": 0.3,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -27.5,
+   "tot_open": null
   },
   {
    "id": 401856768,
@@ -608,7 +644,9 @@
    "ou_pick": "Under",
    "te": 4.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -32.5,
+   "tot_open": 56.5
   },
   {
    "id": 401864495,
@@ -640,7 +678,9 @@
    "ou_pick": "Under",
    "te": 2.9,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -3.5,
+   "tot_open": null
   },
   {
    "id": 401858435,
@@ -672,7 +712,9 @@
    "ou_pick": "Under",
    "te": 4.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -34.5,
+   "tot_open": 56.5
   },
   {
    "id": 401866623,
@@ -704,7 +746,9 @@
    "ou_pick": "Under",
    "te": 5.5,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -28.5,
+   "tot_open": 63.5
   },
   {
    "id": 401858429,
@@ -736,7 +780,9 @@
    "ou_pick": "Under",
    "te": 2.5,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -10.5,
+   "tot_open": null
   },
   {
    "id": 401856769,
@@ -768,7 +814,9 @@
    "ou_pick": "Under",
    "te": 3.6,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -38.5,
+   "tot_open": 53.5
   },
   {
    "id": 401856664,
@@ -800,7 +848,9 @@
    "ou_pick": "Under",
    "te": 7.3,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -40.5,
+   "tot_open": null
   },
   {
    "id": 401858436,
@@ -832,7 +882,9 @@
    "ou_pick": "Under",
    "te": 4.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -23.5,
+   "tot_open": null
   },
   {
    "id": 401858206,
@@ -864,7 +916,9 @@
    "ou_pick": "Over",
    "te": 0.2,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 21.5,
+   "tot_open": null
   },
   {
    "id": 401862701,
@@ -896,7 +950,9 @@
    "ou_pick": "Under",
    "te": 3.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -36.5,
+   "tot_open": null
   },
   {
    "id": 401856778,
@@ -928,7 +984,9 @@
    "ou_pick": "Under",
    "te": 2.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -18.5,
+   "tot_open": null
   },
   {
    "id": 401856780,
@@ -960,7 +1018,9 @@
    "ou_pick": "Under",
    "te": 6.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -17.5,
+   "tot_open": null
   },
   {
    "id": 401858430,
@@ -992,7 +1052,9 @@
    "ou_pick": "Under",
    "te": 0.6,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -23.5,
+   "tot_open": null
   },
   {
    "id": 401858208,
@@ -1024,7 +1086,9 @@
    "ou_pick": "Under",
    "te": 1.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -32.5,
+   "tot_open": 55.5
   },
   {
    "id": 401866410,
@@ -1056,7 +1120,9 @@
    "ou_pick": "Over",
    "te": 1.5,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -2.5,
+   "tot_open": 47.5
   },
   {
    "id": 401869960,
@@ -1088,7 +1154,9 @@
    "ou_pick": "Over",
    "te": 0.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -6.0,
+   "tot_open": null
   },
   {
    "id": 401856634,
@@ -1120,7 +1188,9 @@
    "ou_pick": "Under",
    "te": 6.9,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -25.5,
+   "tot_open": null
   },
   {
    "id": 401858425,
@@ -1152,7 +1222,9 @@
    "ou_pick": "Over",
    "te": 0.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -40.5,
+   "tot_open": null
   },
   {
    "id": 401861962,
@@ -1184,7 +1256,9 @@
    "ou_pick": "Over",
    "te": 3.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -19.5,
+   "tot_open": 58.5
   },
   {
    "id": 401858207,
@@ -1216,7 +1290,9 @@
    "ou_pick": "Under",
    "te": 0.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -16.5,
+   "tot_open": null
   },
   {
    "id": 401858432,
@@ -1248,7 +1324,9 @@
    "ou_pick": "Under",
    "te": 12.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -49.5,
+   "tot_open": null
   },
   {
    "id": 401856665,
@@ -1280,7 +1358,9 @@
    "ou_pick": "Under",
    "te": 4.6,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -33.5,
+   "tot_open": null
   },
   {
    "id": 401864496,
@@ -1312,7 +1392,9 @@
    "ou_pick": "Under",
    "te": 1.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -30.5,
+   "tot_open": 58.5
   },
   {
    "id": 401856659,
@@ -1344,7 +1426,9 @@
    "ou_pick": "Under",
    "te": 9.9,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -23.5,
+   "tot_open": 62.5
   },
   {
    "id": 401856779,
@@ -1376,7 +1460,9 @@
    "ou_pick": "Under",
    "te": 0.7,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -29.5,
+   "tot_open": 53.5
   },
   {
    "id": 401862698,
@@ -1408,7 +1494,9 @@
    "ou_pick": "Over",
    "te": 2.7,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -10.0,
+   "tot_open": 51.5
   },
   {
    "id": 401856658,
@@ -1440,7 +1528,9 @@
    "ou_pick": "Under",
    "te": 3.9,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -46.5,
+   "tot_open": 56.5
   },
   {
    "id": 401866627,
@@ -1472,7 +1562,9 @@
    "ou_pick": "Under",
    "te": 0.7,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -17.5,
+   "tot_open": 53.5
   },
   {
    "id": 401858209,
@@ -1504,7 +1596,9 @@
    "ou_pick": "Over",
    "te": 0.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -8.5,
+   "tot_open": null
   },
   {
    "id": 401858433,
@@ -1536,7 +1630,9 @@
    "ou_pick": "Under",
    "te": 4.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -24.5,
+   "tot_open": null
   },
   {
    "id": 401862694,
@@ -1568,7 +1664,9 @@
    "ou_pick": "Over",
    "te": 2.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -15.5,
+   "tot_open": 46.5
   },
   {
    "id": 401858434,
@@ -1600,7 +1698,9 @@
    "ou_pick": "Under",
    "te": 1.3,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -23.5,
+   "tot_open": null
   },
   {
    "id": 401856636,
@@ -1632,7 +1732,9 @@
    "ou_pick": "Under",
    "te": 8.6,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -6.5,
+   "tot_open": null
   },
   {
    "id": 401856666,
@@ -1664,7 +1766,9 @@
    "ou_pick": "Under",
    "te": 8.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -46.5,
+   "tot_open": 66.5
   },
   {
    "id": 401856667,
@@ -1696,7 +1800,9 @@
    "ou_pick": "Under",
    "te": 9.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -30.5,
+   "tot_open": null
   },
   {
    "id": 401856777,
@@ -1728,7 +1834,9 @@
    "ou_pick": "Over",
    "te": 1.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -9.5,
+   "tot_open": null
   },
   {
    "id": 401864499,
@@ -1760,7 +1868,9 @@
    "ou_pick": "Under",
    "te": 0.8,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -39.5,
+   "tot_open": 57.5
   },
   {
    "id": 401862700,
@@ -1792,7 +1902,9 @@
    "ou_pick": "Under",
    "te": 1.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -28.5,
+   "tot_open": 59.5
   },
   {
    "id": 401862696,
@@ -1824,7 +1936,9 @@
    "ou_pick": "Over",
    "te": 2.2,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -30.5,
+   "tot_open": 53.5
   },
   {
    "id": 401856772,
@@ -1856,7 +1970,9 @@
    "ou_pick": "Under",
    "te": 10.7,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 11.5,
+   "tot_open": null
   },
   {
    "id": 401856635,
@@ -1888,7 +2004,9 @@
    "ou_pick": "Under",
    "te": 7.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -40.5,
+   "tot_open": 63.5
   },
   {
    "id": 401858426,
@@ -1920,7 +2038,9 @@
    "ou_pick": "Under",
    "te": 1.6,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -29.5,
+   "tot_open": null
   },
   {
    "id": 401868356,
@@ -1952,7 +2072,9 @@
    "ou_pick": "Over",
    "te": 2.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -21.0,
+   "tot_open": 50.5
   },
   {
    "id": 401867973,
@@ -1984,7 +2106,9 @@
    "ou_pick": "Under",
    "te": 1.4,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -41.5,
+   "tot_open": 55.5
   },
   {
    "id": 401860878,
@@ -2016,7 +2140,9 @@
    "ou_pick": "Under",
    "te": 3.6,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -4.0,
+   "tot_open": null
   },
   {
    "id": 401868316,
@@ -2048,7 +2174,9 @@
    "ou_pick": "Over",
    "te": 2.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -12.5,
+   "tot_open": 52.5
   },
   {
    "id": 401868170,
@@ -2080,7 +2208,9 @@
    "ou_pick": "Over",
    "te": 3.7,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -25.5,
+   "tot_open": 51.5
   },
   {
    "id": 401868140,
@@ -2112,7 +2242,9 @@
    "ou_pick": "Over",
    "te": 0.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -19.5,
+   "tot_open": 52.5
   },
   {
    "id": 401860880,
@@ -2144,7 +2276,9 @@
    "ou_pick": "Under",
    "te": 4.8,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -11.5,
+   "tot_open": 64.5
   },
   {
    "id": 401856669,
@@ -2176,7 +2310,9 @@
    "ou_pick": "Under",
    "te": 1.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -30.5,
+   "tot_open": 61.5
   },
   {
    "id": 401856770,
@@ -2208,7 +2344,9 @@
    "ou_pick": "Under",
    "te": 9.9,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -42.5,
+   "tot_open": 59.5
   },
   {
    "id": 401870763,
@@ -2240,7 +2378,9 @@
    "ou_pick": "Under",
    "te": 5.2,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -17.5,
+   "tot_open": null
   },
   {
    "id": 401856668,
@@ -2272,7 +2412,9 @@
    "ou_pick": "Under",
    "te": 2.8,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -38.5,
+   "tot_open": null
   },
   {
    "id": 401862695,
@@ -2304,7 +2446,9 @@
    "ou_pick": "Under",
    "te": 3.7,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -10.5,
+   "tot_open": null
   },
   {
    "id": 401862697,
@@ -2336,7 +2480,9 @@
    "ou_pick": "Over",
    "te": 1.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -24.5,
+   "tot_open": 47.5
   },
   {
    "id": 401867866,
@@ -2368,7 +2514,9 @@
    "ou_pick": "Under",
    "te": 2.4,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -20.5,
+   "tot_open": 59.5
   },
   {
    "id": 401862699,
@@ -2400,7 +2548,9 @@
    "ou_pick": "Over",
    "te": 1.5,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -12.5,
+   "tot_open": null
   },
   {
    "id": 401856771,
@@ -2432,7 +2582,9 @@
    "ou_pick": "Under",
    "te": 1.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -40.5,
+   "tot_open": 55.5
   },
   {
    "id": 401858211,
@@ -2464,7 +2616,9 @@
    "ou_pick": "Under",
    "te": 9.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -50.5,
+   "tot_open": 57.5
   },
   {
    "id": 401869129,
@@ -2496,7 +2650,9 @@
    "ou_pick": "Under",
    "te": 5.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -41.5,
+   "tot_open": 52.5
   },
   {
    "id": 401858428,
@@ -2528,7 +2684,9 @@
    "ou_pick": "Under",
    "te": 6.6,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -26.5,
+   "tot_open": null
   },
   {
    "id": 401856662,
@@ -2560,7 +2718,9 @@
    "ou_pick": "Under",
    "te": 5.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -28.5,
+   "tot_open": null
   },
   {
    "id": 401856660,
@@ -2592,7 +2752,9 @@
    "ou_pick": "Under",
    "te": 6.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": null,
+   "tot_open": null
   },
   {
    "id": 401856637,
@@ -2624,7 +2786,9 @@
    "ou_pick": "Under",
    "te": 7.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -25.5,
+   "tot_open": null
   },
   {
    "id": 401856775,
@@ -2656,7 +2820,9 @@
    "ou_pick": "Under",
    "te": 8.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -47.5,
+   "tot_open": 54.5
   },
   {
    "id": 401869142,
@@ -2688,7 +2854,9 @@
    "ou_pick": "Over",
    "te": 5.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -18.5,
+   "tot_open": 48.5
   },
   {
    "id": 401858427,
@@ -2720,7 +2888,9 @@
    "ou_pick": "Under",
    "te": 4.7,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -45.5,
+   "tot_open": 56.5
   },
   {
    "id": 401858431,
@@ -2752,7 +2922,9 @@
    "ou_pick": "Under",
    "te": 0.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -12.5,
+   "tot_open": 46.5
   },
   {
    "id": 401870790,
@@ -2784,7 +2956,9 @@
    "ou_pick": "Under",
    "te": 0.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -24.5,
+   "tot_open": 50.5
   },
   {
    "id": 401860879,
@@ -2816,7 +2990,9 @@
    "ou_pick": "Under",
    "te": 11.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -38.5,
+   "tot_open": 57.5
   },
   {
    "id": 401856773,
@@ -2848,7 +3024,9 @@
    "ou_pick": "Under",
    "te": 7.6,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -31.5,
+   "tot_open": 56.5
   },
   {
    "id": 401866411,
@@ -2880,7 +3058,9 @@
    "ou_pick": "Under",
    "te": 3.7,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -35.5,
+   "tot_open": 56.5
   },
   {
    "id": 401864498,
@@ -2912,7 +3092,9 @@
    "ou_pick": "Under",
    "te": 5.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -12.5,
+   "tot_open": null
   },
   {
    "id": 401864497,
@@ -2944,7 +3126,9 @@
    "ou_pick": "Under",
    "te": 1.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 1.5,
+   "tot_open": null
   },
   {
    "id": 401856774,
@@ -2976,7 +3160,9 @@
    "ou_pick": "Under",
    "te": 4.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -41.5,
+   "tot_open": 52.5
   },
   {
    "id": 401858210,
@@ -3008,7 +3194,9 @@
    "ou_pick": "Under",
    "te": 5.9,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -1.5,
+   "tot_open": null
   },
   {
    "id": 401864432,
@@ -3040,7 +3228,9 @@
    "ou_pick": "Under",
    "te": 6.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 4.5,
+   "tot_open": null
   },
   {
    "id": 401858437,
@@ -3072,7 +3262,9 @@
    "ou_pick": "Under",
    "te": 10.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -21.5,
+   "tot_open": null
   },
   {
    "id": 401858438,
@@ -3104,7 +3296,9 @@
    "ou_pick": "Under",
    "te": 1.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": null,
+   "tot_open": 47.5
   },
   {
    "id": 401856661,
@@ -3136,7 +3330,9 @@
    "ou_pick": "Under",
    "te": 3.9,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": null,
+   "tot_open": null
   },
   {
    "id": 401858212,
@@ -3168,7 +3364,9 @@
    "ou_pick": "Under",
    "te": 2.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": null,
+   "tot_open": null
   },
   {
    "id": 401858213,
@@ -3200,7 +3398,9 @@
    "ou_pick": "Under",
    "te": 11.7,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -55.5,
+   "tot_open": 62.5
   },
   {
    "id": 401858220,
@@ -3232,7 +3432,9 @@
    "ou_pick": "Under",
    "te": 1.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -44.5,
+   "tot_open": 54.5
   },
   {
    "id": 401858215,
@@ -3264,7 +3466,9 @@
    "ou_pick": "Under",
    "te": 0.6,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -36.5,
+   "tot_open": 55.5
   },
   {
    "id": 401858222,
@@ -3296,7 +3500,9 @@
    "ou_pick": "Over",
    "te": 5.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -30.5,
+   "tot_open": 48.5
   },
   {
    "id": 401858214,
@@ -3328,7 +3534,9 @@
    "ou_pick": "Over",
    "te": 3.9,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -3.5,
+   "tot_open": null
   },
   {
    "id": 401856678,
@@ -3360,7 +3568,9 @@
    "ou_pick": "Under",
    "te": 0.7,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 7.0,
+   "tot_open": 52.5
   },
   {
    "id": 401858221,
@@ -3392,7 +3602,9 @@
    "ou_pick": "Over",
    "te": 0.3,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -14.0,
+   "tot_open": null
   },
   {
    "id": 401856679,
@@ -3424,7 +3636,9 @@
    "ou_pick": "Under",
    "te": 1.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -1.5,
+   "tot_open": 46.5
   },
   {
    "id": 401864571,
@@ -3456,7 +3670,9 @@
    "ou_pick": "Under",
    "te": 5.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -11.5,
+   "tot_open": 56.5
   },
   {
    "id": 401856683,
@@ -3488,7 +3704,9 @@
    "ou_pick": "Under",
    "te": 2.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -14.5,
+   "tot_open": 51.5
   },
   {
    "id": 401867929,
@@ -3520,7 +3738,9 @@
    "ou_pick": "Under",
    "te": 3.6,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -45.5,
+   "tot_open": 54.5
   },
   {
    "id": 401858218,
@@ -3552,7 +3772,9 @@
    "ou_pick": "Under",
    "te": 3.6,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -34.5,
+   "tot_open": 54.5
   },
   {
    "id": 401866416,
@@ -3584,7 +3806,9 @@
    "ou_pick": "Over",
    "te": 12.2,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -11.5,
+   "tot_open": 47.5
   },
   {
    "id": 401862702,
@@ -3616,7 +3840,9 @@
    "ou_pick": "Over",
    "te": 4.3,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -1.5,
+   "tot_open": 52.5
   },
   {
    "id": 401858224,
@@ -3648,7 +3874,9 @@
    "ou_pick": "Under",
    "te": 2.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 3.5,
+   "tot_open": 49.5
   },
   {
    "id": 401856782,
@@ -3680,7 +3908,9 @@
    "ou_pick": "Under",
    "te": 7.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 18.5,
+   "tot_open": 60.5
   },
   {
    "id": 401856781,
@@ -3712,7 +3942,9 @@
    "ou_pick": "Under",
    "te": 0.7,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -16.5,
+   "tot_open": 51.5
   },
   {
    "id": 401858442,
@@ -3744,7 +3976,9 @@
    "ou_pick": "Over",
    "te": 1.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 21.5,
+   "tot_open": 51.5
   },
   {
    "id": 401858439,
@@ -3776,7 +4010,9 @@
    "ou_pick": "Under",
    "te": 12.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -56.5,
+   "tot_open": 64.5
   },
   {
    "id": 401868187,
@@ -3808,7 +4044,9 @@
    "ou_pick": "Under",
    "te": 0.3,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -25.5,
+   "tot_open": 55.5
   },
   {
    "id": 401856673,
@@ -3840,7 +4078,9 @@
    "ou_pick": "Under",
    "te": 5.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -35.5,
+   "tot_open": 52.5
   },
   {
    "id": 401866417,
@@ -3872,7 +4112,9 @@
    "ou_pick": "Over",
    "te": 8.4,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -30.5,
+   "tot_open": 49.5
   },
   {
    "id": 401866415,
@@ -3904,7 +4146,9 @@
    "ou_pick": "Over",
    "te": 5.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -23.5,
+   "tot_open": 49.5
   },
   {
    "id": 401856791,
@@ -3936,7 +4180,9 @@
    "ou_pick": "Over",
    "te": 1.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -40.5,
+   "tot_open": 55.5
   },
   {
    "id": 401866413,
@@ -3968,7 +4214,9 @@
    "ou_pick": "Over",
    "te": 0.3,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -14.5,
+   "tot_open": 57.5
   },
   {
    "id": 401862708,
@@ -4000,7 +4248,9 @@
    "ou_pick": "Under",
    "te": 0.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -7.5,
+   "tot_open": 54.5
   },
   {
    "id": 401856674,
@@ -4032,7 +4282,9 @@
    "ou_pick": "Over",
    "te": 0.2,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 10.5,
+   "tot_open": null
   },
   {
    "id": 401858216,
@@ -4064,7 +4316,9 @@
    "ou_pick": "Under",
    "te": 3.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 1.5,
+   "tot_open": 52.5
   },
   {
    "id": 401858444,
@@ -4096,7 +4350,9 @@
    "ou_pick": "Over",
    "te": 4.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 12.5,
+   "tot_open": 53.5
   },
   {
    "id": 401856677,
@@ -4128,7 +4384,9 @@
    "ou_pick": "Over",
    "te": 0.3,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -2.5,
+   "tot_open": null
   },
   {
    "id": 401866419,
@@ -4160,7 +4418,9 @@
    "ou_pick": "Over",
    "te": 1.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -33.5,
+   "tot_open": 55.5
   },
   {
    "id": 401858217,
@@ -4192,7 +4452,9 @@
    "ou_pick": "Over",
    "te": 3.6,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -8.5,
+   "tot_open": null
   },
   {
    "id": 401856790,
@@ -4224,7 +4486,9 @@
    "ou_pick": "Under",
    "te": 4.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -8.5,
+   "tot_open": 51.5
   },
   {
    "id": 401866412,
@@ -4256,7 +4520,9 @@
    "ou_pick": "Over",
    "te": 10.9,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -27.5,
+   "tot_open": 41.5
   },
   {
    "id": 401858440,
@@ -4288,7 +4554,9 @@
    "ou_pick": "Over",
    "te": 2.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -15.5,
+   "tot_open": 51.5
   },
   {
    "id": 401856810,
@@ -4320,7 +4588,9 @@
    "ou_pick": "Under",
    "te": 0.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -6.5,
+   "tot_open": null
   },
   {
    "id": 401860884,
@@ -4352,7 +4622,9 @@
    "ou_pick": "Under",
    "te": 7.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -1.5,
+   "tot_open": null
   },
   {
    "id": 401866420,
@@ -4384,7 +4656,9 @@
    "ou_pick": "Over",
    "te": 4.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -23.5,
+   "tot_open": 53.5
   },
   {
    "id": 401859184,
@@ -4416,7 +4690,9 @@
    "ou_pick": "Under",
    "te": 6.2,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -44.5,
+   "tot_open": 52.5
   },
   {
    "id": 401856785,
@@ -4448,7 +4724,9 @@
    "ou_pick": "Under",
    "te": 4.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -33.5,
+   "tot_open": 53.5
   },
   {
    "id": 401858446,
@@ -4480,7 +4758,9 @@
    "ou_pick": "Under",
    "te": 5.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -24.5,
+   "tot_open": 56.5
   },
   {
    "id": 401862705,
@@ -4512,7 +4792,9 @@
    "ou_pick": "Over",
    "te": 5.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 6.5,
+   "tot_open": 61.5
   },
   {
    "id": 401868326,
@@ -4544,7 +4826,9 @@
    "ou_pick": "Over",
    "te": 2.9,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": null,
+   "tot_open": 51.5
   },
   {
    "id": 401858223,
@@ -4576,7 +4860,9 @@
    "ou_pick": "Under",
    "te": 1.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -24.5,
+   "tot_open": 58.5
   },
   {
    "id": 401865252,
@@ -4608,7 +4894,9 @@
    "ou_pick": "Under",
    "te": 1.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -40.5,
+   "tot_open": 51.5
   },
   {
    "id": 401864506,
@@ -4640,7 +4928,9 @@
    "ou_pick": "Over",
    "te": 5.9,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -22.5,
+   "tot_open": 47.5
   },
   {
    "id": 401856684,
@@ -4672,7 +4962,9 @@
    "ou_pick": "Over",
    "te": 4.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -21.5,
+   "tot_open": 55.5
   },
   {
    "id": 401856672,
@@ -4704,7 +4996,9 @@
    "ou_pick": "Under",
    "te": 10.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -49.5,
+   "tot_open": 65.5
   },
   {
    "id": 401866414,
@@ -4736,7 +5030,9 @@
    "ou_pick": "Under",
    "te": 2.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -10.5,
+   "tot_open": 51.5
   },
   {
    "id": 401866418,
@@ -4768,7 +5064,9 @@
    "ou_pick": "Over",
    "te": 1.8,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -2.5,
+   "tot_open": 48.5
   },
   {
    "id": 401860881,
@@ -4800,7 +5098,9 @@
    "ou_pick": "Under",
    "te": 1.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -6.5,
+   "tot_open": null
   },
   {
    "id": 401866421,
@@ -4832,7 +5132,9 @@
    "ou_pick": "Under",
    "te": 1.7,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -25.5,
+   "tot_open": 52.5
   },
   {
    "id": 401864575,
@@ -4864,7 +5166,9 @@
    "ou_pick": "Under",
    "te": 1.3,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -10.0,
+   "tot_open": 55.5
   },
   {
    "id": 401856680,
@@ -4896,7 +5200,9 @@
    "ou_pick": "Under",
    "te": 2.3,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -43.5,
+   "tot_open": 54.5
   },
   {
    "id": 401871045,
@@ -4928,7 +5234,9 @@
    "ou_pick": "Under",
    "te": 3.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -17.5,
+   "tot_open": 57.5
   },
   {
    "id": 401856786,
@@ -4960,7 +5268,9 @@
    "ou_pick": "Under",
    "te": 5.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -36.5,
+   "tot_open": 60.5
   },
   {
    "id": 401864503,
@@ -4992,7 +5302,9 @@
    "ou_pick": "Over",
    "te": 5.4,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 4.5,
+   "tot_open": 48.5
   },
   {
    "id": 401860882,
@@ -5024,7 +5336,9 @@
    "ou_pick": "Under",
    "te": 3.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -20.5,
+   "tot_open": 56.5
   },
   {
    "id": 401869955,
@@ -5056,7 +5370,9 @@
    "ou_pick": "Under",
    "te": 4.2,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -9.5,
+   "tot_open": 50.5
   },
   {
    "id": 401871046,
@@ -5088,7 +5404,9 @@
    "ou_pick": "Over",
    "te": 1.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -19.5,
+   "tot_open": 52.5
   },
   {
    "id": 401862707,
@@ -5120,7 +5438,9 @@
    "ou_pick": "Under",
    "te": 1.9,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 10.5,
+   "tot_open": 53.5
   },
   {
    "id": 401856681,
@@ -5152,7 +5472,9 @@
    "ou_pick": "Over",
    "te": 4.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 8.5,
+   "tot_open": null
   },
   {
    "id": 401856787,
@@ -5184,7 +5506,9 @@
    "ou_pick": "Under",
    "te": 3.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -51.5,
+   "tot_open": 60.5
   },
   {
    "id": 401868241,
@@ -5216,7 +5540,9 @@
    "ou_pick": "Under",
    "te": 0.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -31.5,
+   "tot_open": 56.5
   },
   {
    "id": 401858441,
@@ -5248,7 +5574,9 @@
    "ou_pick": "Under",
    "te": 1.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -25.5,
+   "tot_open": 48.5
   },
   {
    "id": 401858447,
@@ -5280,7 +5608,9 @@
    "ou_pick": "Under",
    "te": 2.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -38.5,
+   "tot_open": 48.5
   },
   {
    "id": 401858443,
@@ -5312,7 +5642,9 @@
    "ou_pick": "Under",
    "te": 5.8,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -8.5,
+   "tot_open": null
   },
   {
    "id": 401862703,
@@ -5344,7 +5676,9 @@
    "ou_pick": "Under",
    "te": 0.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 6.5,
+   "tot_open": 57.5
   },
   {
    "id": 401867796,
@@ -5376,7 +5710,9 @@
    "ou_pick": "Under",
    "te": 7.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -31.5,
+   "tot_open": 55.5
   },
   {
    "id": 401856788,
@@ -5408,7 +5744,9 @@
    "ou_pick": "Over",
    "te": 1.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -11.5,
+   "tot_open": 41.5
   },
   {
    "id": 401856682,
@@ -5440,7 +5778,9 @@
    "ou_pick": "Under",
    "te": 2.7,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -1.5,
+   "tot_open": null
   },
   {
    "id": 401868008,
@@ -5472,7 +5812,9 @@
    "ou_pick": "Over",
    "te": 5.5,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -31.5,
+   "tot_open": 52.5
   },
   {
    "id": 401856783,
@@ -5504,7 +5846,9 @@
    "ou_pick": "Under",
    "te": 8.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 27.5,
+   "tot_open": 49.5
   },
   {
    "id": 401858219,
@@ -5536,7 +5880,9 @@
    "ou_pick": "Under",
    "te": 5.3,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -26.5,
+   "tot_open": 57.5
   },
   {
    "id": 401856676,
@@ -5568,7 +5914,9 @@
    "ou_pick": "Under",
    "te": 3.8,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -46.5,
+   "tot_open": 61.5
   },
   {
    "id": 401856671,
@@ -5600,7 +5948,9 @@
    "ou_pick": "Under",
    "te": 8.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -29.5,
+   "tot_open": 52.5
   },
   {
    "id": 401856789,
@@ -5632,7 +5982,9 @@
    "ou_pick": "Under",
    "te": 2.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -43.5,
+   "tot_open": 53.5
   },
   {
    "id": 401856784,
@@ -5664,7 +6016,9 @@
    "ou_pick": "Over",
    "te": 2.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -37.5,
+   "tot_open": 56.5
   },
   {
    "id": 401864504,
@@ -5696,7 +6050,9 @@
    "ou_pick": "Under",
    "te": 0.2,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -20.5,
+   "tot_open": 56.5
   },
   {
    "id": 401864505,
@@ -5728,7 +6084,9 @@
    "ou_pick": "Over",
    "te": 1.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -25.5,
+   "tot_open": 52.5
   },
   {
    "id": 401864502,
@@ -5760,7 +6118,9 @@
    "ou_pick": "Over",
    "te": 1.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 6.5,
+   "tot_open": 49.5
   },
   {
    "id": 401856670,
@@ -5792,7 +6152,9 @@
    "ou_pick": "Over",
    "te": 5.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -9.5,
+   "tot_open": 54.5
   },
   {
    "id": 401864500,
@@ -5824,7 +6186,9 @@
    "ou_pick": "Over",
    "te": 4.3,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 4.5,
+   "tot_open": 49.5
   },
   {
    "id": 401860883,
@@ -5856,7 +6220,9 @@
    "ou_pick": "Under",
    "te": 1.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -18.5,
+   "tot_open": 48.5
   },
   {
    "id": 401858445,
@@ -5888,7 +6254,9 @@
    "ou_pick": "Under",
    "te": 4.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -28.5,
+   "tot_open": 63.5
   },
   {
    "id": 401864578,
@@ -5920,7 +6288,9 @@
    "ou_pick": "Under",
    "te": 0.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -11.5,
+   "tot_open": 51.5
   },
   {
    "id": 401858225,
@@ -5952,7 +6322,9 @@
    "ou_pick": "Under",
    "te": 1.4,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -10.5,
+   "tot_open": 59.5
   },
   {
    "id": 401858226,
@@ -5984,7 +6356,9 @@
    "ou_pick": "Under",
    "te": 4.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 19.5,
+   "tot_open": 50.5
   },
   {
    "id": 401856811,
@@ -6016,7 +6390,9 @@
    "ou_pick": "Under",
    "te": 1.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -13.5,
+   "tot_open": null
   },
   {
    "id": 401858455,
@@ -6048,7 +6424,9 @@
    "ou_pick": "Under",
    "te": 11.7,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -57.5,
+   "tot_open": 66.5
   },
   {
    "id": 401869940,
@@ -6080,7 +6458,9 @@
    "ou_pick": "Under",
    "te": 4.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -4.5,
+   "tot_open": 58.5
   },
   {
    "id": 401860889,
@@ -6112,7 +6492,9 @@
    "ou_pick": "Over",
    "te": 3.2,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -3.0,
+   "tot_open": 63.5
   },
   {
    "id": 401856798,
@@ -6144,7 +6526,9 @@
    "ou_pick": "Under",
    "te": 1.3,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -22.5,
+   "tot_open": 45.5
   },
   {
    "id": 401858456,
@@ -6176,7 +6560,9 @@
    "ou_pick": "Under",
    "te": 2.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -39.5,
+   "tot_open": 48.5
   },
   {
    "id": 401858454,
@@ -6208,7 +6594,9 @@
    "ou_pick": "Under",
    "te": 9.7,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -52.5,
+   "tot_open": 56.5
   },
   {
    "id": 401856686,
@@ -6240,7 +6628,9 @@
    "ou_pick": "Over",
    "te": 2.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 17.5,
+   "tot_open": 52.5
   },
   {
    "id": 401858228,
@@ -6272,7 +6662,9 @@
    "ou_pick": "Under",
    "te": 2.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -38.5,
+   "tot_open": 58.5
   },
   {
    "id": 401858451,
@@ -6304,7 +6696,9 @@
    "ou_pick": "Over",
    "te": 0.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -26.5,
+   "tot_open": 48.5
   },
   {
    "id": 401858229,
@@ -6336,7 +6730,9 @@
    "ou_pick": "Under",
    "te": 0.6,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -9.5,
+   "tot_open": 44.5
   },
   {
    "id": 401856812,
@@ -6368,7 +6764,9 @@
    "ou_pick": "Over",
    "te": 1.6,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 5.5,
+   "tot_open": 56.5
   },
   {
    "id": 401856792,
@@ -6400,7 +6798,9 @@
    "ou_pick": "Over",
    "te": 0.4,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -20.5,
+   "tot_open": 49.5
   },
   {
    "id": 401858460,
@@ -6432,7 +6832,9 @@
    "ou_pick": "Over",
    "te": 0.6,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -24.5,
+   "tot_open": 45.5
   },
   {
    "id": 401856695,
@@ -6464,7 +6866,9 @@
    "ou_pick": "Over",
    "te": 6.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -4.0,
+   "tot_open": 54.5
   },
   {
    "id": 401864508,
@@ -6496,7 +6900,9 @@
    "ou_pick": "Under",
    "te": 4.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -2.5,
+   "tot_open": 39.5
   },
   {
    "id": 401858227,
@@ -6528,7 +6934,9 @@
    "ou_pick": "Over",
    "te": 4.7,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -38.5,
+   "tot_open": 53.5
   },
   {
    "id": 401858448,
@@ -6560,7 +6968,9 @@
    "ou_pick": "Over",
    "te": 2.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -41.5,
+   "tot_open": 54.5
   },
   {
    "id": 401862774,
@@ -6592,7 +7002,9 @@
    "ou_pick": "Under",
    "te": 0.5,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -4.0,
+   "tot_open": 52.5
   },
   {
    "id": 401858233,
@@ -6624,7 +7036,9 @@
    "ou_pick": "Under",
    "te": 7.2,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -58.5,
+   "tot_open": 65.5
   },
   {
    "id": 401856694,
@@ -6656,7 +7070,9 @@
    "ou_pick": "Over",
    "te": 1.3,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -15.5,
+   "tot_open": 48.5
   },
   {
    "id": 401856685,
@@ -6688,7 +7104,9 @@
    "ou_pick": "Over",
    "te": 1.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -15.5,
+   "tot_open": 52.5
   },
   {
    "id": 401860890,
@@ -6720,7 +7138,9 @@
    "ou_pick": "Over",
    "te": 1.8,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -37.5,
+   "tot_open": 53.5
   },
   {
    "id": 401858457,
@@ -6752,7 +7172,9 @@
    "ou_pick": "Over",
    "te": 0.7,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 24.5,
+   "tot_open": 57.5
   },
   {
    "id": 401856797,
@@ -6784,7 +7206,9 @@
    "ou_pick": "Over",
    "te": 2.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -15.5,
+   "tot_open": 49.5
   },
   {
    "id": 401858450,
@@ -6816,7 +7240,9 @@
    "ou_pick": "Over",
    "te": 0.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -36.5,
+   "tot_open": 49.5
   },
   {
    "id": 401866424,
@@ -6848,7 +7274,9 @@
    "ou_pick": "Over",
    "te": 7.5,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -33.5,
+   "tot_open": 49.5
   },
   {
    "id": 401856801,
@@ -6880,7 +7308,9 @@
    "ou_pick": "Over",
    "te": 0.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -27.5,
+   "tot_open": 57.5
   },
   {
    "id": 401858230,
@@ -6912,7 +7342,9 @@
    "ou_pick": "Under",
    "te": 4.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -1.5,
+   "tot_open": 56.5
   },
   {
    "id": 401867804,
@@ -6944,7 +7376,9 @@
    "ou_pick": "Under",
    "te": 0.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -17.5,
+   "tot_open": 55.5
   },
   {
    "id": 401858449,
@@ -6976,7 +7410,9 @@
    "ou_pick": "Under",
    "te": 4.8,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -44.5,
+   "tot_open": 59.5
   },
   {
    "id": 401858231,
@@ -7008,7 +7444,9 @@
    "ou_pick": "Over",
    "te": 3.6,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -10.0,
+   "tot_open": 50.5
   },
   {
    "id": 401858471,
@@ -7040,7 +7478,9 @@
    "ou_pick": "Over",
    "te": 5.8,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -40.5,
+   "tot_open": 49.5
   },
   {
    "id": 401866422,
@@ -7072,7 +7512,9 @@
    "ou_pick": "Under",
    "te": 1.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -14.5,
+   "tot_open": 55.5
   },
   {
    "id": 401856691,
@@ -7104,7 +7546,9 @@
    "ou_pick": "Under",
    "te": 6.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -7.5,
+   "tot_open": 54.5
   },
   {
    "id": 401868317,
@@ -7136,7 +7580,9 @@
    "ou_pick": "Over",
    "te": 7.2,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -10.5,
+   "tot_open": 48.5
   },
   {
    "id": 401864574,
@@ -7168,7 +7614,9 @@
    "ou_pick": "Under",
    "te": 1.7,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -19.5,
+   "tot_open": 53.5
   },
   {
    "id": 401862710,
@@ -7200,7 +7648,9 @@
    "ou_pick": "Over",
    "te": 0.3,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -2.5,
+   "tot_open": 49.5
   },
   {
    "id": 401862771,
@@ -7232,7 +7682,9 @@
    "ou_pick": "Under",
    "te": 1.2,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -7.5,
+   "tot_open": 62.5
   },
   {
    "id": 401871047,
@@ -7264,7 +7716,9 @@
    "ou_pick": "Over",
    "te": 0.6,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 4.5,
+   "tot_open": 53.5
   },
   {
    "id": 401856800,
@@ -7296,7 +7750,9 @@
    "ou_pick": "Under",
    "te": 2.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -21.0,
+   "tot_open": 49.5
   },
   {
    "id": 401862772,
@@ -7328,7 +7784,9 @@
    "ou_pick": "Under",
    "te": 1.7,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -34.5,
+   "tot_open": 57.5
   },
   {
    "id": 401856803,
@@ -7360,7 +7818,9 @@
    "ou_pick": "Under",
    "te": 15.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -56.5,
+   "tot_open": 70.5
   },
   {
    "id": 401856689,
@@ -7392,7 +7852,9 @@
    "ou_pick": "Under",
    "te": 2.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -27.5,
+   "tot_open": 49.5
   },
   {
    "id": 401869948,
@@ -7424,7 +7886,9 @@
    "ou_pick": "Under",
    "te": 2.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -2.5,
+   "tot_open": 53.5
   },
   {
    "id": 401866423,
@@ -7456,7 +7920,9 @@
    "ou_pick": "Over",
    "te": 3.3,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -3.5,
+   "tot_open": 53.5
   },
   {
    "id": 401862773,
@@ -7488,7 +7954,9 @@
    "ou_pick": "Over",
    "te": 3.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 11.5,
+   "tot_open": 45.5
   },
   {
    "id": 401864443,
@@ -7520,7 +7988,9 @@
    "ou_pick": "Under",
    "te": 5.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 6.5,
+   "tot_open": 49.5
   },
   {
    "id": 401856687,
@@ -7552,7 +8022,9 @@
    "ou_pick": "Under",
    "te": 6.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -1.5,
+   "tot_open": 53.5
   },
   {
    "id": 401870764,
@@ -7584,7 +8056,9 @@
    "ou_pick": "Over",
    "te": 5.8,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -17.5,
+   "tot_open": 49.5
   },
   {
    "id": 401861963,
@@ -7616,7 +8090,9 @@
    "ou_pick": "Over",
    "te": 3.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 2.5,
+   "tot_open": 55.5
   },
   {
    "id": 401862777,
@@ -7648,7 +8124,9 @@
    "ou_pick": "Over",
    "te": 0.8,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -36.5,
+   "tot_open": 61.5
   },
   {
    "id": 401858459,
@@ -7680,7 +8158,9 @@
    "ou_pick": "Under",
    "te": 1.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -42.5,
+   "tot_open": 56.5
   },
   {
    "id": 401858452,
@@ -7712,7 +8192,9 @@
    "ou_pick": "Over",
    "te": 2.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -24.5,
+   "tot_open": 51.5
   },
   {
    "id": 401856795,
@@ -7744,7 +8226,9 @@
    "ou_pick": "Under",
    "te": 1.9,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 21.0,
+   "tot_open": 52.5
   },
   {
    "id": 401856802,
@@ -7776,7 +8260,9 @@
    "ou_pick": "Under",
    "te": 5.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -8.5,
+   "tot_open": 50.5
   },
   {
    "id": 401856688,
@@ -7808,7 +8294,9 @@
    "ou_pick": "Under",
    "te": 7.2,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -1.5,
+   "tot_open": 57.5
   },
   {
    "id": 401858453,
@@ -7840,7 +8328,9 @@
    "ou_pick": "Over",
    "te": 1.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -29.5,
+   "tot_open": 53.5
   },
   {
    "id": 401856690,
@@ -7872,7 +8362,9 @@
    "ou_pick": "Under",
    "te": 1.9,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -23.5,
+   "tot_open": 48.5
   },
   {
    "id": 401856796,
@@ -7904,7 +8396,9 @@
    "ou_pick": "Over",
    "te": 0.8,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -4.5,
+   "tot_open": 45.5
   },
   {
    "id": 401858232,
@@ -7936,7 +8430,9 @@
    "ou_pick": "Under",
    "te": 0.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 1.5,
+   "tot_open": 53.5
   },
   {
    "id": 401856692,
@@ -7968,7 +8464,9 @@
    "ou_pick": "Under",
    "te": 1.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -34.5,
+   "tot_open": 59.5
   },
   {
    "id": 401856693,
@@ -8000,7 +8498,9 @@
    "ou_pick": "Under",
    "te": 3.7,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -29.5,
+   "tot_open": 57.5
   },
   {
    "id": 401862776,
@@ -8032,7 +8532,9 @@
    "ou_pick": "Over",
    "te": 2.6,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -10.0,
+   "tot_open": 59.5
   },
   {
    "id": 401862775,
@@ -8064,7 +8566,9 @@
    "ou_pick": "Under",
    "te": 0.7,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -42.5,
+   "tot_open": 56.5
   },
   {
    "id": 401856799,
@@ -8096,7 +8600,9 @@
    "ou_pick": "Under",
    "te": 4.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -20.5,
+   "tot_open": 57.5
   },
   {
    "id": 401860885,
@@ -8128,7 +8634,9 @@
    "ou_pick": "Under",
    "te": 3.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -23.5,
+   "tot_open": 55.5
   },
   {
    "id": 401860887,
@@ -8160,7 +8668,9 @@
    "ou_pick": "Over",
    "te": 2.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -1.5,
+   "tot_open": 46.5
   },
   {
    "id": 401856793,
@@ -8192,7 +8702,9 @@
    "ou_pick": "Under",
    "te": 6.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -35.5,
+   "tot_open": 49.5
   },
   {
    "id": 401864507,
@@ -8224,7 +8736,9 @@
    "ou_pick": "Under",
    "te": 1.8,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 23.5,
+   "tot_open": 53.5
   },
   {
    "id": 401860888,
@@ -8256,7 +8770,9 @@
    "ou_pick": "Under",
    "te": 1.6,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 7.5,
+   "tot_open": 52.5
   },
   {
    "id": 401860886,
@@ -8288,7 +8804,9 @@
    "ou_pick": "Under",
    "te": 0.5,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -17.5,
+   "tot_open": 52.5
   },
   {
    "id": 401858458,
@@ -8320,7 +8838,9 @@
    "ou_pick": "Under",
    "te": 1.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -14.0,
+   "tot_open": 53.5
   },
   {
    "id": 401869941,
@@ -8352,7 +8872,9 @@
    "ou_pick": "Over",
    "te": 1.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -1.5,
+   "tot_open": 54.5
   },
   {
    "id": 401862779,
@@ -8384,7 +8906,9 @@
    "ou_pick": "Over",
    "te": 4.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 3.0,
+   "tot_open": 49.5
   },
   {
    "id": 401862778,
@@ -8416,7 +8940,9 @@
    "ou_pick": "Over",
    "te": 5.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 11.5,
+   "tot_open": 53.5
   },
   {
    "id": 401858468,
@@ -8448,7 +8974,9 @@
    "ou_pick": "Over",
    "te": 2.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -41.5,
+   "tot_open": 55.5
   },
   {
    "id": 401858461,
@@ -8480,7 +9008,9 @@
    "ou_pick": "Over",
    "te": 0.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -23.5,
+   "tot_open": 47.5
   },
   {
    "id": 401858234,
@@ -8512,7 +9042,9 @@
    "ou_pick": "Under",
    "te": 2.9,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 1.5,
+   "tot_open": 47.5
   },
   {
    "id": 401858242,
@@ -8544,7 +9076,9 @@
    "ou_pick": "Over",
    "te": 8.5,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 14.0,
+   "tot_open": 54.5
   },
   {
    "id": 401856704,
@@ -8576,7 +9110,9 @@
    "ou_pick": "Over",
    "te": 3.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 6.5,
+   "tot_open": 56.5
   },
   {
    "id": 401856805,
@@ -8608,7 +9144,9 @@
    "ou_pick": "Under",
    "te": 5.3,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -37.5,
+   "tot_open": 54.5
   },
   {
    "id": 401860896,
@@ -8640,7 +9178,9 @@
    "ou_pick": "Over",
    "te": 0.9,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -11.5,
+   "tot_open": 57.5
   },
   {
    "id": 401858465,
@@ -8672,7 +9212,9 @@
    "ou_pick": "Under",
    "te": 3.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -27.5,
+   "tot_open": 54.5
   },
   {
    "id": 401864512,
@@ -8704,7 +9246,9 @@
    "ou_pick": "Under",
    "te": 0.3,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 14.0,
+   "tot_open": 49.5
   },
   {
    "id": 401866425,
@@ -8736,7 +9280,9 @@
    "ou_pick": "Under",
    "te": 0.7,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -4.5,
+   "tot_open": 51.5
   },
   {
    "id": 401860893,
@@ -8768,7 +9314,9 @@
    "ou_pick": "Under",
    "te": 1.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 1.5,
+   "tot_open": 48.5
   },
   {
    "id": 401856813,
@@ -8800,7 +9348,9 @@
    "ou_pick": "Under",
    "te": 1.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -8.5,
+   "tot_open": 53.5
   },
   {
    "id": 401858243,
@@ -8832,7 +9382,9 @@
    "ou_pick": "Over",
    "te": 0.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -13.5,
+   "tot_open": 58.5
   },
   {
    "id": 401858236,
@@ -8864,7 +9416,9 @@
    "ou_pick": "Under",
    "te": 6.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -53.5,
+   "tot_open": 61.5
   },
   {
    "id": 401864576,
@@ -8896,7 +9450,9 @@
    "ou_pick": "Under",
    "te": 0.5,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -19.5,
+   "tot_open": 55.5
   },
   {
    "id": 401866427,
@@ -8928,7 +9484,9 @@
    "ou_pick": "Over",
    "te": 4.5,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -25.5,
+   "tot_open": 50.5
   },
   {
    "id": 401858462,
@@ -8960,7 +9518,9 @@
    "ou_pick": "Under",
    "te": 0.5,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 1.5,
+   "tot_open": 51.5
   },
   {
    "id": 401858467,
@@ -8992,7 +9552,9 @@
    "ou_pick": "Under",
    "te": 0.6,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 27.5,
+   "tot_open": 56.5
   },
   {
    "id": 401864511,
@@ -9024,7 +9586,9 @@
    "ou_pick": "Under",
    "te": 4.3,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -8.5,
+   "tot_open": 54.5
   },
   {
    "id": 401858237,
@@ -9056,7 +9620,9 @@
    "ou_pick": "Under",
    "te": 2.9,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -42.5,
+   "tot_open": 59.5
   },
   {
    "id": 401864510,
@@ -9088,7 +9654,9 @@
    "ou_pick": "Over",
    "te": 0.7,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 5.5,
+   "tot_open": 44.5
   },
   {
    "id": 401856699,
@@ -9120,7 +9688,9 @@
    "ou_pick": "Under",
    "te": 0.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -1.5,
+   "tot_open": 57.5
   },
   {
    "id": 401866428,
@@ -9152,7 +9722,9 @@
    "ou_pick": "Over",
    "te": 1.9,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -34.5,
+   "tot_open": 50.5
   },
   {
    "id": 401856700,
@@ -9184,7 +9756,9 @@
    "ou_pick": "Over",
    "te": 4.4,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -10.0,
+   "tot_open": 52.5
   },
   {
    "id": 401864579,
@@ -9216,7 +9790,9 @@
    "ou_pick": "Over",
    "te": 2.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 12.5,
+   "tot_open": 49.5
   },
   {
    "id": 401860897,
@@ -9248,7 +9824,9 @@
    "ou_pick": "Under",
    "te": 1.3,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 7.5,
+   "tot_open": 47.5
   },
   {
    "id": 401858463,
@@ -9280,7 +9858,9 @@
    "ou_pick": "Over",
    "te": 5.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -4.5,
+   "tot_open": 39.5
   },
   {
    "id": 401868188,
@@ -9312,7 +9892,9 @@
    "ou_pick": "Over",
    "te": 2.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -23.5,
+   "tot_open": 50.5
   },
   {
    "id": 401866426,
@@ -9344,7 +9926,9 @@
    "ou_pick": "Over",
    "te": 8.3,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -28.5,
+   "tot_open": 44.5
   },
   {
    "id": 401856816,
@@ -9376,7 +9960,9 @@
    "ou_pick": "Over",
    "te": 6.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 11.5,
+   "tot_open": 49.5
   },
   {
    "id": 401861970,
@@ -9408,7 +9994,9 @@
    "ou_pick": "Over",
    "te": 3.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -3.0,
+   "tot_open": 50.5
   },
   {
    "id": 401858244,
@@ -9440,7 +10028,9 @@
    "ou_pick": "Under",
    "te": 1.6,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -43.5,
+   "tot_open": 60.5
   },
   {
    "id": 401856815,
@@ -9472,7 +10062,9 @@
    "ou_pick": "Over",
    "te": 2.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 3.0,
+   "tot_open": 50.5
   },
   {
    "id": 401862781,
@@ -9504,7 +10096,9 @@
    "ou_pick": "Under",
    "te": 3.2,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -34.5,
+   "tot_open": 54.5
   },
   {
    "id": 401856806,
@@ -9536,7 +10130,9 @@
    "ou_pick": "Under",
    "te": 0.5,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 19.5,
+   "tot_open": 55.5
   },
   {
    "id": 401856698,
@@ -9568,7 +10164,9 @@
    "ou_pick": "Under",
    "te": 0.7,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -8.5,
+   "tot_open": 50.5
   },
   {
    "id": 401858466,
@@ -9600,7 +10198,9 @@
    "ou_pick": "Over",
    "te": 4.4,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -11.5,
+   "tot_open": 42.5
   },
   {
    "id": 401858464,
@@ -9632,7 +10232,9 @@
    "ou_pick": "Over",
    "te": 4.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 5.5,
+   "tot_open": 52.5
   },
   {
    "id": 401862785,
@@ -9664,7 +10266,9 @@
    "ou_pick": "Over",
    "te": 4.6,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 15.5,
+   "tot_open": 51.5
   },
   {
    "id": 401860892,
@@ -9696,7 +10300,9 @@
    "ou_pick": "Under",
    "te": 3.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -29.5,
+   "tot_open": 63.5
   },
   {
    "id": 401858239,
@@ -9728,7 +10334,9 @@
    "ou_pick": "Under",
    "te": 0.3,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -20.5,
+   "tot_open": null
   },
   {
    "id": 401867909,
@@ -9760,7 +10368,9 @@
    "ou_pick": "Over",
    "te": 1.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -35.5,
+   "tot_open": 50.5
   },
   {
    "id": 401869961,
@@ -9792,7 +10402,9 @@
    "ou_pick": "Over",
    "te": 4.7,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 4.5,
+   "tot_open": 50.5
   },
   {
    "id": 401858238,
@@ -9824,7 +10436,9 @@
    "ou_pick": "Under",
    "te": 6.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -42.5,
+   "tot_open": 54.5
   },
   {
    "id": 401862780,
@@ -9856,7 +10470,9 @@
    "ou_pick": "Over",
    "te": 2.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 14.5,
+   "tot_open": 52.5
   },
   {
    "id": 401856814,
@@ -9888,7 +10504,9 @@
    "ou_pick": "Over",
    "te": 3.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 6.0,
+   "tot_open": 52.5
   },
   {
    "id": 401871048,
@@ -9920,7 +10538,9 @@
    "ou_pick": "Over",
    "te": 1.9,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -9.5,
+   "tot_open": 54.5
   },
   {
    "id": 401862784,
@@ -9952,7 +10572,9 @@
    "ou_pick": "Under",
    "te": 2.3,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -17.5,
+   "tot_open": 53.5
   },
   {
    "id": 401869931,
@@ -9984,7 +10606,9 @@
    "ou_pick": "Under",
    "te": 3.4,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -5.5,
+   "tot_open": 53.5
   },
   {
    "id": 401870745,
@@ -10016,7 +10640,9 @@
    "ou_pick": "Under",
    "te": 0.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -38.5,
+   "tot_open": 56.5
   },
   {
    "id": 401856696,
@@ -10048,7 +10674,9 @@
    "ou_pick": "Under",
    "te": 2.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -11.5,
+   "tot_open": 46.5
   },
   {
    "id": 401856881,
@@ -10080,7 +10708,9 @@
    "ou_pick": "Under",
    "te": 11.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 2.5,
+   "tot_open": 57.5
   },
   {
    "id": 401856804,
@@ -10112,7 +10742,9 @@
    "ou_pick": "Under",
    "te": 1.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 13.5,
+   "tot_open": 48.5
   },
   {
    "id": 401862783,
@@ -10144,7 +10776,9 @@
    "ou_pick": "Over",
    "te": 6.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -37.5,
+   "tot_open": 58.5
   },
   {
    "id": 401858469,
@@ -10176,7 +10810,9 @@
    "ou_pick": "Under",
    "te": 0.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 5.5,
+   "tot_open": 58.5
   },
   {
    "id": 401856702,
@@ -10208,7 +10844,9 @@
    "ou_pick": "Under",
    "te": 3.6,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -3.0,
+   "tot_open": 57.5
   },
   {
    "id": 401860894,
@@ -10240,7 +10878,9 @@
    "ou_pick": "Over",
    "te": 0.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -2.5,
+   "tot_open": 52.5
   },
   {
    "id": 401864572,
@@ -10272,7 +10912,9 @@
    "ou_pick": "Under",
    "te": 1.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -14.0,
+   "tot_open": 55.5
   },
   {
    "id": 401856703,
@@ -10304,7 +10946,9 @@
    "ou_pick": "Under",
    "te": 2.3,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -1.5,
+   "tot_open": 56.5
   },
   {
    "id": 401856697,
@@ -10336,7 +10980,9 @@
    "ou_pick": "Over",
    "te": 2.9,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -8.5,
+   "tot_open": 52.5
   },
   {
    "id": 401862782,
@@ -10368,7 +11014,9 @@
    "ou_pick": "Under",
    "te": 0.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 13.5,
+   "tot_open": 59.5
   },
   {
    "id": 401860895,
@@ -10400,7 +11048,9 @@
    "ou_pick": "Under",
    "te": 2.8,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 12.5,
+   "tot_open": 55.5
   },
   {
    "id": 401858241,
@@ -10432,7 +11082,9 @@
    "ou_pick": "Under",
    "te": 7.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -34.5,
+   "tot_open": 59.5
   },
   {
    "id": 401866429,
@@ -10464,7 +11116,9 @@
    "ou_pick": "Under",
    "te": 0.2,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 6.0,
+   "tot_open": 50.5
   },
   {
    "id": 401860891,
@@ -10496,7 +11150,9 @@
    "ou_pick": "Under",
    "te": 0.5,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -13.5,
+   "tot_open": 43.5
   },
   {
    "id": 401858240,
@@ -10528,7 +11184,9 @@
    "ou_pick": "Over",
    "te": 2.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 4.5,
+   "tot_open": 48.5
   },
   {
    "id": 401864509,
@@ -10560,7 +11218,9 @@
    "ou_pick": "Over",
    "te": 0.7,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 4.5,
+   "tot_open": 48.5
   },
   {
    "id": 401858470,
@@ -10592,7 +11252,9 @@
    "ou_pick": "Over",
    "te": 4.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -9.5,
+   "tot_open": 44.5
   },
   {
    "id": 401871049,
@@ -10624,7 +11286,9 @@
    "ou_pick": "Under",
    "te": 2.3,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -1.5,
+   "tot_open": 53.5
   },
   {
    "id": 401862786,
@@ -10656,7 +11320,9 @@
    "ou_pick": "Over",
    "te": 1.9,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 1.5,
+   "tot_open": 57.5
   },
   {
    "id": 401858245,
@@ -10688,7 +11354,9 @@
    "ou_pick": "Over",
    "te": 0.3,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -5.5,
+   "tot_open": 56.5
   },
   {
    "id": 401871050,
@@ -10720,7 +11388,9 @@
    "ou_pick": "Over",
    "te": 0.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 7.0,
+   "tot_open": 50.5
   },
   {
    "id": 401858476,
@@ -10752,7 +11422,9 @@
    "ou_pick": "Over",
    "te": 1.3,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 7.0,
+   "tot_open": 48.5
   },
   {
    "id": 401862787,
@@ -10784,7 +11456,9 @@
    "ou_pick": "Under",
    "te": 1.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 21.5,
+   "tot_open": 54.5
   },
   {
    "id": 401858252,
@@ -10816,7 +11490,9 @@
    "ou_pick": "Over",
    "te": 3.4,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 6.5,
+   "tot_open": 53.5
   },
   {
    "id": 401856807,
@@ -10848,7 +11524,9 @@
    "ou_pick": "Over",
    "te": 3.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -21.5,
+   "tot_open": 52.5
   },
   {
    "id": 401856819,
@@ -10880,7 +11558,9 @@
    "ou_pick": "Over",
    "te": 2.7,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -12.5,
+   "tot_open": 51.5
   },
   {
    "id": 401858474,
@@ -10912,7 +11592,9 @@
    "ou_pick": "Over",
    "te": 6.5,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 8.5,
+   "tot_open": 44.5
   },
   {
    "id": 401858246,
@@ -10944,7 +11626,9 @@
    "ou_pick": "Under",
    "te": 2.7,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -21.0,
+   "tot_open": 56.5
   },
   {
    "id": 401856707,
@@ -10976,7 +11660,9 @@
    "ou_pick": "Under",
    "te": 1.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 3.0,
+   "tot_open": 58.5
   },
   {
    "id": 401862791,
@@ -11008,7 +11694,9 @@
    "ou_pick": "Over",
    "te": 12.6,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -1.5,
+   "tot_open": 49.5
   },
   {
    "id": 401858251,
@@ -11040,7 +11728,9 @@
    "ou_pick": "Under",
    "te": 1.7,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -12.5,
+   "tot_open": 54.5
   },
   {
    "id": 401856822,
@@ -11072,7 +11762,9 @@
    "ou_pick": "Under",
    "te": 2.5,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -1.5,
+   "tot_open": 53.5
   },
   {
    "id": 401858250,
@@ -11104,7 +11796,9 @@
    "ou_pick": "Over",
    "te": 1.2,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 23.5,
+   "tot_open": 55.5
   },
   {
    "id": 401858479,
@@ -11136,7 +11830,9 @@
    "ou_pick": "Over",
    "te": 4.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -10.0,
+   "tot_open": 44.5
   },
   {
    "id": 401856705,
@@ -11168,7 +11864,9 @@
    "ou_pick": "Over",
    "te": 4.7,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -23.5,
+   "tot_open": 57.5
   },
   {
    "id": 401866432,
@@ -11200,7 +11898,9 @@
    "ou_pick": "Under",
    "te": 0.2,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 16.5,
+   "tot_open": 51.5
   },
   {
    "id": 401866431,
@@ -11232,7 +11932,9 @@
    "ou_pick": "Over",
    "te": 0.4,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 17.5,
+   "tot_open": 51.5
   },
   {
    "id": 401856708,
@@ -11264,7 +11966,9 @@
    "ou_pick": "Under",
    "te": 3.9,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 2.5,
+   "tot_open": 53.5
   },
   {
    "id": 401858253,
@@ -11296,7 +12000,9 @@
    "ou_pick": "Over",
    "te": 1.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 1.5,
+   "tot_open": 51.5
   },
   {
    "id": 401864515,
@@ -11328,7 +12034,9 @@
    "ou_pick": "Over",
    "te": 0.9,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -21.0,
+   "tot_open": 47.5
   },
   {
    "id": 401866477,
@@ -11360,7 +12068,9 @@
    "ou_pick": "Over",
    "te": 3.6,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -15.5,
+   "tot_open": 50.5
   },
   {
    "id": 401858247,
@@ -11392,7 +12102,9 @@
    "ou_pick": "Over",
    "te": 2.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -1.5,
+   "tot_open": 52.5
   },
   {
    "id": 401858248,
@@ -11424,7 +12136,9 @@
    "ou_pick": "Over",
    "te": 2.8,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 7.5,
+   "tot_open": 59.5
   },
   {
    "id": 401866433,
@@ -11456,7 +12170,9 @@
    "ou_pick": "Under",
    "te": 1.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -2.5,
+   "tot_open": 48.5
   },
   {
    "id": 401862793,
@@ -11488,7 +12204,9 @@
    "ou_pick": "Over",
    "te": 3.7,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -30.5,
+   "tot_open": 50.5
   },
   {
    "id": 401866430,
@@ -11520,7 +12238,9 @@
    "ou_pick": "Under",
    "te": 2.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -5.5,
+   "tot_open": 46.5
   },
   {
    "id": 401869956,
@@ -11552,7 +12272,9 @@
    "ou_pick": "Under",
    "te": 0.3,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 1.5,
+   "tot_open": 52.5
   },
   {
    "id": 401856710,
@@ -11584,7 +12306,9 @@
    "ou_pick": "Over",
    "te": 0.9,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -7.5,
+   "tot_open": 57.5
   },
   {
    "id": 401866434,
@@ -11616,7 +12340,9 @@
    "ou_pick": "Over",
    "te": 2.6,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 5.5,
+   "tot_open": 52.5
   },
   {
    "id": 401858473,
@@ -11648,7 +12374,9 @@
    "ou_pick": "Over",
    "te": 0.9,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 14.0,
+   "tot_open": 44.5
   },
   {
    "id": 401869962,
@@ -11680,7 +12408,9 @@
    "ou_pick": "Over",
    "te": 1.6,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -13.5,
+   "tot_open": 55.5
   },
   {
    "id": 401864514,
@@ -11712,7 +12442,9 @@
    "ou_pick": "Over",
    "te": 2.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -21.0,
+   "tot_open": 53.5
   },
   {
    "id": 401858475,
@@ -11744,7 +12476,9 @@
    "ou_pick": "Over",
    "te": 0.2,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -12.5,
+   "tot_open": 53.5
   },
   {
    "id": 401856709,
@@ -11776,7 +12510,9 @@
    "ou_pick": "Under",
    "te": 1.3,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -7.0,
+   "tot_open": 49.5
   },
   {
    "id": 401858472,
@@ -11808,7 +12544,9 @@
    "ou_pick": "Under",
    "te": 4.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -10.0,
+   "tot_open": 60.5
   },
   {
    "id": 401862790,
@@ -11840,7 +12578,9 @@
    "ou_pick": "Under",
    "te": 1.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -43.5,
+   "tot_open": 60.5
   },
   {
    "id": 401860899,
@@ -11872,7 +12612,9 @@
    "ou_pick": "Under",
    "te": 2.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 3.5,
+   "tot_open": 59.5
   },
   {
    "id": 401871089,
@@ -11904,7 +12646,9 @@
    "ou_pick": "Under",
    "te": 2.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -14.5,
+   "tot_open": 55.5
   },
   {
    "id": 401856711,
@@ -11936,7 +12680,9 @@
    "ou_pick": "Over",
    "te": 1.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -14.5,
+   "tot_open": 51.5
   },
   {
    "id": 401869942,
@@ -11968,7 +12714,9 @@
    "ou_pick": "Under",
    "te": 0.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -1.5,
+   "tot_open": 52.5
   },
   {
    "id": 401862788,
@@ -12000,7 +12748,9 @@
    "ou_pick": "Under",
    "te": 1.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 12.5,
+   "tot_open": 52.5
   },
   {
    "id": 401856818,
@@ -12032,7 +12782,9 @@
    "ou_pick": "Over",
    "te": 3.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 5.5,
+   "tot_open": 52.5
   },
   {
    "id": 401860898,
@@ -12064,7 +12816,9 @@
    "ou_pick": "Under",
    "te": 0.7,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -20.5,
+   "tot_open": 49.5
   },
   {
    "id": 401869842,
@@ -12096,7 +12850,9 @@
    "ou_pick": "Over",
    "te": 2.8,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 3.5,
+   "tot_open": 44.5
   },
   {
    "id": 401858249,
@@ -12128,7 +12884,9 @@
    "ou_pick": "Under",
    "te": 1.6,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 7.0,
+   "tot_open": 55.5
   },
   {
    "id": 401856821,
@@ -12160,7 +12918,9 @@
    "ou_pick": "Under",
    "te": 1.2,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 14.5,
+   "tot_open": 50.5
   },
   {
    "id": 401862792,
@@ -12192,7 +12952,9 @@
    "ou_pick": "Over",
    "te": 6.7,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -6.5,
+   "tot_open": 52.5
   },
   {
    "id": 401858478,
@@ -12224,7 +12986,9 @@
    "ou_pick": "Under",
    "te": 0.2,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -10.0,
+   "tot_open": 57.5
   },
   {
    "id": 401856706,
@@ -12256,7 +13020,9 @@
    "ou_pick": "Under",
    "te": 6.7,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -53.5,
+   "tot_open": 60.5
   },
   {
    "id": 401858477,
@@ -12288,7 +13054,9 @@
    "ou_pick": null,
    "te": 0.0,
    "ou": null,
-   "bf": true
+   "bf": true,
+   "sp_open": 23.5,
+   "tot_open": 53.5
   },
   {
    "id": 401869932,
@@ -12320,7 +13088,9 @@
    "ou_pick": "Under",
    "te": 0.4,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -4.0,
+   "tot_open": 49.5
   },
   {
    "id": 401860921,
@@ -12352,7 +13122,9 @@
    "ou_pick": "Under",
    "te": 0.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -1.5,
+   "tot_open": 45.5
   },
   {
    "id": 401856817,
@@ -12384,7 +13156,9 @@
    "ou_pick": "Over",
    "te": 1.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -3.5,
+   "tot_open": 51.5
   },
   {
    "id": 401860900,
@@ -12416,7 +13190,9 @@
    "ou_pick": "Under",
    "te": 1.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 4.5,
+   "tot_open": 60.5
   },
   {
    "id": 401856820,
@@ -12448,7 +13224,9 @@
    "ou_pick": "Under",
    "te": 0.2,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -8.5,
+   "tot_open": 54.5
   },
   {
    "id": 401864513,
@@ -12480,7 +13258,9 @@
    "ou_pick": "Over",
    "te": 1.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -5.5,
+   "tot_open": 52.5
   },
   {
    "id": 401871090,
@@ -12512,7 +13292,9 @@
    "ou_pick": "Under",
    "te": 3.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -8.5,
+   "tot_open": 48.5
   },
   {
    "id": 401871051,
@@ -12544,7 +13326,9 @@
    "ou_pick": "Over",
    "te": 0.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 2.5,
+   "tot_open": 48.5
   },
   {
    "id": 401871066,
@@ -12576,7 +13360,9 @@
    "ou_pick": "Over",
    "te": 1.3,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -3.5,
+   "tot_open": 47.5
   },
   {
    "id": 401871052,
@@ -12608,7 +13394,9 @@
    "ou_pick": "Under",
    "te": 3.7,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -2.5,
+   "tot_open": 56.5
   },
   {
    "id": 401870766,
@@ -12640,7 +13428,9 @@
    "ou_pick": "Under",
    "te": 0.4,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -13.5,
+   "tot_open": 52.5
   },
   {
    "id": 401862794,
@@ -12672,7 +13462,9 @@
    "ou_pick": "Over",
    "te": 8.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -7.0,
+   "tot_open": 49.5
   },
   {
    "id": 401869933,
@@ -12704,7 +13496,9 @@
    "ou_pick": "Under",
    "te": 2.5,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -1.5,
+   "tot_open": 58.5
   },
   {
    "id": 401858254,
@@ -12736,7 +13530,9 @@
    "ou_pick": "Under",
    "te": 4.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -3.5,
+   "tot_open": 59.5
   },
   {
    "id": 401860922,
@@ -12768,7 +13564,9 @@
    "ou_pick": "Under",
    "te": 0.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -5.5,
+   "tot_open": 43.5
   },
   {
    "id": 401858487,
@@ -12800,7 +13598,9 @@
    "ou_pick": "Over",
    "te": 3.6,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -1.5,
+   "tot_open": 41.5
   },
   {
    "id": 401864519,
@@ -12832,7 +13632,9 @@
    "ou_pick": "Over",
    "te": 2.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -6.0,
+   "tot_open": 43.5
   },
   {
    "id": 401856826,
@@ -12864,7 +13666,9 @@
    "ou_pick": "Over",
    "te": 4.3,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -14.5,
+   "tot_open": 50.5
   },
   {
    "id": 401862795,
@@ -12896,7 +13700,9 @@
    "ou_pick": "Under",
    "te": 2.7,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -3.0,
+   "tot_open": 48.5
   },
   {
    "id": 401858256,
@@ -12928,7 +13734,9 @@
    "ou_pick": "Over",
    "te": 2.3,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -3.5,
+   "tot_open": 47.5
   },
   {
    "id": 401866436,
@@ -12960,7 +13768,9 @@
    "ou_pick": "Over",
    "te": 1.4,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -7.5,
+   "tot_open": 44.5
   },
   {
    "id": 401856824,
@@ -12992,7 +13802,9 @@
    "ou_pick": "Under",
    "te": 6.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -9.5,
+   "tot_open": 52.5
   },
   {
    "id": 401856716,
@@ -13024,7 +13836,9 @@
    "ou_pick": "Over",
    "te": 0.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -1.5,
+   "tot_open": 50.5
   },
   {
    "id": 401858260,
@@ -13056,7 +13870,9 @@
    "ou_pick": "Over",
    "te": 1.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 4.0,
+   "tot_open": 59.5
   },
   {
    "id": 401858481,
@@ -13088,7 +13904,9 @@
    "ou_pick": "Over",
    "te": 4.9,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 9.5,
+   "tot_open": 50.5
   },
   {
    "id": 401856823,
@@ -13120,7 +13938,9 @@
    "ou_pick": "Under",
    "te": 5.3,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 3.0,
+   "tot_open": 61.5
   },
   {
    "id": 401858482,
@@ -13152,7 +13972,9 @@
    "ou_pick": "Under",
    "te": 4.5,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -36.5,
+   "tot_open": 52.5
   },
   {
    "id": 401856714,
@@ -13184,7 +14006,9 @@
    "ou_pick": "Under",
    "te": 4.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -14.5,
+   "tot_open": 57.5
   },
   {
    "id": 401869843,
@@ -13216,7 +14040,9 @@
    "ou_pick": "Over",
    "te": 4.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -9.5,
+   "tot_open": 49.5
   },
   {
    "id": 401862797,
@@ -13248,7 +14074,9 @@
    "ou_pick": "Over",
    "te": 0.3,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -10.0,
+   "tot_open": 47.5
   },
   {
    "id": 401866440,
@@ -13280,7 +14108,9 @@
    "ou_pick": "Over",
    "te": 3.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 2.5,
+   "tot_open": 46.5
   },
   {
    "id": 401858257,
@@ -13312,7 +14142,9 @@
    "ou_pick": "Under",
    "te": 2.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -38.5,
+   "tot_open": 53.5
   },
   {
    "id": 401866439,
@@ -13344,7 +14176,9 @@
    "ou_pick": "Over",
    "te": 1.7,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -13.5,
+   "tot_open": 43.5
   },
   {
    "id": 401866435,
@@ -13376,7 +14210,9 @@
    "ou_pick": "Over",
    "te": 0.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 7.0,
+   "tot_open": 51.5
   },
   {
    "id": 401858255,
@@ -13408,7 +14244,9 @@
    "ou_pick": "Over",
    "te": 13.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 7.0,
+   "tot_open": 48.5
   },
   {
    "id": 401862799,
@@ -13440,7 +14278,9 @@
    "ou_pick": "Under",
    "te": 0.3,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -2.5,
+   "tot_open": 48.5
   },
   {
    "id": 401866437,
@@ -13472,7 +14312,9 @@
    "ou_pick": "Under",
    "te": 1.7,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -20.5,
+   "tot_open": 54.5
   },
   {
    "id": 401856825,
@@ -13504,7 +14346,9 @@
    "ou_pick": "Over",
    "te": 2.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -2.5,
+   "tot_open": 55.5
   },
   {
    "id": 401856717,
@@ -13536,7 +14380,9 @@
    "ou_pick": "Under",
    "te": 2.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 6.0,
+   "tot_open": 48.5
   },
   {
    "id": 401866438,
@@ -13568,7 +14414,9 @@
    "ou_pick": "Over",
    "te": 3.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -3.0,
+   "tot_open": 46.5
   },
   {
    "id": 401858484,
@@ -13600,7 +14448,9 @@
    "ou_pick": "Under",
    "te": 1.3,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -12.5,
+   "tot_open": 60.5
   },
   {
    "id": 401858480,
@@ -13632,7 +14482,9 @@
    "ou_pick": "Over",
    "te": 2.8,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 2.5,
+   "tot_open": 47.5
   },
   {
    "id": 401862796,
@@ -13664,7 +14516,9 @@
    "ou_pick": "Over",
    "te": 2.9,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -28.5,
+   "tot_open": 57.5
   },
   {
    "id": 401858259,
@@ -13696,7 +14550,9 @@
    "ou_pick": "Over",
    "te": 1.5,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 9.5,
+   "tot_open": 53.5
   },
   {
    "id": 401856718,
@@ -13728,7 +14584,9 @@
    "ou_pick": "Over",
    "te": 4.9,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 10.0,
+   "tot_open": 58.5
   },
   {
    "id": 401861964,
@@ -13760,7 +14618,9 @@
    "ou_pick": "Over",
    "te": 2.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -3.5,
+   "tot_open": 54.5
   },
   {
    "id": 401858483,
@@ -13792,7 +14652,9 @@
    "ou_pick": "Under",
    "te": 7.3,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -34.5,
+   "tot_open": 56.5
   },
   {
    "id": 401856713,
@@ -13824,7 +14686,9 @@
    "ou_pick": "Over",
    "te": 6.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 13.5,
+   "tot_open": 51.5
   },
   {
    "id": 401860902,
@@ -13856,7 +14720,9 @@
    "ou_pick": "Under",
    "te": 3.3,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -14.5,
+   "tot_open": 53.5
   },
   {
    "id": 401864517,
@@ -13888,7 +14754,9 @@
    "ou_pick": "Under",
    "te": 0.3,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 9.5,
+   "tot_open": 49.5
   },
   {
    "id": 401856715,
@@ -13920,7 +14788,9 @@
    "ou_pick": "Under",
    "te": 1.7,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 10.5,
+   "tot_open": 49.5
   },
   {
    "id": 401862798,
@@ -13952,7 +14822,9 @@
    "ou_pick": "Over",
    "te": 1.3,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -14.0,
+   "tot_open": 57.5
   },
   {
    "id": 401864518,
@@ -13984,7 +14856,9 @@
    "ou_pick": "Over",
    "te": 4.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 3.0,
+   "tot_open": 47.5
   },
   {
    "id": 401869943,
@@ -14016,7 +14890,9 @@
    "ou_pick": "Under",
    "te": 1.6,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -3.0,
+   "tot_open": 58.5
   },
   {
    "id": 401869949,
@@ -14048,7 +14924,9 @@
    "ou_pick": "Over",
    "te": 3.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 7.5,
+   "tot_open": 54.5
   },
   {
    "id": 401858485,
@@ -14080,7 +14958,9 @@
    "ou_pick": "Over",
    "te": 2.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -1.5,
+   "tot_open": 56.5
   },
   {
    "id": 401869965,
@@ -14112,7 +14992,9 @@
    "ou_pick": "Over",
    "te": 1.7,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -3.0,
+   "tot_open": 48.5
   },
   {
    "id": 401858258,
@@ -14144,7 +15026,9 @@
    "ou_pick": "Under",
    "te": 1.6,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -9.5,
+   "tot_open": 50.5
   },
   {
    "id": 401864516,
@@ -14176,7 +15060,9 @@
    "ou_pick": "Over",
    "te": 2.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 7.5,
+   "tot_open": 46.5
   },
   {
    "id": 401856712,
@@ -14208,7 +15094,9 @@
    "ou_pick": "Over",
    "te": 4.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 3.0,
+   "tot_open": 50.5
   },
   {
    "id": 401856827,
@@ -14240,7 +15128,9 @@
    "ou_pick": "Over",
    "te": 6.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": null,
+   "tot_open": 51.5
   },
   {
    "id": 401858486,
@@ -14272,7 +15162,9 @@
    "ou_pick": "Over",
    "te": 4.4,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 2.5,
+   "tot_open": 50.5
   },
   {
    "id": 401856808,
@@ -14304,7 +15196,9 @@
    "ou_pick": "Under",
    "te": 0.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -20.5,
+   "tot_open": 50.5
   },
   {
    "id": 401860901,
@@ -14336,7 +15230,9 @@
    "ou_pick": "Over",
    "te": 1.4,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 6.5,
+   "tot_open": 48.5
   },
   {
    "id": 401871067,
@@ -14368,7 +15264,9 @@
    "ou_pick": "Over",
    "te": 1.7,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 1.5,
+   "tot_open": 48.5
   },
   {
    "id": 401871053,
@@ -14400,7 +15298,9 @@
    "ou_pick": "Over",
    "te": 2.6,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -3.0,
+   "tot_open": 45.5
   },
   {
    "id": 401871054,
@@ -14432,7 +15332,9 @@
    "ou_pick": "Under",
    "te": 2.4,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 3.0,
+   "tot_open": 50.5
   },
   {
    "id": 401871068,
@@ -14464,7 +15366,9 @@
    "ou_pick": "Over",
    "te": 0.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 1.5,
+   "tot_open": 51.5
   },
   {
    "id": 401869950,
@@ -14496,7 +15400,9 @@
    "ou_pick": "Over",
    "te": 3.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 2.5,
+   "tot_open": 49.5
   },
   {
    "id": 401862800,
@@ -14528,7 +15434,9 @@
    "ou_pick": "Over",
    "te": 0.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 6.5,
+   "tot_open": 53.5
   },
   {
    "id": 401860923,
@@ -14560,7 +15468,9 @@
    "ou_pick": "Under",
    "te": 2.6,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -12.5,
+   "tot_open": 67.5
   },
   {
    "id": 401862801,
@@ -14592,7 +15502,9 @@
    "ou_pick": "Under",
    "te": 7.3,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 7.0,
+   "tot_open": 53.5
   },
   {
    "id": 401858493,
@@ -14624,7 +15536,9 @@
    "ou_pick": "Over",
    "te": 3.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -2.5,
+   "tot_open": 51.5
   },
   {
    "id": 401869844,
@@ -14656,7 +15570,9 @@
    "ou_pick": "Over",
    "te": 0.6,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 1.5,
+   "tot_open": 51.5
   },
   {
    "id": 401858488,
@@ -14688,7 +15604,9 @@
    "ou_pick": "Under",
    "te": 0.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 1.5,
+   "tot_open": 48.5
   },
   {
    "id": 401856830,
@@ -14720,7 +15638,9 @@
    "ou_pick": "Over",
    "te": 0.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -7.5,
+   "tot_open": 54.5
   },
   {
    "id": 401856720,
@@ -14752,7 +15672,9 @@
    "ou_pick": "Over",
    "te": 0.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -12.5,
+   "tot_open": 59.5
   },
   {
    "id": 401858267,
@@ -14784,7 +15706,9 @@
    "ou_pick": "Over",
    "te": 8.2,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 7.0,
+   "tot_open": 46.5
   },
   {
    "id": 401856724,
@@ -14816,7 +15740,9 @@
    "ou_pick": "Under",
    "te": 1.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -9.5,
+   "tot_open": 53.5
   },
   {
    "id": 401869957,
@@ -14848,7 +15774,9 @@
    "ou_pick": "Under",
    "te": 0.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -12.5,
+   "tot_open": 54.5
   },
   {
    "id": 401858268,
@@ -14880,7 +15808,9 @@
    "ou_pick": "Over",
    "te": 0.9,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -7.5,
+   "tot_open": 53.5
   },
   {
    "id": 401858491,
@@ -14912,7 +15842,9 @@
    "ou_pick": "Under",
    "te": 0.2,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 8.5,
+   "tot_open": 47.5
   },
   {
    "id": 401866441,
@@ -14944,7 +15876,9 @@
    "ou_pick": "Over",
    "te": 1.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -8.5,
+   "tot_open": 44.5
   },
   {
    "id": 401856829,
@@ -14976,7 +15910,9 @@
    "ou_pick": "Under",
    "te": 3.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -1.5,
+   "tot_open": 61.5
   },
   {
    "id": 401858261,
@@ -15008,7 +15944,9 @@
    "ou_pick": "Under",
    "te": 0.8,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -43.5,
+   "tot_open": 58.5
   },
   {
    "id": 401862802,
@@ -15040,7 +15978,9 @@
    "ou_pick": "Over",
    "te": 0.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -3.0,
+   "tot_open": 59.5
   },
   {
    "id": 401858489,
@@ -15072,7 +16012,9 @@
    "ou_pick": "Over",
    "te": 2.4,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -4.5,
+   "tot_open": 58.5
   },
   {
    "id": 401856725,
@@ -15104,7 +16046,9 @@
    "ou_pick": "Under",
    "te": 0.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -45.5,
+   "tot_open": 56.5
   },
   {
    "id": 401866442,
@@ -15136,7 +16080,9 @@
    "ou_pick": "Over",
    "te": 2.7,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -3.5,
+   "tot_open": 47.5
   },
   {
    "id": 401862803,
@@ -15168,7 +16114,9 @@
    "ou_pick": "Over",
    "te": 3.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -23.5,
+   "tot_open": 49.5
   },
   {
    "id": 401866443,
@@ -15200,7 +16148,9 @@
    "ou_pick": "Over",
    "te": 0.9,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 7.0,
+   "tot_open": 42.5
   },
   {
    "id": 401864524,
@@ -15232,7 +16182,9 @@
    "ou_pick": "Over",
    "te": 2.8,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 3.0,
+   "tot_open": 48.5
   },
   {
    "id": 401864522,
@@ -15264,7 +16216,9 @@
    "ou_pick": "Under",
    "te": 1.9,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -7.5,
+   "tot_open": 38.5
   },
   {
    "id": 401866478,
@@ -15296,7 +16250,9 @@
    "ou_pick": "Over",
    "te": 3.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -9.5,
+   "tot_open": 46.5
   },
   {
    "id": 401856719,
@@ -15328,7 +16284,9 @@
    "ou_pick": "Under",
    "te": 2.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -16.5,
+   "tot_open": 54.5
   },
   {
    "id": 401856723,
@@ -15360,7 +16318,9 @@
    "ou_pick": "Over",
    "te": 6.7,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 1.5,
+   "tot_open": 56.5
   },
   {
    "id": 401858266,
@@ -15392,7 +16352,9 @@
    "ou_pick": "Over",
    "te": 4.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -4.5,
+   "tot_open": 54.5
   },
   {
    "id": 401858264,
@@ -15424,7 +16386,9 @@
    "ou_pick": "Over",
    "te": 1.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -10.0,
+   "tot_open": 55.5
   },
   {
    "id": 401866444,
@@ -15456,7 +16420,9 @@
    "ou_pick": "Over",
    "te": 2.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 6.5,
+   "tot_open": 52.5
   },
   {
    "id": 401856828,
@@ -15488,7 +16454,9 @@
    "ou_pick": "Under",
    "te": 1.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -12.5,
+   "tot_open": 52.5
   },
   {
    "id": 401856721,
@@ -15520,7 +16488,9 @@
    "ou_pick": "Under",
    "te": 0.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -6.0,
+   "tot_open": 57.5
   },
   {
    "id": 401858490,
@@ -15552,7 +16522,9 @@
    "ou_pick": "Over",
    "te": 4.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -6.5,
+   "tot_open": 51.5
   },
   {
    "id": 401862805,
@@ -15584,7 +16556,9 @@
    "ou_pick": "Over",
    "te": 0.4,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 3.0,
+   "tot_open": 46.5
   },
   {
    "id": 401869966,
@@ -15616,7 +16590,9 @@
    "ou_pick": "Under",
    "te": 0.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -3.5,
+   "tot_open": 47.5
   },
   {
    "id": 401860903,
@@ -15648,7 +16624,9 @@
    "ou_pick": "Under",
    "te": 4.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -17.5,
+   "tot_open": 52.5
   },
   {
    "id": 401864520,
@@ -15680,7 +16658,9 @@
    "ou_pick": "Over",
    "te": 4.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -14.5,
+   "tot_open": 46.5
   },
   {
    "id": 401862806,
@@ -15712,7 +16692,9 @@
    "ou_pick": "Over",
    "te": 2.9,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -18.5,
+   "tot_open": 49.5
   },
   {
    "id": 401869934,
@@ -15744,7 +16726,9 @@
    "ou_pick": "Under",
    "te": 4.2,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 7.0,
+   "tot_open": 56.5
   },
   {
    "id": 401858263,
@@ -15776,7 +16760,9 @@
    "ou_pick": "Under",
    "te": 1.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -16.5,
+   "tot_open": 53.5
   },
   {
    "id": 401856832,
@@ -15808,7 +16794,9 @@
    "ou_pick": "Under",
    "te": 0.4,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -6.5,
+   "tot_open": 51.5
   },
   {
    "id": 401856726,
@@ -15840,7 +16828,9 @@
    "ou_pick": "Over",
    "te": 7.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -6.5,
+   "tot_open": 50.5
   },
   {
    "id": 401856722,
@@ -15872,7 +16862,9 @@
    "ou_pick": "Over",
    "te": 1.5,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -6.5,
+   "tot_open": 41.5
   },
   {
    "id": 401858262,
@@ -15904,7 +16896,9 @@
    "ou_pick": "Over",
    "te": 0.9,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -35.5,
+   "tot_open": 56.5
   },
   {
    "id": 401858265,
@@ -15936,7 +16930,9 @@
    "ou_pick": "Over",
    "te": 1.4,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 10.5,
+   "tot_open": 55.5
   },
   {
    "id": 401856831,
@@ -15968,7 +16964,9 @@
    "ou_pick": "Under",
    "te": 8.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -3.5,
+   "tot_open": 57.5
   },
   {
    "id": 401858494,
@@ -16000,7 +16998,9 @@
    "ou_pick": "Over",
    "te": 2.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -3.0,
+   "tot_open": 49.5
   },
   {
    "id": 401856809,
@@ -16032,7 +17032,9 @@
    "ou_pick": "Over",
    "te": 5.2,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 10.0,
+   "tot_open": 54.5
   },
   {
    "id": 401862804,
@@ -16064,7 +17066,9 @@
    "ou_pick": "Over",
    "te": 3.9,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -7.0,
+   "tot_open": 55.5
   },
   {
    "id": 401871091,
@@ -16096,7 +17100,9 @@
    "ou_pick": "Under",
    "te": 0.3,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 14.5,
+   "tot_open": 52.5
   },
   {
    "id": 401864523,
@@ -16128,7 +17134,9 @@
    "ou_pick": "Over",
    "te": 3.9,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 10.0,
+   "tot_open": 52.5
   },
   {
    "id": 401866445,
@@ -16160,7 +17168,9 @@
    "ou_pick": "Over",
    "te": 2.3,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 13.5,
+   "tot_open": 49.5
   },
   {
    "id": 401856833,
@@ -16192,7 +17202,9 @@
    "ou_pick": "Over",
    "te": 3.2,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 16.5,
+   "tot_open": 49.5
   },
   {
    "id": 401860904,
@@ -16224,7 +17236,9 @@
    "ou_pick": "Under",
    "te": 1.9,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 8.5,
+   "tot_open": 43.5
   },
   {
    "id": 401864521,
@@ -16256,7 +17270,9 @@
    "ou_pick": "Over",
    "te": 3.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 15.5,
+   "tot_open": 48.5
   },
   {
    "id": 401858269,
@@ -16288,7 +17304,9 @@
    "ou_pick": "Under",
    "te": 2.4,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 8.5,
+   "tot_open": 53.5
   },
   {
    "id": 401858492,
@@ -16320,7 +17338,9 @@
    "ou_pick": "Over",
    "te": 4.5,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -21.5,
+   "tot_open": 51.5
   },
   {
    "id": 401871069,
@@ -16352,7 +17372,9 @@
    "ou_pick": "Under",
    "te": 0.2,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -3.0,
+   "tot_open": 52.5
   },
   {
    "id": 401871055,
@@ -16384,7 +17406,9 @@
    "ou_pick": "Over",
    "te": 2.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -10.0,
+   "tot_open": 45.5
   },
   {
    "id": 401871092,
@@ -16416,7 +17440,9 @@
    "ou_pick": "Under",
    "te": 3.7,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 3.0,
+   "tot_open": 62.5
   },
   {
    "id": 401871070,
@@ -16448,7 +17474,9 @@
    "ou_pick": "Over",
    "te": 0.6,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 2.5,
+   "tot_open": 47.5
   },
   {
    "id": 401871056,
@@ -16480,7 +17508,9 @@
    "ou_pick": "Under",
    "te": 1.7,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 8.5,
+   "tot_open": 47.5
   },
   {
    "id": 401869845,
@@ -16512,7 +17542,9 @@
    "ou_pick": "Under",
    "te": 2.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 10.5,
+   "tot_open": 56.5
   },
   {
    "id": 401862807,
@@ -16544,7 +17576,9 @@
    "ou_pick": "Under",
    "te": 5.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -9.5,
+   "tot_open": 53.5
   },
   {
    "id": 401858271,
@@ -16576,7 +17610,9 @@
    "ou_pick": "Over",
    "te": 6.0,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -6.5,
+   "tot_open": 53.5
   },
   {
    "id": 401861965,
@@ -16608,7 +17644,9 @@
    "ou_pick": "Over",
    "te": 0.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -15.5,
+   "tot_open": 49.5
   },
   {
    "id": 401862808,
@@ -16640,7 +17678,9 @@
    "ou_pick": "Under",
    "te": 2.6,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -1.5,
+   "tot_open": 50.5
   },
   {
    "id": 401864525,
@@ -16672,7 +17712,9 @@
    "ou_pick": "Under",
    "te": 1.0,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 6.5,
+   "tot_open": 42.5
   },
   {
    "id": 401858272,
@@ -16704,7 +17746,9 @@
    "ou_pick": "Over",
    "te": 0.6,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 7.5,
+   "tot_open": 55.5
   },
   {
    "id": 401856840,
@@ -16736,7 +17780,9 @@
    "ou_pick": "Under",
    "te": 0.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 11.5,
+   "tot_open": 56.5
   },
   {
    "id": 401858274,
@@ -16768,7 +17814,9 @@
    "ou_pick": "Over",
    "te": 3.8,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -23.5,
+   "tot_open": 53.5
   },
   {
    "id": 401856841,
@@ -16800,7 +17848,9 @@
    "ou_pick": "Under",
    "te": 1.8,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -7.0,
+   "tot_open": 58.5
   },
   {
    "id": 401866450,
@@ -16832,7 +17882,9 @@
    "ou_pick": "Over",
    "te": 0.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -1.5,
+   "tot_open": 44.5
   },
   {
    "id": 401862809,
@@ -16864,7 +17916,9 @@
    "ou_pick": "Over",
    "te": 0.4,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -10.5,
+   "tot_open": 58.5
   },
   {
    "id": 401856728,
@@ -16896,7 +17950,9 @@
    "ou_pick": "Under",
    "te": 7.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 6.5,
+   "tot_open": 50.5
   },
   {
    "id": 401858270,
@@ -16928,7 +17984,9 @@
    "ou_pick": "Under",
    "te": 1.9,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -16.5,
+   "tot_open": 52.5
   },
   {
    "id": 401858496,
@@ -16960,7 +18018,9 @@
    "ou_pick": "Over",
    "te": 3.7,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 6.0,
+   "tot_open": 52.5
   },
   {
    "id": 401858498,
@@ -16992,7 +18052,9 @@
    "ou_pick": "Under",
    "te": 1.7,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -16.5,
+   "tot_open": 58.5
   },
   {
    "id": 401856834,
@@ -17024,7 +18086,9 @@
    "ou_pick": "Under",
    "te": 1.6,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 1.5,
+   "tot_open": 54.5
   },
   {
    "id": 401866476,
@@ -17056,7 +18120,9 @@
    "ou_pick": "Over",
    "te": 4.8,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -1.5,
+   "tot_open": 42.5
   },
   {
    "id": 401866446,
@@ -17088,7 +18154,9 @@
    "ou_pick": "Under",
    "te": 0.4,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -3.5,
+   "tot_open": 43.5
   },
   {
    "id": 401858495,
@@ -17120,7 +18188,9 @@
    "ou_pick": "Over",
    "te": 7.8,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 12.5,
+   "tot_open": 51.5
   },
   {
    "id": 401858273,
@@ -17152,7 +18222,9 @@
    "ou_pick": "Over",
    "te": 2.3,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -4.5,
+   "tot_open": 49.5
   },
   {
    "id": 401856727,
@@ -17184,7 +18256,9 @@
    "ou_pick": "Over",
    "te": 2.4,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -2.5,
+   "tot_open": 54.5
   },
   {
    "id": 401862810,
@@ -17216,7 +18290,9 @@
    "ou_pick": "Over",
    "te": 1.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 1.5,
+   "tot_open": 61.5
   },
   {
    "id": 401864526,
@@ -17248,7 +18324,9 @@
    "ou_pick": "Under",
    "te": 1.3,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 7.5,
+   "tot_open": 45.5
   },
   {
    "id": 401866448,
@@ -17280,7 +18358,9 @@
    "ou_pick": "Over",
    "te": 0.8,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -4.5,
+   "tot_open": 43.5
   },
   {
    "id": 401856731,
@@ -17312,7 +18392,9 @@
    "ou_pick": "Over",
    "te": 4.5,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 2.5,
+   "tot_open": 51.5
   },
   {
    "id": 401856730,
@@ -17344,7 +18426,9 @@
    "ou_pick": "Under",
    "te": 1.1,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 1.5,
+   "tot_open": 46.5
   },
   {
    "id": 401858499,
@@ -17376,7 +18460,9 @@
    "ou_pick": "Over",
    "te": 4.5,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -13.5,
+   "tot_open": 47.5
   },
   {
    "id": 401866447,
@@ -17408,7 +18494,9 @@
    "ou_pick": "Over",
    "te": 0.1,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -9.5,
+   "tot_open": 49.5
   },
   {
    "id": 401858497,
@@ -17440,7 +18528,9 @@
    "ou_pick": "Over",
    "te": 4.3,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": 4.5,
+   "tot_open": 42.5
   },
   {
    "id": 401871094,
@@ -17472,7 +18562,9 @@
    "ou_pick": "Under",
    "te": 0.9,
    "ou": 1.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -17.5,
+   "tot_open": 50.5
   },
   {
    "id": 401866449,
@@ -17504,7 +18596,9 @@
    "ou_pick": "Over",
    "te": 2.9,
    "ou": 0.0,
-   "bf": true
+   "bf": true,
+   "sp_open": -9.5,
+   "tot_open": 49.5
   }
  ]
 }
