@@ -853,6 +853,7 @@ async function renderGame(id) {
 /* -------------------------------------------- record tiles on the board */
 // The same ★ picks graded at the opening line (best case), the locked line (when you'd bet) and the close (worst case)
 function linesNote(L) {
+  if (!L) return "";
   const f = (x) => (x && x.w + x.l ? `${wl(x)} (${pct(x.pct)})` : "–");
   return `<span class="close-note" title="Same picks graded three ways: the opening line is the best case, the closing line the worst case; your real number is in between">Opener ${f(L.open)} · Close ${f(L.close)}</span>`
     + (L.live ? `<span class="close-note">Live picks only: ${L.live.w + L.live.l ? f(L.live) : "none graded yet"}</span>` : "");
@@ -863,15 +864,15 @@ function renderBoardRecords() {
   const u = (x) => (x && x.w + x.l ? unitText(x.units) : "");
   const tile = (label, rec, extra = "", cls = "") => `<div class="${cls}"><b>${rec && rec.w + rec.l + (rec.p || 0) ? wl(rec) : "–"}</b><span>${label}${rec && rec.pct !== null && rec.pct !== undefined ? `, ${pct(rec.pct)}` : ""}</span>${extra}</div>`;
   const row = (title, sub, d) => `<div class="rec-row"><h2>${title}${sub ? ` <span>${sub}</span>` : ""}</h2><div class="tally">
-      ${tile("★ Our picks", d.ours, u(d.ours) + (d.lines ? linesNote(d.lines) : ""), "ours")}
-      ${tile("All spread picks", d.ats, u(d.ats) + (d.atsClose ? `<span class="close-note">closing line ${wl(d.atsClose)}</span>` : ""))}
-      ${tile("Picking winners", d.su)}
-      ${tile("Over/under", d.ou, u(d.ou))}</div></div>`;
+      ${tile("★ Our picks", d.ours, u(d.ours) + linesNote(d.lines?.ours), "ours")}
+      ${tile("All spread picks", d.ats, u(d.ats) + (d.lines?.ats ? linesNote(d.lines.ats) : d.atsClose ? `<span class="close-note">closing line ${wl(d.atsClose)}</span>` : ""))}
+      ${tile("Picking winners", d.su, `<span class="close-note">no line involved</span>`)}
+      ${tile("Over/under", d.ou, u(d.ou) + linesNote(d.lines?.ou))}</div></div>`;
   let html = "";
   const w = sum.week;
-  if (w) html += row(`Week ${w.week} results`, `${w.games} games`, { ours: w.our_picks, ats: w.locked.spread, atsClose: w.close.spread, su: w.close.winner, ou: w.locked.total });
-  html += row(`${state.results.season} season`, "", { ours: sum.our_picks, lines: sum.our_picks_lines, ats: sum.season_locked.spread, atsClose: sum.season.spread, su: sum.season.winner, ou: sum.season_locked.total });
-  box.innerHTML = html + `<p class="rec-note">Spreads and totals are graded at the early line, when you'd bet (the locked Sunday–Tuesday line, or the opener). ★ Our picks are 5+ point edges from week 5 on (weeks 1–4 rely too much on preseason estimates), graded at the locked line, with the opener (best case) and close (worst case) underneath. "Live" counts only picks locked in real time, not filled in after the fact. Units assume −110.</p>`;
+  if (w) html += row(`Week ${w.week} results`, `${w.games} games`, { lines: sum.lines?.week, ours: w.our_picks, ats: w.locked.spread, atsClose: w.close.spread, su: w.close.winner, ou: w.locked.total });
+  html += row(`${state.results.season} season`, "", { ours: sum.our_picks, lines: sum.lines?.season, ats: sum.season_locked.spread, atsClose: sum.season.spread, su: sum.season.winner, ou: sum.season_locked.total });
+  box.innerHTML = html + `<p class="rec-note">Spreads and totals are graded at the early line, when you'd bet (the locked Sunday–Tuesday line, or the opener). ★ Our picks are 5+ point edges from week 5 on (weeks 1–4 rely too much on preseason estimates), graded at the locked line. Under each record: the same picks at the opener (best case) and the close (worst case). "Live" counts only picks locked in real time, not filled in after the fact. Units assume −110.</p>`;
   box.hidden = false;
   $("#season-line").hidden = true;  // the tiles replace the one-line summary
 }
