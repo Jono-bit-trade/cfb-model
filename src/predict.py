@@ -555,9 +555,11 @@ def three_line_records(res, season, week=None):
     sp, edge = sp[edge != 0], edge[edge != 0]
     side = np.sign(edge)
     ours = (edge.abs() >= config.OUR_PICK_MIN) & ((sp["season_type"] == "postseason") | (sp["week"] >= config.OUR_PICK_FROM_WEEK))
+    # midpoint of opener and close: an estimate of the midweek line you'd actually bet (opener missing -> close)
+    sp = sp.assign(mid_spread=((sp["spread_open"] + sp["spread"]) / 2).fillna(sp["spread"]))
     for key, m in (("ours", ours), ("ats", pd.Series(True, index=sp.index))):
         out[key] = {}
-        for name, col in (("open", "spread_open"), ("locked", "lock_spread"), ("close", "spread")):
+        for name, col in (("open", "spread_open"), ("locked", "lock_spread"), ("mid", "mid_spread"), ("close", "spread")):
             has = m & sp[col].notna()
             out[key][name] = _rec(side[has] * (sp.loc[has, "actual_margin"] + sp.loc[has, col]))
     live = ours & (sp["made_at"] != "backfill")
@@ -567,7 +569,8 @@ def three_line_records(res, season, week=None):
     te = tt["lock_pred_total"] - tt["lock_total"]
     tt, te = tt[te != 0], te[te != 0]
     out["ou"] = {}
-    for name, col in (("open", "total_open"), ("locked", "lock_total"), ("close", "total")):
+    tt = tt.assign(mid_total=((tt["total_open"] + tt["total"]) / 2).fillna(tt["total"]))
+    for name, col in (("open", "total_open"), ("locked", "lock_total"), ("mid", "mid_total"), ("close", "total")):
         has = tt[col].notna()
         out["ou"][name] = _rec(np.sign(te[has]) * (tt.loc[has, "actual_total"] - tt.loc[has, col]))
     return out

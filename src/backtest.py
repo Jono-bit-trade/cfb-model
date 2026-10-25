@@ -65,12 +65,17 @@ def our_picks_open(bt):
     cover = np.sign(e) * (o["actual_margin"] + o["spread_open"])
     m = (e.abs() >= config.OUR_PICK_MIN) & ((o["season_type"] == "postseason") | (o["week"] >= config.OUR_PICK_FROM_WEEK))
     w, l, p = int((cover[m] > 0).sum()), int((cover[m] < 0).sum()), int((cover[m] == 0).sum())
+    mid = (o["spread_open"] + o["spread"]) / 2
+    cm = (np.sign(e) * (o["actual_margin"] + mid))[m & mid.notna()]  # same picks at the midpoint line
+    wm, lm, pm_ = int((cm > 0).sum()), int((cm < 0).sum()), int((cm == 0).sum())
     cc = (np.sign(e) * (o["actual_margin"] + o["spread"]))[m & o["spread"].notna()]  # same picks at the close
     wc, lc, pc = int((cc > 0).sum()), int((cc < 0).sum()), int((cc == 0).sum())
     return {"w": w, "l": l, "p": p, "pct": round(w / (w + l), 4) if w + l else None,
             "units": round(w * 100 / 110 - l, 2), "from": int(o["season"].min()), "to": int(o["season"].max()),
             "close": {"w": wc, "l": lc, "p": pc, "pct": round(wc / (wc + lc), 4) if wc + lc else None,
-                      "units": round(wc * 100 / 110 - lc, 2)}}
+                      "units": round(wc * 100 / 110 - lc, 2)},
+            "mid": {"w": wm, "l": lm, "p": pm_, "pct": round(wm / (wm + lm), 4) if wm + lm else None,
+                    "units": round(wm * 100 / 110 - lm, 2)}}
 
 
 def accuracy(bt):

@@ -444,7 +444,7 @@ function renderRatings() {
 
 /* ---------------------------------------------------------------- history */
 function wl(x) { return x && x.w + x.l + x.p > 0 ? `${x.w}–${x.l}${x.p ? `–${x.p}` : ""}` : "–"; }
-const H = { index: null, cache: {}, season: null, team: "", edge: 0, valueOnly: false, line: "close", week: "all", sort: "newest" };
+const H = { index: null, cache: {}, season: null, team: "", edge: 0, valueOnly: false, line: "mid", week: "all", sort: "newest" };
 const weekKey = (r) => r.post ? "bowls" : String(r.wk ?? "");
 const weekName = (k) => k === "bowls" ? "Bowls" : `Week ${k}`;
 const weekOrder = (k) => k === "bowls" ? 99 : Number(k);
@@ -467,6 +467,20 @@ function atEarlyLine(r) {
     Object.assign(out, { te: Math.abs(te), ou_pick: te === 0 ? null : te > 0 ? "Over" : "Under",
                          ou: te === 0 ? null : res((r.hs + r.as) - T, te > 0) });
   }
+  return out;
+}
+
+/* Midweek estimate: the pick side comes from the early line, graded at the midpoint of the opener and the close. */
+function atMidLine(r) {
+  const e = atEarlyLine(r), res = (score, positive) => score === 0 ? 0.5 : (score > 0) === positive ? 1 : 0;
+  const out = { ...e };
+  const mid = (a, b) => (a !== null && a !== undefined && b !== null && b !== undefined ? (a + b) / 2 : b ?? null);
+  const L = mid(r.sp_open, r.sp), T = mid(r.tot_open, r.tot);
+  out.sp = L; out.tot = T;
+  if (e.ats_pick && L !== null && r.hs !== null) { const home = e.ats_pick === r.h; out.ats = res((r.hs - r.as) + L, home); out.ats_line = home ? L : -L; }
+  else out.ats = null;
+  if (e.ou_pick && T !== null && r.hs !== null) out.ou = res((r.hs + r.as) - T, e.ou_pick === "Over");
+  else out.ou = null;
   return out;
 }
 
@@ -502,7 +516,6 @@ async function initHistory() {
   $("#h-team").addEventListener("input", (e) => { H.team = e.target.value.trim().toLowerCase(); renderHistory(); });
   $("#h-edge").addEventListener("change", (e) => {
     H.edge = e.target.value === "ours" ? "ours" : Number(e.target.value);
-    if (H.edge === "ours") { H.line = "early"; $("#h-line").value = "early"; }  // our picks are graded at the line you'd bet
     renderHistory();
   });
   $("#h-value").addEventListener("change", (e) => { H.valueOnly = e.target.checked; renderHistory(); });
@@ -530,6 +543,7 @@ async function renderHistory() {
   const seasons = H.season === "all" ? H.index.seasons : [Number(H.season)];
   let rows = (await Promise.all(seasons.map(loadSeason))).flat();
   if (H.line === "early") rows = rows.map(atEarlyLine).filter((r) => r.sp !== null || r.tot !== null);
+  if (H.line === "mid") rows = rows.map(atMidLine).filter((r) => r.sp !== null || r.tot !== null);
   if (H.team) rows = rows.filter((r) => r.h.toLowerCase().includes(H.team) || r.a.toLowerCase().includes(H.team));
 
   // Week dropdown follows the weeks present in the selected season(s)
@@ -547,9 +561,9 @@ async function renderHistory() {
   const oursOf = (rs) => {
     const picks = [];
     for (const r of rs) {
-      const e = H.line === "early" ? r : atEarlyLine(r);
+      const e = H.line === "close" ? atEarlyLine(r) : r;  // mid and early rows already carry the early-line edge and side
       if (e.edge === null || e.edge < 5 || e.ats === null || !inOurWeeks(r)) continue;
-      if (H.line === "early") { picks.push({ ats: e.ats }); continue; }
+      if (H.line !== "close") { picks.push({ ats: e.ats }); continue; }
       const raw = state.rawById?.get(r.id) || r;  // closing line from the untransformed row
       if (raw.sp === null || raw.sp === undefined || raw.hs === null) continue;
       const homeSide = e.ats_pick === r.h, score = (raw.hs - raw.as) + raw.sp;
@@ -584,7 +598,7 @@ async function renderHistory() {
   const tile = (label, rec, extra = "") => `<div><b>${wl(rec)}</b><span>${label}${rec.pct !== null ? `, ${pct(rec.pct)}` : ""}</span>${extra}</div>`;
   const ours = oursOf(rows);
   $("#h-tally").innerHTML =
-    `<div class="ours"><b>${ours.w + ours.l + ours.p ? wl(ours) : "–"}</b><span>★ Our picks${ours.pct !== null ? `, ${pct(ours.pct)}` : ""}</span>${ours.w + ours.l ? unitText(ours.units) : ""}<span class="close-note">5+ point edge at the early line, week 5 on; graded at the ${H.line === "early" ? "early line" : "closing line"}</span></div>`
+    `<div class="ours"><b>${ours.w + ours.l + ours.p ? wl(ours) : "–"}</b><span>★ Our picks${ours.pct !== null ? `, ${pct(ours.pct)}` : ""}</span>${ours.w + ours.l ? unitText(ours.units) : ""}<span class="close-note">5+ point edge at the early line, week 5 on; graded at the ${H.line === "early" ? "early line" : H.line === "mid" ? "midweek estimate" : "closing line"}</span></div>`
     + tile("Picking winners", su)
     + `<div><b>${mlRows.length ? `${mlWins}–${mlRows.length - mlWins}` : "–"}</b><span>${H.valueOnly ? "Value moneylines" : "Moneyline on the projected winner"}</span>${mlRows.length ? unitText(mlUnits) : ""}</div>`
     + tile("Against the spread", ats, ats.w + ats.l ? unitText(units110(ats)) : "")
@@ -594,7 +608,9 @@ async function renderHistory() {
   const label = H.season === "all" ? "all seasons" : H.season;
   const lineNote = H.line === "early"
     ? "Graded at the early line: the pick locked on Sunday or Monday this season, and the opening line for earlier seasons (only games with an opening line are included). "
-    : "Graded at the closing line, the last line before kickoff. ";
+    : H.line === "mid"
+      ? "Graded at a midweek estimate: the pick is made at the early line and graded at the midpoint of the opening and closing lines (closing line when there's no opener). "
+      : "Graded at the closing line, the last line before kickoff. ";
   $("#h-note").textContent = lineNote + `${shown.length} games in ${label}${H.team ? ` involving "${H.team}"` : ""}`
     + `${H.edge === "ours" ? ", our picks only: the model and the early line disagree by 5+ points, from week 5 on" : H.edge ? `, where the model and the spread disagree by ${H.edge}+ points (over/under uses the same gap on the total)` : ""}. `
     + "Spread and over/under units assume standard −110 odds; moneyline units use each game's posted odds. "
@@ -865,7 +881,7 @@ async function renderGame(id) {
 function linesNote(L) {
   if (!L) return "";
   const f = (x) => (x && x.w + x.l ? `${wl(x)} (${pct(x.pct)})` : "–");
-  return `<span class="close-note" title="Headline is the closing line, the strictest test. Earlier lines are the optimistic end of the range: you'd usually get something between">Opener ${f(L.open)} · Locked ${f(L.locked)}</span>`
+  return `<span class="close-note" title="Headline uses the midpoint of the opening and closing lines, an estimate of the midweek line you'd bet. The opener is the best case, the close the worst case">Range: opener ${f(L.open)} · close ${f(L.close)}</span>`
     + (L.live ? `<span class="close-note">Live picks only (locked line): ${L.live.w + L.live.l ? f(L.live) : "none graded yet"}</span>` : "");
 }
 function renderBoardRecords() {
@@ -874,17 +890,17 @@ function renderBoardRecords() {
   const u = (x) => (x && x.w + x.l ? unitText(x.units) : "");
   const tile = (label, rec, extra = "", cls = "") => `<div class="${cls}"><b>${rec && rec.w + rec.l + (rec.p || 0) ? wl(rec) : "–"}</b><span>${label}${rec && rec.pct !== null && rec.pct !== undefined ? `, ${pct(rec.pct)}` : ""}</span>${extra}</div>`;
   const row = (title, sub, d) => `<div class="rec-row"><h2>${title}${sub ? ` <span>${sub}</span>` : ""}</h2><div class="tally">
-      ${tile("★ Our picks", d.lines?.ours?.close || d.ours, u(d.lines?.ours?.close || d.ours) + linesNote(d.lines?.ours) + (d.bt || ""), "ours")}
-      ${tile("All spread picks", d.lines?.ats?.close || d.atsClose || d.ats, u(d.lines?.ats?.close || d.atsClose || d.ats) + linesNote(d.lines?.ats))}
+      ${tile("★ Our picks", d.lines?.ours?.mid || d.ours, u(d.lines?.ours?.mid || d.ours) + linesNote(d.lines?.ours) + (d.bt || ""), "ours")}
+      ${tile("All spread picks", d.lines?.ats?.mid || d.ats, u(d.lines?.ats?.mid || d.ats) + linesNote(d.lines?.ats))}
       ${tile("Picking winners", d.su, `<span class="close-note">no line involved</span>`)}
-      ${tile("Over/under", d.lines?.ou?.close || d.ou, u(d.lines?.ou?.close || d.ou) + linesNote(d.lines?.ou))}</div></div>`;
+      ${tile("Over/under", d.lines?.ou?.mid || d.ou, u(d.lines?.ou?.mid || d.ou) + linesNote(d.lines?.ou))}</div></div>`;
   let html = "";
   const w = sum.week;
   if (w) html += row(`Week ${w.week} results`, `${w.games} games`, { lines: sum.lines?.week, ours: w.our_picks, ats: w.locked.spread, atsClose: w.close.spread, su: w.close.winner, ou: w.locked.total });
   const btc = sum.our_picks_backtest;
-  const btNote = btc ? `<span class="close-note">${btc.from}–${btc.to} backtest: ${btc.close ? `close ${wl(btc.close)} (${pct(btc.close.pct)}) · ` : ""}opener ${wl(btc)} (${pct(btc.pct)})</span>` : "";
+  const btNote = btc ? `<span class="close-note">${btc.from}–${btc.to} backtest: ${btc.mid ? `midpoint ${pct(btc.mid.pct)} · ` : ""}opener ${pct(btc.pct)}${btc.close ? ` · close ${pct(btc.close.pct)}` : ""}</span>` : "";
   html += row(`${state.results.season} season`, "", { bt: btNote, ours: sum.our_picks, lines: sum.lines?.season, ats: sum.season_locked.spread, atsClose: sum.season.spread, su: sum.season.winner, ou: sum.season_locked.total });
-  box.innerHTML = html + `<p class="rec-note">Headline records are graded at the closing line, the strictest test: it can't flatter the model. Underneath, the same picks at the opener and at the locked Sunday–Tuesday line show the optimistic end; what you get betting midweek is usually in between. ★ Our picks are 5+ point edges at the locked line from week 5 on (weeks 1–4 rely too much on preseason estimates). "Live" counts only picks locked in real time, not filled in after the fact. Units assume −110.</p>`;
+  box.innerHTML = html + `<p class="rec-note">Headline records are graded at the midpoint of the opening and closing lines, an estimate of the midweek line you'd actually bet. Underneath, the same picks at the opener (best case) and the close (worst case) show the range. ★ Our picks are 5+ point edges at the locked line from week 5 on (weeks 1–4 rely too much on preseason estimates). "Live" counts only picks locked in real time, not filled in after the fact. Units assume −110.</p>`;
   box.hidden = false;
   $("#season-line").hidden = true;  // the tiles replace the one-line summary
 }
