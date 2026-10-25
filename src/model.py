@@ -82,7 +82,7 @@ class MarketAdjust:
     A small ridge regression on movement only, so it can't simply copy the market.
     """
 
-    MARGIN_X = ["line_move", "line_move_x_edge"]
+    MARGIN_X = ["line_move", "line_move_x_edge", "big_spread_gap"]
     TOTAL_X = ["total_move"]
 
     @staticmethod
@@ -92,6 +92,11 @@ class MarketAdjust:
         edge_open = margin + rows["spread_open"]
         x["line_move_x_edge"] = x["line_move"] * np.sign(edge_open)  # moved toward / away from the model
         x["total_move"] = rows["total"] - rows["total_open"]
+        # In lopsided games (opening spread of BIG_SPREAD+ points) the model shrinks mismatches toward
+        # the middle and the market is better: learn how far to lean toward the opening line there.
+        big = rows["spread_open"].abs() >= config.BIG_SPREAD
+        x["big_spread_gap"] = np.where(big, -rows["spread_open"] - margin, 0.0)
+        x.loc[rows["spread_open"].isna(), "big_spread_gap"] = np.nan
         return x
 
     def fit(self, rows, margin, total):
