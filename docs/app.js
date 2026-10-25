@@ -32,6 +32,8 @@ const splitTags = (g) => {
   return out;
 };
 const hasSharp = (g) => g.splits && (g.splits.sharp || g.splits.rlm || g.splits.sharp_total);
+const betEarlyTag = (g) => g.bet_early && g.pick && g.pick.team
+  ? `<span class="tag rlm" title="The model's edge is ${num(g.edge)} points and the line hasn't moved its way yet. In testing, lines moved toward the model's side about 70% of the time on 5+ point edges.">Bet early: ${esc(g.pick.text)}</span>` : "";
 const valueTag = (g) => g.moneyline && g.moneyline.value
   ? `<span class="tag" title="The model gives this side a ${num(g.moneyline.value.gap, 0)}-point better win chance than the moneyline implies">Value moneyline: ${esc(g.moneyline.value.team)} ${odds(g.moneyline.value.odds)}</span>` : "";
 const pct = (v) => (v === null || v === undefined ? "–" : `${(v * 100).toFixed(1)}%`);
@@ -131,6 +133,7 @@ function gameRow(g) {
       <div><dt>Model</dt><dd>${esc(g.model.line_text)}</dd></div>
       <div><dt>Total</dt><dd>${m.total === null ? "–" : num(m.total)}</dd></div>
       <div><dt>Model total</dt><dd>${num(g.model.total)}</dd></div>
+      ${g.locked ? `<div><dt>Locked pick</dt><dd>${esc(g.locked.text)}</dd></div>` : ""}
       ${moved ? `<div><dt>Opened</dt><dd>${esc(lineText(g.home.team, m.spread_open))}</dd></div>` : ""}
       ${g.moneyline && g.moneyline.home !== null ? `<div><dt>Moneyline</dt><dd>${esc(g.away.team)} ${odds(g.moneyline.away)}, ${esc(g.home.team)} ${odds(g.moneyline.home)}</dd></div>` : ""}
       ${g.splits ? `<div><dt>Bets / money</dt><dd>${esc(g.home.team)} ${Math.round(g.splits.bets_home)}% / ${Math.round(g.splits.money_home)}%</dd></div>` : ""}
@@ -144,7 +147,7 @@ function gameRow(g) {
       <div class="kick"><time datetime="${esc(g.kickoff)}">${esc(k.time)}</time>${esc(k.day)}<br>${esc(g.venue || "")}${g.neutral ? " (neutral)" : ""}</div>
       <div class="teams">${team("away", !homeWins)}${team("home", homeWins)}</div>
       <div class="lines">${fieldSVG(g, strong)}${numbers}</div>
-      <div class="pick-row">${pick}${g.total_pick ? `<span class="tag">${esc(g.total_pick)}</span>` : ""}${valueTag(g)}${moveTag(g)}${splitTags(g)}${weatherTag(g.weather)}${qbTags(g)}</div>
+      <div class="pick-row">${pick}${g.total_pick ? `<span class="tag">${esc(g.total_pick)}</span>` : ""}${betEarlyTag(g)}${valueTag(g)}${moveTag(g)}${splitTags(g)}${weatherTag(g.weather)}${qbTags(g)}</div>
     </li>`;
 }
 
@@ -165,6 +168,7 @@ function renderBoard() {
   if (state.filter === "qb") games = games.filter(hasQbNews);
   if (state.filter === "weather") games = games.filter((g) => isWeatherGame(g.weather));
   if (state.filter === "sharp") games = games.filter(hasSharp);
+  if (state.filter === "early") games = games.filter((g) => g.bet_early);
   if (state.sort === "edge") games.sort((a, b) => (b.edge ?? -1) - (a.edge ?? -1));
   $("#games").innerHTML = games.map(gameRow).join("");
   $("#games-empty").hidden = games.length > 0;
@@ -173,6 +177,31 @@ function renderBoard() {
   if (s && s.spread && s.spread.w + s.spread.l > 0) {
     $("#season-line").innerHTML = `${wl(s.spread)} against the spread<br><span>${wl(s.winner)} picking winners this season</span>`;
   }
+}
+
+/* ----------------------------------------------------------- final scores */
+function renderFinals() {
+  const f = state.finals;
+  const box = $("#finals");
+  if (!f || !f.games.length) { box.hidden = true; return; }
+  box.hidden = false;
+  const t = (k) => tallyOf(f.games, k);
+  const su = t("su"), ats = t("ats"), lk = t("lk_ats"), ou = t("ou");
+  $("#finals-sub").textContent = `Last 4 days: winners ${wl(su)}, spread ${wl(ats)} at the closing line, ${wl(lk)} at the locked line, over/under ${wl(ou)}.`;
+  $("#finals-list").innerHTML = f.games.map((r) => {
+    const homeWon = r.hs > r.as;
+    const lockText = r.lk_sp !== null && r.lk_sp !== undefined && r.lk_pm !== null
+      ? (() => { const e = r.lk_pm + r.lk_sp; const team = e > 0 ? r.h : r.a; const line = e > 0 ? r.lk_sp : -r.lk_sp;
+                 return `${esc(team)} ${signed(line)} ${mark(r.lk_ats)}`; })() : "–";
+    return `<li class="final">
+      <div class="final-score"><span class="${homeWon ? "" : "won"}">${esc(r.a)} ${r.as}</span><span class="${homeWon ? "won" : ""}">${esc(r.h)} ${r.hs}</span></div>
+      <dl class="numbers final-picks">
+        <div><dt>Winner</dt><dd>${esc(r.pm >= 0 ? r.h : r.a)} ${mark(r.su)}</dd></div>
+        <div><dt>Spread (close)</dt><dd>${r.ats_pick ? `${esc(r.ats_pick)} ${signed(r.ats_line)} ${mark(r.ats)}` : "–"}</dd></div>
+        <div><dt>Locked pick</dt><dd>${lockText}</dd></div>
+        <div><dt>Total</dt><dd>${r.ou_pick ? `${r.ou_pick} ${num(r.tot)} ${mark(r.ou)}` : "–"}</dd></div>
+      </dl></li>`;
+  }).join("");
 }
 
 /* ---------------------------------------------------------------- ratings */
@@ -203,7 +232,28 @@ function renderRatings() {
 
 /* ---------------------------------------------------------------- history */
 function wl(x) { return x && x.w + x.l + x.p > 0 ? `${x.w}–${x.l}${x.p ? `–${x.p}` : ""}` : "–"; }
-const H = { index: null, cache: {}, season: null, team: "", edge: 0, valueOnly: false };
+const H = { index: null, cache: {}, season: null, team: "", edge: 0, valueOnly: false, line: "close" };
+
+/* Re-grade a game at the early line: the locked pick this season, the opening line before that. */
+function atEarlyLine(r) {
+  const L = r.lk_sp ?? r.sp_open ?? null, PM = r.lk_pm ?? r.pm;
+  const T = r.lk_tot ?? r.tot_open ?? null, PT = r.lk_pt ?? r.pt;
+  const out = { ...r, sp: L, tot: T };
+  const res = (score, positive) => score === 0 ? 0.5 : (score > 0) === positive ? 1 : 0;
+  if (L === null || r.hs === null) { Object.assign(out, { ats: null, ats_pick: null, edge: null }); }
+  else {
+    const e = PM + L, home = e > 0;
+    Object.assign(out, { edge: Math.abs(e), ats_pick: e === 0 ? null : home ? r.h : r.a, ats_line: home ? L : -L,
+                         ats: e === 0 ? null : res((r.hs - r.as) + L, home) });
+  }
+  if (T === null || r.hs === null) { Object.assign(out, { ou: null, ou_pick: null, te: null }); }
+  else {
+    const te = PT - T;
+    Object.assign(out, { te: Math.abs(te), ou_pick: te === 0 ? null : te > 0 ? "Over" : "Under",
+                         ou: te === 0 ? null : res((r.hs + r.as) - T, te > 0) });
+  }
+  return out;
+}
 
 function tallyOf(rows, key) {
   let w = 0, l = 0, p = 0;
@@ -237,6 +287,7 @@ async function initHistory() {
   $("#h-team").addEventListener("input", (e) => { H.team = e.target.value.trim().toLowerCase(); renderHistory(); });
   $("#h-edge").addEventListener("change", (e) => { H.edge = Number(e.target.value); renderHistory(); });
   $("#h-value").addEventListener("change", (e) => { H.valueOnly = e.target.checked; renderHistory(); });
+  $("#h-line").addEventListener("change", (e) => { H.line = e.target.value; renderHistory(); });
   renderHistory();
 }
 
@@ -244,6 +295,7 @@ async function renderHistory() {
   if (!H.index) return;
   const seasons = H.season === "all" ? H.index.seasons : [Number(H.season)];
   let rows = (await Promise.all(seasons.map(loadSeason))).flat();
+  if (H.line === "early") rows = rows.map(atEarlyLine).filter((r) => r.sp !== null || r.tot !== null);
   if (H.team) rows = rows.filter((r) => r.h.toLowerCase().includes(H.team) || r.a.toLowerCase().includes(H.team));
   const teamRows = rows;
   const spreadRows = rows.filter((r) => (r.edge ?? -1) >= H.edge);
@@ -263,7 +315,10 @@ async function renderHistory() {
 
   const bf = shown.filter((r) => r.bf).length;
   const label = H.season === "all" ? "all seasons" : H.season;
-  $("#h-note").textContent = `${shown.length} games in ${label}${H.team ? ` involving "${H.team}"` : ""}`
+  const lineNote = H.line === "early"
+    ? "Graded at the early line: the pick locked on Sunday or Monday this season, and the opening line for earlier seasons (only games with an opening line are included). "
+    : "Graded at the closing line, the last line before kickoff. ";
+  $("#h-note").textContent = lineNote + `${shown.length} games in ${label}${H.team ? ` involving "${H.team}"` : ""}`
     + `${H.edge ? `, where the model and the spread disagree by ${H.edge}+ points (over/under uses the same gap on the total)` : ""}. `
     + "Spread and over/under units assume standard −110 odds; moneyline units use each game's posted odds. "
     + "Past seasons were replayed using only information available before each game"
@@ -368,9 +423,9 @@ function show(tab) {
 }
 
 async function init() {
-  [state.predictions, state.ratings, state.results, state.backtest] =
-    await Promise.all(["predictions", "ratings", "results", "backtest"].map(getJSON));
-  renderBoard(); renderRatings(); renderBacktest(); initHistory();
+  [state.predictions, state.ratings, state.results, state.backtest, state.finals] =
+    await Promise.all(["predictions", "ratings", "results", "backtest", "finals"].map(getJSON));
+  renderBoard(); renderFinals(); renderRatings(); renderBacktest(); initHistory();
   const tuning = await getJSON("tuning");
   if (tuning) {
     const r = tuning.holdout_at_strong_edge, s = tuning.settings;

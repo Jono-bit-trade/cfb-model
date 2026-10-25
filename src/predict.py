@@ -24,6 +24,7 @@ import grading  # noqa: E402
 from backtest import update_history_index  # noqa: E402
 from model import Model, ats_edge, split_score  # noqa: E402
 from ratings import FCS, RatingEngine, team_keys  # noqa: E402
+from features import CENTRAL  # noqa: E402
 
 LOG = os.path.join(DATA, "predictions_log.csv")
 
@@ -38,6 +39,29 @@ def clean(v):
     if isinstance(v, (np.bool_,)):
         return bool(v)
     return v
+
+
+def bet_early(edge, line_move):
+    """Strong edge, and the line hasn't yet moved toward the model's side."""
+    if np.isnan(edge) or abs(edge) < config.STRONG_EDGE:
+        return False
+    toward_model = 0.0 if np.isnan(line_move) else line_move * np.sign(edge)
+    return bool(toward_model < 0.5)
+
+
+def locked_pick(log, r):
+    """The early pick recorded for this game, if it has locked."""
+    if log is None or not len(log) or r.game_id not in log.index or "lock_at" not in log:
+        return None
+    x = log.loc[r.game_id]
+    if isinstance(x, pd.DataFrame):
+        x = x.iloc[-1]
+    if not isinstance(x.get("lock_at"), str) or pd.isna(x.get("lock_spread")):
+        return None
+    edge = x["lock_pred_margin"] + x["lock_spread"]
+    team, line = (r.home, x["lock_spread"]) if edge > 0 else (r.away, -x["lock_spread"])
+    return {"text": fmt_line(team, line), "at": x["lock_at"], "edge": clean(abs(edge)),
+            "line_text": fmt_line(r.home, x["lock_spread"])}
 
 
 def text(v):
@@ -117,6 +141,10 @@ def main(now=None):
         rows["line_move"] = rows["spread_open"] - rows["spread"]
         rows = splits.attach(rows)
 
+    backfill_log(table, season)
+    if len(rows):
+        update_log(rows, now)  # records early (locked) picks before the board is written
+    log_now = pd.read_csv(LOG).set_index("game_id") if os.path.exists(LOG) else pd.DataFrame()
     out_games = []
     for r in rows.sort_values("start").itertuples():
         d = r._asdict()
@@ -161,6 +189,8 @@ def main(now=None):
                 "sharp_total": r.sharp_total or None,
                 "public": r.home if r.public_side == "home" else r.away if r.public_side == "away" else None,
                 "rlm": r.home if r.rlm_side == "home" else r.away if r.rlm_side == "away" else None},
+            "bet_early": bet_early(edge, r.spread_open - r.spread if not (np.isnan(r.spread_open) or np.isnan(r.spread)) else np.nan),
+            "locked": locked_pick(log_now, r),
             "edge": clean(abs(edge)) if not np.isnan(edge) else None,
             "pick": {"team": pick_team, "line": clean(pick_line), "text": fmt_line(pick_team, pick_line) if pick_team else None,
                      "strong": bool(pick_side and abs(edge) >= config.STRONG_EDGE)},
@@ -180,9 +210,7 @@ def main(now=None):
                 "settings": {"blend_w": config.BLEND_W, "strong_edge": config.STRONG_EDGE}},
                SITE_DATA, "predictions.json")
 
-    backfill_log(table, season)
-    update_log(rows, now)
-    write_results(games, season)
+    write_results(games, season, now)
     write_ratings(engine, games, season, now, rec)
     print(f"wrote {len(out_games)} predictions")
 
@@ -212,8 +240,22 @@ def backfill_log(table, season):
     print(f"backfilled {len(new)} finished games of {season} into the log")
 
 
+LOCK_COLS = ["lock_pred_margin", "lock_pred_total", "lock_spread", "lock_total", "lock_home_ml", "lock_away_ml", "lock_at"]
+
+
+def in_lock_window(now, start):
+    """Early picks lock on the first run after the previous weekend: Sunday to Tuesday
+    (Central), or any time once kickoff is under 3 days away."""
+    day = now.tz_convert(CENTRAL).weekday()  # Monday = 0 ... Sunday = 6
+    return day in (6, 0, 1) or (start - now) < pd.Timedelta(days=3)
+
+
 def update_log(rows, now):
+    """Latest pre-kickoff projection per game, plus the early (locked) pick, which never changes."""
     log = pd.read_csv(LOG) if os.path.exists(LOG) else pd.DataFrame()
+    for c in LOCK_COLS:
+        if len(log) and c not in log:
+            log[c] = np.nan
     if len(rows):
         new = pd.DataFrame({
             "game_id": rows["game_id"], "season": rows["season"], "week": rows["week"],
@@ -225,6 +267,19 @@ def update_log(rows, now):
             "bets_over_pct": rows["bets_over_pct"], "money_over_pct": rows["money_over_pct"],
             "made_at": now.isoformat()})
         new = new[pd.to_datetime(new["start"], utc=True, format="mixed") > now]  # never change a game that started
+        # Keep any lock already recorded; otherwise lock now if this run is in the lock window.
+        old_locks = log.set_index("game_id")[LOCK_COLS] if len(log) and "lock_at" in log else pd.DataFrame(columns=LOCK_COLS)
+        old_locks = old_locks[old_locks["lock_at"].notna()]
+        starts = pd.to_datetime(new["start"], utc=True, format="mixed")
+        can_lock = np.array([in_lock_window(now, s) for s in starts]) & new["spread"].notna().to_numpy()
+        for c in LOCK_COLS:
+            new[c] = new["game_id"].map(old_locks[c]) if len(old_locks) else np.nan
+        fresh = new["lock_at"].isna().to_numpy() & can_lock
+        for src, dst in (("pred_margin", "lock_pred_margin"), ("pred_total", "lock_pred_total"), ("spread", "lock_spread"),
+                         ("total", "lock_total"), ("home_ml", "lock_home_ml"), ("away_ml", "lock_away_ml")):
+            new.loc[fresh, dst] = new.loc[fresh, src]
+        new["lock_at"] = new["lock_at"].astype(object)
+        new.loc[fresh, "lock_at"] = now.isoformat()
         if len(log):
             log = log[~log["game_id"].isin(new["game_id"])]
         log = pd.concat([log, new], ignore_index=True)
@@ -232,38 +287,77 @@ def update_log(rows, now):
         log.to_csv(LOG, index=False)
 
 
-def write_results(games, season):
-    """Grade every logged pick (winner, moneyline, spread, over/under) for the Record and History pages."""
+def _locked_view(res):
+    """The same games, priced at the early (locked) pick instead of the last one before kickoff.
+
+    Games replayed before launch use the opening line; a live game that never locked
+    (first seen inside 3 days of kickoff) falls back to its last line.
+    """
+    v = res.copy()
+    for c in LOCK_COLS:
+        if c not in v:
+            v[c] = np.nan
+    backfill = v["made_at"] == "backfill"
+    v["lock_spread"] = v["lock_spread"].fillna(v["spread_open"].where(backfill)).fillna(v["spread"])
+    v["lock_total"] = v["lock_total"].fillna(v["total_open"].where(backfill)).fillna(v["total"])
+    v["lock_pred_margin"] = v["lock_pred_margin"].fillna(v["pred_margin"])
+    v["lock_pred_total"] = v["lock_pred_total"].fillna(v["pred_total"])
+    v["lock_home_ml"] = v["lock_home_ml"].fillna(v["home_ml"])
+    v["lock_away_ml"] = v["lock_away_ml"].fillna(v["away_ml"])
+    return v.assign(spread=v["lock_spread"], total=v["lock_total"], pred_margin=v["lock_pred_margin"],
+                    pred_total=v["lock_pred_total"], home_ml=v["lock_home_ml"], away_ml=v["lock_away_ml"])
+
+
+def write_results(games, season, now=None):
+    """Grade every logged pick (winner, moneyline, spread, over/under) at both the closing
+    line and the early locked line, for the History page and the board's final scores."""
+    now = now or pd.Timestamp.now(tz="UTC")
     if not os.path.exists(LOG):
         write_json({"season": season, "summary": {}, "games": []}, SITE_DATA, "results.json")
+        write_json({"games": []}, SITE_DATA, "finals.json")
         return
     log = pd.read_csv(LOG)
-    for c in ("home_ml", "away_ml"):
+    for c in ("home_ml", "away_ml", "spread_open", "total_open"):
         if c not in log:
             log[c] = np.nan
     done = games[games["completed"].astype(bool) & games["home_pts"].notna()][
         ["game_id", "home_pts", "away_pts", "season_type"]]
     res = log.merge(done, on="game_id")
     lines = load("lines")  # opening lines for older log rows that didn't store them
-    for c in ("spread_open", "total_open"):
-        if len(lines) and c in lines:
-            opens = lines.drop_duplicates("game_id").set_index("game_id")[c]
-            res[c] = res[c].fillna(res["game_id"].map(opens)) if c in res else res["game_id"].map(opens)
+    if len(lines):
+        first = lines.drop_duplicates("game_id").set_index("game_id")
+        for c in ("spread_open", "total_open"):
+            if c in first:
+                res[c] = res[c].fillna(res["game_id"].map(first[c]))
     res["actual_margin"] = res["home_pts"] - res["away_pts"]
     res["actual_total"] = res["home_pts"] + res["away_pts"]
     res["backfill"] = res["made_at"] == "backfill"
     g = grading.grade(res)
+    lk = grading.grade(_locked_view(res)).set_index("game_id")
     cur = g[g["season"] == season]
+    cur_lk = lk[lk["season"] == season]
     summary = {"season": grading.summary(cur), "season_strong": grading.summary(cur, config.STRONG_EDGE, config.STRONG_EDGE),
+               "season_locked": grading.summary(cur_lk), "season_locked_strong":
+                   grading.summary(cur_lk, config.STRONG_EDGE, config.STRONG_EDGE),
                "all_time": grading.summary(g)}
-    rows = grading.history_rows(cur)[::-1]  # newest first
-    write_json({"season": season, "summary": summary, "games": rows,
+
+    rows = grading.history_rows(cur)
+    for r in rows:  # attach the locked-line grading to each game
+        if r["id"] in cur_lk.index:
+            x = cur_lk.loc[r["id"]]
+            f = lambda v, d=1: None if pd.isna(v) else round(float(v), d)
+            r.update({"lk_sp": f(x["spread"]), "lk_pm": f(x["pred_margin"]), "lk_tot": f(x["total"]),
+                      "lk_pt": f(x["pred_total"]), "lk_ats": f(x["ats"]), "lk_ou": f(x["ou"]),
+                      "lk_live": isinstance(x.get("lock_at"), str) and x.get("lock_at") != "backfill"})
+    write_json({"season": season, "summary": summary, "games": rows[::-1],
                 "backfilled_games": int(cur["backfill"].sum()), "strong_edge": config.STRONG_EDGE},
                SITE_DATA, "results.json")
-    # This season also appears on the History page, graded the same way as past seasons.
-    write_json({"season": season, "source": "live", "games": grading.history_rows(cur)},
-               SITE_DATA, "history", f"{season}.json")
+    write_json({"season": season, "source": "live", "games": rows}, SITE_DATA, "history", f"{season}.json")
     update_history_index([season])
+
+    # Final scores for the board: games that ended in the last 4 days.
+    recent = [r for r in rows if pd.Timestamp(r["date"]) > now - pd.Timedelta(days=4)]
+    write_json({"updated": now, "games": sorted(recent, key=lambda r: r["date"], reverse=True)}, SITE_DATA, "finals.json")
 
 
 def write_ratings(engine, games, season, now, rec):

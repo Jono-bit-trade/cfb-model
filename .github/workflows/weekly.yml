@@ -2,10 +2,14 @@ name: weekly-predictions
 
 on:
   schedule:
-    - cron: "0 3 * * 2"     # Tuesday 03:00 UTC = Monday night Central: full data refresh + backtest
-    - cron: "0 14 * * 3-5"  # Wed-Fri 14:00 UTC = morning Central: kickoff forecasts + QB status
-    - cron: "0 14 * * 6"    # Saturday 14:00 UTC: final forecasts, QB status and betting lines
-  workflow_dispatch:        # adds a "Run workflow" button on the Actions tab
+    # Times are UTC; Central is 5 hours behind until early November, then 6.
+    - cron: "0 23 * * 0"        # Sunday evening: full refresh after Saturday's games, early picks lock
+    - cron: "0 3 * * 2"         # Monday night: full refresh, picks, backtest
+    - cron: "0 14 * * 3-6"      # Wed-Sat mornings: latest lines, kickoff forecasts, QB status
+    - cron: "0 2,4 * * 5,6"     # Thu and Fri nights: scores as games end
+    - cron: "0 18,20,22 * * 6"  # Saturday afternoon: scores as games end
+    - cron: "0 0,2,4,6 * * 0"   # Saturday night: scores as games end
+  workflow_dispatch:            # adds a "Run workflow" button on the Actions tab
 
 concurrency:
   group: weekly-predictions
@@ -29,14 +33,12 @@ jobs:
         env:
           CFBD_KEY: ${{ secrets.CFBD_KEY }}
         run: |
-          DOW=$(date -u +%u)   # 2 = Tuesday, 6 = Saturday
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$DOW" = "2" ]; then
-            python src/get_data.py          # first run backfills history; later runs refresh this season
-          elif [ "$DOW" = "6" ]; then
-            python src/get_data.py --quick  # latest schedule and betting lines
-          else
-            echo "Weekday run: no game data download needed"
-          fi
+          case "${{ github.event.schedule }}" in
+            "0 23 * * 0"|"0 3 * * 2"|"")   # Sunday, Monday, or a manual run
+              python src/get_data.py ;;     # this season's results, box scores and lines (history only if missing)
+            *)
+              python src/get_data.py --quick ;;  # 4 calls: latest scores and betting lines
+          esac
 
       - name: Save downloaded data
         if: always()

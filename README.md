@@ -14,9 +14,10 @@ After that it runs on its own:
 
 | When (Central time) | What happens |
 | --- | --- |
-| Monday night | Downloads the week's results, rebuilds ratings, makes new projections, reruns the backtest |
-| Wednesday to Friday mornings | Refreshes kickoff weather forecasts and quarterback status |
-| Saturday morning | Final forecasts, quarterback status and betting lines before kickoff |
+| Sunday evening | Saturday's results are in: ratings rebuild and each game's **early pick locks** at the current line |
+| Monday night | Full refresh, picks and the backtest |
+| Wednesday to Saturday mornings | Latest lines, kickoff weather forecasts and quarterback status |
+| Thursday and Friday nights, Saturday afternoon and night | Scores every 2 hours, so finished games show their results on the board |
 
 ## Your weekly job: quarterback status
 
@@ -82,6 +83,14 @@ Past seasons are replayed walk-forward: each game uses only ratings and a model 
 Run **Actions → tune-model → Run workflow** (20 to 60 minutes). It tries combinations of rating settings, feature groups and blend weights on the older seasons, picks the best, then finds the smallest edge where the spread record reached 60%. It then checks those choices on the 3 newest seasons, which played no part in choosing them; the How it works page shows that holdout result. The winning settings are saved to `data/tuned.json` and used for this week's predictions too, so upcoming picks and the History page always come from the same model.
 
 A realistic target: 60%+ picking winners is normal; against the spread, every game, 53 to 56% is very good. 60% against the spread is only realistic on the subset of games with the biggest edges, and only if the holdout seasons confirm it.
+
+## Early picks and "Bet early"
+
+Lines tend to move toward the side the model likes: in 2023-2025, lines moved toward the model's side about 70% of the time when it disagreed with the opener by 5+ points, and its picks went about 57% against the opening line, versus about 51% against the closing line. So the model's value is early in the week.
+
+- **Locked pick:** the first projection after the previous weekend's games is saved with the line at that moment and never changes. Every game is graded at both the locked line and the closing line.
+- **Bet early:** marks games where the model's edge is 3+ points and the line hasn't moved its way yet.
+- **History → Grade against:** switch between the closing line and the early line (the locked pick this season, the opening line for past seasons).
 
 ## The record
 
