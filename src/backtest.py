@@ -56,6 +56,19 @@ def walk_forward(table, seasons, groups=None, w=None):
     return grading.grade(pd.concat(out))
 
 
+def our_picks_open(bt):
+    """The '★ Our picks' rule graded at the opening line (seasons with openers): 5+ point edge from week 5 on."""
+    o = bt[bt["spread_open"].notna()]
+    if o.empty:
+        return None
+    e = o["pred_margin"] + o["spread_open"]
+    cover = np.sign(e) * (o["actual_margin"] + o["spread_open"])
+    m = (e.abs() >= config.OUR_PICK_MIN) & ((o["season_type"] == "postseason") | (o["week"] >= config.OUR_PICK_FROM_WEEK))
+    w, l, p = int((cover[m] > 0).sum()), int((cover[m] < 0).sum()), int((cover[m] == 0).sum())
+    return {"w": w, "l": l, "p": p, "pct": round(w / (w + l), 4) if w + l else None,
+            "units": round(w * 100 / 110 - l, 2), "from": int(o["season"].min()), "to": int(o["season"].max())}
+
+
 def accuracy(bt):
     d = bt[bt["spread"].notna()]
     return {
@@ -75,7 +88,7 @@ def run(groups=None, w=None, save=True, table=None, quiet=False):
         print(f"feature table: {len(table)} games in {time.time() - t0:.0f}s")
     bt = walk_forward(table, config.BACKTEST_SEASONS, groups, w)
 
-    overall = {**grading.summary(bt), **accuracy(bt)}
+    overall = {**grading.summary(bt), **accuracy(bt), "our_picks_open": our_picks_open(bt)}
     by_season = {int(s): {**grading.summary(d), **accuracy(d)} for s, d in bt.groupby("season")}
     edges = {
         "spread": grading.edge_table(bt, "edge", "ats"),

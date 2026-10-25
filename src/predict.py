@@ -7,6 +7,7 @@ data/predictions_log.csv: the last prediction made before each kickoff, which
 is what the published record is graded on.
 """
 import argparse
+import json
 import os
 import sys
 
@@ -521,9 +522,13 @@ def write_results(games, season, now=None):
 
 def our_picks_backtest():
     """Same rule in the walk-forward backtest, graded at the opening line (2023 on, when CFBD has openers)."""
+    saved = os.path.join(SITE_DATA, "backtest.json")
     path = os.path.join(DATA, "backtest_games.csv")
-    if not os.path.exists(path):
-        return None
+    if not os.path.exists(path):  # not kept between runs: use the figure the last backtest saved
+        try:
+            return json.load(open(saved))["overall"].get("our_picks_open")
+        except (OSError, KeyError, ValueError):
+            return None
     bt = pd.read_csv(path, usecols=lambda c: c in ("season", "week", "season_type", "pred_margin", "spread_open", "actual_margin"))
     bt = bt[bt["spread_open"].notna()]
     if bt.empty:
