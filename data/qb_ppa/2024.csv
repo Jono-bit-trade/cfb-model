@@ -4362,6 +4362,26 @@ season,week,season_type,team,player,player_id,ppa_all,ppa_pass
 2024,5,regular,Brown,Nate Lussier,4694023,1.9,
 2024,5,regular,Brown,Jake Willcox,4876457,0.646,0.619
 2024,5,regular,Harvard,Jaden Craig,5083569,1.089,1.092
+2024,5,regular,Eastern Michigan,Cole Snyder,4570057,0.393,0.491
+2024,5,regular,Kent State,Tommy Ulatowski,5082965,0.945,1.3
+2024,5,regular,Temple,Evan Simon,4431387,0.16,0.27
+2024,5,regular,Army,Bryson Daily,4879928,0.434,-0.008
+2024,5,regular,Army,Dewayne Coleman,5082125,0.76,3.172
+2024,5,regular,Army,Cale Hellums,5150297,0.075,
+2024,5,regular,UAB,Jacob Zeno,4426417,0.261,0.018
+2024,5,regular,Navy,Blake Horvath,5081504,0.879,1.465
+2024,5,regular,Navy,Braxton Woodson,5158343,-0.387,
+2024,5,regular,East Carolina,Jake Garcia,4432703,0.237,0.322
+2024,5,regular,UTSA,Eddie Lee Marburger,4683012,0.67,0.67
+2024,5,regular,UTSA,Owen McCown,4775136,0.049,0.075
+2024,5,regular,Florida Atlantic,Cam Fancher,4700135,0.337,0.594
+2024,5,regular,Florida Atlantic,Kasen Weisman,4954456,0.039,0.175
+2024,5,regular,Florida Atlantic,Carson Cruver,5125301,0.819,0.819
+2024,5,regular,Tulsa,Cooper Legas,4430033,1.135,1.482
+2024,5,regular,North Texas,Chandler Morris,4692530,0.769,0.812
+2024,5,regular,Tulsa,Cardell Williams,4872721,-0.051,-0.215
+2024,5,regular,Tulsa,Tim Carpenter,5126465,0.562,0.101
+2024,5,regular,Tulsa,Kirk Francis,5151618,-0.341,-0.341
 2024,5,regular,South Florida,Bryce Archie,4806463,-0.136,-0.136
 2024,5,regular,South Florida,Byrum Brown,4880272,0.129,0.083
 2024,5,regular,Tulane,Darian Mensah,5121169,1.227,1.189
@@ -4389,11 +4409,19 @@ season,week,season_type,team,player,player_id,ppa_all,ppa_pass
 2024,5,regular,Butler,Reagan Andrew,5087031,0.488,0.458
 2024,5,regular,Pennsylvania,Aidan Sayin,4878255,0.5,0.526
 2024,5,regular,Colgate,Zach Osborne,5085941,0.372,-0.919
+2024,5,regular,Georgia,Carson Beck,4430841,0.091,0.077
+2024,5,regular,Alabama,Jalen Milroe,4432734,0.406,0.431
+2024,5,regular,USC,Miller Moss,4431580,0.445,0.439
+2024,5,regular,USC,Jayden Maiava,4685454,0.477,
+2024,5,regular,Wisconsin,Braedyn Locke,4702829,0.12,0.12
 2024,5,regular,Tennessee Tech,Jordan Yates,4428961,0.058,0.286
 2024,5,regular,Gardner-Webb,Ren Hefley,4572038,-0.174,-0.105
+2024,5,regular,Tennessee Tech,Jordyn Potts,5153754,-0.305,0.239
 2024,5,regular,Bowling Green,Connor Bazelak,4426444,0.231,0.165
 2024,5,regular,Old Dominion,Grant Wilson,4695867,0.267,0.037
 2024,5,regular,Old Dominion,Colton Joseph,5125715,0.255,-0.055
+2024,5,regular,Rice,E.J. Warner,4916436,0.163,0.158
+2024,5,regular,Charlotte,Deshawn Purdie,5138131,0.56,0.508
 2024,5,regular,William & Mary,Hollis Mathis,4427911,1.202,1.61
 2024,5,regular,William & Mary,Tyler Hughes,4838536,3.678,
 2024,5,regular,William & Mary,Darius Wilson,4878151,0.722,0.749
@@ -4413,31 +4441,3 @@ season,week,season_type,team,player,player_id,ppa_all,ppa_pass
 2024,5,regular,Ohio,Parker Navarro,4610131,0.691,0.399
 2024,5,regular,Akron,Tahj Bullock,4684003,-1.152,-1.152
 2024,5,regular,Charlotte,Trexler Ivey,4689585,-0.332,-0.413
-2024,5,regular,Eastern Michigan,Cole Snyder,4570057,0.393,0.491
-2024,5,regular,Kent State,Tommy Ulatowski,5082965,0.945,1.3
-2024,5,regular,Temple,Evan Simon,4431387,0.16,0.27
-2024,5,regular,Army,Bryson Daily,4879928,0.434,-0.008
-2024,5,regular,Army,Dewayne Coleman,5082125,0.76,3.172
-2024,5,regular,Army,Cale Hellums,5150297,0.075,
-2024,5,regular,UAB,Jacob Zeno,4426417,0.261,0.018
-2024,5,regular,Navy,Blake Horvath,5081504,0.879,1.465
-2024,5,regular,Navy,Braxton Woodson,5158343,-0.387,
-2024,5,regular,East Carolina,Jake Garcia,4432703,0.237,0.322
-2024,5,regular,UTSA,Eddie Lee Marburger,4683012,0.67,0.67
-2024,5,regular,UTSA,Owen McCown,4775136,0.049,0.075
-2024,5,regular,Florida Atlantic,Cam Fancher,4700135,0.337,0.594
-2024,5,regular,Florida Atlantic,Kasen Weisman,4954456,0.039,0.175
-2024,5,regular,Florida Atlantic,Carson Cruver,5125301,0.819,0.819
-2024,5,regular,Tulsa,Cooper Legas,4430033,1.135,1.482
-2024,5,regular,North Texas,Chandler Morris,4692530,0.769,0.812
-2024,5,regular,Tulsa,Cardell Williams,4872721,-0.051,-0.215
-2024,5,regular,Tulsa,Tim Carpenter,5126465,0.562,0.101
-2024,5,regular,Tulsa,Kirk Francis,5151618,-0.341,-0.341
-2024,5,regular,Georgia,Carson Beck,4430841,0.091,0.077
-2024,5,regular,Alabama,Jalen Milroe,4432734,0.406,0.431
-2024,5,regular,USC,Miller Moss,4431580,0.445,0.439
-2024,5,regular,USC,Jayden Maiava,4685454,0.477,
-2024,5,regular,Wisconsin,Braedyn Locke,4702829,0.12,0.12
-2024,5,regular,Tennessee Tech,Jordyn Potts,5153754,-0.305,0.239
-2024,5,regular,Rice,E.J. Warner,4916436,0.163,0.158
-2024,5,regular,Charlotte,Deshawn Purdie,5138131,0.56,0.508
