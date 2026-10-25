@@ -2,7 +2,7 @@
 
 A college football prediction model and website. Every week it projects every FBS game's score, compares the projection with the betting line, and publishes the picks with the kickoff weather forecast and each team's starting-quarterback status.
 
-Website: **https://jono-bit-trade.github.io/cfb-model/** (live once setup step 2 below is done)
+Website: **https://jono-bit-trade.github.io/jonos-picks/** (live once setup step 2 below is done)
 
 ## One-time setup (about 5 minutes)
 
@@ -101,6 +101,7 @@ Lines tend to move toward the side the model likes: in 2023-2025, lines moved to
 - **Machine-learning settings:** shallower trees learning more slowly, faster-reacting efficiency ratings, and a separate blend weight for totals.
 - **Recent seasons weighted more:** tested (3- and 6-year half-lives) and left off: it didn't improve results. Team strength already comes from the current season, starting from last season's rating.
 - **New data sources (tested one at a time):** pregame Elo ratings and efficiency with garbage time removed (including passing/rushing splits and line play) are on: together they cut the margin error in both 2016-2022 and 2023-2025. Quarterback efficiency, points per drive/field position and sportsbook disagreement were downloaded and tested but didn't improve unseen seasons, so they're off (the data stays for future tests).
+- **AP rankings (RANK):** each team's AP rank going into the game is now an input. It cut the margin error slightly in both 2016-2022 (13.19 → 13.17) and 2023-2025 (12.72 → 12.69). On their own, rankings don't beat the line: ranked favorites cover about 48.5%, and big underdogs against top-5 teams win less often than their moneyline implies.
 - **Training years:** the spread model learns from every season (more history helped), while the totals model learns from the most recent 5 seasons, because scoring levels drift with rule changes and pace. Tested 3, 5, 7 and all seasons, and with and without 2020.
 - **Wind and totals:** projected totals drop about 0.12 points per mph of wind above 10 mph (using the kickoff forecast for upcoming games). Learned on 2016-2022; on 2023-2025 it lifted the model's over/under record in windy games from 49.9% to 51.0%. Dome and rain patterns looked like Under spots in older seasons but didn't hold up, so they aren't used.
 - **Win chances** are calibrated to the 16.6-point scatter measured in the backtest.
