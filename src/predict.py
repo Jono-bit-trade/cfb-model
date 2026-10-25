@@ -42,11 +42,16 @@ def clean(v):
 
 
 def bet_early(edge, line_move):
-    """Strong edge, and the line hasn't yet moved toward the model's side."""
+    """Strong edge, and the line is still close to where it opened.
+
+    In 2023-2025, model picks with 5+ point edges went 54.6% at the closing line when
+    the line hadn't moved, ~49% when it had already moved toward the model (the edge
+    was gone) and ~51% when it moved against the model (the money disagreed).
+    """
     if np.isnan(edge) or abs(edge) < config.STRONG_EDGE:
         return False
     toward_model = 0.0 if np.isnan(line_move) else line_move * np.sign(edge)
-    return bool(toward_model < 0.5)
+    return bool(-config.BET_EARLY_MAX_MOVE < toward_model < 0.5)
 
 
 def locked_pick(log, r):
@@ -144,6 +149,7 @@ def main(now=None):
     backfill_log(table, season)
     if len(rows):
         update_log(rows, now)  # records early (locked) picks before the board is written
+        save_line_snapshot(rows, now)
     log_now = pd.read_csv(LOG).set_index("game_id") if os.path.exists(LOG) else pd.DataFrame()
     out_games = []
     for r in rows.sort_values("start").itertuples():
@@ -248,6 +254,24 @@ def in_lock_window(now, start):
     (Central), or any time once kickoff is under 3 days away."""
     day = now.tz_convert(CENTRAL).weekday()  # Monday = 0 ... Sunday = 6
     return day in (6, 0, 1) or (start - now) < pd.Timedelta(days=3)
+
+
+LINE_HISTORY = os.path.join(DATA, "line_history.csv")
+
+
+def save_line_snapshot(rows, now):
+    """Every run appends the current line for each upcoming game, so picks can later be
+    graded at the line on any day (for example the Wednesday line)."""
+    if not len(rows):
+        return
+    snap = pd.DataFrame({"game_id": rows["game_id"], "at": now.isoformat(),
+                         "weekday": now.tz_convert(CENTRAL).strftime("%a"),
+                         "spread": rows["spread"], "total": rows["total"], "home_ml": rows["home_ml"],
+                         "away_ml": rows["away_ml"], "pred_margin": rows["pred_margin"].round(2),
+                         "pred_total": rows["pred_total"].round(2)})
+    snap = snap[pd.to_datetime(rows["start"], utc=True) > now]
+    header = not os.path.exists(LINE_HISTORY)
+    snap.to_csv(LINE_HISTORY, mode="a", header=header, index=False)
 
 
 def update_log(rows, now):

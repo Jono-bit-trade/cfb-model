@@ -89,7 +89,8 @@ A realistic target: 60%+ picking winners is normal; against the spread, every ga
 Lines tend to move toward the side the model likes: in 2023-2025, lines moved toward the model's side about 70% of the time when it disagreed with the opener by 5+ points, and its picks went about 57% against the opening line, versus about 51% against the closing line. So the model's value is early in the week.
 
 - **Locked pick:** the first projection after the previous weekend's games is saved with the line at that moment and never changes. Every game is graded at both the locked line and the closing line.
-- **Bet early:** marks games where the model's edge is 3+ points and the line hasn't moved its way yet.
+- **Bet early:** marks games where the model's edge is 3+ points and the line is still within about a point of where it opened. In 2023-2025, those picks won 54.6% at 5+ point edges; once a line had already moved toward the pick, results fell to about 49% (the edge was gone), and when it moved against the pick, about 51%.
+- **Line snapshots:** every run saves the current lines to `data/line_history.csv`, so picks can later be graded at the line on a specific day, such as Wednesday.
 - **History → Grade against:** switch between the closing line and the early line (the locked pick this season, the opening line for past seasons).
 
 ## The record

@@ -33,7 +33,7 @@ const splitTags = (g) => {
 };
 const hasSharp = (g) => g.splits && (g.splits.sharp || g.splits.rlm || g.splits.sharp_total);
 const betEarlyTag = (g) => g.bet_early && g.pick && g.pick.team
-  ? `<span class="tag rlm" title="The model's edge is ${num(g.edge)} points and the line hasn't moved its way yet. In testing, lines moved toward the model's side about 70% of the time on 5+ point edges.">Bet early: ${esc(g.pick.text)}</span>` : "";
+  ? `<span class="tag rlm" title="The model's edge is ${num(g.edge)} points and the line is still close to where it opened. In 2023-2025, picks like this won 54.6% at 5+ point edges; once the line had moved toward the pick, the edge was gone.">Bet now: ${esc(g.pick.text)}</span>` : "";
 const valueTag = (g) => g.moneyline && g.moneyline.value
   ? `<span class="tag" title="The model gives this side a ${num(g.moneyline.value.gap, 0)}-point better win chance than the moneyline implies">Value moneyline: ${esc(g.moneyline.value.team)} ${odds(g.moneyline.value.odds)}</span>` : "";
 const pct = (v) => (v === null || v === undefined ? "–" : `${(v * 100).toFixed(1)}%`);

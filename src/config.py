@@ -29,6 +29,7 @@ FEATURE_GROUPS = ["CORE", "STYLE", "CONTEXT", "SITUATION"]  # drop a group to te
 
 # ---- Picks ----------------------------------------------------------------
 MIN_EDGE = 0.0               # only show a pick when |edge| >= this many points
+BET_EARLY_MAX_MOVE = 1.0     # "Bet early" only while the line has moved less than this against the model
 STRONG_EDGE = 3.0            # label picks at or above this as "strong" (the tuner suggests a value)
 SHARP_GAP = 10              # sharp money: money % exceeds bet % on a side by this many points
 PUBLIC_MIN = 60             # reverse line movement: at least this % of bets on one side...
