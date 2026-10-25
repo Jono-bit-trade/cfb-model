@@ -1,11 +1,12 @@
 {
- "updated": "2026-10-25T12:12:04.808901+00:00",
+ "updated": "2026-10-25T12:29:21.362505+00:00",
  "season": 2026,
  "avg_points": 25.94,
  "home_edge": 3.05,
  "teams": [
   {
    "team": "Ohio State",
+   "rank": 1,
    "conf": "Big Ten",
    "record": "6\u20131",
    "overall": 19.18,
@@ -15,6 +16,7 @@
   },
   {
    "team": "Miami",
+   "rank": 2,
    "conf": "ACC",
    "record": "7\u20130",
    "overall": 18.9,
@@ -24,6 +26,7 @@
   },
   {
    "team": "Notre Dame",
+   "rank": 3,
    "conf": "FBS Independents",
    "record": "6\u20131",
    "overall": 17.52,
@@ -33,6 +36,7 @@
   },
   {
    "team": "Georgia",
+   "rank": 4,
    "conf": "SEC",
    "record": "6\u20131",
    "overall": 16.15,
@@ -42,6 +46,7 @@
   },
   {
    "team": "Indiana",
+   "rank": 5,
    "conf": "Big Ten",
    "record": "7\u20131",
    "overall": 15.74,
@@ -51,6 +56,7 @@
   },
   {
    "team": "Alabama",
+   "rank": 6,
    "conf": "SEC",
    "record": "6\u20132",
    "overall": 15.31,
@@ -60,6 +66,7 @@
   },
   {
    "team": "LSU",
+   "rank": 7,
    "conf": "SEC",
    "record": "6\u20132",
    "overall": 13.25,
@@ -69,6 +76,7 @@
   },
   {
    "team": "Texas",
+   "rank": 8,
    "conf": "SEC",
    "record": "5\u20132",
    "overall": 12.79,
@@ -78,6 +86,7 @@
   },
   {
    "team": "Oregon",
+   "rank": 9,
    "conf": "Big Ten",
    "record": "4\u20133",
    "overall": 12.56,
@@ -87,6 +96,7 @@
   },
   {
    "team": "Utah",
+   "rank": 10,
    "conf": "Big 12",
    "record": "7\u20130",
    "overall": 12.52,
@@ -96,6 +106,7 @@
   },
   {
    "team": "Ole Miss",
+   "rank": 11,
    "conf": "SEC",
    "record": "5\u20132",
    "overall": 12.06,
@@ -105,6 +116,7 @@
   },
   {
    "team": "Texas Tech",
+   "rank": 12,
    "conf": "Big 12",
    "record": "6\u20131",
    "overall": 10.87,
@@ -114,6 +126,7 @@
   },
   {
    "team": "Tennessee",
+   "rank": 13,
    "conf": "SEC",
    "record": "6\u20132",
    "overall": 10.53,
@@ -123,6 +136,7 @@
   },
   {
    "team": "BYU",
+   "rank": 14,
    "conf": "Big 12",
    "record": "6\u20131",
    "overall": 10.08,
@@ -132,6 +146,7 @@
   },
   {
    "team": "Arizona",
+   "rank": 15,
    "conf": "Big 12",
    "record": "6\u20131",
    "overall": 9.82,
@@ -141,6 +156,7 @@
   },
   {
    "team": "Houston",
+   "rank": 16,
    "conf": "Big 12",
    "record": "6\u20132",
    "overall": 9.01,
@@ -150,6 +166,7 @@
   },
   {
    "team": "Wake Forest",
+   "rank": 17,
    "conf": "ACC",
    "record": "6\u20131",
    "overall": 8.75,
@@ -159,6 +176,7 @@
   },
   {
    "team": "USC",
+   "rank": 18,
    "conf": "Big Ten",
    "record": "6\u20132",
    "overall": 8.72,
@@ -168,6 +186,7 @@
   },
   {
    "team": "Northwestern",
+   "rank": 19,
    "conf": "Big Ten",
    "record": "6\u20131",
    "overall": 8.15,
@@ -177,6 +196,7 @@
   },
   {
    "team": "Texas A&M",
+   "rank": 20,
    "conf": "SEC",
    "record": "4\u20134",
    "overall": 7.91,
@@ -186,6 +206,7 @@
   },
   {
    "team": "Nebraska",
+   "rank": 21,
    "conf": "Big Ten",
    "record": "5\u20132",
    "overall": 7.88,
@@ -195,6 +216,7 @@
   },
   {
    "team": "Iowa",
+   "rank": 22,
    "conf": "Big Ten",
    "record": "5\u20132",
    "overall": 7.74,
@@ -204,6 +226,7 @@
   },
   {
    "team": "Oklahoma",
+   "rank": 23,
    "conf": "SEC",
    "record": "4\u20133",
    "overall": 7.5,
@@ -213,6 +236,7 @@
   },
   {
    "team": "Missouri",
+   "rank": 24,
    "conf": "SEC",
    "record": "5\u20132",
    "overall": 7.44,
@@ -222,6 +246,7 @@
   },
   {
    "team": "SMU",
+   "rank": 25,
    "conf": "ACC",
    "record": "6\u20131",
    "overall": 6.99,
@@ -231,6 +256,7 @@
   },
   {
    "team": "James Madison",
+   "rank": 26,
    "conf": "Sun Belt",
    "record": "7\u20131",
    "overall": 6.98,
@@ -240,6 +266,7 @@
   },
   {
    "team": "Louisville",
+   "rank": 27,
    "conf": "ACC",
    "record": "4\u20133",
    "overall": 6.91,
@@ -249,6 +276,7 @@
   },
   {
    "team": "Boise State",
+   "rank": 28,
    "conf": "Pac-12",
    "record": "6\u20131",
    "overall": 6.86,
@@ -258,6 +286,7 @@
   },
   {
    "team": "UCLA",
+   "rank": 29,
    "conf": "Big Ten",
    "record": "7\u20130",
    "overall": 6.67,
@@ -267,6 +296,7 @@
   },
   {
    "team": "Florida",
+   "rank": 30,
    "conf": "SEC",
    "record": "5\u20132",
    "overall": 6.43,
@@ -276,6 +306,7 @@
   },
   {
    "team": "Michigan",
+   "rank": 31,
    "conf": "Big Ten",
    "record": "4\u20133",
    "overall": 6.01,
@@ -285,6 +316,7 @@
   },
   {
    "team": "South Carolina",
+   "rank": 32,
    "conf": "SEC",
    "record": "4\u20133",
    "overall": 5.53,
@@ -294,6 +326,7 @@
   },
   {
    "team": "Florida State",
+   "rank": 33,
    "conf": "ACC",
    "record": "3\u20134",
    "overall": 5.42,
@@ -303,6 +336,7 @@
   },
   {
    "team": "Penn State",
+   "rank": 34,
    "conf": "Big Ten",
    "record": "3\u20134",
    "overall": 5.25,
@@ -312,6 +346,7 @@
   },
   {
    "team": "Wisconsin",
+   "rank": 35,
    "conf": "Big Ten",
    "record": "5\u20132",
    "overall": 4.98,
@@ -321,6 +356,7 @@
   },
   {
    "team": "Pittsburgh",
+   "rank": 36,
    "conf": "ACC",
    "record": "5\u20133",
    "overall": 4.65,
@@ -330,6 +366,7 @@
   },
   {
    "team": "New Mexico",
+   "rank": 37,
    "conf": "Mountain West",
    "record": "6\u20131",
    "overall": 4.45,
@@ -339,6 +376,7 @@
   },
   {
    "team": "Washington",
+   "rank": 38,
    "conf": "Big Ten",
    "record": "4\u20133",
    "overall": 4.44,
@@ -348,6 +386,7 @@
   },
   {
    "team": "Baylor",
+   "rank": 39,
    "conf": "Big 12",
    "record": "4\u20133",
    "overall": 4.31,
@@ -357,6 +396,7 @@
   },
   {
    "team": "Kentucky",
+   "rank": 40,
    "conf": "SEC",
    "record": "7\u20131",
    "overall": 4.17,
@@ -366,6 +406,7 @@
   },
   {
    "team": "TCU",
+   "rank": 41,
    "conf": "Big 12",
    "record": "3\u20134",
    "overall": 4.03,
@@ -375,6 +416,7 @@
   },
   {
    "team": "Auburn",
+   "rank": 42,
    "conf": "SEC",
    "record": "4\u20133",
    "overall": 4.0,
@@ -384,6 +426,7 @@
   },
   {
    "team": "Duke",
+   "rank": 43,
    "conf": "ACC",
    "record": "5\u20132",
    "overall": 3.86,
@@ -393,6 +436,7 @@
   },
   {
    "team": "Illinois",
+   "rank": 44,
    "conf": "Big Ten",
    "record": "4\u20133",
    "overall": 3.35,
@@ -402,6 +446,7 @@
   },
   {
    "team": "North Texas",
+   "rank": 45,
    "conf": "American Athletic",
    "record": "5\u20132",
    "overall": 3.33,
@@ -411,6 +456,7 @@
   },
   {
    "team": "UCF",
+   "rank": 46,
    "conf": "Big 12",
    "record": "4\u20133",
    "overall": 3.31,
@@ -420,6 +466,7 @@
   },
   {
    "team": "Kansas State",
+   "rank": 47,
    "conf": "Big 12",
    "record": "4\u20133",
    "overall": 2.92,
@@ -429,6 +476,7 @@
   },
   {
    "team": "Mississippi State",
+   "rank": 48,
    "conf": "SEC",
    "record": "4\u20133",
    "overall": 2.72,
@@ -438,6 +486,7 @@
   },
   {
    "team": "Texas State",
+   "rank": 49,
    "conf": "Pac-12",
    "record": "4\u20133",
    "overall": 2.57,
@@ -447,6 +496,7 @@
   },
   {
    "team": "Louisiana Tech",
+   "rank": 50,
    "conf": "Sun Belt",
    "record": "5\u20132",
    "overall": 2.56,
@@ -456,6 +506,7 @@
   },
   {
    "team": "Oregon State",
+   "rank": 51,
    "conf": "Pac-12",
    "record": "5\u20132",
    "overall": 2.49,
@@ -465,6 +516,7 @@
   },
   {
    "team": "Cincinnati",
+   "rank": 52,
    "conf": "Big 12",
    "record": "5\u20132",
    "overall": 2.47,
@@ -474,6 +526,7 @@
   },
   {
    "team": "Liberty",
+   "rank": 53,
    "conf": "Conference USA",
    "record": "6\u20131",
    "overall": 2.46,
@@ -483,6 +536,7 @@
   },
   {
    "team": "Virginia",
+   "rank": 54,
    "conf": "ACC",
    "record": "4\u20134",
    "overall": 2.36,
@@ -492,6 +546,7 @@
   },
   {
    "team": "UTSA",
+   "rank": 55,
    "conf": "American Athletic",
    "record": "7\u20131",
    "overall": 2.31,
@@ -501,6 +556,7 @@
   },
   {
    "team": "Toledo",
+   "rank": 56,
    "conf": "Mid-American",
    "record": "6\u20132",
    "overall": 2.25,
@@ -510,6 +566,7 @@
   },
   {
    "team": "Oklahoma State",
+   "rank": 57,
    "conf": "Big 12",
    "record": "5\u20132",
    "overall": 2.15,
@@ -519,6 +576,7 @@
   },
   {
    "team": "Virginia Tech",
+   "rank": 58,
    "conf": "ACC",
    "record": "6\u20132",
    "overall": 2.09,
@@ -528,6 +586,7 @@
   },
   {
    "team": "South Florida",
+   "rank": 59,
    "conf": "American Athletic",
    "record": "5\u20132",
    "overall": 1.99,
@@ -537,6 +596,7 @@
   },
   {
    "team": "NC State",
+   "rank": 60,
    "conf": "ACC",
    "record": "3\u20134",
    "overall": 1.71,
@@ -546,6 +606,7 @@
   },
   {
    "team": "Minnesota",
+   "rank": 61,
    "conf": "Big Ten",
    "record": "5\u20132",
    "overall": 1.68,
@@ -555,6 +616,7 @@
   },
   {
    "team": "Clemson",
+   "rank": 62,
    "conf": "ACC",
    "record": "4\u20133",
    "overall": 1.62,
@@ -564,6 +626,7 @@
   },
   {
    "team": "Army",
+   "rank": 63,
    "conf": "American Athletic",
    "record": "5\u20132",
    "overall": 1.4,
@@ -573,6 +636,7 @@
   },
   {
    "team": "Western Michigan",
+   "rank": 64,
    "conf": "Mid-American",
    "record": "5\u20133",
    "overall": 1.37,
@@ -582,6 +646,7 @@
   },
   {
    "team": "Fresno State",
+   "rank": 65,
    "conf": "Pac-12",
    "record": "4\u20133",
    "overall": 0.88,
@@ -591,6 +656,7 @@
   },
   {
    "team": "Kansas",
+   "rank": 66,
    "conf": "Big 12",
    "record": "3\u20134",
    "overall": 0.76,
@@ -600,6 +666,7 @@
   },
   {
    "team": "Memphis",
+   "rank": 67,
    "conf": "American Athletic",
    "record": "6\u20132",
    "overall": 0.76,
@@ -609,6 +676,7 @@
   },
   {
    "team": "North Carolina",
+   "rank": 68,
    "conf": "ACC",
    "record": "4\u20133",
    "overall": 0.69,
@@ -618,6 +686,7 @@
   },
   {
    "team": "Louisiana",
+   "rank": 69,
    "conf": "Sun Belt",
    "record": "5\u20133",
    "overall": -0.02,
@@ -627,6 +696,7 @@
   },
   {
    "team": "Arizona State",
+   "rank": 70,
    "conf": "Big 12",
    "record": "4\u20133",
    "overall": -0.6,
@@ -636,6 +706,7 @@
   },
   {
    "team": "Syracuse",
+   "rank": 71,
    "conf": "ACC",
    "record": "3\u20134",
    "overall": -0.92,
@@ -645,6 +716,7 @@
   },
   {
    "team": "Ohio",
+   "rank": 72,
    "conf": "Mid-American",
    "record": "6\u20132",
    "overall": -0.98,
@@ -654,6 +726,7 @@
   },
   {
    "team": "Purdue",
+   "rank": 73,
    "conf": "Big Ten",
    "record": "3\u20134",
    "overall": -1.16,
@@ -663,6 +736,7 @@
   },
   {
    "team": "West Virginia",
+   "rank": 74,
    "conf": "Big 12",
    "record": "5\u20133",
    "overall": -1.16,
@@ -672,6 +746,7 @@
   },
   {
    "team": "Iowa State",
+   "rank": 75,
    "conf": "Big 12",
    "record": "3\u20134",
    "overall": -1.5,
@@ -681,6 +756,7 @@
   },
   {
    "team": "Vanderbilt",
+   "rank": 76,
    "conf": "SEC",
    "record": "3\u20135",
    "overall": -1.96,
@@ -690,6 +766,7 @@
   },
   {
    "team": "Arkansas",
+   "rank": 77,
    "conf": "SEC",
    "record": "3\u20134",
    "overall": -2.14,
@@ -699,6 +776,7 @@
   },
   {
    "team": "North Dakota State",
+   "rank": 78,
    "conf": "Mountain West",
    "record": "6\u20132",
    "overall": -2.15,
@@ -708,6 +786,7 @@
   },
   {
    "team": "UConn",
+   "rank": 79,
    "conf": "FBS Independents",
    "record": "4\u20133",
    "overall": -2.18,
@@ -717,6 +796,7 @@
   },
   {
    "team": "Maryland",
+   "rank": 80,
    "conf": "Big Ten",
    "record": "2\u20135",
    "overall": -2.32,
@@ -726,6 +806,7 @@
   },
   {
    "team": "East Carolina",
+   "rank": 81,
    "conf": "American Athletic",
    "record": "3\u20134",
    "overall": -2.41,
@@ -735,6 +816,7 @@
   },
   {
    "team": "UNLV",
+   "rank": 82,
    "conf": "Mountain West",
    "record": "4\u20133",
    "overall": -2.42,
@@ -744,6 +826,7 @@
   },
   {
    "team": "Boston College",
+   "rank": 83,
    "conf": "ACC",
    "record": "4\u20133",
    "overall": -2.46,
@@ -753,6 +836,7 @@
   },
   {
    "team": "Michigan State",
+   "rank": 84,
    "conf": "Big Ten",
    "record": "2\u20136",
    "overall": -2.58,
@@ -762,6 +846,7 @@
   },
   {
    "team": "Rutgers",
+   "rank": 85,
    "conf": "Big Ten",
    "record": "2\u20135",
    "overall": -2.82,
@@ -771,6 +856,7 @@
   },
   {
    "team": "Tulane",
+   "rank": 86,
    "conf": "American Athletic",
    "record": "3\u20134",
    "overall": -2.84,
@@ -780,6 +866,7 @@
   },
   {
    "team": "Tulsa",
+   "rank": 87,
    "conf": "American Athletic",
    "record": "4\u20134",
    "overall": -3.14,
@@ -789,6 +876,7 @@
   },
   {
    "team": "San Diego State",
+   "rank": 88,
    "conf": "Pac-12",
    "record": "3\u20135",
    "overall": -3.36,
@@ -798,6 +886,7 @@
   },
   {
    "team": "Georgia State",
+   "rank": 89,
    "conf": "Sun Belt",
    "record": "4\u20133",
    "overall": -3.59,
@@ -807,6 +896,7 @@
   },
   {
    "team": "Georgia Tech",
+   "rank": 90,
    "conf": "ACC",
    "record": "2\u20135",
    "overall": -3.64,
@@ -816,6 +906,7 @@
   },
   {
    "team": "South Alabama",
+   "rank": 91,
    "conf": "Sun Belt",
    "record": "4\u20133",
    "overall": -3.8,
@@ -825,6 +916,7 @@
   },
   {
    "team": "App State",
+   "rank": 92,
    "conf": "Sun Belt",
    "record": "5\u20132",
    "overall": -3.81,
@@ -834,6 +926,7 @@
   },
   {
    "team": "Florida Atlantic",
+   "rank": 93,
    "conf": "American Athletic",
    "record": "5\u20132",
    "overall": -3.91,
@@ -843,6 +936,7 @@
   },
   {
    "team": "Arkansas State",
+   "rank": 94,
    "conf": "Sun Belt",
    "record": "4\u20134",
    "overall": -4.18,
@@ -852,6 +946,7 @@
   },
   {
    "team": "Jacksonville State",
+   "rank": 95,
    "conf": "Conference USA",
    "record": "5\u20132",
    "overall": -4.21,
@@ -861,6 +956,7 @@
   },
   {
    "team": "Georgia Southern",
+   "rank": 96,
    "conf": "Sun Belt",
    "record": "3\u20134",
    "overall": -4.3,
@@ -870,6 +966,7 @@
   },
   {
    "team": "Air Force",
+   "rank": 97,
    "conf": "Mountain West",
    "record": "5\u20132",
    "overall": -4.38,
@@ -879,6 +976,7 @@
   },
   {
    "team": "Utah State",
+   "rank": 98,
    "conf": "Pac-12",
    "record": "2\u20135",
    "overall": -4.45,
@@ -888,6 +986,7 @@
   },
   {
    "team": "Western Kentucky",
+   "rank": 99,
    "conf": "Conference USA",
    "record": "3\u20134",
    "overall": -4.59,
@@ -897,6 +996,7 @@
   },
   {
    "team": "Washington State",
+   "rank": 100,
    "conf": "Pac-12",
    "record": "1\u20137",
    "overall": -4.64,
@@ -906,6 +1006,7 @@
   },
   {
    "team": "Miami (OH)",
+   "rank": 101,
    "conf": "Mid-American",
    "record": "5\u20133",
    "overall": -4.83,
@@ -915,6 +1016,7 @@
   },
   {
    "team": "Hawai'i",
+   "rank": 102,
    "conf": "Mountain West",
    "record": "2\u20136",
    "overall": -4.98,
@@ -924,6 +1026,7 @@
   },
   {
    "team": "Navy",
+   "rank": 103,
    "conf": "American Athletic",
    "record": "2\u20135",
    "overall": -5.05,
@@ -933,6 +1036,7 @@
   },
   {
    "team": "Florida International",
+   "rank": 104,
    "conf": "Conference USA",
    "record": "3\u20134",
    "overall": -5.06,
@@ -942,6 +1046,7 @@
   },
   {
    "team": "Colorado",
+   "rank": 105,
    "conf": "Big 12",
    "record": "2\u20135",
    "overall": -6.2,
@@ -951,6 +1056,7 @@
   },
   {
    "team": "Temple",
+   "rank": 106,
    "conf": "American Athletic",
    "record": "2\u20135",
    "overall": -6.33,
@@ -960,6 +1066,7 @@
   },
   {
    "team": "Delaware",
+   "rank": 107,
    "conf": "Conference USA",
    "record": "3\u20134",
    "overall": -6.66,
@@ -969,6 +1076,7 @@
   },
   {
    "team": "Southern Miss",
+   "rank": 108,
    "conf": "Sun Belt",
    "record": "2\u20135",
    "overall": -6.68,
@@ -978,6 +1086,7 @@
   },
   {
    "team": "Nevada",
+   "rank": 109,
    "conf": "Mountain West",
    "record": "3\u20134",
    "overall": -6.73,
@@ -987,6 +1096,7 @@
   },
   {
    "team": "UAB",
+   "rank": 110,
    "conf": "American Athletic",
    "record": "4\u20133",
    "overall": -6.77,
@@ -996,6 +1106,7 @@
   },
   {
    "team": "Central Michigan",
+   "rank": 111,
    "conf": "Mid-American",
    "record": "3\u20135",
    "overall": -6.78,
@@ -1005,6 +1116,7 @@
   },
   {
    "team": "California",
+   "rank": 112,
    "conf": "ACC",
    "record": "3\u20135",
    "overall": -6.9,
@@ -1014,6 +1126,7 @@
   },
   {
    "team": "Troy",
+   "rank": 113,
    "conf": "Sun Belt",
    "record": "3\u20134",
    "overall": -7.05,
@@ -1023,6 +1136,7 @@
   },
   {
    "team": "Wyoming",
+   "rank": 114,
    "conf": "Mountain West",
    "record": "5\u20133",
    "overall": -7.73,
@@ -1032,6 +1146,7 @@
   },
   {
    "team": "Stanford",
+   "rank": 115,
    "conf": "ACC",
    "record": "4\u20134",
    "overall": -7.74,
@@ -1041,6 +1156,7 @@
   },
   {
    "team": "Marshall",
+   "rank": 116,
    "conf": "Sun Belt",
    "record": "4\u20133",
    "overall": -7.81,
@@ -1050,6 +1166,7 @@
   },
   {
    "team": "New Mexico State",
+   "rank": 117,
    "conf": "Conference USA",
    "record": "3\u20134",
    "overall": -7.86,
@@ -1059,6 +1176,7 @@
   },
   {
    "team": "Eastern Michigan",
+   "rank": 118,
    "conf": "Mid-American",
    "record": "4\u20135",
    "overall": -8.05,
@@ -1068,6 +1186,7 @@
   },
   {
    "team": "Old Dominion",
+   "rank": 119,
    "conf": "Sun Belt",
    "record": "2\u20136",
    "overall": -8.08,
@@ -1077,6 +1196,7 @@
   },
   {
    "team": "Coastal Carolina",
+   "rank": 120,
    "conf": "Sun Belt",
    "record": "2\u20135",
    "overall": -8.56,
@@ -1086,6 +1206,7 @@
   },
   {
    "team": "Middle Tennessee",
+   "rank": 121,
    "conf": "Conference USA",
    "record": "4\u20133",
    "overall": -8.92,
@@ -1095,6 +1216,7 @@
   },
   {
    "team": "San Jos\u00e9 State",
+   "rank": 122,
    "conf": "Mountain West",
    "record": "4\u20134",
    "overall": -9.13,
@@ -1104,6 +1226,7 @@
   },
   {
    "team": "Rice",
+   "rank": 123,
    "conf": "American Athletic",
    "record": "1\u20137",
    "overall": -9.32,
@@ -1113,6 +1236,7 @@
   },
   {
    "team": "Colorado State",
+   "rank": 124,
    "conf": "Pac-12",
    "record": "3\u20134",
    "overall": -9.35,
@@ -1122,6 +1246,7 @@
   },
   {
    "team": "Buffalo",
+   "rank": 125,
    "conf": "Mid-American",
    "record": "5\u20133",
    "overall": -9.38,
@@ -1131,6 +1256,7 @@
   },
   {
    "team": "Kennesaw State",
+   "rank": 126,
    "conf": "Conference USA",
    "record": "1\u20136",
    "overall": -9.51,
@@ -1140,6 +1266,7 @@
   },
   {
    "team": "Kent State",
+   "rank": 127,
    "conf": "Mid-American",
    "record": "3\u20135",
    "overall": -10.05,
@@ -1149,6 +1276,7 @@
   },
   {
    "team": "Sam Houston",
+   "rank": 128,
    "conf": "Conference USA",
    "record": "1\u20136",
    "overall": -10.39,
@@ -1158,6 +1286,7 @@
   },
   {
    "team": "Missouri State",
+   "rank": 129,
    "conf": "Conference USA",
    "record": "2\u20135",
    "overall": -11.32,
@@ -1167,6 +1296,7 @@
   },
   {
    "team": "Bowling Green",
+   "rank": 130,
    "conf": "Mid-American",
    "record": "2\u20136",
    "overall": -11.45,
@@ -1176,6 +1306,7 @@
   },
   {
    "team": "Akron",
+   "rank": 131,
    "conf": "Mid-American",
    "record": "1\u20137",
    "overall": -12.25,
@@ -1185,6 +1316,7 @@
   },
   {
    "team": "Ball State",
+   "rank": 132,
    "conf": "Mid-American",
    "record": "3\u20135",
    "overall": -12.48,
@@ -1194,6 +1326,7 @@
   },
   {
    "team": "UL Monroe",
+   "rank": 133,
    "conf": "Sun Belt",
    "record": "1\u20136",
    "overall": -14.28,
@@ -1203,6 +1336,7 @@
   },
   {
    "team": "Massachusetts",
+   "rank": 134,
    "conf": "Mid-American",
    "record": "4\u20134",
    "overall": -14.43,
@@ -1212,6 +1346,7 @@
   },
   {
    "team": "UTEP",
+   "rank": 135,
    "conf": "Mountain West",
    "record": "1\u20136",
    "overall": -15.09,
@@ -1221,6 +1356,7 @@
   },
   {
    "team": "Charlotte",
+   "rank": 136,
    "conf": "American Athletic",
    "record": "1\u20136",
    "overall": -16.1,
@@ -1230,6 +1366,7 @@
   },
   {
    "team": "Northern Illinois",
+   "rank": 137,
    "conf": "Mountain West",
    "record": "0\u20137",
    "overall": -17.63,
@@ -1239,6 +1376,7 @@
   },
   {
    "team": "Sacramento State",
+   "rank": 138,
    "conf": "Mid-American",
    "record": "1\u20137",
    "overall": -18.93,
