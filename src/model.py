@@ -94,7 +94,7 @@ class MarketAdjust:
         if self.margin is not None:
             ok = x[self.MARGIN_X].notna().all(axis=1).to_numpy()
             margin[ok] += self.margin.predict(x.loc[ok, self.MARGIN_X])
-        if self.total is not None:
+        if self.total is not None and config.MARKET_ADJUST_TOTALS:
             ok = x[self.TOTAL_X].notna().all(axis=1).to_numpy()
             total[ok] += self.total.predict(x.loc[ok, self.TOTAL_X])
         return margin, total

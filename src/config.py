@@ -20,18 +20,19 @@ HALF_LIFE_DAYS = 70          # recency weighting inside a season
 BLOWOUT_CAP = 38             # a winning margin never counts above this many points
 DEFAULT_HFA = 2.5            # home edge (points) until history estimates it
 PRIOR_FALLBACK_SHRINK = 0.6  # last season's rating x this, when no prior model
-EFF_ALPHA = 8.0              # efficiency (EPA per play) ratings: higher = trust last season longer
+EFF_ALPHA = 4.0              # efficiency (EPA per play) ratings: higher = trust last season longer (tested 4/8/16)
 EFF_PRIOR_SHRINK = 0.6       # efficiency ratings start at last season's x this
 
 # ---- Step 6: machine learning blend --------------------------------------
 BLEND_W = 0.5                # weight on the plain rating projection (1.0 = ratings only)
-BLEND_W_TOTAL = None         # same idea for totals; None = use BLEND_W
-GBM_DEPTH = 3                # machine-learning trees: depth, learning rate, rounds, minimum games per leaf
-GBM_LEARNING_RATE = 0.04
-GBM_ROUNDS = 350
+BLEND_W_TOTAL = 0.4          # same idea for totals; None = use BLEND_W
+GBM_DEPTH = 2                # machine-learning trees: depth, learning rate, rounds, minimum games per leaf
+GBM_LEARNING_RATE = 0.025    # (chosen on 2016-22 from 12 combinations; 2023-25 held out)
+GBM_ROUNDS = 650
 GBM_MIN_LEAF = 40
-SEASON_HALF_LIFE = None      # ML layer: a season this many years older counts half (None = all seasons equal)
-MARKET_ADJUST = False        # second step from line movement, where opening lines exist (2023 on)
+SEASON_HALF_LIFE = None      # ML layer: a season this many years older counts half (None = all seasons equal; 3 and 6 tested, no gain)
+MARKET_ADJUST = True         # second step from line movement, where opening lines exist (2023 on): lowered 2024-25 margin error
+MARKET_ADJUST_TOTALS = False # the same for totals didn't help in testing
 MARKET_ADJUST_ALPHA = 50.0   # its ridge penalty: higher = smaller adjustments
 FEATURE_GROUPS = ["CORE", "STYLE", "CONTEXT", "SITUATION"]  # drop a group to test without it
 

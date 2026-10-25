@@ -22,7 +22,7 @@ import weather  # noqa: E402
 from common import DATA, SITE_DATA, load, load_file, load_games, write_json  # noqa: E402
 import grading  # noqa: E402
 from backtest import update_history_index  # noqa: E402
-from model import Model, ats_edge, split_score  # noqa: E402
+from model import MarketAdjust, Model, ats_edge, split_score  # noqa: E402
 from ratings import FCS, RatingEngine, team_keys  # noqa: E402
 from features import CENTRAL  # noqa: E402
 
@@ -166,8 +166,11 @@ def main(now=None):
             rows.at[i, f"qb_name_{s}"] = name or starters.get(r[s])
             rows.at[i, f"qb_note_{s}"] = note
             rows.at[i, f"qb_out_{s}"] = 1.0 if st in qb.OUT_STATUSES else 0.0
+    adjuster = market_adjuster(table, season) if config.MARKET_ADJUST else None
     if len(rows):
         rows["pred_margin"], rows["pred_total"] = model.predict(rows)
+        if adjuster is not None:
+            rows["pred_margin"], rows["pred_total"] = adjuster.apply(rows, rows["pred_margin"], rows["pred_total"])
         # Questionable QB: also project the game as if he sits.
         for s in ("home", "away"):
             q = rows[f"qb_status_{s}"] == "questionable"
@@ -175,6 +178,8 @@ def main(now=None):
                 alt = rows[q].copy()
                 alt[f"qb_out_{s}"] = 1.0
                 m, t = model.predict(alt)
+                if adjuster is not None:
+                    m, t = adjuster.apply(alt, m, t)
                 rows.loc[q, f"alt_margin_{s}"], rows.loc[q, f"alt_total_{s}"] = m, t
         rows = grading.grade(rows)
         rows["line_move"] = rows["spread_open"] - rows["spread"]
@@ -257,6 +262,27 @@ def main(now=None):
     write_results(games, season, now)
     write_ratings(engine, games, season, now, rec)
     print(f"wrote {len(out_games)} predictions")
+
+
+def market_adjuster(table, season):
+    """Fit the line-movement adjustment on out-of-sample projections: each season with
+    opening lines is projected by a model trained only on earlier seasons."""
+    done = table[table["completed"].astype(bool) & table["actual_margin"].notna()]
+    coverage = done.groupby("season")["spread_open"].apply(lambda s: s.notna().mean())
+    seasons = [s for s, c in coverage.items() if c > 0.3 and s <= season]
+    parts = []
+    for s in seasons:
+        train, test = done[done["season"] < s], done[done["season"] == s].copy()
+        if train["season"].nunique() < 2 or test.empty:
+            continue
+        test["pm"], test["pt"] = Model().fit(train).predict(test)
+        parts.append(test)
+    if not parts:
+        return None
+    hist = pd.concat(parts)
+    adj = MarketAdjust().fit(hist, hist["pm"], hist["pt"])
+    print(f"line-movement adjustment learned from {adj.n_margin} games with opening lines")
+    return adj if adj.margin is not None else None
 
 
 def backfill_log(table, season):

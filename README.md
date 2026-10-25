@@ -95,6 +95,13 @@ Lines tend to move toward the side the model likes: in 2023-2025, lines moved to
 - **Line snapshots:** every run saves the current lines to `data/line_history.csv`, so picks can later be graded at the line on a specific day, such as Wednesday.
 - **History → Grade against:** switch between the closing line and the early line (the locked pick this season, the opening line for past seasons).
 
+## Recent settings changes (tested on 2023-2025, chosen on 2016-2022)
+
+- **Line-movement adjustment (on, spreads):** where an opening line exists (2023 on), a second step adjusts the projected margin based on how the spread has moved, learned only from earlier seasons' out-of-sample projections. It lowered the margin error in both 2024 and 2025. The same idea for totals didn't help, so it's off for totals.
+- **Machine-learning settings:** shallower trees learning more slowly, faster-reacting efficiency ratings, and a separate blend weight for totals.
+- **Recent seasons weighted more:** tested (3- and 6-year half-lives) and left off: it didn't improve results. Team strength already comes from the current season, starting from last season's rating.
+- **Win chances** are calibrated to the 16.6-point scatter measured in the backtest.
+
 ## The record
 
 `data/predictions_log.csv` keeps the last projection made before each kickoff, and the Record page grades those. When the site first launches mid-season, earlier games of the season are filled in by replaying the model with only pre-game information, and the site labels them as backfilled.
