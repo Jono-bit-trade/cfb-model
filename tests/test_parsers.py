@@ -76,6 +76,9 @@ def main():
 
     c = gd.parse_coaches(COACHES, 2025).iloc[0]
     assert c.team == "Oklahoma" and c.coach == "Brent Venables"
+    wx = gd.parse_cfbd_weather([{"id": 401, "gameIndoors": False, "temperature": 48.2, "windSpeed": 14.0,
+                                  "precipitation": 0.1, "weatherCondition": "Rain"}], 2025).iloc[0]
+    assert wx.temp == 48.2 and wx.wind == 14.0 and wx.gust == 14.0 and not wx.indoors
     print("parser tests passed")
 
 

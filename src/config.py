@@ -12,7 +12,7 @@ import datetime as _dt
 _today = _dt.date.today()
 # A season runs Aug-Jan, so January/February still belong to last year's season.
 THIS_SEASON = int(os.environ.get("CFB_SEASON") or (_today.year if _today.month >= 3 else _today.year - 1))
-BACKTEST_SEASONS = list(range(2018, THIS_SEASON))  # seasons the backtest scores
+BACKTEST_SEASONS = list(range(2016, THIS_SEASON))  # seasons the backtest scores (needs data from 2 seasons before)
 
 # ---- Step 3: power ratings -----------------------------------------------
 RATING_ALPHA = 12.0          # higher = trust the preseason prior longer

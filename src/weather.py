@@ -92,6 +92,10 @@ def update(games, venues, upcoming_ids=()):
 
     # 1) History: one call per venue-season covers every game played there.
     done = set(cache.loc[cache["kind"] == "actual", "game_id"])
+    from common import load
+    cfbd = load("cfbd_weather")
+    if len(cfbd):
+        done |= set(cfbd.loc[cfbd["temp"].notna() | cfbd["indoors"].astype(bool), "game_id"])
     past = _attach_venues(games[games["completed"].astype(bool) & ~games["game_id"].isin(done)
                                 & ~games["start_tbd"].astype(bool)], venues)
     past = past[past["start"] < now - pd.Timedelta(hours=6)]
@@ -159,8 +163,19 @@ def update(games, venues, upcoming_ids=()):
 
 
 def table():
-    """One weather row per game: actual weather if known, else the latest forecast."""
+    """One weather row per game: actual weather if known, else the latest forecast.
+
+    CFBD's own game weather (Patreon plans) is preferred for finished games; the free
+    Open-Meteo data fills any gaps and supplies forecasts for upcoming games.
+    """
+    from common import load
     c = load_cache()
+    cfbd = load("cfbd_weather")
+    if len(cfbd):
+        cfbd = cfbd[~cfbd["indoors"].astype(bool) & cfbd["temp"].notna()]
+        cfbd = pd.DataFrame({"game_id": cfbd["game_id"], "kind": "actual", "temp": cfbd["temp"], "rain": cfbd["rain"].fillna(0),
+                             "wind": cfbd["wind"], "gust": cfbd["gust"], "fetched_at": "cfbd"})
+        c = pd.concat([c[~((c["kind"] == "actual") & c["game_id"].isin(cfbd["game_id"]))], cfbd], ignore_index=True)
     if c.empty:
         return pd.DataFrame(columns=["game_id", "temp", "rain", "wind", "gust", "wx_kind", "wx_time"])
     c["rank"] = (c["kind"] == "actual").astype(int)

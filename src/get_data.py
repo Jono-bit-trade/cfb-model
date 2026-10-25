@@ -210,6 +210,41 @@ def parse_portal(raw, season):
                           "portal_net": gained.get(t, 0) - lost.get(t, 0)} for t in teams])
 
 
+def parse_cfbd_weather(raw, season):
+    """CFBD's own game-day weather (Patreon tiers): already matched to each game's kickoff."""
+    rows = []
+    for x in raw:
+        wind = _num(g(x, "windSpeed", "wind_speed"))
+        gust = _num(g(x, "windGust", "wind_gust"))
+        rows.append({"game_id": g(x, "id"), "season": season,
+                     "indoors": bool(g(x, "gameIndoors", "game_indoors", default=False)),
+                     "temp": _num(g(x, "temperature")), "wind": wind,
+                     "gust": gust if not pd.isna(gust) else wind,
+                     "rain": _num(g(x, "precipitation")), "snow": _num(g(x, "snowfall")),
+                     "condition": g(x, "weatherCondition", "weather_condition")})
+    return pd.DataFrame(rows)
+
+
+WEATHER_ACCESS = {"ok": True}
+
+
+def refresh_cfbd_weather(season, current):
+    """2 calls per season. Skipped for the rest of the run if the plan doesn't include weather."""
+    if not WEATHER_ACCESS["ok"] or (has_season("cfbd_weather", season) and not current):
+        return
+    try:
+        rows = []
+        for st in SEASON_TYPES:
+            rows += fetch("/games/weather", year=season, seasonType=st) or []
+        save_season(parse_cfbd_weather(rows, season), "cfbd_weather", season)
+        print("  saved cfbd_weather")
+    except OutOfCalls:
+        raise
+    except Exception as e:
+        WEATHER_ACCESS["ok"] = False
+        print(f"  ! CFBD weather not available on this plan ({e}); using the free weather source instead")
+
+
 def parse_coaches(raw, season):
     rows = []
     for c in raw:
@@ -306,6 +341,8 @@ def refresh_season(season, current):
         except Exception as e:
             print(f"  ! {name}: {e} (skipped; not every season has this data)")
 
+    refresh_cfbd_weather(season, current)
+
     # Per-week endpoints: only fetch weeks with completed games we don't have yet.
     games = load_games_season(season)
     if games.empty:
@@ -342,14 +379,19 @@ def refresh_season(season, current):
 
 
 def check_allowance():
-    """Print the plan's remaining calls (the /info endpoint is free)."""
+    """Print and save the plan's tier and remaining calls (the /info endpoint is free)."""
+    import json
     try:
         info = fetch("/info") or {}
         rem = g(info, "remainingCalls", "remaining_calls")
         if rem is not None:
             CALLS["remaining"], CALLS["used"] = int(rem), 0
-        print(f"CFBD plan: tier {g(info, 'patronLevel', default=0)}, "
-              f"{rem if rem is not None else 'unknown'} calls left this month")
+        tier = g(info, "patronLevel", "patron_level", default=0)
+        print(f"CFBD plan: tier {tier}, {rem if rem is not None else 'unknown'} calls left this month")
+        with open(os.path.join(DATA, "api_status.json"), "w") as f:
+            json.dump({"tier": tier, "remaining_calls": rem, "monthly_limit": g(info, "monthlyLimit", "monthly_limit"),
+                       "weather_feature": g(info, "features.weather"),
+                       "checked_at": pd.Timestamp.now(tz="UTC").isoformat()}, f, indent=1)
     except Exception as e:
         print(f"(could not read the API allowance: {e})")
 
