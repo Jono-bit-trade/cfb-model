@@ -13,5 +13,8 @@
   2016
  ],
  "current": 2026,
- "strong_edge": 3.0
+ "strong_edge": 3.0,
+ "sharp_gap": 10,
+ "public_min": 60,
+ "rlm_move": 1.0
 }
