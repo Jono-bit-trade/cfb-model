@@ -1,0 +1,2406 @@
+season,week,season_type,team,player,player_id,ppa_all,ppa_pass
+2014,1,postseason,Oregon,Marcus Mariota,511459,0.458,0.419
+2014,1,postseason,Florida State,Sean Maguire,530299,-0.796,-0.796
+2014,1,postseason,Florida State,Jameis Winston,530308,0.108,0.39
+2014,1,postseason,Oregon,Jeff Lockie,530875,-1.906,
+2014,1,postseason,Alabama,Blake Sims,504052,0.02,-0.059
+2014,1,postseason,Ohio State,Cardale Jones,534294,0.268,0.322
+2014,1,postseason,Baylor,Bryce Petty,480746,0.516,0.527
+2014,1,postseason,Michigan State,Connor Cook,512705,0.202,0.204
+2014,1,postseason,Mississippi State,Dak Prescott,512030,0.313,0.376
+2014,1,postseason,Georgia Tech,Justin Thomas,531104,0.644,0.464
+2014,1,postseason,Boise State,Grant Hedrick,504908,0.371,0.399
+2014,1,postseason,Arizona,Anu Solomon,552097,0.137,0.109
+2014,1,postseason,Ole Miss,Bo Wallace,500990,-0.07,-0.009
+2014,1,postseason,TCU,Bram Kohlhausen,512469,0.398,0.398
+2014,1,postseason,TCU,Trevone Boykin,517127,0.263,0.178
+2014,1,postseason,Nevada,Cody Fajardo,501241,-0.094,-0.12
+2014,1,postseason,Louisiana,Terrance Broadway,503922,0.162,0.236
+2014,1,postseason,Western Michigan,Zach Terrell,532645,0.383,0.373
+2014,1,postseason,Air Force,Kale Pearson,535972,0.057,0.045
+2014,1,postseason,Navy,Keenan Reynolds,530568,-0.428,-0.71
+2014,1,postseason,San Diego State,Quinn Kaehler,547570,-0.221,-0.231
+2014,1,postseason,Arkansas State,Fredi Knighten,538156,0.197,0.363
+2014,1,postseason,Toledo,Logan Woodside,545910,0.216,0.36
+2014,1,postseason,South Alabama,Brandon Bridge,507211,0.128,0.243
+2014,1,postseason,Bowling Green,James Knapke,531801,0.354,0.308
+2014,1,postseason,Bowling Green,Cody Callaway,3125748,-0.446,-0.045
+2014,1,postseason,UTEP,Jameill Showers,500571,0.139,0.005
+2014,1,postseason,Utah State,Kent Myers,3125353,-0.112,-0.334
+2014,1,postseason,Marshall,Rakeem Cato,518267,0.46,0.364
+2014,1,postseason,Northern Illinois,Drew Hare,532480,0.411,0.477
+2014,1,postseason,Fresno State,Brandon Connette,501052,-0.066,-0.066
+2014,1,postseason,Rice,Driphus Jackson,514894,0.623,0.92
+2014,1,postseason,Fresno State,Brian Burrell,546271,-0.336,-0.594
+2014,1,postseason,Fresno State,Zack Greenlee,550587,-0.252,-0.273
+2014,1,postseason,Western Kentucky,Brandon Doughty,504866,0.699,0.831
+2014,1,postseason,Central Michigan,Cooper Rush,531455,0.602,0.584
+2014,1,postseason,Maryland,C.J. Brown,480846,-0.015,0.04
+2014,1,postseason,Stanford,Evan Crower,516354,0.025,0.025
+2014,1,postseason,Stanford,Kevin Hogan,516357,0.519,0.644
+2014,1,postseason,Virginia Tech,Michael Brewer,514481,-0.072,-0.214
+2014,1,postseason,Virginia Tech,Brenden Motley,530541,-0.391,
+2014,1,postseason,Cincinnati,Gunner Kiel,534259,0.304,0.363
+2014,1,postseason,Cincinnati,Michael Colosimo,552214,0.27,-0.139
+2014,1,postseason,Clemson,David Olson,505313,-0.811,-0.811
+2014,1,postseason,Clemson,Cole Stoudt,512052,0.427,0.396
+2014,1,postseason,Oklahoma,Trevor Knight,534449,-0.219,-0.252
+2014,1,postseason,Clemson,Nick Schuessler,537012,-0.13,
+2014,1,postseason,NC State,Jacoby Brissett,512191,0.41,0.516
+2014,1,postseason,UCF,Justin Holman,551184,0.188,0.151
+2014,1,postseason,Boston College,Tyler Murphy,503970,0.315,0.13
+2014,1,postseason,Penn State,Christian Hackenberg,552329,0.322,0.398
+2014,1,postseason,Duke,Anthony Boone,501046,0.021,-0.036
+2014,1,postseason,Arizona State,Taylor Kelly,504700,0.223,0.318
+2014,1,postseason,Duke,Thomas Sirk,530478,0.546,
+2014,1,postseason,North Carolina,Marquise Williams,516347,0.094,0.111
+2014,1,postseason,Rutgers,Gary Nova,518344,0.508,0.443
+2014,1,postseason,North Carolina,Mitch Trubisky,545238,-0.019,-0.019
+2014,1,postseason,Pittsburgh,Chad Voytik,530450,0.225,0.197
+2014,1,postseason,Houston,Greg Ward Jr.,545552,0.708,0.687
+2014,1,postseason,Notre Dame,Everett Golson,515409,0.489,0.516
+2014,1,postseason,LSU,Brad Kragthorpe,520118,-4.149,
+2014,1,postseason,LSU,Anthony Jennings,546033,0.278,0.637
+2014,1,postseason,Notre Dame,Malik Zaire,550967,0.258,0.563
+2014,1,postseason,Georgia,Hutson Mason,504004,0.694,0.666
+2014,1,postseason,Louisville,Kyle Bolin,545559,0.17,0.147
+2014,1,postseason,Georgia,Brice Ramsey,546345,-0.074,-0.074
+2014,1,postseason,South Carolina,Dylan Thompson,504295,0.274,0.371
+2014,1,postseason,Miami,Brad Kaaya,3123048,0.152,0.171
+2014,1,postseason,Minnesota,Mitch Leidner,530731,0.209,0.344
+2014,1,postseason,Missouri,Maty Mauk,531385,0.024,-0.098
+2014,1,postseason,UCLA,Brett Hundley,511982,0.381,0.14
+2014,1,postseason,Kansas State,Jake Waters,550158,0.286,0.215
+2014,1,postseason,Wisconsin,Joel Stave,514230,-0.249,-0.249
+2014,1,postseason,Auburn,Nick Marshall,550021,0.505,0.642
+2014,1,postseason,USC,Cody Kessler,513329,0.272,0.259
+2014,1,postseason,Nebraska,Tommy Armstrong Jr.,533270,0.266,0.257
+2014,1,postseason,Colorado State,Garrett Grayson,515528,0.1,0.151
+2014,1,postseason,Utah,Adam Schulz,518526,1.79,1.79
+2014,1,postseason,Utah,Travis Wilson,531051,0.543,0.405
+2014,1,postseason,Utah,Jason Thompson,534238,-0.92,-1.215
+2014,1,postseason,Illinois,Reilly O'Toole,515454,-0.012,0.045
+2014,1,postseason,Louisiana Tech,Cody Sokol,530696,0.424,0.409
+2014,1,postseason,Illinois,Wes Lunt,534652,-0.153,-0.153
+2014,1,postseason,Arkansas,Brandon Allen,515915,0.279,0.208
+2014,1,postseason,Texas,Tyrone Swoopes,547338,-0.159,-0.226
+2014,1,postseason,Iowa,Jake Rudock,518380,0.341,0.062
+2014,1,postseason,Iowa,C.J. Beathard,535844,0.194,0.201
+2014,1,postseason,Tennessee,Joshua Dobbs,546540,0.34,0.177
+2014,1,postseason,BYU,Christian Stewart,381494,0.088,0.16
+2014,1,postseason,Memphis,Paxton Lynch,534849,0.181,0.165
+2014,1,postseason,Texas A&M,Kyle Allen,559681,0.509,0.49
+2014,1,postseason,West Virginia,Skyler Howard,3116460,0.182,0.105
+2014,1,postseason,Washington,Cyler Miles,535325,0.277,0.254
+2014,1,postseason,Oklahoma State,Mason Rudolph,3116407,0.396,0.405
+2014,1,postseason,East Carolina,Shane Carden,500938,0.092,0.086
+2014,1,postseason,Florida,Jeff Driskel,511889,-0.091,0.009
+2014,1,postseason,East Carolina,Kurt Benkert,545645,-2.954,
+2014,1,postseason,Florida,Treon Harris,3121647,0.414,0.69
+2014,1,postseason,Oregon,Marcus Mariota,511459,0.363,0.409
+2014,1,postseason,Oregon,Jeff Lockie,530875,-0.018,-0.018
+2014,1,postseason,Ohio State,Cardale Jones,534294,0.073,0.157
+2014,1,regular,Temple,Connor Reilly,500975,-0.168,-0.168
+2014,1,regular,Vanderbilt,Stephen Rivers,517211,0.05,0.076
+2014,1,regular,Vanderbilt,Patton Robinette,532000,-0.297,-0.253
+2014,1,regular,Vanderbilt,Johnny McCrary,546184,-0.524,-0.524
+2014,1,regular,Temple,P.J. Walker,549759,0.257,0.339
+2014,1,regular,BYU,Taysom Hill,482594,0.713,0.605
+2014,1,regular,UConn,Casey Cochran,533235,-0.002,-0.002
+2014,1,regular,UConn,Chandler Whitmer,533264,-0.163,-0.143
+2014,1,regular,UCF,Justin Holman,551184,0.766,0.856
+2014,1,regular,UCF,Pete DiNovo,551185,-0.545,-0.607
+2014,1,regular,Penn State,Christian Hackenberg,552329,0.337,0.411
+2014,1,regular,East Carolina,Shane Carden,500938,0.521,0.488
+2014,1,regular,North Carolina Central,Malcolm Bell,537229,-0.135,-0.265
+2014,1,regular,East Carolina,Kurt Benkert,545645,0.243,0.001
+2014,1,regular,North Carolina Central,Quinn Billerman,3120893,0.015,0.041
+2014,1,regular,Houston,Billy Cosh,501268,-0.097,-0.097
+2014,1,regular,UTSA,Tucker Carter,535979,-0.16,-0.196
+2014,1,regular,Houston,John O'Korn,545550,-0.281,-0.279
+2014,1,regular,Houston,Greg Ward Jr.,545552,0.447,0.447
+2014,1,regular,Memphis,Paxton Lynch,534849,0.497,0.177
+2014,1,regular,Austin Peay,Darrien Boone,546599,-0.185,-0.777
+2014,1,regular,Austin Peay,Trey Taylor,552240,-0.322,-0.432
+2014,1,regular,Memphis,Jason Stewart,3126208,0.655,
+2014,1,regular,Western Carolina,Troy Mitchell,533122,0.199,0.147
+2014,1,regular,South Florida,Steven Bench,539215,1.192,1.192
+2014,1,regular,South Florida,Mike White,549804,0.035,-0.088
+2014,1,regular,Tulsa,Dane Evans,532273,0.399,0.492
+2014,1,regular,Tulane,Tanner Lee,545757,0.129,0.23
+2014,1,regular,Baylor,Bryce Petty,480746,0.425,0.315
+2014,1,regular,SMU,Matt Davis,532113,-0.22,-0.167
+2014,1,regular,Baylor,Seth Russell,535511,0.354,0.22
+2014,1,regular,SMU,Neal Burcham,536139,-0.344,-0.384
+2014,1,regular,SMU,Kolney Cassel,545334,-0.331,-0.331
+2014,1,regular,Boston College,Tyler Murphy,503970,0.566,0.299
+2014,1,regular,Massachusetts,Blake Frohnapfel,518271,-0.142,-0.152
+2014,1,regular,Georgia,Hutson Mason,504004,-0.054,0.126
+2014,1,regular,Clemson,Cole Stoudt,512052,0.138,0.109
+2014,1,regular,Clemson,Deshaun Watson,3122840,0.435,0.643
+2014,1,regular,Elon,Mike Quinn,499869,0.075,0.094
+2014,1,regular,Duke,Anthony Boone,501046,0.496,0.496
+2014,1,regular,Duke,Thomas Sirk,530478,0.752,0.075
+2014,1,regular,Duke,Parker Boehme,545221,-0.262,-1.987
+2014,1,regular,Oklahoma State,J.W. Walsh,511260,0.122,0.024
+2014,1,regular,Florida State,Jameis Winston,530308,0.242,0.237
+2014,1,regular,Wofford,Michael Weimer,515987,0.189,-0.006
+2014,1,regular,Georgia Tech,Justin Thomas,531104,0.821,1.461
+2014,1,regular,Wofford,Evan Jacks,532323,0.136,-0.073
+2014,1,regular,Louisville,Will Gardner,530357,0.416,0.408
+2014,1,regular,Miami,Brad Kaaya,3123048,0.005,0.005
+2014,1,regular,Liberty,Josh Woodrum,514651,-0.223,-0.173
+2014,1,regular,North Carolina,Marquise Williams,516347,0.267,0.073
+2014,1,regular,North Carolina,Mitch Trubisky,545238,0.141,0.108
+2014,1,regular,Liberty,Stephon Masha,547303,2.003,
+2014,1,regular,NC State,Jacoby Brissett,512191,0.36,0.352
+2014,1,regular,Georgia Southern,Kevin Ellison,532925,0.457,0.896
+2014,1,regular,Georgia Southern,Favian Upshaw,549301,0.72,1.034
+2014,1,regular,Villanova,John Robertson,513877,0.266,0.205
+2014,1,regular,Syracuse,Terrel Hunt,514440,0.072,0.149
+2014,1,regular,Syracuse,Austin Wilson,545284,0.031,0.183
+2014,1,regular,UCLA,Brett Hundley,511982,0.21,0.079
+2014,1,regular,Virginia,Greyson Lambert,530521,0.226,0.243
+2014,1,regular,Virginia,Matt Johns,535548,0.31,0.37
+2014,1,regular,Virginia Tech,Mark Leal,501222,2.345,2.345
+2014,1,regular,Virginia Tech,Michael Brewer,514481,0.577,0.604
+2014,1,regular,William & Mary,Christian Brumbaugh,516388,0.483,0.483
+2014,1,regular,William & Mary,Steve Cluley,529984,-0.231,-0.201
+2014,1,regular,UL Monroe,Pete Thomas,501565,0.013,-0.085
+2014,1,regular,UL Monroe,Brayle Brown,512345,-1.244,
+2014,1,regular,Wake Forest,John Wolford,3124092,-0.28,-0.31
+2014,1,regular,Louisiana Tech,Cody Sokol,530696,0.342,0.269
+2014,1,regular,Oklahoma,Trevor Knight,534449,0.225,0.349
+2014,1,regular,West Virginia,Clint Trickett,501098,0.287,0.247
+2014,1,regular,Alabama,Blake Sims,504052,0.501,0.361
+2014,1,regular,Texas,David Ash,511262,0.083,0.131
+2014,1,regular,North Texas,Andrew McNulty,515147,-1.713,-1.913
+2014,1,regular,North Texas,Josh Greer,3122972,-0.628,-0.706
+2014,1,regular,TCU,Matt Joeckel,501033,-0.63,-1.067
+2014,1,regular,Samford,Carson Barnett,516601,-0.512,-0.586
+2014,1,regular,TCU,Trevone Boykin,517127,0.386,0.32
+2014,1,regular,Samford,Michael Eubank,517400,0.191,0.139
+2014,1,regular,Central Arkansas,Ryan Howard,504417,1.233,1.233
+2014,1,regular,Central Arkansas,Bobby Watkins,518679,1.113,1.113
+2014,1,regular,Central Arkansas,Taylor Reed,548897,0.096,0.016
+2014,1,regular,Texas Tech,Davis Webb,550386,0.574,0.616
+2014,1,regular,Stephen F. Austin,Joe Minden,513787,1.172,1.099
+2014,1,regular,Kansas State,Joe Hubener,517248,0.482,1.215
+2014,1,regular,Stephen F. Austin,Zach Conque,535983,0.01,0.023
+2014,1,regular,Kansas State,Jake Waters,550158,0.456,0.281
+2014,1,regular,Kansas State,Jesse Ertz,550448,-0.522,
+2014,1,regular,Iowa State,Sam B. Richardson,511969,-0.018,-0.19
+2014,1,regular,North Dakota State,Carson Wentz,515607,0.341,0.233
+2014,1,regular,Youngstown State,Dante Nania,514655,0.196,0.051
+2014,1,regular,Illinois,Wes Lunt,534652,0.495,0.536
+2014,1,regular,Indiana State,Mike Perish,500445,-0.343,-0.334
+2014,1,regular,Indiana,Nate Sudfeld,535825,0.266,0.275
+2014,1,regular,Northern Iowa,Sawyer Kollmorgen,515648,-0.141,-0.163
+2014,1,regular,Iowa,Jake Rudock,518380,0.606,0.618
+2014,1,regular,Maryland,C.J. Brown,480846,0.262,-0.079
+2014,1,regular,James Madison,Vad Lee,517034,-0.21,-0.247
+2014,1,regular,Maryland,Caleb Rowe,534328,0.049,0.204
+2014,1,regular,Michigan,Devin Gardner,501543,0.54,0.656
+2014,1,regular,App State,Kameron Bryant,512882,-0.265,-0.235
+2014,1,regular,Michigan,Shane Morris,546706,-0.294,-0.294
+2014,1,regular,App State,Taylor Lamb,548447,0.025,0.013
+2014,1,regular,Jacksonville State,Christian LeMay,512172,0.015,-0.134
+2014,1,regular,Michigan State,Connor Cook,512705,1.887,1.954
+2014,1,regular,Jacksonville State,Max Shortell,514502,0.066,0.066
+2014,1,regular,Michigan State,Tyler O'Connor,535578,0.618,0.468
+2014,1,regular,Jacksonville State,Eli Jenkins,537200,-0.092,0.044
+2014,1,regular,Michigan State,Damion Terry,550477,-0.082,-0.145
+2014,1,regular,Eastern Illinois,Andrew Manley,500846,0.259,0.218
+2014,1,regular,Minnesota,Mitch Leidner,530731,0.392,0.159
+2014,1,regular,Eastern Illinois,Jalen Whitlow,530943,0.03,-0.05
+2014,1,regular,Nebraska,Ryker Fyfe,533182,0.037,-0.135
+2014,1,regular,Nebraska,Tommy Armstrong Jr.,533270,0.491,0.427
+2014,1,regular,Nebraska,Johnny Stanton,545618,0.224,0.224
+2014,1,regular,Florida Atlantic,Greg Hankerson,550873,-0.281,-0.314
+2014,1,regular,Florida Atlantic,Jaquez Johnson,550876,0.119,0.149
+2014,1,regular,Northwestern,Trevor Siemian,500419,0.149,0.067
+2014,1,regular,California,Jared Goff,547401,0.506,0.471
+2014,1,regular,Navy,Keenan Reynolds,530568,-0.121,-0.388
+2014,1,regular,Ohio State,J.T. Barrett,545624,0.541,0.606
+2014,1,regular,Western Michigan,Zach Terrell,532645,0.079,0.093
+2014,1,regular,Purdue,Danny Etling,550170,0.227,0.227
+2014,1,regular,Washington State,Connor Halliday,504823,0.483,0.517
+2014,1,regular,Rutgers,Gary Nova,518344,0.566,0.566
+2014,1,regular,LSU,Anthony Jennings,546033,0.244,0.464
+2014,1,regular,LSU,Brandon Harris,559751,-0.863,-0.725
+2014,1,regular,Western Kentucky,Brandon Doughty,504866,0.801,0.884
+2014,1,regular,Bethune-Cookman,Quentin Williams,521060,0.054,0.205
+2014,1,regular,Florida International,E.J. Hilliard,536571,0.012,-0.252
+2014,1,regular,Florida International,Alex McGough,3128843,-0.021,0.021
+2014,1,regular,Miami (OH),Andrew Hendrix,500913,0.106,0.149
+2014,1,regular,Marshall,Rakeem Cato,518267,0.239,0.319
+2014,1,regular,Middle Tennessee,Austin Grammer,531589,0.879,1.098
+2014,1,regular,Middle Tennessee,A.J. Erdely,545682,0.7,
+2014,1,regular,Middle Tennessee,Brent Stockstill,545683,-0.284,0.399
+2014,1,regular,Old Dominion,Taylor Heinicke,513949,0.167,0.306
+2014,1,regular,Old Dominion,David Washington,535113,0.027,0.027
+2014,1,regular,Hampton,Jaylian Williamson,537150,0.494,0.595
+2014,1,regular,Rice,Driphus Jackson,514894,0.359,0.378
+2014,1,regular,Notre Dame,Everett Golson,515409,0.64,0.617
+2014,1,regular,Rice,Tyler Stehling,536503,1.938,4.095
+2014,1,regular,Notre Dame,Malik Zaire,550967,1.637,
+2014,1,regular,Mississippi State,Dak Prescott,512030,0.315,0.293
+2014,1,regular,Mississippi State,Damian Williams,546603,-0.498,-0.498
+2014,1,regular,Southern Miss,Nick Mullens,552880,-0.261,-0.238
+2014,1,regular,Troy,Brandon Silvers,546145,-0.009,0.076
+2014,1,regular,UAB,Jeremiah Briscoe,550754,0.182,-0.904
+2014,1,regular,Troy,Dontreal Pruitt,3125460,0.125,0.318
+2014,1,regular,UAB,Cody Clements,3129249,0.337,0.473
+2014,1,regular,UTEP,Jameill Showers,500571,0.209,0.166
+2014,1,regular,New Mexico,Clayton Mitchem,546483,-0.14,0.007
+2014,1,regular,Akron,Kyle Pohl,514617,0.455,0.437
+2014,1,regular,Howard,Greg McGhee,519005,-0.047,-0.301
+2014,1,regular,Northern Illinois,Matt McIntosh,511607,0.488,0.381
+2014,1,regular,Presbyterian,Kaleb Griffin,514079,-0.026,0.284
+2014,1,regular,Northern Illinois,Drew Hare,532480,0.407,0.302
+2014,1,regular,Northern Illinois,Anthony Maddie,532644,0.53,0.082
+2014,1,regular,Presbyterian,Heys McMath,547381,-0.165,-0.154
+2014,1,regular,Chattanooga,Jacob Huesman,512913,0.024,0.058
+2014,1,regular,Central Michigan,Cooper Rush,531455,0.278,0.249
+2014,1,regular,Ball State,Ozzie Mann,531552,0.258,0.281
+2014,1,regular,Colgate,Jake Melville,547756,0.01,0.03
+2014,1,regular,Buffalo,Joe Licata,513614,0.375,0.33
+2014,1,regular,Duquesne,Dillon Buechel,535022,0.335,0.341
+2014,1,regular,New Hampshire,Andy Vailas,498533,-0.283,-0.283
+2014,1,regular,New Hampshire,Sean Goldrich,511741,0.41,0.412
+2014,1,regular,Toledo,Phillip Ely,515906,0.739,0.775
+2014,1,regular,Toledo,Michael Julian,552746,2.763,2.763
+2014,1,regular,Ohio,Derrius Vick,511552,0.736,0.869
+2014,1,regular,Kent State,Nick Holley,550339,-0.045,0.465
+2014,1,regular,Boise State,Grant Hedrick,504908,0.057,0.012
+2014,1,regular,Nicholls,Kalen Henderson,500514,0.026,0.09
+2014,1,regular,Nicholls,Beaux Hebert,505475,0.464,0.783
+2014,1,regular,Air Force,Kale Pearson,535972,0.172,-0.368
+2014,1,regular,Air Force,Nate Romine,554528,0.6,
+2014,1,regular,Colorado State,Garrett Grayson,515528,0.339,0.378
+2014,1,regular,Colorado,Sefo Liufau,550278,0.19,0.154
+2014,1,regular,Fresno State,Brandon Connette,501052,-0.21,-0.331
+2014,1,regular,USC,Cody Kessler,513329,0.826,0.915
+2014,1,regular,Fresno State,Brian Burrell,546271,0.166,0.074
+2014,1,regular,USC,Max Browne,546415,-0.513,-0.402
+2014,1,regular,Southern Utah,Ammon Olsen,485026,-0.407,-0.75
+2014,1,regular,Nevada,Cody Fajardo,501241,0.171,0.105
+2014,1,regular,Southern Utah,Aaron Cantu,547096,0.156,0.188
+2014,1,regular,Northern Arizona,Kyren Poe,515301,0.03,0.104
+2014,1,regular,San Diego State,Quinn Kaehler,547570,0.163,0.163
+2014,1,regular,Arizona,Jerrard Randall,517210,0.284,
+2014,1,regular,Arizona,Connor Brewer,531056,2.625,
+2014,1,regular,Arizona,Anu Solomon,552097,0.484,0.472
+2014,1,regular,UNLV,Blake Decker,3125318,0.119,0.14
+2014,1,regular,Tennessee,Justin Worley,512424,0.302,0.272
+2014,1,regular,Utah State,Chuckie Keeton,512806,-0.052,-0.025
+2014,1,regular,Tennessee,Nathan Peterman,532065,-0.7,-0.7
+2014,1,regular,Montana,Jordan Johnson,506820,0.072,0.05
+2014,1,regular,Wyoming,Colby Kirkegaard,520520,-0.276,-0.335
+2014,1,regular,Arizona State,Taylor Kelly,504700,0.441,0.443
+2014,1,regular,Arizona State,Mike Bercovici,517393,0.288,0.272
+2014,1,regular,Weber State,Billy Green,545788,0.178,0.184
+2014,1,regular,Utah,Kendal Thompson,514737,0.208,0.226
+2014,1,regular,Idaho State,Justin Arias,519384,0.13,0.14
+2014,1,regular,Utah,Travis Wilson,531051,1.007,1.117
+2014,1,regular,Utah,Brandon Cox,550218,0.888,0.447
+2014,1,regular,South Dakota,Josh Vander Maten,500769,-0.371,-0.371
+2014,1,regular,Oregon,Marcus Mariota,511459,0.898,1.043
+2014,1,regular,South Dakota,Kevin Earl,513823,0.054,0.093
+2014,1,regular,Oregon,Jeff Lockie,530875,0.925,0.925
+2014,1,regular,South Dakota,Ryan Saeger,537987,0.366,0.208
+2014,1,regular,Oregon State,Sean Mannion,504786,0.184,0.178
+2014,1,regular,Portland State,Kieran McDonagh,529363,-0.114,-0.012
+2014,1,regular,UC Davis,London Lacy,505882,0.048,0.048
+2014,1,regular,Stanford,Evan Crower,516354,0.154,0.154
+2014,1,regular,Stanford,Kevin Hogan,516357,-1.067,-1.067
+2014,1,regular,Stanford,Ryan Burns,546469,-0.205,-0.643
+2014,1,regular,Arkansas,Brandon Allen,515915,0.128,0.062
+2014,1,regular,Auburn,Jeremy Johnson,550019,1.303,1.303
+2014,1,regular,Auburn,Nick Marshall,550021,0.076,0.354
+2014,1,regular,UT Martin,Dylan Favre,504238,-0.446,-0.48
+2014,1,regular,UT Martin,Jarod Neal,516783,0.421,0.419
+2014,1,regular,Kentucky,Patrick Towles,530944,0.759,0.649
+2014,1,regular,Kentucky,Reese Phillips,546354,0.427,0.427
+2014,1,regular,South Dakota State,Austin Sumner,506664,0.066,-0.111
+2014,1,regular,Missouri,Maty Mauk,531385,0.214,0.372
+2014,1,regular,South Dakota State,Zach Lujan,3140828,0.106,0.316
+2014,1,regular,South Carolina,Dylan Thompson,504295,0.26,0.259
+2014,1,regular,Texas A&M,Kenny Hill,549865,0.45,0.494
+2014,1,regular,Abilene Christian,Parker McKenzie,551394,0.579,0.591
+2014,1,regular,Georgia State,Nick Arbuckle,3124848,0.472,0.482
+2014,1,regular,Cal Poly,Chris Brown,515084,-0.256,-1.615
+2014,1,regular,New Mexico State,Tyler Rogers,3124981,0.213,0.282
+2014,1,regular,Arkansas State,Stephen Hogan,515874,-1.662,
+2014,1,regular,Montana State,Dakota Prukop,533805,-0.17,-0.185
+2014,1,regular,Arkansas State,Fredi Knighten,538156,0.259,0.376
+2014,1,regular,Louisiana,Terrance Broadway,503922,0.367,0.305
+2014,1,regular,Louisiana,Brooks Haack,531678,0.894,0.894
+2014,1,regular,Southern,Deonte Shorts,553188,-0.32,-0.369
+2014,1,regular,Arkansas-Pine Bluff,Benjamin Anderson,508835,0.074,-0.157
+2014,1,regular,Texas State,Tyler Jones,548240,0.804,0.845
+2014,1,regular,Arkansas-Pine Bluff,Marcus Terrell,553010,0.008,0.327
+2014,1,regular,Texas State,Connor White,3125432,0.366,0.393
+2014,1,regular,San José State,Blake Jurich,499830,0.736,0.739
+2014,1,regular,San José State,Joe Gray,512675,-0.244,0.243
+2014,1,regular,North Dakota,Joe Mollberg,533958,0.247,0.068
+2014,2,regular,Stony Brook,John Kinder,503793,-0.049,0.105
+2014,2,regular,UConn,Chandler Whitmer,533264,0.168,0.064
+2014,2,regular,Stony Brook,Conor Bednarski,549332,0.36,0.475
+2014,2,regular,Virginia,Matt Johns,535548,0.536,0.583
+2014,2,regular,Virginia Tech,Michael Brewer,514481,0.322,0.305
+2014,2,regular,Ohio State,J.T. Barrett,545624,-0.007,-0.226
+2014,2,regular,Gardner-Webb,Lucas Beatty,502467,-0.157,-0.092
+2014,2,regular,Wake Forest,Tyler Cameron,530328,-0.415,-0.415
+2014,2,regular,Wake Forest,John Wolford,3124092,0.17,0.177
+2014,2,regular,Gardner-Webb,Tyrell Maxwell,3140998,-0.006,-0.519
+2014,2,regular,West Virginia,Clint Trickett,501098,0.576,0.521
+2014,2,regular,Towson,Joe Brennan,503389,-0.185,-0.165
+2014,2,regular,Towson,Connor Frazier,529954,-0.127,-0.067
+2014,2,regular,Baylor,Seth Russell,535511,1.253,1.252
+2014,2,regular,Northwestern State,Zach Adkins,549719,-0.091,0.058
+2014,2,regular,Iowa State,Sam B. Richardson,511969,2.736,2.736
+2014,2,regular,Kansas State,Jake Waters,550158,0.371,0.249
+2014,2,regular,Oklahoma State,J.W. Walsh,511260,0.015,-0.242
+2014,2,regular,Oklahoma State,Daxx Garman,514105,0.296,0.352
+2014,2,regular,Missouri State,Kierra Harris,517095,0.427,0.247
+2014,2,regular,Missouri State,Brodie Lambert,538084,-0.42,-0.42
+2014,2,regular,UTEP,Jameill Showers,500571,-0.127,-0.181
+2014,2,regular,Texas Tech,Davis Webb,550386,0.394,0.51
+2014,2,regular,BYU,Taysom Hill,482594,0.248,-0.065
+2014,2,regular,Texas,Tyrone Swoopes,547338,0.11,0.031
+2014,2,regular,Southeast Missouri State,Kyle Snyder,534028,0.408,0.663
+2014,2,regular,Kansas,Michael Cummings,535521,0.049,
+2014,2,regular,Kansas,Montell Cozart,545417,0.136,0.249
+2014,2,regular,Western Kentucky,Brandon Doughty,504866,-0.044,-0.025
+2014,2,regular,Illinois,Wes Lunt,534652,0.538,0.609
+2014,2,regular,Iowa,Jake Rudock,518380,0.305,0.314
+2014,2,regular,Ball State,Ozzie Mann,531552,-0.068,-0.058
+2014,2,regular,Iowa,C.J. Beathard,535844,1.494,1.494
+2014,2,regular,Michigan,Devin Gardner,501543,-0.076,0.002
+2014,2,regular,Notre Dame,Everett Golson,515409,0.31,0.359
+2014,2,regular,Notre Dame,Malik Zaire,550967,-0.024,
+2014,2,regular,Oregon,Marcus Mariota,511459,0.553,0.469
+2014,2,regular,Michigan State,Connor Cook,512705,0.314,0.322
+2014,2,regular,Minnesota,Mitch Leidner,530731,0.063,-0.205
+2014,2,regular,Middle Tennessee,Austin Grammer,531589,0.131,0.142
+2014,2,regular,Middle Tennessee,A.J. Erdely,545682,-0.687,
+2014,2,regular,McNeese,Daniel Sams,515190,0.345,0.424
+2014,2,regular,McNeese,Tyler Bolfing,517680,0.269,0.175
+2014,2,regular,Nebraska,Tommy Armstrong Jr.,533270,0.222,0.135
+2014,2,regular,Northwestern,Trevor Siemian,500419,0.072,0.12
+2014,2,regular,Northern Illinois,Matt McIntosh,511607,-0.009,0.126
+2014,2,regular,Northwestern,Zack Oliver,518323,-0.535,-1.139
+2014,2,regular,Northern Illinois,Drew Hare,532480,0.741,0.894
+2014,2,regular,Northern Illinois,Anthony Maddie,532644,0.39,0.342
+2014,2,regular,Akron,Kyle Pohl,514617,-0.168,-0.181
+2014,2,regular,Penn State,Christian Hackenberg,552329,0.38,0.353
+2014,2,regular,Central Michigan,Cooper Rush,531455,0.216,0.242
+2014,2,regular,Purdue,Austin Appleby,534770,0.051,0.028
+2014,2,regular,Army,Angel Santiago,515360,0.181,0.821
+2014,2,regular,Army,A.J. Schurr,535646,1.215,1.215
+2014,2,regular,Massachusetts,Blake Frohnapfel,518271,0.154,0.088
+2014,2,regular,Colorado,Sefo Liufau,550278,0.481,0.471
+2014,2,regular,Miami (OH),Andrew Hendrix,500913,0.003,0.097
+2014,2,regular,Eastern Kentucky,Jared McClain,519443,-0.057,-0.135
+2014,2,regular,Eastern Kentucky,Bennie Coney,535722,-0.254,-0.287
+2014,2,regular,Eastern Michigan,Rob Bolden,501541,-0.814,-1.546
+2014,2,regular,Florida,Jeff Driskel,511889,0.32,0.314
+2014,2,regular,Eastern Michigan,Brogan Roback,552782,-0.197,-0.197
+2014,2,regular,Florida,Treon Harris,3121647,1.972,5.878
+2014,2,regular,Eastern Michigan,Reginald Bell,3125823,-0.273,-0.51
+2014,2,regular,Toledo,Phillip Ely,515906,0.025,0.118
+2014,2,regular,Missouri,Maty Mauk,531385,0.667,0.783
+2014,2,regular,Toledo,Logan Woodside,545910,-0.098,-0.127
+2014,2,regular,Missouri,Eddie Printz,546197,-0.111,-0.111
+2014,2,regular,Ohio,Derrius Vick,511552,-0.096,-0.442
+2014,2,regular,Kentucky,Patrick Towles,530944,0.102,0.004
+2014,2,regular,Ohio,JD Sprague,532433,0.216,0.101
+2014,2,regular,Ohio,Greg Windham,532440,-0.78,-0.78
+2014,2,regular,South Alabama,Brandon Bridge,507211,0.188,0.131
+2014,2,regular,Kent State,Nick Holley,550339,0.042,1.181
+2014,2,regular,VMI,Hayden Alford,529534,0.201,0.144
+2014,2,regular,Bowling Green,James Knapke,531801,0.315,0.239
+2014,2,regular,VMI,Al Cobb,547410,-0.034,-0.081
+2014,2,regular,VMI,Ryan Swingle,3117104,0.179,0.179
+2014,2,regular,Bowling Green,Cody Callaway,3125748,0.121,1.724
+2014,2,regular,Wyoming,Colby Kirkegaard,520520,0.472,0.472
+2014,2,regular,Air Force,Kale Pearson,535972,0.138,0.264
+2014,2,regular,Eastern Washington,Vernon Adams Jr.,511713,3.282,3.282
+2014,2,regular,Washington,Cyler Miles,535325,0.999,0.533
+2014,2,regular,Sacramento State,Garrett Safron,498266,0.097,0.001
+2014,2,regular,California,Austin Hinder,504731,-0.167,-0.11
+2014,2,regular,Sacramento State,Daniel Kniffin,546921,0.288,0.288
+2014,2,regular,California,Jared Goff,547401,0.907,0.973
+2014,2,regular,Nicholls,Kalen Henderson,500514,-0.152,-0.11
+2014,2,regular,Nicholls,Beaux Hebert,505475,0.34,0.338
+2014,2,regular,Arkansas,Brandon Allen,515915,2.432,2.432
+2014,2,regular,Arkansas,Austin Allen,547206,0.672,0.253
+2014,2,regular,Sam Houston,Don King III,535337,-1.013,-1.013
+2014,2,regular,Sam Houston,Jared Johnson,538456,-0.229,-0.323
+2014,2,regular,LSU,Anthony Jennings,546033,0.597,0.849
+2014,2,regular,LSU,Brandon Harris,559751,0.633,0.742
+2014,2,regular,Ole Miss,Bo Wallace,500990,0.516,0.573
+2014,2,regular,Vanderbilt,Stephen Rivers,517211,-0.625,-0.625
+2014,2,regular,Ole Miss,Ryan Buchanan,550114,0.135,0.038
+2014,2,regular,Tennessee,Justin Worley,512424,0.363,0.347
+2014,2,regular,Arkansas State,Fredi Knighten,538156,0.257,0.072
+2014,2,regular,Lamar,Caleb Berry,499979,-0.131,-0.18
+2014,2,regular,Texas A&M,Kenny Hill,549865,0.624,0.782
+2014,2,regular,Texas A&M,Kyle Allen,559681,0.398,0.398
+2014,2,regular,Campbell,Dakota Wolf,499533,-0.108,-0.124
+2014,2,regular,App State,Logan Hallock,506309,-0.315,-0.315
+2014,2,regular,App State,Kameron Bryant,512882,0.247,0.28
+2014,2,regular,Campbell,Riley Gallaher,532740,-1.929,-2.933
+2014,2,regular,App State,Taylor Lamb,548447,0.533,0.505
+2014,2,regular,Campbell,David Salmon,552434,-0.251,-0.251
+2014,2,regular,South Carolina State,TeDarrius Wiley,507125,-0.879,-0.92
+2014,2,regular,Clemson,Cole Stoudt,512052,0.251,0.298
+2014,2,regular,Clemson,Nick Schuessler,537012,0.317,0.198
+2014,2,regular,Clemson,Deshaun Watson,3122840,0.911,1.427
+2014,2,regular,South Carolina State,Adri Kollock Jr,3144815,-0.279,-0.281
+2014,2,regular,Duke,Anthony Boone,501046,0.332,0.271
+2014,2,regular,Duke,Thomas Sirk,530478,1.098,2.068
+2014,2,regular,Troy,Brandon Silvers,546145,0.147,0.139
+2014,2,regular,Troy,Dontreal Pruitt,3125460,0.254,0.272
+2014,2,regular,Florida State,Sean Maguire,530299,0.128,0.281
+2014,2,regular,Florida State,Jameis Winston,530308,0.59,0.67
+2014,2,regular,Murray State,CJ Bennett,508164,-0.042,0.015
+2014,2,regular,Louisville,Will Gardner,530357,0.401,0.401
+2014,2,regular,Murray State,KD Humphries,532909,0.428,0.504
+2014,2,regular,Louisville,Brett Nelson,545557,0.636,0.636
+2014,2,regular,Louisville,Kyle Bolin,545559,0.138,0.725
+2014,2,regular,Miami,Jake Heaps,501563,0.143,0.258
+2014,2,regular,Florida A&M,Damien Fleming,519942,-0.063,0.039
+2014,2,regular,Florida A&M,Carson Royal,540215,-0.189,-0.189
+2014,2,regular,Miami,Brad Kaaya,3123048,0.138,0.138
+2014,2,regular,North Carolina,Marquise Williams,516347,0.527,0.55
+2014,2,regular,North Carolina,Mitch Trubisky,545238,-0.715,-0.715
+2014,2,regular,San Diego State,Quinn Kaehler,547570,0.082,0.082
+2014,2,regular,NC State,Jacoby Brissett,512191,0.572,0.566
+2014,2,regular,Old Dominion,Taylor Heinicke,513949,0.321,0.275
+2014,2,regular,Old Dominion,David Washington,535113,2.439,2.439
+2014,2,regular,Richmond,Michael Strauss,501175,0.156,0.168
+2014,2,regular,Richmond,Michael Rocco,501176,0.703,0.793
+2014,2,regular,Virginia,David Watford,511361,-0.868,-1.122
+2014,2,regular,Virginia,Greyson Lambert,530521,0.523,0.511
+2014,2,regular,Purdue,Danny Etling,550170,0.058,-0.016
+2014,2,regular,Rutgers,Gary Nova,518344,0.723,0.788
+2014,2,regular,Howard,Greg McGhee,519005,0.213,-0.018
+2014,2,regular,Rutgers,Chris Laviano,547549,-0.34,-0.34
+2014,2,regular,Wisconsin,Bart Houston,534813,1.319,2.658
+2014,2,regular,Western Illinois,Trenton Norvell,535735,-0.12,-0.194
+2014,2,regular,Alabama,Blake Sims,504052,1.05,1.048
+2014,2,regular,Alabama,Jake Coker,514124,0.477,0.475
+2014,2,regular,Florida Atlantic,Greg Hankerson,550873,-0.29,-0.33
+2014,2,regular,Louisiana,Terrance Broadway,503922,-0.086,-0.225
+2014,2,regular,Louisiana Tech,Cody Sokol,530696,0.584,0.492
+2014,2,regular,Louisiana,Brooks Haack,531678,0.657,0.701
+2014,2,regular,Marshall,Rakeem Cato,518267,0.427,0.285
+2014,2,regular,Marshall,Gunnar Holcombe,535461,-0.097,0.116
+2014,2,regular,Rhode Island,Mack Lowrie,547236,-0.016,0.131
+2014,2,regular,Alcorn State,Casey Freeman,521577,2.482,2.482
+2014,2,regular,Southern Miss,Nick Mullens,552880,0.342,0.223
+2014,2,regular,Mississippi State,Dak Prescott,512030,0.403,0.277
+2014,2,regular,Mississippi State,Damian Williams,546603,-0.08,-0.323
+2014,2,regular,UAB,Jeremiah Briscoe,550754,0.891,0.891
+2014,2,regular,UAB,Cody Clements,3129249,0.07,0.32
+2014,2,regular,UTSA,Tucker Carter,535979,0.275,0.291
+2014,2,regular,Arizona,Anu Solomon,552097,-0.032,0.012
+2014,2,regular,Buffalo,Joe Licata,513614,0.536,0.541
+2014,2,regular,Georgia Southern,Ezayi Youyoute,505864,1.138,
+2014,2,regular,Georgia Southern,Kevin Ellison,532925,1.16,1.592
+2014,2,regular,Georgia Southern,Favian Upshaw,549301,0.881,1.257
+2014,2,regular,UL Monroe,Pete Thomas,501565,0.269,0.299
+2014,2,regular,Idaho,Matt Linehan,553235,0.203,0.241
+2014,2,regular,East Carolina,Shane Carden,500938,0.3,0.308
+2014,2,regular,South Carolina,Dylan Thompson,504295,0.32,0.298
+2014,2,regular,Houston,Billy Cosh,501268,-0.366,-0.366
+2014,2,regular,Grambling,D.J. Williams,518420,-0.208,-0.151
+2014,2,regular,Grambling,Johnathan Williams,518424,0.036,
+2014,2,regular,Houston,John O'Korn,545550,0.324,0.37
+2014,2,regular,Houston,Greg Ward Jr.,545552,0.636,1.081
+2014,2,regular,Grambling,Stephen Johnson,557882,0.309,0.364
+2014,2,regular,UCLA,Brett Hundley,511982,0.355,0.369
+2014,2,regular,Memphis,Paxton Lynch,534849,0.234,0.286
+2014,2,regular,North Texas,Andrew McNulty,515147,0.018,0.018
+2014,2,regular,SMU,Matt Davis,532113,-0.011,-0.011
+2014,2,regular,SMU,Neal Burcham,536139,-0.103,-0.103
+2014,2,regular,SMU,Kolney Cassel,545334,0.385,0.385
+2014,2,regular,North Texas,Dajon Williams,549918,2.858,
+2014,2,regular,North Texas,Josh Greer,3122972,0.214,0.299
+2014,2,regular,Maryland,C.J. Brown,480846,0.037,0.154
+2014,2,regular,South Florida,Steven Bench,539215,0.076,0.009
+2014,2,regular,South Florida,Mike White,549804,1.027,1.027
+2014,2,regular,Navy,Keenan Reynolds,530568,0.437,-0.027
+2014,2,regular,Temple,P.J. Walker,549759,0.14,0.124
+2014,2,regular,Navy,Tago Smith,551222,-0.106,
+2014,2,regular,Georgia Tech,Tim Byerly,512366,0.724,
+2014,2,regular,Georgia Tech,Justin Thomas,531104,-0.153,-0.715
+2014,2,regular,Tulane,Devin Powell,532173,-0.257,-0.404
+2014,2,regular,Tulane,Tanner Lee,545757,0.343,0.343
+2014,2,regular,Tulsa,Joseph Calcagni,514152,-0.434,-0.891
+2014,2,regular,Tulsa,Dane Evans,532273,-0.119,-0.1
+2014,2,regular,Oklahoma,Trevor Knight,534449,0.516,0.436
+2014,2,regular,Oklahoma,Cody Thomas,550504,0.167,0.167
+2014,2,regular,Boston College,Tyler Murphy,503970,0.121,-0.215
+2014,2,regular,Pittsburgh,Chad Voytik,530450,0.094,-0.066
+2014,2,regular,Boise State,Grant Hedrick,504908,0.376,0.346
+2014,2,regular,Colorado State,Garrett Grayson,515528,0.361,0.386
+2014,2,regular,Fresno State,Brandon Connette,501052,0.173,0.162
+2014,2,regular,Utah,Kendal Thompson,514737,0.8,0.683
+2014,2,regular,Utah,Travis Wilson,531051,0.538,0.735
+2014,2,regular,Fresno State,Brian Burrell,546271,0.193,0.193
+2014,2,regular,Oregon State,Sean Mannion,504786,0.523,0.524
+2014,2,regular,Hawai'i,Ikaika Woolsey,532976,0.005,-0.064
+2014,2,regular,Nevada,Cody Fajardo,501241,0.131,0.261
+2014,2,regular,Washington State,Connor Halliday,504823,0.049,0.024
+2014,2,regular,Arizona State,Taylor Kelly,504700,0.496,0.532
+2014,2,regular,Arizona State,Mike Bercovici,517393,0.209,0.376
+2014,2,regular,New Mexico,Clayton Mitchem,546483,-1.219,-2.519
+2014,2,regular,New Mexico,Lamar Jordan,551028,0.197,1.16
+2014,2,regular,San José State,Blake Jurich,499830,0.273,0.198
+2014,2,regular,San José State,Joe Gray,512675,0.4,0.4
+2014,2,regular,Auburn,Jeremy Johnson,550019,0.673,0.484
+2014,2,regular,Auburn,Nick Marshall,550021,0.368,0.32
+2014,2,regular,Northern Colorado,Sean Rubalcaba,533762,0.223,0.282
+2014,2,regular,UNLV,Blake Decker,3125318,-0.353,-0.538
+2014,2,regular,Utah State,Chuckie Keeton,512806,0.066,-0.205
+2014,2,regular,Idaho State,Justin Arias,519384,-0.009,-0.001
+2014,2,regular,USC,Cody Kessler,513329,0.194,0.194
+2014,2,regular,Stanford,Kevin Hogan,516357,0.27,0.461
+2014,3,regular,BYU,Taysom Hill,482594,0.293,-0.062
+2014,3,regular,Houston,John O'Korn,545550,0.271,0.341
+2014,3,regular,Houston,Greg Ward Jr.,545552,-0.1,0.036
+2014,3,regular,Cincinnati,Munchie Legaux,502335,-0.011,-0.035
+2014,3,regular,Cincinnati,Gunner Kiel,534259,0.878,0.859
+2014,3,regular,Toledo,Logan Woodside,545910,0.4,0.436
+2014,3,regular,Toledo,Michael Julian,552746,-0.349,-0.349
+2014,3,regular,Missouri,Maty Mauk,531385,0.411,0.341
+2014,3,regular,UCF,Justin Holman,551184,0.167,0.141
+2014,3,regular,Boise State,Grant Hedrick,504908,0.291,0.445
+2014,3,regular,UConn,Chandler Whitmer,533264,0.056,0.001
+2014,3,regular,UConn,Tim Boyle,546675,-0.445,-0.445
+2014,3,regular,East Carolina,Shane Carden,500938,0.184,0.284
+2014,3,regular,Virginia Tech,Michael Brewer,514481,0.075,0.104
+2014,3,regular,NC State,Garrett Leatham,511308,0.228,0.228
+2014,3,regular,NC State,Jacoby Brissett,512191,0.472,0.476
+2014,3,regular,South Florida,Mike White,549804,-0.337,-0.348
+2014,3,regular,South Florida,Quinton Flowers,3139591,-0.449,-1.605
+2014,3,regular,SE Louisiana,Bryan Bennett,504745,-0.175,-0.21
+2014,3,regular,Tulane,Tanner Lee,545757,0.414,0.376
+2014,3,regular,Tulsa,Joseph Calcagni,514152,-0.965,-0.965
+2014,3,regular,Tulsa,Dane Evans,532273,-0.05,-0.063
+2014,3,regular,Florida Atlantic,Greg Hankerson,550873,0.914,0.914
+2014,3,regular,Florida Atlantic,Jaquez Johnson,550876,0.909,1.016
+2014,3,regular,Florida Atlantic,Andrew Matyk,3122711,0.004,
+2014,3,regular,Boston College,Tyler Murphy,503970,0.413,-0.24
+2014,3,regular,USC,Cody Kessler,513329,0.373,0.379
+2014,3,regular,Duke,Anthony Boone,501046,0.282,0.282
+2014,3,regular,Duke,Thomas Sirk,530478,-0.495,-0.387
+2014,3,regular,Kansas,Michael Cummings,535521,-0.858,-1.303
+2014,3,regular,Kansas,Montell Cozart,545417,-0.116,-0.28
+2014,3,regular,Georgia Tech,Tim Byerly,512366,1.227,
+2014,3,regular,Georgia Tech,Justin Thomas,531104,0.61,0.629
+2014,3,regular,Georgia Southern,Kevin Ellison,532925,0.933,0.709
+2014,3,regular,Georgia Southern,Favian Upshaw,549301,0.1,0.401
+2014,3,regular,Louisville,Will Gardner,530357,0.129,0.132
+2014,3,regular,Virginia,Greyson Lambert,530521,0.051,0.166
+2014,3,regular,Virginia,Matt Johns,535548,-1.174,-1.038
+2014,3,regular,Miami,Jake Heaps,501563,-0.188,-0.784
+2014,3,regular,Arkansas State,Fredi Knighten,538156,0.116,0.239
+2014,3,regular,Miami,Brad Kaaya,3123048,1.023,1.023
+2014,3,regular,Syracuse,Terrel Hunt,514440,0.534,0.246
+2014,3,regular,Central Michigan,Cooper Rush,531455,0.021,0.021
+2014,3,regular,Utah State,Chuckie Keeton,512806,-0.08,-0.004
+2014,3,regular,Utah State,Darell Garretson,550720,0.239,0.229
+2014,3,regular,Wake Forest,John Wolford,3124092,0.019,0.004
+2014,3,regular,UCLA,Brett Hundley,511982,0.65,0.382
+2014,3,regular,UCLA,Jerry Neuheisel,511987,0.025,0.025
+2014,3,regular,Texas,Tyrone Swoopes,547338,0.241,0.274
+2014,3,regular,Maryland,C.J. Brown,480846,0.324,0.165
+2014,3,regular,West Virginia,Clint Trickett,501098,0.42,0.525
+2014,3,regular,Maryland,Caleb Rowe,534328,1.021,1.021
+2014,3,regular,Tennessee,Justin Worley,512424,-0.284,-0.298
+2014,3,regular,Oklahoma,Trevor Knight,534449,0.342,0.321
+2014,3,regular,Arkansas,Brandon Allen,515915,0.357,0.163
+2014,3,regular,Texas Tech,Davis Webb,550386,0.367,0.367
+2014,3,regular,Iowa State,Sam B. Richardson,511969,0.425,0.478
+2014,3,regular,Iowa,Jake Rudock,518380,0.155,0.005
+2014,3,regular,Oklahoma State,Daxx Garman,514105,0.448,0.513
+2014,3,regular,UTSA,Tucker Carter,535979,-0.167,-0.073
+2014,3,regular,UTSA,Blake Bogenschutz,3124039,-0.359,-0.472
+2014,3,regular,TCU,Trevone Boykin,517127,0.093,0.16
+2014,3,regular,Minnesota,Mitch Leidner,530731,-0.114,-0.006
+2014,3,regular,Illinois,Reilly O'Toole,515454,0.337,0.599
+2014,3,regular,Illinois,Wes Lunt,534652,0.055,0.055
+2014,3,regular,Washington,Cyler Miles,535325,0.287,0.42
+2014,3,regular,Bowling Green,James Knapke,531801,0.206,0.161
+2014,3,regular,Indiana,Nate Sudfeld,535825,0.393,0.332
+2014,3,regular,Miami (OH),Andrew Hendrix,500913,0.107,0.207
+2014,3,regular,Michigan,Devin Gardner,501543,0.232,0.339
+2014,3,regular,Michigan,Shane Morris,546706,0.588,-0.63
+2014,3,regular,Nebraska,Ryker Fyfe,533182,0.91,0.691
+2014,3,regular,Nebraska,Tommy Armstrong Jr.,533270,0.796,1.073
+2014,3,regular,Fresno State,Brian Burrell,546271,0.045,-0.061
+2014,3,regular,Ohio State,Cardale Jones,534294,0.282,0.206
+2014,3,regular,Ohio State,J.T. Barrett,545624,0.399,0.652
+2014,3,regular,Kent State,Nathan Strock,550246,-0.619,-0.676
+2014,3,regular,Kent State,Nick Holley,550339,0.107,0.101
+2014,3,regular,Notre Dame,Everett Golson,515409,0.337,0.277
+2014,3,regular,Purdue,Danny Etling,550170,0.046,0.026
+2014,3,regular,Rutgers,Gary Nova,518344,0.127,-0.011
+2014,3,regular,Penn State,Christian Hackenberg,552329,0.133,0.108
+2014,3,regular,Ohio,Derrius Vick,511552,0.237,0.301
+2014,3,regular,Marshall,Rakeem Cato,518267,0.859,0.878
+2014,3,regular,Ohio,JD Sprague,532433,0.145,0.147
+2014,3,regular,Ohio,Greg Windham,532440,-0.133,-0.133
+2014,3,regular,Marshall,Gunnar Holcombe,535461,0.463,0.555
+2014,3,regular,Western Kentucky,Brandon Doughty,504866,0.492,0.492
+2014,3,regular,Middle Tennessee,Austin Grammer,531589,0.53,0.333
+2014,3,regular,Louisiana Tech,Taylor Burch,505012,-1.787,-1.787
+2014,3,regular,Louisiana Tech,Cody Sokol,530696,0.459,0.56
+2014,3,regular,Louisiana Tech,Ryan Higgins,531316,0.267,0.267
+2014,3,regular,North Texas,Dajon Williams,549918,0.441,0.434
+2014,3,regular,North Texas,Josh Greer,3122972,-0.096,-0.14
+2014,3,regular,Eastern Michigan,Rob Bolden,501541,-0.044,-0.249
+2014,3,regular,Old Dominion,Taylor Heinicke,513949,-0.034,-0.066
+2014,3,regular,Old Dominion,David Washington,535113,0.563,0.563
+2014,3,regular,Eastern Michigan,Brogan Roback,552782,-0.317,-0.211
+2014,3,regular,Rice,Driphus Jackson,514894,0.284,0.305
+2014,3,regular,Air Force,Kale Pearson,535972,0.764,1.164
+2014,3,regular,Georgia State,Nick Arbuckle,3124848,0.52,0.546
+2014,3,regular,UC Davis,London Lacy,505882,0.262,0.262
+2014,3,regular,Colorado State,Garrett Grayson,515528,0.744,0.888
+2014,3,regular,Colorado State,Nick Stevens,546267,0.936,0.936
+2014,3,regular,Northern Iowa,Brion Carnes,501843,-0.073,-1.012
+2014,3,regular,Hawai'i,Jeremy Higgins,505049,0.035,0.035
+2014,3,regular,Northern Iowa,Sawyer Kollmorgen,515648,0.277,0.281
+2014,3,regular,Hawai'i,Ikaika Woolsey,532976,0.011,0.051
+2014,3,regular,Nevada,Cody Fajardo,501241,0.554,0.694
+2014,3,regular,Arizona,Anu Solomon,552097,0.642,0.706
+2014,3,regular,Oregon,Marcus Mariota,511459,0.826,0.687
+2014,3,regular,Wyoming,Colby Kirkegaard,520520,0.31,0.318
+2014,3,regular,Oregon,Jeff Lockie,530875,0.811,0.888
+2014,3,regular,Arizona State,Taylor Kelly,504700,0.778,0.592
+2014,3,regular,Arizona State,Mike Bercovici,517393,-0.415,-0.493
+2014,3,regular,Colorado,Jordan Gehrke,550268,-0.248,-0.418
+2014,3,regular,Colorado,Sefo Liufau,550278,0.18,0.164
+2014,3,regular,Washington State,Connor Halliday,504823,0.491,0.491
+2014,3,regular,Portland State,Kieran McDonagh,529363,0.046,0.052
+2014,3,regular,Washington State,Luke Falk,550629,3.457,3.457
+2014,3,regular,Army,Angel Santiago,515360,0.191,0.478
+2014,3,regular,Stanford,Kevin Hogan,516357,0.531,0.608
+2014,3,regular,Army,A.J. Schurr,535646,-0.357,-2.213
+2014,3,regular,Florida,Jeff Driskel,511889,0.205,0.179
+2014,3,regular,Kentucky,Patrick Towles,530944,0.265,0.363
+2014,3,regular,UL Monroe,Pete Thomas,501565,-0.121,-0.074
+2014,3,regular,LSU,Anthony Jennings,546033,0.106,0.021
+2014,3,regular,LSU,Brandon Harris,559751,0.55,1.031
+2014,3,regular,Ole Miss,Bo Wallace,500990,0.797,0.933
+2014,3,regular,Louisiana,Terrance Broadway,503922,-0.16,-0.284
+2014,3,regular,Ole Miss,Ryan Buchanan,550114,-0.33,-0.33
+2014,3,regular,South Alabama,Brandon Bridge,507211,0.044,0.013
+2014,3,regular,Mississippi State,Dak Prescott,512030,0.689,0.432
+2014,3,regular,South Alabama,Matt Floyd,514749,-0.183,-0.16
+2014,3,regular,Mississippi State,Damian Williams,546603,-0.29,-0.635
+2014,3,regular,Georgia,Hutson Mason,504004,0.541,0.578
+2014,3,regular,South Carolina,Dylan Thompson,504295,0.838,0.775
+2014,3,regular,Texas State,Tyler Jones,548240,0.187,0.234
+2014,3,regular,Navy,Tago Smith,551222,0.178,0.52
+2014,3,regular,Troy,Brandon Silvers,546145,0.705,0.418
+2014,3,regular,Abilene Christian,Parker McKenzie,551394,0.603,0.719
+2014,3,regular,Troy,Dontreal Pruitt,3125460,0.119,0.113
+2014,3,regular,Rice,Tyler Stehling,536503,0.138,-0.016
+2014,3,regular,Texas A&M,Kenny Hill,549865,0.651,0.65
+2014,3,regular,Texas A&M,Kyle Allen,559681,-0.976,-0.976
+2014,3,regular,Alabama,Blake Sims,504052,0.84,0.797
+2014,3,regular,Alabama,Jake Coker,514124,-0.08,-0.109
+2014,3,regular,Southern Miss,Cole Weeks,532089,-0.509,-0.509
+2014,3,regular,Southern Miss,Nick Mullens,552880,0.105,0.15
+2014,3,regular,Alabama A&M,Chris Leachman,504457,-0.112,0.37
+2014,3,regular,Alabama A&M,Brandon Wells,518589,-0.007,-0.059
+2014,3,regular,UAB,Jeremiah Briscoe,550754,0.021,0.011
+2014,3,regular,Alabama A&M,Jaymason Lee,555166,0.268,0.214
+2014,3,regular,UAB,Cody Clements,3129249,0.382,0.619
+2014,3,regular,UTEP,Jameill Showers,500571,0.898,0.86
+2014,3,regular,New Mexico State,Tyler Rogers,3124981,0.242,0.281
+2014,3,regular,Baylor,Bryce Petty,480746,0.925,0.969
+2014,3,regular,Buffalo,Joe Licata,513614,0.206,0.247
+2014,3,regular,Buffalo,Tony Daniel,513615,1.061,1.172
+2014,3,regular,Baylor,Seth Russell,535511,1.158,1.446
+2014,3,regular,Indiana State,Mike Perish,500445,0.203,0.219
+2014,3,regular,Ball State,Ozzie Mann,531552,0.098,0.164
+2014,3,regular,Northern Illinois,Drew Hare,532480,0.701,0.835
+2014,3,regular,UNLV,Blake Decker,3125318,0.4,0.417
+2014,3,regular,Massachusetts,Blake Frohnapfel,518271,0.269,0.233
+2014,3,regular,Vanderbilt,Patton Robinette,532000,0.35,0.21
+2014,3,regular,Vanderbilt,Wade Freebeck,3122157,-1.13,-1.203
+2014,3,regular,Western Michigan,Zach Terrell,532645,1.222,1.3
+2014,3,regular,Idaho,Matt Linehan,553235,0.308,0.4
+2014,4,regular,UConn,Chandler Whitmer,533264,-0.149,-0.149
+2014,4,regular,South Florida,Mike White,549804,-0.14,-0.14
+2014,4,regular,Bethune-Cookman,Quentin Williams,521060,0.212,0.356
+2014,4,regular,UCF,Nick Patti,531755,0.303,1.339
+2014,4,regular,UCF,Justin Holman,551184,0.363,0.393
+2014,4,regular,Miami (OH),Andrew Hendrix,500913,0.16,0.104
+2014,4,regular,Cincinnati,Gunner Kiel,534259,0.465,0.536
+2014,4,regular,East Carolina,Shane Carden,500938,0.524,0.475
+2014,4,regular,North Carolina,Marquise Williams,516347,-0.126,-0.212
+2014,4,regular,North Carolina,Mitch Trubisky,545238,0.485,0.485
+2014,4,regular,East Carolina,Kurt Benkert,545645,0.268,-0.443
+2014,4,regular,East Carolina,Jonathon Weymann,545653,0.701,0.701
+2014,4,regular,Middle Tennessee,Austin Grammer,531589,0.219,0.278
+2014,4,regular,Memphis,Paxton Lynch,534849,0.146,0.199
+2014,4,regular,SMU,Garrett Krstich,519812,-0.114,-0.101
+2014,4,regular,SMU,Kolney Cassel,545334,-0.364,-0.364
+2014,4,regular,Texas A&M,Kenny Hill,549865,0.701,0.656
+2014,4,regular,Texas A&M,Kyle Allen,559681,0.226,0.244
+2014,4,regular,Temple,Connor Reilly,500975,0.019,0.51
+2014,4,regular,Delaware State,Marlon Kelly,514934,0.011,-0.375
+2014,4,regular,Temple,P.J. Walker,549759,0.314,0.314
+2014,4,regular,Temple,Tim DiGiorgio,552353,-0.081,-0.081
+2014,4,regular,Duke,Anthony Boone,501046,0.062,0.042
+2014,4,regular,Duke,Thomas Sirk,530478,0.96,-0.768
+2014,4,regular,Tulane,Tanner Lee,545757,-0.403,-0.42
+2014,4,regular,Boston College,Tyler Murphy,503970,0.584,0.434
+2014,4,regular,Maine,Drew Belcher,3120540,-0.13,-0.335
+2014,4,regular,Boston College,Darius Wade,3122790,-0.94,-0.94
+2014,4,regular,Clemson,Cole Stoudt,512052,0.072,-0.041
+2014,4,regular,Florida State,Sean Maguire,530299,0.093,0.096
+2014,4,regular,Clemson,Deshaun Watson,3122840,0.404,0.59
+2014,4,regular,Virginia Tech,Michael Brewer,514481,0.593,0.488
+2014,4,regular,Georgia Tech,Justin Thomas,531104,0.414,0.364
+2014,4,regular,Louisville,Will Gardner,530357,0.253,0.331
+2014,4,regular,Florida International,E.J. Hilliard,536571,-0.175,-0.021
+2014,4,regular,Louisville,Brett Nelson,545557,-0.363,-0.363
+2014,4,regular,Louisville,Kyle Bolin,545559,0.617,0.617
+2014,4,regular,Florida International,Alex McGough,3128843,-0.141,-0.344
+2014,4,regular,Nebraska,Tommy Armstrong Jr.,533270,0.428,0.659
+2014,4,regular,Miami,Brad Kaaya,3123048,0.317,0.404
+2014,4,regular,NC State,Garrett Leatham,511308,-0.39,-0.148
+2014,4,regular,NC State,Jacoby Brissett,512191,0.617,0.555
+2014,4,regular,Presbyterian,Heys McMath,547381,0.065,0.215
+2014,4,regular,NC State,Josh Taylor,549960,0.954,
+2014,4,regular,Iowa,Jake Rudock,518380,0.54,0.54
+2014,4,regular,Pittsburgh,Chad Voytik,530450,0.399,0.452
+2014,4,regular,Iowa,C.J. Beathard,535844,0.566,0.672
+2014,4,regular,Maryland,C.J. Brown,480846,0.309,0.478
+2014,4,regular,Syracuse,Terrel Hunt,514440,0.069,-0.304
+2014,4,regular,BYU,Taysom Hill,482594,0.271,0.367
+2014,4,regular,Virginia,Greyson Lambert,530521,0.267,0.217
+2014,4,regular,Virginia,Matt Johns,535548,0.52,0.481
+2014,4,regular,Army,Angel Santiago,515360,0.178,-0.328
+2014,4,regular,Wake Forest,John Wolford,3124092,0.216,0.364
+2014,4,regular,Auburn,Nick Marshall,550021,0.436,0.612
+2014,4,regular,Kansas State,Jake Waters,550158,0.0,0.132
+2014,4,regular,Central Michigan,Cooper Rush,531455,0.229,0.113
+2014,4,regular,Kansas,Michael Cummings,535521,-0.53,
+2014,4,regular,Kansas,Montell Cozart,545417,0.187,0.253
+2014,4,regular,West Virginia,Clint Trickett,501098,0.223,0.232
+2014,4,regular,Oklahoma,Trevor Knight,534449,0.391,0.393
+2014,4,regular,Illinois,Wes Lunt,534652,0.258,0.258
+2014,4,regular,Texas State,Tyler Jones,548240,0.221,0.324
+2014,4,regular,Missouri,Maty Mauk,531385,0.229,0.282
+2014,4,regular,Indiana,Nate Sudfeld,535825,0.104,0.141
+2014,4,regular,Michigan,Devin Gardner,501543,-0.014,-0.27
+2014,4,regular,Utah,Kendal Thompson,514737,-0.537,-0.794
+2014,4,regular,Utah,Travis Wilson,531051,0.353,0.352
+2014,4,regular,Michigan,Shane Morris,546706,-0.106,-0.101
+2014,4,regular,Eastern Michigan,Rob Bolden,501541,0.088,0.107
+2014,4,regular,Michigan State,Connor Cook,512705,1.159,1.37
+2014,4,regular,Michigan State,Tyler O'Connor,535578,1.288,1.565
+2014,4,regular,Michigan State,Damion Terry,550477,-0.125,-0.23
+2014,4,regular,Eastern Michigan,Reginald Bell,3125823,-0.269,
+2014,4,regular,San José State,Blake Jurich,499830,0.016,0.082
+2014,4,regular,San José State,Joe Gray,512675,0.51,0.374
+2014,4,regular,Northwestern,Trevor Siemian,500419,0.018,0.018
+2014,4,regular,Western Illinois,Trenton Norvell,535735,0.065,0.087
+2014,4,regular,Massachusetts,Blake Frohnapfel,518271,0.178,0.236
+2014,4,regular,Penn State,D.J. Crook,545636,0.651,0.651
+2014,4,regular,Penn State,Christian Hackenberg,552329,0.368,0.262
+2014,4,regular,Southern Illinois,Mark Iannotti,512983,0.093,0.026
+2014,4,regular,Purdue,Austin Appleby,534770,2.522,
+2014,4,regular,Purdue,Danny Etling,550170,0.214,0.348
+2014,4,regular,Rutgers,Gary Nova,518344,0.851,0.764
+2014,4,regular,Navy,Keenan Reynolds,530568,0.329,0.599
+2014,4,regular,Bowling Green,James Knapke,531801,-0.158,-0.117
+2014,4,regular,Wisconsin,Bart Houston,534813,-0.578,-0.578
+2014,4,regular,Bowling Green,Cody Callaway,3125748,0.044,0.127
+2014,4,regular,Wyoming,Colby Kirkegaard,520520,0.088,0.022
+2014,4,regular,Florida Atlantic,Greg Hankerson,550873,-0.012,-0.012
+2014,4,regular,Florida Atlantic,Jaquez Johnson,550876,-0.123,-0.126
+2014,4,regular,Louisiana Tech,Cody Sokol,530696,0.332,0.288
+2014,4,regular,Louisiana Tech,Ryan Higgins,531316,0.795,
+2014,4,regular,Northwestern State,Zach Adkins,549719,0.099,0.079
+2014,4,regular,Akron,Kyle Pohl,514617,-0.242,-0.357
+2014,4,regular,Marshall,Rakeem Cato,518267,0.422,0.3
+2014,4,regular,Marshall,Gunnar Holcombe,535461,0.456,0.456
+2014,4,regular,Nicholls,Kalen Henderson,500514,-0.543,-0.691
+2014,4,regular,Nicholls,Beaux Hebert,505475,-0.411,-0.451
+2014,4,regular,North Texas,Andrew McNulty,515147,0.083,0.083
+2014,4,regular,Nicholls,Dash Duncan,533375,-2.11,-2.11
+2014,4,regular,North Texas,Dajon Williams,549918,1.081,0.829
+2014,4,regular,Old Dominion,Taylor Heinicke,513949,0.646,0.582
+2014,4,regular,Rice,Driphus Jackson,514894,0.307,0.351
+2014,4,regular,Old Dominion,David Washington,535113,0.64,0.64
+2014,4,regular,Rice,Tyler Stehling,536503,0.243,0.335
+2014,4,regular,App State,Taylor Lamb,548447,0.363,0.379
+2014,4,regular,Southern Miss,Nick Mullens,552880,0.25,0.209
+2014,4,regular,Ball State,Ozzie Mann,531552,0.252,0.234
+2014,4,regular,Toledo,Logan Woodside,545910,0.417,0.432
+2014,4,regular,Ohio,Derrius Vick,511552,1.221,0.827
+2014,4,regular,Ohio,JD Sprague,532433,0.429,0.498
+2014,4,regular,Idaho,Matt Linehan,553235,0.16,0.152
+2014,4,regular,Murray State,CJ Bennett,508164,-0.115,0.261
+2014,4,regular,Western Michigan,Zach Terrell,532645,0.435,0.274
+2014,4,regular,Murray State,KD Humphries,532909,-0.021,0.087
+2014,4,regular,Buffalo,Joe Licata,513614,0.454,0.395
+2014,4,regular,Buffalo,Tony Daniel,513615,1.469,1.469
+2014,4,regular,Buffalo,Collin Michael,531955,-0.135,-0.135
+2014,4,regular,Norfolk State,Terrance Ervin,3126935,0.256,0.026
+2014,4,regular,Arkansas,Brandon Allen,515915,0.822,0.899
+2014,4,regular,Northern Illinois,Drew Hare,532480,0.4,0.42
+2014,4,regular,Northern Illinois,Anthony Maddie,532644,-0.264,-0.558
+2014,4,regular,Arkansas,Austin Allen,547206,2.869,2.869
+2014,4,regular,Louisiana,Terrance Broadway,503922,-0.178,-0.205
+2014,4,regular,Boise State,Grant Hedrick,504908,0.126,0.077
+2014,4,regular,Southern Utah,Ammon Olsen,485026,0.087,0.181
+2014,4,regular,Fresno State,Brandon Connette,501052,0.069,0.028
+2014,4,regular,Fresno State,Brian Burrell,546271,0.047,-0.041
+2014,4,regular,Southern Utah,Aaron Cantu,547096,-0.007,-0.007
+2014,4,regular,Fresno State,Zack Greenlee,550587,0.85,0.85
+2014,4,regular,Hawai'i,Jeremy Higgins,505049,-0.111,-0.111
+2014,4,regular,Hawai'i,Taylor Graham,532975,-0.087,-0.087
+2014,4,regular,Hawai'i,Ikaika Woolsey,532976,-0.201,-0.284
+2014,4,regular,Colorado,Sefo Liufau,550278,0.283,0.289
+2014,4,regular,New Mexico,Quinton McCown,536836,5.296,
+2014,4,regular,New Mexico,Clayton Mitchem,546483,0.256,-0.204
+2014,4,regular,New Mexico,Lamar Jordan,551028,0.372,1.48
+2014,4,regular,New Mexico State,Tyler Rogers,3124981,0.462,0.441
+2014,4,regular,Oregon State,Sean Mannion,504786,0.453,0.604
+2014,4,regular,San Diego State,Quinn Kaehler,547570,-0.287,-0.287
+2014,4,regular,Arkansas State,Fredi Knighten,538156,-0.217,-0.026
+2014,4,regular,Utah State,Darell Garretson,550720,-0.029,-0.027
+2014,4,regular,California,Jared Goff,547401,0.538,0.61
+2014,4,regular,Arizona,Anu Solomon,552097,0.248,0.261
+2014,4,regular,Washington State,Connor Halliday,504823,0.299,0.365
+2014,4,regular,Oregon,Marcus Mariota,511459,0.81,0.653
+2014,4,regular,Georgia State,Ronnie Bell,513425,1.556,1.556
+2014,4,regular,Washington,Cyler Miles,535325,0.244,0.215
+2014,4,regular,Washington,Troy Williams,546876,0.037,
+2014,4,regular,Georgia State,Nick Arbuckle,3124848,-0.014,-0.1
+2014,4,regular,Alabama,Blake Sims,504052,0.971,1.082
+2014,4,regular,Florida,Jeff Driskel,511889,-0.08,-0.178
+2014,4,regular,Alabama,Jake Coker,514124,1.025,1.025
+2014,4,regular,Georgia,Hutson Mason,504004,0.764,0.764
+2014,4,regular,Troy,Dallas Tidwell,517960,-0.244,-0.244
+2014,4,regular,Georgia,Faton Bauta,530931,0.604,-0.055
+2014,4,regular,Georgia,Brice Ramsey,546345,0.724,0.724
+2014,4,regular,Troy,Dontreal Pruitt,3125460,-0.123,-0.089
+2014,4,regular,Mississippi State,Dak Prescott,512030,0.044,0.157
+2014,4,regular,LSU,Anthony Jennings,546033,-0.134,-0.048
+2014,4,regular,LSU,Brandon Harris,559751,0.677,0.678
+2014,4,regular,South Carolina,Dylan Thompson,504295,0.317,0.327
+2014,4,regular,Vanderbilt,Patton Robinette,532000,0.715,0.762
+2014,4,regular,Vanderbilt,Wade Freebeck,3122157,0.389,0.433
+2014,4,regular,South Alabama,Brandon Bridge,507211,-0.095,-0.25
+2014,4,regular,Georgia Southern,Kevin Ellison,532925,0.192,0.101
+2014,4,regular,Houston,Billy Cosh,501268,0.257,0.257
+2014,4,regular,UNLV,Nick Sherry,517186,-0.534,-0.534
+2014,4,regular,Houston,John O'Korn,545550,0.171,0.041
+2014,4,regular,Houston,Greg Ward Jr.,545552,0.661,0.592
+2014,4,regular,UNLV,Blake Decker,3125318,-0.152,-0.157
+2014,5,regular,Cincinnati,Gunner Kiel,534259,0.688,0.752
+2014,5,regular,Ohio State,Cardale Jones,534294,0.033,
+2014,5,regular,Ohio State,J.T. Barrett,545624,0.488,0.581
+2014,5,regular,Temple,Connor Reilly,500975,-0.985,-0.985
+2014,5,regular,UConn,Chandler Whitmer,533264,-0.212,-0.148
+2014,5,regular,UConn,Tim Boyle,546675,-0.374,-0.374
+2014,5,regular,Temple,P.J. Walker,549759,0.26,0.234
+2014,5,regular,Ole Miss,Bo Wallace,500990,0.124,0.237
+2014,5,regular,Memphis,Paxton Lynch,534849,-0.408,-0.492
+2014,5,regular,TCU,Matt Joeckel,501033,0.518,0.518
+2014,5,regular,TCU,Trevone Boykin,517127,0.566,0.4
+2014,5,regular,SMU,Garrett Krstich,519812,-0.208,-0.253
+2014,5,regular,SMU,Matt Davis,532113,0.198,0.016
+2014,5,regular,South Florida,Mike White,549804,0.033,0.135
+2014,5,regular,Tulane,Nick Montana,499807,-0.235,-0.235
+2014,5,regular,Rutgers,Gary Nova,518344,0.663,0.636
+2014,5,regular,Tulane,Devin Powell,532173,0.006,-0.213
+2014,5,regular,Tulane,Tanner Lee,545757,0.081,0.081
+2014,5,regular,Tulsa,Dane Evans,532273,0.174,0.115
+2014,5,regular,Texas State,Tyler Jones,548240,0.245,0.408
+2014,5,regular,Boston College,Tyler Murphy,503970,0.458,0.197
+2014,5,regular,Colorado State,Garrett Grayson,515528,0.197,0.251
+2014,5,regular,Clemson,Cole Stoudt,512052,-0.56,-0.574
+2014,5,regular,North Carolina,Marquise Williams,516347,0.424,0.374
+2014,5,regular,North Carolina,Mitch Trubisky,545238,0.17,0.136
+2014,5,regular,Clemson,Deshaun Watson,3122840,0.824,0.879
+2014,5,regular,Duke,Anthony Boone,501046,-0.316,-0.345
+2014,5,regular,Miami,Brad Kaaya,3123048,0.128,0.196
+2014,5,regular,NC State,Garrett Leatham,511308,-0.375,-0.375
+2014,5,regular,NC State,Jacoby Brissett,512191,0.295,0.245
+2014,5,regular,Florida State,Jameis Winston,530308,0.65,0.603
+2014,5,regular,Akron,Kyle Pohl,514617,0.076,0.034
+2014,5,regular,Pittsburgh,Chad Voytik,530450,0.069,0.049
+2014,5,regular,Syracuse,Terrel Hunt,514440,0.105,0.178
+2014,5,regular,Notre Dame,Everett Golson,515409,0.359,0.693
+2014,5,regular,Virginia,David Watford,511361,0.8,1.264
+2014,5,regular,Virginia,Matt Johns,535548,0.414,0.22
+2014,5,regular,Kent State,Nathan Strock,550246,-0.571,-0.537
+2014,5,regular,Kent State,Nick Holley,550339,-0.078,0.592
+2014,5,regular,Virginia Tech,Michael Brewer,514481,0.231,0.161
+2014,5,regular,Western Michigan,Zach Terrell,532645,-0.142,-0.134
+2014,5,regular,Wake Forest,John Wolford,3124092,-0.386,-0.376
+2014,5,regular,Oklahoma State,Daxx Garman,514105,0.526,0.402
+2014,5,regular,Texas Tech,Davis Webb,550386,0.382,0.398
+2014,5,regular,Texas Tech,Patrick Mahomes,3139477,0.046,0.312
+2014,5,regular,Baylor,Bryce Petty,480746,0.171,0.101
+2014,5,regular,Iowa State,Sam B. Richardson,511969,0.189,-0.009
+2014,5,regular,Baylor,Seth Russell,535511,0.28,-0.01
+2014,5,regular,UTEP,Jameill Showers,500571,0.558,0.601
+2014,5,regular,Kansas State,Joe Hubener,517248,0.451,0.737
+2014,5,regular,Kansas State,Jake Waters,550158,0.881,0.885
+2014,5,regular,Kansas State,Jesse Ertz,550448,0.105,
+2014,5,regular,Kansas,Michael Cummings,535521,-0.485,
+2014,5,regular,Kansas,Montell Cozart,545417,-0.416,-0.498
+2014,5,regular,Texas,Tyrone Swoopes,547338,0.225,0.251
+2014,5,regular,Illinois,Reilly O'Toole,515454,-0.092,-0.076
+2014,5,regular,Nebraska,Ryker Fyfe,533182,-1.708,-1.887
+2014,5,regular,Nebraska,Tommy Armstrong Jr.,533270,0.418,0.307
+2014,5,regular,Purdue,Austin Appleby,534770,-0.015,-0.211
+2014,5,regular,Iowa,C.J. Beathard,535844,-0.06,-0.12
+2014,5,regular,Purdue,Danny Etling,550170,-0.507,-0.475
+2014,5,regular,Michigan,Devin Gardner,501543,0.555,0.242
+2014,5,regular,Minnesota,Mitch Leidner,530731,0.29,0.235
+2014,5,regular,Michigan,Shane Morris,546706,-0.365,-0.364
+2014,5,regular,Michigan State,Connor Cook,512705,0.572,0.446
+2014,5,regular,Wyoming,Colby Kirkegaard,520520,0.115,0.144
+2014,5,regular,Michigan State,Tyler O'Connor,535578,1.104,1.513
+2014,5,regular,Michigan State,Damion Terry,550477,0.374,0.999
+2014,5,regular,Northwestern,Trevor Siemian,500419,0.237,0.095
+2014,5,regular,Penn State,Christian Hackenberg,552329,-0.26,-0.313
+2014,5,regular,UAB,Jeremiah Briscoe,550754,-2.597,-2.597
+2014,5,regular,Florida International,Alex McGough,3128843,0.26,0.226
+2014,5,regular,UAB,Cody Clements,3129249,0.071,-0.014
+2014,5,regular,UTSA,Tucker Carter,535979,0.026,-0.03
+2014,5,regular,Florida Atlantic,Jaquez Johnson,550876,0.371,0.507
+2014,5,regular,Louisiana Tech,Cody Sokol,530696,0.107,0.174
+2014,5,regular,Auburn,Jeremy Johnson,550019,0.57,1.005
+2014,5,regular,Auburn,Nick Marshall,550021,0.614,0.632
+2014,5,regular,Old Dominion,Taylor Heinicke,513949,0.289,0.189
+2014,5,regular,Middle Tennessee,Austin Grammer,531589,0.603,0.581
+2014,5,regular,Old Dominion,David Washington,535113,-0.052,0.224
+2014,5,regular,Rice,Driphus Jackson,514894,0.415,0.447
+2014,5,regular,Southern Miss,Nick Mullens,552880,0.222,0.256
+2014,5,regular,Western Kentucky,Brandon Doughty,504866,0.318,0.27
+2014,5,regular,Navy,Keenan Reynolds,530568,-0.051,-0.706
+2014,5,regular,Massachusetts,Blake Frohnapfel,518271,0.454,0.517
+2014,5,regular,Bowling Green,James Knapke,531801,0.321,0.295
+2014,5,regular,Central Michigan,Cooper Rush,531455,0.428,0.592
+2014,5,regular,Toledo,Logan Woodside,545910,0.577,0.673
+2014,5,regular,Eastern Illinois,Jalen Whitlow,530943,0.319,0.273
+2014,5,regular,Ohio,JD Sprague,532433,0.049,-0.304
+2014,5,regular,Ohio,Greg Windham,532440,0.408,0.263
+2014,5,regular,Miami (OH),Andrew Hendrix,500913,0.138,0.161
+2014,5,regular,Buffalo,Joe Licata,513614,0.518,0.518
+2014,5,regular,Boise State,Grant Hedrick,504908,-0.066,0.001
+2014,5,regular,Air Force,Kale Pearson,535972,0.207,0.077
+2014,5,regular,Boise State,Ryan Finley,546288,0.171,0.297
+2014,5,regular,Fresno State,Brandon Connette,501052,-0.168,-0.168
+2014,5,regular,Fresno State,Brian Burrell,546271,0.431,0.408
+2014,5,regular,New Mexico,Clayton Mitchem,546483,-0.168,-0.092
+2014,5,regular,New Mexico,Lamar Jordan,551028,0.407,0.576
+2014,5,regular,Nevada,Cody Fajardo,501241,0.21,0.117
+2014,5,regular,San José State,Joe Gray,512675,0.091,0.022
+2014,5,regular,San Diego State,Quinn Kaehler,547570,0.351,0.351
+2014,5,regular,UNLV,Blake Decker,3125318,0.324,0.224
+2014,5,regular,Oregon State,Sean Mannion,504786,-0.576,-0.547
+2014,5,regular,USC,Cody Kessler,513329,0.404,0.436
+2014,5,regular,Oregon State,Luke Del Rio,546362,-0.741,-0.741
+2014,5,regular,California,Jared Goff,547401,0.708,0.746
+2014,5,regular,Colorado,Sefo Liufau,550278,0.47,0.556
+2014,5,regular,Washington State,Connor Halliday,504823,0.075,0.126
+2014,5,regular,Utah,Kendal Thompson,514737,-0.747,-0.747
+2014,5,regular,Utah,Travis Wilson,531051,-0.047,0.02
+2014,5,regular,Stanford,Kevin Hogan,516357,0.15,0.353
+2014,5,regular,Washington,Cyler Miles,535325,-0.111,-0.09
+2014,5,regular,LSU,Brad Kragthorpe,520118,0.245,0.245
+2014,5,regular,LSU,Anthony Jennings,546033,-0.538,-0.54
+2014,5,regular,LSU,Brandon Harris,559751,1.144,1.191
+2014,5,regular,New Mexico State,Tyler Rogers,3124981,-0.359,-0.364
+2014,5,regular,South Carolina,Dylan Thompson,504295,0.041,-0.013
+2014,5,regular,Missouri,Maty Mauk,531385,-0.087,-0.186
+2014,5,regular,Georgia,Hutson Mason,504004,0.14,0.001
+2014,5,regular,Tennessee,Justin Worley,512424,0.351,0.351
+2014,5,regular,Tennessee,Nathan Peterman,532065,-0.102,-0.102
+2014,5,regular,Arkansas,Brandon Allen,515915,0.208,0.395
+2014,5,regular,Texas A&M,Kenny Hill,549865,0.414,0.428
+2014,5,regular,Kentucky,Patrick Towles,530944,-0.078,0.022
+2014,5,regular,Vanderbilt,Wade Freebeck,3122157,-0.413,-0.456
+2014,5,regular,UL Monroe,Pete Thomas,501565,0.149,0.154
+2014,5,regular,Troy,Brandon Silvers,546145,0.334,0.35
+2014,5,regular,Yale,Morgan Roberts,511215,0.221,0.108
+2014,5,regular,Army,Angel Santiago,515360,1.079,1.049
+2014,5,regular,Army,A.J. Schurr,535646,0.486,0.139
+2014,5,regular,Georgia Southern,Kevin Ellison,532925,0.358,0.216
+2014,5,regular,App State,Taylor Lamb,548447,0.158,0.133
+2014,5,regular,Georgia Southern,Favian Upshaw,549301,0.582,1.118
+2014,6,regular,UCF,Nick Patti,531755,-0.265,
+2014,6,regular,Houston,John O'Korn,545550,-0.235,-0.273
+2014,6,regular,Houston,Greg Ward Jr.,545552,-0.125,-0.034
+2014,6,regular,UCF,Justin Holman,551184,0.184,0.302
+2014,6,regular,Cincinnati,Munchie Legaux,502335,-0.074,-0.213
+2014,6,regular,Cincinnati,Gunner Kiel,534259,0.199,0.109
+2014,6,regular,Memphis,Paxton Lynch,534849,0.791,0.933
+2014,6,regular,Memphis,Jason Stewart,3126208,2.453,
+2014,6,regular,East Carolina,Shane Carden,500938,0.708,0.79
+2014,6,regular,SMU,Garrett Krstich,519812,0.193,0.169
+2014,6,regular,Tulsa,Joseph Calcagni,514152,-0.019,0.06
+2014,6,regular,Colorado State,Garrett Grayson,515528,0.633,0.711
+2014,6,regular,Tulsa,Dane Evans,532273,0.056,-0.058
+2014,6,regular,Colorado State,Nick Stevens,546267,0.431,0.431
+2014,6,regular,Clemson,Cole Stoudt,512052,0.038,-0.027
+2014,6,regular,NC State,Jacoby Brissett,512191,-0.179,-0.257
+2014,6,regular,Clemson,Nick Schuessler,537012,-1.576,
+2014,6,regular,Clemson,Deshaun Watson,3122840,0.491,0.44
+2014,6,regular,Florida State,Sean Maguire,530299,-0.328,-0.328
+2014,6,regular,Florida State,Jameis Winston,530308,0.33,0.218
+2014,6,regular,Wake Forest,Tyler Cameron,530328,0.05,0.112
+2014,6,regular,Wake Forest,John Wolford,3124092,-0.215,-0.06
+2014,6,regular,Syracuse,Terrel Hunt,514440,-0.008,-0.094
+2014,6,regular,Syracuse,Austin Wilson,545284,-0.128,-0.128
+2014,6,regular,Georgia Tech,Justin Thomas,531104,0.205,0.265
+2014,6,regular,Miami,Brad Kaaya,3123048,0.155,0.155
+2014,6,regular,Virginia Tech,Michael Brewer,514481,0.313,0.272
+2014,6,regular,North Carolina,Marquise Williams,516347,-0.016,-0.2
+2014,6,regular,North Carolina,Mitch Trubisky,545238,-1.665,-2.456
+2014,6,regular,Pittsburgh,Chad Voytik,530450,0.195,0.264
+2014,6,regular,Virginia,Matt Johns,535548,0.159,0.042
+2014,6,regular,Iowa State,Sam B. Richardson,511969,0.131,0.051
+2014,6,regular,Oklahoma State,Daxx Garman,514105,0.08,0.095
+2014,6,regular,Kansas State,Jake Waters,550158,0.543,0.665
+2014,6,regular,Texas Tech,Davis Webb,550386,0.066,0.033
+2014,6,regular,Texas Tech,Patrick Mahomes,3139477,0.416,0.358
+2014,6,regular,Baylor,Bryce Petty,480746,-0.241,-0.155
+2014,6,regular,Texas,Tyrone Swoopes,547338,-0.28,-0.244
+2014,6,regular,West Virginia,Clint Trickett,501098,0.313,0.313
+2014,6,regular,Kansas,T.J. Millweard,530978,-0.01,-0.01
+2014,6,regular,Kansas,Michael Cummings,535521,-0.127,-0.12
+2014,6,regular,Kansas,Montell Cozart,545417,-0.252,-0.239
+2014,6,regular,West Virginia,Skyler Howard,3116460,0.242,-0.461
+2014,6,regular,TCU,Trevone Boykin,517127,0.32,0.395
+2014,6,regular,Oklahoma,Trevor Knight,534449,0.285,0.216
+2014,6,regular,Illinois,Reilly O'Toole,515454,0.004,-0.002
+2014,6,regular,Illinois,Wes Lunt,534652,0.321,0.321
+2014,6,regular,Purdue,Austin Appleby,534770,0.858,0.734
+2014,6,regular,Indiana,Nate Sudfeld,535825,0.406,0.348
+2014,6,regular,North Texas,Dajon Williams,549918,0.245,0.232
+2014,6,regular,Maryland,C.J. Brown,480846,-0.137,-0.194
+2014,6,regular,Ohio State,Cardale Jones,534294,-0.4,-0.887
+2014,6,regular,Maryland,Caleb Rowe,534328,-0.048,-0.084
+2014,6,regular,Ohio State,J.T. Barrett,545624,0.435,0.4
+2014,6,regular,Michigan State,Connor Cook,512705,0.351,0.428
+2014,6,regular,Nebraska,Ryker Fyfe,533182,0.026,0.026
+2014,6,regular,Nebraska,Tommy Armstrong Jr.,533270,-0.082,-0.045
+2014,6,regular,Northwestern,Trevor Siemian,500419,0.304,0.307
+2014,6,regular,Wisconsin,Joel Stave,514230,-0.112,-0.112
+2014,6,regular,Michigan,Devin Gardner,501543,0.355,0.185
+2014,6,regular,Rutgers,Gary Nova,518344,0.629,0.595
+2014,6,regular,Florida Atlantic,Jaquez Johnson,550876,0.088,-0.008
+2014,6,regular,Florida International,Alex McGough,3128843,0.262,0.084
+2014,6,regular,UTEP,Jameill Showers,500571,-0.11,-0.12
+2014,6,regular,Louisiana Tech,Taylor Burch,505012,0.607,
+2014,6,regular,Louisiana Tech,Cody Sokol,530696,0.99,0.782
+2014,6,regular,Louisiana Tech,Ryan Higgins,531316,0.872,0.872
+2014,6,regular,Old Dominion,Taylor Heinicke,513949,-0.513,-0.48
+2014,6,regular,Marshall,Rakeem Cato,518267,0.127,0.216
+2014,6,regular,Old Dominion,David Washington,535113,0.613,0.613
+2014,6,regular,Marshall,Gunnar Holcombe,535461,1.276,1.403
+2014,6,regular,Middle Tennessee,Austin Grammer,531589,0.817,0.927
+2014,6,regular,Southern Miss,Nick Mullens,552880,0.344,0.411
+2014,6,regular,Western Kentucky,Brandon Doughty,504866,0.411,0.402
+2014,6,regular,UAB,Cody Clements,3129249,0.516,0.369
+2014,6,regular,UTSA,Tucker Carter,535979,-0.289,-0.296
+2014,6,regular,New Mexico,Lamar Jordan,551028,0.692,-0.035
+2014,6,regular,UTSA,Blake Bogenschutz,3124039,0.242,0.165
+2014,6,regular,Army,Angel Santiago,515360,0.098,0.399
+2014,6,regular,Ball State,Ozzie Mann,531552,0.177,0.396
+2014,6,regular,Army,A.J. Schurr,535646,0.437,-0.757
+2014,6,regular,Buffalo,Joe Licata,513614,0.065,-0.081
+2014,6,regular,Bowling Green,James Knapke,531801,0.405,0.26
+2014,6,regular,Eastern Michigan,Rob Bolden,501541,-0.055,-0.081
+2014,6,regular,Akron,Kyle Pohl,514617,0.479,0.513
+2014,6,regular,Northern Illinois,Drew Hare,532480,0.148,-0.012
+2014,6,regular,Northern Illinois,Anthony Maddie,532644,0.397,0.771
+2014,6,regular,Kent State,Jack Williams,546030,-0.842,-0.842
+2014,6,regular,Kent State,Nathan Strock,550246,-1.31,-1.31
+2014,6,regular,Kent State,Nick Holley,550339,-0.33,-0.045
+2014,6,regular,Central Michigan,Cooper Rush,531455,0.595,0.678
+2014,6,regular,Ohio,JD Sprague,532433,-0.25,-0.267
+2014,6,regular,Miami (OH),Andrew Hendrix,500913,0.34,0.252
+2014,6,regular,Massachusetts,Blake Frohnapfel,518271,0.298,0.399
+2014,6,regular,BYU,Christian Stewart,381494,-0.123,-0.163
+2014,6,regular,BYU,Taysom Hill,482594,0.434,0.191
+2014,6,regular,Utah State,Darell Garretson,550720,0.661,0.761
+2014,6,regular,Navy,Keenan Reynolds,530568,0.042,-0.035
+2014,6,regular,Air Force,Kale Pearson,535972,0.284,0.511
+2014,6,regular,Navy,Tago Smith,551222,1.234,1.234
+2014,6,regular,Nevada,Cody Fajardo,501241,0.203,0.065
+2014,6,regular,Boise State,Grant Hedrick,504908,0.463,0.654
+2014,6,regular,Fresno State,Brandon Connette,501052,0.453,
+2014,6,regular,Fresno State,Brian Burrell,546271,0.096,0.091
+2014,6,regular,Rice,Driphus Jackson,514894,0.048,0.214
+2014,6,regular,Hawai'i,Ikaika Woolsey,532976,-0.132,-0.409
+2014,6,regular,San José State,Joe Gray,512675,0.479,0.437
+2014,6,regular,UNLV,Nick Sherry,517186,-0.404,-0.367
+2014,6,regular,UNLV,Blake Decker,3125318,0.342,0.064
+2014,6,regular,Oregon,Marcus Mariota,511459,0.519,0.599
+2014,6,regular,Arizona,Anu Solomon,552097,0.253,0.326
+2014,6,regular,USC,Cody Kessler,513329,0.151,0.109
+2014,6,regular,Arizona State,Mike Bercovici,517393,0.757,0.805
+2014,6,regular,UCLA,Brett Hundley,511982,0.404,0.419
+2014,6,regular,Utah,Kendal Thompson,514737,0.032,-0.074
+2014,6,regular,Utah,Travis Wilson,531051,-0.333,-0.335
+2014,6,regular,Oregon State,Sean Mannion,504786,0.265,0.265
+2014,6,regular,Colorado,Sefo Liufau,550278,0.27,0.275
+2014,6,regular,Washington State,Connor Halliday,504823,0.591,0.619
+2014,6,regular,California,Jared Goff,547401,0.606,0.606
+2014,6,regular,Notre Dame,Everett Golson,515409,0.147,0.116
+2014,6,regular,Stanford,Kevin Hogan,516357,-0.051,-0.146
+2014,6,regular,LSU,Anthony Jennings,546033,-0.848,-1.057
+2014,6,regular,Auburn,Jeremy Johnson,550019,1.549,1.549
+2014,6,regular,Auburn,Nick Marshall,550021,0.593,0.611
+2014,6,regular,LSU,Brandon Harris,559751,-0.205,-0.349
+2014,6,regular,Ole Miss,Bo Wallace,500990,0.278,0.386
+2014,6,regular,Alabama,Blake Sims,504052,0.236,0.177
+2014,6,regular,South Carolina,Dylan Thompson,504295,0.356,0.383
+2014,6,regular,Kentucky,Patrick Towles,530944,0.148,0.173
+2014,6,regular,Florida,Jeff Driskel,511889,-0.105,-0.339
+2014,6,regular,Tennessee,Justin Worley,512424,-0.166,-0.169
+2014,6,regular,Florida,Treon Harris,3121647,0.139,0.105
+2014,6,regular,Mississippi State,Dak Prescott,512030,0.449,0.468
+2014,6,regular,Texas A&M,Kenny Hill,549865,0.121,0.065
+2014,6,regular,Georgia,Hutson Mason,504004,0.252,0.252
+2014,6,regular,Vanderbilt,Stephen Rivers,517211,-0.516,-0.51
+2014,6,regular,Georgia,Faton Bauta,530931,-0.614,
+2014,6,regular,Georgia,Brice Ramsey,546345,0.292,0.292
+2014,6,regular,Vanderbilt,Wade Freebeck,3122157,0.141,0.196
+2014,6,regular,South Alabama,Brandon Bridge,507211,0.69,0.794
+2014,6,regular,App State,Kameron Bryant,512882,0.352,0.088
+2014,6,regular,South Alabama,Matt Floyd,514749,-0.207,
+2014,6,regular,App State,Taylor Lamb,548447,0.159,0.031
+2014,6,regular,UL Monroe,Pete Thomas,501565,-0.11,-0.109
+2014,6,regular,UL Monroe,Brayle Brown,512345,0.994,0.994
+2014,6,regular,Arkansas State,Stephen Hogan,515874,-0.375,
+2014,6,regular,Arkansas State,Fredi Knighten,538156,0.18,0.159
+2014,6,regular,Louisiana,Terrance Broadway,503922,0.57,0.64
+2014,6,regular,Georgia State,Ronnie Bell,513425,0.332,0.102
+2014,6,regular,Louisiana,Brooks Haack,531678,1.161,1.161
+2014,6,regular,Georgia State,Nick Arbuckle,3124848,0.625,0.665
+2014,6,regular,Georgia Southern,Kevin Ellison,532925,0.142,-0.497
+2014,6,regular,Georgia Southern,Favian Upshaw,549301,-0.396,
+2014,6,regular,New Mexico State,Tyler Rogers,3124981,0.252,0.289
+2014,6,regular,Texas State,Tyler Jones,548240,0.062,-0.082
+2014,6,regular,Idaho,Matt Linehan,553235,0.039,-0.006
+2014,7,regular,BYU,Christian Stewart,381494,-0.021,-0.132
+2014,7,regular,UCF,Justin Holman,551184,0.279,0.215
+2014,7,regular,Miami,Jake Heaps,501563,-2.639,-2.639
+2014,7,regular,Miami,Ryan Williams,509992,-0.703,-0.703
+2014,7,regular,Cincinnati,Gunner Kiel,534259,0.111,0.117
+2014,7,regular,Miami,Brad Kaaya,3123048,0.555,0.503
+2014,7,regular,Tulane,Nick Montana,499807,0.075,0.075
+2014,7,regular,UConn,Chandler Whitmer,533264,0.028,0.018
+2014,7,regular,UConn,Tim Boyle,546675,-1.217,-1.217
+2014,7,regular,East Carolina,Shane Carden,500938,0.31,0.278
+2014,7,regular,South Florida,Mike White,549804,0.31,0.31
+2014,7,regular,South Florida,Quinton Flowers,3139591,-0.048,
+2014,7,regular,Memphis,Paxton Lynch,534849,-0.057,0.059
+2014,7,regular,Houston,Greg Ward Jr.,545552,0.214,0.305
+2014,7,regular,Temple,Connor Reilly,500975,2.916,
+2014,7,regular,Tulsa,Dane Evans,532273,0.295,0.3
+2014,7,regular,Temple,P.J. Walker,549759,0.241,0.355
+2014,7,regular,Boston College,Tyler Murphy,503970,0.381,0.144
+2014,7,regular,NC State,Jacoby Brissett,512191,0.148,0.045
+2014,7,regular,Clemson,Cole Stoudt,512052,-0.121,-0.085
+2014,7,regular,Louisville,Will Gardner,530357,0.535,0.535
+2014,7,regular,Clemson,Deshaun Watson,3122840,-0.338,-0.574
+2014,7,regular,Duke,Anthony Boone,501046,0.077,0.041
+2014,7,regular,Georgia Tech,Tim Byerly,512366,0.784,0.639
+2014,7,regular,Duke,Thomas Sirk,530478,0.596,
+2014,7,regular,Georgia Tech,Justin Thomas,531104,0.158,-0.258
+2014,7,regular,Florida State,Jameis Winston,530308,0.631,0.648
+2014,7,regular,Syracuse,Austin Wilson,545284,-0.246,-0.21
+2014,7,regular,Notre Dame,Everett Golson,515409,0.231,0.241
+2014,7,regular,North Carolina,Marquise Williams,516347,0.466,0.401
+2014,7,regular,Baylor,Bryce Petty,480746,0.298,0.343
+2014,7,regular,TCU,Trevone Boykin,517127,0.046,0.099
+2014,7,regular,West Virginia,Clint Trickett,501098,0.232,0.241
+2014,7,regular,Texas Tech,Davis Webb,550386,0.357,0.374
+2014,7,regular,Oklahoma,Trevor Knight,534449,0.061,0.131
+2014,7,regular,Texas,Tyrone Swoopes,547338,0.279,0.198
+2014,7,regular,Oklahoma State,Daxx Garman,514105,0.072,0.058
+2014,7,regular,Kansas,Michael Cummings,535521,0.225,0.28
+2014,7,regular,Iowa State,Sam B. Richardson,511969,0.632,0.853
+2014,7,regular,Toledo,Logan Woodside,545910,0.203,0.167
+2014,7,regular,Wisconsin,Joel Stave,514230,0.037,0.037
+2014,7,regular,Illinois,Reilly O'Toole,515454,0.215,0.057
+2014,7,regular,Illinois,Aaron Bailey,546062,-0.014,-0.654
+2014,7,regular,Iowa,Jake Rudock,518380,0.319,0.335
+2014,7,regular,Indiana,Nate Sudfeld,535825,0.237,0.198
+2014,7,regular,Iowa,C.J. Beathard,535844,-0.025,-0.561
+2014,7,regular,Michigan,Devin Gardner,501543,0.275,0.367
+2014,7,regular,Michigan,Russell Bellomy,511688,-0.916,-0.916
+2014,7,regular,Penn State,Christian Hackenberg,552329,-0.047,-0.085
+2014,7,regular,Michigan State,Connor Cook,512705,0.251,0.32
+2014,7,regular,Purdue,Austin Appleby,534770,0.07,0.194
+2014,7,regular,Northwestern,Trevor Siemian,500419,0.1,0.104
+2014,7,regular,Minnesota,Mitch Leidner,530731,0.604,0.389
+2014,7,regular,UTSA,Blake Bogenschutz,3124039,-0.208,-0.124
+2014,7,regular,Florida International,Alex McGough,3128843,-0.035,0.058
+2014,7,regular,Marshall,Rakeem Cato,518267,0.538,0.608
+2014,7,regular,Middle Tennessee,Austin Grammer,531589,0.028,0.159
+2014,7,regular,Marshall,Gunnar Holcombe,535461,-0.323,
+2014,7,regular,UAB,Myles McKee,506444,-1.369,-1.369
+2014,7,regular,North Texas,Andrew McNulty,515147,0.342,0.342
+2014,7,regular,North Texas,Dajon Williams,549918,-0.424,-0.496
+2014,7,regular,UAB,Cody Clements,3129249,0.806,1.037
+2014,7,regular,UTEP,Jameill Showers,500571,0.308,0.27
+2014,7,regular,Old Dominion,Taylor Heinicke,513949,0.375,0.275
+2014,7,regular,Old Dominion,David Washington,535113,0.34,0.34
+2014,7,regular,Rice,Driphus Jackson,514894,0.438,0.64
+2014,7,regular,Army,Angel Santiago,515360,0.103,0.128
+2014,7,regular,Army,A.J. Schurr,535646,0.426,0.975
+2014,7,regular,Bowling Green,James Knapke,531801,0.136,0.132
+2014,7,regular,Ohio,JD Sprague,532433,0.101,0.097
+2014,7,regular,Ohio,Greg Windham,532440,0.28,0.358
+2014,7,regular,Eastern Michigan,Rob Bolden,501541,-0.069,-0.642
+2014,7,regular,Buffalo,Joe Licata,513614,0.326,0.286
+2014,7,regular,Eastern Michigan,Reginald Bell,3125823,0.68,0.834
+2014,7,regular,Central Michigan,Cooper Rush,531455,0.522,0.544
+2014,7,regular,Northern Illinois,Drew Hare,532480,0.312,0.285
+2014,7,regular,Miami (OH),Andrew Hendrix,500913,0.371,0.363
+2014,7,regular,Akron,Kyle Pohl,514617,-0.406,-0.234
+2014,7,regular,Massachusetts,Blake Frohnapfel,518271,0.42,0.42
+2014,7,regular,Kent State,Nick Holley,550339,-0.015,-0.513
+2014,7,regular,Western Michigan,Zach Terrell,532645,0.564,0.588
+2014,7,regular,Ball State,Jack Milas,546005,0.326,0.342
+2014,7,regular,Air Force,Kale Pearson,535972,0.163,0.561
+2014,7,regular,Utah State,Darell Garretson,550720,0.42,0.371
+2014,7,regular,Air Force,Nate Romine,554528,-0.162,-0.034
+2014,7,regular,Nevada,Cody Fajardo,501241,0.217,0.077
+2014,7,regular,Colorado State,Garrett Grayson,515528,0.442,0.495
+2014,7,regular,Fresno State,Brian Burrell,546271,0.145,0.238
+2014,7,regular,UNLV,Blake Decker,3125318,0.26,0.323
+2014,7,regular,Wyoming,Colby Kirkegaard,520520,0.223,0.201
+2014,7,regular,Hawai'i,Taylor Graham,532975,0.343,0.397
+2014,7,regular,Hawai'i,Ikaika Woolsey,532976,1.242,1.96
+2014,7,regular,San Diego State,Quinn Kaehler,547570,0.063,0.063
+2014,7,regular,New Mexico,Lamar Jordan,551028,0.357,0.228
+2014,7,regular,Washington State,Connor Halliday,504823,0.031,0.031
+2014,7,regular,Stanford,Kevin Hogan,516357,0.418,0.408
+2014,7,regular,USC,Cody Kessler,513329,0.216,0.223
+2014,7,regular,Arizona,Anu Solomon,552097,0.2,0.218
+2014,7,regular,Oregon,Marcus Mariota,511459,0.563,0.482
+2014,7,regular,UCLA,Brett Hundley,511982,0.302,0.342
+2014,7,regular,Washington,Cyler Miles,535325,0.312,0.448
+2014,7,regular,California,Jared Goff,547401,-0.01,0.066
+2014,7,regular,Alabama,Blake Sims,504052,0.266,0.357
+2014,7,regular,Arkansas,Brandon Allen,515915,0.107,0.235
+2014,7,regular,Florida,Jeff Driskel,511889,0.174,0.262
+2014,7,regular,LSU,Anthony Jennings,546033,-0.024,-0.023
+2014,7,regular,UL Monroe,Pete Thomas,501565,-0.147,-0.178
+2014,7,regular,UL Monroe,Brayle Brown,512345,-0.579,-1.05
+2014,7,regular,Kentucky,Patrick Towles,530944,0.096,0.101
+2014,7,regular,Kentucky,Reese Phillips,546354,-1.056,-0.781
+2014,7,regular,Ole Miss,Bo Wallace,500990,0.323,0.175
+2014,7,regular,Texas A&M,Conner McQueen,532118,-2.401,
+2014,7,regular,Texas A&M,Kenny Hill,549865,0.385,0.404
+2014,7,regular,Mississippi State,Dak Prescott,512030,0.261,0.198
+2014,7,regular,Auburn,Nick Marshall,550021,0.058,0.03
+2014,7,regular,Georgia,Hutson Mason,504004,0.285,0.171
+2014,7,regular,Missouri,Maty Mauk,531385,-0.31,-0.384
+2014,7,regular,Georgia,Brice Ramsey,546345,1.899,1.899
+2014,7,regular,Tennessee,Justin Worley,512424,0.462,0.354
+2014,7,regular,Chattanooga,Jacob Huesman,512913,0.04,0.014
+2014,7,regular,Tennessee,Nathan Peterman,532065,0.286,0.147
+2014,7,regular,Chattanooga,Alejandro Bennifield,548475,0.142,0.21
+2014,7,regular,Charleston Southern,Austin Brown,518239,-0.111,0.001
+2014,7,regular,Charleston Southern,Daniel Croghan III,534708,-0.353,-0.353
+2014,7,regular,Vanderbilt,Johnny McCrary,546184,0.651,0.584
+2014,7,regular,Vanderbilt,Wade Freebeck,3122157,-0.08,-0.08
+2014,7,regular,Liberty,Josh Woodrum,514651,0.603,0.726
+2014,7,regular,Liberty,Stephon Masha,547303,-0.113,-0.16
+2014,7,regular,App State,Taylor Lamb,548447,0.567,0.568
+2014,7,regular,Georgia State,Ben McLane,513860,0.814,0.678
+2014,7,regular,Arkansas State,Stephen Hogan,515874,0.247,0.247
+2014,7,regular,Arkansas State,Fredi Knighten,538156,0.567,0.544
+2014,7,regular,Georgia State,Nick Arbuckle,3124848,-0.121,-0.067
+2014,7,regular,Idaho,Chad Chalich,531172,0.86,2.321
+2014,7,regular,Georgia Southern,Kevin Ellison,532925,0.221,0.057
+2014,7,regular,Georgia Southern,Favian Upshaw,549301,1.895,2.215
+2014,7,regular,Idaho,Matt Linehan,553235,-0.006,-0.06
+2014,7,regular,Troy,Brandon Silvers,546145,0.174,0.203
+2014,7,regular,New Mexico State,Tyler Rogers,3124981,0.368,0.382
+2014,7,regular,VMI,Al Cobb,547410,-0.123,-0.088
+2014,7,regular,Navy,Will Worth,551208,0.018,-2.326
+2014,7,regular,Navy,Tago Smith,551222,0.52,0.886
+2014,8,regular,Tulane,Nick Montana,499807,-0.188,-0.231
+2014,8,regular,UCF,Nick Patti,531755,0.53,0.305
+2014,8,regular,UCF,Justin Holman,551184,-0.185,-0.245
+2014,8,regular,Cincinnati,Munchie Legaux,502335,-0.247,-0.093
+2014,8,regular,SMU,Garrett Krstich,519812,-0.015,-0.014
+2014,8,regular,SMU,Matt Davis,532113,0.058,-0.643
+2014,8,regular,Cincinnati,Gunner Kiel,534259,0.784,0.787
+2014,8,regular,Houston,Greg Ward Jr.,545552,0.368,0.4
+2014,8,regular,Temple,P.J. Walker,549759,0.064,-0.009
+2014,8,regular,Tulsa,Dane Evans,532273,0.461,0.54
+2014,8,regular,South Florida,Mike White,549804,0.678,0.709
+2014,8,regular,Boston College,Tyler Murphy,503970,0.098,0.026
+2014,8,regular,Clemson,Cole Stoudt,512052,0.235,0.274
+2014,8,regular,Duke,Anthony Boone,501046,0.128,0.153
+2014,8,regular,Duke,Thomas Sirk,530478,0.762,2.211
+2014,8,regular,Virginia,Matt Johns,535548,0.261,0.323
+2014,8,regular,Notre Dame,Everett Golson,515409,0.043,0.027
+2014,8,regular,Florida State,Jameis Winston,530308,0.495,0.532
+2014,8,regular,North Carolina,Marquise Williams,516347,0.507,0.575
+2014,8,regular,Georgia Tech,Justin Thomas,531104,0.301,0.679
+2014,8,regular,NC State,Jacoby Brissett,512191,0.083,-0.071
+2014,8,regular,Louisville,Will Gardner,530357,0.137,0.165
+2014,8,regular,Virginia Tech,Michael Brewer,514481,0.091,0.12
+2014,8,regular,Pittsburgh,Chad Voytik,530450,-0.047,-0.336
+2014,8,regular,Wake Forest,Kevin Sousa,515580,-0.408,-2.188
+2014,8,regular,Wake Forest,Tyler Cameron,530328,-0.207,-0.349
+2014,8,regular,Syracuse,AJ Long,3116756,0.283,0.237
+2014,8,regular,Wake Forest,John Wolford,3124092,0.393,0.427
+2014,8,regular,Kansas,Michael Cummings,535521,0.279,0.238
+2014,8,regular,Texas Tech,Davis Webb,550386,0.178,0.178
+2014,8,regular,Baylor,Bryce Petty,480746,-0.02,-0.083
+2014,8,regular,West Virginia,Clint Trickett,501098,0.562,0.562
+2014,8,regular,Baylor,Seth Russell,535511,-1.081,-1.081
+2014,8,regular,Iowa State,Sam B. Richardson,511969,0.244,0.218
+2014,8,regular,Texas,Tyrone Swoopes,547338,0.467,0.352
+2014,8,regular,TCU,Matt Joeckel,501033,-0.358,-0.445
+2014,8,regular,Oklahoma State,Daxx Garman,514105,-0.083,-0.08
+2014,8,regular,TCU,Trevone Boykin,517127,0.49,0.525
+2014,8,regular,Oklahoma,Trevor Knight,534449,0.66,0.81
+2014,8,regular,Kansas State,Jake Waters,550158,0.463,0.37
+2014,8,regular,Oklahoma,Cody Thomas,550504,0.709,0.616
+2014,8,regular,Michigan State,Connor Cook,512705,0.788,0.81
+2014,8,regular,Indiana,Nate Boudreau,535797,-0.611,-0.611
+2014,8,regular,Indiana,Zander Diamont,3128254,-0.309,-0.342
+2014,8,regular,Maryland,C.J. Brown,480846,-0.059,-0.19
+2014,8,regular,Iowa,Jake Rudock,518380,-0.094,-0.119
+2014,8,regular,Maryland,Perry Hills,534317,0.422,0.572
+2014,8,regular,Minnesota,Mitch Leidner,530731,0.527,0.6
+2014,8,regular,Purdue,Austin Appleby,534770,0.38,0.393
+2014,8,regular,Northwestern,Trevor Siemian,500419,-0.108,-0.055
+2014,8,regular,Nebraska,Tommy Armstrong Jr.,533270,0.318,0.429
+2014,8,regular,Rutgers,Gary Nova,518344,0.077,0.085
+2014,8,regular,Ohio State,Cardale Jones,534294,-0.451,
+2014,8,regular,Ohio State,J.T. Barrett,545624,0.734,0.481
+2014,8,regular,Rutgers,Chris Laviano,547549,-1.085,
+2014,8,regular,Marshall,Rakeem Cato,518267,0.585,0.558
+2014,8,regular,Marshall,Gunnar Holcombe,535461,0.047,
+2014,8,regular,Florida International,E.J. Hilliard,536571,0.614,0.8
+2014,8,regular,Florida International,Alex McGough,3128843,-0.051,-0.096
+2014,8,regular,Western Kentucky,Brandon Doughty,504866,0.236,0.204
+2014,8,regular,Florida Atlantic,Greg Hankerson,550873,-0.678,-0.678
+2014,8,regular,Florida Atlantic,Jaquez Johnson,550876,0.604,0.727
+2014,8,regular,Louisiana Tech,Cody Sokol,530696,0.14,0.188
+2014,8,regular,UTSA,Tucker Carter,535979,0.329,0.329
+2014,8,regular,Middle Tennessee,Austin Grammer,531589,0.078,0.098
+2014,8,regular,UAB,Jeremiah Briscoe,550754,-3.304,-3.304
+2014,8,regular,UAB,Cody Clements,3129249,0.341,0.24
+2014,8,regular,North Texas,Andrew McNulty,515147,0.22,0.245
+2014,8,regular,North Texas,Dajon Williams,549918,-1.232,-1.232
+2014,8,regular,Southern Miss,Nick Mullens,552880,0.207,0.167
+2014,8,regular,Ohio,JD Sprague,532433,0.249,0.108
+2014,8,regular,Army,Angel Santiago,515360,-0.29,-0.632
+2014,8,regular,Army,A.J. Schurr,535646,0.168,0.168
+2014,8,regular,Kent State,Nathan Strock,550246,0.575,
+2014,8,regular,Kent State,Nick Holley,550339,-0.275,-0.203
+2014,8,regular,Central Michigan,Cooper Rush,531455,0.294,0.36
+2014,8,regular,Ball State,Jack Milas,546005,0.25,0.279
+2014,8,regular,Massachusetts,Blake Frohnapfel,518271,0.229,0.258
+2014,8,regular,Eastern Michigan,Reginald Bell,3125823,-0.026,0.078
+2014,8,regular,Miami (OH),Andrew Hendrix,500913,0.486,0.396
+2014,8,regular,Northern Illinois,Drew Hare,532480,0.695,0.704
+2014,8,regular,Northern Illinois,Anthony Maddie,532644,0.678,0.07
+2014,8,regular,Bowling Green,James Knapke,531801,-0.033,-0.054
+2014,8,regular,Western Michigan,Zach Terrell,532645,0.439,0.471
+2014,8,regular,Air Force,Kale Pearson,535972,0.374,0.686
+2014,8,regular,New Mexico,Lamar Jordan,551028,0.208,0.328
+2014,8,regular,Fresno State,Brandon Connette,501052,-0.498,
+2014,8,regular,Boise State,Grant Hedrick,504908,0.223,0.325
+2014,8,regular,Fresno State,Brian Burrell,546271,0.078,-0.075
+2014,8,regular,Colorado State,Garrett Grayson,515528,0.143,0.02
+2014,8,regular,Utah State,Craig Harrison,531196,-0.227,-0.358
+2014,8,regular,Utah State,Darell Garretson,550720,0.421,0.421
+2014,8,regular,Hawai'i,Ikaika Woolsey,532976,0.113,0.164
+2014,8,regular,San Diego State,Quinn Kaehler,547570,0.146,0.115
+2014,8,regular,BYU,Christian Stewart,381494,0.265,0.259
+2014,8,regular,Nevada,Cody Fajardo,501241,0.474,0.523
+2014,8,regular,San José State,Joe Gray,512675,0.5,0.472
+2014,8,regular,Wyoming,Colby Kirkegaard,520520,0.04,-0.069
+2014,8,regular,Oregon State,Sean Mannion,504786,0.051,0.118
+2014,8,regular,Utah,Kendal Thompson,514737,-0.415,-0.588
+2014,8,regular,Utah,Travis Wilson,531051,-0.287,-0.242
+2014,8,regular,Stanford,Kevin Hogan,516357,0.123,0.062
+2014,8,regular,Arizona State,Mike Bercovici,517393,0.298,0.298
+2014,8,regular,USC,Cody Kessler,513329,0.783,0.783
+2014,8,regular,USC,Max Browne,546415,-0.529,-0.578
+2014,8,regular,Colorado,Jordan Gehrke,550268,0.231,-0.002
+2014,8,regular,Colorado,Sefo Liufau,550278,0.239,0.167
+2014,8,regular,UCLA,Brett Hundley,511982,0.338,0.34
+2014,8,regular,California,Jared Goff,547401,0.131,0.155
+2014,8,regular,Oregon,Marcus Mariota,511459,0.545,0.507
+2014,8,regular,Washington,Cyler Miles,535325,0.351,0.31
+2014,8,regular,Washington,Troy Williams,546876,0.277,-0.135
+2014,8,regular,Georgia,Hutson Mason,504004,0.647,0.624
+2014,8,regular,Arkansas,Brandon Allen,515915,0.235,0.29
+2014,8,regular,Kentucky,Patrick Towles,530944,-0.116,-0.14
+2014,8,regular,LSU,Anthony Jennings,546033,0.537,0.439
+2014,8,regular,LSU,Brandon Harris,559751,-0.443,-3.056
+2014,8,regular,Ole Miss,Bo Wallace,500990,0.21,0.23
+2014,8,regular,Tennessee,Justin Worley,512424,-0.139,-0.125
+2014,8,regular,Tennessee,Nathan Peterman,532065,-0.046,
+2014,8,regular,Florida,Jeff Driskel,511889,-0.372,-0.399
+2014,8,regular,Missouri,Maty Mauk,531385,-0.241,-0.561
+2014,8,regular,Florida,Treon Harris,3121647,0.503,0.323
+2014,8,regular,South Carolina,Dylan Thompson,504295,0.388,0.539
+2014,8,regular,South Carolina,Connor Mitch,548142,-0.318,-0.4
+2014,8,regular,South Carolina,Perry Orth,548144,-0.848,-0.848
+2014,8,regular,Furman,P.J. Blazejowski,559492,-0.049,0.169
+2014,8,regular,Alabama,Blake Sims,504052,0.745,0.732
+2014,8,regular,Alabama,Jake Coker,514124,-0.011,-0.011
+2014,8,regular,Texas A&M,Kenny Hill,549865,-0.174,-0.169
+2014,8,regular,Texas A&M,Kyle Allen,559681,-0.777,-0.777
+2014,8,regular,Louisiana,Terrance Broadway,503922,0.326,0.293
+2014,8,regular,Louisiana,Brooks Haack,531678,-0.305,0.844
+2014,8,regular,Texas State,Tyler Jones,548240,0.105,0.222
+2014,8,regular,App State,Kameron Bryant,512882,0.643,
+2014,8,regular,Troy,Brandon Silvers,546145,-0.097,-0.105
+2014,8,regular,App State,Taylor Lamb,548447,0.364,0.059
+2014,8,regular,Troy,Dontreal Pruitt,3125460,0.334,0.338
+2014,8,regular,South Alabama,Brandon Bridge,507211,0.174,-0.04
+2014,8,regular,Georgia State,Nick Arbuckle,3124848,0.097,0.245
+2014,8,regular,Idaho,Chad Chalich,531172,0.134,0.084
+2014,8,regular,Idaho,Matt Linehan,553235,0.366,0.181
+2014,8,regular,New Mexico State,Tyler Rogers,3124981,0.103,-0.203
+2014,9,regular,East Carolina,Shane Carden,500938,0.301,0.332
+2014,9,regular,UConn,Chandler Whitmer,533264,0.544,0.552
+2014,9,regular,UConn,Tim Boyle,546675,-0.227,-0.227
+2014,9,regular,Cincinnati,Munchie Legaux,502335,0.398,0.523
+2014,9,regular,Cincinnati,Gunner Kiel,534259,0.344,0.382
+2014,9,regular,South Florida,Steven Bench,539215,0.531,0.648
+2014,9,regular,South Florida,Mike White,549804,-0.184,-0.088
+2014,9,regular,Temple,Connor Reilly,500975,-0.417,-0.417
+2014,9,regular,Temple,P.J. Walker,549759,-0.234,-0.291
+2014,9,regular,UCF,Justin Holman,551184,0.404,0.39
+2014,9,regular,SMU,Garrett Krstich,519812,-0.066,-0.17
+2014,9,regular,SMU,Matt Davis,532113,-0.187,-0.466
+2014,9,regular,Memphis,Paxton Lynch,534849,0.528,0.609
+2014,9,regular,SMU,Kolney Cassel,545334,-0.058,-0.058
+2014,9,regular,Memphis,Jason Stewart,3126208,0.322,0.477
+2014,9,regular,Boston College,Tyler Murphy,503970,0.618,1.097
+2014,9,regular,Wake Forest,John Wolford,3124092,0.261,0.236
+2014,9,regular,Clemson,Cole Stoudt,512052,0.107,0.077
+2014,9,regular,Syracuse,AJ Long,3116756,-0.373,-0.289
+2014,9,regular,Georgia Tech,Tim Byerly,512366,0.072,-0.337
+2014,9,regular,Pittsburgh,Trey Anderson,519055,0.416,0.416
+2014,9,regular,Pittsburgh,Chad Voytik,530450,0.303,0.309
+2014,9,regular,Georgia Tech,Justin Thomas,531104,0.566,0.971
+2014,9,regular,Virginia Tech,Mark Leal,501222,0.694,0.731
+2014,9,regular,Virginia Tech,Michael Brewer,514481,-0.144,-0.038
+2014,9,regular,Miami,Brad Kaaya,3123048,0.024,0.05
+2014,9,regular,North Carolina,Marquise Williams,516347,0.129,0.174
+2014,9,regular,Virginia,Greyson Lambert,530521,0.285,0.272
+2014,9,regular,North Carolina,Mitch Trubisky,545238,3.598,3.598
+2014,9,regular,Kansas State,Joe Hubener,517248,0.44,
+2014,9,regular,Texas,Tyrone Swoopes,547338,-0.04,-0.097
+2014,9,regular,Kansas State,Jake Waters,550158,0.38,0.407
+2014,9,regular,West Virginia,Clint Trickett,501098,0.331,0.288
+2014,9,regular,Oklahoma State,Daxx Garman,514105,-0.143,-0.202
+2014,9,regular,TCU,Matt Joeckel,501033,0.603,0.599
+2014,9,regular,TCU,Bram Kohlhausen,512469,0.091,0.091
+2014,9,regular,TCU,Trevone Boykin,517127,0.678,0.684
+2014,9,regular,TCU,Zach Allen,545502,0.749,0.996
+2014,9,regular,Texas Tech,Davis Webb,550386,0.293,0.313
+2014,9,regular,Texas Tech,Patrick Mahomes,3139477,0.098,0.157
+2014,9,regular,Illinois,Reilly O'Toole,515454,0.116,-0.047
+2014,9,regular,Minnesota,Mitch Leidner,530731,0.126,0.138
+2014,9,regular,Illinois,Aaron Bailey,546062,-0.41,-0.133
+2014,9,regular,Maryland,C.J. Brown,480846,0.003,0.026
+2014,9,regular,Wisconsin,Joel Stave,514230,0.246,0.246
+2014,9,regular,Michigan,Devin Gardner,501543,-0.639,-0.429
+2014,9,regular,Michigan State,Connor Cook,512705,0.361,0.375
+2014,9,regular,Michigan,Shane Morris,546706,-0.635,-0.635
+2014,9,regular,Rutgers,Gary Nova,518344,0.241,0.294
+2014,9,regular,Nebraska,Tommy Armstrong Jr.,533270,0.523,0.681
+2014,9,regular,Rutgers,Chris Laviano,547549,0.218,-0.102
+2014,9,regular,Ohio State,Cardale Jones,534294,-1.192,
+2014,9,regular,Ohio State,J.T. Barrett,545624,-0.222,-0.595
+2014,9,regular,Penn State,Christian Hackenberg,552329,-0.041,-0.07
+2014,9,regular,Marshall,Rakeem Cato,518267,0.508,0.536
+2014,9,regular,Florida Atlantic,Jaquez Johnson,550876,0.055,-0.008
+2014,9,regular,Louisiana Tech,Cody Sokol,530696,0.655,0.622
+2014,9,regular,Southern Miss,Cole Weeks,532089,0.25,0.283
+2014,9,regular,Southern Miss,Nick Mullens,552880,0.664,0.982
+2014,9,regular,Rice,Driphus Jackson,514894,0.491,0.587
+2014,9,regular,North Texas,Andrew McNulty,515147,-0.293,-0.294
+2014,9,regular,North Texas,Dajon Williams,549918,1.67,-0.1
+2014,9,regular,Western Kentucky,Brandon Doughty,504866,0.901,1.118
+2014,9,regular,Old Dominion,Taylor Heinicke,513949,0.537,0.593
+2014,9,regular,Old Dominion,David Washington,535113,0.472,0.472
+2014,9,regular,UAB,Myles McKee,506444,-3.351,-3.351
+2014,9,regular,Arkansas,Brandon Allen,515915,0.539,0.539
+2014,9,regular,Arkansas,Austin Allen,547206,-0.224,-0.224
+2014,9,regular,UAB,Jeremiah Briscoe,550754,-0.442,-0.462
+2014,9,regular,UTEP,Jameill Showers,500571,0.244,0.335
+2014,9,regular,Ball State,Jack Milas,546005,0.268,0.211
+2014,9,regular,Buffalo,Joe Licata,513614,0.239,0.285
+2014,9,regular,Central Michigan,Cooper Rush,531455,0.343,0.265
+2014,9,regular,Miami (OH),Andrew Hendrix,500913,0.16,-0.002
+2014,9,regular,Kent State,Nathan Strock,550246,0.041,0.041
+2014,9,regular,Kent State,Nick Holley,550339,-0.171,-0.018
+2014,9,regular,Northern Illinois,Drew Hare,532480,0.354,-0.287
+2014,9,regular,Northern Illinois,Anthony Maddie,532644,-0.055,0.174
+2014,9,regular,Eastern Michigan,Reginald Bell,3125823,0.049,-0.302
+2014,9,regular,Ohio,Derrius Vick,511552,0.032,0.016
+2014,9,regular,Ohio,JD Sprague,532433,0.019,0.139
+2014,9,regular,Western Michigan,Zach Terrell,532645,0.535,0.585
+2014,9,regular,Massachusetts,Blake Frohnapfel,518271,0.411,0.411
+2014,9,regular,Toledo,Logan Woodside,545910,0.408,0.489
+2014,9,regular,BYU,Christian Stewart,381494,0.276,0.227
+2014,9,regular,Boise State,Grant Hedrick,504908,0.865,0.879
+2014,9,regular,Boise State,Ryan Finley,546288,1.34,
+2014,9,regular,Colorado State,Garrett Grayson,515528,1.298,1.335
+2014,9,regular,Wyoming,Colby Kirkegaard,520520,0.487,0.482
+2014,9,regular,Colorado State,Nick Stevens,546267,0.991,0.991
+2014,9,regular,San José State,Joe Gray,512675,0.416,0.475
+2014,9,regular,Navy,Keenan Reynolds,530568,0.369,0.19
+2014,9,regular,Utah State,Craig Harrison,531196,0.441,0.413
+2014,9,regular,UNLV,Blake Decker,3125318,0.098,0.123
+2014,9,regular,Utah State,Kent Myers,3125353,0.456,0.302
+2014,9,regular,Oregon,Marcus Mariota,511459,0.573,0.576
+2014,9,regular,California,Jared Goff,547401,0.29,0.302
+2014,9,regular,Washington State,Connor Halliday,504823,0.125,0.162
+2014,9,regular,Arizona,Anu Solomon,552097,0.516,0.6
+2014,9,regular,Arizona State,Taylor Kelly,504700,0.071,0.074
+2014,9,regular,Washington,Troy Williams,546876,-0.021,-0.028
+2014,9,regular,USC,Cody Kessler,513329,0.514,0.623
+2014,9,regular,Utah,Travis Wilson,531051,0.012,0.214
+2014,9,regular,USC,Max Browne,546415,-0.41,-0.41
+2014,9,regular,Oregon State,Sean Mannion,504786,-0.325,-0.276
+2014,9,regular,Stanford,Evan Crower,516354,0.647,0.647
+2014,9,regular,Stanford,Kevin Hogan,516357,0.609,0.533
+2014,9,regular,Oregon State,Luke Del Rio,546362,0.792,0.792
+2014,9,regular,UCLA,Brett Hundley,511982,0.274,0.218
+2014,9,regular,Colorado,Sefo Liufau,550278,0.157,0.189
+2014,9,regular,Ole Miss,Bo Wallace,500990,-0.071,-0.12
+2014,9,regular,LSU,Anthony Jennings,546033,0.333,0.572
+2014,9,regular,Mississippi State,Dak Prescott,512030,0.244,0.082
+2014,9,regular,Kentucky,Patrick Towles,530944,0.341,0.226
+2014,9,regular,South Carolina,Dylan Thompson,504295,0.479,0.481
+2014,9,regular,Auburn,Nick Marshall,550021,0.962,1.059
+2014,9,regular,Alabama,Blake Sims,504052,0.819,0.67
+2014,9,regular,Tennessee,Nathan Peterman,532065,-0.654,-0.654
+2014,9,regular,Tennessee,Joshua Dobbs,546540,0.3,0.369
+2014,9,regular,Missouri,Maty Mauk,531385,0.322,0.113
+2014,9,regular,Vanderbilt,Johnny McCrary,546184,0.311,0.238
+2014,9,regular,Louisiana,Terrance Broadway,503922,0.097,0.086
+2014,9,regular,Louisiana,Jalen Nixon,531430,0.028,
+2014,9,regular,Arkansas State,Fredi Knighten,538156,0.376,0.4
+2014,9,regular,Georgia Southern,Ezayi Youyoute,505864,1.547,
+2014,9,regular,Georgia State,Ronnie Bell,513425,-0.175,
+2014,9,regular,Georgia Southern,Kevin Ellison,532925,0.499,0.479
+2014,9,regular,Georgia Southern,Favian Upshaw,549301,0.661,
+2014,9,regular,Georgia State,Nick Arbuckle,3124848,0.585,0.62
+2014,9,regular,UL Monroe,Pete Thomas,501565,0.25,0.266
+2014,9,regular,UL Monroe,Brayle Brown,512345,-0.246,-0.246
+2014,9,regular,Texas State,Tyler Jones,548240,0.163,0.222
+2014,9,regular,South Alabama,Brandon Bridge,507211,-0.144,-0.043
+2014,9,regular,Troy,Brandon Silvers,546145,-0.056,-0.121
+2014,9,regular,Troy,Dontreal Pruitt,3125460,0.389,0.573
+2014,10,regular,Cincinnati,Munchie Legaux,502335,0.763,0.806
+2014,10,regular,Cincinnati,Gunner Kiel,534259,-0.922,-0.922
+2014,10,regular,Tulane,Tanner Lee,545757,-0.071,0.0
+2014,10,regular,Cincinnati,Michael Colosimo,552214,-0.195,-0.195
+2014,10,regular,Tulsa,Dane Evans,532273,0.288,0.307
+2014,10,regular,Memphis,Paxton Lynch,534849,0.124,-0.086
+2014,10,regular,UConn,Chandler Whitmer,533264,0.151,0.286
+2014,10,regular,UConn,Tim Boyle,546675,-0.557,-0.557
+2014,10,regular,UCF,Justin Holman,551184,0.069,0.047
+2014,10,regular,East Carolina,Shane Carden,500938,-0.111,-0.046
+2014,10,regular,Temple,P.J. Walker,549759,-0.267,-0.227
+2014,10,regular,South Florida,Steven Bench,539215,0.027,-0.033
+2014,10,regular,Houston,Greg Ward Jr.,545552,0.189,0.233
+2014,10,regular,South Florida,Quinton Flowers,3139591,-0.856,-0.856
+2014,10,regular,Boston College,Tyler Murphy,503970,0.338,0.07
+2014,10,regular,Virginia Tech,Michael Brewer,514481,0.331,0.28
+2014,10,regular,Duke,Anthony Boone,501046,0.44,0.528
+2014,10,regular,Pittsburgh,Chad Voytik,530450,0.584,0.562
+2014,10,regular,Duke,Thomas Sirk,530478,1.757,
+2014,10,regular,Florida State,Jameis Winston,530308,0.357,0.313
+2014,10,regular,Louisville,Will Gardner,530357,0.198,0.198
+2014,10,regular,Virginia,David Watford,511361,0.708,0.708
+2014,10,regular,Georgia Tech,Tim Byerly,512366,0.134,
+2014,10,regular,Virginia,Greyson Lambert,530521,-0.001,0.023
+2014,10,regular,Georgia Tech,Justin Thomas,531104,0.336,1.098
+2014,10,regular,Virginia,Matt Johns,535548,-0.212,-0.212
+2014,10,regular,Miami,Jake Heaps,501563,0.018,0.018
+2014,10,regular,North Carolina,Marquise Williams,516347,-0.029,-0.13
+2014,10,regular,North Carolina,Mitch Trubisky,545238,0.019,0.009
+2014,10,regular,Miami,Brad Kaaya,3123048,0.882,0.934
+2014,10,regular,NC State,Jacoby Brissett,512191,0.095,0.095
+2014,10,regular,Syracuse,AJ Long,3116756,0.086,0.145
+2014,10,regular,Texas,Tyrone Swoopes,547338,0.277,0.384
+2014,10,regular,Texas Tech,Patrick Mahomes,3139477,0.156,0.205
+2014,10,regular,Texas Tech,Vincent Testaverde,3139487,-0.342,-0.341
+2014,10,regular,Oklahoma State,Daxx Garman,514105,-0.281,-0.136
+2014,10,regular,Kansas State,Joe Hubener,517248,-0.424,-1.254
+2014,10,regular,Kansas State,Jake Waters,550158,0.3,0.407
+2014,10,regular,Kansas State,Jesse Ertz,550448,0.285,
+2014,10,regular,Iowa State,Sam B. Richardson,511969,0.152,0.135
+2014,10,regular,Iowa State,Grant Rohach,531222,-0.515,-1.021
+2014,10,regular,Oklahoma,Trevor Knight,534449,0.505,0.266
+2014,10,regular,Oklahoma,Cody Thomas,550504,-0.711,-0.776
+2014,10,regular,Baylor,Bryce Petty,480746,0.391,0.522
+2014,10,regular,Baylor,Seth Russell,535511,0.659,0.258
+2014,10,regular,Kansas,Michael Cummings,535521,0.459,0.664
+2014,10,regular,West Virginia,Clint Trickett,501098,0.121,0.186
+2014,10,regular,TCU,Trevone Boykin,517127,-0.011,-0.183
+2014,10,regular,TCU,Zach Allen,545502,-0.424,
+2014,10,regular,Illinois,Reilly O'Toole,515454,-0.144,-0.263
+2014,10,regular,Ohio State,Cardale Jones,534294,0.409,0.58
+2014,10,regular,Ohio State,J.T. Barrett,545624,0.258,0.164
+2014,10,regular,Illinois,Aaron Bailey,546062,0.02,0.164
+2014,10,regular,Michigan,Devin Gardner,501543,0.473,0.488
+2014,10,regular,Indiana,Nate Boudreau,535797,-0.894,-0.894
+2014,10,regular,Indiana,Zander Diamont,3128254,0.231,-0.049
+2014,10,regular,Northwestern,Trevor Siemian,500419,-0.284,-0.299
+2014,10,regular,Northwestern,Zack Oliver,518323,-0.482,-0.46
+2014,10,regular,Iowa,Jake Rudock,518380,0.661,0.913
+2014,10,regular,Iowa,C.J. Beathard,535844,0.202,-0.033
+2014,10,regular,Maryland,C.J. Brown,480846,-0.1,-0.122
+2014,10,regular,Penn State,Christian Hackenberg,552329,-0.063,-0.081
+2014,10,regular,Nebraska,Tommy Armstrong Jr.,533270,-0.168,-0.213
+2014,10,regular,Purdue,Austin Appleby,534770,-0.085,-0.165
+2014,10,regular,Wisconsin,Joel Stave,514230,0.249,0.195
+2014,10,regular,Rutgers,Gary Nova,518344,-0.412,-0.412
+2014,10,regular,Rutgers,Chris Laviano,547549,-0.355,-0.446
+2014,10,regular,Rice,Driphus Jackson,514894,0.439,0.323
+2014,10,regular,Rice,Tyler Stehling,536503,-0.572,-0.572
+2014,10,regular,Florida International,E.J. Hilliard,536571,-0.207,-0.205
+2014,10,regular,Florida International,Alex McGough,3128843,0.07,0.2
+2014,10,regular,Western Kentucky,Brandon Doughty,504866,-0.197,-0.199
+2014,10,regular,Louisiana Tech,Taylor Burch,505012,-0.139,-0.139
+2014,10,regular,Louisiana Tech,Cody Sokol,530696,0.473,0.505
+2014,10,regular,Louisiana Tech,Ryan Higgins,531316,0.061,0.4
+2014,10,regular,Western Kentucky,Troy Jones,3124781,0.153,-0.206
+2014,10,regular,BYU,Christian Stewart,381494,0.234,0.224
+2014,10,regular,Middle Tennessee,Austin Grammer,531589,-0.214,-0.18
+2014,10,regular,Middle Tennessee,A.J. Erdely,545682,0.165,
+2014,10,regular,Old Dominion,Taylor Heinicke,513949,0.358,0.275
+2014,10,regular,Old Dominion,David Washington,535113,0.382,0.579
+2014,10,regular,Vanderbilt,Johnny McCrary,546184,0.759,0.842
+2014,10,regular,UTEP,Jameill Showers,500571,-0.001,-0.059
+2014,10,regular,Southern Miss,Cole Weeks,532089,0.076,0.033
+2014,10,regular,Eastern Michigan,Rob Bolden,501541,-0.317,-0.303
+2014,10,regular,Central Michigan,Cooper Rush,531455,0.766,0.766
+2014,10,regular,Eastern Michigan,Reginald Bell,3125823,0.116,
+2014,10,regular,Miami (OH),Andrew Hendrix,500913,-0.119,-0.501
+2014,10,regular,Miami (OH),Drew Kummer,514286,-0.105,-0.077
+2014,10,regular,Western Michigan,Zach Terrell,532645,0.791,0.665
+2014,10,regular,Army,Angel Santiago,515360,-0.284,-0.511
+2014,10,regular,Army,A.J. Schurr,535646,-0.502,-0.9
+2014,10,regular,Air Force,Kale Pearson,535972,0.424,0.687
+2014,10,regular,Wyoming,Colby Kirkegaard,520520,0.717,0.772
+2014,10,regular,Fresno State,Brian Burrell,546271,0.119,0.119
+2014,10,regular,Fresno State,Zack Greenlee,550587,-0.185,-0.423
+2014,10,regular,Hawai'i,Ikaika Woolsey,532976,0.255,0.283
+2014,10,regular,Utah State,Kent Myers,3125353,0.987,1.306
+2014,10,regular,Nevada,Cody Fajardo,501241,-0.094,-0.084
+2014,10,regular,San Diego State,Quinn Kaehler,547570,-0.04,-0.032
+2014,10,regular,New Mexico,Lamar Jordan,551028,-0.153,-0.809
+2014,10,regular,UNLV,Blake Decker,3125318,0.307,0.222
+2014,10,regular,UCLA,Brett Hundley,511982,0.274,0.174
+2014,10,regular,Arizona,Jerrard Randall,517210,-0.153,
+2014,10,regular,Arizona,Anu Solomon,552097,0.013,-0.044
+2014,10,regular,Arizona State,Taylor Kelly,504700,0.042,-0.023
+2014,10,regular,Arizona State,Mike Bercovici,517393,-2.946,-2.946
+2014,10,regular,Utah,Travis Wilson,531051,-0.001,-0.17
+2014,10,regular,Washington State,Connor Halliday,504823,0.246,0.246
+2014,10,regular,USC,Cody Kessler,513329,0.728,0.728
+2014,10,regular,Washington State,Luke Falk,550629,0.147,0.223
+2014,10,regular,Washington,Cyler Miles,535325,-0.058,0.568
+2014,10,regular,Colorado,Sefo Liufau,550278,-0.043,-0.001
+2014,10,regular,Oregon,Marcus Mariota,511459,0.751,0.549
+2014,10,regular,Stanford,Evan Crower,516354,0.977,0.977
+2014,10,regular,Stanford,Kevin Hogan,516357,0.15,0.229
+2014,10,regular,Oregon,Jeff Lockie,530875,-0.316,-0.316
+2014,10,regular,Oregon State,Sean Mannion,504786,0.251,0.254
+2014,10,regular,California,Jared Goff,547401,0.154,0.158
+2014,10,regular,Georgia,Hutson Mason,504004,0.267,0.324
+2014,10,regular,Florida,Treon Harris,3121647,0.157,0.339
+2014,10,regular,Ole Miss,Bo Wallace,500990,0.12,0.436
+2014,10,regular,Auburn,Nick Marshall,550021,0.596,0.73
+2014,10,regular,Mississippi State,Dak Prescott,512030,0.41,0.523
+2014,10,regular,Arkansas,Brandon Allen,515915,0.099,0.16
+2014,10,regular,Kentucky,Patrick Towles,530944,-0.019,0.06
+2014,10,regular,Missouri,Maty Mauk,531385,0.22,0.146
+2014,10,regular,South Carolina,Dylan Thompson,504295,0.389,0.406
+2014,10,regular,Tennessee,Joshua Dobbs,546540,0.363,0.248
+2014,10,regular,UL Monroe,Pete Thomas,501565,0.074,0.019
+2014,10,regular,UL Monroe,Brayle Brown,512345,0.525,0.525
+2014,10,regular,Texas A&M,Kyle Allen,559681,-0.171,-0.326
+2014,10,regular,App State,Kameron Bryant,512882,0.681,1.286
+2014,10,regular,Georgia State,Ronnie Bell,513425,-0.917,0.262
+2014,10,regular,App State,Taylor Lamb,548447,0.223,0.159
+2014,10,regular,Georgia State,Nick Arbuckle,3124848,-0.417,-0.32
+2014,10,regular,Idaho,Chad Chalich,531172,0.52,0.883
+2014,10,regular,Arkansas State,Fredi Knighten,538156,0.161,0.375
+2014,10,regular,Idaho,Matt Linehan,553235,-0.228,-0.161
+2014,10,regular,Louisiana,Terrance Broadway,503922,0.22,0.186
+2014,10,regular,South Alabama,Brandon Bridge,507211,0.141,0.226
+2014,10,regular,South Alabama,Matt Floyd,514749,0.375,0.409
+2014,10,regular,Texas State,Tyler Jones,548240,0.096,0.03
+2014,10,regular,New Mexico State,Tyler Rogers,3124981,0.296,0.325
+2014,10,regular,Notre Dame,Everett Golson,515409,0.74,0.661
+2014,10,regular,Navy,Keenan Reynolds,530568,0.148,0.137
+2014,10,regular,Georgia Southern,Kevin Ellison,532925,0.405,-0.178
+2014,10,regular,Troy,Brandon Silvers,546145,-0.373,-0.336
+2014,10,regular,Georgia Southern,Favian Upshaw,549301,1.184,0.361
+2014,10,regular,Troy,Dontreal Pruitt,3125460,-0.095,-0.658
+2014,11,regular,Army,Angel Santiago,515360,0.237,0.64
+2014,11,regular,UConn,Chandler Whitmer,533264,0.305,0.198
+2014,11,regular,Army,A.J. Schurr,535646,1.992,
+2014,11,regular,UConn,Tim Boyle,546675,-0.211,-0.211
+2014,11,regular,Houston,Greg Ward Jr.,545552,0.253,0.183
+2014,11,regular,Tulane,Tanner Lee,545757,0.439,0.439
+2014,11,regular,SMU,Matt Davis,532113,0.248,-0.053
+2014,11,regular,Tulsa,Dane Evans,532273,0.629,0.626
+2014,11,regular,Boston College,Tyler Murphy,503970,0.266,0.216
+2014,11,regular,Louisville,Will Gardner,530357,0.443,0.472
+2014,11,regular,Boston College,Darius Wade,3122790,-0.184,-0.111
+2014,11,regular,Clemson,Cole Stoudt,512052,0.256,0.224
+2014,11,regular,Wake Forest,John Wolford,3124092,-0.127,-0.128
+2014,11,regular,Duke,Anthony Boone,501046,-0.014,0.047
+2014,11,regular,Duke,Thomas Sirk,530478,0.594,
+2014,11,regular,Syracuse,Mitch Kimble,545275,0.069,-0.158
+2014,11,regular,Syracuse,Austin Wilson,545284,-0.209,-0.108
+2014,11,regular,Virginia,David Watford,511361,-0.71,-1.359
+2014,11,regular,Florida State,Jameis Winston,530308,0.457,0.352
+2014,11,regular,Virginia,Greyson Lambert,530521,0.101,0.174
+2014,11,regular,NC State,Jacoby Brissett,512191,0.387,0.22
+2014,11,regular,Georgia Tech,Tim Byerly,512366,0.948,3.464
+2014,11,regular,Georgia Tech,Justin Thomas,531104,0.654,0.548
+2014,11,regular,TCU,Trevone Boykin,517127,0.434,0.309
+2014,11,regular,Kansas State,Joe Hubener,517248,1.392,1.577
+2014,11,regular,Kansas State,Jake Waters,550158,0.155,0.228
+2014,11,regular,Iowa State,Grant Rohach,531222,-0.104,-0.131
+2014,11,regular,Kansas,Michael Cummings,535521,0.304,0.283
+2014,11,regular,Kansas,Montell Cozart,545417,0.018,-0.013
+2014,11,regular,Baylor,Bryce Petty,480746,0.368,0.412
+2014,11,regular,Oklahoma,Trevor Knight,534449,0.152,0.131
+2014,11,regular,Baylor,Seth Russell,535511,0.148,0.36
+2014,11,regular,Oklahoma,Cody Thomas,550504,-0.778,-0.778
+2014,11,regular,West Virginia,Clint Trickett,501098,-0.022,-0.035
+2014,11,regular,Texas,Tyrone Swoopes,547338,-0.04,-0.027
+2014,11,regular,Penn State,Christian Hackenberg,552329,-0.15,-0.177
+2014,11,regular,Indiana,Zander Diamont,3128254,-0.101,-0.255
+2014,11,regular,Iowa,Jake Rudock,518380,0.055,0.025
+2014,11,regular,Minnesota,Mitch Leidner,530731,0.901,1.327
+2014,11,regular,Iowa,C.J. Beathard,535844,0.098,0.098
+2014,11,regular,Minnesota,Conor Rhoda,545472,-0.268,-0.268
+2014,11,regular,Northwestern,Trevor Siemian,500419,0.14,0.173
+2014,11,regular,Michigan,Devin Gardner,501543,-0.235,-0.245
+2014,11,regular,Northwestern,Matt Alviti,546734,-0.4,-0.151
+2014,11,regular,Michigan State,Connor Cook,512705,0.476,0.454
+2014,11,regular,Ohio State,J.T. Barrett,545624,0.828,0.63
+2014,11,regular,Wisconsin,Joel Stave,514230,0.277,0.336
+2014,11,regular,Purdue,Austin Appleby,534770,0.038,0.026
+2014,11,regular,Old Dominion,Taylor Heinicke,513949,0.488,0.421
+2014,11,regular,Old Dominion,David Washington,535113,0.678,0.678
+2014,11,regular,Florida International,Alex McGough,3128843,0.39,0.228
+2014,11,regular,Louisiana Tech,Cody Sokol,530696,0.241,0.235
+2014,11,regular,UAB,Cody Clements,3129249,-0.083,-0.114
+2014,11,regular,Southern Miss,Cole Weeks,532089,0.652,1.61
+2014,11,regular,Rice,Driphus Jackson,514894,0.364,0.289
+2014,11,regular,UTSA,Tucker Carter,535979,-0.036,0.03
+2014,11,regular,UTEP,Jameill Showers,500571,-0.221,-0.227
+2014,11,regular,Western Kentucky,Brandon Doughty,504866,0.552,0.614
+2014,11,regular,Akron,Kyle Pohl,514617,-0.159,-0.108
+2014,11,regular,Bowling Green,James Knapke,531801,-0.151,-0.132
+2014,11,regular,Toledo,Logan Woodside,545910,0.601,0.597
+2014,11,regular,Kent State,Nathan Strock,550246,0.211,0.249
+2014,11,regular,Kent State,Nick Holley,550339,0.29,-1.515
+2014,11,regular,Toledo,Michael Julian,552746,-0.35,-0.5
+2014,11,regular,Ohio,Derrius Vick,511552,0.109,0.104
+2014,11,regular,Buffalo,Joe Licata,513614,-0.05,-0.042
+2014,11,regular,Buffalo,Tony Daniel,513615,0.19,-0.088
+2014,11,regular,Ohio,JD Sprague,532433,2.565,2.565
+2014,11,regular,Northern Illinois,Drew Hare,532480,-0.017,0.106
+2014,11,regular,Northern Illinois,Anthony Maddie,532644,0.217,0.341
+2014,11,regular,Ball State,Jack Milas,546005,-0.118,0.001
+2014,11,regular,Air Force,Kale Pearson,535972,0.601,0.982
+2014,11,regular,UNLV,Jared Lebowitz,552513,-0.433,-0.434
+2014,11,regular,Air Force,Nate Romine,554528,-1.161,
+2014,11,regular,UNLV,Blake Decker,3125318,0.064,0.035
+2014,11,regular,Boise State,Grant Hedrick,504908,0.889,0.973
+2014,11,regular,New Mexico,Lamar Jordan,551028,0.143,0.514
+2014,11,regular,Colorado State,Garrett Grayson,515528,0.714,0.756
+2014,11,regular,Colorado State,Craig Leonard,532684,0.907,
+2014,11,regular,Hawai'i,Ikaika Woolsey,532976,0.067,-0.032
+2014,11,regular,Colorado State,Nick Stevens,546267,-0.699,-0.699
+2014,11,regular,Fresno State,Brandon Connette,501052,-0.55,
+2014,11,regular,San José State,Joe Gray,512675,0.373,0.389
+2014,11,regular,Fresno State,Brian Burrell,546271,0.327,0.417
+2014,11,regular,Idaho,Chad Chalich,531172,0.572,0.283
+2014,11,regular,San Diego State,Quinn Kaehler,547570,0.439,0.458
+2014,11,regular,Idaho,Matt Linehan,553235,-0.348,-0.348
+2014,11,regular,Wyoming,Colby Kirkegaard,520520,-0.135,-0.227
+2014,11,regular,Utah State,Kent Myers,3125353,0.072,-0.109
+2014,11,regular,Colorado,Jordan Gehrke,550268,-0.684,-0.684
+2014,11,regular,Colorado,Sefo Liufau,550278,0.337,0.457
+2014,11,regular,Arizona,Anu Solomon,552097,0.097,-0.017
+2014,11,regular,Arizona State,Taylor Kelly,504700,0.421,0.346
+2014,11,regular,Notre Dame,Everett Golson,515409,-0.084,-0.106
+2014,11,regular,Notre Dame,Malik Zaire,550967,0.312,
+2014,11,regular,UCLA,Brett Hundley,511982,0.484,0.512
+2014,11,regular,Washington,Cyler Miles,535325,0.127,0.119
+2014,11,regular,Oregon,Marcus Mariota,511459,0.461,0.228
+2014,11,regular,Utah,Kendal Thompson,514737,0.245,0.198
+2014,11,regular,Utah,Travis Wilson,531051,0.341,0.363
+2014,11,regular,Oregon State,Sean Mannion,504786,0.307,0.347
+2014,11,regular,Washington State,Luke Falk,550629,0.428,0.435
+2014,11,regular,Alabama,Blake Sims,504052,0.125,0.106
+2014,11,regular,LSU,Anthony Jennings,546033,-0.085,-0.275
+2014,11,regular,LSU,Brandon Harris,559751,0.464,
+2014,11,regular,Georgia,Hutson Mason,504004,1.18,1.224
+2014,11,regular,Kentucky,Patrick Towles,530944,0.171,0.037
+2014,11,regular,Georgia,Brice Ramsey,546345,2.043,2.043
+2014,11,regular,Ole Miss,Bo Wallace,500990,0.312,0.305
+2014,11,regular,Presbyterian,Kaleb Griffin,514079,-0.622,-0.622
+2014,11,regular,Presbyterian,Heys McMath,547381,-0.274,-0.285
+2014,11,regular,Ole Miss,Ryan Buchanan,550114,-0.232,-0.232
+2014,11,regular,UT Martin,Dylan Favre,504238,-0.26,-0.286
+2014,11,regular,Mississippi State,Dak Prescott,512030,0.581,0.508
+2014,11,regular,UT Martin,Jarod Neal,516783,0.266,0.213
+2014,11,regular,Mississippi State,Damian Williams,546603,0.67,1.332
+2014,11,regular,Auburn,Nick Marshall,550021,0.569,0.549
+2014,11,regular,Texas A&M,Kyle Allen,559681,0.526,0.561
+2014,11,regular,Florida,Jeff Driskel,511889,0.234,-0.487
+2014,11,regular,Vanderbilt,Patton Robinette,532000,-0.19,-0.139
+2014,11,regular,Vanderbilt,Johnny McCrary,546184,-0.026,-0.076
+2014,11,regular,Florida,Treon Harris,3121647,0.422,0.427
+2014,11,regular,UL Monroe,Pete Thomas,501565,0.109,0.11
+2014,11,regular,App State,Taylor Lamb,548447,0.575,0.641
+2014,11,regular,South Alabama,Matt Floyd,514749,-0.242,-0.287
+2014,11,regular,Arkansas State,Stephen Hogan,515874,-0.878,-0.878
+2014,11,regular,Arkansas State,Fredi Knighten,538156,0.299,0.202
+2014,11,regular,South Alabama,Hunter Vaughn,3125255,-0.846,-2.192
+2014,11,regular,Troy,Dallas Tidwell,517960,0.06,0.06
+2014,11,regular,Troy,Brandon Silvers,546145,0.327,0.091
+2014,11,regular,Georgia State,Nick Arbuckle,3124848,0.342,0.42
+2014,11,regular,Georgia Southern,Kevin Ellison,532925,-0.119,0.28
+2014,11,regular,Texas State,Tyler Jones,548240,-0.045,-0.031
+2014,11,regular,Georgia Southern,Favian Upshaw,549301,-0.135,
+2014,11,regular,Louisiana,Terrance Broadway,503922,0.305,0.287
+2014,11,regular,Louisiana,Brooks Haack,531678,-2.914,-2.914
+2014,11,regular,New Mexico State,Tyler Rogers,3124981,0.184,0.271
+2014,11,regular,Memphis,Paxton Lynch,534849,0.358,0.497
+2014,11,regular,Temple,P.J. Walker,549759,-0.209,-0.28
+2014,12,regular,Tulsa,Joseph Calcagni,514152,-1.138,-0.371
+2014,12,regular,UCF,Nick Patti,531755,0.273,-0.666
+2014,12,regular,Tulsa,Dane Evans,532273,-0.249,-0.346
+2014,12,regular,UCF,Justin Holman,551184,0.503,0.535
+2014,12,regular,East Carolina,Shane Carden,500938,0.132,0.171
+2014,12,regular,Cincinnati,Gunner Kiel,534259,0.576,0.615
+2014,12,regular,Memphis,Paxton Lynch,534849,0.28,0.323
+2014,12,regular,Tulane,Tanner Lee,545757,-0.144,-0.144
+2014,12,regular,SMU,Matt Davis,532113,0.197,0.179
+2014,12,regular,South Florida,Mike White,549804,0.537,0.561
+2014,12,regular,South Florida,Quinton Flowers,3139591,0.265,0.241
+2014,12,regular,Temple,P.J. Walker,549759,-0.238,-0.314
+2014,12,regular,Penn State,Christian Hackenberg,552329,-0.034,-0.072
+2014,12,regular,Clemson,Cole Stoudt,512052,-0.207,-0.257
+2014,12,regular,Georgia Tech,Justin Thomas,531104,0.646,0.887
+2014,12,regular,Clemson,Nick Schuessler,537012,-0.154,-0.06
+2014,12,regular,Clemson,Deshaun Watson,3122840,0.054,0.021
+2014,12,regular,Duke,Anthony Boone,501046,0.066,-0.027
+2014,12,regular,Virginia Tech,Michael Brewer,514481,-0.109,-0.066
+2014,12,regular,Duke,Thomas Sirk,530478,0.377,1.185
+2014,12,regular,Virginia Tech,Brenden Motley,530541,0.365,
+2014,12,regular,Florida State,Jameis Winston,530308,0.308,0.294
+2014,12,regular,Miami,Brad Kaaya,3123048,0.171,0.233
+2014,12,regular,North Carolina,Marquise Williams,516347,0.44,0.363
+2014,12,regular,Pittsburgh,Chad Voytik,530450,0.447,1.037
+2014,12,regular,NC State,Jacoby Brissett,512191,0.104,0.001
+2014,12,regular,Wake Forest,Kevin Sousa,515580,-0.491,
+2014,12,regular,Wake Forest,John Wolford,3124092,0.088,0.028
+2014,12,regular,Oklahoma,Cody Thomas,550504,0.457,0.193
+2014,12,regular,Texas Tech,Patrick Mahomes,3139477,0.332,0.441
+2014,12,regular,Oklahoma State,Daxx Garman,514105,-0.01,-0.013
+2014,12,regular,Texas,Tyrone Swoopes,547338,0.497,0.645
+2014,12,regular,TCU,Trevone Boykin,517127,0.173,0.188
+2014,12,regular,Kansas,T.J. Millweard,530978,1.701,1.701
+2014,12,regular,Kansas,Michael Cummings,535521,0.422,0.439
+2014,12,regular,Illinois,Reilly O'Toole,515454,0.529,0.541
+2014,12,regular,Iowa,Jake Rudock,518380,0.576,0.51
+2014,12,regular,Illinois,Wes Lunt,534652,0.023,0.118
+2014,12,regular,Iowa,C.J. Beathard,535844,1.607,2.289
+2014,12,regular,Illinois,Aaron Bailey,546062,1.273,
+2014,12,regular,Rutgers,Gary Nova,518344,0.343,0.409
+2014,12,regular,Indiana,Zander Diamont,3128254,-0.135,-0.15
+2014,12,regular,Maryland,C.J. Brown,480846,-0.137,-0.14
+2014,12,regular,Michigan State,Connor Cook,512705,0.275,0.252
+2014,12,regular,Minnesota,Mitch Leidner,530731,-0.008,-0.162
+2014,12,regular,Ohio State,J.T. Barrett,545624,0.398,0.277
+2014,12,regular,Wisconsin,Joel Stave,514230,0.229,0.229
+2014,12,regular,Nebraska,Tommy Armstrong Jr.,533270,-0.21,-0.282
+2014,12,regular,Wisconsin,Bart Houston,534813,-0.008,
+2014,12,regular,Northwestern,Trevor Siemian,500419,0.157,0.051
+2014,12,regular,Notre Dame,Everett Golson,515409,0.289,0.352
+2014,12,regular,Northwestern,Matt Alviti,546734,0.273,
+2014,12,regular,Middle Tennessee,Austin Grammer,531589,0.23,0.116
+2014,12,regular,Middle Tennessee,A.J. Erdely,545682,1.232,
+2014,12,regular,Florida International,Alex McGough,3128843,0.384,0.646
+2014,12,regular,Rice,Driphus Jackson,514894,-0.282,-0.233
+2014,12,regular,Marshall,Rakeem Cato,518267,0.511,0.559
+2014,12,regular,UTEP,Jameill Showers,500571,0.627,0.386
+2014,12,regular,North Texas,Andrew McNulty,515147,0.098,-0.031
+2014,12,regular,Southern Miss,Nick Mullens,552880,0.286,0.312
+2014,12,regular,Western Kentucky,Brandon Doughty,504866,0.47,0.459
+2014,12,regular,Army,Angel Santiago,515360,0.139,-0.37
+2014,12,regular,Buffalo,Joe Licata,513614,0.471,0.533
+2014,12,regular,Buffalo,Tony Daniel,513615,0.839,-1.052
+2014,12,regular,Akron,Kyle Pohl,514617,0.037,-0.018
+2014,12,regular,Northern Illinois,Drew Hare,532480,0.256,0.415
+2014,12,regular,Toledo,Logan Woodside,545910,-0.382,-0.382
+2014,12,regular,Toledo,Michael Julian,552746,0.007,-0.161
+2014,12,regular,Massachusetts,Blake Frohnapfel,518271,0.199,0.2
+2014,12,regular,Ball State,Jack Milas,546005,0.147,0.14
+2014,12,regular,Bowling Green,James Knapke,531801,0.269,0.312
+2014,12,regular,Kent State,Nathan Strock,550246,-0.234,-0.273
+2014,12,regular,Kent State,Nick Holley,550339,-0.123,-0.162
+2014,12,regular,Western Michigan,Zach Terrell,532645,1.338,1.397
+2014,12,regular,Western Michigan,Cameron Thomas,545935,-0.543,-0.543
+2014,12,regular,Eastern Michigan,Reginald Bell,3125823,0.069,0.263
+2014,12,regular,Miami (OH),Andrew Hendrix,500913,0.338,0.43
+2014,12,regular,Central Michigan,Cooper Rush,531455,0.843,0.856
+2014,12,regular,Nevada,Cody Fajardo,501241,0.52,0.468
+2014,12,regular,Air Force,Kale Pearson,535972,0.753,0.81
+2014,12,regular,Boise State,Grant Hedrick,504908,0.263,0.298
+2014,12,regular,San Diego State,Quinn Kaehler,547570,0.088,0.093
+2014,12,regular,San José State,Joe Gray,512675,0.185,0.207
+2014,12,regular,Hawai'i,Ikaika Woolsey,532976,0.429,0.386
+2014,12,regular,New Mexico,Lamar Jordan,551028,0.16,0.293
+2014,12,regular,Utah State,Kent Myers,3125353,0.216,0.122
+2014,12,regular,BYU,Christian Stewart,381494,0.527,0.487
+2014,12,regular,UNLV,Jared Lebowitz,552513,0.088,0.031
+2014,12,regular,UNLV,Blake Decker,3125318,-0.3,-0.352
+2014,12,regular,USC,Cody Kessler,513329,0.446,0.52
+2014,12,regular,California,Jared Goff,547401,0.198,0.173
+2014,12,regular,Washington,Cyler Miles,535325,0.333,0.378
+2014,12,regular,Arizona,Anu Solomon,552097,-0.041,-0.004
+2014,12,regular,Arizona State,Taylor Kelly,504700,0.171,0.133
+2014,12,regular,Oregon State,Sean Mannion,504786,0.185,0.185
+2014,12,regular,Stanford,Kevin Hogan,516357,-0.167,-0.098
+2014,12,regular,Utah,Travis Wilson,531051,0.131,0.044
+2014,12,regular,Arkansas,Brandon Allen,515915,0.179,0.205
+2014,12,regular,LSU,Anthony Jennings,546033,-0.124,-0.114
+2014,12,regular,Georgia,Hutson Mason,504004,0.216,0.251
+2014,12,regular,Auburn,Jeremy Johnson,550019,-0.131,1.129
+2014,12,regular,Auburn,Nick Marshall,550021,0.114,0.155
+2014,12,regular,Alabama,Blake Sims,504052,0.285,0.162
+2014,12,regular,Mississippi State,Dak Prescott,512030,0.162,0.167
+2014,12,regular,South Carolina,Dylan Thompson,504295,-0.096,-0.09
+2014,12,regular,Florida,Treon Harris,3121647,0.067,0.199
+2014,12,regular,Kentucky,Patrick Towles,530944,0.171,0.152
+2014,12,regular,Tennessee,Nathan Peterman,532065,-1.101,-1.101
+2014,12,regular,Kentucky,Reese Phillips,546354,-1.331,-2.047
+2014,12,regular,Tennessee,Joshua Dobbs,546540,0.683,0.548
+2014,12,regular,Missouri,Maty Mauk,531385,0.193,0.187
+2014,12,regular,Texas A&M,Kyle Allen,559681,0.132,0.074
+2014,12,regular,Arkansas State,Fredi Knighten,538156,0.049,-0.063
+2014,12,regular,App State,Taylor Lamb,548447,0.776,0.897
+2014,12,regular,Navy,John Hendrick,516201,1.157,
+2014,12,regular,Navy,Keenan Reynolds,530568,0.684,0.349
+2014,12,regular,Georgia Southern,Kevin Ellison,532925,0.281,0.119
+2014,12,regular,Georgia Southern,Favian Upshaw,549301,-0.383,-1.818
+2014,12,regular,Navy,Tago Smith,551222,0.077,
+2014,12,regular,Troy,Brandon Silvers,546145,0.308,0.617
+2014,12,regular,Idaho,Matt Linehan,553235,-0.263,-0.191
+2014,12,regular,UL Monroe,Pete Thomas,501565,0.217,0.208
+2014,12,regular,Louisiana,Terrance Broadway,503922,0.495,0.321
+2014,12,regular,UL Monroe,Brayle Brown,512345,1.058,1.058
+2014,12,regular,Texas State,Tyler Jones,548240,0.172,0.282
+2014,12,regular,South Alabama,Hunter Vaughn,3125255,0.184,0.413
+2014,13,regular,Tulsa,Dane Evans,532273,0.344,0.237
+2014,13,regular,Houston,Greg Ward Jr.,545552,0.516,0.487
+2014,13,regular,Memphis,Paxton Lynch,534849,0.628,0.751
+2014,13,regular,South Florida,Steven Bench,539215,0.618,0.618
+2014,13,regular,South Florida,Mike White,549804,0.291,0.368
+2014,13,regular,South Florida,Quinton Flowers,3139591,-1.04,-2.139
+2014,13,regular,Boston College,Tyler Murphy,503970,0.266,0.008
+2014,13,regular,Florida State,Jameis Winston,530308,0.39,0.563
+2014,13,regular,Clemson,David Olson,505313,-0.398,-0.398
+2014,13,regular,Clemson,Cole Stoudt,512052,-0.227,-0.211
+2014,13,regular,Georgia State,Ronnie Bell,513425,-0.535,-0.535
+2014,13,regular,Clemson,Nick Schuessler,537012,0.66,0.66
+2014,13,regular,Georgia State,Nick Arbuckle,3124848,0.018,-0.042
+2014,13,regular,Duke,Anthony Boone,501046,0.149,0.101
+2014,13,regular,North Carolina,Marquise Williams,516347,0.457,0.688
+2014,13,regular,Duke,Thomas Sirk,530478,0.039,
+2014,13,regular,Notre Dame,Everett Golson,515409,0.192,0.314
+2014,13,regular,Virginia,Greyson Lambert,530521,0.26,0.292
+2014,13,regular,Miami,Brad Kaaya,3123048,0.158,0.25
+2014,13,regular,Pittsburgh,Chad Voytik,530450,0.411,0.353
+2014,13,regular,Syracuse,Mitch Kimble,545275,-0.392,-0.416
+2014,13,regular,Syracuse,AJ Long,3116756,0.331,0.445
+2014,13,regular,Virginia Tech,Michael Brewer,514481,-0.265,-0.237
+2014,13,regular,Virginia Tech,Brenden Motley,530541,-0.893,1.667
+2014,13,regular,Wake Forest,John Wolford,3124092,-0.12,-0.143
+2014,13,regular,West Virginia,Clint Trickett,501098,-0.189,-0.136
+2014,13,regular,Kansas State,Jake Waters,550158,0.557,0.835
+2014,13,regular,West Virginia,Skyler Howard,3116460,0.457,0.41
+2014,13,regular,Kansas,T.J. Millweard,530978,-0.149,-0.149
+2014,13,regular,Kansas,Michael Cummings,535521,-0.111,-0.093
+2014,13,regular,Oklahoma,Cody Thomas,550504,0.021,0.045
+2014,13,regular,Iowa State,Sam B. Richardson,511969,1.935,1.935
+2014,13,regular,Texas Tech,Patrick Mahomes,3139477,0.378,0.356
+2014,13,regular,Baylor,Bryce Petty,480746,0.383,0.414
+2014,13,regular,Oklahoma State,Mason Rudolph,3116407,0.335,0.445
+2014,13,regular,Illinois,Reilly O'Toole,515454,0.202,0.3
+2014,13,regular,Illinois,Wes Lunt,534652,-0.314,-0.314
+2014,13,regular,Illinois,Aaron Bailey,546062,-0.802,
+2014,13,regular,Penn State,Christian Hackenberg,552329,0.099,0.11
+2014,13,regular,Ohio State,J.T. Barrett,545624,0.281,0.396
+2014,13,regular,Indiana,Zander Diamont,3128254,0.1,-0.039
+2014,13,regular,Wisconsin,Joel Stave,514230,0.998,0.872
+2014,13,regular,Iowa,Jake Rudock,518380,0.631,0.568
+2014,13,regular,Maryland,C.J. Brown,480846,0.201,0.127
+2014,13,regular,Michigan,Devin Gardner,501543,0.051,-0.144
+2014,13,regular,Minnesota,Mitch Leidner,530731,0.377,0.291
+2014,13,regular,Nebraska,Tommy Armstrong Jr.,533270,0.172,0.231
+2014,13,regular,Northwestern,Trevor Siemian,500419,0.122,0.361
+2014,13,regular,Northwestern,Zack Oliver,518323,0.423,0.477
+2014,13,regular,Purdue,Austin Appleby,534770,0.007,0.082
+2014,13,regular,Northwestern,Matt Alviti,546734,-0.596,-0.365
+2014,13,regular,Michigan State,Connor Cook,512705,0.511,0.773
+2014,13,regular,Rutgers,Gary Nova,518344,-0.031,-0.019
+2014,13,regular,Michigan State,Tyler O'Connor,535578,0.844,0.844
+2014,13,regular,Rutgers,Chris Laviano,547549,-0.351,-0.518
+2014,13,regular,Michigan State,Damion Terry,550477,-0.042,-0.474
+2014,13,regular,Air Force,Kale Pearson,535972,0.043,-0.019
+2014,13,regular,San Diego State,Quinn Kaehler,547570,0.494,0.494
+2014,13,regular,Air Force,Nate Romine,554528,-0.196,-0.336
+2014,13,regular,Wyoming,Sam Stratton,503091,-0.204,-0.284
+2014,13,regular,Boise State,Grant Hedrick,504908,0.894,0.935
+2014,13,regular,Wyoming,Colby Kirkegaard,520520,0.114,0.162
+2014,13,regular,Boise State,Ryan Finley,546288,1.243,-1.01
+2014,13,regular,Colorado State,Garrett Grayson,515528,0.911,0.986
+2014,13,regular,Colorado State,Nick Stevens,546267,-0.484,-0.484
+2014,13,regular,New Mexico,Lamar Jordan,551028,-0.137,-0.644
+2014,13,regular,Fresno State,Brandon Connette,501052,-3.145,-3.145
+2014,13,regular,Nevada,Cody Fajardo,501241,0.086,-0.25
+2014,13,regular,Fresno State,Brian Burrell,546271,0.188,0.142
+2014,13,regular,Hawai'i,Ikaika Woolsey,532976,0.216,0.206
+2014,13,regular,UNLV,Jared Lebowitz,552513,-0.182,-0.216
+2014,13,regular,UNLV,Blake Decker,3125318,0.807,1.012
+2014,13,regular,San José State,Blake Jurich,499830,-1.56,-1.56
+2014,13,regular,San José State,Mitch Ravizza,3125299,0.076,-0.152
+2014,13,regular,Utah State,Kent Myers,3125353,0.625,0.321
+2014,13,regular,Arizona,Jerrard Randall,517210,-0.652,
+2014,13,regular,Utah,Travis Wilson,531051,-0.054,-0.152
+2014,13,regular,Utah,Conner Manning,550226,-1.191,-1.271
+2014,13,regular,Arizona,Anu Solomon,552097,0.494,0.308
+2014,13,regular,Arizona State,Taylor Kelly,504700,0.229,0.379
+2014,13,regular,Washington State,Luke Falk,550629,0.313,0.315
+2014,13,regular,UCLA,Brett Hundley,511982,0.374,0.56
+2014,13,regular,USC,Cody Kessler,513329,-0.015,0.003
+2014,13,regular,Oregon,Marcus Mariota,511459,0.65,0.581
+2014,13,regular,Oregon,Jeff Lockie,530875,-0.347,-0.333
+2014,13,regular,Colorado,Jordan Gehrke,550268,-0.115,0.015
+2014,13,regular,Colorado,Sefo Liufau,550278,0.08,0.08
+2014,13,regular,Oregon State,Sean Mannion,504786,0.065,0.065
+2014,13,regular,Washington,Cyler Miles,535325,0.529,0.611
+2014,13,regular,Stanford,Evan Crower,516354,-0.494,-0.494
+2014,13,regular,Stanford,Kevin Hogan,516357,0.661,0.707
+2014,13,regular,California,Jared Goff,547401,0.054,0.113
+2014,13,regular,Alabama,Blake Sims,504052,0.367,0.526
+2014,13,regular,Alabama,Jake Coker,514124,0.455,0.455
+2014,13,regular,Western Carolina,Troy Mitchell,533122,0.181,0.231
+2014,13,regular,Samford,Michael Eubank,517400,-0.011,0.005
+2014,13,regular,Auburn,Jeremy Johnson,550019,-0.059,-0.059
+2014,13,regular,Auburn,Nick Marshall,550021,0.018,0.099
+2014,13,regular,Florida,Christian Provancha,503973,-1.074,
+2014,13,regular,Florida,Jeff Driskel,511889,1.304,1.592
+2014,13,regular,Eastern Kentucky,Jared McClain,519443,0.151,0.574
+2014,13,regular,Eastern Kentucky,Bennie Coney,535722,-0.059,0.037
+2014,13,regular,Eastern Kentucky,Barton Mann,554825,-0.415,-0.752
+2014,13,regular,Florida,Treon Harris,3121647,0.475,0.64
+2014,13,regular,Georgia,Hutson Mason,504004,1.203,1.211
+2014,13,regular,Charleston Southern,Austin Brown,518239,-0.196,-0.199
+2014,13,regular,Georgia,Faton Bauta,530931,1.294,1.995
+2014,13,regular,Charleston Southern,Daniel Croghan III,534708,-0.485,-0.622
+2014,13,regular,Georgia,Brice Ramsey,546345,0.337,0.337
+2014,13,regular,Ole Miss,Bo Wallace,500990,0.02,0.072
+2014,13,regular,Arkansas,Brandon Allen,515915,0.278,0.511
+2014,13,regular,Arkansas,Austin Allen,547206,-0.196,0.054
+2014,13,regular,Ole Miss,Ryan Buchanan,550114,-0.645,-0.703
+2014,13,regular,South Carolina,Dylan Thompson,504295,0.628,0.809
+2014,13,regular,South Alabama,Brandon Bridge,507211,-0.475,-0.384
+2014,13,regular,South Alabama,Trey Fetner,512223,-0.335,
+2014,13,regular,South Carolina,Connor Mitch,548142,-0.731,-0.731
+2014,13,regular,South Alabama,Hunter Vaughn,3125255,-0.125,-0.098
+2014,13,regular,Missouri,Maty Mauk,531385,0.515,0.529
+2014,13,regular,Tennessee,Joshua Dobbs,546540,-0.091,-0.075
+2014,13,regular,Mississippi State,Dak Prescott,512030,0.689,0.602
+2014,13,regular,Vanderbilt,Stephen Rivers,517211,-2.053,-2.053
+2014,13,regular,Vanderbilt,Patton Robinette,532000,0.095,-0.308
+2014,13,regular,Vanderbilt,Johnny McCrary,546184,-0.044,-0.164
+2014,13,regular,Mississippi State,Damian Williams,546603,1.001,1.004
+2014,13,regular,Louisiana,Terrance Broadway,503922,0.057,-0.012
+2014,13,regular,App State,Taylor Lamb,548447,0.639,0.547
+2014,13,regular,UL Monroe,Pete Thomas,501565,0.187,0.227
+2014,13,regular,New Mexico State,Tyler Rogers,3124981,-0.229,-0.17
+2014,13,regular,Fordham,Mike Nebrich,512108,0.371,0.451
+2014,13,regular,Army,Angel Santiago,515360,0.188,0.162
+2014,13,regular,Army,A.J. Schurr,535646,0.927,
+2014,13,regular,BYU,Christian Stewart,381494,1.141,1.12
+2014,13,regular,BYU,McCoy Hill,530619,0.734,1.455
+2014,13,regular,BYU,Hunter Moore,3125097,0.166,
+2014,13,regular,Arkansas State,Fredi Knighten,538156,-0.014,0.038
+2014,13,regular,Texas State,Tyler Jones,548240,0.206,0.376
+2014,13,regular,SMU,Garrett Krstich,519812,-0.339,-0.235
+2014,13,regular,UCF,Nick Patti,531755,0.365,0.248
+2014,13,regular,SMU,Matt Davis,532113,-0.003,-0.087
+2014,13,regular,UCF,Justin Holman,551184,0.532,0.573
+2014,13,regular,East Carolina,Shane Carden,500938,0.322,0.26
+2014,13,regular,Tulane,Tanner Lee,545757,0.262,0.206
+2014,13,regular,UTEP,Jameill Showers,500571,0.055,0.028
+2014,13,regular,Rice,Driphus Jackson,514894,0.508,0.517
+2014,13,regular,North Texas,Andrew McNulty,515147,0.103,0.212
+2014,13,regular,Florida International,Alex McGough,3128843,-0.434,-0.315
+2014,13,regular,Marshall,Rakeem Cato,518267,0.378,0.315
+2014,13,regular,UAB,Cody Clements,3129249,-0.018,-0.055
+2014,13,regular,Western Kentucky,Brandon Doughty,504866,0.694,0.73
+2014,13,regular,UTSA,Dalton Sturm,3124037,1.81,2.235
+2014,13,regular,Western Kentucky,Troy Jones,3124781,0.442,
+2014,13,regular,Ohio,Derrius Vick,511552,0.101,0.058
+2014,13,regular,Northern Illinois,Drew Hare,532480,0.351,0.348
+2014,13,regular,Northern Illinois,Anthony Maddie,532644,-0.277,-0.088
+2014,13,regular,Akron,Kyle Pohl,514617,0.207,0.297
+2014,13,regular,Massachusetts,Austin Whipple,545642,0.064,0.076
+2014,13,regular,Bowling Green,James Knapke,531801,-0.166,-0.162
+2014,13,regular,Toledo,Logan Woodside,545910,-0.225,-0.219
+2014,13,regular,Bowling Green,Cody Callaway,3125748,0.015,0.049
+2014,13,regular,Ball State,Ozzie Mann,531552,0.282,0.363
+2014,13,regular,Ball State,Jack Milas,546005,0.985,0.712
+2014,13,regular,Eastern Michigan,Reginald Bell,3125823,0.397,0.453
+2014,13,regular,Central Michigan,Cooper Rush,531455,0.036,0.036
+2014,13,regular,Western Michigan,Zach Terrell,532645,0.562,0.58
+2014,14,regular,South Florida,Steven Bench,539215,-0.084,-0.229
+2014,14,regular,South Florida,Mike White,549804,0.009,0.045
+2014,14,regular,UCF,Justin Holman,551184,0.37,0.541
+2014,14,regular,East Carolina,Shane Carden,500938,0.391,0.527
+2014,14,regular,Tulsa,Dane Evans,532273,-0.188,-0.241
+2014,14,regular,SMU,Matt Davis,532113,-0.018,-0.042
+2014,14,regular,SMU,Kolney Cassel,545334,-0.312,-0.312
+2014,14,regular,Houston,John O'Korn,545550,1.038,1.038
+2014,14,regular,Houston,Greg Ward Jr.,545552,0.221,-0.029
+2014,14,regular,Cincinnati,Gunner Kiel,534259,0.063,0.06
+2014,14,regular,Temple,P.J. Walker,549759,0.119,-0.02
+2014,14,regular,UConn,Chandler Whitmer,533264,-0.148,-0.148
+2014,14,regular,Memphis,Paxton Lynch,534849,0.181,0.152
+2014,14,regular,UConn,Tim Boyle,546675,0.188,0.408
+2014,14,regular,Boston College,Tyler Murphy,503970,0.462,0.558
+2014,14,regular,Syracuse,Austin Wilson,545284,-0.063,-0.063
+2014,14,regular,Syracuse,AJ Long,3116756,-0.106,-0.195
+2014,14,regular,South Carolina,Dylan Thompson,504295,-0.05,0.007
+2014,14,regular,Clemson,Cole Stoudt,512052,-1.364,-2.471
+2014,14,regular,Clemson,Deshaun Watson,3122840,1.055,1.009
+2014,14,regular,Duke,Anthony Boone,501046,0.25,0.236
+2014,14,regular,Duke,Thomas Sirk,530478,0.732,2.8
+2014,14,regular,Wake Forest,John Wolford,3124092,0.117,0.179
+2014,14,regular,Florida State,Jameis Winston,530308,0.237,0.14
+2014,14,regular,Florida,Treon Harris,3121647,-0.223,-0.294
+2014,14,regular,Georgia,Hutson Mason,504004,0.28,0.28
+2014,14,regular,Georgia Tech,Justin Thomas,531104,-0.051,0.062
+2014,14,regular,Kentucky,Patrick Towles,530944,0.026,-0.035
+2014,14,regular,Louisville,Kyle Bolin,545559,0.79,0.792
+2014,14,regular,Pittsburgh,Chad Voytik,530450,0.762,0.68
+2014,14,regular,Miami,Brad Kaaya,3123048,0.389,0.378
+2014,14,regular,NC State,Jacoby Brissett,512191,0.988,0.874
+2014,14,regular,North Carolina,Marquise Williams,516347,-0.11,-0.282
+2014,14,regular,North Carolina,Mitch Trubisky,545238,0.059,0.096
+2014,14,regular,Virginia Tech,Michael Brewer,514481,0.108,0.074
+2014,14,regular,Virginia,Greyson Lambert,530521,0.056,0.08
+2014,14,regular,Virginia Tech,Brenden Motley,530541,-0.259,-1.011
+2014,14,regular,Virginia,Matt Johns,535548,0.16,0.294
+2014,14,regular,TCU,Trevone Boykin,517127,0.196,0.19
+2014,14,regular,Texas,Tyrone Swoopes,547338,0.236,0.14
+2014,14,regular,Iowa State,Sam B. Richardson,511969,0.337,0.276
+2014,14,regular,West Virginia,Skyler Howard,3116460,0.315,0.313
+2014,14,regular,Baylor,Bryce Petty,480746,0.428,0.455
+2014,14,regular,Baylor,Seth Russell,535511,0.265,0.328
+2014,14,regular,Texas Tech,Patrick Mahomes,3139477,0.452,0.63
+2014,14,regular,Kansas State,Joe Hubener,517248,0.161,0.992
+2014,14,regular,Kansas,Michael Cummings,535521,0.09,0.005
+2014,14,regular,Kansas State,Jake Waters,550158,0.892,0.976
+2014,14,regular,Kansas State,Jesse Ertz,550448,0.475,
+2014,14,regular,Illinois,Reilly O'Toole,515454,0.521,0.733
+2014,14,regular,Northwestern,Zack Oliver,518323,0.138,0.239
+2014,14,regular,Northwestern,Matt Alviti,546734,-0.683,-0.683
+2014,14,regular,Purdue,Austin Appleby,534770,-0.141,-0.189
+2014,14,regular,Indiana,Zander Diamont,3128254,0.257,0.19
+2014,14,regular,Iowa,Jake Rudock,518380,0.158,0.143
+2014,14,regular,Nebraska,Ryker Fyfe,533182,-0.438,-0.438
+2014,14,regular,Nebraska,Tommy Armstrong Jr.,533270,0.016,0.04
+2014,14,regular,Maryland,C.J. Brown,480846,0.396,0.379
+2014,14,regular,Rutgers,Gary Nova,518344,0.551,0.568
+2014,14,regular,Michigan,Devin Gardner,501543,0.482,0.364
+2014,14,regular,Ohio State,Cardale Jones,534294,0.206,-0.374
+2014,14,regular,Ohio State,J.T. Barrett,545624,0.501,0.454
+2014,14,regular,Michigan State,Connor Cook,512705,0.36,0.439
+2014,14,regular,Michigan State,Damion Terry,550477,-0.067,-0.067
+2014,14,regular,Penn State,Christian Hackenberg,552329,-0.145,-0.148
+2014,14,regular,Wisconsin,Joel Stave,514230,0.732,0.732
+2014,14,regular,Minnesota,Mitch Leidner,530731,0.117,-0.046
+2014,14,regular,Western Kentucky,Brandon Doughty,504866,0.618,0.618
+2014,14,regular,Marshall,Rakeem Cato,518267,0.464,0.465
+2014,14,regular,Old Dominion,Taylor Heinicke,513949,0.267,0.269
+2014,14,regular,Old Dominion,David Washington,535113,0.677,0.677
+2014,14,regular,Florida Atlantic,Jaquez Johnson,550876,0.263,0.111
+2014,14,regular,Louisiana Tech,Taylor Burch,505012,0.749,0.026
+2014,14,regular,Rice,Driphus Jackson,514894,0.509,0.515
+2014,14,regular,Louisiana Tech,Cody Sokol,530696,0.588,0.66
+2014,14,regular,Louisiana Tech,Ryan Higgins,531316,0.086,0.573
+2014,14,regular,Rice,Tyler Stehling,536503,-0.7,
+2014,14,regular,UTEP,Jameill Showers,500571,0.464,0.331
+2014,14,regular,Middle Tennessee,Austin Grammer,531589,0.158,-0.451
+2014,14,regular,Middle Tennessee,A.J. Erdely,545682,-0.404,-0.404
+2014,14,regular,North Texas,Andrew McNulty,515147,0.323,0.291
+2014,14,regular,UTSA,Tucker Carter,535979,0.508,0.54
+2014,14,regular,Southern Miss,Nick Mullens,552880,-0.07,0.005
+2014,14,regular,UAB,Cody Clements,3129249,0.532,0.627
+2014,14,regular,Akron,Kyle Pohl,514617,-0.095,-0.095
+2014,14,regular,Kent State,Nick Holley,550339,0.178,-0.529
+2014,14,regular,Miami (OH),Andrew Hendrix,500913,0.125,0.028
+2014,14,regular,Ohio,Derrius Vick,511552,0.0,-0.177
+2014,14,regular,Ohio,JD Sprague,532433,-0.49,-0.806
+2014,14,regular,Ball State,Ozzie Mann,531552,0.693,0.839
+2014,14,regular,Bowling Green,James Knapke,531801,-0.033,-0.019
+2014,14,regular,Buffalo,Joe Licata,513614,0.716,0.764
+2014,14,regular,Massachusetts,Austin Whipple,545642,-0.058,0.053
+2014,14,regular,Northern Illinois,Drew Hare,532480,0.187,0.248
+2014,14,regular,Western Michigan,Zach Terrell,532645,0.098,0.199
+2014,14,regular,Toledo,Logan Woodside,545910,1.491,1.585
+2014,14,regular,Eastern Michigan,Reginald Bell,3125823,-0.115,0.072
+2014,14,regular,Colorado State,Garrett Grayson,515528,0.266,0.295
+2014,14,regular,Air Force,Karson Roberts,547343,-0.872,
+2014,14,regular,Air Force,Nate Romine,554528,0.04,0.24
+2014,14,regular,Boise State,Grant Hedrick,504908,0.087,0.067
+2014,14,regular,Boise State,Ryan Finley,546288,-0.872,-0.872
+2014,14,regular,Utah State,Kent Myers,3125353,0.069,-0.115
+2014,14,regular,Hawai'i,Ikaika Woolsey,532976,0.204,0.266
+2014,14,regular,Fresno State,Brian Burrell,546271,0.18,0.127
+2014,14,regular,Nevada,Cody Fajardo,501241,0.394,0.15
+2014,14,regular,Nevada,Devin Combs,512632,2.439,
+2014,14,regular,Nevada,Tyler Stewart,536228,-1.48,
+2014,14,regular,UNLV,Blake Decker,3125318,0.06,-0.059
+2014,14,regular,Wyoming,Colby Kirkegaard,520520,0.158,0.162
+2014,14,regular,New Mexico,Lamar Jordan,551028,0.056,0.454
+2014,14,regular,San José State,Blake Jurich,499830,-0.112,-0.073
+2014,14,regular,San José State,Joe Gray,512675,0.179,0.179
+2014,14,regular,San Diego State,Quinn Kaehler,547570,-0.302,-0.302
+2014,14,regular,San José State,Mitch Ravizza,3125299,0.562,-0.429
+2014,14,regular,Arizona State,Taylor Kelly,504700,0.125,0.167
+2014,14,regular,Arizona State,Mike Bercovici,517393,0.105,0.105
+2014,14,regular,Arizona,Anu Solomon,552097,0.37,0.502
+2014,14,regular,UCLA,Brett Hundley,511982,-0.102,-0.077
+2014,14,regular,UCLA,Jerry Neuheisel,511987,-0.992,-0.992
+2014,14,regular,Stanford,Kevin Hogan,516357,0.876,0.926
+2014,14,regular,USC,Anthony Neyer,504800,1.674,
+2014,14,regular,USC,Cody Kessler,513329,0.784,0.8
+2014,14,regular,Notre Dame,Everett Golson,515409,-0.101,-0.101
+2014,14,regular,Notre Dame,Malik Zaire,550967,0.322,0.263
+2014,14,regular,Utah,Travis Wilson,531051,0.454,0.459
+2014,14,regular,Colorado,Sefo Liufau,550278,0.266,0.243
+2014,14,regular,Oregon State,Sean Mannion,504786,0.142,0.089
+2014,14,regular,Oregon,Marcus Mariota,511459,0.857,0.774
+2014,14,regular,Oregon State,Luke Del Rio,546362,0.015,0.027
+2014,14,regular,Washington,Cyler Miles,535325,0.275,0.219
+2014,14,regular,Washington State,Luke Falk,550629,0.029,0.051
+2014,14,regular,BYU,Christian Stewart,381494,0.32,0.569
+2014,14,regular,California,Jared Goff,547401,0.396,0.387
+2014,14,regular,Alabama,Blake Sims,504052,0.776,0.74
+2014,14,regular,Auburn,Nick Marshall,550021,0.493,0.59
+2014,14,regular,Ole Miss,Bo Wallace,500990,0.154,0.186
+2014,14,regular,Mississippi State,Dak Prescott,512030,0.135,0.212
+2014,14,regular,Arkansas,Brandon Allen,515915,0.13,0.153
+2014,14,regular,Missouri,Maty Mauk,531385,0.137,0.071
+2014,14,regular,Vanderbilt,Patton Robinette,532000,0.086,0.016
+2014,14,regular,Vanderbilt,Johnny McCrary,546184,-0.453,-0.587
+2014,14,regular,Tennessee,Joshua Dobbs,546540,0.119,-0.241
+2014,14,regular,LSU,Anthony Jennings,546033,0.271,0.124
+2014,14,regular,Texas A&M,Kyle Allen,559681,0.032,0.032
+2014,14,regular,South Alabama,Brandon Bridge,507211,0.33,0.366
+2014,14,regular,Navy,Keenan Reynolds,530568,0.958,0.152
+2014,14,regular,South Alabama,Hunter Vaughn,3125255,-0.691,-0.691
+2014,14,regular,App State,Taylor Lamb,548447,0.729,0.741
+2014,14,regular,Idaho,Matt Linehan,553235,0.075,0.086
+2014,14,regular,Arkansas State,Stephen Hogan,515874,-1.139,-1.139
+2014,14,regular,Arkansas State,Fredi Knighten,538156,0.731,0.917
+2014,14,regular,New Mexico State,Tyler Rogers,3124981,0.081,0.07
+2014,14,regular,Texas State,Tyler Jones,548240,0.565,0.516
+2014,14,regular,Georgia State,Nick Arbuckle,3124848,0.234,0.286
+2014,14,regular,UL Monroe,Pete Thomas,501565,0.208,0.286
+2014,14,regular,Georgia Southern,Ezayi Youyoute,505864,1.296,
+2014,14,regular,UL Monroe,Brayle Brown,512345,0.095,0.332
+2014,14,regular,Georgia Southern,Kevin Ellison,532925,0.202,-0.014
+2014,14,regular,Georgia Southern,Favian Upshaw,549301,1.69,
+2014,14,regular,Louisiana,Terrance Broadway,503922,0.409,0.393
+2014,14,regular,Troy,Brandon Silvers,546145,0.337,0.447
+2014,15,regular,East Carolina,Shane Carden,500938,0.37,0.399
+2014,15,regular,UCF,Justin Holman,551184,0.417,0.418
+2014,15,regular,Cincinnati,Munchie Legaux,502335,0.46,0.39
+2014,15,regular,Cincinnati,Gunner Kiel,534259,0.491,0.512
+2014,15,regular,Houston,Greg Ward Jr.,545552,0.298,0.209
+2014,15,regular,SMU,Matt Davis,532113,0.17,0.035
+2014,15,regular,UConn,Chandler Whitmer,533264,-0.406,-0.406
+2014,15,regular,UConn,Tim Boyle,546675,0.029,-0.055
+2014,15,regular,Tulane,Nick Montana,499807,0.471,0.486
+2014,15,regular,Tulane,Tanner Lee,545757,-0.248,-0.248
+2014,15,regular,Temple,P.J. Walker,549759,0.023,-0.055
+2014,15,regular,Oklahoma,Cody Thomas,550504,0.063,0.343
+2014,15,regular,Oklahoma State,Mason Rudolph,3116407,0.215,0.234
+2014,15,regular,Iowa State,Sam B. Richardson,511969,-0.263,-0.234
+2014,15,regular,TCU,Bram Kohlhausen,512469,0.084,0.24
+2014,15,regular,TCU,Trevone Boykin,517127,0.65,0.688
+2014,15,regular,Baylor,Bryce Petty,480746,0.504,0.534
+2014,15,regular,Kansas State,Jake Waters,550158,0.363,0.504
+2014,15,regular,Florida State,Jameis Winston,530308,0.796,0.821
+2014,15,regular,Georgia Tech,Justin Thomas,531104,0.617,0.579
+2014,15,regular,Bowling Green,James Knapke,531801,-0.075,-0.067
+2014,15,regular,Northern Illinois,Drew Hare,532480,0.188,0.088
+2014,15,regular,Bowling Green,Cody Callaway,3125748,-0.457,-0.412
+2014,15,regular,Oregon,Marcus Mariota,511459,0.319,0.249
+2014,15,regular,Arizona,Jerrard Randall,517210,0.134,-0.78
+2014,15,regular,Oregon,Jeff Lockie,530875,0.995,0.995
+2014,15,regular,Arizona,Anu Solomon,552097,-0.252,-0.212
+2014,15,regular,Marshall,Rakeem Cato,518267,0.082,0.168
+2014,15,regular,Louisiana Tech,Cody Sokol,530696,-0.372,-0.202
+2014,15,regular,Wisconsin,Joel Stave,514230,-0.106,-0.031
+2014,15,regular,Ohio State,Cardale Jones,534294,0.627,0.882
+2014,15,regular,Alabama,Blake Sims,504052,0.565,0.715
+2014,15,regular,Missouri,Maty Mauk,531385,0.373,0.459
+2014,15,regular,Boise State,Grant Hedrick,504908,0.419,0.182
+2014,15,regular,Fresno State,Brian Burrell,546271,0.096,0.098
+2014,16,regular,Army,Angel Santiago,515360,-0.537,-1.161
+2014,16,regular,Navy,Keenan Reynolds,530568,0.226,0.471
+2014,16,regular,Army,A.J. Schurr,535646,-0.24,-0.334
