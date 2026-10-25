@@ -216,6 +216,94 @@
    "units": 0.64,
    "picks": 7
   },
+  "week": {
+   "week": 8,
+   "games": 40,
+   "close": {
+    "winner": {
+     "w": 27,
+     "l": 13,
+     "p": 0,
+     "pct": 0.675
+    },
+    "moneyline": {
+     "w": 27,
+     "l": 13,
+     "p": 0,
+     "pct": 0.675,
+     "units": -1.07,
+     "bets": 40
+    },
+    "value_ml": {
+     "w": 9,
+     "l": 14,
+     "p": 0,
+     "pct": 0.3913,
+     "units": 1.2,
+     "bets": 23
+    },
+    "spread": {
+     "w": 20,
+     "l": 20,
+     "p": 0,
+     "pct": 0.5,
+     "units": -1.82
+    },
+    "total": {
+     "w": 21,
+     "l": 19,
+     "p": 0,
+     "pct": 0.525,
+     "units": 0.09
+    }
+   },
+   "locked": {
+    "winner": {
+     "w": 27,
+     "l": 13,
+     "p": 0,
+     "pct": 0.675
+    },
+    "moneyline": {
+     "w": 27,
+     "l": 13,
+     "p": 0,
+     "pct": 0.675,
+     "units": -1.07,
+     "bets": 40
+    },
+    "value_ml": {
+     "w": 9,
+     "l": 14,
+     "p": 0,
+     "pct": 0.3913,
+     "units": 1.2,
+     "bets": 23
+    },
+    "spread": {
+     "w": 20,
+     "l": 20,
+     "p": 0,
+     "pct": 0.5,
+     "units": -1.82
+    },
+    "total": {
+     "w": 23,
+     "l": 17,
+     "p": 0,
+     "pct": 0.575,
+     "units": 3.91
+    }
+   },
+   "our_picks": {
+    "w": 4,
+    "l": 3,
+    "p": 0,
+    "pct": 0.5714,
+    "units": 0.64,
+    "picks": 7
+   }
+  },
   "our_picks_backtest": null
  },
  "games": [
