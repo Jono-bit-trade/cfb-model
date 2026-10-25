@@ -104,8 +104,13 @@ def main():
     assert tm.abbreviation == "OU" and tm.color == "#841617" and tm.logo.endswith("201.png")
     md = gd.parse_media([{"id": 401, "outlet": "ESPN+", "mediaType": "web"}, {"id": 401, "outlet": "ABC", "mediaType": "tv"}], 2025).iloc[0]
     assert md.network == "ABC"
+    rk = gd.parse_rankings([{"season": 2025, "seasonType": "regular", "week": 3, "polls": [
+        {"poll": "AP Top 25", "ranks": [{"rank": 1, "school": "Texas", "points": 1500, "firstPlaceVotes": 40},
+                                        {"rank": 2, "school": "Ohio State", "points": 1450}]}]}], 2025)
+    assert len(rk) == 2 and rk.iloc[0]["team"] == "Texas" and rk.iloc[0]["rank"] == 1 and len(gd.parse_rankings([], 2025)) == 0
     print("parser tests passed")
 
 
 if __name__ == "__main__":
     main()
+

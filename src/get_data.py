@@ -185,6 +185,18 @@ def parse_media(raw, season):
     return pd.DataFrame([{"game_id": k, "season": season, "network": v[0]} for k, v in best.items()])
 
 
+def parse_rankings(raw, season):
+    """Weekly polls (AP, Coaches, Playoff). The week-N poll is the one in place before week-N games."""
+    rows = []
+    for wk in raw:
+        for poll in g(wk, "polls", default=[]) or []:
+            for r in g(poll, "ranks", default=[]) or []:
+                rows.append({"season": season, "season_type": g(wk, "seasonType", "season_type"), "week": g(wk, "week"),
+                             "poll": g(poll, "poll"), "rank": g(r, "rank"), "team": g(r, "school", "team"),
+                             "points": g(r, "points"), "first_place": g(r, "firstPlaceVotes", "first_place_votes")})
+    return pd.DataFrame(rows)
+
+
 def parse_venues(raw):
     rows = []
     for x in raw:
@@ -380,6 +392,7 @@ SEASONAL = {
     "adv_clean": (lambda s: _both_types("/stats/game/advanced", s, excludeGarbageTime="true"), parse_adv_clean),
     "drives": (lambda s: _both_types("/drives", s), parse_drives),
     "media": (lambda s: _both_types("/games/media", s), parse_media),
+    "rankings": (lambda s: _both_types("/rankings", s), parse_rankings),
 }
 PRESEASON = {
     "talent": (lambda s: fetch("/talent", year=s), lambda r, s: parse_simple(r, s, {"talent": ("talent",)})),
