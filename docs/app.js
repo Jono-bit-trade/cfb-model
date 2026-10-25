@@ -312,8 +312,11 @@ function gameRow(g) {
   const moved = m.spread !== null && m.spread_open !== null && m.spread_open !== m.spread;
   const totalEdge = m.total !== null ? Math.abs(g.model.total - m.total) : null;
   const ml = g.moneyline;
-  const mlPick = ml && ml.value ? `${esc(short(ml.value.team))} ${odds(ml.value.odds)}<span>value bet</span>`
-    : `${esc(short(g.winner))}<span>${ml ? `${num(ml.win_chance, 0)}% to win` : "to win"}</span>`;
+  // Moneylines: betting the projected winner lost ~88 units over 2016-25 and "value" prices only broke even,
+  // so the moneyline column is information, not a bet.
+  const mlPick = ml && ml.value
+    ? `<span class="ml-lean">${esc(short(ml.value.team))} ${odds(ml.value.odds)}</span><span>small value, not a bet</span>`
+    : `<span class="ml-lean">No bet</span><span>${esc(short(g.winner))} ${ml ? `${num(ml.win_chance, 0)}% to win` : "to win"}</span>`;
   const spreadPick = g.pick && g.pick.text
     ? `${esc(lineText(short(g.pick.team), g.pick.line))}<span>${num(g.edge)}-pt edge${g.our_pick ? " · ★ our pick" : ""}</span>` : `–<span>no line yet</span>`;
   const markets = `<table class="mk">

@@ -387,3 +387,4 @@ table.h2h .num { text-align: right; font-variant-numeric: tabular-nums; }
 .tally .close-note { display: block; margin-top: 2px; font-size: 13px; color: var(--muted); }
 .rec-note { color: var(--muted); font-size: 13px; margin: 4px 0 0; }
 th.ours-col, td.ours-col { background: color-mix(in srgb, var(--pylon-soft) 55%, transparent); }
+.mk td.pick .ml-lean { display: inline; font-size: inherit; color: var(--muted); font-weight: 600; }
