@@ -106,9 +106,9 @@
     {
      "key": "epa_def",
      "label": "Defense: points added per play allowed",
-     "value": 0.036,
+     "value": 0.019,
      "fmt": "3",
-     "rank": 52,
+     "rank": 43,
      "better": false
     },
     {
@@ -122,9 +122,9 @@
     {
      "key": "succ_def",
      "label": "Defense: success rate allowed",
-     "value": 0.3844,
+     "value": 0.3837,
      "fmt": "pct",
-     "rank": 48,
+     "rank": 47,
      "better": false
     },
     {
@@ -156,7 +156,7 @@
      "label": "Rushing: points added per rush",
      "value": 0.201,
      "fmt": "3",
-     "rank": 26,
+     "rank": 25,
      "better": true
     },
     {
@@ -180,7 +180,7 @@
      "label": "Offensive line yards",
      "value": 3.19,
      "fmt": "2",
-     "rank": 42,
+     "rank": 41,
      "better": true
     },
     {
@@ -188,7 +188,7 @@
      "label": "Defense: stuff rate",
      "value": 0.2167,
      "fmt": "pct",
-     "rank": 45,
+     "rank": 46,
      "better": true
     },
     {
@@ -244,7 +244,7 @@
      "label": "Average starting field position (yards to go)",
      "value": 69.5,
      "fmt": "1",
-     "rank": 55,
+     "rank": 57,
      "better": false
     },
     {
@@ -382,9 +382,9 @@
     {
      "key": "epa_def",
      "label": "Defense: points added per play allowed",
-     "value": 0.053,
+     "value": 0.054,
      "fmt": "3",
-     "rank": 57,
+     "rank": 59,
      "better": false
     },
     {
@@ -392,7 +392,7 @@
      "label": "Offense: success rate",
      "value": 0.4933,
      "fmt": "pct",
-     "rank": 22,
+     "rank": 21,
      "better": true
     },
     {
@@ -400,7 +400,7 @@
      "label": "Defense: success rate allowed",
      "value": 0.3863,
      "fmt": "pct",
-     "rank": 52,
+     "rank": 53,
      "better": false
     },
     {
@@ -438,7 +438,7 @@
     {
      "key": "pass_def",
      "label": "Pass defense: per pass allowed",
-     "value": 0.149,
+     "value": 0.151,
      "fmt": "3",
      "rank": 68,
      "better": false
@@ -520,7 +520,7 @@
      "label": "Average starting field position (yards to go)",
      "value": 70.3,
      "fmt": "1",
-     "rank": 66,
+     "rank": 68,
      "better": false
     },
     {

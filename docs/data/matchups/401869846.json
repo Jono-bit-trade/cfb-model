@@ -108,7 +108,7 @@
      "label": "Defense: points added per play allowed",
      "value": 0.032,
      "fmt": "3",
-     "rank": 50,
+     "rank": 51,
      "better": false
     },
     {
@@ -140,7 +140,7 @@
      "label": "Defense: explosiveness allowed",
      "value": 1.13,
      "fmt": "2",
-     "rank": 20,
+     "rank": 21,
      "better": false
     },
     {
@@ -180,7 +180,7 @@
      "label": "Offensive line yards",
      "value": 2.54,
      "fmt": "2",
-     "rank": 130,
+     "rank": 131,
      "better": true
     },
     {
@@ -242,9 +242,9 @@
     {
      "key": "field_off",
      "label": "Average starting field position (yards to go)",
-     "value": 69.1,
+     "value": 68.6,
      "fmt": "1",
-     "rank": 45,
+     "rank": 34,
      "better": false
     },
     {
@@ -408,7 +408,7 @@
      "label": "Offense: explosiveness",
      "value": 1.2,
      "fmt": "2",
-     "rank": 95,
+     "rank": 96,
      "better": true
     },
     {
@@ -432,7 +432,7 @@
      "label": "Rushing: points added per rush",
      "value": 0.007,
      "fmt": "3",
-     "rank": 106,
+     "rank": 107,
      "better": true
     },
     {
@@ -440,7 +440,7 @@
      "label": "Pass defense: per pass allowed",
      "value": 0.254,
      "fmt": "3",
-     "rank": 96,
+     "rank": 97,
      "better": false
     },
     {
@@ -520,7 +520,7 @@
      "label": "Average starting field position (yards to go)",
      "value": 72.4,
      "fmt": "1",
-     "rank": 110,
+     "rank": 109,
      "better": false
     },
     {

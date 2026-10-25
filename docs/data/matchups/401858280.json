@@ -106,9 +106,9 @@
     {
      "key": "epa_def",
      "label": "Defense: points added per play allowed",
-     "value": -0.013,
+     "value": -0.005,
      "fmt": "3",
-     "rank": 31,
+     "rank": 35,
      "better": false
     },
     {
@@ -122,9 +122,9 @@
     {
      "key": "succ_def",
      "label": "Defense: success rate allowed",
-     "value": 0.4034,
+     "value": 0.4054,
      "fmt": "pct",
-     "rank": 69,
+     "rank": 72,
      "better": false
     },
     {
@@ -162,9 +162,9 @@
     {
      "key": "pass_def",
      "label": "Pass defense: per pass allowed",
-     "value": -0.005,
+     "value": 0.011,
      "fmt": "3",
-     "rank": 18,
+     "rank": 21,
      "better": false
     },
     {
@@ -172,7 +172,7 @@
      "label": "Run defense: per rush allowed",
      "value": 0.022,
      "fmt": "3",
-     "rank": 71,
+     "rank": 69,
      "better": false
     },
     {
@@ -180,7 +180,7 @@
      "label": "Offensive line yards",
      "value": 2.59,
      "fmt": "2",
-     "rank": 125,
+     "rank": 126,
      "better": true
     },
     {
@@ -188,7 +188,7 @@
      "label": "Defense: stuff rate",
      "value": 0.2074,
      "fmt": "pct",
-     "rank": 58,
+     "rank": 57,
      "better": true
     },
     {
@@ -376,7 +376,7 @@
      "label": "Offense: points added per play",
      "value": 0.242,
      "fmt": "3",
-     "rank": 33,
+     "rank": 35,
      "better": true
     },
     {
@@ -384,7 +384,7 @@
      "label": "Defense: points added per play allowed",
      "value": 0.236,
      "fmt": "3",
-     "rank": 123,
+     "rank": 125,
      "better": false
     },
     {
@@ -432,7 +432,7 @@
      "label": "Rushing: points added per rush",
      "value": 0.219,
      "fmt": "3",
-     "rank": 19,
+     "rank": 18,
      "better": true
     },
     {
@@ -456,7 +456,7 @@
      "label": "Offensive line yards",
      "value": 3.44,
      "fmt": "2",
-     "rank": 18,
+     "rank": 17,
      "better": true
     },
     {
@@ -464,7 +464,7 @@
      "label": "Defense: stuff rate",
      "value": 0.1504,
      "fmt": "pct",
-     "rank": 121,
+     "rank": 120,
      "better": true
     },
     {
@@ -512,7 +512,7 @@
      "label": "Points per drive allowed",
      "value": 2.26,
      "fmt": "2",
-     "rank": 96,
+     "rank": 95,
      "better": false
     },
     {

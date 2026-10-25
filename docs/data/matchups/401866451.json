@@ -108,7 +108,7 @@
      "label": "Defense: points added per play allowed",
      "value": 0.142,
      "fmt": "3",
-     "rank": 98,
+     "rank": 99,
      "better": false
     },
     {
@@ -188,7 +188,7 @@
      "label": "Defense: stuff rate",
      "value": 0.149,
      "fmt": "pct",
-     "rank": 123,
+     "rank": 122,
      "better": true
     },
     {
@@ -382,9 +382,9 @@
     {
      "key": "epa_def",
      "label": "Defense: points added per play allowed",
-     "value": 0.192,
+     "value": 0.183,
      "fmt": "3",
-     "rank": 115,
+     "rank": 113,
      "better": false
     },
     {
@@ -398,7 +398,7 @@
     {
      "key": "succ_def",
      "label": "Defense: success rate allowed",
-     "value": 0.398,
+     "value": 0.3988,
      "fmt": "pct",
      "rank": 59,
      "better": false
@@ -414,9 +414,9 @@
     {
      "key": "expl_def",
      "label": "Defense: explosiveness allowed",
-     "value": 1.41,
+     "value": 1.39,
      "fmt": "2",
-     "rank": 126,
+     "rank": 122,
      "better": false
     },
     {
@@ -438,15 +438,15 @@
     {
      "key": "pass_def",
      "label": "Pass defense: per pass allowed",
-     "value": 0.401,
+     "value": 0.376,
      "fmt": "3",
-     "rank": 127,
+     "rank": 125,
      "better": false
     },
     {
      "key": "rush_def",
      "label": "Run defense: per rush allowed",
-     "value": 0.112,
+     "value": 0.113,
      "fmt": "3",
      "rank": 101,
      "better": false

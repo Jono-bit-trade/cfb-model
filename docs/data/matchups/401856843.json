@@ -106,7 +106,7 @@
     {
      "key": "epa_def",
      "label": "Defense: points added per play allowed",
-     "value": 0.067,
+     "value": 0.068,
      "fmt": "3",
      "rank": 68,
      "better": false
@@ -124,7 +124,7 @@
      "label": "Defense: success rate allowed",
      "value": 0.3993,
      "fmt": "pct",
-     "rank": 61,
+     "rank": 60,
      "better": false
     },
     {
@@ -132,7 +132,7 @@
      "label": "Offense: explosiveness",
      "value": 1.26,
      "fmt": "2",
-     "rank": 71,
+     "rank": 73,
      "better": true
     },
     {
@@ -140,7 +140,7 @@
      "label": "Defense: explosiveness allowed",
      "value": 1.22,
      "fmt": "2",
-     "rank": 57,
+     "rank": 55,
      "better": false
     },
     {
@@ -148,13 +148,13 @@
      "label": "Passing: points added per pass",
      "value": 0.164,
      "fmt": "3",
-     "rank": 89,
+     "rank": 88,
      "better": true
     },
     {
      "key": "rush_off",
      "label": "Rushing: points added per rush",
-     "value": 0.027,
+     "value": 0.026,
      "fmt": "3",
      "rank": 98,
      "better": true
@@ -170,7 +170,7 @@
     {
      "key": "rush_def",
      "label": "Run defense: per rush allowed",
-     "value": 0.048,
+     "value": 0.049,
      "fmt": "3",
      "rank": 84,
      "better": false
@@ -188,7 +188,7 @@
      "label": "Defense: stuff rate",
      "value": 0.1642,
      "fmt": "pct",
-     "rank": 104,
+     "rank": 103,
      "better": true
     },
     {
@@ -408,7 +408,7 @@
      "label": "Offense: explosiveness",
      "value": 1.24,
      "fmt": "2",
-     "rank": 77,
+     "rank": 78,
      "better": true
     },
     {
@@ -416,7 +416,7 @@
      "label": "Defense: explosiveness allowed",
      "value": 1.2,
      "fmt": "2",
-     "rank": 52,
+     "rank": 51,
      "better": false
     },
     {
@@ -448,7 +448,7 @@
      "label": "Run defense: per rush allowed",
      "value": -0.067,
      "fmt": "3",
-     "rank": 37,
+     "rank": 36,
      "better": false
     },
     {
@@ -504,7 +504,7 @@
      "label": "Points per drive",
      "value": 2.92,
      "fmt": "2",
-     "rank": 29,
+     "rank": 30,
      "better": true
     },
     {
@@ -518,9 +518,9 @@
     {
      "key": "field_off",
      "label": "Average starting field position (yards to go)",
-     "value": 70.4,
+     "value": 69.8,
      "fmt": "1",
-     "rank": 69,
+     "rank": 61,
      "better": false
     },
     {

@@ -116,7 +116,7 @@
      "label": "Offense: success rate",
      "value": 0.3922,
      "fmt": "pct",
-     "rank": 110,
+     "rank": 109,
      "better": true
     },
     {
@@ -132,7 +132,7 @@
      "label": "Offense: explosiveness",
      "value": 1.37,
      "fmt": "2",
-     "rank": 20,
+     "rank": 19,
      "better": true
     },
     {
@@ -148,7 +148,7 @@
      "label": "Passing: points added per pass",
      "value": 0.089,
      "fmt": "3",
-     "rank": 111,
+     "rank": 110,
      "better": true
     },
     {
@@ -172,7 +172,7 @@
      "label": "Run defense: per rush allowed",
      "value": -0.013,
      "fmt": "3",
-     "rank": 56,
+     "rank": 57,
      "better": false
     },
     {
@@ -188,7 +188,7 @@
      "label": "Defense: stuff rate",
      "value": 0.1624,
      "fmt": "pct",
-     "rank": 106,
+     "rank": 105,
      "better": true
     },
     {
@@ -376,7 +376,7 @@
      "label": "Offense: points added per play",
      "value": 0.182,
      "fmt": "3",
-     "rank": 57,
+     "rank": 56,
      "better": true
     },
     {
@@ -432,7 +432,7 @@
      "label": "Rushing: points added per rush",
      "value": 0.155,
      "fmt": "3",
-     "rank": 44,
+     "rank": 45,
      "better": true
     },
     {
@@ -464,7 +464,7 @@
      "label": "Defense: stuff rate",
      "value": 0.2708,
      "fmt": "pct",
-     "rank": 13,
+     "rank": 12,
      "better": true
     },
     {
@@ -520,7 +520,7 @@
      "label": "Average starting field position (yards to go)",
      "value": 68.8,
      "fmt": "1",
-     "rank": 37,
+     "rank": 39,
      "better": false
     },
     {

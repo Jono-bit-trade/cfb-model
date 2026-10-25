@@ -180,7 +180,7 @@
      "label": "Offensive line yards",
      "value": 2.86,
      "fmt": "2",
-     "rank": 100,
+     "rank": 101,
      "better": true
     },
     {
@@ -244,7 +244,7 @@
      "label": "Average starting field position (yards to go)",
      "value": 69.5,
      "fmt": "1",
-     "rank": 54,
+     "rank": 56,
      "better": false
     },
     {
@@ -400,7 +400,7 @@
      "label": "Defense: success rate allowed",
      "value": 0.341,
      "fmt": "pct",
-     "rank": 18,
+     "rank": 17,
      "better": false
     },
     {

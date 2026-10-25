@@ -132,7 +132,7 @@
      "label": "Offense: explosiveness",
      "value": 1.24,
      "fmt": "2",
-     "rank": 79,
+     "rank": 80,
      "better": true
     },
     {
@@ -180,7 +180,7 @@
      "label": "Offensive line yards",
      "value": 2.84,
      "fmt": "2",
-     "rank": 103,
+     "rank": 104,
      "better": true
     },
     {
@@ -464,7 +464,7 @@
      "label": "Defense: stuff rate",
      "value": 0.2147,
      "fmt": "pct",
-     "rank": 50,
+     "rank": 51,
      "better": true
     },
     {
@@ -504,7 +504,7 @@
      "label": "Points per drive",
      "value": 2.92,
      "fmt": "2",
-     "rank": 27,
+     "rank": 28,
      "better": true
     },
     {

@@ -100,7 +100,7 @@
      "label": "Offense: points added per play",
      "value": 0.203,
      "fmt": "3",
-     "rank": 49,
+     "rank": 48,
      "better": true
     },
     {
@@ -154,9 +154,9 @@
     {
      "key": "rush_off",
      "label": "Rushing: points added per rush",
-     "value": 0.206,
+     "value": 0.205,
      "fmt": "3",
-     "rank": 24,
+     "rank": 22,
      "better": true
     },
     {
@@ -172,7 +172,7 @@
      "label": "Run defense: per rush allowed",
      "value": 0.029,
      "fmt": "3",
-     "rank": 76,
+     "rank": 75,
      "better": false
     },
     {
@@ -188,7 +188,7 @@
      "label": "Defense: stuff rate",
      "value": 0.1783,
      "fmt": "pct",
-     "rank": 91,
+     "rank": 89,
      "better": true
     },
     {
@@ -244,7 +244,7 @@
      "label": "Average starting field position (yards to go)",
      "value": 69.5,
      "fmt": "1",
-     "rank": 56,
+     "rank": 58,
      "better": false
     },
     {
@@ -392,7 +392,7 @@
      "label": "Offense: success rate",
      "value": 0.5031,
      "fmt": "pct",
-     "rank": 16,
+     "rank": 17,
      "better": true
     },
     {
@@ -408,7 +408,7 @@
      "label": "Offense: explosiveness",
      "value": 1.37,
      "fmt": "2",
-     "rank": 19,
+     "rank": 18,
      "better": true
     },
     {
@@ -448,7 +448,7 @@
      "label": "Run defense: per rush allowed",
      "value": -0.072,
      "fmt": "3",
-     "rank": 32,
+     "rank": 31,
      "better": false
     },
     {
@@ -512,7 +512,7 @@
      "label": "Points per drive allowed",
      "value": 2.26,
      "fmt": "2",
-     "rank": 97,
+     "rank": 96,
      "better": false
     },
     {
@@ -520,7 +520,7 @@
      "label": "Average starting field position (yards to go)",
      "value": 68.7,
      "fmt": "1",
-     "rank": 36,
+     "rank": 37,
      "better": false
     },
     {

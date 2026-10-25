@@ -124,7 +124,7 @@
      "label": "Defense: success rate allowed",
      "value": 0.4392,
      "fmt": "pct",
-     "rank": 109,
+     "rank": 108,
      "better": false
     },
     {
@@ -188,7 +188,7 @@
      "label": "Defense: stuff rate",
      "value": 0.1606,
      "fmt": "pct",
-     "rank": 108,
+     "rank": 109,
      "better": true
     },
     {
@@ -226,7 +226,7 @@
     {
      "key": "ppd_off",
      "label": "Points per drive",
-     "value": 3.61,
+     "value": 3.64,
      "fmt": "2",
      "rank": 3,
      "better": true
@@ -236,7 +236,7 @@
      "label": "Points per drive allowed",
      "value": 2.29,
      "fmt": "2",
-     "rank": 100,
+     "rank": 99,
      "better": false
     },
     {
@@ -244,7 +244,7 @@
      "label": "Average starting field position (yards to go)",
      "value": 70.1,
      "fmt": "1",
-     "rank": 63,
+     "rank": 64,
      "better": false
     },
     {
@@ -432,7 +432,7 @@
      "label": "Rushing: points added per rush",
      "value": 0.125,
      "fmt": "3",
-     "rank": 60,
+     "rank": 59,
      "better": true
     },
     {
@@ -456,15 +456,15 @@
      "label": "Offensive line yards",
      "value": 3.44,
      "fmt": "2",
-     "rank": 17,
+     "rank": 16,
      "better": true
     },
     {
      "key": "stuff_def",
      "label": "Defense: stuff rate",
-     "value": 0.151,
+     "value": 0.1472,
      "fmt": "pct",
-     "rank": 119,
+     "rank": 123,
      "better": true
     },
     {

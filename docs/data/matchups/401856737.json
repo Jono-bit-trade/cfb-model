@@ -108,7 +108,7 @@
      "label": "Defense: points added per play allowed",
      "value": 0.122,
      "fmt": "3",
-     "rank": 90,
+     "rank": 91,
      "better": false
     },
     {
@@ -116,7 +116,7 @@
      "label": "Offense: success rate",
      "value": 0.4609,
      "fmt": "pct",
-     "rank": 46,
+     "rank": 45,
      "better": true
     },
     {
@@ -124,7 +124,7 @@
      "label": "Defense: success rate allowed",
      "value": 0.4363,
      "fmt": "pct",
-     "rank": 106,
+     "rank": 107,
      "better": false
     },
     {
@@ -148,7 +148,7 @@
      "label": "Passing: points added per pass",
      "value": 0.242,
      "fmt": "3",
-     "rank": 69,
+     "rank": 68,
      "better": true
     },
     {
@@ -156,7 +156,7 @@
      "label": "Rushing: points added per rush",
      "value": 0.126,
      "fmt": "3",
-     "rank": 59,
+     "rank": 58,
      "better": true
     },
     {
@@ -172,7 +172,7 @@
      "label": "Run defense: per rush allowed",
      "value": -0.028,
      "fmt": "3",
-     "rank": 53,
+     "rank": 54,
      "better": false
     },
     {
@@ -188,7 +188,7 @@
      "label": "Defense: stuff rate",
      "value": 0.16,
      "fmt": "pct",
-     "rank": 109,
+     "rank": 110,
      "better": true
     },
     {
@@ -236,7 +236,7 @@
      "label": "Points per drive allowed",
      "value": 2.37,
      "fmt": "2",
-     "rank": 104,
+     "rank": 103,
      "better": false
     },
     {
@@ -382,7 +382,7 @@
     {
      "key": "epa_def",
      "label": "Defense: points added per play allowed",
-     "value": -0.01,
+     "value": -0.009,
      "fmt": "3",
      "rank": 32,
      "better": false
@@ -392,7 +392,7 @@
      "label": "Offense: success rate",
      "value": 0.4193,
      "fmt": "pct",
-     "rank": 84,
+     "rank": 83,
      "better": true
     },
     {
@@ -400,7 +400,7 @@
      "label": "Defense: success rate allowed",
      "value": 0.3452,
      "fmt": "pct",
-     "rank": 21,
+     "rank": 22,
      "better": false
     },
     {
@@ -456,7 +456,7 @@
      "label": "Offensive line yards",
      "value": 2.66,
      "fmt": "2",
-     "rank": 118,
+     "rank": 119,
      "better": true
     },
     {
@@ -520,7 +520,7 @@
      "label": "Average starting field position (yards to go)",
      "value": 70.2,
      "fmt": "1",
-     "rank": 64,
+     "rank": 66,
      "better": false
     },
     {

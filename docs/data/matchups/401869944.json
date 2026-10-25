@@ -108,7 +108,7 @@
      "label": "Defense: points added per play allowed",
      "value": 0.145,
      "fmt": "3",
-     "rank": 99,
+     "rank": 100,
      "better": false
     },
     {
@@ -116,7 +116,7 @@
      "label": "Offense: success rate",
      "value": 0.4059,
      "fmt": "pct",
-     "rank": 96,
+     "rank": 95,
      "better": true
     },
     {
@@ -148,7 +148,7 @@
      "label": "Passing: points added per pass",
      "value": 0.244,
      "fmt": "3",
-     "rank": 68,
+     "rank": 67,
      "better": true
     },
     {
@@ -384,7 +384,7 @@
      "label": "Defense: points added per play allowed",
      "value": 0.068,
      "fmt": "3",
-     "rank": 71,
+     "rank": 72,
      "better": false
     },
     {
@@ -392,7 +392,7 @@
      "label": "Offense: success rate",
      "value": 0.4923,
      "fmt": "pct",
-     "rank": 23,
+     "rank": 22,
      "better": true
     },
     {
@@ -504,7 +504,7 @@
      "label": "Points per drive",
      "value": 2.62,
      "fmt": "2",
-     "rank": 51,
+     "rank": 52,
      "better": true
     },
     {
@@ -520,7 +520,7 @@
      "label": "Average starting field position (yards to go)",
      "value": 70.5,
      "fmt": "1",
-     "rank": 72,
+     "rank": 73,
      "better": false
     },
     {

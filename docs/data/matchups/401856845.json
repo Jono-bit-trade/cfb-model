@@ -100,15 +100,15 @@
      "label": "Offense: points added per play",
      "value": 0.147,
      "fmt": "3",
-     "rank": 69,
+     "rank": 70,
      "better": true
     },
     {
      "key": "epa_def",
      "label": "Defense: points added per play allowed",
-     "value": -0.042,
+     "value": -0.031,
      "fmt": "3",
-     "rank": 24,
+     "rank": 26,
      "better": false
     },
     {
@@ -122,9 +122,9 @@
     {
      "key": "succ_def",
      "label": "Defense: success rate allowed",
-     "value": 0.3401,
+     "value": 0.3422,
      "fmt": "pct",
-     "rank": 17,
+     "rank": 19,
      "better": false
     },
     {
@@ -140,7 +140,7 @@
      "label": "Defense: explosiveness allowed",
      "value": 1.34,
      "fmt": "2",
-     "rank": 110,
+     "rank": 109,
      "better": false
     },
     {
@@ -170,25 +170,25 @@
     {
      "key": "rush_def",
      "label": "Run defense: per rush allowed",
-     "value": -0.093,
+     "value": -0.071,
      "fmt": "3",
-     "rank": 25,
+     "rank": 32,
      "better": false
     },
     {
      "key": "line_off",
      "label": "Offensive line yards",
-     "value": 3.27,
+     "value": 3.26,
      "fmt": "2",
-     "rank": 31,
+     "rank": 34,
      "better": true
     },
     {
      "key": "stuff_def",
      "label": "Defense: stuff rate",
-     "value": 0.3219,
+     "value": 0.3176,
      "fmt": "pct",
-     "rank": 2,
+     "rank": 3,
      "better": true
     },
     {
@@ -392,7 +392,7 @@
      "label": "Offense: success rate",
      "value": 0.4234,
      "fmt": "pct",
-     "rank": 78,
+     "rank": 77,
      "better": true
     },
     {
@@ -408,7 +408,7 @@
      "label": "Offense: explosiveness",
      "value": 1.29,
      "fmt": "2",
-     "rank": 50,
+     "rank": 49,
      "better": true
     },
     {
@@ -456,7 +456,7 @@
      "label": "Offensive line yards",
      "value": 2.64,
      "fmt": "2",
-     "rank": 120,
+     "rank": 121,
      "better": true
     },
     {
@@ -520,7 +520,7 @@
      "label": "Average starting field position (yards to go)",
      "value": 69.4,
      "fmt": "1",
-     "rank": 52,
+     "rank": 53,
      "better": false
     },
     {

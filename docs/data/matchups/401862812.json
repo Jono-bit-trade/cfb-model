@@ -124,7 +124,7 @@
      "label": "Defense: success rate allowed",
      "value": 0.4357,
      "fmt": "pct",
-     "rank": 105,
+     "rank": 106,
      "better": false
     },
     {
@@ -132,7 +132,7 @@
      "label": "Offense: explosiveness",
      "value": 1.26,
      "fmt": "2",
-     "rank": 75,
+     "rank": 76,
      "better": true
     },
     {
@@ -154,9 +154,9 @@
     {
      "key": "rush_off",
      "label": "Rushing: points added per rush",
-     "value": 0.211,
+     "value": 0.21,
      "fmt": "3",
-     "rank": 23,
+     "rank": 21,
      "better": true
     },
     {
@@ -382,9 +382,9 @@
     {
      "key": "epa_def",
      "label": "Defense: points added per play allowed",
-     "value": 0.13,
+     "value": 0.112,
      "fmt": "3",
-     "rank": 96,
+     "rank": 89,
      "better": false
     },
     {
@@ -398,9 +398,9 @@
     {
      "key": "succ_def",
      "label": "Defense: success rate allowed",
-     "value": 0.4372,
+     "value": 0.4354,
      "fmt": "pct",
-     "rank": 108,
+     "rank": 105,
      "better": false
     },
     {
@@ -416,7 +416,7 @@
      "label": "Defense: explosiveness allowed",
      "value": 1.22,
      "fmt": "2",
-     "rank": 55,
+     "rank": 57,
      "better": false
     },
     {
@@ -446,9 +446,9 @@
     {
      "key": "rush_def",
      "label": "Run defense: per rush allowed",
-     "value": -0.01,
+     "value": -0.033,
      "fmt": "3",
-     "rank": 57,
+     "rank": 52,
      "better": false
     },
     {
@@ -462,9 +462,9 @@
     {
      "key": "stuff_def",
      "label": "Defense: stuff rate",
-     "value": 0.1789,
+     "value": 0.1766,
      "fmt": "pct",
-     "rank": 89,
+     "rank": 91,
      "better": true
     },
     {
@@ -520,7 +520,7 @@
      "label": "Average starting field position (yards to go)",
      "value": 69.9,
      "fmt": "1",
-     "rank": 61,
+     "rank": 63,
      "better": false
     },
     {

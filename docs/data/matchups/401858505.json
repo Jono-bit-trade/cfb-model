@@ -106,9 +106,9 @@
     {
      "key": "epa_def",
      "label": "Defense: points added per play allowed",
-     "value": 0.024,
+     "value": 0.03,
      "fmt": "3",
-     "rank": 43,
+     "rank": 49,
      "better": false
     },
     {
@@ -132,7 +132,7 @@
      "label": "Offense: explosiveness",
      "value": 1.36,
      "fmt": "2",
-     "rank": 25,
+     "rank": 24,
      "better": true
     },
     {
@@ -140,7 +140,7 @@
      "label": "Defense: explosiveness allowed",
      "value": 1.16,
      "fmt": "2",
-     "rank": 35,
+     "rank": 34,
      "better": false
     },
     {
@@ -170,9 +170,9 @@
     {
      "key": "rush_def",
      "label": "Run defense: per rush allowed",
-     "value": 0.018,
+     "value": 0.031,
      "fmt": "3",
-     "rank": 68,
+     "rank": 76,
      "better": false
     },
     {
@@ -180,15 +180,15 @@
      "label": "Offensive line yards",
      "value": 3.08,
      "fmt": "2",
-     "rank": 58,
+     "rank": 57,
      "better": true
     },
     {
      "key": "stuff_def",
      "label": "Defense: stuff rate",
-     "value": 0.1663,
+     "value": 0.1618,
      "fmt": "pct",
-     "rank": 103,
+     "rank": 107,
      "better": true
     },
     {
@@ -266,7 +266,7 @@
     {
      "key": "plays",
      "label": "Plays per game (pace)",
-     "value": 64.9,
+     "value": 65.0,
      "fmt": "1",
      "rank": null,
      "better": null
@@ -400,7 +400,7 @@
      "label": "Defense: success rate allowed",
      "value": 0.3461,
      "fmt": "pct",
-     "rank": 23,
+     "rank": 24,
      "better": false
     },
     {
@@ -408,7 +408,7 @@
      "label": "Offense: explosiveness",
      "value": 1.26,
      "fmt": "2",
-     "rank": 76,
+     "rank": 77,
      "better": true
     },
     {
@@ -448,7 +448,7 @@
      "label": "Run defense: per rush allowed",
      "value": -0.114,
      "fmt": "3",
-     "rank": 17,
+     "rank": 18,
      "better": false
     },
     {
@@ -456,7 +456,7 @@
      "label": "Offensive line yards",
      "value": 2.99,
      "fmt": "2",
-     "rank": 81,
+     "rank": 83,
      "better": true
     },
     {

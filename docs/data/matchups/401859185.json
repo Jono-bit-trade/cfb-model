@@ -140,7 +140,7 @@
      "label": "Defense: explosiveness allowed",
      "value": 1.16,
      "fmt": "2",
-     "rank": 34,
+     "rank": 33,
      "better": false
     },
     {
@@ -188,7 +188,7 @@
      "label": "Defense: stuff rate",
      "value": 0.2148,
      "fmt": "pct",
-     "rank": 49,
+     "rank": 50,
      "better": true
     },
     {
@@ -374,9 +374,9 @@
     {
      "key": "epa_off",
      "label": "Offense: points added per play",
-     "value": 0.205,
+     "value": 0.186,
      "fmt": "3",
-     "rank": 47,
+     "rank": 54,
      "better": true
     },
     {
@@ -390,9 +390,9 @@
     {
      "key": "succ_off",
      "label": "Offense: success rate",
-     "value": 0.4623,
+     "value": 0.4605,
      "fmt": "pct",
-     "rank": 43,
+     "rank": 47,
      "better": true
     },
     {
@@ -406,9 +406,9 @@
     {
      "key": "expl_off",
      "label": "Offense: explosiveness",
-     "value": 1.26,
+     "value": 1.27,
      "fmt": "2",
-     "rank": 72,
+     "rank": 66,
      "better": true
     },
     {
@@ -430,9 +430,9 @@
     {
      "key": "rush_off",
      "label": "Rushing: points added per rush",
-     "value": 0.222,
+     "value": 0.199,
      "fmt": "3",
-     "rank": 18,
+     "rank": 27,
      "better": true
     },
     {
@@ -454,9 +454,9 @@
     {
      "key": "line_off",
      "label": "Offensive line yards",
-     "value": 3.45,
+     "value": 3.47,
      "fmt": "2",
-     "rank": 16,
+     "rank": 13,
      "better": true
     },
     {

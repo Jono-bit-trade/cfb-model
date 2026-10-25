@@ -188,7 +188,7 @@
      "label": "Defense: stuff rate",
      "value": 0.215,
      "fmt": "pct",
-     "rank": 48,
+     "rank": 49,
      "better": true
     },
     {
@@ -234,9 +234,9 @@
     {
      "key": "ppd_def",
      "label": "Points per drive allowed",
-     "value": 1.06,
+     "value": 1.13,
      "fmt": "2",
-     "rank": 3,
+     "rank": 4,
      "better": false
     },
     {
@@ -244,7 +244,7 @@
      "label": "Average starting field position (yards to go)",
      "value": 70.2,
      "fmt": "1",
-     "rank": 65,
+     "rank": 67,
      "better": false
     },
     {
@@ -408,7 +408,7 @@
      "label": "Offense: explosiveness",
      "value": 1.13,
      "fmt": "2",
-     "rank": 121,
+     "rank": 122,
      "better": true
     },
     {
@@ -424,7 +424,7 @@
      "label": "Passing: points added per pass",
      "value": 0.248,
      "fmt": "3",
-     "rank": 67,
+     "rank": 66,
      "better": true
     },
     {
@@ -432,7 +432,7 @@
      "label": "Rushing: points added per rush",
      "value": 0.071,
      "fmt": "3",
-     "rank": 79,
+     "rank": 80,
      "better": true
     },
     {
@@ -440,7 +440,7 @@
      "label": "Pass defense: per pass allowed",
      "value": 0.102,
      "fmt": "3",
-     "rank": 48,
+     "rank": 49,
      "better": false
     },
     {
@@ -456,7 +456,7 @@
      "label": "Offensive line yards",
      "value": 3.16,
      "fmt": "2",
-     "rank": 45,
+     "rank": 44,
      "better": true
     },
     {

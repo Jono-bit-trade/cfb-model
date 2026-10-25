@@ -100,7 +100,7 @@
      "label": "Offense: points added per play",
      "value": 0.18,
      "fmt": "3",
-     "rank": 60,
+     "rank": 58,
      "better": true
     },
     {
@@ -108,7 +108,7 @@
      "label": "Defense: points added per play allowed",
      "value": 0.244,
      "fmt": "3",
-     "rank": 125,
+     "rank": 126,
      "better": false
     },
     {
@@ -132,7 +132,7 @@
      "label": "Offense: explosiveness",
      "value": 1.28,
      "fmt": "2",
-     "rank": 58,
+     "rank": 59,
      "better": true
     },
     {
@@ -180,7 +180,7 @@
      "label": "Offensive line yards",
      "value": 2.88,
      "fmt": "2",
-     "rank": 99,
+     "rank": 100,
      "better": true
     },
     {
@@ -384,7 +384,7 @@
      "label": "Defense: points added per play allowed",
      "value": 0.032,
      "fmt": "3",
-     "rank": 49,
+     "rank": 50,
      "better": false
     },
     {
@@ -400,7 +400,7 @@
      "label": "Defense: success rate allowed",
      "value": 0.3413,
      "fmt": "pct",
-     "rank": 19,
+     "rank": 18,
      "better": false
     },
     {
@@ -502,9 +502,9 @@
     {
      "key": "ppd_off",
      "label": "Points per drive",
-     "value": 2.6,
+     "value": 2.65,
      "fmt": "2",
-     "rank": 54,
+     "rank": 46,
      "better": true
     },
     {

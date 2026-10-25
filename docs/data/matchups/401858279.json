@@ -100,7 +100,7 @@
      "label": "Offense: points added per play",
      "value": 0.061,
      "fmt": "3",
-     "rank": 106,
+     "rank": 105,
      "better": true
     },
     {
@@ -132,7 +132,7 @@
      "label": "Offense: explosiveness",
      "value": 1.28,
      "fmt": "2",
-     "rank": 60,
+     "rank": 61,
      "better": true
     },
     {
@@ -156,7 +156,7 @@
      "label": "Rushing: points added per rush",
      "value": 0.072,
      "fmt": "3",
-     "rank": 77,
+     "rank": 78,
      "better": true
     },
     {
@@ -172,7 +172,7 @@
      "label": "Run defense: per rush allowed",
      "value": 0.022,
      "fmt": "3",
-     "rank": 69,
+     "rank": 68,
      "better": false
     },
     {
@@ -244,7 +244,7 @@
      "label": "Average starting field position (yards to go)",
      "value": 70.4,
      "fmt": "1",
-     "rank": 68,
+     "rank": 70,
      "better": false
     },
     {
@@ -376,7 +376,7 @@
      "label": "Offense: points added per play",
      "value": 0.241,
      "fmt": "3",
-     "rank": 36,
+     "rank": 37,
      "better": true
     },
     {
@@ -408,7 +408,7 @@
      "label": "Offense: explosiveness",
      "value": 1.32,
      "fmt": "2",
-     "rank": 36,
+     "rank": 35,
      "better": true
     },
     {
@@ -416,7 +416,7 @@
      "label": "Defense: explosiveness allowed",
      "value": 1.2,
      "fmt": "2",
-     "rank": 49,
+     "rank": 48,
      "better": false
     },
     {
@@ -448,7 +448,7 @@
      "label": "Run defense: per rush allowed",
      "value": -0.114,
      "fmt": "3",
-     "rank": 18,
+     "rank": 17,
      "better": false
     },
     {
@@ -462,9 +462,9 @@
     {
      "key": "stuff_def",
      "label": "Defense: stuff rate",
-     "value": 0.2116,
+     "value": 0.2146,
      "fmt": "pct",
-     "rank": 55,
+     "rank": 52,
      "better": true
     },
     {
@@ -520,7 +520,7 @@
      "label": "Average starting field position (yards to go)",
      "value": 69.6,
      "fmt": "1",
-     "rank": 58,
+     "rank": 60,
      "better": false
     },
     {

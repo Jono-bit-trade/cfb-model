@@ -108,7 +108,7 @@
      "label": "Defense: points added per play allowed",
      "value": 0.246,
      "fmt": "3",
-     "rank": 126,
+     "rank": 127,
      "better": false
     },
     {
@@ -132,7 +132,7 @@
      "label": "Offense: explosiveness",
      "value": 1.27,
      "fmt": "2",
-     "rank": 64,
+     "rank": 65,
      "better": true
     },
     {
@@ -148,7 +148,7 @@
      "label": "Passing: points added per pass",
      "value": 0.393,
      "fmt": "3",
-     "rank": 33,
+     "rank": 34,
      "better": true
     },
     {
@@ -180,7 +180,7 @@
      "label": "Offensive line yards",
      "value": 2.7,
      "fmt": "2",
-     "rank": 114,
+     "rank": 115,
      "better": true
     },
     {
@@ -244,7 +244,7 @@
      "label": "Average starting field position (yards to go)",
      "value": 68.6,
      "fmt": "1",
-     "rank": 34,
+     "rank": 35,
      "better": false
     },
     {
@@ -408,7 +408,7 @@
      "label": "Offense: explosiveness",
      "value": 1.26,
      "fmt": "2",
-     "rank": 67,
+     "rank": 69,
      "better": true
     },
     {
@@ -456,7 +456,7 @@
      "label": "Offensive line yards",
      "value": 2.75,
      "fmt": "2",
-     "rank": 109,
+     "rank": 110,
      "better": true
     },
     {

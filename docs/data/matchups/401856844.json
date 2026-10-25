@@ -98,15 +98,15 @@
     {
      "key": "epa_off",
      "label": "Offense: points added per play",
-     "value": 0.118,
+     "value": 0.129,
      "fmt": "3",
-     "rank": 81,
+     "rank": 78,
      "better": true
     },
     {
      "key": "epa_def",
      "label": "Defense: points added per play allowed",
-     "value": -0.073,
+     "value": -0.074,
      "fmt": "3",
      "rank": 12,
      "better": false
@@ -114,7 +114,7 @@
     {
      "key": "succ_off",
      "label": "Offense: success rate",
-     "value": 0.3928,
+     "value": 0.3949,
      "fmt": "pct",
      "rank": 108,
      "better": true
@@ -130,7 +130,7 @@
     {
      "key": "expl_off",
      "label": "Offense: explosiveness",
-     "value": 1.44,
+     "value": 1.43,
      "fmt": "2",
      "rank": 7,
      "better": true
@@ -154,9 +154,9 @@
     {
      "key": "rush_off",
      "label": "Rushing: points added per rush",
-     "value": 0.062,
+     "value": 0.084,
      "fmt": "3",
-     "rank": 83,
+     "rank": 73,
      "better": true
     },
     {
@@ -164,7 +164,7 @@
      "label": "Pass defense: per pass allowed",
      "value": 0.006,
      "fmt": "3",
-     "rank": 21,
+     "rank": 20,
      "better": false
     },
     {
@@ -178,9 +178,9 @@
     {
      "key": "line_off",
      "label": "Offensive line yards",
-     "value": 2.5,
+     "value": 2.93,
      "fmt": "2",
-     "rank": 132,
+     "rank": 92,
      "better": true
     },
     {
@@ -188,7 +188,7 @@
      "label": "Defense: stuff rate",
      "value": 0.222,
      "fmt": "pct",
-     "rank": 39,
+     "rank": 40,
      "better": true
     },
     {
@@ -408,7 +408,7 @@
      "label": "Offense: explosiveness",
      "value": 1.24,
      "fmt": "2",
-     "rank": 80,
+     "rank": 81,
      "better": true
     },
     {
@@ -456,7 +456,7 @@
      "label": "Offensive line yards",
      "value": 2.67,
      "fmt": "2",
-     "rank": 117,
+     "rank": 118,
      "better": true
     },
     {
@@ -518,7 +518,7 @@
     {
      "key": "field_off",
      "label": "Average starting field position (yards to go)",
-     "value": 66.5,
+     "value": 66.6,
      "fmt": "1",
      "rank": 9,
      "better": false

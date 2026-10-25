@@ -98,9 +98,9 @@
     {
      "key": "epa_off",
      "label": "Offense: points added per play",
-     "value": 0.284,
+     "value": 0.287,
      "fmt": "3",
-     "rank": 23,
+     "rank": 20,
      "better": true
     },
     {
@@ -114,9 +114,9 @@
     {
      "key": "succ_off",
      "label": "Offense: success rate",
-     "value": 0.5018,
+     "value": 0.5039,
      "fmt": "pct",
-     "rank": 18,
+     "rank": 16,
      "better": true
     },
     {
@@ -130,7 +130,7 @@
     {
      "key": "expl_off",
      "label": "Offense: explosiveness",
-     "value": 1.29,
+     "value": 1.28,
      "fmt": "2",
      "rank": 54,
      "better": true
@@ -154,9 +154,9 @@
     {
      "key": "rush_off",
      "label": "Rushing: points added per rush",
-     "value": 0.154,
+     "value": 0.16,
      "fmt": "3",
-     "rank": 45,
+     "rank": 44,
      "better": true
     },
     {
@@ -172,15 +172,15 @@
      "label": "Run defense: per rush allowed",
      "value": -0.061,
      "fmt": "3",
-     "rank": 38,
+     "rank": 37,
      "better": false
     },
     {
      "key": "line_off",
      "label": "Offensive line yards",
-     "value": 3.22,
+     "value": 3.24,
      "fmt": "2",
-     "rank": 38,
+     "rank": 36,
      "better": true
     },
     {
@@ -228,7 +228,7 @@
      "label": "Points per drive",
      "value": 2.98,
      "fmt": "2",
-     "rank": 23,
+     "rank": 24,
      "better": true
     },
     {
@@ -376,7 +376,7 @@
      "label": "Offense: points added per play",
      "value": 0.166,
      "fmt": "3",
-     "rank": 64,
+     "rank": 63,
      "better": true
     },
     {
@@ -408,7 +408,7 @@
      "label": "Offense: explosiveness",
      "value": 1.11,
      "fmt": "2",
-     "rank": 128,
+     "rank": 127,
      "better": true
     },
     {
@@ -416,7 +416,7 @@
      "label": "Defense: explosiveness allowed",
      "value": 1.37,
      "fmt": "2",
-     "rank": 117,
+     "rank": 116,
      "better": false
     },
     {
@@ -432,7 +432,7 @@
      "label": "Rushing: points added per rush",
      "value": 0.201,
      "fmt": "3",
-     "rank": 25,
+     "rank": 24,
      "better": true
     },
     {
@@ -464,7 +464,7 @@
      "label": "Defense: stuff rate",
      "value": 0.2139,
      "fmt": "pct",
-     "rank": 52,
+     "rank": 53,
      "better": true
     },
     {
