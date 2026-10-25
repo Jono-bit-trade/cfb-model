@@ -1,15 +1,16 @@
 :root {
-  --paper: #f2f4ef;      /* chalked field-side paper */
+  --paper: #f3f5f9;      /* cool off-white */
   --surface: #ffffff;
-  --ink: #17261f;        /* deep pine */
-  --muted: #5a6a62;
-  --rule: #cfd7cd;
-  --turf: #2c6a4c;       /* field green */
-  --turf-soft: #dcebe1;
-  --pylon: #e8641e;      /* end-zone pylon: strong picks only */
-  --pylon-soft: #fde6d6;
-  --win: #2c6a4c;
-  --loss: #b2402a;
+  --ink: #0f1a2b;        /* deep navy ink */
+  --muted: #5b6678;
+  --rule: #d6dce6;
+  --header: #13233f;     /* navy masthead */
+  --turf: #1d3a6b;       /* primary navy: charts, winners */
+  --turf-soft: #e3eaf6;
+  --pylon: #b07d05;      /* gold: strong picks and the model line */
+  --pylon-soft: #fdf1d3;
+  --win: #1f8a4c;
+  --loss: #c8372d;
   --display: "Barlow Condensed", "Arial Narrow", sans-serif;
   --body: "Barlow", system-ui, sans-serif;
   --radius-sm: 4px;
@@ -17,9 +18,9 @@
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --paper: #101a15; --surface: #16231c; --ink: #e8efe9; --muted: #9bb0a4;
-    --rule: #2b3d33; --turf: #6fc497; --turf-soft: #1f3a2b; --pylon: #ff8a4c;
-    --pylon-soft: #3b2417; --win: #6fc497; --loss: #ff8f78;
+    --paper: #0b1220; --surface: #121b2e; --ink: #e6ebf3; --muted: #98a3b8;
+    --rule: #24304a; --header: #0e1830; --turf: #8fb3ff; --turf-soft: #1a2742; --pylon: #f2b53a;
+    --pylon-soft: #3a2c10; --win: #5fd08f; --loss: #ff8f7e;
   }
 }
 
@@ -34,7 +35,7 @@ a { color: inherit; }
 :focus-visible { outline: 3px solid var(--pylon); outline-offset: 2px; border-radius: 2px; }
 
 /* ---------- masthead */
-.masthead { background: var(--turf); color: #fff; }
+.masthead { background: var(--header); color: #fff; }
 .masthead-row { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 56px; flex-wrap: wrap; }
 .brand { font: 700 24px/1 var(--display); letter-spacing: .01em; text-decoration: none; }
 .tabs { display: flex; gap: 4px; overflow-x: auto; }
@@ -283,9 +284,9 @@ td .with-logo + .with-logo { margin-top: 0; }
 .i-wind path { fill: none; stroke: #4f9fb8; stroke-width: 1.8; stroke-linecap: round; }
 .i-dome path { fill: none; stroke: currentColor; stroke-width: 1.3; stroke-linejoin: round; }
 .i-dome path:first-child { fill: var(--wx-bg); } .i-dome line { stroke: currentColor; stroke-width: 1.3; stroke-linecap: round; }
-:root { --wx-bg: #eef2ef; --wx-bad-bg: #fff1e6; --wx-bad-rule: #f3b98c; }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --wx-bg: #23302a; --wx-bad-bg: #3b2a1c; --wx-bad-rule: #8a5a2f; }
+:root { --wx-bg: #eef1f6; --wx-bad-bg: #fff3dc; --wx-bad-rule: #eac36f; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --wx-bg: #1c2740; --wx-bad-bg: #3a2c10; --wx-bad-rule: #8a6a24; }
   :root:not([data-theme="light"]) .i-cloud { fill: #d9dee2; } :root:not([data-theme="light"]) .i-cloud.back { fill: #9aa5ad; } }
-:root[data-theme="dark"] { --wx-bg: #23302a; --wx-bad-bg: #3b2a1c; --wx-bad-rule: #8a5a2f; }
+:root[data-theme="dark"] { --wx-bg: #1c2740; --wx-bad-bg: #3a2c10; --wx-bad-rule: #8a6a24; }
 @media (max-width: 560px) { .meta .wx-s { display: none; } }
 @media (max-width: 420px) { .tabs a { padding-left: 8px; padding-right: 8px; font-size: 15px; } }

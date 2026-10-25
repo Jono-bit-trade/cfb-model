@@ -227,7 +227,7 @@ function contrastText(hex) {
   const m = /^#?([0-9a-f]{6})$/i.exec(hex || "");
   if (!m) return "#fff";
   const n = parseInt(m[1], 16), r = n >> 16, g = (n >> 8) & 255, b = n & 255;
-  return (0.299 * r + 0.587 * g + 0.114 * b) > 160 ? "#17261f" : "#fff";
+  return (0.299 * r + 0.587 * g + 0.114 * b) > 160 ? "#0f1a2b" : "#fff";
 }
 function abbrOf(team) {
   const t = state.teams && state.teams[team];
