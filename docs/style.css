@@ -376,3 +376,13 @@ table.h2h .num { text-align: right; font-variant-numeric: tabular-nums; }
 .cell-logo { display: inline-flex; align-items: center; gap: 6px; }
 .op-label { color: var(--pylon) !important; font-weight: 700 !important; text-transform: uppercase; letter-spacing: .05em; font-size: 14px; }
 .tag.ours { background: var(--pylon-soft); border-color: var(--pylon); font-weight: 700; color: var(--ink); }
+
+/* ---------- record tiles on the board */
+.board-records { margin: 18px 0 8px; }
+.rec-row h2 { font: 700 20px/1.2 var(--display); margin: 14px 0 0; }
+.rec-row h2 span { font: 400 14px var(--body); color: var(--muted); margin-left: 6px; }
+.rec-row .tally { margin: 10px 0 6px; }
+.tally div.ours { border-color: var(--pylon); box-shadow: inset 4px 0 0 var(--pylon); }
+.tally div.ours > span:first-of-type { color: var(--ink); font-weight: 600; }
+.tally .close-note { display: block; margin-top: 2px; font-size: 13px; color: var(--muted); }
+.rec-note { color: var(--muted); font-size: 13px; margin: 4px 0 0; }

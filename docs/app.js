@@ -373,6 +373,7 @@ function renderBoard() {
   $("#games").innerHTML = games.map(gameRow).join("");
   $("#games-empty").hidden = games.length > 0;
 
+  renderBoardRecords();
   const sum = state.results?.summary || {}, s = sum.season, op = sum.our_picks;
   const units = (u) => `${u >= 0 ? "+" : "−"}${Math.abs(u).toFixed(1)}u`;
   if (op && op.w + op.l > 0) {
@@ -831,4 +832,25 @@ async function renderGame(id) {
         }).join("")}</tbody></table></div>` : ""}</section>`;
   body.innerHTML = html;
   document.title = `${g.away.team} at ${g.home.team} · Jono's Picks`;
+}
+
+
+/* -------------------------------------------- record tiles on the board */
+function renderBoardRecords() {
+  const sum = state.results?.summary, box = $("#board-records");
+  if (!sum || !sum.season) { box.hidden = true; return; }
+  const u = (x) => (x && x.w + x.l ? unitText(x.units) : "");
+  const tile = (label, rec, extra = "", cls = "") => `<div class="${cls}"><b>${rec && rec.w + rec.l + (rec.p || 0) ? wl(rec) : "–"}</b><span>${label}${rec && rec.pct !== null && rec.pct !== undefined ? `, ${pct(rec.pct)}` : ""}</span>${extra}</div>`;
+  const row = (title, sub, d) => `<div class="rec-row"><h2>${title}${sub ? ` <span>${sub}</span>` : ""}</h2><div class="tally">
+      ${tile("★ Our picks", d.ours, u(d.ours), "ours")}
+      ${tile("All spread picks", d.ats, u(d.ats) + (d.atsClose ? `<span class="close-note">closing line ${wl(d.atsClose)}</span>` : ""))}
+      ${tile("Picking winners", d.su)}
+      ${tile("Over/under", d.ou, u(d.ou))}</div></div>`;
+  let html = "";
+  const w = sum.week;
+  if (w) html += row(`Week ${w.week} results`, `${w.games} games`, { ours: w.our_picks, ats: w.locked.spread, atsClose: w.close.spread, su: w.close.winner, ou: w.locked.total });
+  html += row(`${state.results.season} season`, "", { ours: sum.our_picks, ats: sum.season_locked.spread, atsClose: sum.season.spread, su: sum.season.winner, ou: sum.season_locked.total });
+  box.innerHTML = html + `<p class="rec-note">Spreads and totals are graded at the early line, when you'd bet (the locked Sunday–Tuesday line, or the opener). ★ Our picks are 5+ point edges. Units assume −110.</p>`;
+  box.hidden = false;
+  $("#season-line").hidden = true;  // the tiles replace the one-line summary
 }

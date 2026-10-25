@@ -490,7 +490,11 @@ def write_results(games, season, now=None):
     if len(cur_lk) and cur_lk["week"].notna().any():
         last_wk = int(cur_lk.loc[cur_lk["season_type"] == "regular", "week"].max()) if (cur_lk["season_type"] == "regular").any() else None
         if last_wk is not None:
-            summary["our_picks_week"] = {"week": last_wk, **grading.our_picks(cur_lk[(cur_lk["week"] == last_wk) & (cur_lk["season_type"] == "regular")])}
+            wk_lk = cur_lk[(cur_lk["week"] == last_wk) & (cur_lk["season_type"] == "regular")]
+            wk = cur[(cur["week"] == last_wk) & (cur["season_type"] == "regular")]
+            summary["our_picks_week"] = {"week": last_wk, **grading.our_picks(wk_lk)}
+            summary["week"] = {"week": last_wk, "games": int(len(wk)), "close": grading.summary(wk),
+                               "locked": grading.summary(wk_lk), "our_picks": grading.our_picks(wk_lk)}
     summary["our_picks_backtest"] = our_picks_backtest()
 
     rows = grading.history_rows(cur)
