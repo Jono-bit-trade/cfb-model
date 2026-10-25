@@ -69,6 +69,13 @@ function lineChart(points, key, model, title, fmt) {
         <text x="${x(i)}" y="${H - 6}" text-anchor="${i === 0 ? "start" : i === pts.length - 1 ? "end" : "middle"}" font-size="11" fill="var(--muted)">${esc(p.label)}</text>`).join("")}
     </svg></figure>`;
 }
+function lineCharts(g) {
+  const h = g.line_history || [];
+  if (h.length < 2) return "";
+  const spread = lineChart(h, "spread", -g.model.margin, `Spread, ${g.home.team}`, (v) => signed(v));
+  const total = lineChart(h, "total", g.model.total, "Total", (v) => num(v));
+  return spread || total ? `<div class="movement"><p class="mini-title">Line movement <span>open to now, model dashed</span></p><div class="mini-charts">${spread}${total}</div></div>` : "";
+}
 function lineHistory(g) {
   const h = g.line_history || [];
   if (h.length < 2) return "";
@@ -134,6 +141,58 @@ function fieldSVG(g, strong) {
       <div class="ends"><span>${esc(g.away.team)} favored</span><span>Even</span><span>${esc(g.home.team)} favored</span></div></div>`;
 }
 
+/* ---------------------------------------------------------- weather icons */
+const WX_ICON = (() => {
+  const sun = (cx = 12, cy = 12, r = 4.2) => `<g class="i-sun"><circle cx="${cx}" cy="${cy}" r="${r}"/>${[0, 45, 90, 135, 180, 225, 270, 315].map((a) => {
+    const t = (a * Math.PI) / 180, r1 = r + 2.2, r2 = r + 4.4;
+    return `<line x1="${(cx + r1 * Math.cos(t)).toFixed(1)}" y1="${(cy + r1 * Math.sin(t)).toFixed(1)}" x2="${(cx + r2 * Math.cos(t)).toFixed(1)}" y2="${(cy + r2 * Math.sin(t)).toFixed(1)}"/>`;
+  }).join("")}</g>`;
+  const moon = (dx = 0, dy = 0) => `<path class="i-moon" transform="translate(${dx} ${dy})" d="M15.5 4.5a7.5 7.5 0 1 0 4 13.6A6.2 6.2 0 0 1 15.5 4.5z"/>`;
+  const cloud = (dx = 0, dy = 0, cls = "i-cloud") => `<path class="${cls}" transform="translate(${dx} ${dy})" d="M7 19h10.5a4 4 0 0 0 .4-8 5.5 5.5 0 0 0-10.6-1.3A4.7 4.7 0 0 0 7 19z"/>`;
+  const drops = `<g class="i-rain"><line x1="8.5" y1="20.5" x2="7.5" y2="23"/><line x1="12.5" y1="20.5" x2="11.5" y2="23"/><line x1="16.5" y1="20.5" x2="15.5" y2="23"/></g>`;
+  const flakes = `<g class="i-snow"><circle cx="8" cy="21.6" r="1.1"/><circle cx="12" cy="22.6" r="1.1"/><circle cx="16" cy="21.6" r="1.1"/></g>`;
+  const bolt = `<path class="i-bolt" d="M12.8 15.5 9.6 20.6h2.6l-1.2 3.4 3.8-5.4h-2.6l1.3-3.1z"/>`;
+  const wrap = (body) => `<svg class="wx-ico" viewBox="0 0 24 24" aria-hidden="true">${body}</svg>`;
+  return {
+    clear: (night) => wrap(night ? moon(-1, 0) : sun()),
+    partly: (night) => wrap((night ? moon(-4, -3) : sun(9, 8.5, 3.4)) + cloud(1.5, 1.5)),
+    cloudy: () => wrap(cloud(-1.5, -2.5, "i-cloud back") + cloud(1, 1)),
+    fog: () => wrap(`<g class="i-fog"><line x1="4" y1="8" x2="20" y2="8"/><line x1="2.5" y1="12" x2="18.5" y2="12"/><line x1="5.5" y1="16" x2="21.5" y2="16"/><line x1="4" y1="20" x2="17" y2="20"/></g>`),
+    rain: () => wrap(cloud(0, -3.5) + drops),
+    storm: () => wrap(cloud(0, -4.5, "i-cloud dark") + bolt + `<g class="i-rain"><line x1="7.5" y1="19.5" x2="6.5" y2="22"/><line x1="17.5" y1="19.5" x2="16.5" y2="22"/></g>`),
+    snow: () => wrap(cloud(0, -3.5) + flakes),
+    wind: () => wrap(`<g class="i-wind"><path d="M3 9h11.5a2.6 2.6 0 1 0-2.6-2.6"/><path d="M3 13.5h16a2.8 2.8 0 1 1-2.8 2.8"/><path d="M3 18h7.5"/></g>`),
+    dome: () => wrap(`<g class="i-dome"><path d="M2.5 18.5a9.5 8 0 0 1 19 0z"/><path d="M8 18.5a4 7.6 0 0 1 8 0M12 10.5v8M5 14.5h14"/><line x1="1.5" y1="20.5" x2="22.5" y2="20.5"/></g>`),
+  };
+})();
+
+function wxKind(w) {
+  if (w.dome) return ["dome", "Indoors"];
+  const c = w.code;
+  let k = c === null || c === undefined ? null
+    : c >= 95 ? "storm" : (c >= 71 && c <= 77) || c === 85 || c === 86 ? "snow"
+    : c >= 51 ? "rain" : c >= 45 ? "fog" : c === 3 ? "cloudy" : c === 2 ? "partly" : "clear";
+  if (!k) k = (w.rain ?? 0) >= 0.1 ? ((w.temp ?? 50) <= 32 ? "snow" : "rain") : "partly";
+  if ((k === "clear" || k === "partly" || k === "cloudy") && ((w.wind ?? 0) >= 15 || (w.gust ?? 0) >= 25)) k = "wind";
+  const label = { clear: w.night ? "Clear" : "Sunny", partly: "Partly cloudy", cloudy: "Cloudy", fog: "Fog", rain: "Rain",
+    storm: "Thunderstorms", snow: "Snow", wind: "Windy", dome: "Indoors" }[k];
+  return [k, label];
+}
+
+function wxChip(w, compact = false) {
+  if (!w) return "";
+  if (!w.dome && w.temp === null && w.wind === null) return `<span class="wx pending" title="Kickoff forecast comes out about a week before the game">Forecast soon</span>`;
+  const [k, label] = wxKind(w);
+  const icon = WX_ICON[k](w.night);
+  if (w.dome) return `<span class="wx dome" title="Played indoors">${icon}<span class="wx-t">Dome</span></span>`;
+  const extra = [];
+  if (w.wind !== null) extra.push(Math.round(w.wind) < 2 ? "calm" : `${Math.round(w.wind)} mph`);
+  if (!compact && w.gust !== null && w.gust - (w.wind ?? 0) >= 6) extra.push(`gusts ${Math.round(w.gust)}`);
+  if (!compact && w.rain !== null && w.rain >= 0.05) extra.push(`${num(w.rain, 2)} in`);
+  const tip = `${label} at kickoff (${w.kind === "forecast" ? "forecast" : "observed"})`;
+  return `<span class="wx ${isWeatherGame(w) ? "bad" : ""}" title="${esc(tip)}">${icon}<span class="wx-t">${w.temp !== null ? `${Math.round(w.temp)}°` : ""}</span><span class="wx-s">${esc(label)}${extra.length ? " · " + esc(extra.join(" · ")) : ""}</span></span>`;
+}
+
 /* ------------------------------------------------------------------- tags */
 function weatherTag(w) {
   if (!w) return "";
@@ -163,34 +222,81 @@ function qbTags(g) {
 const hasQbNews = (g) => ["away", "home"].some((s) => g.qb[s] && !["unknown", "available"].includes(g.qb[s].status));
 
 /* ------------------------------------------------------------------ board */
+/* ------------------------------------------------------------- team marks */
+function contrastText(hex) {
+  const m = /^#?([0-9a-f]{6})$/i.exec(hex || "");
+  if (!m) return "#fff";
+  const n = parseInt(m[1], 16), r = n >> 16, g = (n >> 8) & 255, b = n & 255;
+  return (0.299 * r + 0.587 * g + 0.114 * b) > 160 ? "#17261f" : "#fff";
+}
+function abbrOf(team) {
+  const t = state.teams && state.teams[team];
+  return (t && t.a) || team.split(/\s+/).map((w) => w[0]).join("").slice(0, 4).toUpperCase();
+}
+function badgeHTML(team, size) {
+  const t = state.teams && state.teams[team];
+  const bg = (t && t.c) ? (t.c.startsWith("#") ? t.c : `#${t.c}`) : "#7a8a82";
+  return `<span class="logo badge" style="width:${size}px;height:${size}px;background:${bg};color:${contrastText(bg)};font-size:${Math.round(size * 0.34)}px" aria-hidden="true">${esc(abbrOf(team))}</span>`;
+}
+function logo(team, size = 32) {
+  const t = state.teams && state.teams[team];
+  if (t && t.l) return `<img class="logo" src="${esc(t.l)}" alt="" width="${size}" height="${size}" loading="lazy" data-team="${esc(team)}" data-size="${size}">`;
+  return badgeHTML(team, size);
+}
+// a logo that fails to load becomes the team-colored badge
+document.addEventListener("error", (e) => {
+  const img = e.target;
+  if (img && img.tagName === "IMG" && img.classList.contains("logo")) {
+    img.outerHTML = badgeHTML(img.dataset.team, Number(img.dataset.size) || 32);
+  }
+}, true);
+const short = (team) => abbrOf(team);
+
+/* --------------------------------------------------------------- game card */
 function gameRow(g) {
   const k = kickoffText(g.kickoff, g.time_tbd);
   const homeWins = g.model.margin >= 0;
-  const team = (side, wins) => `<div class="team ${wins ? "winner" : "loser"}">
-      <span class="name">${esc(g[side].team)}<span class="rec">${esc(g[side].record)}</span></span>
+  const teamRow = (side, wins) => `<div class="team-row ${wins ? "winner" : "loser"}">
+      ${logo(g[side].team, 34)}
+      <div class="team-id"><span class="name">${esc(g[side].team)}</span><span class="rec">${esc(g[side].record)}</span></div>
       <span class="score" aria-label="projected ${num(g[side].proj)} points">${Math.round(g[side].proj)}</span></div>`;
-  const m = g.market;
+  const m = g.market, strong = g.pick && g.pick.strong;
   const moved = m.spread !== null && m.spread_open !== null && m.spread_open !== m.spread;
-  const numbers = `<dl class="numbers">
-      <div><dt>Line</dt><dd>${esc(m.line_text || "None yet")}</dd></div>
-      <div><dt>Model</dt><dd>${esc(g.model.line_text)}</dd></div>
-      <div><dt>Total</dt><dd>${m.total === null ? "–" : num(m.total)}</dd></div>
-      <div><dt>Model total</dt><dd>${num(g.model.total)}</dd></div>
-      ${g.locked ? `<div><dt>Locked pick</dt><dd>${esc(g.locked.text)}</dd></div>` : ""}
-      ${moved ? `<div><dt>Opened</dt><dd>${esc(lineText(g.home.team, m.spread_open))}</dd></div>` : ""}
-      ${g.moneyline && g.moneyline.home !== null ? `<div><dt>Moneyline</dt><dd>${esc(g.away.team)} ${odds(g.moneyline.away)}, ${esc(g.home.team)} ${odds(g.moneyline.home)}</dd></div>` : ""}
-      ${g.splits ? `<div><dt>Bets / money</dt><dd>${esc(g.home.team)} ${Math.round(g.splits.bets_home)}% / ${Math.round(g.splits.money_home)}%</dd></div>` : ""}
-      ${g.moneyline ? `<div><dt>Win chance</dt><dd>${esc(g.winner)} ${num(g.moneyline.win_chance, 0)}%</dd></div>` : ""}
-    </dl>`;
-  const strong = g.pick && g.pick.strong;
-  const pick = g.pick && g.pick.text
-    ? `<span class="pick">${esc(g.pick.text)}<small>${num(g.edge)}-point edge</small></span>`
-    : `<span class="pick">${esc(g.winner)} to win<small>no line yet</small></span>`;
+  const totalEdge = m.total !== null ? Math.abs(g.model.total - m.total) : null;
+  const ml = g.moneyline;
+  const mlPick = ml && ml.value ? `${esc(short(ml.value.team))} ${odds(ml.value.odds)}<span>value bet</span>`
+    : `${esc(short(g.winner))}<span>${ml ? `${num(ml.win_chance, 0)}% to win` : "to win"}</span>`;
+  const spreadPick = g.pick && g.pick.text
+    ? `${esc(lineText(short(g.pick.team), g.pick.line))}<span>${num(g.edge)}-pt edge</span>` : `–<span>no line yet</span>`;
+  const markets = `<table class="mk">
+      <thead><tr><th scope="col"><span class="sr">Market</span></th><th scope="col">Line</th><th scope="col">Model</th><th scope="col">Pick</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Spread</th>
+          <td>${m.spread !== null ? esc(lineText(short(g.home.team), m.spread)) : "–"}${moved ? `<span>opened ${esc(signed(m.spread_open))}</span>` : ""}</td>
+          <td>${esc(lineText(short(g.home.team), -g.model.margin))}</td>
+          <td class="pick ${strong ? "strong" : ""}">${spreadPick}</td></tr>
+        <tr><th scope="row">Total</th>
+          <td>${m.total !== null ? num(m.total) : "–"}${m.total_open !== null && m.total_open !== m.total ? `<span>opened ${num(m.total_open)}</span>` : ""}</td>
+          <td>${num(g.model.total)}</td>
+          <td class="pick ${g.total_bet_early ? "strong" : ""}">${g.total_pick ? `${esc(g.total_pick)}<span>${num(totalEdge)}-pt edge</span>` : "–"}</td></tr>
+        <tr><th scope="row">Moneyline</th>
+          <td>${ml && ml.home !== null ? `${esc(short(g.away.team))} ${odds(ml.away)}<span>${esc(short(g.home.team))} ${odds(ml.home)}</span>` : "–"}</td>
+          <td>${ml ? `${num(ml.win_chance, 0)}%<span>${esc(short(g.winner))}</span>` : "–"}</td>
+          <td class="pick">${mlPick}</td></tr>
+      </tbody></table>`;
+  const badges = `${betEarlyTag(g)}${g.total_bet_early ? totalTags(g).replace(/<span class="tag (warn)?"[^>]*>Total moved[^<]*<\/span>/, "") : ""}${qbTags(g)}${splitTags(g)}`;
+  const details = `<details class="more"><summary>Details</summary>
+      <div class="more-body">
+        ${fieldSVG(g, strong)}
+        <div class="tags">${g.locked ? `<span class="tag">Locked pick: ${esc(g.locked.text)}</span>` : ""}${moveTag(g)}${totalTags(g).replace(/<span class="tag rlm"[^]*$/, "")}${g.splits ? `<span class="tag">Bets / money on ${esc(short(g.home.team))}: ${Math.round(g.splits.bets_home)}% / ${Math.round(g.splits.money_home)}%</span>` : ""}</div>
+      </div></details>`;
   return `<li class="game ${strong ? "strong" : ""}">
-      <div class="kick"><time datetime="${esc(g.kickoff)}">${esc(k.time)}</time>${esc(k.day)}<br>${esc(g.venue || "")}${g.neutral ? " (neutral)" : ""}</div>
-      <div class="teams">${team("away", !homeWins)}${team("home", homeWins)}</div>
-      <div class="lines">${fieldSVG(g, strong)}${numbers}${lineHistory(g)}</div>
-      <div class="pick-row">${pick}${g.total_pick ? `<span class="tag">${esc(g.total_pick)}</span>` : ""}${betEarlyTag(g)}${valueTag(g)}${moveTag(g)}${totalTags(g)}${splitTags(g)}${weatherTag(g.weather)}${qbTags(g)}</div>
+      <div class="meta"><time datetime="${esc(g.kickoff)}">${esc(k.day)}, ${esc(k.time)}</time>${g.network ? `<span class="net">${esc(g.network)}</span>` : ""}<span class="venue">${esc(g.venue || "")}${g.neutral ? " (neutral site)" : ""}</span>${wxChip(g.weather)}</div>
+      <div class="matchup">${teamRow("away", !homeWins)}${teamRow("home", homeWins)}</div>
+      <div class="markets">${markets}</div>
+      ${badges.trim() ? `<div class="badges">${badges}</div>` : ""}
+      ${lineCharts(g)}
+      ${details}
     </li>`;
 }
 
@@ -237,7 +343,7 @@ function renderFinals() {
       ? (() => { const e = r.lk_pm + r.lk_sp; const team = e > 0 ? r.h : r.a; const line = e > 0 ? r.lk_sp : -r.lk_sp;
                  return `${esc(team)} ${signed(line)} ${mark(r.lk_ats)}`; })() : "–";
     return `<li class="final">
-      <div class="final-score"><span class="${homeWon ? "" : "won"}">${esc(r.a)} ${r.as}</span><span class="${homeWon ? "won" : ""}">${esc(r.h)} ${r.hs}</span></div>
+      <div class="final-score"><span class="${homeWon ? "" : "won"}">${logo(r.a, 24)}<b>${esc(r.a)}</b><em>${r.as}</em></span><span class="${homeWon ? "won" : ""}">${logo(r.h, 24)}<b>${esc(r.h)}</b><em>${r.hs}</em></span></div>
       <dl class="numbers final-picks">
         <div><dt>Winner</dt><dd>${esc(r.pm >= 0 ? r.h : r.a)} ${mark(r.su)}</dd></div>
         <div><dt>Spread (close)</dt><dd>${r.ats_pick ? `${esc(r.ats_pick)} ${signed(r.ats_line)} ${mark(r.ats)}` : "–"}</dd></div>
@@ -263,7 +369,7 @@ function renderRatings() {
   });
   const max = Math.max(...r.teams.map((t) => Math.abs(t.overall)), 1);
   body.innerHTML = teams.map((t) => `<tr>
-      <td class="num">${rank.get(t.team)}</td><td class="team-cell">${esc(t.team)}</td><td>${esc(t.conf || "")}</td>
+      <td class="num">${rank.get(t.team)}</td><td class="team-cell"><span class="with-logo">${logo(t.team, 24)}${esc(t.team)}</span></td><td>${esc(t.conf || "")}</td>
       <td class="num">${esc(t.record)}</td>
       <td class="num">${num(t.overall, 2)}<span class="bar" style="width:${Math.max(0, t.overall) / max * 60}px"></span></td>
       <td class="num">${num(t.offense, 2)}</td><td class="num">${num(t.defense, 2)}</td></tr>`).join("");
@@ -505,7 +611,7 @@ async function renderHistory() {
       : (r.ml_odds !== null ? `${odds(r.ml_odds)}<span class="small">${r.ml_u >= 0 ? "+" : "−"}${Math.abs(r.ml_u ?? 0).toFixed(2)} units</span>` : "–");
     return `<tr>
       <td>${r.post ? "Bowl" : r.wk ?? ""}<span class="small">${fmtDay(r.date)}</span></td>
-      <td>${esc(r.a)} at ${esc(r.h)}${r.bf ? `<span class="bf">replayed</span>` : ""}</td>
+      <td><span class="with-logo">${logo(r.a, 20)}${esc(r.a)}</span><span class="with-logo at">at ${logo(r.h, 20)}${esc(r.h)}</span>${r.bf ? `<span class="bf">replayed</span>` : ""}</td>
       <td class="num">${r.as}–${r.hs}</td><td class="num">${Math.round(pa)}–${Math.round(ph)}</td>
       <td>${esc(winner)} ${mark(r.su)}<span class="small">${r.pw !== null ? `${Math.round(r.pw * 100)}% win chance` : ""}</span></td>
       <td>${mlCell}</td>
@@ -537,8 +643,9 @@ function show(tab) {
 }
 
 async function init() {
-  [state.predictions, state.ratings, state.results, state.backtest, state.finals] =
-    await Promise.all(["predictions", "ratings", "results", "backtest", "finals"].map(getJSON));
+  [state.predictions, state.ratings, state.results, state.backtest, state.finals, state.teams] =
+    await Promise.all(["predictions", "ratings", "results", "backtest", "finals", "teams"].map(getJSON));
+  state.teams = state.teams || {};
   renderBoard(); renderFinals(); renderRatings(); renderBacktest(); initHistory();
   const tuning = await getJSON("tuning");
   if (tuning) {

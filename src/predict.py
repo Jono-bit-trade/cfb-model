@@ -194,6 +194,8 @@ def main(now=None):
     if len(rows):
         update_log(rows, now)  # records early (locked) picks before the board is written
         save_line_snapshot(rows, now)
+    media = load("media")
+    networks = dict(zip(media["game_id"], media["network"])) if len(media) else {}
     log_now = pd.read_csv(LOG).set_index("game_id") if os.path.exists(LOG) else pd.DataFrame()
     history = pd.read_csv(LINE_HISTORY) if os.path.exists(LINE_HISTORY) else pd.DataFrame(columns=["game_id"])
     out_games = []
@@ -219,6 +221,7 @@ def main(now=None):
         out_games.append({
             "id": int(r.game_id), "kickoff": r.start.isoformat(), "time_tbd": bool(r.start_tbd),
             "week": int(r.week) if not pd.isna(r.week) else None, "venue": text(r.venue), "neutral": bool(r.neutral),
+            "network": networks.get(r.game_id),
             "home": {"team": r.home, "record": rec.get(r.home, "0–0"), "proj": clean(hp),
                      "rating": clean(r.home_overall), "conf": r.home_conf},
             "away": {"team": r.away, "record": rec.get(r.away, "0–0"), "proj": clean(ap),
@@ -251,7 +254,10 @@ def main(now=None):
             "winner": r.home if r.pred_margin > 0 else r.away,
             "total_pick": total_pick,
             "weather": {"dome": bool(r.dome == 1), "temp": clean(r.temp), "wind": clean(r.wind), "gust": clean(r.gust),
-                        "rain": clean(r.rain), "kind": r.wx_kind if isinstance(r.wx_kind, str) else None,
+                        "rain": clean(r.rain),
+                        "code": None if pd.isna(getattr(r, "wx_code", np.nan)) else int(r.wx_code),
+                        "night": bool(not pd.isna(r.local_kick_hour) and (r.local_kick_hour >= 18 or r.local_kick_hour < 5)),
+                        "kind": r.wx_kind if isinstance(r.wx_kind, str) else None,
                         "updated": r.wx_time if isinstance(r.wx_time, str) else None},
             "qb": qbinfo,
         })
@@ -266,6 +272,7 @@ def main(now=None):
 
     write_results(games, season, now)
     write_ratings(engine, games, season, now, rec)
+    write_teams()
     print(f"wrote {len(out_games)} predictions")
 
 
@@ -451,6 +458,22 @@ def write_results(games, season, now=None):
     # Final scores for the board: games that ended in the last 4 days.
     recent = [r for r in rows if pd.Timestamp(r["date"]) > now - pd.Timedelta(days=4)]
     write_json({"updated": now, "games": sorted(recent, key=lambda r: r["date"], reverse=True)}, SITE_DATA, "finals.json")
+
+
+def write_teams():
+    """Logo, abbreviation and colors for every team, used by every page of the site."""
+    teams = load_file("teams.csv")
+    if teams.empty:
+        return
+    out = {}
+    for t in teams.itertuples():
+        logo = t.logo if isinstance(t.logo, str) else None
+        if logo and logo.startswith("http://"):
+            logo = "https://" + logo[len("http://"):]
+        out[t.team] = {"a": t.abbreviation if isinstance(t.abbreviation, str) else None,
+                       "c": t.color if isinstance(t.color, str) else None,
+                       "c2": t.alt_color if isinstance(t.alt_color, str) else None, "l": logo}
+    write_json(out, SITE_DATA, "teams.json")
 
 
 def write_ratings(engine, games, season, now, rec):

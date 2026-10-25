@@ -160,6 +160,31 @@ def parse_elo_week(raw, season, week=None, season_type=None):
                           "team": g(x, "team", "school"), "elo": _num(g(x, "elo"))} for x in raw])
 
 
+def parse_teams(raw):
+    """Team names, abbreviations, colors and logo links (for the website)."""
+    rows = []
+    for x in raw:
+        logos = g(x, "logos", default=[]) or []
+        rows.append({"team": g(x, "school"), "abbreviation": g(x, "abbreviation"), "mascot": g(x, "mascot"),
+                     "conference": g(x, "conference"), "classification": g(x, "classification", "division"),
+                     "color": g(x, "color"), "alt_color": g(x, "alternateColor", "alt_color", "alternate_color"),
+                     "logo": logos[0] if logos else None, "logo_dark": logos[1] if len(logos) > 1 else None})
+    return pd.DataFrame(rows).drop_duplicates("team")
+
+
+def parse_media(raw, season):
+    """TV network per game (first TV listing; streaming only if there is no TV)."""
+    best = {}
+    for x in raw:
+        gid, outlet, kind = g(x, "id"), g(x, "outlet"), str(g(x, "mediaType", "media_type", default="")).lower()
+        if gid is None or not outlet:
+            continue
+        rank = 0 if kind == "tv" else 1
+        if gid not in best or rank < best[gid][1]:
+            best[gid] = (outlet, rank)
+    return pd.DataFrame([{"game_id": k, "season": season, "network": v[0]} for k, v in best.items()])
+
+
 def parse_venues(raw):
     rows = []
     for x in raw:
@@ -354,6 +379,7 @@ SEASONAL = {
     "adv": (lambda s: _both_types("/stats/game/advanced", s), parse_adv),
     "adv_clean": (lambda s: _both_types("/stats/game/advanced", s, excludeGarbageTime="true"), parse_adv_clean),
     "drives": (lambda s: _both_types("/drives", s), parse_drives),
+    "media": (lambda s: _both_types("/games/media", s), parse_media),
 }
 PRESEASON = {
     "talent": (lambda s: fetch("/talent", year=s), lambda r, s: parse_simple(r, s, {"talent": ("talent",)})),
@@ -496,12 +522,22 @@ def main():
     os.makedirs(DATA, exist_ok=True)
     if args.quick:
         s = config.THIS_SEASON
-        for name in ("games", "lines"):
+        for name in ("games", "lines", "media"):
             download, parser = SEASONAL[name]
             save_season(parser(download(s), s), name, s)
             print(f"saved {name} {s}")
         return
     check_allowance()
+    teams_path = os.path.join(DATA, "teams.csv")
+    stale = not os.path.exists(teams_path) or (pd.Timestamp.now().timestamp() - os.path.getmtime(teams_path)) > 6 * 86400
+    if stale:
+        try:
+            parse_teams(fetch("/teams")).to_csv(teams_path, index=False)
+            print("saved teams")
+        except OutOfCalls:
+            raise
+        except Exception as e:
+            print(f"! teams: {e}")
     venues_path = os.path.join(DATA, "venues.csv")
     if not os.path.exists(venues_path):
         try:

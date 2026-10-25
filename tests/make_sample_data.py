@@ -131,7 +131,9 @@ def main():
                 if not is_dome:
                     weather_rows.append({"game_id": game_id, "kind": "actual" if completed else "forecast",
                                          "temp": round(temp, 1), "rain": round(rain, 2), "wind": round(wind, 1),
-                                         "gust": round(wind * 1.6, 1), "fetched_at": NOW.isoformat()})
+                                         "gust": round(wind * 1.6, 1),
+                                         "code": 95 if rain > 1.5 else 63 if rain > 0.5 else 61 if rain > 0.1 else int(rng.choice([0, 1, 2, 3, 45])),
+                                         "fetched_at": NOW.isoformat()})
                 if not completed:
                     continue
                 for team, opp, pts, opp_pts in ((home, away, hp, ap), (away, home, ap, hp)):
@@ -203,6 +205,14 @@ def main():
         save(pd.DataFrame(pass_rows), "passers", season)
 
     pd.DataFrame(weather_rows).to_csv(os.path.join(DATA, "weather.csv"), index=False)
+    palette = ["#841617", "#002855", "#BA0C2F", "#FF8200", "#154733", "#4B2E83", "#FDB927", "#00205B", "#CFB87C", "#9E1B32"]
+    pd.DataFrame([{"team": tm, "abbreviation": "".join(w[0] for w in tm.split())[:3].upper() + str(i % 10),
+                   "color": palette[i % len(palette)], "alt_color": "#ffffff",
+                   "logo": f"https://example.invalid/logos/{i}.png" if i % 2 == 0 else None}
+                  for i, tm in enumerate(TEAMS + FCS_TEAMS)]).to_csv(os.path.join(DATA, "teams.csv"), index=False)
+    g26 = pd.read_csv(os.path.join(DATA, "games", f"{LAST}.csv"))
+    save(pd.DataFrame({"game_id": g26["game_id"], "season": LAST,
+                       "network": [["ABC", "ESPN", "FOX", "CBS", "ESPN2", "BTN"][i % 6] for i in range(len(g26))]}), "media", LAST)
     # This week's QB report: one out, one questionable.
     upcoming = pd.read_csv(os.path.join(DATA, "games", f"{LAST}.csv"))
     upcoming = upcoming[upcoming["week"] == 9]

@@ -13,17 +13,32 @@ https://open-meteo.com/en/docs/historical-weather-api
 import os
 import time
 
+import numpy as np
 import pandas as pd
 
 import config
 from common import DATA
 
 CACHE = os.path.join(DATA, "weather.csv")
-FIELDS = "temperature_2m,precipitation,wind_speed_10m,wind_gusts_10m"
+FIELDS = "temperature_2m,precipitation,wind_speed_10m,wind_gusts_10m,weather_code"
+# WMO weather codes ranked by how much they matter for a game; the worst hour in the window is kept for the icon
+SEVERITY = {0: 0, 1: 1, 2: 2, 3: 3, 45: 4, 48: 4, 51: 5, 53: 5, 55: 6, 56: 6, 57: 6, 61: 6, 80: 6, 63: 7, 81: 7,
+            65: 8, 66: 8, 67: 8, 82: 8, 71: 7, 77: 7, 73: 8, 85: 8, 75: 9, 86: 9, 95: 10, 96: 10, 99: 10}
+
+
+def condition_code(text):
+    """CFBD's weather description -> the nearest WMO code, so finished games get an icon too."""
+    t = str(text or "").lower()
+    for words, code in ((("thunder", "storm"), 95), (("snow", "sleet", "flurr"), 73), (("heavy rain",), 65),
+                        (("rain", "shower"), 61), (("drizzle",), 51), (("fog", "mist", "haze"), 45),
+                        (("overcast",), 3), (("cloud",), 2), (("fair", "clear", "sunny"), 0)):
+        if any(w in t for w in words):
+            return code
+    return np.nan
 ARCHIVE = "https://archive-api.open-meteo.com/v1/archive"
 FORECAST = "https://api.open-meteo.com/v1/forecast"
 WORKERS = 6  # stadium-seasons fetched at the same time (well under the free per-minute limit)
-COLS = ["game_id", "kind", "temp", "rain", "wind", "gust", "fetched_at"]
+COLS = ["game_id", "kind", "temp", "rain", "wind", "gust", "code", "fetched_at"]
 
 
 def load_cache():
@@ -66,8 +81,11 @@ def _window(hourly, kickoff):
     w = hourly.loc[kick: kick + pd.Timedelta(hours=config.WEATHER_WINDOW_HOURS)]
     if w.empty:
         return None
+    code = np.nan
+    if "weather_code" in w and w["weather_code"].notna().any():
+        code = int(max(w["weather_code"].dropna().astype(int), key=lambda c: SEVERITY.get(c, 0)))
     return {"temp": round(w["temperature_2m"].mean(), 1), "rain": round(w["precipitation"].sum(), 2),
-            "wind": round(w["wind_speed_10m"].mean(), 1), "gust": round(w["wind_gusts_10m"].max(), 1)}
+            "wind": round(w["wind_speed_10m"].mean(), 1), "gust": round(w["wind_gusts_10m"].max(), 1), "code": code}
 
 
 def _attach_venues(games, venues):
@@ -174,11 +192,15 @@ def table():
     if len(cfbd):
         cfbd = cfbd[~cfbd["indoors"].astype(bool) & cfbd["temp"].notna()]
         cfbd = pd.DataFrame({"game_id": cfbd["game_id"], "kind": "actual", "temp": cfbd["temp"], "rain": cfbd["rain"].fillna(0),
-                             "wind": cfbd["wind"], "gust": cfbd["gust"], "fetched_at": "cfbd"})
+                             "wind": cfbd["wind"], "gust": cfbd["gust"],
+                             "code": cfbd["condition"].map(condition_code) if "condition" in cfbd else np.nan,
+                             "fetched_at": "cfbd"})
         c = pd.concat([c[~((c["kind"] == "actual") & c["game_id"].isin(cfbd["game_id"]))], cfbd], ignore_index=True)
     if c.empty:
-        return pd.DataFrame(columns=["game_id", "temp", "rain", "wind", "gust", "wx_kind", "wx_time"])
+        return pd.DataFrame(columns=["game_id", "temp", "rain", "wind", "gust", "wx_code", "wx_kind", "wx_time"])
     c["rank"] = (c["kind"] == "actual").astype(int)
     c = c.sort_values(["rank", "fetched_at"]).groupby("game_id").tail(1)
-    return c.rename(columns={"kind": "wx_kind", "fetched_at": "wx_time"})[
-        ["game_id", "temp", "rain", "wind", "gust", "wx_kind", "wx_time"]]
+    if "code" not in c:
+        c["code"] = np.nan
+    return c.rename(columns={"kind": "wx_kind", "fetched_at": "wx_time", "code": "wx_code"})[
+        ["game_id", "temp", "rain", "wind", "gust", "wx_code", "wx_kind", "wx_time"]]

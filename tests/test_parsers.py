@@ -99,6 +99,11 @@ def main():
 
     e = gd.parse_elo_week([{"team": "Oklahoma", "elo": 1702}], 2025, 3, "regular").iloc[0]
     assert e.elo == 1702 and e.week == 3
+    tm = gd.parse_teams([{"school": "Oklahoma", "abbreviation": "OU", "color": "#841617", "alternateColor": "#fdf9d8",
+                          "logos": ["http://a.espncdn.com/i/teamlogos/ncaa/500/201.png", "http://x/201-dark.png"]}]).iloc[0]
+    assert tm.abbreviation == "OU" and tm.color == "#841617" and tm.logo.endswith("201.png")
+    md = gd.parse_media([{"id": 401, "outlet": "ESPN+", "mediaType": "web"}, {"id": 401, "outlet": "ABC", "mediaType": "tv"}], 2025).iloc[0]
+    assert md.network == "ABC"
     print("parser tests passed")
 
 
