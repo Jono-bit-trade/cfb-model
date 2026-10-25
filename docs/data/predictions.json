@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T04:03:41.451035+00:00",
+ "updated": "2026-10-25T04:23:15.696808+00:00",
  "season": 2026,
  "label": "Week 9",
  "games": [
@@ -99,13 +99,15 @@
      "name": "Toa Faavae",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Nathan Hayes",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -205,13 +207,15 @@
      "name": "Devon Dampier",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Conner Weigman",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -311,13 +315,15 @@
      "name": "Brock Glenn",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Nick Minicucci",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -417,13 +423,15 @@
      "name": "Henry Belin IV",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Landyn Locke",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -514,13 +522,15 @@
      "name": "Roman Gagliano",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Rickie Collins",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -615,13 +625,15 @@
      "name": "Adam Damante",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Caden Creel",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -718,13 +730,15 @@
      "name": "Camden Coleman",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Will Crowder",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -821,13 +835,15 @@
      "name": "Tayven Jackson",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Caden Veltkamp",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -842,14 +858,14 @@
    "home": {
     "team": "Charlotte",
     "record": "1\u20136",
-    "proj": 18.1,
+    "proj": 18.3,
     "rating": -16.1,
     "conf": "American Athletic"
    },
    "away": {
     "team": "Tulane",
     "record": "3\u20134",
-    "proj": 29.3,
+    "proj": 29.2,
     "rating": -2.8,
     "conf": "American Athletic"
    },
@@ -863,15 +879,15 @@
     "line_text": null
    },
    "model": {
-    "margin": -11.2,
+    "margin": -11.0,
     "total": 47.5,
-    "line_text": "Charlotte +11.2",
+    "line_text": "Charlotte +11.0",
     "rating_margin": -10.2
    },
    "moneyline": {
     "home": null,
     "away": null,
-    "win_chance": 75.0,
+    "win_chance": 74.5,
     "value": null
    },
    "splits": null,
@@ -905,13 +921,15 @@
      "name": "Conner Harrell",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Trace Johnson",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -989,13 +1007,15 @@
      "name": "Keyone Jenkins",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "D.J. Lagway",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -1073,13 +1093,15 @@
      "name": "Jackson Sharman",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Dru Deshields",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -1157,13 +1179,15 @@
      "name": "Rocco Becht",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Ryan Browne",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -1254,13 +1278,15 @@
      "name": "Dylan Raiola",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Aidan Chiles",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -1338,13 +1364,15 @@
      "name": "Broc Lowry",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Jay Kastantin",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -1422,13 +1450,15 @@
      "name": "Malachi Nelson",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Kevin Jennings",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -1506,13 +1536,15 @@
      "name": "Michael Van Buren Jr.",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Ryder Burton",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -1607,13 +1639,15 @@
      "name": "Hank Brown",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Colton Joseph",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -1708,13 +1742,15 @@
      "name": "Jackson Gutierrez",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "C.J. Carr",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -1792,13 +1828,15 @@
      "name": "Walker Eget",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Mason McKenzie",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -1876,13 +1914,15 @@
      "name": "Malik Washington",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Katin Houser",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -1977,13 +2017,15 @@
      "name": "Will Hammond",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Noah Fifita",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -2061,13 +2103,15 @@
      "name": "CJ Bailey",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Jaron-Keawe Sagapolutele",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -2145,13 +2189,15 @@
      "name": "AJ Surace",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Tommy Carr",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -2246,13 +2292,15 @@
      "name": "Trinidad Chambliss",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Byrum Brown",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -2330,13 +2378,15 @@
      "name": "Jaxon Potter",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Zion Turner",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -2414,13 +2464,15 @@
      "name": "Isaac Wilson",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Jacob Knuth",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -2498,13 +2550,15 @@
      "name": "Cameran Brown",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Deuce Bailey",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -2582,13 +2636,15 @@
      "name": "Emory Williams",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Ajani Sheppard",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -2666,13 +2722,15 @@
      "name": "Jared Hollins",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Blake Baker",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -2750,13 +2808,15 @@
      "name": "Howard Fisher IV",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Kalieb Osborne",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -2834,13 +2894,15 @@
      "name": "Lincoln Kienholz",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Davis Warren",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -2918,13 +2980,15 @@
      "name": "Nathan Hayes",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Raymond Moore III",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -3002,13 +3066,15 @@
      "name": "Aidan Armenta",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Landy Lyddy",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -3103,13 +3169,15 @@
      "name": "Gunner Stockton",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Aaron Philo",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -3187,13 +3255,15 @@
      "name": "Jaden Craig",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Isaiah Marshall",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -3284,13 +3354,15 @@
      "name": "Bear Bachmeier",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Mikey Keene",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -3381,13 +3453,15 @@
      "name": "Josh Hoover",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Drake Lindsey",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -3465,13 +3539,15 @@
      "name": "Grady Brosterhous",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Ksaan Farrar",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -3549,13 +3625,15 @@
      "name": "Deshawn Purdie",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "J.J. Kohl",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -3646,13 +3724,15 @@
      "name": "JC French",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Devon Dampier",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -3730,13 +3810,15 @@
      "name": "Giovanni Lopez",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Beau Pribula",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -3814,13 +3896,15 @@
      "name": "Luke Weaver",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Toa Faavae",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -3898,13 +3982,15 @@
      "name": "Ty Dieffenbach",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Luke Duncan",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -3999,13 +4085,15 @@
      "name": "John Mateer",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Lanorris Sellers",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -4083,13 +4171,15 @@
      "name": "Max Johnson",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Malachi Singleton",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -4184,13 +4274,15 @@
      "name": "Ashton Daniels",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Tait Reynolds",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -4268,13 +4360,15 @@
      "name": "Stone Saunders",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Owen Eshelman",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -4289,14 +4383,14 @@
    "home": {
     "team": "Iowa State",
     "record": "3\u20134",
-    "proj": 28.4,
+    "proj": 27.0,
     "rating": -1.5,
     "conf": "Big 12"
    },
    "away": {
     "team": "Oklahoma State",
     "record": "5\u20132",
-    "proj": 26.5,
+    "proj": 27.8,
     "rating": 2.2,
     "conf": "Big 12"
    },
@@ -4310,15 +4404,15 @@
     "line_text": null
    },
    "model": {
-    "margin": 1.9,
+    "margin": -0.9,
     "total": 54.8,
-    "line_text": "Iowa State \u22121.9",
+    "line_text": "Iowa State +0.9",
     "rating_margin": -0.6
    },
    "moneyline": {
     "home": null,
     "away": null,
-    "win_chance": 54.6,
+    "win_chance": 52.1,
     "value": null
    },
    "splits": null,
@@ -4334,7 +4428,7 @@
     "text": null,
     "strong": false
    },
-   "winner": "Iowa State",
+   "winner": "Oklahoma State",
    "total_pick": null,
    "weather": {
     "dome": false,
@@ -4352,13 +4446,15 @@
      "name": "Jaylen Raynor",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Drew Mestemaker",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -4402,7 +4498,7 @@
    "moneyline": {
     "home": 195.0,
     "away": -238.0,
-    "win_chance": 71.4,
+    "win_chance": 71.5,
     "value": null
    },
    "splits": null,
@@ -4449,13 +4545,15 @@
      "name": "Jayden Maiava",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Julian Sayin",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -4533,13 +4631,15 @@
      "name": "Holden Geriner",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Alberto Mendoza",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -4630,13 +4730,15 @@
      "name": "Billy Edwards",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Darian Mensah",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -4714,13 +4816,15 @@
      "name": "Arch Manning",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Parker Puckett",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -4821,13 +4925,15 @@
      "name": "KJ Jackson",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Austin Simmons",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -4922,13 +5028,15 @@
      "name": "Anthony Colandrea",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Elijah Brown",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -5006,13 +5114,15 @@
      "name": "Marcus Stokes",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Cale Hellums",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -5090,13 +5200,15 @@
      "name": "Maddux Madsen",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Brad Jackson",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -5174,13 +5286,15 @@
      "name": "Jackson Arnold",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Taron Dickens",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   },
@@ -5258,13 +5372,15 @@
      "name": "Jayden Mandal",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     },
     "away": {
      "name": "Braden Atkinson",
      "status": "unknown",
      "note": null,
-     "if_out": null
+     "if_out": null,
+     "news": null
     }
    }
   }
