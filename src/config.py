@@ -30,6 +30,7 @@ GBM_DEPTH = 2                # machine-learning trees: depth, learning rate, rou
 GBM_LEARNING_RATE = 0.025    # (chosen on 2016-22 from 12 combinations; 2023-25 held out)
 GBM_ROUNDS = 650
 GBM_MIN_LEAF = 40
+TOTALS_TRAIN_SEASONS = 5     # totals model trains on the most recent 5 seasons (3/5/7/all tested; spreads use all)
 SEASON_HALF_LIFE = None      # ML layer: a season this many years older counts half (None = all seasons equal; 3 and 6 tested, no gain)
 MARKET_ADJUST = True         # second step from line movement, where opening lines exist (2023 on): lowered 2024-25 margin error
 MARKET_ADJUST_TOTALS = False # the same for totals didn't help in testing

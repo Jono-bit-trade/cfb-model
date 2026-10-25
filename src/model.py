@@ -36,7 +36,11 @@ class Model:
         self.dropped = sorted(set(self.features + self.total_features) - set(self.margin_cols + self.total_cols))
         w = season_weights(train["season"])
         self.margin = _gbm().fit(train[self.margin_cols], train["actual_margin"], sample_weight=w)
-        self.total = _gbm().fit(train[self.total_cols], train["actual_total"], sample_weight=w)
+        # Totals learn from recent seasons only: scoring levels drift (rules, pace, offenses).
+        tt = train
+        if config.TOTALS_TRAIN_SEASONS:
+            tt = train[train["season"] > train["season"].max() - config.TOTALS_TRAIN_SEASONS]
+        self.total = _gbm().fit(tt[self.total_cols], tt["actual_total"], sample_weight=season_weights(tt["season"]))
         self.n_train = len(train)
         return self
 
