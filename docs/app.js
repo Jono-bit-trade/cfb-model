@@ -342,7 +342,7 @@ function gameRow(g) {
       </div></details>`;
   return `<li class="game ${strong ? "strong" : ""}">
       <div class="meta"><time datetime="${esc(g.kickoff)}">${esc(k.day)}, ${esc(k.time)}</time>${g.network ? `<span class="net">${esc(g.network)}</span>` : ""}<span class="venue">${esc(g.venue || "")}${g.neutral ? " (neutral site)" : ""}</span>${wxChip(g.weather)}</div>
-      <div class="matchup">${teamRow("away", !homeWins)}${teamRow("home", homeWins)}</div>
+      <a class="matchup" href="#game/${g.id}" aria-label="Full matchup: ${esc(g.away.team)} at ${esc(g.home.team)}">${teamRow("away", !homeWins)}${teamRow("home", homeWins)}<span class="open-matchup">Full matchup →</span></a>
       <div class="markets">${markets}</div>
       ${badges.trim() ? `<div class="badges">${badges}</div>` : ""}
       ${lineCharts(g)}
@@ -684,9 +684,13 @@ function renderBacktest() {
 
 /* ---------------------------------------------------------------- router */
 function show(tab) {
-  const tabs = ["board", "ratings", "history", "how"];
-  if (!tabs.includes(tab)) tab = "board";
+  const tabs = ["board", "ratings", "history", "how", "game"];
+  let gameId = null;
+  if (tab.startsWith("game/")) { gameId = tab.slice(5); tab = "game"; }
+  if (!tabs.includes(tab) || (tab === "game" && !gameId)) tab = "board";
   tabs.forEach((t) => { $(`#view-${t}`).hidden = t !== tab; });
+  if (tab === "game") { renderGame(gameId); window.scrollTo(0, 0); tab = "board"; }
+  else document.title = "Jono's Picks — college football projections";
   document.querySelectorAll(".tabs a").forEach((a) => {
     if (a.dataset.tab === tab) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
   });
@@ -724,3 +728,95 @@ async function init() {
   show(location.hash.slice(1));
 }
 init();
+
+
+/* ------------------------------------------------------------ matchup page */
+const ordinal = (n) => { const s = ["th", "st", "nd", "rd"], v = n % 100; return n + (s[(v - 20) % 10] || s[v] || s[0]); };
+function statValue(st) {
+  if (st.value === null || st.value === undefined) return "–";
+  if (st.fmt === "pct") return `${(st.value * 100).toFixed(1)}%`;
+  return Number(st.value).toFixed(Number(st.fmt));
+}
+function rankChip(rank, n) {
+  if (!rank) return "";
+  const cls = rank <= Math.ceil(n * 0.2) ? "top" : rank > Math.floor(n * 0.75) ? "low" : "";
+  return `<span class="rk ${cls}">${ordinal(rank)}</span>`;
+}
+function formList(rows) {
+  if (!rows.length) return `<p class="muted">No games yet.</p>`;
+  return `<ol class="form">${rows.map((r) => `<li>
+      <span class="res ${r.result}">${r.result}</span>
+      <span class="opp">${r.site === "A" ? "at " : r.site === "N" ? "vs " : ""}${logo(r.opp, 18)}${esc(short(r.opp))}</span>
+      <span class="sc">${r.pts}–${r.opp_pts}</span>
+      <span class="ats ${r.cover || ""}" title="${r.spread !== null ? `Line ${signed(r.spread)}` : "No line"}">${r.cover ? (r.cover === "W" ? "Covered" : r.cover === "L" ? "Missed" : "Push") : ""}${r.spread !== null ? ` <small>${esc(signed(r.spread))}</small>` : ""}</span>
+    </li>`).join("")}</ol>`;
+}
+async function renderGame(id) {
+  const body = $("#game-body");
+  const g = (state.predictions?.games || []).find((x) => String(x.id) === String(id));
+  if (!g) { body.innerHTML = `<p>This game isn't on the board any more. <a href="#board">See this week's games</a>.</p>`; return; }
+  body.innerHTML = `<p class="muted">Loading matchup…</p>`;
+  const m = await getJSON(`matchups/${id}`);
+  const k = kickoffText(g.kickoff, g.time_tbd);
+  const side = (s) => {
+    const t = m?.teams?.[s], rk = t?.rank_ap ? `<span class="ap">#${t.rank_ap}</span>` : "";
+    return `<div class="hero-team ${s}">
+        ${logo(g[s].team, 72)}
+        <div class="hero-name">${rk}${esc(g[s].team)}</div>
+        <div class="hero-rec">${esc(g[s].record)}${t?.rating ? ` · ${ordinal(t.rating.rank)} in our ratings` : ""}</div>
+        <div class="hero-proj">${Math.round(g[s].proj)}</div>
+      </div>`;
+  };
+  const hero = `<div class="hero">
+      ${side("away")}
+      <div class="hero-mid"><span class="at">${g.neutral ? "vs" : "at"}</span>
+        <div class="hero-meta"><time datetime="${esc(g.kickoff)}">${esc(k.day)}, ${esc(k.time)}</time>${g.network ? ` · ${esc(g.network)}` : ""}</div>
+        <div class="hero-venue">${esc(g.venue || "")}${g.neutral ? " (neutral)" : ""}</div>
+        ${wxChip(g.weather)}
+        <div class="hero-label">Projected score</div>
+      </div>
+      ${side("home")}
+    </div>`;
+  // markets table and badges re-used from the board card
+  const card = document.createElement("div");
+  card.innerHTML = gameRow(g);
+  const markets = card.querySelector(".markets")?.outerHTML || "";
+  const badges = card.querySelector(".badges")?.outerHTML || "";
+  let html = hero + `<div class="game-panels">${markets}${badges}</div>` + (lineCharts(g) ? `<section class="panel">${lineCharts(g)}</section>` : "");
+  if (!m) { body.innerHTML = html + `<p class="muted">Detailed team stats will appear after the next update.</p>`; return; }
+  const A = m.teams.away, H = m.teams.home, n = m.n_teams;
+  const recRow = (label, key) => `<tr><td class="l">${esc(A.records[key])}</td><th scope="row">${label}</th><td class="r">${esc(H.records[key])}</td></tr>`;
+  const rows = A.stats.map((sa, i) => {
+    const sh = H.stats[i];
+    let aBetter = null;
+    if (sa.better !== null && sa.value !== null && sh && sh.value !== null && sa.value !== sh.value) aBetter = (sa.value > sh.value) === sa.better;
+    return `<tr>
+        <td class="l ${aBetter === true ? "edge" : ""}">${statValue(sa)} ${rankChip(sa.rank, n)}</td>
+        <th scope="row">${esc(sa.label)}</th>
+        <td class="r ${aBetter === false ? "edge" : ""}">${rankChip(sh?.rank, n)} ${sh ? statValue(sh) : "–"}</td></tr>`;
+  }).join("");
+  const thead = `<thead><tr><th scope="col" class="l">${logo(A.team, 22)} ${esc(short(A.team))}</th><th scope="col"></th><th scope="col" class="r">${esc(short(H.team))} ${logo(H.team, 22)}</th></tr></thead>`;
+  html += `<section class="panel"><h2>Team comparison <span>season averages · rank among ${n} FBS teams · better side highlighted</span></h2>
+      <table class="compare">${thead}<tbody>
+        ${A.rating && H.rating ? `<tr><td class="l">${num(A.rating.overall)} ${rankChip(A.rating.rank, n)}</td><th scope="row">Our rating (points better than average)</th><td class="r">${rankChip(H.rating.rank, n)} ${num(H.rating.overall)}</td></tr>` : ""}
+        ${recRow("Record", "su")}${recRow("Against the spread", "ats")}${recRow("Over / under", "ou")}
+        ${rows}</tbody></table></section>`;
+  html += `<section class="panel"><h2>Recent form <span>last 5 games · result against the spread</span></h2>
+      <div class="two-col"><div><h3>${logo(A.team, 20)} ${esc(A.team)}</h3>${formList(A.recent)}</div>
+      <div><h3>${logo(H.team, 20)} ${esc(H.team)}</h3>${formList(H.recent)}</div></div></section>`;
+  const h2h = m.h2h || [];
+  html += `<section class="panel"><h2>Past meetings <span>${h2h.length ? `${esc(H.team)} is ${esc(m.h2h_record.su)} straight up and ${esc(m.h2h_record.ats)} against the spread since 2013` : "no meetings since 2013"}</span></h2>
+      ${h2h.length ? `<div class="table-wrap"><table class="h2h"><thead><tr><th scope="col">Date</th><th scope="col">Winner</th><th scope="col" class="num">Score</th><th scope="col" class="num">${esc(short(H.team))} line</th><th scope="col">${esc(short(H.team))} ATS</th><th scope="col" class="num">Total</th></tr></thead><tbody>
+        ${h2h.map((r) => {
+          const hw = r.result === "W", winner = hw ? H.team : r.result === "L" ? r.opp : "Tie";
+          const d = new Date(r.date).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "America/Chicago" });
+          return `<tr><td>${esc(d)}${r.site === "N" ? " <small>(neutral)</small>" : r.site === "A" ? ` <small>at ${esc(short(r.opp))}</small>` : ` <small>at ${esc(short(H.team))}</small>`}</td>
+            <td><span class="cell-logo">${logo(winner, 18)}${esc(winner)}</span></td>
+            <td class="num">${Math.max(r.pts, r.opp_pts)}–${Math.min(r.pts, r.opp_pts)}</td>
+            <td class="num">${r.spread !== null ? esc(signed(r.spread)) : "–"}</td>
+            <td><span class="ats ${r.cover || ""}">${r.cover === "W" ? "Covered" : r.cover === "L" ? "Missed" : r.cover === "P" ? "Push" : "–"}</span></td>
+            <td class="num">${r.total !== null ? `${num(r.total)} <small>${r.ou === "O" ? "over" : r.ou === "U" ? "under" : "push"}</small>` : "–"}</td></tr>`;
+        }).join("")}</tbody></table></div>` : ""}</section>`;
+  body.innerHTML = html;
+  document.title = `${g.away.team} at ${g.home.team} · Jono's Picks`;
+}

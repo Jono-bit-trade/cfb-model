@@ -18,6 +18,7 @@ import config  # noqa: E402
 import features  # noqa: E402
 import qb  # noqa: E402
 import qb_news  # noqa: E402
+import matchups  # noqa: E402
 import splits  # noqa: E402
 import weather  # noqa: E402
 from common import DATA, SITE_DATA, load, load_file, load_games, write_json  # noqa: E402
@@ -293,8 +294,18 @@ def main(now=None):
                SITE_DATA, "predictions.json")
 
     write_results(games, season, now)
-    write_ratings(engine, games, season, now, rec)
+    rated = write_ratings(engine, games, season, now, rec)
     write_teams()
+    ap_rank = {}
+    for r in rows.itertuples():
+        for side in ("home", "away"):
+            v = getattr(r, f"rank_{side}", np.nan)
+            if not pd.isna(v) and v <= 25:
+                ap_rank[getattr(r, side)] = int(v)
+    try:
+        matchups.write_matchups(out_games, games, season, ap_rank, rated)
+    except Exception as e:  # the matchup pages are extras: never let them stop the board
+        print(f"  ! matchup pages: {e}")
     print(f"wrote {len(out_games)} predictions")
 
 
@@ -507,12 +518,13 @@ def write_ratings(engine, games, season, now, rec):
     r = r.drop(index=FCS, errors="ignore")
     r = r[r.index.isin(conf.index)]
     teams = []
-    for team, x in r.sort_values("overall", ascending=False).iterrows():
-        teams.append({"team": team, "conf": conf.get(team), "record": rec.get(team, "0–0"),
+    for i, (team, x) in enumerate(r.sort_values("overall", ascending=False).iterrows(), start=1):
+        teams.append({"team": team, "rank": i, "conf": conf.get(team), "record": rec.get(team, "0–0"),
                       "overall": round(x["overall"], 2), "offense": round(avg + x["off"], 2),
                       "defense": round(avg + x["def"], 2), "games": int(x["games"])})
     write_json({"updated": now, "season": season, "avg_points": round(avg, 2), "home_edge": round(hfa, 2),
                 "teams": teams}, SITE_DATA, "ratings.json")
+    return teams
 
 
 if __name__ == "__main__":
