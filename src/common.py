@@ -85,7 +85,21 @@ def dataset_dir(name):
 
 
 def save_season(df, name, season):
-    df.to_csv(os.path.join(dataset_dir(name), f"{season}.csv"), index=False)
+    """Save one season of a dataset, but never replace a good file with a much smaller one.
+
+    A season's schedule, lines and stats only grow, so a download that comes back empty or
+    with less than half the rows means the API had a problem: keep what we had."""
+    path = os.path.join(dataset_dir(name), f"{season}.csv")
+    if os.path.exists(path):
+        try:
+            old_rows = sum(1 for _ in open(path)) - 1
+        except OSError:
+            old_rows = 0
+        if old_rows >= 20 and len(df) < 0.5 * old_rows:
+            print(f"  ! kept the saved {name} {season} ({old_rows} rows): the new download had only {len(df)} rows")
+            return False
+    df.to_csv(path, index=False)
+    return True
 
 
 def has_season(name, season):
