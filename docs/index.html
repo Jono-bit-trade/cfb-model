@@ -85,6 +85,7 @@
       <p class="sub" id="history-sub">Every game the model projected, graded four ways.</p>
       <div class="controls history-controls">
         <label class="field-label">Season <select id="h-season"></select></label>
+        <label class="field-label">Week <select id="h-week"><option value="all">All weeks</option></select></label>
         <label class="field-label">Team <input id="h-team" type="search" autocomplete="off" placeholder="Any team"></label>
         <label class="field-label">Minimum edge <select id="h-edge">
           <option value="0">Every game</option><option value="3">3+ points</option><option value="5">5+ points</option>
@@ -95,6 +96,12 @@
       </div>
       <div class="tally" id="h-tally"></div>
       <p class="note" id="h-note"></p>
+      <h2 class="section-title">Week by week</h2>
+      <p class="note">Records for each week with the filters above. Select a week to see just its games.</p>
+      <div class="table-scroll"><table class="results" id="h-weeks"><thead><tr>
+        <th scope="col">Week</th><th scope="col" class="num">Games</th><th scope="col" class="num">Winners</th>
+        <th scope="col" class="num">Spread</th><th scope="col" class="num">Over/under</th><th scope="col" class="num">Moneyline</th>
+      </tr></thead><tbody></tbody></table></div>
       <h2 class="section-title">Where the model is strongest</h2>
       <p class="note">Spread record at or above each edge size, for the season and team selected. Small samples swing a lot; trust rows with a few hundred games.</p>
       <div class="table-scroll edge-scroll"><table class="results" id="h-edges"><thead><tr>
@@ -121,7 +128,8 @@
       <div class="table-scroll edge-scroll"><table class="results" id="h-sharp"><thead><tr>
         <th scope="col">Signal</th><th scope="col" class="num">Games</th><th scope="col" class="num">Record</th><th scope="col" class="num">Win %</th>
       </tr></thead><tbody></tbody></table></div>
-      <h2 class="section-title">Games</h2>
+      <div class="games-head"><h2 class="section-title">Games</h2>
+        <label class="sort">Sort <select id="h-sort"><option value="newest">Newest first</option><option value="week">By week</option></select></label></div>
       <div class="table-scroll"><table class="results history" id="h-games"><thead><tr>
         <th scope="col">Wk</th><th scope="col">Game</th><th scope="col" class="num">Final</th><th scope="col" class="num">Projected</th>
         <th scope="col">Winner pick</th><th scope="col">Moneyline</th><th scope="col">Spread pick</th><th scope="col">Total pick</th>

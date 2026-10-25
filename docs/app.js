@@ -275,7 +275,10 @@ function renderRatings() {
 
 /* ---------------------------------------------------------------- history */
 function wl(x) { return x && x.w + x.l + x.p > 0 ? `${x.w}–${x.l}${x.p ? `–${x.p}` : ""}` : "–"; }
-const H = { index: null, cache: {}, season: null, team: "", edge: 0, valueOnly: false, line: "close" };
+const H = { index: null, cache: {}, season: null, team: "", edge: 0, valueOnly: false, line: "close", week: "all", sort: "newest" };
+const weekKey = (r) => r.post ? "bowls" : String(r.wk ?? "");
+const weekName = (k) => k === "bowls" ? "Bowls" : `Week ${k}`;
+const weekOrder = (k) => k === "bowls" ? 99 : Number(k);
 
 /* Re-grade a game at the early line: the locked pick this season, the opening line before that. */
 function atEarlyLine(r) {
@@ -331,6 +334,18 @@ async function initHistory() {
   $("#h-edge").addEventListener("change", (e) => { H.edge = Number(e.target.value); renderHistory(); });
   $("#h-value").addEventListener("change", (e) => { H.valueOnly = e.target.checked; renderHistory(); });
   $("#h-line").addEventListener("change", (e) => { H.line = e.target.value; renderHistory(); });
+  $("#h-week").addEventListener("change", (e) => { H.week = e.target.value; renderHistory(); });
+  $("#h-sort").addEventListener("change", (e) => { H.sort = e.target.value; renderHistory(); });
+  $("#h-weeks").addEventListener("keydown", (e) => {
+    if (e.key === "Enter" && e.target.closest("tr[data-week]")) e.target.click();
+  });
+  $("#h-weeks").addEventListener("click", (e) => {
+    const tr = e.target.closest("tr[data-week]");
+    if (!tr) return;
+    H.week = H.week === tr.dataset.week ? "all" : tr.dataset.week;
+    $("#h-week").value = H.week;
+    renderHistory();
+  });
   renderHistory();
 }
 
@@ -340,6 +355,31 @@ async function renderHistory() {
   let rows = (await Promise.all(seasons.map(loadSeason))).flat();
   if (H.line === "early") rows = rows.map(atEarlyLine).filter((r) => r.sp !== null || r.tot !== null);
   if (H.team) rows = rows.filter((r) => r.h.toLowerCase().includes(H.team) || r.a.toLowerCase().includes(H.team));
+
+  // Week dropdown follows the weeks present in the selected season(s)
+  const weeks = [...new Set(rows.map(weekKey).filter((k) => k))].sort((a, b) => weekOrder(a) - weekOrder(b));
+  const weekSel = $("#h-week");
+  weekSel.innerHTML = `<option value="all">All weeks</option>` + weeks.map((k) => `<option value="${k}">${weekName(k)}</option>`).join("");
+  if (H.week !== "all" && !weeks.includes(H.week)) H.week = "all";
+  weekSel.value = H.week;
+
+  // Week-by-week records (before narrowing to one week)
+  const byWeek = new Map();
+  for (const r of rows) { const k = weekKey(r); if (!byWeek.has(k)) byWeek.set(k, []); byWeek.get(k).push(r); }
+  const weekRec = (rs) => {
+    const e = rs.filter((r) => (r.edge ?? -1) >= H.edge), t = rs.filter((r) => (r.te ?? -1) >= H.edge);
+    const ml = rs.filter((r) => (H.valueOnly ? r.val_u : r.ml_u) !== null && (H.valueOnly ? r.val_u : r.ml_u) !== undefined);
+    const u = sumUnits(ml, H.valueOnly ? "val_u" : "ml_u");
+    return { su: tallyOf(rs, "su"), ats: tallyOf(e, "ats"), ou: tallyOf(t, "ou"), u, mlN: ml.length };
+  };
+  const cellR = (t) => t.w + t.l + t.p ? `${wl(t)}${t.pct !== null ? ` <span class="small-inline">${pct(t.pct)}</span>` : ""}` : "–";
+  const unitCell = (u, n) => n ? `<span class="${u > 0.005 ? "res-w" : u < -0.005 ? "res-l" : ""}">${u >= 0 ? "+" : "−"}${Math.abs(u).toFixed(1)}u</span>` : "–";
+  $("#h-weeks tbody").innerHTML = [...byWeek.entries()].sort((a, b) => weekOrder(a[0]) - weekOrder(b[0])).map(([k, rs]) => {
+    const x = weekRec(rs);
+    return `<tr data-week="${k}" class="clickable ${H.week === k ? "selected" : ""}" tabindex="0"><td>${weekName(k)}</td><td class="num">${rs.length}</td>
+      <td class="num">${cellR(x.su)}</td><td class="num">${cellR(x.ats)}</td><td class="num">${cellR(x.ou)}</td><td class="num">${unitCell(x.u, x.mlN)}</td></tr>`;
+  }).join("");
+  if (H.week !== "all") rows = rows.filter((r) => weekKey(r) === H.week);
   const teamRows = rows;
   const spreadRows = rows.filter((r) => (r.edge ?? -1) >= H.edge);
   const totalRows = rows.filter((r) => (r.te ?? -1) >= H.edge);
@@ -442,10 +482,22 @@ async function renderHistory() {
     return `<tr><td>${label}</td><td class="num">${t.w + t.l + t.p}</td><td class="num">${wl(t)}</td><td class="num">${pct(t.pct)}</td></tr>`;
   }).join("") : "";
 
-  const list = [...shown].sort((x, y) => y.date.localeCompare(x.date));
+  const list = H.sort === "week"
+    ? [...shown].sort((x, y) => (x.date.slice(0, 4) - y.date.slice(0, 4)) || (weekOrder(weekKey(x)) - weekOrder(weekKey(y))) || x.date.localeCompare(y.date))
+    : [...shown].sort((x, y) => y.date.localeCompare(x.date));
   const LIMIT = 400;
   const fmtDay = (iso) => new Intl.DateTimeFormat("en-US", { timeZone: TZ, month: "short", day: "numeric", year: H.season === "all" ? "numeric" : undefined }).format(new Date(iso));
-  $("#h-games tbody").innerHTML = list.slice(0, LIMIT).map((r) => {
+  let lastWeek = null;
+  const header = (r) => {
+    const k = `${r.date.slice(0, 4)}-${weekKey(r)}`;
+    if (H.sort !== "week" || k === lastWeek) return "";
+    lastWeek = k;
+    const rs = list.filter((x) => `${x.date.slice(0, 4)}-${weekKey(x)}` === k);
+    const x = weekRec(rs);
+    return `<tr class="week-row"><th colspan="8" scope="colgroup">${H.season === "all" ? `${r.date.slice(0, 4)} ` : ""}${weekName(weekKey(r))}
+      <span>Winners ${wl(x.su)}, spread ${wl(x.ats)}, over/under ${wl(x.ou)}</span></th></tr>`;
+  };
+  $("#h-games tbody").innerHTML = list.slice(0, LIMIT).map((r) => header(r) + (() => {
     const ph = (r.pt + r.pm) / 2, pa = (r.pt - r.pm) / 2;
     const winner = r.pm >= 0 ? r.h : r.a;
     const mlCell = H.valueOnly
@@ -459,7 +511,7 @@ async function renderHistory() {
       <td>${mlCell}</td>
       <td>${r.ats_pick ? `${esc(r.ats_pick)} ${signed(r.ats_line)} ${mark(r.ats)}<span class="small">${num(r.edge)}-point edge</span>` : "No line"}</td>
       <td>${r.ou_pick ? `${r.ou_pick} ${num(r.tot)} ${mark(r.ou)}<span class="small">${num(r.te)}-point edge</span>` : "–"}</td></tr>`;
-  }).join("") || `<tr><td colspan="8">No games match these filters.</td></tr>`;
+  })()).join("") || `<tr><td colspan="8">No games match these filters.</td></tr>`;
   $("#h-more").hidden = list.length <= LIMIT;
   $("#h-more").textContent = `Showing the newest ${LIMIT} of ${list.length} games. Narrow it with the season or team filters.`;
 }
