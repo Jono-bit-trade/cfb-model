@@ -338,7 +338,6 @@ game_id,season,provider,spread,spread_open,total
 401868230,2026,DraftKings,-6.0,-6.0,54.5
 401869138,2026,DraftKings,-14.0,-14.0,55.5
 401856735,2026,DraftKings,-11.5,-10.5,55.5
-401862813,2026,DraftKings,13.5,13.5,45.5
 401856736,2026,DraftKings,-5.5,-5.5,43.5
 401868266,2026,DraftKings,4.0,4.0,51.5
 401868106,2026,DraftKings,-14.0,-14.0,62.5
@@ -365,6 +364,7 @@ game_id,season,provider,spread,spread_open,total
 401858502,2026,DraftKings,-3.5,-4.5,39.5
 401871072,2026,DraftKings,-6.5,-6.0,51.5
 401862812,2026,DraftKings,-12.5,-12.5,70.5
+401862813,2026,DraftKings,13.5,13.5,46.5
 401860924,2026,DraftKings,7.0,7.0,56.5
 401858284,2026,DraftKings,-13.5,-13.5,49.5
 401858508,2026,DraftKings,-23.5,-23.5,48.5
@@ -421,7 +421,7 @@ game_id,season,provider,spread,spread_open,total
 401864498,2026,DraftKings,-11.5,-12.5,47.5
 401867689,2026,DraftKings,-24.5,-23.5,53.5
 401868174,2026,DraftKings,3.0,3.0,38.5
-401858282,2026,DraftKings,16.5,14.5,50.5
+401858282,2026,DraftKings,16.5,14.5,51.5
 401858437,2026,Bovada,-23.0,-21.5,51.0
 401858437,2026,DraftKings,-23.5,-21.5,51.5
 401858201,2026,Bovada,-5.0,-3.0,48.5
