@@ -304,7 +304,45 @@
     "picks": 7
    }
   },
-  "our_picks_backtest": null
+  "our_picks_backtest": {
+   "w": 234,
+   "l": 162,
+   "p": 9,
+   "pct": 0.5909,
+   "units": 50.73,
+   "from": 2021,
+   "to": 2025
+  },
+  "our_picks_lines": {
+   "open": {
+    "w": 35,
+    "l": 25,
+    "p": 3,
+    "pct": 0.5833,
+    "units": 6.82
+   },
+   "locked": {
+    "w": 35,
+    "l": 25,
+    "p": 3,
+    "pct": 0.5833,
+    "units": 6.82
+   },
+   "close": {
+    "w": 34,
+    "l": 28,
+    "p": 1,
+    "pct": 0.5484,
+    "units": 2.91
+   },
+   "live": {
+    "w": 1,
+    "l": 0,
+    "p": 0,
+    "pct": 1.0,
+    "units": 0.91
+   }
+  }
  },
  "games": [
   {
