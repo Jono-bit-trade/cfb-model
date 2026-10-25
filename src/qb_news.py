@@ -52,7 +52,7 @@ PATTERNS = [
     ("doubtful", r"doubtful|unlikely to play"),
     ("questionable", r"questionable|game[- ]time decision|day[- ]to[- ]day|status (is )?(unclear|uncertain|in doubt)|"
                      r"uncertain|injur(y|ed)\b|concussion|limited in practice|banged up|left the game|"
-                     r"knocked out of|exited|hurt|ankle|shoulder|knee|hamstring|wrist|elbow|"
+                     r"knocked out of|exited|ankle|shoulder|knee|hamstring|wrist|elbow|"
                      r"injury update|dealing with"),
 ]
 SEVERITY = {"out": 3, "doubtful": 2, "questionable": 1, "available": 0}
