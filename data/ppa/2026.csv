@@ -32,22 +32,22 @@ game_id,season,team,opponent,off_ppa,def_ppa
 401856637,2026,Florida,Florida Atlantic,0.61,-0.01
 401856637,2026,Florida Atlantic,Florida,-0.01,0.61
 401862699,2026,Florida International,South Florida,-0.12,-0.06
-401858212,2026,Florida State,SMU,0.14,0.36
 401864570,2026,Florida State,New Mexico State,0.27,0.11
+401858212,2026,Florida State,SMU,0.14,0.36
 401858436,2026,Fresno State,USC,-0.35,0.23
 401856658,2026,Georgia,Tennessee State,0.73,-0.14
 401868170,2026,Georgia Southern,Charleston Southern,0.18,-0.3
 401866623,2026,Georgia State,North Carolina A&T,0.51,-0.07
 401856776,2026,Georgia Tech,Colorado,0.07,0.05
-401858201,2026,Hawai'i,Stanford,0.05,0.31
 401864497,2026,Hawai'i,UNLV,-0.08,0.07
+401858201,2026,Hawai'i,Stanford,0.05,0.31
 401856778,2026,Houston,Oregon State,0.28,0.06
 401858424,2026,Illinois,UAB,0.46,0.14
 401858425,2026,Indiana,North Texas,0.65,0.05
 401858426,2026,Iowa,Northern Illinois,0.03,-0.42
 401856779,2026,Iowa State,Southeast Missouri State,0.24,-0.25
-401864577,2026,Jacksonville State,North Dakota State,-0.38,0.16
 401868140,2026,Jacksonville State,Eastern Kentucky,0.53,-0.25
+401864577,2026,Jacksonville State,North Dakota State,-0.38,0.16
 401869960,2026,James Madison,Liberty,0.28,-0.02
 401856769,2026,Kansas,Long Island University,0.55,-0.18
 401856771,2026,Kansas State,Nicholls,0.55,-0.28
@@ -62,8 +62,8 @@ game_id,season,team,opponent,off_ppa,def_ppa
 401858434,2026,Marshall,Penn State,-0.37,0.42
 401858427,2026,Maryland,Hampton,0.48,-0.43
 401858423,2026,Massachusetts,Rutgers,0.33,-0.02
-401862693,2026,Memphis,UNLV,0.22,0.02
 401862695,2026,Memphis,Arkansas State,0.43,0.09
+401862693,2026,Memphis,UNLV,0.22,0.02
 401858206,2026,Miami,Stanford,0.46,0.01
 401858207,2026,Miami (OH),Pittsburgh,0.07,0.42
 401858428,2026,Michigan,Western Michigan,0.15,-0.04
@@ -104,8 +104,8 @@ game_id,season,team,opponent,off_ppa,def_ppa
 401866411,2026,Sacramento State,Mississippi Valley State,0.25,-0.2
 401870763,2026,Sam Houston,Troy,0.07,0.16
 401860879,2026,San Diego State,Portland State,0.13,-0.07
-401864495,2026,San José State,Eastern Michigan,0.07,-0.17
 401864494,2026,San José State,USC,0.21,0.34
+401864495,2026,San José State,Eastern Michigan,0.07,-0.17
 401858212,2026,SMU,Florida State,0.36,0.14
 401868316,2026,South Alabama,SE Louisiana,0.09,-0.11
 401856665,2026,South Carolina,Kent State,0.68,-0.08
@@ -132,8 +132,8 @@ game_id,season,team,opponent,off_ppa,def_ppa
 401856662,2026,UL Monroe,Mississippi State,-0.08,0.64
 401864497,2026,UNLV,Hawai'i,0.07,-0.08
 401862693,2026,UNLV,Memphis,0.02,0.22
-401864494,2026,USC,San José State,0.34,0.21
 401858436,2026,USC,Fresno State,0.23,-0.35
+401864494,2026,USC,San José State,0.34,0.21
 401856768,2026,Utah,Idaho,0.51,0.01
 401860880,2026,Utah State,Idaho State,-0.06,0.03
 401856664,2026,UTEP,Oklahoma,-0.49,0.39
@@ -906,6 +906,7 @@ game_id,season,team,opponent,off_ppa,def_ppa
 401856728,2026,Auburn,LSU,0.21,0.38
 401866447,2026,Ball State,Sacramento State,0.24,-0.12
 401856834,2026,Baylor,Kansas,0.0,-0.02
+401860907,2026,Boise State,Washington State,0.3,-0.14
 401858273,2026,Boston College,Georgia Tech,0.41,-0.07
 401866448,2026,Bowling Green,Buffalo,0.16,0.21
 401866448,2026,Buffalo,Bowling Green,0.21,0.16
@@ -978,6 +979,7 @@ game_id,season,team,opponent,off_ppa,def_ppa
 401861965,2026,UConn,Massachusetts,0.29,0.04
 401871094,2026,UL Monroe,Troy,0.0,-0.01
 401858271,2026,Virginia,Duke,-0.08,0.06
+401860907,2026,Washington State,Boise State,-0.14,0.3
 401866450,2026,Western Michigan,Toledo,-0.03,0.24
 401856841,2026,West Virginia,TCU,0.12,0.08
 401864525,2026,Wyoming,Air Force,0.38,0.07
