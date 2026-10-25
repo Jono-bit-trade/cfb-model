@@ -535,17 +535,23 @@ async function renderHistory() {
   // Week-by-week records (before narrowing to one week)
   const byWeek = new Map();
   for (const r of rows) { const k = weekKey(r); if (!byWeek.has(k)) byWeek.set(k, []); byWeek.get(k).push(r); }
+  // ★ Our picks are always graded at the early line (5+ point edge there), whatever the "Grade against" setting
+  const oursOf = (rs) => {
+    const picks = rs.map((r) => (H.line === "early" ? r : atEarlyLine(r))).filter((r) => r.edge !== null && r.edge >= 5 && r.ats !== null);
+    const t = tallyOf(picks, "ats");
+    return { ...t, units: units110(t) };
+  };
   const weekRec = (rs) => {
     const e = rs.filter((r) => edgeOk(r.edge)), t = rs.filter((r) => edgeOk(r.te));
     const ml = rs.filter((r) => (H.valueOnly ? r.val_u : r.ml_u) !== null && (H.valueOnly ? r.val_u : r.ml_u) !== undefined);
     const u = sumUnits(ml, H.valueOnly ? "val_u" : "ml_u");
-    return { su: tallyOf(rs, "su"), ats: tallyOf(e, "ats"), ou: tallyOf(t, "ou"), u, mlN: ml.length };
+    return { su: tallyOf(rs, "su"), ats: tallyOf(e, "ats"), ou: tallyOf(t, "ou"), u, mlN: ml.length, ours: oursOf(rs) };
   };
   const cellR = (t) => t.w + t.l + t.p ? `${wl(t)}${t.pct !== null ? ` <span class="small-inline">${pct(t.pct)}</span>` : ""}` : "–";
   const unitCell = (u, n) => n ? `<span class="${u > 0.005 ? "res-w" : u < -0.005 ? "res-l" : ""}">${u >= 0 ? "+" : "−"}${Math.abs(u).toFixed(1)}u</span>` : "–";
   $("#h-weeks tbody").innerHTML = [...byWeek.entries()].sort((a, b) => weekOrder(a[0]) - weekOrder(b[0])).map(([k, rs]) => {
     const x = weekRec(rs);
-    return `<tr data-week="${k}" class="clickable ${H.week === k ? "selected" : ""}" tabindex="0"><td>${weekName(k)}</td><td class="num">${rs.length}</td>
+    return `<tr data-week="${k}" class="clickable ${H.week === k ? "selected" : ""}" tabindex="0"><td>${weekName(k)}</td><td class="num">${rs.length}</td><td class="num ours-col">${cellR(x.ours)}${x.ours.w + x.ours.l ? ` ${unitCell(x.ours.units, 1)}` : ""}</td>
       <td class="num">${cellR(x.su)}</td><td class="num">${cellR(x.ats)}</td><td class="num">${cellR(x.ou)}</td><td class="num">${unitCell(x.u, x.mlN)}</td></tr>`;
   }).join("");
   if (H.week !== "all") rows = rows.filter((r) => weekKey(r) === H.week);
@@ -559,8 +565,10 @@ async function renderHistory() {
   const mlUnits = sumUnits(mlRows, H.valueOnly ? "val_u" : "ml_u");
   const mlWins = mlRows.filter((r) => (H.valueOnly ? r.val_u : r.ml_u) > 0).length;
   const tile = (label, rec, extra = "") => `<div><b>${wl(rec)}</b><span>${label}${rec.pct !== null ? `, ${pct(rec.pct)}` : ""}</span>${extra}</div>`;
+  const ours = oursOf(rows);
   $("#h-tally").innerHTML =
-    tile("Picking winners", su)
+    `<div class="ours"><b>${ours.w + ours.l + ours.p ? wl(ours) : "–"}</b><span>★ Our picks${ours.pct !== null ? `, ${pct(ours.pct)}` : ""}</span>${ours.w + ours.l ? unitText(ours.units) : ""}<span class="close-note">5+ point edge at the early line</span></div>`
+    + tile("Picking winners", su)
     + `<div><b>${mlRows.length ? `${mlWins}–${mlRows.length - mlWins}` : "–"}</b><span>${H.valueOnly ? "Value moneylines" : "Moneyline on the projected winner"}</span>${mlRows.length ? unitText(mlUnits) : ""}</div>`
     + tile("Against the spread", ats, ats.w + ats.l ? unitText(units110(ats)) : "")
     + tile("Over/under", ou, ou.w + ou.l ? unitText(units110(ou)) : "");
