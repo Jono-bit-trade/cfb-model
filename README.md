@@ -90,6 +90,8 @@ Lines tend to move toward the side the model likes: in 2023-2025, lines moved to
 
 - **Locked pick:** the first projection after the previous weekend's games is saved with the line at that moment and never changes. Every game is graded at both the locked line and the closing line.
 - **Bet early:** marks games where the model's edge is 3+ points and the line is still within about a point of where it opened. In 2023-2025, those picks won 54.6% at 5+ point edges; once a line had already moved toward the pick, results fell to about 49% (the edge was gone), and when it moved against the pick, about 51%.
+- **Totals too:** the same "Bet early" rule applies to over/unders: a 3+ point gap between the model's total and the market's, with the total still near its opening number. In 2023-2025, 5+ point total edges won 57% at the close, and 60% when the total hadn't moved (116 games, so treat it as promising, not proven).
+- **Line history chart:** each game card has a "Line history" panel charting the spread and total from open to now, with the model's number as a dashed line.
 - **Line snapshots:** every run saves the current lines to `data/line_history.csv`, so picks can later be graded at the line on a specific day, such as Wednesday.
 - **History → Grade against:** switch between the closing line and the early line (the locked pick this season, the opening line for past seasons).
 

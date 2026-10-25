@@ -54,6 +54,40 @@ def bet_early(edge, line_move):
     return bool(-config.BET_EARLY_MAX_MOVE < toward_model < 0.5)
 
 
+def total_bet_early(total_edge, total_move):
+    """Strong edge on the total, and the total is still close to where it opened.
+
+    In 2023-2025, 5+ point total edges won 57% at the close overall and 60.3% (116 games)
+    when the total hadn't moved.
+    """
+    if np.isnan(total_edge) or abs(total_edge) < config.STRONG_EDGE:
+        return False
+    toward_model = 0.0 if np.isnan(total_move) else total_move * np.sign(total_edge)
+    return bool(-config.BET_EARLY_MAX_MOVE < toward_model < config.BET_EARLY_MAX_MOVE)
+
+
+def line_series(history, r):
+    """Opening line, every saved snapshot, and the current line, for the card's chart."""
+    pts = []
+    if not (np.isnan(r.spread_open) and np.isnan(r.total_open)):
+        pts.append({"t": None, "label": "Open", "spread": clean(r.spread_open), "total": clean(r.total_open)})
+    h = history[history["game_id"] == r.game_id] if len(history) else history
+    for x in h.itertuples():
+        pts.append({"t": x.at, "label": x.weekday, "spread": clean(x.spread), "total": clean(x.total)})
+    pts.append({"t": "now", "label": "Now", "spread": clean(r.spread), "total": clean(r.total)})
+    # drop repeats of the same numbers back to back (lines often sit still for days)
+    out = []
+    for pt in pts:
+        if out and out[-1]["spread"] == pt["spread"] and out[-1]["total"] == pt["total"]:
+            if pt["label"] == "Now" and out[-1]["label"] != "Open":
+                out[-1] = pt  # this run's own snapshot is the current line
+            elif pt["label"] == "Now":
+                out.append(pt)
+            continue
+        out.append(pt)
+    return out if len(out) > 1 else []
+
+
 def locked_pick(log, r):
     """The early pick recorded for this game, if it has locked."""
     if log is None or not len(log) or r.game_id not in log.index or "lock_at" not in log:
@@ -151,6 +185,7 @@ def main(now=None):
         update_log(rows, now)  # records early (locked) picks before the board is written
         save_line_snapshot(rows, now)
     log_now = pd.read_csv(LOG).set_index("game_id") if os.path.exists(LOG) else pd.DataFrame()
+    history = pd.read_csv(LINE_HISTORY) if os.path.exists(LINE_HISTORY) else pd.DataFrame(columns=["game_id"])
     out_games = []
     for r in rows.sort_values("start").itertuples():
         d = r._asdict()
@@ -196,6 +231,9 @@ def main(now=None):
                 "public": r.home if r.public_side == "home" else r.away if r.public_side == "away" else None,
                 "rlm": r.home if r.rlm_side == "home" else r.away if r.rlm_side == "away" else None},
             "bet_early": bet_early(edge, r.spread_open - r.spread if not (np.isnan(r.spread_open) or np.isnan(r.spread)) else np.nan),
+            "total_move": clean(r.total - r.total_open) if not (np.isnan(r.total) or np.isnan(r.total_open)) else None,
+            "total_bet_early": total_bet_early(r.pred_total - r.total, r.total - r.total_open),
+            "line_history": line_series(history, r),
             "locked": locked_pick(log_now, r),
             "edge": clean(abs(edge)) if not np.isnan(edge) else None,
             "pick": {"team": pick_team, "line": clean(pick_line), "text": fmt_line(pick_team, pick_line) if pick_team else None,

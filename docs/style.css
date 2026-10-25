@@ -183,3 +183,12 @@ td .small { display: block; color: var(--muted); font-size: 13px; }
 .final-score span { color: var(--muted); }
 .final-score span.won { color: var(--ink); }
 .final-picks { grid-template-columns: 1fr; font-size: 14px; }
+
+/* ---------- line history charts */
+.line-history { border-top: 1px dotted var(--rule); padding-top: 6px; }
+.line-history summary { cursor: pointer; font-size: 14px; color: var(--muted); font-weight: 600; }
+.line-history summary:hover { color: var(--ink); }
+.mini-charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-top: 8px; }
+.mini-chart { margin: 0; }
+.mini-chart figcaption { font-size: 13px; color: var(--muted); margin-bottom: 2px; }
+.mini-chart svg { display: block; width: 100%; height: auto; overflow: visible; }

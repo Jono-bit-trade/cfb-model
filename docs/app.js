@@ -34,6 +34,49 @@ const splitTags = (g) => {
 const hasSharp = (g) => g.splits && (g.splits.sharp || g.splits.rlm || g.splits.sharp_total);
 const betEarlyTag = (g) => g.bet_early && g.pick && g.pick.team
   ? `<span class="tag rlm" title="The model's edge is ${num(g.edge)} points and the line is still close to where it opened. In 2023-2025, picks like this won 54.6% at 5+ point edges; once the line had moved toward the pick, the edge was gone.">Bet now: ${esc(g.pick.text)}</span>` : "";
+const totalTags = (g) => {
+  let out = "";
+  const mv = g.total_move;
+  if (mv !== null && mv !== undefined && Math.abs(mv) >= 0.5) {
+    const dir = mv > 0 ? "up" : "down";
+    const pickOver = g.total_pick && g.total_pick.startsWith("Over");
+    const withPick = g.total_pick ? ((mv > 0) === pickOver ? "with the pick" : "against the pick") : "";
+    out += `<span class="tag ${withPick === "against the pick" ? "warn" : ""}" title="Change from the opening total">Total moved ${dir} ${num(Math.abs(mv))}${withPick ? `, ${withPick}` : ""}</span>`;
+  }
+  if (g.total_bet_early && g.total_pick) out += `<span class="tag rlm" title="The model's total is 3+ points from the market and the total is still close to where it opened. In 2023-2025, 5+ point total edges won 57% at the close, and 60% when the total hadn't moved (small sample).">Bet now: ${esc(g.total_pick)}</span>`;
+  return out;
+};
+
+/* Line history chart: the market line over time against the model's number (dashed). */
+function lineChart(points, key, model, title, fmt) {
+  const pts = points.filter((p) => p[key] !== null && p[key] !== undefined);
+  if (pts.length < 2 || model === null || model === undefined) return "";
+  const W = 300, H = 104, L = 8, R = 8, T = 22, B = 26;
+  const vals = pts.map((p) => p[key]).concat([model]);
+  let lo = Math.min(...vals), hi = Math.max(...vals);
+  if (hi - lo < 2) { lo -= 1; hi += 1; }
+  const x = (i) => L + (pts.length === 1 ? 0 : i * (W - L - R) / (pts.length - 1));
+  const y = (v) => T + (hi - v) * (H - T - B) / (hi - lo);
+  const path = pts.map((p, i) => `${i ? "L" : "M"}${x(i).toFixed(1)} ${y(p[key]).toFixed(1)}`).join(" ");
+  const label = `${title}: ${pts.map((p) => `${p.label} ${fmt(p[key])}`).join(", ")}; model ${fmt(model)}`;
+  return `<figure class="mini-chart"><figcaption>${esc(title)}</figcaption>
+    <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(label)}">
+      <line x1="${L}" x2="${W - R}" y1="${y(model)}" y2="${y(model)}" stroke="var(--pylon)" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <text x="${W - R}" y="${y(model) - 5}" text-anchor="end" font-size="11" fill="var(--pylon)">Model ${esc(fmt(model))}</text>
+      <path d="${path}" fill="none" stroke="var(--turf)" stroke-width="2"/>
+      ${pts.map((p, i) => `<circle cx="${x(i)}" cy="${y(p[key])}" r="3.5" fill="var(--turf)"/>
+        <text x="${x(i)}" y="${y(p[key]) - 8}" text-anchor="${i === 0 ? "start" : i === pts.length - 1 ? "end" : "middle"}" font-size="11" fill="var(--ink)">${esc(fmt(p[key]))}</text>
+        <text x="${x(i)}" y="${H - 6}" text-anchor="${i === 0 ? "start" : i === pts.length - 1 ? "end" : "middle"}" font-size="11" fill="var(--muted)">${esc(p.label)}</text>`).join("")}
+    </svg></figure>`;
+}
+function lineHistory(g) {
+  const h = g.line_history || [];
+  if (h.length < 2) return "";
+  const spread = lineChart(h, "spread", -g.model.margin, `Spread, ${g.home.team}`, (v) => signed(v));
+  const total = lineChart(h, "total", g.model.total, "Total", (v) => num(v));
+  if (!spread && !total) return "";
+  return `<details class="line-history"><summary>Line history</summary><div class="mini-charts">${spread}${total}</div></details>`;
+}
 const valueTag = (g) => g.moneyline && g.moneyline.value
   ? `<span class="tag" title="The model gives this side a ${num(g.moneyline.value.gap, 0)}-point better win chance than the moneyline implies">Value moneyline: ${esc(g.moneyline.value.team)} ${odds(g.moneyline.value.odds)}</span>` : "";
 const pct = (v) => (v === null || v === undefined ? "–" : `${(v * 100).toFixed(1)}%`);
@@ -146,8 +189,8 @@ function gameRow(g) {
   return `<li class="game ${strong ? "strong" : ""}">
       <div class="kick"><time datetime="${esc(g.kickoff)}">${esc(k.time)}</time>${esc(k.day)}<br>${esc(g.venue || "")}${g.neutral ? " (neutral)" : ""}</div>
       <div class="teams">${team("away", !homeWins)}${team("home", homeWins)}</div>
-      <div class="lines">${fieldSVG(g, strong)}${numbers}</div>
-      <div class="pick-row">${pick}${g.total_pick ? `<span class="tag">${esc(g.total_pick)}</span>` : ""}${betEarlyTag(g)}${valueTag(g)}${moveTag(g)}${splitTags(g)}${weatherTag(g.weather)}${qbTags(g)}</div>
+      <div class="lines">${fieldSVG(g, strong)}${numbers}${lineHistory(g)}</div>
+      <div class="pick-row">${pick}${g.total_pick ? `<span class="tag">${esc(g.total_pick)}</span>` : ""}${betEarlyTag(g)}${valueTag(g)}${moveTag(g)}${totalTags(g)}${splitTags(g)}${weatherTag(g.weather)}${qbTags(g)}</div>
     </li>`;
 }
 
@@ -168,7 +211,7 @@ function renderBoard() {
   if (state.filter === "qb") games = games.filter(hasQbNews);
   if (state.filter === "weather") games = games.filter((g) => isWeatherGame(g.weather));
   if (state.filter === "sharp") games = games.filter(hasSharp);
-  if (state.filter === "early") games = games.filter((g) => g.bet_early);
+  if (state.filter === "early") games = games.filter((g) => g.bet_early || g.total_bet_early);
   if (state.sort === "edge") games.sort((a, b) => (b.edge ?? -1) - (a.edge ?? -1));
   $("#games").innerHTML = games.map(gameRow).join("");
   $("#games-empty").hidden = games.length > 0;
@@ -349,6 +392,25 @@ async function renderHistory() {
     const close = tallyOf(moved.map((r) => ({ v: coverOf(r, r.sp, towardHome(r)) })), "v");
     const withMove = tallyOf(moved.filter((r) => r.ats_pick && r.ats_pick === (towardHome(r) ? r.h : r.a)), "ats");
     const against = tallyOf(moved.filter((r) => r.ats_pick && r.ats_pick !== (towardHome(r) ? r.h : r.a)), "ats");
+    const cell = (t) => `${wl(t)}${t.pct !== null ? ` (${pct(t.pct)})` : ""}`;
+    return `<tr><td>${c}+ points</td><td class="num">${moved.length}</td><td class="num">${pct(open.pct)}</td>
+      <td class="num">${pct(close.pct)}</td><td class="num">${cell(withMove)}</td><td class="num">${cell(against)}</td></tr>`;
+  }).join("");
+
+  // Over/under movement
+  const ouCover = (r, line, over) => {
+    if (r.hs === null || line === null || line === undefined) return null;
+    const c = (r.hs + r.as) - line;
+    if (c === 0) return 0.5;
+    return (c > 0) === over ? 1 : 0;
+  };
+  $("#h-tmoves tbody").innerHTML = [1, 2, 3, 5].map((c) => {
+    const moved = teamRows.filter((r) => r.tot_open !== null && r.tot_open !== undefined && r.tot !== null && Math.abs(r.tot - r.tot_open) >= c);
+    const up = (r) => r.tot - r.tot_open > 0;
+    const open = tallyOf(moved.map((r) => ({ v: ouCover(r, r.tot_open, up(r)) })), "v");
+    const close = tallyOf(moved.map((r) => ({ v: ouCover(r, r.tot, up(r)) })), "v");
+    const withMove = tallyOf(moved.filter((r) => r.ou_pick && (r.ou_pick === "Over") === up(r)), "ou");
+    const against = tallyOf(moved.filter((r) => r.ou_pick && (r.ou_pick === "Over") !== up(r)), "ou");
     const cell = (t) => `${wl(t)}${t.pct !== null ? ` (${pct(t.pct)})` : ""}`;
     return `<tr><td>${c}+ points</td><td class="num">${moved.length}</td><td class="num">${pct(open.pct)}</td>
       <td class="num">${pct(close.pct)}</td><td class="num">${cell(withMove)}</td><td class="num">${cell(against)}</td></tr>`;
