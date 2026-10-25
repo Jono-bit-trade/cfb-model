@@ -1,4 +1,4 @@
-# Gridiron Model
+# Jono's Picks
 
 A college football prediction model and website. Every week it projects every FBS game's score, compares the projection with the betting line, and publishes the picks with the kickoff weather forecast and each team's starting-quarterback status.
 
