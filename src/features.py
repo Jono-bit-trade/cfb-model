@@ -35,6 +35,7 @@ FEATURE_GROUPS = {
     "DRIVES": ["ppd_matchup", "field_diff"],
     # Pregame Elo rating difference: an independent second opinion
     "ELO": ["elo_diff"],
+    "RANK": ["rank_home", "rank_away"],
     # How efficient the quarterback expected to play has been
     "QBQ": ["qb_ppa_home", "qb_ppa_away"],
     # How much the sportsbooks disagree on the spread and total
@@ -133,6 +134,26 @@ def elo_before(t):
         k = key.assign(team=t[side].to_numpy()).sort_values("idx")
         m = pd.merge_asof(k, e, on="idx", by="team", allow_exact_matches=False).sort_values("row")
         out.append(m["elo"].to_numpy())
+    return out[0], out[1]
+
+
+def rank_before(t, poll="AP Top 25", unranked=30.0):
+    """Each side's AP rank from the poll in place before the game (bowls use the last regular-season poll)."""
+    r = load("rankings")
+    if not len(r):
+        return np.full(len(t), np.nan), np.full(len(t), np.nan)
+    r = r[(r["poll"] == poll) & (r["season_type"] == "regular")].dropna(subset=["rank"])
+    e = pd.DataFrame({"team": r["team"], "idx": r["season"] * 1000 + r["week"].astype(float), "rank": r["rank"].astype(float),
+                      "pseason": r["season"]}).sort_values("idx")
+    order = np.where(t["season_type"] == "postseason", 500.0, t["week"].astype(float))
+    key = pd.DataFrame({"row": np.arange(len(t)), "idx": t["season"].to_numpy() * 1000 + order, "season": t["season"].to_numpy()})
+    have = set(r["season"].unique())
+    out = []
+    for side in ("home", "away"):
+        k = key.assign(team=t[side].to_numpy()).sort_values("idx")
+        m = pd.merge_asof(k, e, on="idx", by="team").sort_values("row")
+        val = np.where(m["pseason"] == m["season"], m["rank"], unranked)
+        out.append(np.where(m["season"].isin(have), val, np.nan))
     return out[0], out[1]
 
 
@@ -280,6 +301,7 @@ def build(games, engine=None, seasons=None, live_cutoff=None):
     # ---- pregame Elo: the latest rating from an earlier week (or last season's final)
     t["elo_home"], t["elo_away"] = elo_before(t)
     t["elo_diff"] = t["elo_home"] - t["elo_away"]
+    t["rank_home"], t["rank_away"] = rank_before(t)
 
     # ---- quality of the quarterback expected to play
     qq = qb.quality_table(load("passers"), load("qb_ppa"), games)
