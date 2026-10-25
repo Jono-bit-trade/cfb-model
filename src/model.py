@@ -82,7 +82,7 @@ class MarketAdjust:
     A small ridge regression on movement only, so it can't simply copy the market.
     """
 
-    MARGIN_X = ["line_move", "line_move_x_edge", "big_spread_gap"]
+    MARGIN_X = ["line_move", "line_move_x_edge", "big_spread_gap", "early_gap_1_2", "early_gap_3_4"]
     TOTAL_X = ["total_move"]
 
     @staticmethod
@@ -96,7 +96,14 @@ class MarketAdjust:
         # the middle and the market is better: learn how far to lean toward the opening line there.
         big = rows["spread_open"].abs() >= config.BIG_SPREAD
         x["big_spread_gap"] = np.where(big, -rows["spread_open"] - margin, 0.0)
-        x.loc[rows["spread_open"].isna(), "big_spread_gap"] = np.nan
+        # Early in the season the ratings lean on preseason estimates and the market knows more:
+        # learn how far to lean toward the opening line in weeks 1-2 and 3-4.
+        gap = -rows["spread_open"] - margin
+        reg = rows["season_type"].eq("regular") if "season_type" in rows else True
+        wk = rows["week"] if "week" in rows else pd.Series(99, index=rows.index)
+        x["early_gap_1_2"] = np.where(reg & (wk <= 2), gap, 0.0)
+        x["early_gap_3_4"] = np.where(reg & (wk >= 3) & (wk <= 4), gap, 0.0)
+        x.loc[rows["spread_open"].isna(), ["big_spread_gap", "early_gap_1_2", "early_gap_3_4"]] = np.nan
         return x
 
     def fit(self, rows, margin, total):

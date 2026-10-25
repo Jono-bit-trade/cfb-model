@@ -76,7 +76,7 @@ class RatingEngine:
         self.games = team_keys(games)
         self.completed = self.games[self.games["completed"].astype(bool) & self.games["home_pts"].notna()]
         self._final, self._priors = {}, {}
-        self.inputs = {name: load(name) for name in ("returning", "talent", "recruiting", "portal", "coaches")}
+        self.inputs = {name: load(name) for name in ("returning", "talent", "recruiting", "portal", "coaches", "elo")}
 
     # ---------------------------------------------------- end-of-season fits
     def season_final(self, season):
@@ -131,6 +131,10 @@ class RatingEngine:
         f["recruiting"] = pd.concat(rec, axis=1).mean(axis=1) if rec else np.nan
         f["portal_net"] = season_value("portal", "portal_net", season).reindex(f.index)
         f["new_coach"] = self.new_coach(season).reindex(f.index).astype(float)
+        # A strong team that returns little production tends to fall back more (and vice versa)
+        f["last_x_ret"] = f["last_overall"] * (f["ret_ppa"].fillna(f["ret_ppa"].mean()) - 0.5)
+        # Last season's final Elo: an independent second opinion on how good the team was
+        f["last_elo"] = season_value("elo", "elo", season - 1).reindex(f.index)
         return f
 
     def new_coach(self, season):
@@ -143,7 +147,8 @@ class RatingEngine:
         cur["new"] = (cur["first"] == season).astype(float)
         return cur.groupby("team")["new"].max()
 
-    PRIOR_COLS = ["last_overall", "ret_ppa", "talent", "recruiting", "portal_net", "new_coach"]
+    # last_elo and last_x_ret cut the preseason miss vs final ratings 4.66 -> 4.59 (2016-22), 4.46 -> 4.43 (2023-25)
+    PRIOR_COLS = ["last_overall", "ret_ppa", "talent", "recruiting", "portal_net", "new_coach", "last_x_ret", "last_elo"]
 
     def priors(self, season):
         """Preseason offense/defense prior per team, plus the league average."""
