@@ -7,7 +7,9 @@
    "CORE",
    "STYLE",
    "CONTEXT",
-   "SITUATION"
+   "SITUATION",
+   "ELO",
+   "CLEAN"
   ],
   "BLEND_W": 0.3,
   "STRONG_EDGE": 3.0
@@ -372,5 +374,6 @@
    "tune_mae": 13.314,
    "tune_ats": 0.5099
   }
- ]
+ ],
+ "note_2026_10_25": "ELO and CLEAN added after testing: margin error 13.263->13.188 (2016-22), 12.752->12.725 (2023-25). QBQ, DRIVES, BOOKS tested and left off."
 }

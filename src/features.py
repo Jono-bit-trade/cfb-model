@@ -41,7 +41,8 @@ FEATURE_GROUPS = {
     "BOOKS": ["book_spread_sd", "book_total_sd"],
 }
 # extra inputs for the totals model when a group is switched on
-TOTAL_EXTRAS = {"CLEAN": ["c_ppa_sum"], "DRIVES": ["ppd_sum"], "QBQ": ["qb_ppa_home", "qb_ppa_away"],
+# (CLEAN's c_ppa_sum was tested for totals and didn't improve 2016-22, so CLEAN feeds margins only)
+TOTAL_EXTRAS = {"CLEAN": [], "DRIVES": ["ppd_sum"], "QBQ": ["qb_ppa_home", "qb_ppa_away"],
                 "BOOKS": ["book_total_sd"]}
 TOTAL_FEATURES = ["rating_total", "eff_sum", "epa_sum", "success_sum", "explosive_sum", "pace_sum",
                   "wind", "gust", "temp", "rain", "dome", "neutral", "qb_out_home", "qb_out_away"]
