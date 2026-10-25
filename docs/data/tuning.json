@@ -1,0 +1,354 @@
+{
+ "generated": "2026-10-25T00:13:35.235966+00:00",
+ "settings": {
+  "RATING_ALPHA": 6.0,
+  "HALF_LIFE_DAYS": 120,
+  "FEATURE_GROUPS": [
+   "CORE",
+   "STYLE"
+  ],
+  "BLEND_W": 0.7,
+  "STRONG_EDGE": 0.0
+ },
+ "tune_seasons": [
+  2018,
+  2019,
+  2020,
+  2021,
+  2022
+ ],
+ "holdout_seasons": [
+  2023,
+  2024,
+  2025
+ ],
+ "found_60_on_tuning": false,
+ "target": 0.6,
+ "tuning_spread_by_edge": [
+  {
+   "min_edge": 0,
+   "w": 869,
+   "l": 882,
+   "p": 27,
+   "pct": 0.4963,
+   "games": 1778
+  },
+  {
+   "min_edge": 2,
+   "w": 598,
+   "l": 619,
+   "p": 19,
+   "pct": 0.4914,
+   "games": 1236
+  },
+  {
+   "min_edge": 3,
+   "w": 491,
+   "l": 520,
+   "p": 16,
+   "pct": 0.4857,
+   "games": 1027
+  },
+  {
+   "min_edge": 4,
+   "w": 383,
+   "l": 416,
+   "p": 14,
+   "pct": 0.4793,
+   "games": 813
+  },
+  {
+   "min_edge": 5,
+   "w": 312,
+   "l": 327,
+   "p": 12,
+   "pct": 0.4883,
+   "games": 651
+  },
+  {
+   "min_edge": 6,
+   "w": 248,
+   "l": 274,
+   "p": 10,
+   "pct": 0.4751,
+   "games": 532
+  },
+  {
+   "min_edge": 7,
+   "w": 206,
+   "l": 221,
+   "p": 10,
+   "pct": 0.4824,
+   "games": 437
+  },
+  {
+   "min_edge": 8,
+   "w": 169,
+   "l": 195,
+   "p": 9,
+   "pct": 0.4643,
+   "games": 373
+  },
+  {
+   "min_edge": 10,
+   "w": 110,
+   "l": 144,
+   "p": 5,
+   "pct": 0.4331,
+   "games": 259
+  },
+  {
+   "min_edge": 12,
+   "w": 76,
+   "l": 105,
+   "p": 4,
+   "pct": 0.4199,
+   "games": 185
+  }
+ ],
+ "holdout_spread_by_edge": [
+  {
+   "min_edge": 0,
+   "w": 1399,
+   "l": 1293,
+   "p": 45,
+   "pct": 0.5197,
+   "games": 2737
+  },
+  {
+   "min_edge": 2,
+   "w": 899,
+   "l": 861,
+   "p": 32,
+   "pct": 0.5108,
+   "games": 1792
+  },
+  {
+   "min_edge": 3,
+   "w": 717,
+   "l": 667,
+   "p": 26,
+   "pct": 0.5181,
+   "games": 1410
+  },
+  {
+   "min_edge": 4,
+   "w": 569,
+   "l": 536,
+   "p": 22,
+   "pct": 0.5149,
+   "games": 1127
+  },
+  {
+   "min_edge": 5,
+   "w": 456,
+   "l": 411,
+   "p": 16,
+   "pct": 0.526,
+   "games": 883
+  },
+  {
+   "min_edge": 6,
+   "w": 350,
+   "l": 345,
+   "p": 9,
+   "pct": 0.5036,
+   "games": 704
+  },
+  {
+   "min_edge": 7,
+   "w": 276,
+   "l": 268,
+   "p": 8,
+   "pct": 0.5074,
+   "games": 552
+  },
+  {
+   "min_edge": 8,
+   "w": 211,
+   "l": 221,
+   "p": 6,
+   "pct": 0.4884,
+   "games": 438
+  },
+  {
+   "min_edge": 10,
+   "w": 135,
+   "l": 149,
+   "p": 3,
+   "pct": 0.4754,
+   "games": 287
+  },
+  {
+   "min_edge": 12,
+   "w": 98,
+   "l": 91,
+   "p": 2,
+   "pct": 0.5185,
+   "games": 191
+  }
+ ],
+ "holdout_at_strong_edge": {
+  "w": 1399,
+  "l": 1293,
+  "p": 45,
+  "pct": 0.5197
+ },
+ "holdout_summary": {
+  "winner": {
+   "w": 2076,
+   "l": 687,
+   "p": 0,
+   "pct": 0.7514
+  },
+  "moneyline": {
+   "w": 1799,
+   "l": 685,
+   "p": 0,
+   "pct": 0.7242,
+   "units": -49.28,
+   "bets": 2484
+  },
+  "value_ml": {
+   "w": 531,
+   "l": 1076,
+   "p": 0,
+   "pct": 0.3304,
+   "units": -127.0,
+   "bets": 1607
+  },
+  "spread": {
+   "w": 1399,
+   "l": 1293,
+   "p": 45,
+   "pct": 0.5197,
+   "units": -21.18
+  },
+  "total": {
+   "w": 1334,
+   "l": 1267,
+   "p": 29,
+   "pct": 0.5129,
+   "units": -54.27
+  }
+ },
+ "top_settings": [
+  {
+   "alpha": 6.0,
+   "half_life": 120,
+   "groups": [
+    "CORE",
+    "STYLE"
+   ],
+   "w": 0.7,
+   "tune_mae": 13.608,
+   "tune_ats": 0.4963
+  },
+  {
+   "alpha": 6.0,
+   "half_life": 120,
+   "groups": [
+    "CORE",
+    "STYLE",
+    "CONTEXT",
+    "SITUATION"
+   ],
+   "w": 0.7,
+   "tune_mae": 13.616,
+   "tune_ats": 0.5026
+  },
+  {
+   "alpha": 6.0,
+   "half_life": 120,
+   "groups": [
+    "CORE",
+    "STYLE"
+   ],
+   "w": 0.5,
+   "tune_mae": 13.621,
+   "tune_ats": 0.4969
+  },
+  {
+   "alpha": 6.0,
+   "half_life": 120,
+   "groups": [
+    "CORE",
+    "STYLE",
+    "CONTEXT",
+    "SITUATION"
+   ],
+   "w": 0.5,
+   "tune_mae": 13.627,
+   "tune_ats": 0.502
+  },
+  {
+   "alpha": 6.0,
+   "half_life": 70,
+   "groups": [
+    "CORE",
+    "STYLE"
+   ],
+   "w": 0.7,
+   "tune_mae": 13.633,
+   "tune_ats": 0.4889
+  },
+  {
+   "alpha": 6.0,
+   "half_life": 120,
+   "groups": [
+    "CORE"
+   ],
+   "w": 0.7,
+   "tune_mae": 13.644,
+   "tune_ats": 0.4923
+  },
+  {
+   "alpha": 6.0,
+   "half_life": 45,
+   "groups": [
+    "CORE",
+    "STYLE"
+   ],
+   "w": 0.7,
+   "tune_mae": 13.645,
+   "tune_ats": 0.4997
+  },
+  {
+   "alpha": 6.0,
+   "half_life": 70,
+   "groups": [
+    "CORE",
+    "STYLE",
+    "CONTEXT",
+    "SITUATION"
+   ],
+   "w": 0.7,
+   "tune_mae": 13.647,
+   "tune_ats": 0.4974
+  },
+  {
+   "alpha": 6.0,
+   "half_life": 70,
+   "groups": [
+    "CORE",
+    "STYLE"
+   ],
+   "w": 0.5,
+   "tune_mae": 13.655,
+   "tune_ats": 0.4923
+  },
+  {
+   "alpha": 6.0,
+   "half_life": 45,
+   "groups": [
+    "CORE",
+    "STYLE",
+    "CONTEXT",
+    "SITUATION"
+   ],
+   "w": 0.7,
+   "tune_mae": 13.661,
+   "tune_ats": 0.4951
+  }
+ ]
+}

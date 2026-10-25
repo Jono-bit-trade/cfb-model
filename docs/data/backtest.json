@@ -1,180 +1,178 @@
 {
- "generated": "2026-10-25T00:06:03.523012+00:00",
+ "generated": "2026-10-25T00:14:13.282720+00:00",
  "settings": {
   "groups": [
    "CORE",
-   "STYLE",
-   "CONTEXT",
-   "SITUATION"
+   "STYLE"
   ],
-  "blend_w": 0.5,
-  "rating_alpha": 12.0,
-  "half_life_days": 70,
+  "blend_w": 0.7,
+  "rating_alpha": 6.0,
+  "half_life_days": 120,
   "blowout_cap": 38,
-  "strong_edge": 3.0
+  "strong_edge": 0.0
  },
  "overall": {
   "winner": {
-   "w": 3367,
-   "l": 1179,
+   "w": 3377,
+   "l": 1169,
    "p": 0,
-   "pct": 0.7407
+   "pct": 0.7429
   },
   "moneyline": {
-   "w": 2791,
-   "l": 1156,
+   "w": 2800,
+   "l": 1145,
    "p": 0,
-   "pct": 0.7071,
-   "units": -93.69,
-   "bets": 3947
+   "pct": 0.7098,
+   "units": -88.69,
+   "bets": 3945
   },
   "value_ml": {
-   "w": 938,
-   "l": 1830,
+   "w": 852,
+   "l": 1739,
    "p": 0,
-   "pct": 0.3389,
-   "units": -98.33,
-   "bets": 2768
+   "pct": 0.3288,
+   "units": -111.84,
+   "bets": 2591
   },
   "spread": {
-   "w": 2258,
-   "l": 2185,
+   "w": 2268,
+   "l": 2175,
    "p": 72,
-   "pct": 0.5082,
-   "units": -132.27
+   "pct": 0.5105,
+   "units": -113.18
   },
   "total": {
-   "w": 2227,
-   "l": 2133,
+   "w": 2212,
+   "l": 2148,
    "p": 49,
-   "pct": 0.5108,
-   "units": -108.45
+   "pct": 0.5073,
+   "units": -137.09
   },
   "games": 4546,
-  "mae_model": 13.28,
-  "mae_ratings_only": 13.6,
+  "mae_model": 13.23,
+  "mae_ratings_only": 13.39,
   "mae_market": 12.15,
-  "mae_market_same_games_model": 13.27,
-  "margin_sd": 16.67
+  "mae_market_same_games_model": 13.22,
+  "margin_sd": 16.64
  },
  "by_season": {
   "2021": {
    "winner": {
-    "w": 646,
-    "l": 241,
+    "w": 649,
+    "l": 238,
     "p": 0,
-    "pct": 0.7283
+    "pct": 0.7317
    },
    "moneyline": {
-    "w": 508,
-    "l": 231,
+    "w": 511,
+    "l": 228,
     "p": 0,
-    "pct": 0.6874,
-    "units": -10.5,
+    "pct": 0.6915,
+    "units": -8.31,
     "bets": 739
    },
    "value_ml": {
-    "w": 202,
-    "l": 349,
+    "w": 183,
+    "l": 339,
     "p": 0,
-    "pct": 0.3666,
-    "units": -0.59,
-    "bets": 551
+    "pct": 0.3506,
+    "units": -6.21,
+    "bets": 522
    },
    "spread": {
-    "w": 416,
-    "l": 457,
+    "w": 424,
+    "l": 449,
     "p": 13,
-    "pct": 0.4765,
-    "units": -78.82
+    "pct": 0.4857,
+    "units": -63.55
    },
    "total": {
-    "w": 439,
-    "l": 440,
+    "w": 433,
+    "l": 446,
     "p": 8,
-    "pct": 0.4994,
-    "units": -40.91
+    "pct": 0.4926,
+    "units": -52.36
    },
    "games": 887,
-   "mae_model": 14.18,
-   "mae_ratings_only": 14.47,
+   "mae_model": 14.04,
+   "mae_ratings_only": 14.21,
    "mae_market": 12.58,
-   "mae_market_same_games_model": 14.17,
-   "margin_sd": 17.57
+   "mae_market_same_games_model": 14.03,
+   "margin_sd": 17.45
   },
   "2022": {
    "winner": {
-    "w": 646,
-    "l": 250,
+    "w": 652,
+    "l": 244,
     "p": 0,
-    "pct": 0.721
+    "pct": 0.7277
    },
    "moneyline": {
-    "w": 485,
-    "l": 239,
+    "w": 490,
+    "l": 232,
     "p": 0,
-    "pct": 0.6699,
-    "units": -36.17,
-    "bets": 724
+    "pct": 0.6787,
+    "units": -31.1,
+    "bets": 722
    },
    "value_ml": {
-    "w": 166,
-    "l": 323,
+    "w": 138,
+    "l": 324,
     "p": 0,
-    "pct": 0.3395,
-    "units": 52.78,
-    "bets": 489
+    "pct": 0.2987,
+    "units": 21.37,
+    "bets": 462
    },
    "spread": {
-    "w": 452,
-    "l": 426,
+    "w": 445,
+    "l": 433,
     "p": 14,
-    "pct": 0.5148,
-    "units": -15.09
+    "pct": 0.5068,
+    "units": -28.45
    },
    "total": {
-    "w": 450,
-    "l": 430,
+    "w": 445,
+    "l": 435,
     "p": 12,
-    "pct": 0.5114,
-    "units": -20.91
+    "pct": 0.5057,
+    "units": -30.45
    },
    "games": 896,
-   "mae_model": 13.32,
-   "mae_ratings_only": 13.43,
+   "mae_model": 13.18,
+   "mae_ratings_only": 13.29,
    "mae_market": 12.19,
-   "mae_market_same_games_model": 13.33,
-   "margin_sd": 16.76
+   "mae_market_same_games_model": 13.19,
+   "margin_sd": 16.65
   },
   "2023": {
    "winner": {
-    "w": 686,
-    "l": 224,
+    "w": 691,
+    "l": 219,
     "p": 0,
-    "pct": 0.7538
+    "pct": 0.7593
    },
    "moneyline": {
-    "w": 568,
-    "l": 222,
+    "w": 573,
+    "l": 217,
     "p": 0,
-    "pct": 0.719,
-    "units": -27.18,
+    "pct": 0.7253,
+    "units": -11.58,
     "bets": 790
    },
    "value_ml": {
-    "w": 173,
-    "l": 400,
+    "w": 162,
+    "l": 367,
     "p": 0,
-    "pct": 0.3019,
-    "units": -90.44,
-    "bets": 573
+    "pct": 0.3062,
+    "units": -92.81,
+    "bets": 529
    },
    "spread": {
-    "w": 458,
-    "l": 429,
+    "w": 466,
+    "l": 421,
     "p": 17,
-    "pct": 0.5163,
-    "units": -12.64
+    "pct": 0.5254,
+    "units": 2.64
    },
    "total": {
     "w": 397,
@@ -184,308 +182,308 @@
     "units": -24.09
    },
    "games": 910,
-   "mae_model": 12.97,
-   "mae_ratings_only": 13.27,
+   "mae_model": 12.94,
+   "mae_ratings_only": 13.09,
    "mae_market": 12.12,
-   "mae_market_same_games_model": 12.96,
-   "margin_sd": 16.33
+   "mae_market_same_games_model": 12.94,
+   "margin_sd": 16.25
   },
   "2024": {
    "winner": {
-    "w": 676,
-    "l": 243,
+    "w": 680,
+    "l": 239,
     "p": 0,
-    "pct": 0.7356
+    "pct": 0.7399
    },
    "moneyline": {
-    "w": 586,
-    "l": 243,
+    "w": 590,
+    "l": 239,
     "p": 0,
-    "pct": 0.7069,
-    "units": -30.44,
+    "pct": 0.7117,
+    "units": -29.0,
     "bets": 829
    },
    "value_ml": {
-    "w": 196,
-    "l": 379,
+    "w": 183,
+    "l": 339,
     "p": 0,
-    "pct": 0.3409,
-    "units": -15.26,
-    "bets": 575
+    "pct": 0.3506,
+    "units": 9.72,
+    "bets": 522
    },
    "spread": {
-    "w": 447,
-    "l": 441,
+    "w": 461,
+    "l": 427,
     "p": 16,
-    "pct": 0.5034,
-    "units": -34.64
+    "pct": 0.5191,
+    "units": -7.91
    },
    "total": {
-    "w": 471,
-    "l": 416,
+    "w": 477,
+    "l": 410,
     "p": 15,
-    "pct": 0.531,
-    "units": 12.18
+    "pct": 0.5378,
+    "units": 23.64
    },
    "games": 919,
-   "mae_model": 13.2,
-   "mae_ratings_only": 13.52,
+   "mae_model": 13.19,
+   "mae_ratings_only": 13.3,
    "mae_market": 11.98,
-   "mae_market_same_games_model": 13.19,
-   "margin_sd": 16.61
+   "mae_market_same_games_model": 13.16,
+   "margin_sd": 16.63
   },
   "2025": {
    "winner": {
-    "w": 713,
-    "l": 221,
+    "w": 705,
+    "l": 229,
     "p": 0,
-    "pct": 0.7634
+    "pct": 0.7548
    },
    "moneyline": {
-    "w": 644,
-    "l": 221,
+    "w": 636,
+    "l": 229,
     "p": 0,
-    "pct": 0.7445,
-    "units": 10.59,
+    "pct": 0.7353,
+    "units": -8.7,
     "bets": 865
    },
    "value_ml": {
-    "w": 201,
-    "l": 379,
+    "w": 186,
+    "l": 370,
     "p": 0,
-    "pct": 0.3466,
-    "units": -44.82,
-    "bets": 580
+    "pct": 0.3345,
+    "units": -43.91,
+    "bets": 556
    },
    "spread": {
-    "w": 485,
-    "l": 432,
+    "w": 472,
+    "l": 445,
     "p": 12,
-    "pct": 0.5289,
-    "units": 8.91
+    "pct": 0.5147,
+    "units": -15.91
    },
    "total": {
-    "w": 470,
-    "l": 462,
+    "w": 460,
+    "l": 472,
     "p": 0,
-    "pct": 0.5043,
-    "units": -34.73
+    "pct": 0.4936,
+    "units": -53.82
    },
    "games": 934,
-   "mae_model": 12.77,
-   "mae_ratings_only": 13.33,
+   "mae_model": 12.83,
+   "mae_ratings_only": 13.09,
    "mae_market": 11.89,
-   "mae_market_same_games_model": 12.74,
-   "margin_sd": 16.03
+   "mae_market_same_games_model": 12.78,
+   "margin_sd": 16.11
   }
  },
  "edges": {
   "spread": [
    {
     "min_edge": 0,
-    "w": 2258,
-    "l": 2185,
+    "w": 2268,
+    "l": 2175,
     "p": 72,
-    "pct": 0.5082,
+    "pct": 0.5105,
     "games": 4515
    },
    {
     "min_edge": 2,
-    "w": 1600,
-    "l": 1564,
-    "p": 52,
-    "pct": 0.5057,
-    "games": 3216
+    "w": 1497,
+    "l": 1480,
+    "p": 51,
+    "pct": 0.5029,
+    "games": 3028
    },
    {
     "min_edge": 3,
-    "w": 1318,
-    "l": 1318,
+    "w": 1208,
+    "l": 1187,
     "p": 42,
-    "pct": 0.5,
-    "games": 2678
+    "pct": 0.5044,
+    "games": 2437
    },
    {
     "min_edge": 4,
-    "w": 1060,
-    "l": 1054,
-    "p": 32,
-    "pct": 0.5014,
-    "games": 2146
+    "w": 952,
+    "l": 952,
+    "p": 36,
+    "pct": 0.5,
+    "games": 1940
    },
    {
     "min_edge": 5,
-    "w": 853,
-    "l": 839,
-    "p": 25,
-    "pct": 0.5041,
-    "games": 1717
+    "w": 768,
+    "l": 738,
+    "p": 28,
+    "pct": 0.51,
+    "games": 1534
    },
    {
     "min_edge": 6,
-    "w": 683,
-    "l": 680,
-    "p": 20,
-    "pct": 0.5011,
-    "games": 1383
+    "w": 598,
+    "l": 619,
+    "p": 19,
+    "pct": 0.4914,
+    "games": 1236
    },
    {
     "min_edge": 7,
-    "w": 540,
-    "l": 552,
-    "p": 16,
-    "pct": 0.4945,
-    "games": 1108
+    "w": 482,
+    "l": 489,
+    "p": 18,
+    "pct": 0.4964,
+    "games": 989
    },
    {
     "min_edge": 8,
-    "w": 437,
-    "l": 456,
+    "w": 380,
+    "l": 416,
     "p": 15,
-    "pct": 0.4894,
-    "games": 908
+    "pct": 0.4774,
+    "games": 811
    },
    {
     "min_edge": 10,
-    "w": 279,
-    "l": 298,
-    "p": 10,
-    "pct": 0.4835,
-    "games": 587
+    "w": 245,
+    "l": 293,
+    "p": 8,
+    "pct": 0.4554,
+    "games": 546
    },
    {
     "min_edge": 12,
-    "w": 177,
-    "l": 209,
+    "w": 174,
+    "l": 196,
     "p": 6,
-    "pct": 0.4585,
-    "games": 392
+    "pct": 0.4703,
+    "games": 376
    }
   ],
   "total": [
    {
     "min_edge": 0,
-    "w": 2227,
-    "l": 2133,
+    "w": 2212,
+    "l": 2148,
     "p": 49,
-    "pct": 0.5108,
+    "pct": 0.5073,
     "games": 4409
    },
    {
     "min_edge": 2,
-    "w": 1487,
-    "l": 1373,
-    "p": 36,
-    "pct": 0.5199,
-    "games": 2896
+    "w": 1379,
+    "l": 1317,
+    "p": 31,
+    "pct": 0.5115,
+    "games": 2727
    },
    {
     "min_edge": 3,
-    "w": 1142,
-    "l": 1067,
-    "p": 30,
-    "pct": 0.517,
-    "games": 2239
+    "w": 1045,
+    "l": 963,
+    "p": 24,
+    "pct": 0.5204,
+    "games": 2032
    },
    {
     "min_edge": 4,
-    "w": 875,
-    "l": 828,
-    "p": 24,
-    "pct": 0.5138,
-    "games": 1727
+    "w": 758,
+    "l": 695,
+    "p": 17,
+    "pct": 0.5217,
+    "games": 1470
    },
    {
     "min_edge": 5,
-    "w": 636,
-    "l": 578,
-    "p": 19,
-    "pct": 0.5239,
-    "games": 1233
+    "w": 539,
+    "l": 498,
+    "p": 12,
+    "pct": 0.5198,
+    "games": 1049
    },
    {
     "min_edge": 6,
-    "w": 441,
-    "l": 417,
+    "w": 381,
+    "l": 356,
     "p": 11,
-    "pct": 0.514,
-    "games": 869
+    "pct": 0.517,
+    "games": 748
    },
    {
     "min_edge": 7,
-    "w": 317,
-    "l": 288,
+    "w": 256,
+    "l": 242,
     "p": 9,
-    "pct": 0.524,
-    "games": 614
+    "pct": 0.5141,
+    "games": 507
    },
    {
     "min_edge": 8,
-    "w": 217,
-    "l": 187,
-    "p": 7,
-    "pct": 0.5371,
-    "games": 411
+    "w": 186,
+    "l": 151,
+    "p": 5,
+    "pct": 0.5519,
+    "games": 342
    },
    {
     "min_edge": 10,
-    "w": 101,
-    "l": 87,
+    "w": 80,
+    "l": 65,
     "p": 1,
-    "pct": 0.5372,
-    "games": 189
+    "pct": 0.5517,
+    "games": 146
    },
    {
     "min_edge": 12,
-    "w": 38,
-    "l": 39,
-    "p": 1,
-    "pct": 0.4935,
-    "games": 78
+    "w": 33,
+    "l": 35,
+    "p": 0,
+    "pct": 0.4853,
+    "games": 68
    }
   ],
   "winner_by_confidence": [
    {
     "min_win_chance": 0.5,
-    "w": 3367,
-    "l": 1179,
+    "w": 3377,
+    "l": 1169,
     "p": 0,
-    "pct": 0.7407
+    "pct": 0.7429
    },
    {
     "min_win_chance": 0.6,
-    "w": 2705,
-    "l": 678,
+    "w": 2687,
+    "l": 623,
     "p": 0,
-    "pct": 0.7996
+    "pct": 0.8118
    },
    {
     "min_win_chance": 0.7,
-    "w": 1986,
-    "l": 295,
+    "w": 1951,
+    "l": 279,
     "p": 0,
-    "pct": 0.8707
+    "pct": 0.8749
    },
    {
     "min_win_chance": 0.8,
-    "w": 1255,
-    "l": 96,
+    "w": 1278,
+    "l": 103,
     "p": 0,
-    "pct": 0.9289
+    "pct": 0.9254
    },
    {
     "min_win_chance": 0.9,
-    "w": 709,
+    "w": 679,
     "l": 28,
     "p": 0,
-    "pct": 0.962
+    "pct": 0.9604
    }
   ]
  },
  "qb_effect": {
   "home_qb_out_games": 482,
   "away_qb_out_games": 475,
-  "home_qb_out_points": -4.47,
-  "away_qb_out_points": -1.64
+  "home_qb_out_points": -3.97,
+  "away_qb_out_points": -0.98
  }
 }
