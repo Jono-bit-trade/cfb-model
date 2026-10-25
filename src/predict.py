@@ -574,24 +574,16 @@ def three_line_records(res, season, week=None):
 
 
 def our_picks_backtest():
-    """Same rule in the walk-forward backtest, graded at the opening line (2023 on, when CFBD has openers)."""
-    saved = os.path.join(SITE_DATA, "backtest.json")
+    """The ★ rule in the walk-forward backtest, graded at the opening line and the close (seasons with openers)."""
     path = os.path.join(DATA, "backtest_games.csv")
-    if not os.path.exists(path):  # not kept between runs: use the figure the last backtest saved
-        try:
-            return json.load(open(saved))["overall"].get("our_picks_open")
-        except (OSError, KeyError, ValueError):
-            return None
-    bt = pd.read_csv(path, usecols=lambda c: c in ("season", "week", "season_type", "pred_margin", "spread_open", "actual_margin"))
-    bt = bt[bt["spread_open"].notna()]
-    if bt.empty:
+    if os.path.exists(path):
+        from backtest import our_picks_open
+        cols = ("season", "week", "season_type", "pred_margin", "spread", "spread_open", "actual_margin")
+        return our_picks_open(pd.read_csv(path, usecols=lambda c: c in cols))
+    try:  # the games file isn't kept between runs: use the figure the last backtest saved
+        return json.load(open(os.path.join(SITE_DATA, "backtest.json")))["overall"].get("our_picks_open")
+    except (OSError, KeyError, ValueError):
         return None
-    e = bt["pred_margin"] + bt["spread_open"]
-    cover = np.sign(e) * (bt["actual_margin"] + bt["spread_open"])
-    m = (e.abs() >= config.OUR_PICK_MIN) & ((bt["season_type"] == "postseason") | (bt["week"] >= config.OUR_PICK_FROM_WEEK))
-    w, l, p = int((cover[m] > 0).sum()), int((cover[m] < 0).sum()), int((cover[m] == 0).sum())
-    return {"w": w, "l": l, "p": p, "pct": round(w / (w + l), 4) if w + l else None,
-            "units": round(w * 100 / 110 - l, 2), "from": int(bt["season"].min()), "to": int(bt["season"].max())}
 
 
 def write_teams():

@@ -543,8 +543,18 @@ async function renderHistory() {
   const byWeek = new Map();
   for (const r of rows) { const k = weekKey(r); if (!byWeek.has(k)) byWeek.set(k, []); byWeek.get(k).push(r); }
   // ★ Our picks are always graded at the early line (5+ point edge there), whatever the "Grade against" setting
+  // ★ picks are chosen at the early line (5+ edge, week 5 on) and graded at the line picked in "Grade against"
   const oursOf = (rs) => {
-    const picks = rs.map((r) => (H.line === "early" ? r : atEarlyLine(r))).filter((r) => r.edge !== null && r.edge >= 5 && r.ats !== null && inOurWeeks(r));
+    const picks = [];
+    for (const r of rs) {
+      const e = H.line === "early" ? r : atEarlyLine(r);
+      if (e.edge === null || e.edge < 5 || e.ats === null || !inOurWeeks(r)) continue;
+      if (H.line === "early") { picks.push({ ats: e.ats }); continue; }
+      const raw = state.rawById?.get(r.id) || r;  // closing line from the untransformed row
+      if (raw.sp === null || raw.sp === undefined || raw.hs === null) continue;
+      const homeSide = e.ats_pick === r.h, score = (raw.hs - raw.as) + raw.sp;
+      picks.push({ ats: score === 0 ? 0.5 : (score > 0) === homeSide ? 1 : 0 });
+    }
     const t = tallyOf(picks, "ats");
     return { ...t, units: units110(t) };
   };
@@ -574,7 +584,7 @@ async function renderHistory() {
   const tile = (label, rec, extra = "") => `<div><b>${wl(rec)}</b><span>${label}${rec.pct !== null ? `, ${pct(rec.pct)}` : ""}</span>${extra}</div>`;
   const ours = oursOf(rows);
   $("#h-tally").innerHTML =
-    `<div class="ours"><b>${ours.w + ours.l + ours.p ? wl(ours) : "–"}</b><span>★ Our picks${ours.pct !== null ? `, ${pct(ours.pct)}` : ""}</span>${ours.w + ours.l ? unitText(ours.units) : ""}<span class="close-note">5+ point edge at the early line, week 5 on</span></div>`
+    `<div class="ours"><b>${ours.w + ours.l + ours.p ? wl(ours) : "–"}</b><span>★ Our picks${ours.pct !== null ? `, ${pct(ours.pct)}` : ""}</span>${ours.w + ours.l ? unitText(ours.units) : ""}<span class="close-note">5+ point edge at the early line, week 5 on; graded at the ${H.line === "early" ? "early line" : "closing line"}</span></div>`
     + tile("Picking winners", su)
     + `<div><b>${mlRows.length ? `${mlWins}–${mlRows.length - mlWins}` : "–"}</b><span>${H.valueOnly ? "Value moneylines" : "Moneyline on the projected winner"}</span>${mlRows.length ? unitText(mlUnits) : ""}</div>`
     + tile("Against the spread", ats, ats.w + ats.l ? unitText(units110(ats)) : "")
@@ -855,8 +865,8 @@ async function renderGame(id) {
 function linesNote(L) {
   if (!L) return "";
   const f = (x) => (x && x.w + x.l ? `${wl(x)} (${pct(x.pct)})` : "–");
-  return `<span class="close-note" title="Same picks graded three ways: the opening line is the best case, the closing line the worst case; your real number is in between">Opener ${f(L.open)} · Close ${f(L.close)}</span>`
-    + (L.live ? `<span class="close-note">Live picks only: ${L.live.w + L.live.l ? f(L.live) : "none graded yet"}</span>` : "");
+  return `<span class="close-note" title="Headline is the closing line, the strictest test. Earlier lines are the optimistic end of the range: you'd usually get something between">Opener ${f(L.open)} · Locked ${f(L.locked)}</span>`
+    + (L.live ? `<span class="close-note">Live picks only (locked line): ${L.live.w + L.live.l ? f(L.live) : "none graded yet"}</span>` : "");
 }
 function renderBoardRecords() {
   const sum = state.results?.summary, box = $("#board-records");
@@ -864,15 +874,17 @@ function renderBoardRecords() {
   const u = (x) => (x && x.w + x.l ? unitText(x.units) : "");
   const tile = (label, rec, extra = "", cls = "") => `<div class="${cls}"><b>${rec && rec.w + rec.l + (rec.p || 0) ? wl(rec) : "–"}</b><span>${label}${rec && rec.pct !== null && rec.pct !== undefined ? `, ${pct(rec.pct)}` : ""}</span>${extra}</div>`;
   const row = (title, sub, d) => `<div class="rec-row"><h2>${title}${sub ? ` <span>${sub}</span>` : ""}</h2><div class="tally">
-      ${tile("★ Our picks", d.ours, u(d.ours) + linesNote(d.lines?.ours), "ours")}
-      ${tile("All spread picks", d.ats, u(d.ats) + (d.lines?.ats ? linesNote(d.lines.ats) : d.atsClose ? `<span class="close-note">closing line ${wl(d.atsClose)}</span>` : ""))}
+      ${tile("★ Our picks", d.lines?.ours?.close || d.ours, u(d.lines?.ours?.close || d.ours) + linesNote(d.lines?.ours) + (d.bt || ""), "ours")}
+      ${tile("All spread picks", d.lines?.ats?.close || d.atsClose || d.ats, u(d.lines?.ats?.close || d.atsClose || d.ats) + linesNote(d.lines?.ats))}
       ${tile("Picking winners", d.su, `<span class="close-note">no line involved</span>`)}
-      ${tile("Over/under", d.ou, u(d.ou) + linesNote(d.lines?.ou))}</div></div>`;
+      ${tile("Over/under", d.lines?.ou?.close || d.ou, u(d.lines?.ou?.close || d.ou) + linesNote(d.lines?.ou))}</div></div>`;
   let html = "";
   const w = sum.week;
   if (w) html += row(`Week ${w.week} results`, `${w.games} games`, { lines: sum.lines?.week, ours: w.our_picks, ats: w.locked.spread, atsClose: w.close.spread, su: w.close.winner, ou: w.locked.total });
-  html += row(`${state.results.season} season`, "", { ours: sum.our_picks, lines: sum.lines?.season, ats: sum.season_locked.spread, atsClose: sum.season.spread, su: sum.season.winner, ou: sum.season_locked.total });
-  box.innerHTML = html + `<p class="rec-note">Spreads and totals are graded at the early line, when you'd bet (the locked Sunday–Tuesday line, or the opener). ★ Our picks are 5+ point edges from week 5 on (weeks 1–4 rely too much on preseason estimates), graded at the locked line. Under each record: the same picks at the opener (best case) and the close (worst case). "Live" counts only picks locked in real time, not filled in after the fact. Units assume −110.</p>`;
+  const btc = sum.our_picks_backtest;
+  const btNote = btc ? `<span class="close-note">${btc.from}–${btc.to} backtest: ${btc.close ? `close ${wl(btc.close)} (${pct(btc.close.pct)}) · ` : ""}opener ${wl(btc)} (${pct(btc.pct)})</span>` : "";
+  html += row(`${state.results.season} season`, "", { bt: btNote, ours: sum.our_picks, lines: sum.lines?.season, ats: sum.season_locked.spread, atsClose: sum.season.spread, su: sum.season.winner, ou: sum.season_locked.total });
+  box.innerHTML = html + `<p class="rec-note">Headline records are graded at the closing line, the strictest test: it can't flatter the model. Underneath, the same picks at the opener and at the locked Sunday–Tuesday line show the optimistic end; what you get betting midweek is usually in between. ★ Our picks are 5+ point edges at the locked line from week 5 on (weeks 1–4 rely too much on preseason estimates). "Live" counts only picks locked in real time, not filled in after the fact. Units assume −110.</p>`;
   box.hidden = false;
   $("#season-line").hidden = true;  // the tiles replace the one-line summary
 }
