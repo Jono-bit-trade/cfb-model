@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T13:40:19.703567+00:00",
+ "generated": "2026-10-25T13:50:13.937356+00:00",
  "settings": {
   "groups": [
    "CORE",
@@ -58,7 +58,16 @@
   "mae_ratings_only": 13.41,
   "mae_market": 12.31,
   "mae_market_same_games_model": 12.92,
-  "margin_sd": 16.33
+  "margin_sd": 16.33,
+  "our_picks_open": {
+   "w": 234,
+   "l": 162,
+   "p": 9,
+   "pct": 0.5909,
+   "units": 50.73,
+   "from": 2021,
+   "to": 2025
+  }
  },
  "by_season": {
   "2016": {
