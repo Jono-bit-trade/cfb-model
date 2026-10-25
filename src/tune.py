@@ -29,7 +29,8 @@ from model import Model  # noqa: E402
 
 ALPHAS = [6.0, 12.0, 20.0]
 HALF_LIVES = [45, 70, 120]
-GROUP_SETS = [["CORE"], ["CORE", "STYLE"], ["CORE", "STYLE", "CONTEXT", "SITUATION"]]
+GROUP_SETS = [["CORE"], ["CORE", "STYLE"], ["CORE", "STYLE", "MARKET"],
+              ["CORE", "STYLE", "CONTEXT", "SITUATION"], ["CORE", "STYLE", "CONTEXT", "SITUATION", "MARKET"]]
 BLEND_WS = [0.3, 0.5, 0.7, 1.0]
 EDGE_CUTS = [0, 2, 3, 4, 5, 6, 7, 8, 10, 12]
 MIN_GAMES_FOR_THRESHOLD = 150   # don't trust a 60% that rests on a handful of games

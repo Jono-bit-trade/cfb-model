@@ -156,5 +156,6 @@ def history_rows(g):
             "ats_pick": r.ats_pick, "ats_line": n(r.ats_line), "edge": n(abs(r.edge)) if not pd.isna(r.edge) else None,
             "ats": n(r.ats), "ou_pick": r.ou_pick, "te": n(abs(r.total_edge)) if not pd.isna(r.total_edge) else None,
             "ou": n(r.ou), "bf": bool(getattr(r, "backfill", False)),
+            "sp_open": n(getattr(r, "spread_open", None)), "tot_open": n(getattr(r, "total_open", None)),
         })
     return out

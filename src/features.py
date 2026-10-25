@@ -24,6 +24,9 @@ FEATURE_GROUPS = {
     "CONTEXT": ["rest_diff", "travel_diff", "elev_diff", "tz_diff", "local_kick_hour",
                 "new_coach_home", "new_coach_away"],
     "SITUATION": ["home_off_bye", "away_off_bye", "home_after_loss", "away_after_loss"],
+    # Betting-market movement: how far the spread moved from open (positive = toward the home
+    # team) and how far the total moved. Optional: the tuner decides whether it helps.
+    "MARKET": ["line_move", "line_move_abs"],
 }
 TOTAL_FEATURES = ["rating_total", "eff_sum", "epa_sum", "success_sum", "explosive_sum", "pace_sum",
                   "wind", "gust", "temp", "rain", "dome", "neutral", "qb_out_home", "qb_out_away"]
@@ -220,6 +223,10 @@ def build(games, engine=None, seasons=None, live_cutoff=None):
     else:
         for c in LINE_COLS:
             t[c] = np.nan
+    # Line movement, home perspective: spread -3 opening to -6 now = moved 3 points toward home.
+    t["line_move"] = t["spread_open"] - t["spread"]
+    t["line_move_abs"] = t["line_move"].abs()
+    t["total_move"] = t["total"] - t["total_open"]
     t["actual_margin"] = t["home_pts"] - t["away_pts"]
     t["actual_total"] = t["home_pts"] + t["away_pts"]
     for c in ["neutral", "conf_game"]:

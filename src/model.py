@@ -19,15 +19,17 @@ def _gbm():
 
 class Model:
     def __init__(self, groups=None, w=None):
-        self.features = features_for(groups or config.FEATURE_GROUPS)
+        self.groups = groups or config.FEATURE_GROUPS
+        self.features = features_for(self.groups)
+        self.total_features = TOTAL_FEATURES + (["total_move"] if "MARKET" in self.groups else [])
         self.w = config.BLEND_W if w is None else w
 
     def fit(self, table):
         train = table[table["actual_margin"].notna() & table["rating_margin"].notna()]
         # Leave out inputs with (almost) no data, e.g. a stat the API doesn't provide.
         usable = lambda cols: [c for c in cols if c in train and train[c].notna().mean() >= 0.02 and train[c].nunique() > 1]
-        self.margin_cols, self.total_cols = usable(self.features), usable(TOTAL_FEATURES)
-        self.dropped = sorted(set(self.features + TOTAL_FEATURES) - set(self.margin_cols + self.total_cols))
+        self.margin_cols, self.total_cols = usable(self.features), usable(self.total_features)
+        self.dropped = sorted(set(self.features + self.total_features) - set(self.margin_cols + self.total_cols))
         self.margin = _gbm().fit(train[self.margin_cols], train["actual_margin"])
         self.total = _gbm().fit(train[self.total_cols], train["actual_total"])
         self.n_train = len(train)

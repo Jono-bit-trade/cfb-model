@@ -142,6 +142,7 @@ def main(now=None):
             "away": {"team": r.away, "record": rec.get(r.away, "0–0"), "proj": clean(ap),
                      "rating": clean(r.away_overall), "conf": r.away_conf},
             "market": {"spread": clean(r.spread), "spread_open": clean(r.spread_open), "total": clean(r.total),
+                       "line_move": clean(r.spread_open - r.spread) if not (np.isnan(r.spread_open) or np.isnan(r.spread)) else None,
                        "total_open": clean(r.total_open), "provider": r.provider if isinstance(r.provider, str) else None,
                        "line_text": fmt_line(r.home, r.spread)},
             "model": {"margin": clean(r.pred_margin), "total": clean(r.pred_total),
@@ -195,6 +196,7 @@ def backfill_log(table, season):
         "start": done["start"].map(lambda x: x.isoformat()), "home": done["home"], "away": done["away"],
         "pred_margin": done["pred_margin"].round(2), "pred_total": done["pred_total"].round(2),
         "spread": done["spread"], "total": done["total"], "home_ml": done["home_ml"], "away_ml": done["away_ml"],
+        "spread_open": done["spread_open"], "total_open": done["total_open"],
         "made_at": "backfill"})
     pd.concat([log, new], ignore_index=True).to_csv(LOG, index=False)
     print(f"backfilled {len(new)} finished games of {season} into the log")
@@ -208,6 +210,7 @@ def update_log(rows, now):
             "start": rows["start"].map(lambda x: x.isoformat()), "home": rows["home"], "away": rows["away"],
             "pred_margin": rows["pred_margin"].round(2), "pred_total": rows["pred_total"].round(2),
             "spread": rows["spread"], "total": rows["total"], "home_ml": rows["home_ml"], "away_ml": rows["away_ml"],
+            "spread_open": rows["spread_open"], "total_open": rows["total_open"],
             "made_at": now.isoformat()})
         new = new[pd.to_datetime(new["start"], utc=True, format="mixed") > now]  # never change a game that started
         if len(log):
@@ -229,6 +232,11 @@ def write_results(games, season):
     done = games[games["completed"].astype(bool) & games["home_pts"].notna()][
         ["game_id", "home_pts", "away_pts", "season_type"]]
     res = log.merge(done, on="game_id")
+    lines = load("lines")  # opening lines for older log rows that didn't store them
+    for c in ("spread_open", "total_open"):
+        if len(lines) and c in lines:
+            opens = lines.drop_duplicates("game_id").set_index("game_id")[c]
+            res[c] = res[c].fillna(res["game_id"].map(opens)) if c in res else res["game_id"].map(opens)
     res["actual_margin"] = res["home_pts"] - res["away_pts"]
     res["actual_total"] = res["home_pts"] + res["away_pts"]
     res["backfill"] = res["made_at"] == "backfill"
