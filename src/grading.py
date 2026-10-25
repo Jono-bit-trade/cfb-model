@@ -135,7 +135,9 @@ def our_picks(g, lo=None, hi=None):
     lo = config.OUR_PICK_MIN if lo is None else lo
     hi = float("inf") if hi is None else hi
     e = g["edge"].abs()
-    p = g[(e >= lo) & (e <= hi)]
+    in_season = (g["season_type"] == "postseason") | (g["week"] >= config.OUR_PICK_FROM_WEEK) \
+        if "week" in g and "season_type" in g else True
+    p = g[(e >= lo) & (e <= hi) & in_season]
     return {**record(p["ats"]), "units": round(units_110(p["ats"]), 2), "picks": int(p["ats"].notna().sum())}
 
 

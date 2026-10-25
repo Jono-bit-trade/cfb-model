@@ -84,3 +84,6 @@ SWEET_SPOT_MAX = 7.0
 # "Our picks": spread edges of at least this many points at the early (locked) line, where you'd bet.
 # 2023-25 backtest vs the opener: 5+ = 57.0% (+61 units); 3-5 = 52.8%; graded at the close the same picks are ~51%.
 OUR_PICK_MIN = 5.0
+# ...from this week of the regular season on (and bowls). Weeks 1-4 lean on preseason estimates:
+# 5+ edges there went 52.6% in 2023-25 and 51.1% in 2026; from week 5 on, 62.0% and 58.3%.
+OUR_PICK_FROM_WEEK = 5

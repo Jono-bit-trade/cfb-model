@@ -334,8 +334,10 @@ function gameRow(g) {
       </tbody></table>`;
   const cautionTag = g.pick && g.pick.caution
     ? `<span class="tag caution" title="Edges this big hold up when bet early, but once the line has settled near kickoff they've gone about 50%: make sure there's no injury or lineup news the model is missing">Big edge (${num(g.edge)} pts): double-check injury and lineup news</span>` : "";
+  const leanTag = !g.our_pick && g.week && g.week < 5 && g.edge !== null && g.edge >= 5
+    ? `<span class="tag" title="Weeks 1–4 rely on preseason estimates: 5+ point edges went about 52% then, so these aren't counted as our picks">Early-season lean: ${esc(g.pick.text || "")}</span>` : "";
   const ourTag = g.our_pick ? `<span class="tag ours" title="5+ point edge${g.our_pick.locked ? " at the locked early line" : " (not locked yet)"}: one of our picks. Bet it early, before the line moves.">★ Our pick: ${esc(g.our_pick.text)}${g.our_pick.locked ? " (locked)" : ""}</span>` : "";
-  const badges = `${ourTag}${cautionTag}${betEarlyTag(g)}${g.total_bet_early ? totalTags(g).replace(/<span class="tag (warn)?"[^>]*>Total moved[^<]*<\/span>/, "") : ""}${qbTags(g)}${splitTags(g)}`;
+  const badges = `${ourTag}${leanTag}${cautionTag}${betEarlyTag(g)}${g.total_bet_early ? totalTags(g).replace(/<span class="tag (warn)?"[^>]*>Total moved[^<]*<\/span>/, "") : ""}${qbTags(g)}${splitTags(g)}`;
   const details = `<details class="more"><summary>Details</summary>
       <div class="more-body">
         ${fieldSVG(g, strong)}
@@ -360,7 +362,7 @@ function renderBoard() {
   }
   $("#board-title").textContent = `${p.label} projections`;
   const strongN = p.games.filter((g) => g.pick && g.pick.strong).length;
-  $("#board-sub").textContent = `${p.games.length} games, ${p.games.filter((g) => g.our_pick).length} of our picks (5+ point edges at the early line). Projected scores are the model's; lines are the market's.`;
+  $("#board-sub").textContent = `${p.games.length} games, ${p.games.filter((g) => g.our_pick).length} of our picks (5+ point edges at the early line, week 5 on). Projected scores are the model's; lines are the market's.`;
   $("#strong-edge").textContent = p.settings?.strong_edge ?? 3;
 
   let games = [...p.games];
@@ -517,7 +519,9 @@ async function initHistory() {
   renderHistory();
 }
 
-const edgeOk = (v) => H.edge === "ours" ? v !== null && v !== undefined && v >= 5 : (v ?? -1) >= H.edge;
+const OUR_FROM_WEEK = 5;
+const inOurWeeks = (r) => r.post || (r.wk ?? 0) >= OUR_FROM_WEEK;
+const edgeOk = (v, r) => H.edge === "ours" ? v !== null && v !== undefined && v >= 5 && (!r || inOurWeeks(r)) : (v ?? -1) >= H.edge;
 async function renderHistory() {
   if (!H.index) return;
   const seasons = H.season === "all" ? H.index.seasons : [Number(H.season)];
@@ -537,12 +541,12 @@ async function renderHistory() {
   for (const r of rows) { const k = weekKey(r); if (!byWeek.has(k)) byWeek.set(k, []); byWeek.get(k).push(r); }
   // ★ Our picks are always graded at the early line (5+ point edge there), whatever the "Grade against" setting
   const oursOf = (rs) => {
-    const picks = rs.map((r) => (H.line === "early" ? r : atEarlyLine(r))).filter((r) => r.edge !== null && r.edge >= 5 && r.ats !== null);
+    const picks = rs.map((r) => (H.line === "early" ? r : atEarlyLine(r))).filter((r) => r.edge !== null && r.edge >= 5 && r.ats !== null && inOurWeeks(r));
     const t = tallyOf(picks, "ats");
     return { ...t, units: units110(t) };
   };
   const weekRec = (rs) => {
-    const e = rs.filter((r) => edgeOk(r.edge)), t = rs.filter((r) => edgeOk(r.te));
+    const e = rs.filter((r) => edgeOk(r.edge, r)), t = rs.filter((r) => edgeOk(r.te, r));
     const ml = rs.filter((r) => (H.valueOnly ? r.val_u : r.ml_u) !== null && (H.valueOnly ? r.val_u : r.ml_u) !== undefined);
     const u = sumUnits(ml, H.valueOnly ? "val_u" : "ml_u");
     return { su: tallyOf(rs, "su"), ats: tallyOf(e, "ats"), ou: tallyOf(t, "ou"), u, mlN: ml.length, ours: oursOf(rs) };
@@ -556,8 +560,8 @@ async function renderHistory() {
   }).join("");
   if (H.week !== "all") rows = rows.filter((r) => weekKey(r) === H.week);
   const teamRows = rows;
-  const spreadRows = rows.filter((r) => edgeOk(r.edge));
-  const totalRows = rows.filter((r) => edgeOk(r.te));
+  const spreadRows = rows.filter((r) => edgeOk(r.edge, r));
+  const totalRows = rows.filter((r) => edgeOk(r.te, r));
   const shown = H.edge === "ours" || H.edge > 0 ? spreadRows : rows;
 
   const su = tallyOf(shown, "su"), ats = tallyOf(spreadRows, "ats"), ou = tallyOf(totalRows, "ou");
@@ -567,7 +571,7 @@ async function renderHistory() {
   const tile = (label, rec, extra = "") => `<div><b>${wl(rec)}</b><span>${label}${rec.pct !== null ? `, ${pct(rec.pct)}` : ""}</span>${extra}</div>`;
   const ours = oursOf(rows);
   $("#h-tally").innerHTML =
-    `<div class="ours"><b>${ours.w + ours.l + ours.p ? wl(ours) : "–"}</b><span>★ Our picks${ours.pct !== null ? `, ${pct(ours.pct)}` : ""}</span>${ours.w + ours.l ? unitText(ours.units) : ""}<span class="close-note">5+ point edge at the early line</span></div>`
+    `<div class="ours"><b>${ours.w + ours.l + ours.p ? wl(ours) : "–"}</b><span>★ Our picks${ours.pct !== null ? `, ${pct(ours.pct)}` : ""}</span>${ours.w + ours.l ? unitText(ours.units) : ""}<span class="close-note">5+ point edge at the early line, week 5 on</span></div>`
     + tile("Picking winners", su)
     + `<div><b>${mlRows.length ? `${mlWins}–${mlRows.length - mlWins}` : "–"}</b><span>${H.valueOnly ? "Value moneylines" : "Moneyline on the projected winner"}</span>${mlRows.length ? unitText(mlUnits) : ""}</div>`
     + tile("Against the spread", ats, ats.w + ats.l ? unitText(units110(ats)) : "")
@@ -579,7 +583,7 @@ async function renderHistory() {
     ? "Graded at the early line: the pick locked on Sunday or Monday this season, and the opening line for earlier seasons (only games with an opening line are included). "
     : "Graded at the closing line, the last line before kickoff. ";
   $("#h-note").textContent = lineNote + `${shown.length} games in ${label}${H.team ? ` involving "${H.team}"` : ""}`
-    + `${H.edge === "ours" ? ", our picks only: the model and the early line disagree by 5+ points" : H.edge ? `, where the model and the spread disagree by ${H.edge}+ points (over/under uses the same gap on the total)` : ""}. `
+    + `${H.edge === "ours" ? ", our picks only: the model and the early line disagree by 5+ points, from week 5 on" : H.edge ? `, where the model and the spread disagree by ${H.edge}+ points (over/under uses the same gap on the total)` : ""}. `
     + "Spread and over/under units assume standard −110 odds; moneyline units use each game's posted odds. "
     + "Past seasons were replayed using only information available before each game"
     + (bf ? `; ${bf} games this season were filled in the same way before launch.` : ".");
@@ -858,7 +862,7 @@ function renderBoardRecords() {
   const w = sum.week;
   if (w) html += row(`Week ${w.week} results`, `${w.games} games`, { ours: w.our_picks, ats: w.locked.spread, atsClose: w.close.spread, su: w.close.winner, ou: w.locked.total });
   html += row(`${state.results.season} season`, "", { ours: sum.our_picks, ats: sum.season_locked.spread, atsClose: sum.season.spread, su: sum.season.winner, ou: sum.season_locked.total });
-  box.innerHTML = html + `<p class="rec-note">Spreads and totals are graded at the early line, when you'd bet (the locked Sunday–Tuesday line, or the opener). ★ Our picks are 5+ point edges. Units assume −110.</p>`;
+  box.innerHTML = html + `<p class="rec-note">Spreads and totals are graded at the early line, when you'd bet (the locked Sunday–Tuesday line, or the opener). ★ Our picks are 5+ point edges from week 5 on (weeks 1–4 rely too much on preseason estimates). Units assume −110.</p>`;
   box.hidden = false;
   $("#season-line").hidden = true;  // the tiles replace the one-line summary
 }

@@ -105,9 +105,12 @@ def locked_pick(log, r):
             "line_text": fmt_line(r.home, x["lock_spread"])}
 
 
-def our_pick_now(locked, edge, team, line):
-    """The game counts as one of 'our picks' if its locked edge (or current edge, before it locks) is OUR_PICK_MIN+."""
+def our_pick_now(locked, edge, team, line, week=None, postseason=False):
+    """The game counts as one of 'our picks' if its locked edge (or current edge, before it locks) is OUR_PICK_MIN+,
+    from week OUR_PICK_FROM_WEEK on (earlier weeks are shown as early-season leans)."""
     lo, hi = config.OUR_PICK_MIN, float("inf")
+    if not postseason and week is not None and not pd.isna(week) and week < config.OUR_PICK_FROM_WEEK:
+        return None
     if locked and locked.get("edge") is not None:
         return {"text": locked["text"], "edge": locked["edge"], "locked": True} if lo <= locked["edge"] <= hi else None
     if team and not np.isnan(edge) and lo <= abs(edge) <= hi:
@@ -280,7 +283,7 @@ def main(now=None):
             "line_history": line_series(history, r),
             "locked": locked_pick(log_now, r),
             "edge": clean(abs(edge)) if not np.isnan(edge) else None,
-            "our_pick": our_pick_now(locked_pick(log_now, r), edge, pick_team, pick_line),
+            "our_pick": our_pick_now(locked_pick(log_now, r), edge, pick_team, pick_line, r.week, r.season_type == "postseason"),
             "pick": {"team": pick_team, "line": clean(pick_line), "text": fmt_line(pick_team, pick_line) if pick_team else None,
                      # sweet spot: 3-7 points; bigger edges at the current line usually mean the model is missing news
                      "strong": bool(pick_side and config.STRONG_EDGE <= abs(edge) <= config.SWEET_SPOT_MAX),
@@ -521,13 +524,13 @@ def our_picks_backtest():
     path = os.path.join(DATA, "backtest_games.csv")
     if not os.path.exists(path):
         return None
-    bt = pd.read_csv(path, usecols=lambda c: c in ("season", "pred_margin", "spread_open", "actual_margin"))
+    bt = pd.read_csv(path, usecols=lambda c: c in ("season", "week", "season_type", "pred_margin", "spread_open", "actual_margin"))
     bt = bt[bt["spread_open"].notna()]
     if bt.empty:
         return None
     e = bt["pred_margin"] + bt["spread_open"]
     cover = np.sign(e) * (bt["actual_margin"] + bt["spread_open"])
-    m = e.abs() >= config.OUR_PICK_MIN
+    m = (e.abs() >= config.OUR_PICK_MIN) & ((bt["season_type"] == "postseason") | (bt["week"] >= config.OUR_PICK_FROM_WEEK))
     w, l, p = int((cover[m] > 0).sum()), int((cover[m] < 0).sum()), int((cover[m] == 0).sum())
     return {"w": w, "l": l, "p": p, "pct": round(w / (w + l), 4) if w + l else None,
             "units": round(w * 100 / 110 - l, 2), "from": int(bt["season"].min()), "to": int(bt["season"].max())}
