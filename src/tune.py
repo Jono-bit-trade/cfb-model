@@ -69,9 +69,9 @@ def threshold(g):
     ok = [r for r in ladder if r["games"] >= MIN_GAMES_FOR_THRESHOLD and (r["pct"] or 0) >= TARGET]
     if ok:
         return ok[0]["min_edge"], ladder, True
-    usable = [r for r in ladder if r["games"] >= MIN_GAMES_FOR_THRESHOLD and r["pct"] is not None]
-    best = max(usable, key=lambda r: r["pct"]) if usable else ladder[0]
-    return best["min_edge"], ladder, False
+    # No edge size reached the target: keep the default "strong pick" threshold rather than
+    # relabeling every pick, and say so in the report.
+    return 3.0, ladder, False
 
 
 def main():
