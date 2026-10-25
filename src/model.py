@@ -23,7 +23,9 @@ class Model:
     def __init__(self, groups=None, w=None):
         self.groups = groups or config.FEATURE_GROUPS
         self.features = features_for(self.groups)
-        self.total_features = TOTAL_FEATURES + (["total_move"] if "MARKET" in self.groups else [])
+        from features import TOTAL_EXTRAS
+        self.total_features = TOTAL_FEATURES + (["total_move"] if "MARKET" in self.groups else []) + \
+            [c for gname in self.groups for c in TOTAL_EXTRAS.get(gname, []) if c not in TOTAL_FEATURES]
         self.w = config.BLEND_W if w is None else w
 
     def fit(self, table):

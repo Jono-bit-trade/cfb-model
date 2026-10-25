@@ -79,6 +79,26 @@ def main():
     wx = gd.parse_cfbd_weather([{"id": 401, "gameIndoors": False, "temperature": 48.2, "windSpeed": 14.0,
                                   "precipitation": 0.1, "weatherCondition": "Rain"}], 2025).iloc[0]
     assert wx.temp == 48.2 and wx.wind == 14.0 and wx.gust == 14.0 and not wx.indoors
+    ac = gd.parse_adv_clean([{"gameId": 401, "team": "Oklahoma", "opponent": "Temple",
+                               "offense": {"ppa": 0.31, "successRate": 0.47, "explosiveness": 1.2, "lineYardsAverage": 3.1,
+                                           "stuffRate": 0.15, "passingPlays": {"ppa": 0.4}, "rushingPlays": {"ppa": 0.2},
+                                           "passingDowns": {"successRate": 0.3}},
+                               "defense": {"ppa": -0.1, "successRate": 0.3}}], 2025).iloc[0]
+    assert ac.off_pass_ppa == 0.4 and ac.off_line_yards == 3.1 and ac.def_ppa == -0.1 and ac.off_pd_success == 0.3
+
+    dr = gd.parse_drives([{"gameId": 401, "offense": "Oklahoma", "startYardsToGoal": 75, "startOffenseScore": 0, "endOffenseScore": 7},
+                          {"gameId": 401, "offense": "Oklahoma", "startYardsToGoal": 60, "startOffenseScore": 7, "endOffenseScore": 7},
+                          {"gameId": 401, "offense": "Temple", "startYardsToGoal": 80, "driveResult": "FG"}], 2025).set_index("team")
+    assert dr.loc["Oklahoma", "ppd"] == 3.5 and dr.loc["Oklahoma", "start_ytg"] == 67.5 and dr.loc["Temple", "ppd"] == 3
+
+    la = gd.parse_lines_all(LINES, 2025)
+    assert len(la) == 2 and set(la.provider) == {"Bovada", "DraftKings"}
+
+    q = gd.parse_qb_ppa([{"week": 3, "name": "John Mateer", "team": "Oklahoma", "averagePPA": {"all": 0.3, "pass": 0.35}}], 2025).iloc[0]
+    assert q.ppa_pass == 0.35 and q.player == "John Mateer"
+
+    e = gd.parse_elo_week([{"team": "Oklahoma", "elo": 1702}], 2025, 3, "regular").iloc[0]
+    assert e.elo == 1702 and e.week == 3
     print("parser tests passed")
 
 

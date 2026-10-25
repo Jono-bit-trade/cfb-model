@@ -160,6 +160,41 @@ def main():
                                                   "player": f"{team} Backup", "att": int(rng.integers(1, 6))})
                     if rng.random() < 0.02 and team in TEAMS:
                         starter[team] = f"{team} Backup"  # mid-season benching
+        # newer data sources, derived from the same fake games
+        adv_df = pd.DataFrame(a_rows)
+        if len(adv_df):
+            clean = adv_df[["game_id", "season", "team", "opponent"]].copy()
+            for side in ("off", "def"):
+                clean[f"{side}_ppa"] = adv_df[f"{side}_success"] - 0.2 + rng.normal(0, 0.02, len(adv_df))
+                clean[f"{side}_pass_ppa"] = clean[f"{side}_ppa"] + rng.normal(0, 0.05, len(adv_df))
+                clean[f"{side}_rush_ppa"] = clean[f"{side}_ppa"] + rng.normal(0, 0.05, len(adv_df))
+                clean[f"{side}_success"] = adv_df[f"{side}_success"]
+                clean[f"{side}_line_yards"] = 2.8 + rng.normal(0, 0.3, len(adv_df))
+                clean[f"{side}_stuff"] = 0.18 + rng.normal(0, 0.03, len(adv_df))
+                clean[f"{side}_pd_success"] = 0.3 + rng.normal(0, 0.04, len(adv_df))
+            save(clean, "adv_clean", season)
+            gm = pd.DataFrame(g_rows).set_index("game_id")
+            pts = [gm.loc[r.game_id, "home_pts"] if gm.loc[r.game_id, "home"] == r.team else gm.loc[r.game_id, "away_pts"]
+                   for r in adv_df.itertuples()]
+            save(pd.DataFrame({"game_id": adv_df["game_id"], "team": adv_df["team"], "drives": 12,
+                               "ppd": np.array(pts, dtype=float) / 12, "start_ytg": rng.normal(72, 4, len(adv_df)),
+                               "season": season}), "drives", season)
+        save(pd.DataFrame([{"season": season, "week": w, "season_type": "regular", "team": t,
+                            "elo": 1500 + 25 * (off[t] - dfn[t]) + rng.normal(0, 20)} for w in range(1, 13) for t in TEAMS]),
+             "elo_weekly", season)
+        pr = pd.DataFrame(pass_rows)
+        if len(pr):
+            wk = pd.DataFrame(g_rows).set_index("game_id")["week"]
+            save(pd.DataFrame({"season": season, "week": pr["game_id"].map(wk), "season_type": "regular", "team": pr["team"],
+                               "player": pr["player"], "player_id": pr["player_id"],
+                               "ppa_all": np.where(pr["player"].str.contains("Backup"), 0.05, 0.25) + rng.normal(0, 0.1, len(pr)),
+                               "ppa_pass": np.where(pr["player"].str.contains("Backup"), 0.0, 0.3) + rng.normal(0, 0.1, len(pr))}),
+                 "qb_ppa", season)
+        la = pd.DataFrame(l_rows)
+        la2 = la.assign(provider="Bovada", spread=la["spread"] + rng.choice([-0.5, 0, 0, 0.5], len(la)),
+                        total=la["total"] + rng.choice([-1, 0, 0, 1], len(la)))
+        save(pd.concat([la[["game_id", "season", "provider", "spread", "spread_open", "total"]],
+                        la2[["game_id", "season", "provider", "spread", "spread_open", "total"]]]), "lines_all", season)
         save(pd.DataFrame(g_rows), "games", season)
         save(pd.DataFrame(l_rows), "lines", season)
         save(pd.DataFrame(p_rows), "ppa", season)

@@ -4,6 +4,7 @@ Every value uses only information available before that game kicked off:
 ratings come from games before the game's week, rolling stats use shift(1),
 and qb_out for upcoming games comes from the availability report file.
 """
+import warnings
 from zoneinfo import ZoneInfo
 
 import numpy as np
@@ -15,6 +16,7 @@ from common import load, load_file, miles
 from ratings import FCS, EfficiencyEngine, RatingEngine, project, team_keys
 
 CENTRAL = ZoneInfo("America/Chicago")
+warnings.filterwarnings("ignore", category=pd.errors.PerformanceWarning)
 
 FEATURE_GROUPS = {
     "CORE": ["rating_margin", "rating_total", "eff_margin", "eff_home_off", "eff_away_off", "epa_matchup", "neutral", "conf_game",
@@ -27,12 +29,28 @@ FEATURE_GROUPS = {
     # Betting-market movement: how far the spread moved from open (positive = toward the home
     # team) and how far the total moved. Optional: the tuner decides whether it helps.
     "MARKET": ["line_move", "line_move_abs"],
+    # Efficiency with garbage time removed, passing/rushing splits and line play
+    "CLEAN": ["c_ppa_matchup", "c_pass_matchup", "c_rush_matchup", "c_line_diff", "c_stuff_diff", "c_pd_matchup"],
+    # Points per drive and starting field position (special teams, hidden yardage)
+    "DRIVES": ["ppd_matchup", "field_diff"],
+    # Pregame Elo rating difference: an independent second opinion
+    "ELO": ["elo_diff"],
+    # How efficient the quarterback expected to play has been
+    "QBQ": ["qb_ppa_home", "qb_ppa_away"],
+    # How much the sportsbooks disagree on the spread and total
+    "BOOKS": ["book_spread_sd", "book_total_sd"],
 }
+# extra inputs for the totals model when a group is switched on
+TOTAL_EXTRAS = {"CLEAN": ["c_ppa_sum"], "DRIVES": ["ppd_sum"], "QBQ": ["qb_ppa_home", "qb_ppa_away"],
+                "BOOKS": ["book_total_sd"]}
 TOTAL_FEATURES = ["rating_total", "eff_sum", "epa_sum", "success_sum", "explosive_sum", "pace_sum",
                   "wind", "gust", "temp", "rain", "dome", "neutral", "qb_out_home", "qb_out_away"]
 
+CLEAN_COLS = ["off_ppa", "def_ppa", "off_pass_ppa", "def_pass_ppa", "off_rush_ppa", "def_rush_ppa",
+              "off_line_yards", "def_line_yards", "off_stuff", "def_stuff", "off_pd_success", "def_pd_success"]
 ROLL_COLS = ["off_ppa", "def_ppa", "off_success", "def_success", "off_explosive", "def_explosive",
-             "off_ppo", "def_ppo", "off_havoc", "def_havoc", "off_plays", "pen_yards", "to_margin"]
+             "off_ppo", "def_ppo", "off_havoc", "def_havoc", "off_plays", "pen_yards", "to_margin"] + \
+            [f"c_{c}" for c in CLEAN_COLS] + ["d_off_ppd", "d_def_ppd", "d_off_start", "d_def_start"]
 ROLL_N = 5
 LINE_COLS = ["provider", "spread", "spread_open", "total", "total_open", "home_ml", "away_ml"]
 
@@ -66,6 +84,18 @@ def team_timeline(games):
         tl = tl.merge(b[["game_id", "team", "turnovers", "pen_yards"]], on=["game_id", "team"], how="left")
         tl = tl.merge(opp_to, on=["game_id", "opp"], how="left")
         tl["to_margin"] = tl["opp_turnovers"] - tl["turnovers"]
+    clean = load("adv_clean")
+    if len(clean):
+        keep = ["game_id", "team"] + [c for c in CLEAN_COLS if c in clean]
+        tl = tl.merge(clean[keep].drop_duplicates(["game_id", "team"]).rename(columns={c: f"c_{c}" for c in CLEAN_COLS}),
+                      on=["game_id", "team"], how="left")
+    drives = load("drives")
+    if len(drives):
+        dv = drives.drop_duplicates(["game_id", "team"])
+        tl = tl.merge(dv[["game_id", "team", "ppd", "start_ytg"]].rename(
+            columns={"ppd": "d_off_ppd", "start_ytg": "d_off_start"}), on=["game_id", "team"], how="left")
+        tl = tl.merge(dv[["game_id", "team", "ppd", "start_ytg"]].rename(
+            columns={"team": "opp", "ppd": "d_def_ppd", "start_ytg": "d_def_start"}), on=["game_id", "opp"], how="left")
     for c in ROLL_COLS:
         if c not in tl:
             tl[c] = np.nan
@@ -80,6 +110,29 @@ def team_timeline(games):
     tl["prev_margin"] = grp["pts"].shift(1) - grp["opp_pts"].shift(1)
     tl.loc[tl["season"] != grp["season"].shift(1), "prev_margin"] = np.nan  # no carry across seasons
     return tl
+
+
+def elo_before(t):
+    """Each side's Elo from the latest earlier week this season, else last season's final rating."""
+    weekly, final = load("elo_weekly"), load("elo")
+    parts = []
+    if len(weekly):
+        w = weekly.dropna(subset=["elo"])
+        parts.append(pd.DataFrame({"team": w["team"], "idx": w["season"] * 1000 + w["week"].astype(float), "elo": w["elo"]}))
+    if len(final):
+        f = final.dropna(subset=["elo"])
+        parts.append(pd.DataFrame({"team": f["team"], "idx": f["season"] * 1000 + 999.0, "elo": f["elo"]}))
+    if not parts:
+        return np.nan, np.nan
+    e = pd.concat(parts).sort_values("idx")
+    order = np.where(t["season_type"] == "postseason", 500.0, t["week"].astype(float))
+    key = pd.DataFrame({"row": np.arange(len(t)), "idx": t["season"].to_numpy() * 1000 + order})
+    out = []
+    for side in ("home", "away"):
+        k = key.assign(team=t[side].to_numpy()).sort_values("idx")
+        m = pd.merge_asof(k, e, on="idx", by="team", allow_exact_matches=False).sort_values("row")
+        out.append(m["elo"].to_numpy())
+    return out[0], out[1]
 
 
 def home_venues(games):
@@ -153,6 +206,16 @@ def build(games, engine=None, seasons=None, live_cutoff=None):
     # havoc: defense's havoc created + opponent offense's havoc allowed (good for that defense)
     t["havoc_matchup"] = (t[H + "def_havoc"] + t[A + "off_havoc"]) - (t[A + "def_havoc"] + t[H + "off_havoc"])
     t["pace_sum"] = t[H + "off_plays"] + t[A + "off_plays"]
+    # garbage-time-free efficiency, passing/rushing splits and line play
+    m = lambda col: (t[H + f"c_off_{col}"] + t[A + f"c_def_{col}"]) - (t[A + f"c_off_{col}"] + t[H + f"c_def_{col}"])
+    t["c_ppa_matchup"], t["c_pass_matchup"], t["c_rush_matchup"] = m("ppa"), m("pass_ppa"), m("rush_ppa")
+    t["c_pd_matchup"], t["c_line_diff"] = m("pd_success"), m("line_yards")
+    t["c_stuff_diff"] = (t[H + "c_def_stuff"] + t[A + "c_off_stuff"]) - (t[A + "c_def_stuff"] + t[H + "c_off_stuff"])
+    t["c_ppa_sum"] = (t[H + "c_off_ppa"] + t[A + "c_def_ppa"]) + (t[A + "c_off_ppa"] + t[H + "c_def_ppa"])
+    # drives: points per drive and field position (lower start_ytg = shorter field)
+    t["ppd_matchup"] = (t[H + "d_off_ppd"] + t[A + "d_def_ppd"]) - (t[A + "d_off_ppd"] + t[H + "d_def_ppd"])
+    t["ppd_sum"] = (t[H + "d_off_ppd"] + t[A + "d_def_ppd"]) + (t[A + "d_off_ppd"] + t[H + "d_def_ppd"])
+    t["field_diff"] = (t[H + "d_def_start"] - t[H + "d_off_start"]) - (t[A + "d_def_start"] - t[A + "d_off_start"])
     t["to_margin_diff"] = t[H + "to_margin"] - t[A + "to_margin"]
     t["pen_diff"] = t[H + "pen_yards"] - t[A + "pen_yards"]
 
@@ -212,6 +275,27 @@ def build(games, engine=None, seasons=None, live_cutoff=None):
     for c in ["wind", "gust", "rain"]:
         t[c] = np.where(t["dome"] == 1, 0.0, t[c])
     t["temp"] = np.where(t["dome"] == 1, 70.0, t["temp"])
+
+    # ---- pregame Elo: the latest rating from an earlier week (or last season's final)
+    t["elo_home"], t["elo_away"] = elo_before(t)
+    t["elo_diff"] = t["elo_home"] - t["elo_away"]
+
+    # ---- quality of the quarterback expected to play
+    qq = qb.quality_table(load("passers"), load("qb_ppa"), games)
+    for s in ("home", "away"):
+        x = qq.rename(columns={"team": s, "qb_starter_ppa": f"qb_starter_ppa_{s}", "qb_backup_ppa": f"qb_backup_ppa_{s}"})
+        t = t.merge(x, on=["game_id", s], how="left") if len(x) else t.assign(
+            **{f"qb_starter_ppa_{s}": np.nan, f"qb_backup_ppa_{s}": np.nan})
+        t[f"qb_ppa_{s}"] = np.where(t[f"qb_out_{s}"] == 1, t[f"qb_backup_ppa_{s}"], t[f"qb_starter_ppa_{s}"])
+
+    # ---- how much the sportsbooks disagree
+    books = load("lines_all")
+    if len(books):
+        b = books.groupby("game_id").agg(book_spread_sd=("spread", "std"), book_total_sd=("total", "std"),
+                                         books_n=("provider", "nunique")).reset_index()
+        t = t.merge(b, on="game_id", how="left")
+    else:
+        t["book_spread_sd"] = t["book_total_sd"] = t["books_n"] = np.nan
 
     # ---- market and targets
     lines = load("lines")

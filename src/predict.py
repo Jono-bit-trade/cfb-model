@@ -166,6 +166,9 @@ def main(now=None):
             rows.at[i, f"qb_name_{s}"] = name or starters.get(r[s])
             rows.at[i, f"qb_note_{s}"] = note
             rows.at[i, f"qb_out_{s}"] = 1.0 if st in qb.OUT_STATUSES else 0.0
+            if f"qb_starter_ppa_{s}" in rows:
+                rows.at[i, f"qb_ppa_{s}"] = rows.at[i, f"qb_backup_ppa_{s}"] if st in qb.OUT_STATUSES \
+                    else rows.at[i, f"qb_starter_ppa_{s}"]
     adjuster = market_adjuster(table, season) if config.MARKET_ADJUST else None
     if len(rows):
         rows["pred_margin"], rows["pred_total"] = model.predict(rows)
@@ -177,6 +180,8 @@ def main(now=None):
             if q.any():
                 alt = rows[q].copy()
                 alt[f"qb_out_{s}"] = 1.0
+                if f"qb_backup_ppa_{s}" in alt:
+                    alt[f"qb_ppa_{s}"] = alt[f"qb_backup_ppa_{s}"]
                 m, t = model.predict(alt)
                 if adjuster is not None:
                     m, t = adjuster.apply(alt, m, t)

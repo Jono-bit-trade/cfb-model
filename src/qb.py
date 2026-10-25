@@ -15,6 +15,7 @@ out/doubtful count as out. questionable is projected both ways on the site.
 """
 import os
 
+import numpy as np
 import pandas as pd
 
 from common import DATA
@@ -78,3 +79,47 @@ def status_for(season, week, team, status_table):
     row = m.iloc[-1]
     note = row.get("note")
     return row["status"], row.get("qb"), (None if pd.isna(note) else note)
+
+
+def quality_table(passers, qb_ppa, games, lookback=LOOKBACK):
+    """Before every game (played or upcoming), each team's expected starter and backup
+    and how efficient each has been (expected points added per pass, attempt-weighted),
+    using only earlier games. Carries over from last season for returning players.
+
+    Returns game_id, team, qb_starter_ppa, qb_backup_ppa.
+    """
+    cols = ["game_id", "team", "qb_starter_ppa", "qb_backup_ppa"]
+    if passers.empty or qb_ppa.empty:
+        return pd.DataFrame(columns=cols)
+    g = games[["game_id", "season", "week", "season_type", "start", "home", "away"]]
+    att = passers.merge(g[["game_id", "week", "season_type", "start"]], on="game_id", how="inner")
+    q = qb_ppa.dropna(subset=["ppa_pass"]).drop_duplicates(["season", "week", "season_type", "team", "player"])
+    att = att.merge(q[["season", "week", "season_type", "team", "player", "ppa_pass"]],
+                    on=["season", "week", "season_type", "team", "player"], how="left")
+    by_game = {k: v for k, v in att.groupby(["game_id", "team"])}
+
+    timeline = pd.concat([g.rename(columns={"home": "team"})[["game_id", "start", "team"]],
+                          g.rename(columns={"away": "team"})[["game_id", "start", "team"]]]).sort_values("start")
+    out = []
+    for team, tl in timeline.groupby("team", sort=False):
+        recent_games = []          # [{player: attempts}] for the last few games
+        totals = {}                # player -> [sum(att * ppa), sum(att)] over every earlier game
+        for gid in tl["game_id"]:
+            recent = {}
+            for game_att in recent_games[-lookback:]:
+                for p, a in game_att.items():
+                    recent[p] = recent.get(p, 0) + a
+            ranked = sorted(recent, key=recent.get, reverse=True)
+            rating = lambda p: (totals[p][0] / totals[p][1]) if p in totals and totals[p][1] >= 20 else np.nan
+            out.append({"game_id": gid, "team": team,
+                        "qb_starter_ppa": rating(ranked[0]) if ranked else np.nan,
+                        "qb_backup_ppa": rating(ranked[1]) if len(ranked) > 1 else np.nan})
+            gm = by_game.get((gid, team))
+            if gm is not None:
+                recent_games.append(dict(zip(gm["player"], gm["att"])))
+                for p, a, v in zip(gm["player"], gm["att"], gm["ppa_pass"]):
+                    if a > 0 and not pd.isna(v):
+                        s = totals.setdefault(p, [0.0, 0.0])
+                        s[0] += a * v
+                        s[1] += a
+    return pd.DataFrame(out, columns=cols)

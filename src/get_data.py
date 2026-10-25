@@ -93,6 +93,73 @@ def _first_ml(lines, rank, *names):
     return None
 
 
+def parse_adv_clean(raw, season):
+    """Advanced game stats with garbage time removed, plus passing/rushing splits and line play."""
+    rows = []
+    for x in raw:
+        row = {"game_id": g(x, "gameId", "game_id"), "season": season, "team": g(x, "team"), "opponent": g(x, "opponent")}
+        for side, key in (("off", "offense"), ("def", "defense")):
+            row[f"{side}_ppa"] = _num(g(x, f"{key}.ppa"))
+            row[f"{side}_success"] = _num(g(x, f"{key}.successRate", f"{key}.success_rate"))
+            row[f"{side}_explosive"] = _num(g(x, f"{key}.explosiveness"))
+            row[f"{side}_pass_ppa"] = _num(g(x, f"{key}.passingPlays.ppa", f"{key}.passing_plays.ppa"))
+            row[f"{side}_rush_ppa"] = _num(g(x, f"{key}.rushingPlays.ppa", f"{key}.rushing_plays.ppa"))
+            row[f"{side}_line_yards"] = _num(g(x, f"{key}.lineYardsAverage", f"{key}.line_yards_average", f"{key}.lineYards"))
+            row[f"{side}_stuff"] = _num(g(x, f"{key}.stuffRate", f"{key}.stuff_rate"))
+            row[f"{side}_pd_success"] = _num(g(x, f"{key}.passingDowns.successRate", f"{key}.passing_downs.success_rate"))
+        rows.append(row)
+    return pd.DataFrame(rows)
+
+
+def parse_drives(raw, season):
+    """Per team per game: drives, points per drive and average starting field position."""
+    rows = []
+    for x in raw:
+        start_score = _num(g(x, "startOffenseScore", "start_offense_score"))
+        end_score = _num(g(x, "endOffenseScore", "end_offense_score"))
+        pts = end_score - start_score if not (pd.isna(start_score) or pd.isna(end_score)) else float("nan")
+        if pd.isna(pts):
+            result = str(g(x, "driveResult", "drive_result", default="")).upper()
+            pts = 7.0 if result == "TD" else 3.0 if result == "FG" else 0.0
+        rows.append({"game_id": g(x, "gameId", "game_id"), "team": g(x, "offense"),
+                     "start_ytg": _num(g(x, "startYardsToGoal", "start_yards_to_goal")), "pts": max(pts, 0.0)})
+    d = pd.DataFrame(rows)
+    if d.empty:
+        return d
+    d = d[d["team"].notna()]
+    agg = d.groupby(["game_id", "team"]).agg(drives=("pts", "size"), ppd=("pts", "mean"),
+                                             start_ytg=("start_ytg", "mean")).reset_index()
+    agg["season"] = season
+    return agg
+
+
+def parse_lines_all(raw, season):
+    """Every sportsbook's line for every game (the model's main line comes from parse_lines)."""
+    rows = []
+    for x in raw:
+        for l in g(x, "lines", default=[]) or []:
+            rows.append({"game_id": g(x, "id"), "season": season, "provider": g(l, "provider"),
+                         "spread": _num(g(l, "spread")), "spread_open": _num(g(l, "spreadOpen", "spread_open")),
+                         "total": _num(g(l, "overUnder", "over_under"))})
+    return pd.DataFrame(rows)
+
+
+def parse_qb_ppa(raw, season):
+    """Quarterbacks' expected points added per play, per game."""
+    rows = []
+    for x in raw:
+        rows.append({"season": season, "week": g(x, "week"), "season_type": g(x, "seasonType", "season_type"),
+                     "team": g(x, "team"), "player": g(x, "name"), "player_id": g(x, "id"),
+                     "ppa_all": _num(g(x, "averagePPA.all", "average_ppa.all")),
+                     "ppa_pass": _num(g(x, "averagePPA.pass", "average_ppa.pass"))})
+    return pd.DataFrame(rows)
+
+
+def parse_elo_week(raw, season, week=None, season_type=None):
+    return pd.DataFrame([{"season": season, "week": week, "season_type": season_type,
+                          "team": g(x, "team", "school"), "elo": _num(g(x, "elo"))} for x in raw])
+
+
 def parse_venues(raw):
     rows = []
     for x in raw:
@@ -285,6 +352,8 @@ SEASONAL = {
     "lines": (lambda s: _both_types("/lines", s), parse_lines),
     "ppa": (lambda s: _both_types("/ppa/games", s), parse_ppa),
     "adv": (lambda s: _both_types("/stats/game/advanced", s), parse_adv),
+    "adv_clean": (lambda s: _both_types("/stats/game/advanced", s, excludeGarbageTime="true"), parse_adv_clean),
+    "drives": (lambda s: _both_types("/drives", s), parse_drives),
 }
 PRESEASON = {
     "talent": (lambda s: fetch("/talent", year=s), lambda r, s: parse_simple(r, s, {"talent": ("talent",)})),
@@ -297,8 +366,11 @@ PRESEASON = {
     "elo": (lambda s: fetch("/ratings/elo", year=s), lambda r, s: parse_simple(r, s, {"elo": ("elo",)})),
 }
 WEEKLY = {
-    "teambox": ("/games/teams", parse_teambox),
-    "passers": ("/games/players", parse_passers),
+    # name: (endpoint, parser, extra query parameters)
+    "teambox": ("/games/teams", parse_teambox, {}),
+    "passers": ("/games/players", parse_passers, {}),
+    "qb_ppa": ("/ppa/players/games", parse_qb_ppa, {"position": "QB"}),
+    "elo_weekly": ("/ratings/elo", None, {}),
 }
 
 
@@ -307,6 +379,8 @@ REQUIRED_COLUMNS = {"lines": ["home_ml", "away_ml"]}
 
 
 def _outdated(name, season):
+    if name == "lines" and not has_season("lines_all", season):
+        return True  # every sportsbook's line is saved from the same download
     need = REQUIRED_COLUMNS.get(name)
     if not need:
         return False
@@ -320,7 +394,10 @@ def refresh_season(season, current):
         if has_season(name, season) and not current and not _outdated(name, season):
             continue
         try:
-            df = parser(download(season), season).drop_duplicates()
+            raw = download(season)
+            df = parser(raw, season).drop_duplicates()
+            if name == "lines":
+                save_season(parse_lines_all(raw, season), "lines_all", season)
             if name in ("games", "lines") and len(df):
                 df = df.drop_duplicates("game_id", keep="last")
             save_season(df, name, season)
@@ -347,7 +424,7 @@ def refresh_season(season, current):
     games = load_games_season(season)
     if games.empty:
         return
-    for name, (endpoint, parser) in WEEKLY.items():
+    for name, (endpoint, parser, extra) in WEEKLY.items():
         path = os.path.join(dataset_dir(name), f"{season}.csv")
         have = pd.read_csv(path) if os.path.exists(path) and os.path.getsize(path) > 0 else pd.DataFrame()
         have_ids = set(have["game_id"]) if "game_id" in have else set()
@@ -360,7 +437,13 @@ def refresh_season(season, current):
         frames = [have] if len(have) else []
         for (week, stype), _ in need.groupby(["week", "season_type"]):
             try:
-                frames.append(parser(fetch(endpoint, year=season, week=int(week), seasonType=stype) or [], season))
+                if name == "elo_weekly":
+                    # Elo by regular-season week; bowl games use the last regular-season rating
+                    if stype == "regular":
+                        frames.append(parse_elo_week(fetch(endpoint, year=season, week=int(week)) or [],
+                                                     season, int(week), stype))
+                else:
+                    frames.append(parser(fetch(endpoint, year=season, week=int(week), seasonType=stype, **extra) or [], season))
                 week_games = games[(games["week"] == week) & (games["season_type"] == stype)]
                 if week_games["completed"].astype(bool).all():
                     done_weeks.add(f"{stype}:{week}")  # whole week final: never fetch it again
