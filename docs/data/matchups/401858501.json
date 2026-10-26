@@ -274,14 +274,14 @@
    ],
    "rating": {
     "rank": 59,
-    "overall": 1.61,
+    "overall": 1.63,
     "offense": 24.61,
-    "defense": 23.0
+    "defense": 22.99
    }
   },
   "home": {
    "team": "Indiana",
-   "rank_ap": 6,
+   "rank_ap": 4,
    "records": {
     "su": "7\u20131",
     "ats": "1\u20137",
@@ -550,8 +550,8 @@
    ],
    "rating": {
     "rank": 5,
-    "overall": 15.13,
-    "offense": 31.18,
+    "overall": 15.12,
+    "offense": 31.17,
     "defense": 16.05
    }
   }

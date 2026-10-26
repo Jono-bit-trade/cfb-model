@@ -5,7 +5,7 @@
  "teams": {
   "away": {
    "team": "Ohio State",
-   "rank_ap": 3,
+   "rank_ap": 2,
    "records": {
     "su": "6\u20131",
     "ats": "5\u20132",
@@ -550,9 +550,9 @@
    ],
    "rating": {
     "rank": 16,
-    "overall": 8.77,
-    "offense": 32.37,
-    "defense": 23.6
+    "overall": 8.78,
+    "offense": 32.39,
+    "defense": 23.61
    }
   }
  },

@@ -5,7 +5,7 @@
  "teams": {
   "away": {
    "team": "Missouri",
-   "rank_ap": 22,
+   "rank_ap": 23,
    "records": {
     "su": "5\u20132",
     "ats": "3\u20134",
@@ -274,8 +274,8 @@
    ],
    "rating": {
     "rank": 25,
-    "overall": 7.21,
-    "offense": 28.03,
+    "overall": 7.22,
+    "offense": 28.02,
     "defense": 20.81
    }
   },
@@ -550,9 +550,9 @@
    ],
    "rating": {
     "rank": 81,
-    "overall": -2.48,
+    "overall": -2.49,
     "offense": 24.95,
-    "defense": 27.43
+    "defense": 27.45
    }
   }
  },

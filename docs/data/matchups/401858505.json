@@ -5,7 +5,7 @@
  "teams": {
   "away": {
    "team": "Northwestern",
-   "rank_ap": 24,
+   "rank_ap": 20,
    "records": {
     "su": "6\u20131",
     "ats": "5\u20132",
@@ -550,8 +550,8 @@
    ],
    "rating": {
     "rank": 8,
-    "overall": 12.85,
-    "offense": 32.06,
+    "overall": 12.84,
+    "offense": 32.05,
     "defense": 19.21
    }
   }

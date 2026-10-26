@@ -274,14 +274,14 @@
    ],
    "rating": {
     "rank": 42,
-    "overall": 3.46,
-    "offense": 26.21,
+    "overall": 3.45,
+    "offense": 26.2,
     "defense": 22.75
    }
   },
   "home": {
    "team": "Ole Miss",
-   "rank_ap": 7,
+   "rank_ap": 12,
    "records": {
     "su": "5\u20132",
     "ats": "3\u20134",
@@ -550,8 +550,8 @@
    ],
    "rating": {
     "rank": 10,
-    "overall": 12.51,
-    "offense": 35.08,
+    "overall": 12.5,
+    "offense": 35.07,
     "defense": 22.57
    }
   }

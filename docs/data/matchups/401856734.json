@@ -5,7 +5,7 @@
  "teams": {
   "away": {
    "team": "Florida",
-   "rank_ap": 20,
+   "rank_ap": 17,
    "records": {
     "su": "5\u20132",
     "ats": "4\u20133",
@@ -274,14 +274,14 @@
    ],
    "rating": {
     "rank": 29,
-    "overall": 6.39,
-    "offense": 31.08,
+    "overall": 6.37,
+    "offense": 31.06,
     "defense": 24.69
    }
   },
   "home": {
    "team": "Georgia",
-   "rank_ap": 5,
+   "rank_ap": 3,
    "records": {
     "su": "6\u20131",
     "ats": "5\u20132",
@@ -552,7 +552,7 @@
     "rank": 4,
     "overall": 16.79,
     "offense": 34.96,
-    "defense": 18.17
+    "defense": 18.18
    }
   }
  },

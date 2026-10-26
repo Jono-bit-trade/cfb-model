@@ -5,7 +5,7 @@
  "teams": {
   "away": {
    "team": "Notre Dame",
-   "rank_ap": 4,
+   "rank_ap": 5,
    "records": {
     "su": "6\u20131",
     "ats": "4\u20133",
@@ -275,7 +275,7 @@
    "rating": {
     "rank": 3,
     "overall": 17.89,
-    "offense": 35.65,
+    "offense": 35.66,
     "defense": 17.77
    }
   },

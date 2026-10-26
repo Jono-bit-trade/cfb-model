@@ -5,7 +5,7 @@
  "teams": {
   "away": {
    "team": "Arizona",
-   "rank_ap": 25,
+   "rank_ap": 22,
    "records": {
     "su": "6\u20131",
     "ats": "3\u20134",
@@ -274,14 +274,14 @@
    ],
    "rating": {
     "rank": 15,
-    "overall": 9.39,
-    "offense": 30.44,
-    "defense": 21.05
+    "overall": 9.37,
+    "offense": 30.43,
+    "defense": 21.06
    }
   },
   "home": {
    "team": "Texas Tech",
-   "rank_ap": 8,
+   "rank_ap": 13,
    "records": {
     "su": "6\u20131",
     "ats": "3\u20134",
@@ -551,8 +551,8 @@
    "rating": {
     "rank": 12,
     "overall": 10.33,
-    "offense": 31.57,
-    "defense": 21.24
+    "offense": 31.58,
+    "defense": 21.25
    }
   }
  },

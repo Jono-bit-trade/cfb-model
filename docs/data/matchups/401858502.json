@@ -5,7 +5,7 @@
  "teams": {
   "away": {
    "team": "Wisconsin",
-   "rank_ap": null,
+   "rank_ap": 25,
    "records": {
     "su": "5\u20132",
     "ats": "4\u20133",
@@ -274,9 +274,9 @@
    ],
    "rating": {
     "rank": 34,
-    "overall": 5.03,
-    "offense": 23.64,
-    "defense": 18.6
+    "overall": 5.04,
+    "offense": 23.65,
+    "defense": 18.61
    }
   },
   "home": {
@@ -552,7 +552,7 @@
     "rank": 21,
     "overall": 7.83,
     "offense": 27.02,
-    "defense": 19.19
+    "defense": 19.18
    }
   }
  },
