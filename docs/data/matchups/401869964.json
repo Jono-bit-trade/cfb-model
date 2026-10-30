@@ -7,11 +7,24 @@
    "team": "James Madison",
    "rank_ap": null,
    "records": {
-    "su": "7\u20131",
-    "ats": "6\u20132",
-    "ou": "5\u20133"
+    "su": "7\u20132",
+    "ats": "6\u20133",
+    "ou": "5\u20134"
    },
    "recent": [
+    {
+     "date": "2026-10-29T23:30:00+00:00",
+     "season": 2026,
+     "opp": "Troy",
+     "site": "H",
+     "pts": 21,
+     "opp_pts": 24,
+     "result": "L",
+     "spread": -17.5,
+     "cover": "L",
+     "total": 52.5,
+     "ou": "U"
+    },
     {
      "date": "2026-10-22T23:00:00+00:00",
      "season": 2026,
@@ -63,36 +76,23 @@
      "cover": "W",
      "total": 55.5,
      "ou": "O"
-    },
-    {
-     "date": "2026-09-26T22:00:00+00:00",
-     "season": 2026,
-     "opp": "Old Dominion",
-     "site": "A",
-     "pts": 46,
-     "opp_pts": 20,
-     "result": "W",
-     "spread": -7.0,
-     "cover": "W",
-     "total": 44.5,
-     "ou": "O"
     }
    ],
    "stats": [
     {
      "key": "ppg",
      "label": "Points per game",
-     "value": 41.4,
+     "value": 39.1,
      "fmt": "1",
-     "rank": 5,
+     "rank": 10,
      "better": true
     },
     {
      "key": "papg",
      "label": "Points allowed per game",
-     "value": 18.2,
+     "value": 18.9,
      "fmt": "1",
-     "rank": 25,
+     "rank": 28,
      "better": false
     },
     {
@@ -273,10 +273,10 @@
     }
    ],
    "rating": {
-    "rank": 26,
-    "overall": 6.81,
-    "offense": 31.45,
-    "defense": 24.65
+    "rank": 32,
+    "overall": 5.35,
+    "offense": 30.43,
+    "defense": 25.08
    }
   },
   "home": {
@@ -549,10 +549,10 @@
     }
    ],
    "rating": {
-    "rank": 111,
-    "overall": -7.05,
-    "offense": 24.33,
-    "defense": 31.38
+    "rank": 109,
+    "overall": -6.89,
+    "offense": 24.43,
+    "defense": 31.32
    }
   }
  },
