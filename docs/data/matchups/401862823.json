@@ -1,0 +1,735 @@
+{
+ "id": 401862823,
+ "season": 2026,
+ "n_teams": 138,
+ "teams": {
+  "away": {
+   "team": "Air Force",
+   "rank_ap": null,
+   "records": {
+    "su": "5\u20132",
+    "ats": "4\u20133",
+    "ou": "3\u20134"
+   },
+   "recent": [
+    {
+     "date": "2026-10-24T01:00:00+00:00",
+     "season": 2026,
+     "opp": "Wyoming",
+     "site": "A",
+     "pts": 14,
+     "opp_pts": 28,
+     "result": "L",
+     "spread": -7.0,
+     "cover": "L",
+     "total": 46.5,
+     "ou": "U"
+    },
+    {
+     "date": "2026-10-17T19:30:00+00:00",
+     "season": 2026,
+     "opp": "UNLV",
+     "site": "H",
+     "pts": 41,
+     "opp_pts": 31,
+     "result": "W",
+     "spread": -1.5,
+     "cover": "W",
+     "total": 49.5,
+     "ou": "O"
+    },
+    {
+     "date": "2026-10-10T23:30:00+00:00",
+     "season": 2026,
+     "opp": "Northern Illinois",
+     "site": "A",
+     "pts": 28,
+     "opp_pts": 7,
+     "result": "W",
+     "spread": -7.0,
+     "cover": "W",
+     "total": 48.5,
+     "ou": "U"
+    },
+    {
+     "date": "2026-10-03T16:00:00+00:00",
+     "season": 2026,
+     "opp": "Navy",
+     "site": "H",
+     "pts": 14,
+     "opp_pts": 9,
+     "result": "W",
+     "spread": -2.5,
+     "cover": "W",
+     "total": 45.5,
+     "ou": "U"
+    },
+    {
+     "date": "2026-09-27T02:30:00+00:00",
+     "season": 2026,
+     "opp": "Nevada",
+     "site": "A",
+     "pts": 36,
+     "opp_pts": 33,
+     "result": "W",
+     "spread": -4.5,
+     "cover": "L",
+     "total": 50.5,
+     "ou": "O"
+    }
+   ],
+   "stats": [
+    {
+     "key": "ppg",
+     "label": "Points per game",
+     "value": 28.4,
+     "fmt": "1",
+     "rank": 71,
+     "better": true
+    },
+    {
+     "key": "papg",
+     "label": "Points allowed per game",
+     "value": 20.9,
+     "fmt": "1",
+     "rank": 41,
+     "better": false
+    },
+    {
+     "key": "epa_off",
+     "label": "Offense: points added per play",
+     "value": 0.218,
+     "fmt": "3",
+     "rank": 44,
+     "better": true
+    },
+    {
+     "key": "epa_def",
+     "label": "Defense: points added per play allowed",
+     "value": 0.054,
+     "fmt": "3",
+     "rank": 59,
+     "better": false
+    },
+    {
+     "key": "succ_off",
+     "label": "Offense: success rate",
+     "value": 0.4933,
+     "fmt": "pct",
+     "rank": 21,
+     "better": true
+    },
+    {
+     "key": "succ_def",
+     "label": "Defense: success rate allowed",
+     "value": 0.3863,
+     "fmt": "pct",
+     "rank": 53,
+     "better": false
+    },
+    {
+     "key": "expl_off",
+     "label": "Offense: explosiveness",
+     "value": 1.05,
+     "fmt": "2",
+     "rank": 138,
+     "better": true
+    },
+    {
+     "key": "expl_def",
+     "label": "Defense: explosiveness allowed",
+     "value": 1.25,
+     "fmt": "2",
+     "rank": 68,
+     "better": false
+    },
+    {
+     "key": "pass_off",
+     "label": "Passing: points added per pass",
+     "value": -0.529,
+     "fmt": "3",
+     "rank": 138,
+     "better": true
+    },
+    {
+     "key": "rush_off",
+     "label": "Rushing: points added per rush",
+     "value": 0.276,
+     "fmt": "3",
+     "rank": 9,
+     "better": true
+    },
+    {
+     "key": "pass_def",
+     "label": "Pass defense: per pass allowed",
+     "value": 0.151,
+     "fmt": "3",
+     "rank": 68,
+     "better": false
+    },
+    {
+     "key": "rush_def",
+     "label": "Run defense: per rush allowed",
+     "value": 0.034,
+     "fmt": "3",
+     "rank": 79,
+     "better": false
+    },
+    {
+     "key": "line_off",
+     "label": "Offensive line yards",
+     "value": 3.7,
+     "fmt": "2",
+     "rank": 3,
+     "better": true
+    },
+    {
+     "key": "stuff_def",
+     "label": "Defense: stuff rate",
+     "value": 0.1567,
+     "fmt": "pct",
+     "rank": 113,
+     "better": true
+    },
+    {
+     "key": "ppo_off",
+     "label": "Points per scoring chance",
+     "value": null,
+     "fmt": "2",
+     "rank": null,
+     "better": true
+    },
+    {
+     "key": "ppo_def",
+     "label": "Points per scoring chance allowed",
+     "value": null,
+     "fmt": "2",
+     "rank": null,
+     "better": false
+    },
+    {
+     "key": "havoc_def",
+     "label": "Havoc created",
+     "value": null,
+     "fmt": "pct",
+     "rank": null,
+     "better": true
+    },
+    {
+     "key": "havoc_off",
+     "label": "Havoc allowed",
+     "value": null,
+     "fmt": "pct",
+     "rank": null,
+     "better": false
+    },
+    {
+     "key": "ppd_off",
+     "label": "Points per drive",
+     "value": 3.32,
+     "fmt": "2",
+     "rank": 11,
+     "better": true
+    },
+    {
+     "key": "ppd_def",
+     "label": "Points per drive allowed",
+     "value": 2.39,
+     "fmt": "2",
+     "rank": 107,
+     "better": false
+    },
+    {
+     "key": "field_off",
+     "label": "Average starting field position (yards to go)",
+     "value": 70.3,
+     "fmt": "1",
+     "rank": 68,
+     "better": false
+    },
+    {
+     "key": "to_margin",
+     "label": "Turnover margin per game",
+     "value": 0.0,
+     "fmt": "2",
+     "rank": 71,
+     "better": true
+    },
+    {
+     "key": "pen",
+     "label": "Penalty yards per game",
+     "value": 47.7,
+     "fmt": "1",
+     "rank": 33,
+     "better": false
+    },
+    {
+     "key": "plays",
+     "label": "Plays per game (pace)",
+     "value": 74.6,
+     "fmt": "1",
+     "rank": null,
+     "better": null
+    }
+   ],
+   "rating": {
+    "rank": 91,
+    "overall": -3.8,
+    "offense": 24.8,
+    "defense": 28.6
+   }
+  },
+  "home": {
+   "team": "Army",
+   "rank_ap": null,
+   "records": {
+    "su": "5\u20132",
+    "ats": "3\u20133\u20131",
+    "ou": "5\u20132"
+   },
+   "recent": [
+    {
+     "date": "2026-10-24T00:30:00+00:00",
+     "season": 2026,
+     "opp": "Tulsa",
+     "site": "A",
+     "pts": 38,
+     "opp_pts": 35,
+     "result": "W",
+     "spread": -1.5,
+     "cover": "W",
+     "total": 53.5,
+     "ou": "O"
+    },
+    {
+     "date": "2026-10-17T16:00:00+00:00",
+     "season": 2026,
+     "opp": "Florida Atlantic",
+     "site": "H",
+     "pts": 56,
+     "opp_pts": 24,
+     "result": "W",
+     "spread": -2.5,
+     "cover": "W",
+     "total": 55.5,
+     "ou": "O"
+    },
+    {
+     "date": "2026-10-10T16:00:00+00:00",
+     "season": 2026,
+     "opp": "Tulane",
+     "site": "H",
+     "pts": 20,
+     "opp_pts": 17,
+     "result": "W",
+     "spread": -5.5,
+     "cover": "L",
+     "total": 48.5,
+     "ou": "U"
+    },
+    {
+     "date": "2026-10-03T23:30:00+00:00",
+     "season": 2026,
+     "opp": "Louisiana Tech",
+     "site": "A",
+     "pts": 29,
+     "opp_pts": 31,
+     "result": "L",
+     "spread": 1.5,
+     "cover": "L",
+     "total": 46.5,
+     "ou": "O"
+    },
+    {
+     "date": "2026-09-25T20:00:00+00:00",
+     "season": 2026,
+     "opp": "Temple",
+     "site": "A",
+     "pts": 21,
+     "opp_pts": 17,
+     "result": "W",
+     "spread": -4.0,
+     "cover": "P",
+     "total": 48.5,
+     "ou": "U"
+    }
+   ],
+   "stats": [
+    {
+     "key": "ppg",
+     "label": "Points per game",
+     "value": 35.3,
+     "fmt": "1",
+     "rank": 32,
+     "better": true
+    },
+    {
+     "key": "papg",
+     "label": "Points allowed per game",
+     "value": 22.1,
+     "fmt": "1",
+     "rank": 55,
+     "better": false
+    },
+    {
+     "key": "epa_off",
+     "label": "Offense: points added per play",
+     "value": 0.347,
+     "fmt": "3",
+     "rank": 8,
+     "better": true
+    },
+    {
+     "key": "epa_def",
+     "label": "Defense: points added per play allowed",
+     "value": 0.21,
+     "fmt": "3",
+     "rank": 118,
+     "better": false
+    },
+    {
+     "key": "succ_off",
+     "label": "Offense: success rate",
+     "value": 0.5084,
+     "fmt": "pct",
+     "rank": 15,
+     "better": true
+    },
+    {
+     "key": "succ_def",
+     "label": "Defense: success rate allowed",
+     "value": 0.4392,
+     "fmt": "pct",
+     "rank": 108,
+     "better": false
+    },
+    {
+     "key": "expl_off",
+     "label": "Offense: explosiveness",
+     "value": 1.18,
+     "fmt": "2",
+     "rank": 107,
+     "better": true
+    },
+    {
+     "key": "expl_def",
+     "label": "Defense: explosiveness allowed",
+     "value": 1.38,
+     "fmt": "2",
+     "rank": 119,
+     "better": false
+    },
+    {
+     "key": "pass_off",
+     "label": "Passing: points added per pass",
+     "value": 0.002,
+     "fmt": "3",
+     "rank": 125,
+     "better": true
+    },
+    {
+     "key": "rush_off",
+     "label": "Rushing: points added per rush",
+     "value": 0.413,
+     "fmt": "3",
+     "rank": 1,
+     "better": true
+    },
+    {
+     "key": "pass_def",
+     "label": "Pass defense: per pass allowed",
+     "value": 0.287,
+     "fmt": "3",
+     "rank": 106,
+     "better": false
+    },
+    {
+     "key": "rush_def",
+     "label": "Run defense: per rush allowed",
+     "value": 0.266,
+     "fmt": "3",
+     "rank": 132,
+     "better": false
+    },
+    {
+     "key": "line_off",
+     "label": "Offensive line yards",
+     "value": 3.53,
+     "fmt": "2",
+     "rank": 6,
+     "better": true
+    },
+    {
+     "key": "stuff_def",
+     "label": "Defense: stuff rate",
+     "value": 0.1606,
+     "fmt": "pct",
+     "rank": 109,
+     "better": true
+    },
+    {
+     "key": "ppo_off",
+     "label": "Points per scoring chance",
+     "value": null,
+     "fmt": "2",
+     "rank": null,
+     "better": true
+    },
+    {
+     "key": "ppo_def",
+     "label": "Points per scoring chance allowed",
+     "value": null,
+     "fmt": "2",
+     "rank": null,
+     "better": false
+    },
+    {
+     "key": "havoc_def",
+     "label": "Havoc created",
+     "value": null,
+     "fmt": "pct",
+     "rank": null,
+     "better": true
+    },
+    {
+     "key": "havoc_off",
+     "label": "Havoc allowed",
+     "value": null,
+     "fmt": "pct",
+     "rank": null,
+     "better": false
+    },
+    {
+     "key": "ppd_off",
+     "label": "Points per drive",
+     "value": 3.64,
+     "fmt": "2",
+     "rank": 3,
+     "better": true
+    },
+    {
+     "key": "ppd_def",
+     "label": "Points per drive allowed",
+     "value": 2.29,
+     "fmt": "2",
+     "rank": 99,
+     "better": false
+    },
+    {
+     "key": "field_off",
+     "label": "Average starting field position (yards to go)",
+     "value": 70.1,
+     "fmt": "1",
+     "rank": 64,
+     "better": false
+    },
+    {
+     "key": "to_margin",
+     "label": "Turnover margin per game",
+     "value": 0.43,
+     "fmt": "2",
+     "rank": 37,
+     "better": true
+    },
+    {
+     "key": "pen",
+     "label": "Penalty yards per game",
+     "value": 35.0,
+     "fmt": "1",
+     "rank": 6,
+     "better": false
+    },
+    {
+     "key": "plays",
+     "label": "Plays per game (pace)",
+     "value": 66.7,
+     "fmt": "1",
+     "rank": null,
+     "better": null
+    }
+   ],
+   "rating": {
+    "rank": 51,
+    "overall": 1.99,
+    "offense": 26.72,
+    "defense": 24.73
+   }
+  }
+ },
+ "h2h": [
+  {
+   "date": "2025-11-01T16:00:00+00:00",
+   "season": 2025,
+   "opp": "Air Force",
+   "site": "A",
+   "pts": 20,
+   "opp_pts": 17,
+   "result": "W",
+   "spread": -1.5,
+   "cover": "W",
+   "total": 48.5,
+   "ou": "U"
+  },
+  {
+   "date": "2024-11-02T16:00:00+00:00",
+   "season": 2024,
+   "opp": "Air Force",
+   "site": "H",
+   "pts": 20,
+   "opp_pts": 3,
+   "result": "W",
+   "spread": -18.0,
+   "cover": "L",
+   "total": 38.5,
+   "ou": "U"
+  },
+  {
+   "date": "2023-11-04T18:30:00+00:00",
+   "season": 2023,
+   "opp": "Air Force",
+   "site": "N",
+   "pts": 23,
+   "opp_pts": 3,
+   "result": "W",
+   "spread": 18.5,
+   "cover": "W",
+   "total": 32.0,
+   "ou": "U"
+  },
+  {
+   "date": "2022-11-05T15:30:00+00:00",
+   "season": 2022,
+   "opp": "Air Force",
+   "site": "N",
+   "pts": 7,
+   "opp_pts": 13,
+   "result": "L",
+   "spread": 7.0,
+   "cover": "W",
+   "total": 40.5,
+   "ou": "U"
+  },
+  {
+   "date": "2021-11-06T15:30:00+00:00",
+   "season": 2021,
+   "opp": "Air Force",
+   "site": "N",
+   "pts": 21,
+   "opp_pts": 14,
+   "result": "W",
+   "spread": 2.5,
+   "cover": "W",
+   "total": 37.5,
+   "ou": "U"
+  },
+  {
+   "date": "2020-12-19T20:00:00+00:00",
+   "season": 2020,
+   "opp": "Air Force",
+   "site": "H",
+   "pts": 10,
+   "opp_pts": 7,
+   "result": "W",
+   "spread": 2.5,
+   "cover": "W",
+   "total": 37.5,
+   "ou": "U"
+  },
+  {
+   "date": "2019-11-02T19:30:00+00:00",
+   "season": 2019,
+   "opp": "Air Force",
+   "site": "A",
+   "pts": 13,
+   "opp_pts": 17,
+   "result": "L",
+   "spread": 17.0,
+   "cover": "W",
+   "total": 45.0,
+   "ou": "U"
+  },
+  {
+   "date": "2018-11-03T12:00:00+00:00",
+   "season": 2018,
+   "opp": "Air Force",
+   "site": "H",
+   "pts": 17,
+   "opp_pts": 14,
+   "result": "W",
+   "spread": -5.5,
+   "cover": "L",
+   "total": 41.5,
+   "ou": "U"
+  },
+  {
+   "date": "2017-11-04T19:30:00+00:00",
+   "season": 2017,
+   "opp": "Air Force",
+   "site": "A",
+   "pts": 21,
+   "opp_pts": 0,
+   "result": "W",
+   "spread": 6.5,
+   "cover": "W",
+   "total": 54.5,
+   "ou": "U"
+  },
+  {
+   "date": "2016-11-05T16:00:00+00:00",
+   "season": 2016,
+   "opp": "Air Force",
+   "site": "H",
+   "pts": 12,
+   "opp_pts": 31,
+   "result": "L",
+   "spread": 3.0,
+   "cover": "L",
+   "total": null,
+   "ou": null
+  },
+  {
+   "date": "2015-11-07T20:30:00+00:00",
+   "season": 2015,
+   "opp": "Air Force",
+   "site": "A",
+   "pts": 3,
+   "opp_pts": 20,
+   "result": "L",
+   "spread": 17.5,
+   "cover": "W",
+   "total": null,
+   "ou": null
+  },
+  {
+   "date": "2014-11-01T15:30:00+00:00",
+   "season": 2014,
+   "opp": "Air Force",
+   "site": "H",
+   "pts": 6,
+   "opp_pts": 23,
+   "result": "L",
+   "spread": 5.5,
+   "cover": "L",
+   "total": null,
+   "ou": null
+  },
+  {
+   "date": "2013-11-02T16:00:00+00:00",
+   "season": 2013,
+   "opp": "Air Force",
+   "site": "A",
+   "pts": 28,
+   "opp_pts": 42,
+   "result": "L",
+   "spread": 1.5,
+   "cover": "L",
+   "total": null,
+   "ou": null
+  }
+ ],
+ "h2h_record": {
+  "su": "7\u20136",
+  "ats": "8\u20135",
+  "ou": "0\u20139"
+ }
+}

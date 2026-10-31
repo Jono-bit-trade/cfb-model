@@ -92,7 +92,7 @@
      "label": "Points allowed per game",
      "value": 25.4,
      "fmt": "1",
-     "rank": 83,
+     "rank": 82,
      "better": false
     },
     {
@@ -273,21 +273,34 @@
     }
    ],
    "rating": {
-    "rank": 56,
-    "overall": 1.88,
-    "offense": 28.97,
-    "defense": 27.09
+    "rank": 53,
+    "overall": 1.89,
+    "offense": 29.0,
+    "defense": 27.1
    }
   },
   "home": {
    "team": "Sacramento State",
    "rank_ap": null,
    "records": {
-    "su": "1\u20137",
-    "ats": "2\u20136",
-    "ou": "3\u20135"
+    "su": "2\u20137",
+    "ats": "3\u20136",
+    "ou": "3\u20136"
    },
    "recent": [
+    {
+     "date": "2026-10-31T02:30:00+00:00",
+     "season": 2026,
+     "opp": "Kent State",
+     "site": "H",
+     "pts": 31,
+     "opp_pts": 10,
+     "result": "W",
+     "spread": 7.5,
+     "cover": "W",
+     "total": 47.5,
+     "ou": "U"
+    },
     {
      "date": "2026-10-24T19:30:00+00:00",
      "season": 2026,
@@ -339,36 +352,23 @@
      "cover": "L",
      "total": 49.5,
      "ou": "U"
-    },
-    {
-     "date": "2026-09-20T02:30:00+00:00",
-     "season": 2026,
-     "opp": "North Dakota State",
-     "site": "H",
-     "pts": 10,
-     "opp_pts": 31,
-     "result": "L",
-     "spread": 26.5,
-     "cover": "W",
-     "total": 50.5,
-     "ou": "U"
     }
    ],
    "stats": [
     {
      "key": "ppg",
      "label": "Points per game",
-     "value": 15.2,
+     "value": 17.0,
      "fmt": "1",
-     "rank": 134,
+     "rank": 133,
      "better": true
     },
     {
      "key": "papg",
      "label": "Points allowed per game",
-     "value": 32.9,
+     "value": 30.3,
      "fmt": "1",
-     "rank": 127,
+     "rank": 115,
      "better": false
     },
     {
@@ -549,10 +549,10 @@
     }
    ],
    "rating": {
-    "rank": 137,
-    "overall": -16.38,
-    "offense": 16.89,
-    "defense": 33.27
+    "rank": 136,
+    "overall": -14.59,
+    "offense": 17.63,
+    "defense": 32.22
    }
   }
  },

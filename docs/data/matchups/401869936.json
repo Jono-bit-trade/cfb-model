@@ -1,0 +1,735 @@
+{
+ "id": 401869936,
+ "season": 2026,
+ "n_teams": 138,
+ "teams": {
+  "away": {
+   "team": "UL Monroe",
+   "rank_ap": null,
+   "records": {
+    "su": "1\u20136",
+    "ats": "2\u20135",
+    "ou": "4\u20133"
+   },
+   "recent": [
+    {
+     "date": "2026-10-24T20:00:00+00:00",
+     "season": 2026,
+     "opp": "Troy",
+     "site": "A",
+     "pts": 21,
+     "opp_pts": 14,
+     "result": "W",
+     "spread": 13.5,
+     "cover": "W",
+     "total": 50.5,
+     "ou": "U"
+    },
+    {
+     "date": "2026-10-18T00:00:00+00:00",
+     "season": 2026,
+     "opp": "Louisiana Tech",
+     "site": "H",
+     "pts": 0,
+     "opp_pts": 24,
+     "result": "L",
+     "spread": 13.5,
+     "cover": "L",
+     "total": 55.5,
+     "ou": "U"
+    },
+    {
+     "date": "2026-10-03T23:00:00+00:00",
+     "season": 2026,
+     "opp": "South Alabama",
+     "site": "A",
+     "pts": 35,
+     "opp_pts": 52,
+     "result": "L",
+     "spread": 12.5,
+     "cover": "L",
+     "total": 57.5,
+     "ou": "O"
+    },
+    {
+     "date": "2026-09-27T00:00:00+00:00",
+     "season": 2026,
+     "opp": "Florida Atlantic",
+     "site": "H",
+     "pts": 17,
+     "opp_pts": 45,
+     "result": "L",
+     "spread": 11.5,
+     "cover": "L",
+     "total": 58.5,
+     "ou": "O"
+    },
+    {
+     "date": "2026-09-19T20:30:00+00:00",
+     "season": 2026,
+     "opp": "SE Louisiana",
+     "site": "H",
+     "pts": 35,
+     "opp_pts": 38,
+     "result": "L",
+     "spread": -9.5,
+     "cover": "L",
+     "total": 48.5,
+     "ou": "O"
+    }
+   ],
+   "stats": [
+    {
+     "key": "ppg",
+     "label": "Points per game",
+     "value": 20.1,
+     "fmt": "1",
+     "rank": 122,
+     "better": true
+    },
+    {
+     "key": "papg",
+     "label": "Points allowed per game",
+     "value": 37.3,
+     "fmt": "1",
+     "rank": 134,
+     "better": false
+    },
+    {
+     "key": "epa_off",
+     "label": "Offense: points added per play",
+     "value": -0.065,
+     "fmt": "3",
+     "rank": 133,
+     "better": true
+    },
+    {
+     "key": "epa_def",
+     "label": "Defense: points added per play allowed",
+     "value": 0.232,
+     "fmt": "3",
+     "rank": 122,
+     "better": false
+    },
+    {
+     "key": "succ_off",
+     "label": "Offense: success rate",
+     "value": 0.3864,
+     "fmt": "pct",
+     "rank": 114,
+     "better": true
+    },
+    {
+     "key": "succ_def",
+     "label": "Defense: success rate allowed",
+     "value": 0.4616,
+     "fmt": "pct",
+     "rank": 124,
+     "better": false
+    },
+    {
+     "key": "expl_off",
+     "label": "Offense: explosiveness",
+     "value": 1.1,
+     "fmt": "2",
+     "rank": 129,
+     "better": true
+    },
+    {
+     "key": "expl_def",
+     "label": "Defense: explosiveness allowed",
+     "value": 1.16,
+     "fmt": "2",
+     "rank": 35,
+     "better": false
+    },
+    {
+     "key": "pass_off",
+     "label": "Passing: points added per pass",
+     "value": -0.047,
+     "fmt": "3",
+     "rank": 131,
+     "better": true
+    },
+    {
+     "key": "rush_off",
+     "label": "Rushing: points added per rush",
+     "value": -0.038,
+     "fmt": "3",
+     "rank": 119,
+     "better": true
+    },
+    {
+     "key": "pass_def",
+     "label": "Pass defense: per pass allowed",
+     "value": 0.317,
+     "fmt": "3",
+     "rank": 113,
+     "better": false
+    },
+    {
+     "key": "rush_def",
+     "label": "Run defense: per rush allowed",
+     "value": 0.221,
+     "fmt": "3",
+     "rank": 128,
+     "better": false
+    },
+    {
+     "key": "line_off",
+     "label": "Offensive line yards",
+     "value": 2.64,
+     "fmt": "2",
+     "rank": 123,
+     "better": true
+    },
+    {
+     "key": "stuff_def",
+     "label": "Defense: stuff rate",
+     "value": 0.1247,
+     "fmt": "pct",
+     "rank": 131,
+     "better": true
+    },
+    {
+     "key": "ppo_off",
+     "label": "Points per scoring chance",
+     "value": null,
+     "fmt": "2",
+     "rank": null,
+     "better": true
+    },
+    {
+     "key": "ppo_def",
+     "label": "Points per scoring chance allowed",
+     "value": null,
+     "fmt": "2",
+     "rank": null,
+     "better": false
+    },
+    {
+     "key": "havoc_def",
+     "label": "Havoc created",
+     "value": null,
+     "fmt": "pct",
+     "rank": null,
+     "better": true
+    },
+    {
+     "key": "havoc_off",
+     "label": "Havoc allowed",
+     "value": null,
+     "fmt": "pct",
+     "rank": null,
+     "better": false
+    },
+    {
+     "key": "ppd_off",
+     "label": "Points per drive",
+     "value": 1.55,
+     "fmt": "2",
+     "rank": 128,
+     "better": true
+    },
+    {
+     "key": "ppd_def",
+     "label": "Points per drive allowed",
+     "value": 2.9,
+     "fmt": "2",
+     "rank": 129,
+     "better": false
+    },
+    {
+     "key": "field_off",
+     "label": "Average starting field position (yards to go)",
+     "value": 72.9,
+     "fmt": "1",
+     "rank": 121,
+     "better": false
+    },
+    {
+     "key": "to_margin",
+     "label": "Turnover margin per game",
+     "value": -0.43,
+     "fmt": "2",
+     "rank": 99,
+     "better": true
+    },
+    {
+     "key": "pen",
+     "label": "Penalty yards per game",
+     "value": 46.4,
+     "fmt": "1",
+     "rank": 27,
+     "better": false
+    },
+    {
+     "key": "plays",
+     "label": "Plays per game (pace)",
+     "value": 65.7,
+     "fmt": "1",
+     "rank": null,
+     "better": null
+    }
+   ],
+   "rating": {
+    "rank": 134,
+    "overall": -14.16,
+    "offense": 17.74,
+    "defense": 31.91
+   }
+  },
+  "home": {
+   "team": "Arkansas State",
+   "rank_ap": null,
+   "records": {
+    "su": "4\u20134",
+    "ats": "4\u20134",
+    "ou": "4\u20134"
+   },
+   "recent": [
+    {
+     "date": "2026-10-24T23:00:00+00:00",
+     "season": 2026,
+     "opp": "Georgia State",
+     "site": "H",
+     "pts": 38,
+     "opp_pts": 32,
+     "result": "W",
+     "spread": 2.5,
+     "cover": "W",
+     "total": 58.5,
+     "ou": "O"
+    },
+    {
+     "date": "2026-10-17T23:00:00+00:00",
+     "season": 2026,
+     "opp": "Southern Miss",
+     "site": "A",
+     "pts": 23,
+     "opp_pts": 13,
+     "result": "W",
+     "spread": -5.5,
+     "cover": "W",
+     "total": 61.5,
+     "ou": "U"
+    },
+    {
+     "date": "2026-10-08T23:30:00+00:00",
+     "season": 2026,
+     "opp": "South Alabama",
+     "site": "H",
+     "pts": 49,
+     "opp_pts": 56,
+     "result": "L",
+     "spread": -3.0,
+     "cover": "L",
+     "total": 60.5,
+     "ou": "O"
+    },
+    {
+     "date": "2026-10-04T00:00:00+00:00",
+     "season": 2026,
+     "opp": "Louisiana",
+     "site": "A",
+     "pts": 20,
+     "opp_pts": 23,
+     "result": "L",
+     "spread": 4.5,
+     "cover": "W",
+     "total": 49.5,
+     "ou": "U"
+    },
+    {
+     "date": "2026-09-26T23:00:00+00:00",
+     "season": 2026,
+     "opp": "Kennesaw State",
+     "site": "H",
+     "pts": 17,
+     "opp_pts": 14,
+     "result": "W",
+     "spread": -6.5,
+     "cover": "L",
+     "total": 53.5,
+     "ou": "U"
+    }
+   ],
+   "stats": [
+    {
+     "key": "ppg",
+     "label": "Points per game",
+     "value": 28.8,
+     "fmt": "1",
+     "rank": 68,
+     "better": true
+    },
+    {
+     "key": "papg",
+     "label": "Points allowed per game",
+     "value": 27.2,
+     "fmt": "1",
+     "rank": 98,
+     "better": false
+    },
+    {
+     "key": "epa_off",
+     "label": "Offense: points added per play",
+     "value": 0.155,
+     "fmt": "3",
+     "rank": 67,
+     "better": true
+    },
+    {
+     "key": "epa_def",
+     "label": "Defense: points added per play allowed",
+     "value": 0.145,
+     "fmt": "3",
+     "rank": 102,
+     "better": false
+    },
+    {
+     "key": "succ_off",
+     "label": "Offense: success rate",
+     "value": 0.4661,
+     "fmt": "pct",
+     "rank": 37,
+     "better": true
+    },
+    {
+     "key": "succ_def",
+     "label": "Defense: success rate allowed",
+     "value": 0.4437,
+     "fmt": "pct",
+     "rank": 115,
+     "better": false
+    },
+    {
+     "key": "expl_off",
+     "label": "Offense: explosiveness",
+     "value": 1.15,
+     "fmt": "2",
+     "rank": 113,
+     "better": true
+    },
+    {
+     "key": "expl_def",
+     "label": "Defense: explosiveness allowed",
+     "value": 1.28,
+     "fmt": "2",
+     "rank": 85,
+     "better": false
+    },
+    {
+     "key": "pass_off",
+     "label": "Passing: points added per pass",
+     "value": 0.24,
+     "fmt": "3",
+     "rank": 70,
+     "better": true
+    },
+    {
+     "key": "rush_off",
+     "label": "Rushing: points added per rush",
+     "value": 0.108,
+     "fmt": "3",
+     "rank": 67,
+     "better": true
+    },
+    {
+     "key": "pass_def",
+     "label": "Pass defense: per pass allowed",
+     "value": 0.4,
+     "fmt": "3",
+     "rank": 127,
+     "better": false
+    },
+    {
+     "key": "rush_def",
+     "label": "Run defense: per rush allowed",
+     "value": 0.012,
+     "fmt": "3",
+     "rank": 64,
+     "better": false
+    },
+    {
+     "key": "line_off",
+     "label": "Offensive line yards",
+     "value": 2.96,
+     "fmt": "2",
+     "rank": 88,
+     "better": true
+    },
+    {
+     "key": "stuff_def",
+     "label": "Defense: stuff rate",
+     "value": 0.1224,
+     "fmt": "pct",
+     "rank": 132,
+     "better": true
+    },
+    {
+     "key": "ppo_off",
+     "label": "Points per scoring chance",
+     "value": null,
+     "fmt": "2",
+     "rank": null,
+     "better": true
+    },
+    {
+     "key": "ppo_def",
+     "label": "Points per scoring chance allowed",
+     "value": null,
+     "fmt": "2",
+     "rank": null,
+     "better": false
+    },
+    {
+     "key": "havoc_def",
+     "label": "Havoc created",
+     "value": null,
+     "fmt": "pct",
+     "rank": null,
+     "better": true
+    },
+    {
+     "key": "havoc_off",
+     "label": "Havoc allowed",
+     "value": null,
+     "fmt": "pct",
+     "rank": null,
+     "better": false
+    },
+    {
+     "key": "ppd_off",
+     "label": "Points per drive",
+     "value": 2.66,
+     "fmt": "2",
+     "rank": 45,
+     "better": true
+    },
+    {
+     "key": "ppd_def",
+     "label": "Points per drive allowed",
+     "value": 2.31,
+     "fmt": "2",
+     "rank": 100,
+     "better": false
+    },
+    {
+     "key": "field_off",
+     "label": "Average starting field position (yards to go)",
+     "value": 69.3,
+     "fmt": "1",
+     "rank": 50,
+     "better": false
+    },
+    {
+     "key": "to_margin",
+     "label": "Turnover margin per game",
+     "value": 0.62,
+     "fmt": "2",
+     "rank": 27,
+     "better": true
+    },
+    {
+     "key": "pen",
+     "label": "Penalty yards per game",
+     "value": 46.5,
+     "fmt": "1",
+     "rank": 29,
+     "better": false
+    },
+    {
+     "key": "plays",
+     "label": "Plays per game (pace)",
+     "value": 63.2,
+     "fmt": "1",
+     "rank": null,
+     "better": null
+    }
+   ],
+   "rating": {
+    "rank": 95,
+    "overall": -3.97,
+    "offense": 24.36,
+    "defense": 28.33
+   }
+  }
+ },
+ "h2h": [
+  {
+   "date": "2025-09-27T19:00:00+00:00",
+   "season": 2025,
+   "opp": "UL Monroe",
+   "site": "A",
+   "pts": 16,
+   "opp_pts": 28,
+   "result": "L",
+   "spread": 1.5,
+   "cover": "L",
+   "total": 55.5,
+   "ou": "U"
+  },
+  {
+   "date": "2024-11-23T20:00:00+00:00",
+   "season": 2024,
+   "opp": "UL Monroe",
+   "site": "H",
+   "pts": 28,
+   "opp_pts": 21,
+   "result": "W",
+   "spread": -3.0,
+   "cover": "W",
+   "total": 51.5,
+   "ou": "U"
+  },
+  {
+   "date": "2023-10-28T21:00:00+00:00",
+   "season": 2023,
+   "opp": "UL Monroe",
+   "site": "A",
+   "pts": 34,
+   "opp_pts": 24,
+   "result": "W",
+   "spread": 2.5,
+   "cover": "W",
+   "total": 56.5,
+   "ou": "O"
+  },
+  {
+   "date": "2022-10-01T23:00:00+00:00",
+   "season": 2022,
+   "opp": "UL Monroe",
+   "site": "H",
+   "pts": 45,
+   "opp_pts": 28,
+   "result": "W",
+   "spread": -7.0,
+   "cover": "W",
+   "total": 59.0,
+   "ou": "O"
+  },
+  {
+   "date": "2021-11-13T22:00:00+00:00",
+   "season": 2021,
+   "opp": "UL Monroe",
+   "site": "A",
+   "pts": 27,
+   "opp_pts": 24,
+   "result": "W",
+   "spread": 3.0,
+   "cover": "W",
+   "total": 66.5,
+   "ou": "U"
+  },
+  {
+   "date": "2020-12-05T20:00:00+00:00",
+   "season": 2020,
+   "opp": "UL Monroe",
+   "site": "H",
+   "pts": 48,
+   "opp_pts": 15,
+   "result": "W",
+   "spread": -20.0,
+   "cover": "W",
+   "total": 71.0,
+   "ou": "U"
+  },
+  {
+   "date": "2019-11-02T19:30:00+00:00",
+   "season": 2019,
+   "opp": "UL Monroe",
+   "site": "A",
+   "pts": 48,
+   "opp_pts": 41,
+   "result": "W",
+   "spread": -1.0,
+   "cover": "W",
+   "total": 69.5,
+   "ou": "O"
+  },
+  {
+   "date": "2018-11-17T20:00:00+00:00",
+   "season": 2018,
+   "opp": "UL Monroe",
+   "site": "H",
+   "pts": 31,
+   "opp_pts": 17,
+   "result": "W",
+   "spread": -8.0,
+   "cover": "W",
+   "total": 68.5,
+   "ou": "U"
+  },
+  {
+   "date": "2017-11-25T20:00:00+00:00",
+   "season": 2017,
+   "opp": "UL Monroe",
+   "site": "A",
+   "pts": 67,
+   "opp_pts": 50,
+   "result": "W",
+   "spread": -8.5,
+   "cover": "W",
+   "total": 69.0,
+   "ou": "O"
+  },
+  {
+   "date": "2016-10-29T23:00:00+00:00",
+   "season": 2016,
+   "opp": "UL Monroe",
+   "site": "H",
+   "pts": 51,
+   "opp_pts": 10,
+   "result": "W",
+   "spread": -17.0,
+   "cover": "W",
+   "total": null,
+   "ou": null
+  },
+  {
+   "date": "2015-11-14T20:00:00+00:00",
+   "season": 2015,
+   "opp": "UL Monroe",
+   "site": "A",
+   "pts": 59,
+   "opp_pts": 21,
+   "result": "W",
+   "spread": -12.5,
+   "cover": "W",
+   "total": null,
+   "ou": null
+  },
+  {
+   "date": "2014-10-04T23:00:00+00:00",
+   "season": 2014,
+   "opp": "UL Monroe",
+   "site": "H",
+   "pts": 28,
+   "opp_pts": 14,
+   "result": "W",
+   "spread": -10.0,
+   "cover": "W",
+   "total": null,
+   "ou": null
+  },
+  {
+   "date": "2013-11-10T00:00:00+00:00",
+   "season": 2013,
+   "opp": "UL Monroe",
+   "site": "A",
+   "pts": 42,
+   "opp_pts": 14,
+   "result": "W",
+   "spread": 3.5,
+   "cover": "W",
+   "total": null,
+   "ou": null
+  }
+ ],
+ "h2h_record": {
+  "su": "12\u20131",
+  "ats": "12\u20131",
+  "ou": "4\u20135"
+ }
+}

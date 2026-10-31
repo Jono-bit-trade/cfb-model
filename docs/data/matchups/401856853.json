@@ -92,7 +92,7 @@
      "label": "Points allowed per game",
      "value": 24.1,
      "fmt": "1",
-     "rank": 69,
+     "rank": 68,
      "better": false
     },
     {
@@ -275,19 +275,32 @@
    "rating": {
     "rank": 79,
     "overall": -2.21,
-    "offense": 23.45,
-    "defense": 25.66
+    "offense": 23.47,
+    "defense": 25.68
    }
   },
   "home": {
    "team": "Baylor",
    "rank_ap": null,
    "records": {
-    "su": "4\u20133",
-    "ats": "5\u20132",
-    "ou": "2\u20135"
+    "su": "5\u20133",
+    "ats": "6\u20132",
+    "ou": "3\u20135"
    },
    "recent": [
+    {
+     "date": "2026-10-30T23:30:00+00:00",
+     "season": 2026,
+     "opp": "UCF",
+     "site": "A",
+     "pts": 41,
+     "opp_pts": 9,
+     "result": "W",
+     "spread": -2.5,
+     "cover": "W",
+     "total": 49.5,
+     "ou": "O"
+    },
     {
      "date": "2026-10-24T17:00:00+00:00",
      "season": 2026,
@@ -339,36 +352,23 @@
      "cover": "W",
      "total": 54.5,
      "ou": "U"
-    },
-    {
-     "date": "2026-09-19T20:00:00+00:00",
-     "season": 2026,
-     "opp": "Louisiana Tech",
-     "site": "H",
-     "pts": 36,
-     "opp_pts": 19,
-     "result": "W",
-     "spread": -20.5,
-     "cover": "L",
-     "total": 50.5,
-     "ou": "O"
     }
    ],
    "stats": [
     {
      "key": "ppg",
      "label": "Points per game",
-     "value": 29.1,
+     "value": 30.6,
      "fmt": "1",
-     "rank": 66,
+     "rank": 57,
      "better": true
     },
     {
      "key": "papg",
      "label": "Points allowed per game",
-     "value": 16.1,
+     "value": 15.2,
      "fmt": "1",
-     "rank": 19,
+     "rank": 11,
      "better": false
     },
     {
@@ -549,10 +549,10 @@
     }
    ],
    "rating": {
-    "rank": 37,
-    "overall": 4.27,
-    "offense": 28.07,
-    "defense": 23.8
+    "rank": 26,
+    "overall": 6.85,
+    "offense": 29.29,
+    "defense": 22.44
    }
   }
  },
